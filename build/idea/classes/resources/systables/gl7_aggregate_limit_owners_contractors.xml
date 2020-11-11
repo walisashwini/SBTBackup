@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7AggregateLimitOwnersCo public-id="zkpishi49c53f2tu310og1q547a">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>25,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zo7jk194kabkbe0d28keepgrkqa">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>25,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zppj8tti64mfv29apu6omftg1n8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>25,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zv8g0lqkablh1aifa1r67699g68">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>25,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zvvjuu6ugthljcl2jkte96ckjob">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>50,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zq0hir4872bjue7jan83m9bkq2a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>50,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zr8g6krsv4ir65u8oj051vjm4ja">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>50,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zsvgorc198s9b4ctpknihk5nno8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>50,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zn6ja42vhti1u5eglg23qd2f38b">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>50,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zqbhaqereugcpcmgrt7r6m0hic8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>50,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zi7jeku21uns9d64cn3eg454c1a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>100,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zi4i4g9hf5fk26stqkgco01hkp9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>100,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zbtjs9c9teoct04fjsgq51tb5n8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>100,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zkegongrpartb8hajvdposi8abb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>100,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z0rjujgsfo8rdfr0hianvusq1g8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>100,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z5fi4nmlm2nplcnagu3ateep5la">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>100,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="ze0ii0koj8rls835fjetc5ford9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z3si0jimefm7217nn3k5idt9leb">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zm3gmn009u25mapfuoeeip9jb4b">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zbbjob02o2tpackqsck4qfh7gt8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z3fh4kbtc0ve3cb1bia2bee9sk8">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zpgjq0s2898v9ba5c4i6vgbpera">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zmrislhe08cdvadmge3a3fde9ab">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>200,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zc9hsh5g80mkufn09tni45h8gm9">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zhrgqualf03q1ec0gf3aib83ab9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zrijcsoa8tp5c3cs2jl4is825ra">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zgtisqebm414n1l1j8r7pjd58ta">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zqjjok4t7k6f40t8ve44b0haiu9">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="ze2iee0c7q6s1ardvlh894iqlpb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z29iucokkqcnt67et8gav3bufba">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zavheli2r1bt5dsh15eatst2v5a">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>300,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zefgugd9qbf2af3ptr2qlmuqm18">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zvag0uns55v7l3coam1ai4r7sc8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z3shmb4m345jv8sol86q686d2pb">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zbch8fkuesk848hvnupa1o1r2u8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zidg8bonfme6f8irqfl0f4jnls8">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zvdish70froh8023c3qabu4b27a">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zhehg37981n410mv595jdiak6k8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z05has8vlt36t9p3gn0dobifvsa">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zqei07m8j9t2g28afkst11j4t09">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zaqgolf36ga968me09vu8s6ks58">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z1jgmaadjh1dvb8clmfl7j3p16b">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zd5g4eco90nepdd56lh1e2nr6ia">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z9ngkqu45bqur07g71ue76065qb">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z1oj4ubshefvg7j1c72ea38ul38">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z5ajilgu40djd2q505nj22cdh3b">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zd9i6d7e82f803ip6qcc1c6rkjb">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zg0jaj0klvmq0dm08bkltk0t238">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zj9i07br15jk449esli9495729a">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z0uhk7rnbbsm84n9pkcrok1o6j9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z03hkun8fpjue0uam1h5eu64tpb">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z5hjk6n39dfnq04h48jabvjo3o9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z0chunfkc8dc74kjvpuu9890ad9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zb2g44aui2tmf5dmi5b9tei8e48">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zcijuu3r82aj95b60sotvspd0ta">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>1,500,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zesg0ojv9314pbknsvkdsjvv4bb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>2,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="znugqeja2tkac3818bp6urcpl9a">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>2,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z1ih4623i299dfb6lqcdk8eop5b">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>2,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="ztshs4nasli1l2i5kv1lk5pmvla">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>2,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="znqj2prv586lfbncgbf7cnua7ja">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>2,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z74iipv082mkdbqhj5rvvp0fir9">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>2,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zjpigl806t0btc60l40as9eh5pb">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>3,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zqthi8kjh5oi5a8989ldvdjbpf8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>3,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zljga77akrqqaaopq3ma1efo14a">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>3,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="z79hap4n372tcaqufa7utb9bvj8">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>3,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zd5i2np7upc9id4p9jf4s981pja">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>4,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zovi45j3s5t1753dvrijl4l49l9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>4,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zinggods7ou1q4e598d1n8jd9ga">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>4,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zc2ggu8a93ekadc48hj1q9ocob9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>5,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zh7g2bigatmg1ee1qdt7o8thum9">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>5,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zfbgkifae4fj15jkqirpbebc5ra">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>10,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+  <GL7AggregateLimitOwnersCo public-id="zg6hm1nudbgt5fk2jcgi4mqe4p9">
+    <Value>20,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimOwnersContrac>10,000,000</EachOccurrenceLimOwnersContrac>
+  </GL7AggregateLimitOwnersCo>
+</import>

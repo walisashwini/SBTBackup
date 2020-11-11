@@ -1,0 +1,1006 @@
+<?xml version="1.0"?>
+<import xmlns="http://guidewire.com/pc/exim/import">
+  <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9">
+    <ClausePatternCode/>
+    <Code>CG31911204</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 04</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 31 91</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zr2jue4k4209ces6mvn6hovmsfb">
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z7mj683ldtmhc1elips1865npp9">
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zo6haopg735cf19d23ngopsh3e8">
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zmghu89qtblv53ub1qommnme8la">
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zc6isljbud7463hk1go7msu8n88">
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z2ahaih7hpii20715etq7i5cpcb">
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="ze6hesc2npdkf842v5qdg07o4jb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zcdj2djp65msv80q4ufqf7rp2v9"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7505</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8">
+    <ClausePatternCode/>
+    <Code>CG28110397</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Pollution Exclusion</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>03 97</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 11</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zigieao2lhuphc8k3hd78e9j7g8">
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z00hqgh7ej1aj4j5cvp511d6jvb">
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z1sgoevj3e9fkdr0bf7tgvl3bj9">
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zd7geanpc966k4klmr2k783ajg9">
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zjhhcp97sbrf68qvcrar2bslqha">
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z7th8uc3dib3g359fn6e2ghdpg9">
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z9nhsi5u57ojtf20g20h456ihqa">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zt9ga4ivmd8i983k89f6h1fnsv8"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7570</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8">
+    <ClausePatternCode/>
+    <Code>CG28100397</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Pollution Exclusion</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>03 97</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 10</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z1bhqjgluqfqk838l6fprg2grtb">
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zv1iui6aihceca2jl3i4imk55i9">
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zqrgqm7g7ml67a29tq4a3rjh1va">
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zq8he5e7k1d46ej54dd9lh3b25a">
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zvdho3b9ggjir4vu6dklul0d0ga">
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z2rjufs77sl450g3q5ak94p6l3b">
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z9uiip3tfa1ui42lm30ggjo5308">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z4bg02m1ujms3dsjioikm6oqio8"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7560</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zmpje705uddd57e4e251r94hteb">
+    <ClausePatternCode/>
+    <Code>CG33011204</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Pollution Exclusion</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 04</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 33 01</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zvcim2fnn51tj3nj9mhq20sn3j9">
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zethemo1lj37o0qtqgbnbubdvj9">
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zcbges7n437gh02gonoip3f6098">
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zqjgkagrrctdhe5tig61hh5mc7a">
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z9hi0sg0ea23q6q5ftqru2gosta">
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zi6ikha9u3617bcbhv6atl7quib">
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zqpiov9fc9i321vorvsd1rmc7j9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zmpje705uddd57e4e251r94hteb"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7571</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8">
+    <ClausePatternCode/>
+    <Code>IL02720907</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>09 07</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>IL 02 72</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z7nicurj8i4gq3jbrd0n0q9ak8b">
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z25gqa44ags5m46ft25je9h89qb">
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zcfg8573h14nl6074t9j3ve9eq8">
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zigjq0ugsaftgfv8tp1glfanvca">
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zpehur82ce13281mn76f5betfi8">
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zdmj4nifkog7fe0tt89kmfpqvlb">
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="ztoiu610banjuf2eute86cfj2ba">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zdqisl2qqvcf21lruvpfdto5ht8"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7510</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b">
+    <ClausePatternCode>GL7AmendmentOfDefinitionOfPollutantsRailRoadCov</ClausePatternCode>
+    <Code>CG33740208</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Amendment Of Definition Of Pollutants</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>02 08</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 33 74</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zudjk7qgcf2i43okhmv95eorh1b">
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zubhku5crr41v3j314ef1fmvro9">
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z3ghsnc8o89vp70ac0jr118foob">
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z0kjer8q2cs1tb1mm3d7ntq6au8">
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zc6gc73suc8ti7p2jftfqtutnbb">
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zn2ga0lva8or0e49ipckq9sttva">
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z10ii7pgqrf1t0dclviar7oauta">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zjaiki2sm9r29a3l1a81toql48b"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>8413</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb">
+    <ClausePatternCode/>
+    <Code>IL01580908</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>09 08</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>IL 01 58</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zb6jsapr6jrve0j9sr40gv2s8jb">
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z8phoeqdme6bgfs2sk158o9fa6a">
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zn9hcqd0bc0qecgkjbs4mvmetf9">
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zlphqu8faaatc653mk9rvvrdm8b">
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z91igbff3gve6c0fvs62hs99pa9">
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z9jhipgjh7p285q8a8g4finabpb">
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zntiofrv5a2mh015t2p5ovvgfda">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z38jeqh9gcsai501d0jao3r4hqb"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7500</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa">
+    <ClausePatternCode>GL7LawnCareServicesCov</ClausePatternCode>
+    <Code>CG22930413</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Lawn Care Services - Limited Pollution Coverage</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 13</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 22 93</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zckiu19h2hc1o332hr17hcs2mu8">
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zgngk1lcvg0sp2epmj41mp7f6h8">
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="znmg8310iilmpa038etope66lr8">
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zntge7la7o5u2aj62gp7gissbba">
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zodje4i0trha72ahel2m6ssedl8">
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zflh8pqk49rqa253ti7ia26h9ab">
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 22 93 04 13</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z52iqm0mgpoalbvdn1vqql58a3a">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="z4rhe1ulltln61jec3gtvrncr1b">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zvni004p1eg4cfru5bsian7i6qa"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1226</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28">
+    <ClausePatternCode>GL7AmendmentOfDefinitionOfPollutants</ClausePatternCode>
+    <Code>CG24280208</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Amendment Of Definition Of Pollutants</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>02 08</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 24 28</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zf1imdaaunvokae118569ejgho9">
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zg0hsqt2r8aevfcj0i8jo8lim5a">
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zq3holff8ku8e81d2ggarcg9nt9">
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zt1he4vmt5v8mchnebpgd2vau59">
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zh9iec1q993545tk4862ir8gpm9">
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z1hjc3ltun7j93m3qm3j5omtoo9">
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zeuiaqvi9632d4ell8stftct6fa">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zp9gmnve1p5itd0cj1na88lcf28"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>8410</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a">
+    <ClausePatternCode/>
+    <Code>CG01230397</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Pollution Exclusion</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>03 97</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 01 23</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z1njelvit78he7snntpqi4b4ja8">
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z9uhuudae21mh82g77il5321ie8">
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z3hhid2grnf6dbj860v9r4t6vsa">
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zogg6950bt73034634pffeue2e8">
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z6chmk6rbagbm3s37rj9ak4glia">
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zd7i6dfmgscf47rgj3miggs1v3a">
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zcuh8jurlo8iqbccjg0cdm5v5c9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zlej4me0kd5akdoc2o5b6p85q6a"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7550</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z63isprvaatife204qk30tdpl3b">
+    <ClausePatternCode/>
+    <Code>CG29261000</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>10 00</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 29 26</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zsoika4mn49gcb0rp91bl4v7oh8">
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z46gmvjvr6tlb7bmffbu05uaas8">
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zjqje8n27irk335fntms4bcm178">
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zo7g8vf6np3910p88t9mvl54vg9">
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z6ghgna22ug4b064u0cg3jjri6b">
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z56g2lu663s3h1cj3ltaq91qj9a">
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zvpgordnkpr396b38ml53f91vca">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z63isprvaatife204qk30tdpl3b"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7530</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a">
+    <ClausePatternCode/>
+    <Code>CG29251000</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>10 00</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 29 25</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z9ljcuds2rjlcahkbhtfvfsnt8b">
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zlhiqajihm2fo5aaslja52ks7vb">
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ztkhmm2echbvd9reovqejqepa29">
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z0sja56n1r5dpe1762tns2uhg3b">
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z6ehqlqk69p6bfb1c5q1tsvdgva">
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zmagqtshhdtfa5b66q868f965u8">
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z3bg4p9kli18o0jcosp0ae50a58">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zshhoag54kpf06k052id5h3qn0a"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7540</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8">
+    <ClausePatternCode>GL7INChangesPerPersonLmtsOfInsGovSubdivisions</ClausePatternCode>
+    <Code>CG25121207</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Per Person Limits of Insurance - Governmental Subdivisions</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 07</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 25 12</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zgej68177tvfa5id2tfi8naghmb">
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zi9i6b13nvudtcdkacdq1mfnhh8">
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zh3h2bhvg028ubglgets6g6t9aa">
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zm4jush4gauq0c8k60u26c8aat8">
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="znriqv4dnj5uvfknm4bfkb5d2u8">
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z29iu65sj8ti805rbi6qhns90e9">
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zrvimc19pvuja7id0c06d1nmpe9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zu0gmnjtetvel2nici14fvsouf8"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7600</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08">
+    <ClausePatternCode/>
+    <Code>CG30231000</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>10 00</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 30 23</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zstjs1if4kqeq7070d48b5ddg1b">
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ztvimf2k11lr19uki989a9t6r6a">
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z88iombljl686do7k7ps9q6gd09">
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z8ujg6nt8r1uo8upmadaojh4e08">
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zctj0gqntv3sn6i6sah2dudmqbb">
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zt9h21agbirhe03a1lruopqh9gb">
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zlgic2uubibaucqu8mrccgm3568">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zj6i8kp55a1t1a7th25i5bspl08"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7520</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a">
+    <ClausePatternCode/>
+    <Code>IL01171210</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Indiana Changes - Workers' Compensation Exclusion</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 10</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>IL 01 17</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zj0i2lm4906ep1tcjiqr96lvntb">
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zr1hkfcqj0kah657vddhp88hcib">
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zkiguti8pin8c0dtj5f9si3t32a">
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zf4j0f4rk14rqaucpurp5gr9hqb">
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zvjh61v18qe4s7f5ob9vetc3a6a">
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="ztog4gd9b1mhn1845h7vn3rauc9">
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z8dguf1h8k4d8amo7l7nhd7gnj9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zv9gqo6bheveq043nq9rjskeu1a"/>
+        <Jurisdiction>IN</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>8420</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+</import>

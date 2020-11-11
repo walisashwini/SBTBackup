@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<import>
+  <GL7ILFLiquorStExceptionRT public-id="zd7i4qn8jelat3nfbdueaa56ala">
+    <Value>1.01</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <AggLimLiquorLiab>600,000</AggLimLiquorLiab>
+  </GL7ILFLiquorStExceptionRT>
+  <GL7ILFLiquorStExceptionRT public-id="zf7jgftce5ds3eghsklul54e3mb">
+    <Value>0.99</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <AggLimLiquorLiab>200,000</AggLimLiquorLiab>
+  </GL7ILFLiquorStExceptionRT>
+  <GL7ILFLiquorStExceptionRT public-id="zqkg49an7s2s6anp6ucjk8c2ip9">
+    <Value>1</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <AggLimLiquorLiab>400,000</AggLimLiquorLiab>
+  </GL7ILFLiquorStExceptionRT>
+  <GL7ILFLiquorStExceptionRT public-id="zknjm13rj4kac457kvdml51c1da">
+    <Value>1.02</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <AggLimLiquorLiab>1,000,000</AggLimLiquorLiab>
+  </GL7ILFLiquorStExceptionRT>
+</import>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="UpdateDiffType"
+  name="UpdateDiffType">
+  <typecode
+    code="New"
+    desc="Added"
+    name="Added"/>
+  <typecode
+    code="Changed"
+    desc="Changed"
+    name="Changed"/>
+  <typecode
+    code="Deleted"
+    desc="Removed"
+    name="Removed"/>
+  <typecode
+    code="NoChange"
+    desc="No Change"
+    name="No Change"/>
+</typelist>

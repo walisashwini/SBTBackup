@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7GeneralAggregateLimit" loadable="false" table="gl7generalaggregatelimit" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="varchar">
+        <columnParam name="size" value="16"/>
+    </column>
+    <column desc="EachOccurrenceLimit" name="EachOccurrenceLim" nullok="true" type="varchar">
+        <columnParam name="size" value="16"/>
+    </column>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

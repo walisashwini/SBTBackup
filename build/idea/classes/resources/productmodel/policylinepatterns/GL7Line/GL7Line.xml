@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<PolicyLinePattern
+  codeIdentifier="GL7Line"
+  policyLineSubtype="GL7GeneralLiabilityLine"
+  priority="10"
+  public-id="GL7Line"
+  territoryCodeNeeded="false">
+  <CoverageCategories>
+    <CoverageCategory priority="10" codeIdentifier="GL7LineStdGrp" public-id="GL7LineStdGrp"/>
+    <CoverageCategory priority="20" codeIdentifier="GL7LineAddlGrp" public-id="GL7LineAddlGrp"/>
+    <CoverageCategory priority="30" codeIdentifier="GL7LineAddlInsdGrp" public-id="GL7LineAddlInsdGrp"/>
+    <CoverageCategory priority="40" codeIdentifier="GL7LineCondGrp" public-id="GL7LineCondGrp"/>
+    <CoverageCategory priority="50" codeIdentifier="GL7LineExclGrp" public-id="GL7LineExclGrp"/>
+
+    <CoverageCategory priority="100" codeIdentifier="GL7LocationStdGrp" public-id="GL7LocationStdGrp"/>
+    <CoverageCategory priority="110" codeIdentifier="GL7LocationAddlGrp" public-id="GL7LocationAddlGrp"/>
+    <CoverageCategory priority="120" codeIdentifier="GL7LocationAddlInsdGrp" public-id="GL7LocationAddlInsdGrp"/>
+    <CoverageCategory priority="130" codeIdentifier="GL7LocationCondGrp" public-id="GL7LocationCondGrp"/>
+    <CoverageCategory priority="140" codeIdentifier="GL7LocationExclGrp" public-id="GL7LocationExclGrp"/>
+
+    <CoverageCategory priority="200" codeIdentifier="GL7SublineTypeStdGrp" public-id="GL7SublineTypeStdGrp"/>
+    <CoverageCategory priority="210" codeIdentifier="GL7SublineTypeAddlGrp" public-id="GL7SublineTypeAddlGrp"/>
+    <CoverageCategory priority="220" codeIdentifier="GL7SublineTypeAddlInsdGrp" public-id="GL7SublineTypeAddlInsdGrp"/>
+    <CoverageCategory priority="230" codeIdentifier="GL7SublineTypeCondGrp" public-id="GL7SublineTypeCondGrp"/>
+    <CoverageCategory priority="240" codeIdentifier="GL7SublineTypeExclGrp" public-id="GL7SublineTypeExclGrp"/>
+
+    <CoverageCategory priority="300" codeIdentifier="GL7SublineStdGrp" public-id="GL7SublineStdGrp"/>
+    <CoverageCategory priority="310" codeIdentifier="GL7SublineAddlGrp" public-id="GL7SublineAddlGrp"/>
+    <CoverageCategory priority="320" codeIdentifier="GL7SublineAddlInsdGrp" public-id="GL7SublineAddlInsdGrp"/>
+    <CoverageCategory priority="330" codeIdentifier="GL7SublineCondGrp" public-id="GL7SublineCondGrp"/>
+    <CoverageCategory priority="340" codeIdentifier="GL7SublineExclGrp" public-id="GL7SublineExclGrp"/>
+
+
+    <CoverageCategory priority="400" codeIdentifier="GL7ExposureStdGrp" public-id="GL7ExposureStdGrp"/>
+    <CoverageCategory priority="410" codeIdentifier="GL7ExposureAddlGrp" public-id="GL7ExposureAddlGrp"/>
+    <CoverageCategory priority="420" codeIdentifier="GL7ExposureAddlInsdGrp" public-id="GL7ExposureAddlInsdGrp"/>
+    <CoverageCategory priority="430" codeIdentifier="GL7ExposureCondGrp" public-id="GL7ExposureCondGrp"/>
+    <CoverageCategory priority="440" codeIdentifier="GL7ExposureExclGrp" public-id="GL7ExposureExclGrp"/>
+
+    <CoverageCategory priority="600" codeIdentifier="GL7UnmannedAircraftAddlGrp" public-id="GL7UnmannedAircraftAddlGrp"/>
+    <CoverageCategory priority="610" codeIdentifier="GL7UnmannedAircraftStdGrp" public-id="GL7UnmannedAircraftStdGrp"/>
+    <CoverageCategory priority="620" codeIdentifier="GL7UnmannedAircraftExclGrp" public-id="GL7UnmannedAircraftExclGrp"/>
+    <CoverageCategory priority="630" codeIdentifier="GL7UnmannedAircraftCondGrp" public-id="GL7UnmannedAircraftCondGrp"/>
+
+    <CoverageCategory priority="700" codeIdentifier="GL7UAircrSchedCondGrp" public-id="GL7UAircrSchedCondGrp"/>
+    <CoverageCategory priority="710" codeIdentifier="GL7UAircrSchedCovGrp" public-id="GL7UAircrSchedCovGrp"/>
+    <CoverageCategory priority="720" codeIdentifier="GL7UAircrSchedExclGrp" public-id="GL7UAircrSchedExclGrp"/>
+
+    <CoverageCategory priority="500" codeIdentifier="GL7HiddenGrp" public-id="GL7HiddenGrp"/>
+
+  </CoverageCategories>
+  <AvailableCoverageCurrencies>
+    <AvailableCoverageCurrency
+      codeIdentifier="GL7Lineusd"
+      currency="usd"
+      public-id="GL7Lineusd"/>
+  </AvailableCoverageCurrencies>
+  <ModifierPatterns>
+    <ModifierPattern codeIdentifier="GL7ScheduleRatingModification1" defaultMaximum="50.0" defaultMinimum="-50.0" displayJustification="true" displayRange="true" displayValueFinal="false" lookupTableName="GL7SublineMod" modifierDataType="rate" modifierSubtype="GL7SublineMod" priority="1000" referenceDateByType="DefinedObject" scheduleRate="true" splitOnAnniversary="false" public-id="GL7ScheduleRatingModification1">
+      <RateFactorPatterns>
+        <RateFactorPattern codeIdentifier="z3ciaepmj3vco2t0sddiilueqd8" defaultMaximum="10.0" defaultMinimum="-10.0" lookupTableName="GL7SublineRF" priority="3320" rateFactorType="GL7Classification" refCode="GL7ClassificationRate" public-id="z3ciaepmj3vco2t0sddiilueqd8"/>
+        <RateFactorPattern codeIdentifier="z3ugmaus5jisk9h3fmtluv7963b" defaultMaximum="2.0" defaultMinimum="-2.0" lookupTableName="GL7SublineRF" priority="3324" rateFactorType="GL7CooperationMedicalFacilities" refCode="GL7CooperationMedicalFacilitiesRate" public-id="z3ugmaus5jisk9h3fmtluv7963b"/>
+        <RateFactorPattern codeIdentifier="z50gqg667m3j31nmfdq85qcc6f8" defaultMaximum="2.0" defaultMinimum="-2.0" lookupTableName="GL7SublineRF" priority="3326" rateFactorType="GL7CooperationSafetyProgram" refCode="GL7CooperationSafetyProgramRate" public-id="z50gqg667m3j31nmfdq85qcc6f8"/>
+        <RateFactorPattern codeIdentifier="z5ui01g4l12mm53fapr4sdtt09a" defaultMaximum="6.0" defaultMinimum="-6.0" lookupTableName="GL7SublineRF" priority="3322" rateFactorType="Employees" refCode="GL7EmplsRate" public-id="z5ui01g4l12mm53fapr4sdtt09a"/>
+        <RateFactorPattern codeIdentifier="z7pjue0oplhdrdfa6dvdhrimlaa" defaultMaximum="10.0" defaultMinimum="-10.0" lookupTableName="GL7SublineRF" priority="3318" rateFactorType="Equipment" refCode="GL7EquipRate" public-id="z7pjue0oplhdrdfa6dvdhrimlaa"/>
+        <RateFactorPattern codeIdentifier="zrkjcc7ku8t92fpvg4lomf54ob8" defaultMaximum="5.0" defaultMinimum="-5.0" lookupTableName="GL7SublineRF" priority="3312" rateFactorType="GL7LocationExposureInsidePremises" refCode="GL7LocationExposureInsidePremisesRate" public-id="zrkjcc7ku8t92fpvg4lomf54ob8"/>
+        <RateFactorPattern codeIdentifier="zksje6ffke6v1fisq3khcv5s9db" defaultMaximum="5.0" defaultMinimum="-5.0" lookupTableName="GL7SublineRF" priority="3314" rateFactorType="GL7LocationExposureOutsidePremises" refCode="GL7LocationExposureOutsidePremisesRate" public-id="zksje6ffke6v1fisq3khcv5s9db"/>
+        <RateFactorPattern codeIdentifier="z2sh4e06amsa9200143fd0gviqb" defaultMaximum="10.0" defaultMinimum="-10.0" lookupTableName="GL7SublineRF" priority="3316" rateFactorType="Premises" refCode="GL7PremisesRate" public-id="z2sh4e06amsa9200143fd0gviqb"/>
+      </RateFactorPatterns>
+    </ModifierPattern>
+  </ModifierPatterns>
+</PolicyLinePattern>

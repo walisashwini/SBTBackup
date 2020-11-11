@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7UAircrSchedCondItemCov"
+  type="effdated"
+  desc="Coverages directly attached to each Schedule UAircrSchedCondItem"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  platform="false"
+  loadable="false"
+  table="gl7uaircrschedconditemcov">
+  <implementsEntity
+    name="Coverage"/>
+  <implementsEntity
+    name="GL7Clause"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverageAdapter"
+    impl="gw.lob.gl7.schedules.GL7UAircrSchedCondItemCovAdapter"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7UAircrSchedCondItemCovMatcher"/>
+  <foreignkey
+    name="UAircrSchedCondItem"
+    fkentity="GL7UAircrSchedCondItem"
+    exportable="true"
+    nullok="false"/>
+  <implementsInterface
+    iface="gw.lob.common.LobQuotable"
+    impl="gw.lob.common.LobDefaultQuotable"/>
+  <array
+    arrayentity="GL7UAircrSchedCondItemCovCost"
+    cascadeDelete="true"
+    name="Costs"/>
+</entity>

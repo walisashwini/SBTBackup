@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<import>
+  <GL7PersonalAndAdvertisin1 public-id="zsfga7i24rv4n213cmhqo1khs79">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>100,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z4oiq5fjskhkqfdg24upjvamgfb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zfrg4moll4f2i6rlenu34canjh9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z5pho3if5tbc3fj2fla2ufnlci8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="za3g87tamgp74282pa8bn2etb39">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z8qj4u1sq0j6rekj1k769ea805b">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="za3g064iq8v12b1e9nq99cbusfa">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z84hkh7q2bssn1d90spf9v64ri8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zo8icsv3qbm3r9ueitaqgf41co8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zqdjqjs7e8k186b73qhcd996ncb">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zaki6rbeqruht9k9jmt1lg4grd9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zhlh6qr8ej5pe7ob7lmlta83p59">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zm8hmhqmi5cjs422hiuflph1gmb">
+    <Value>300,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zcnjcp2tmjq4u3gl4mhmdaao6mb">
+    <Value>500,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="zanh4n9oa4hu6bpj262nigcgid8">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>100,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z6ficqab2n8k5781hdb7jjd3a9b">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z5uger1gqtl584kj5dr5qp15cg9">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+  <GL7PersonalAndAdvertisin1 public-id="z3cg0g5t1b587asjg596f6p0co8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7PersonalAndAdvertisin1>
+</import>

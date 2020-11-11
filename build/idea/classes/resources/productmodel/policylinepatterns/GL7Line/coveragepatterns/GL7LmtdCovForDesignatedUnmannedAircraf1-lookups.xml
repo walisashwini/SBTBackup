@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zgnioiq0g89h29e6i2vo97u3n5b">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7LmtdCovForDesignatedUnmannedAircraf1</CoveragePatternCode>
+    </CoverageLookup>
+</import>

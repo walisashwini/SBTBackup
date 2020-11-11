@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7GovernmentalSubdivisio public-id="z1qh2gsnhfgvqac2ncirehekpo8">
+    <Value>No</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7GovernmentalSubdivisio>
+  <GL7GovernmentalSubdivisio public-id="zsqj2laagvhqs46rnr4kmo0aqha">
+    <Value>Yes</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+  </GL7GovernmentalSubdivisio>
+</import>

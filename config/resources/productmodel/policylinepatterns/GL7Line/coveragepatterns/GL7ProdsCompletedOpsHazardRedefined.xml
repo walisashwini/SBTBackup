@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeSchedCov" coveredPartyType="ThirdParty" public-id="GL7ProdsCompletedOpsHazardRedefined" priority="765200" lookupTableName="GL7SublineTypeCov" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7ProdsCompletedOpsHazardRedefined" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ProdsCompletedOpsHazardRedefined");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7ProdsCompletedOpsHazardRedefined");]]></ExistenceScript>
+    <CovTerms/>
+</CoveragePattern>

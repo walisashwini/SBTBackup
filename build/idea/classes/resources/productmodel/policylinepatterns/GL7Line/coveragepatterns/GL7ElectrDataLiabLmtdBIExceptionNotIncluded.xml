@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7ElectrDataLiabLmtdBIExceptionNotIncluded" priority="1015000" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7ElectrDataLiabLmtdBIExceptionNotIncluded" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ElectrDataLiabLmtdBIExceptionNotIncluded");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7Limit9" required="true" codeIdentifier="GL7Limit9"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium326" required="true" codeIdentifier="GL7ManualPremium326"/>
+    </CovTerms>
+</CoveragePattern>

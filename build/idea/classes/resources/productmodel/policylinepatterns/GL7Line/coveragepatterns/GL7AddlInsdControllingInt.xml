@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeSchedCov" coveredPartyType="ThirdParty" public-id="GL7AddlInsdControllingInt" priority="113000" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlInsdGrp" codeIdentifier="GL7AddlInsdControllingInt" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AddlInsdControllingInt");]]></AvailabilityScript>
+    <CovTerms/>
+</CoveragePattern>

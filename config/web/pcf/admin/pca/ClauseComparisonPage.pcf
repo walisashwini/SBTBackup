@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Page
+    canEdit="true"
+    id="ClauseComparisonPage"
+    parent="Admin()"
+    startInEditMode="true"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClauseDetails.Title&quot;)">
+    <LocationEntryPoint
+      signature="ClauseComparisonPage(clauseComparisonPresenter : gw.sbt.pca.view.presenter.compare.ClauseComparisonPresenter, newSBTUpdateEdition : String, adoptedSBTUpdateEdition: String)"/>
+    <Variable
+      name="newSBTUpdateEdition"
+      type="String"/>
+    <Variable
+      name="adoptedSBTUpdateEdition"
+      type="String"/>
+    <Variable
+      name="clauseComparisonPresenter"
+      type="gw.sbt.pca.view.presenter.compare.ClauseComparisonPresenter"/>
+    <Variable
+      initialValue="clauseComparisonPresenter.getTreeRootNode()"
+      name="treeRootNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Screen
+      editable="true">
+      <Toolbar>
+        <EditButtons
+          editVisible="false"/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn
+          width="180">
+          <Label
+            label="clauseComparisonPresenter.Description"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(clauseComparisonPresenter.DecisionAndInstructions, clauseComparisonPresenter.Description, clauseComparisonPresenter.ReadOnly)"/>
+      <PanelSet
+        visible="treeRootNode.Children.HasElements">
+        <PanelRef
+          def="ClauseDetailsComparisonPanelSet(treeRootNode, true, newSBTUpdateEdition, adoptedSBTUpdateEdition)"/>
+      </PanelSet>
+    </Screen>
+  </Page>
+</PCF>

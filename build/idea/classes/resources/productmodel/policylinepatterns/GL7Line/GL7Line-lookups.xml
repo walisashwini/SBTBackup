@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <ModifierLookup public-id="z35gg4627g6taf9tv1hqkb9r598">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <ModifierPatternCode>GL7ScheduleRatingModification1</ModifierPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </ModifierLookup>
+  <RateFactorLookup public-id="z5qgc33ld51090t600t3bnd3m7b">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>z3ciaepmj3vco2t0sddiilueqd8</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="zm9hgoi9v3u8e0i531sjn4mt638">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>z3ugmaus5jisk9h3fmtluv7963b</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="ze8gehqg7t94c3d5nl4nb6lbs39">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>z50gqg667m3j31nmfdq85qcc6f8</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="zi5j87u21d5u9e4lbl86u08gfk8">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>z5ui01g4l12mm53fapr4sdtt09a</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="zaih82nem30rq2re6krbthj5n89">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>z7pjue0oplhdrdfa6dvdhrimlaa</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="zvtiuv57dubqo22noupfvdmssj8">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>zrkjcc7ku8t92fpvg4lomf54ob8</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="zkvigrbs4hv6s15oujtjgmnuon9">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>zksje6ffke6v1fisq3khcv5s9db</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+  <RateFactorLookup public-id="zu9jii4cvj9vd75m9ali80kn1m9">
+    <Availability>Available</Availability>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <RateFactorPatternCode>z2sh4e06amsa9200143fd0gviqb</RateFactorPatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+  </RateFactorLookup>
+</import>

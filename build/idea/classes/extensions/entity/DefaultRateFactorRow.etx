@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Default table to store rate factors -->
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="DefaultRateFactorRow">
+  <column
+    desc="String 9"
+    name="str9"
+    nullok="true"
+    type="varchar">
+    <columnParam
+      name="size"
+      value="255"/>
+  </column>
+</extension>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="RatingCumulDetailsPanelSet"
+    mode="GL7Line">
+    <Require
+      name="period"
+      type="PolicyPeriod"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="isEditable"
+      type="boolean"/>
+    <Variable
+      initialValue="period.GL7Line"
+      name="line"
+      type="GL7Line"/>
+    <Variable
+      initialValue="new gw.lob.gl7.financials.GL7QuoteDisplayUtil(line)"
+      name="quoteDisplayUtil"
+      type="gw.lob.gl7.financials.GL7QuoteDisplayUtil"
+      recalculateOnRefresh="true"/>
+    <PanelRef
+      def="RatingOverrideButtonDV(period, line, jobWizardHelper, CurrentLocation.InEditMode)"
+      id="RatingOverrideButtonDV"/>
+    <DetailViewPanel>
+      <InputColumn>
+        <ListViewInput
+          labelAbove="true">
+          <Toolbar/>
+          <ListViewPanel>
+            <RowSetRef
+              def="GL7RatingDetailsRowSet(line, quoteDisplayUtil, true)"/>
+          </ListViewPanel>
+        </ListViewInput>
+      </InputColumn>
+    </DetailViewPanel>
+  </PanelSet>
+</PCF>

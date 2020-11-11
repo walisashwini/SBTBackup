@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zlpis6338ls0mderpbfhn2l4hna">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7EmplBenefitsLiabCovClaimsMade</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="zarhshoa6o40b9vg2btciut06da">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7AggLimitInt</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zi5hs5joa1cni0sra0s40vmcdl8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7DedInt</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="z7fjag638puttb0ec1efgsurkn8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7LimitEachEmplInt</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zeijklum4tdf88m2vpm43kqsjvb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium46</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zmmhk8nja5vq21j0p9liufo0v28">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7RetroactiveDate</CovTermPatternCode>
+    </CovTermLookup>
+</import>

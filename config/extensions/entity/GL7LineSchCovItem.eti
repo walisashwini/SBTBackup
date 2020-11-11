@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7LineSchCovItem"
+  table="gl7lineschcovitem"
+  desc="GL7 Line level coverage scheduled item"
+  exportable="true"
+  final="false"
+  loadable="false"
+  type="effdated"
+  platform="false"
+  effDatedBranchType="PolicyPeriod">
+  <implementsEntity
+    name="ScheduledItem"/>
+  <implementsInterface
+    iface="gw.api.productmodel.ScheduledItemAdapter"
+    impl="gw.lob.gl7.schedules.GL7LineSchedCovItemAdapter"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.schedules.GL7LineSchedCovItemAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="GL7ScheduledItem"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7LineSchedCovItemMatcher"/>
+  <foreignkey
+    fkentity="GL7LineSchedCov"
+    name="ScheduleCoverage"
+    nullok="false"/>
+  <!--
+  <array
+    arrayentity="GL7LineSchCovItmCov"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7LineSchCovItmCond"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7LineSchCovItmExcl"
+    name="Exclusions"/>
+  -->
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

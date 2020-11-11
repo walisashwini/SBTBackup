@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="GL7 rating basis type configuration"
+  entity="GL7RatingBasisType"
+  extendable="false"
+  table="gl7ratingbasistype"
+  type="retireable">
+  <implementsEntity
+    name="SimpleEffDated"/>
+  <column
+    desc="Basis type"
+    name="BasisType"
+    nullok="false"
+    type="varchar">
+    <columnParam
+      name="size"
+      value="255"/>
+  </column>
+  <typekey
+    columnName="ratingbasistypeid"
+    desc="Rating basis type"
+    name="RatingBasisType"
+    nullok="false"
+    typelist="RatingBasisType"/>
+  <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>		
+</entity>

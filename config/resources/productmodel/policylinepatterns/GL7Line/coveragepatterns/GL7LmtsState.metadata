@@ -1,0 +1,5 @@
+GL7LmtsState = /GeneralLiability/GeneralLiabilitySublineType/GeneralLiabilitySubline/LimitsState
+GL7EachCommonCauseBILimit1 = /GeneralLiability/EachCommonCauseBodilyInjuryLimit
+GL7EachCommonCauseLossOfMeansOfSupportLimit1 = /GeneralLiability/EachCommonCauseLossOfMeansOfSupportLimit
+GL7EachPersonBILimit1 = /GeneralLiability/EachPersonBodilyInjuryLimit
+GL7EachPersonLossOfMeansOfSupportLimit1 = /GeneralLiability/EachPersonLossOfMeansOfSupportLimit

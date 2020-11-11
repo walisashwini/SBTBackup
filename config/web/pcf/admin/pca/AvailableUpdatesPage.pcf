@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Page
+    autosaveable="false"
+    canEdit="true"
+    id="AvailableUpdatesPage"
+    parent="Admin()"
+    startInEditMode="true"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.AvailableUpdates&quot;)">
+    <LocationEntryPoint
+      signature="AvailableUpdatesPage(filterOption: gw.sbt.pca.view.presenter.PresenterUtil.SBTUPDATE_FILTER_OPTION, forceRefresh: boolean)"/>
+    <Variable
+      name="filterOption"
+      recalculateOnRefresh="true"
+      type="gw.sbt.pca.view.presenter.PresenterUtil.SBTUPDATE_FILTER_OPTION"/>
+    <Variable
+      name="forceRefresh"
+      recalculateOnRefresh="true"
+      type="boolean"/>
+    <Screen editable="true">
+      <Variable
+        initialValue="gw.sbt.pca.repository.ContentRepositoryProvider.CurrentRepository"
+        name="repo"
+        type="gw.sbt.pca.repository.ContentRepository"/>
+      <Variable
+        initialValue="gw.sbt.pca.repository.ContentRepositoryProvider.CurrentConfigLocation"
+        name="configLocation"
+        type="java.io.File"/>
+      <Variable
+        initialValue="gw.sbt.pca.view.presenter.PresenterUtil.createMetaDataPresentersFromRepo(repo, filterOption, forceRefresh)"
+        name="availableUpdatesPresenters"
+        type="java.util.List&lt;gw.sbt.pca.view.presenter.MetaDataPresenter&gt;"/>
+      <Toolbar>
+        <ToolbarRangeInput
+          id="selectedFilter"
+          optionLabel="gw.sbt.pca.view.presenter.PresenterUtil.getFilterOptionDescription(VALUE)"
+          sortValueRange="false"
+          required="true"
+          value="filterOption"
+          valueRange="gw.sbt.pca.view.presenter.PresenterUtil.SBTUPDATE_FILTER_OPTION.AllValues"
+          valueType="gw.sbt.pca.view.presenter.PresenterUtil.SBTUPDATE_FILTER_OPTION">
+          <PostOnChange
+            onChange="AvailableUpdatesPage.go(filterOption, false)"/>
+        </ToolbarRangeInput>
+      </Toolbar>
+      <ListDetailPanel
+        selectionName="selectedUpdatePresenter"
+        selectionType="gw.sbt.pca.view.presenter.MetaDataPresenter">
+        <DetailViewPanel
+          columnDivider="false">
+          <InputColumn
+            width="90%">
+            <Label
+              label="gw.sbt.pca.view.presenter.PresenterUtil.getPCAInstructions(availableUpdatesPresenters, filterOption)"/>
+          </InputColumn>
+          <InputColumn
+            width="10%">
+            <Label
+              label="gw.sbt.pca.view.presenter.PresenterUtil.PCAVersion"/>
+          </InputColumn>
+        </DetailViewPanel>
+        <ListViewPanel
+          height="300">
+          <Row
+            renderAsSmartHeader="true">
+            <TextCell
+              colspan="3"
+              id="BlankGroupHeader"
+              value="java.lang.System.getProperty(&quot;line.separator&quot;)" valueType="java.lang.String"/>
+            <TextCell
+              align="center"
+              colspan="2"
+              id="EffectiveDateAndVersionHeader"
+              value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.EffectiveDateAndVersion&quot;)" valueType="java.lang.String"/>
+          </Row>
+          <Row
+            renderAsSmartHeader="true">
+            <TextCell width="70"
+              id="AnalysisHeader"
+              value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Status&quot;)"
+              valueType="java.lang.String" />
+            <TextCell
+              id="LOBHeader" width="150"
+              value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Line&quot;)"
+              valueType="java.lang.String"/>
+            <TextCell
+              id="JurisdictionHeader" width="150"
+              value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Jurisdiction&quot;)"
+              valueType="java.lang.String"/>
+            <TextCell
+              id="LatestAdoptedSBTVersionHeader" width="180"
+              value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedSBTVersion&quot;)"
+              valueType="java.lang.String"/>
+            <TextCell
+              id="AvailableSBTUpdatesHeader" width="180"
+              value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.AvailableSBTUpdates&quot;)"
+              valueType="java.lang.String"/>
+          </Row>
+
+          <RowIterator
+            editable="true"
+            elementName="updatePresenter"
+            pageSize="0"
+            value="availableUpdatesPresenters"
+            valueType="java.util.List&lt;gw.sbt.pca.view.presenter.MetaDataPresenter&gt;">
+            <IteratorSort
+              sortBy="updatePresenter.Line"
+              sortOrder="1"/>
+            <IteratorSort
+              sortBy="updatePresenter.Jurisdiction"
+              sortOrder="2"/>
+            <IteratorSort
+              sortBy="updatePresenter.EffectiveDate"
+              sortOrder="3"/>
+            <Row
+              editable="true"
+              id="Update"
+              visible="updatePresenter.RowVisible">
+              <BooleanRadioCell
+                action="gw.sbt.pca.view.presenter.PresenterUtil.goToListOfUpdates(updatePresenter.AvailableSBTUpdate, updatePresenter.LatestAdoptedSBTUpdate, repo, configLocation, filterOption)"
+                icon="gw.sbt.pca.view.presenter.PresenterUtil.getAnalysisIconName(updatePresenter.Status)"
+                iconLabel="gw.sbt.pca.view.presenter.PresenterUtil.getAnalysisTooltips(updatePresenter.Status)"
+                id="Analysis"
+                showHeaderIcon="false"
+                value="true"
+                valueVisible="updatePresenter.ValidUpdatesSelected"
+                width="50"
+                valueType="boolean"/>
+              <TextCell
+                id="Line"
+                value="updatePresenter.Line"
+                valueType="java.lang.String"/>
+              <TextCell
+                id="Jurisdiction"
+                value="updatePresenter.Jurisdiction"
+                valueType="java.lang.String"/>
+              <TextCell
+                editable="updatePresenter.LatestAdoptedDropDownEditable"
+                id="LatestAdopted"
+                outputConversion="VALUE != null ? VALUE.toString() : DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.AddingStateDefault&quot;)"
+                value="updatePresenter.LatestAdoptedSBTUpdate"
+                valueType="gw.sbt.model.SBTUpdateMetaData"/>
+              <RangeCell
+                editable="updatePresenter.NewUpdateDropDownEditable"
+                id="AvailableSBTUpdates"
+                noneSelectedLabel="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.NoNewUpdate&quot;)"
+                requestValidationExpression="updatePresenter.validateAvailableSBTMetaData(VALUE)"
+                value="updatePresenter.AvailableSBTUpdate"
+                valueRange="updatePresenter.AvailableSBTUpdates"
+                width="180"
+                valueType="gw.sbt.model.SBTUpdateMetaData">
+                <PostOnChange/>
+              </RangeCell>
+            </Row>
+          </RowIterator>
+        </ListViewPanel>
+        <CardViewPanel
+          hideTabIfSingle="true">
+          <Card
+            id="updateDetails"
+            title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Details&quot;)"
+            visible="true">
+            <PanelRef
+              def="UpdateSummaryPanelSet(selectedUpdatePresenter, repo)"/>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </Screen>
+  </Page>
+</PCF>

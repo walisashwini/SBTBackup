@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zp9iobsf7jhl1d1hsq219vhthc8">
+    <Availability>Unavailable</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7ElectrDataLiabCovForm</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+</import>

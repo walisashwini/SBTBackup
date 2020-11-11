@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <ExclusionLookup public-id="ze9jeppu2lorh705i276b56lq99">
+    <Availability>Unavailable</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <ExclusionPatternCode>GL7ExclVolunteerWorkersAsInsuredsEDL1</ExclusionPatternCode>
+    <EndEffectiveDate/>
+  </ExclusionLookup>
+</import>

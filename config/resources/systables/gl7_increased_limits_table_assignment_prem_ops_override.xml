@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7IncreasedLimitsTableAs public-id="zi4im8njgghu5aha9mfdqi3bkq9">
+    <Value>N/A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>1</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="zjhh8odgveq0f71djhk5soeoihb">
+    <Value>2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>1</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="zjehkuga7np5f62o7sbmovjuv5a">
+    <Value>3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>1</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="ziai0b1hnggdebd6956sobok5j9">
+    <Value>N/A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>2</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="z7pg6hunjg319a3qmffknncp7p8">
+    <Value>1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>2</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="zdvjmvh853hhb8sdt55t6qf3mj8">
+    <Value>3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>2</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="z8qi4rj9l6nc28fvgdi3p4ppa79">
+    <Value>N/A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>3</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="za0iu8jtdpfif00cm3qn6rnqvla">
+    <Value>1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>3</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="z24g8oe5b99hd32fo6qc8kc21j8">
+    <Value>2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>3</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="zosjcp5avebp3auli14q215ocab">
+    <Value>1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>Refer To Co.</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="zgrhu7gclb3dc2ii4d3v4rspuq8">
+    <Value>2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>Refer To Co.</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+  <GL7IncreasedLimitsTableAs public-id="zh3j86rboi8nl88v1bn6u1jui1a">
+    <Value>3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>Refer To Co.</IncreasedLmtsTableAssignmentPr>
+  </GL7IncreasedLimitsTableAs>
+</import>

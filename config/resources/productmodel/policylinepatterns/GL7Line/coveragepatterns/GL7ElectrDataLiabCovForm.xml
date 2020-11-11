@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7ElectrDataLiabCovForm" priority="855000" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeStdGrp" codeIdentifier="GL7ElectrDataLiabCovForm" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ElectrDataLiabCovForm");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium45" required="true" codeIdentifier="GL7ManualPremium45">
+            <LimitsSet>
+                <CovTermLimits public-id="GL7ManualPremium45NOCURRENCY" codeIdentifier="GL7ManualPremium45NOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

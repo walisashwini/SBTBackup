@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <ModalCell
+    id="APDAttributeDefaultValue"
+    mode="none">
+    <Require
+      name="attribute"
+      type="APDAttribute"/>
+    <Require
+      name="ruleType"
+      type="APDRuleType"/>
+    <Require
+      name="dataField"
+      type="APDDataField"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Variable
+      initialValue="attribute.Rules?.firstWhere(\r -&gt; r.RuleType == ruleType)"
+      name="rule"
+      recalculateOnRefresh="true"
+      type="APDAttributeRule"/>
+    <TextCell
+      action="APDAttributeRulePopup.push(rule, attribute, ruleType, openForEdit)"
+      id="value"
+      value="DisplayKey.get(&quot;Java.NameValueView.NoneSelected&quot;)"
+      valueVisible="ShouldDisplayValue"/>
+    <Code><![CDATA[property get ShouldDisplayValue() : Boolean {
+      if (dataField == null) {
+        var exist = attribute.Rules.firstWhere(\r -> r.RuleType == APDRuleType.TC_EXISTENCE).DefaultExistence
+        return exist != APDDataExistenceType.TC_HIDDEN
+          and attribute.Type != APDFieldType.TC_PARTY
+          and attribute.Type != APDFieldType.TC_LOCATION
+          and (ruleType == APDRuleType.TC_DEFAULT
+          or attribute.Type == APDFieldType.TC_BIGDECIMAL
+          or attribute.Type == APDFieldType.TC_INTEGER
+          or attribute.Type == APDFieldType.TC_MONEY
+          or attribute.Type == APDFieldType.TC_DATE)
+      }
+      return dataField.Availability == APDDataExistenceType.TC_CAPTURED
+        and attribute.Type != APDFieldType.TC_PARTY
+        and attribute.Type != APDFieldType.TC_LOCATION
+        and (ruleType == APDRuleType.TC_DEFAULT
+        or attribute.Type == APDFieldType.TC_BIGDECIMAL
+        or attribute.Type == APDFieldType.TC_INTEGER
+        or attribute.Type == APDFieldType.TC_MONEY
+        or attribute.Type == APDFieldType.TC_DATE)
+    }]]></Code>
+  </ModalCell>
+</PCF>

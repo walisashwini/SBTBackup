@@ -1,0 +1,9 @@
+GL7Deds = /GeneralLiability/GeneralLiabilitySublineType/Deductibles
+GL7LiquorDed = /GeneralLiability/LiquorDeductible
+GL7PremOpsBIDed = /GeneralLiability/PremOpsBIDeductible
+GL7PremOpsBIPDDed = /GeneralLiability/PremOpsBIPDDeductible
+GL7PremOpsPDDed = /GeneralLiability/PremOpsPDDeductible
+GL7ProdsCompldOpsBIDed = /GeneralLiability/ProdsCompldOpsBIDeductible
+GL7ProdsCompldOpsBIPDDed = /GeneralLiability/ProdsCompldOpsBIPDDeductible
+GL7ProdsCompldOpsPDDed = /GeneralLiability/ProdsCompldOpsPDDeductible
+GL7ProductWithdrawalDed = /GeneralLiability/ProductWithdrawalDeductible

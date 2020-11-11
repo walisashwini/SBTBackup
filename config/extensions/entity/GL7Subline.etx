@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7Subline" xmlns="http://guidewire.com/datamodel">
+    <column columnName="gl7damagetopremisesrentedtoyou" desc="Damage To Premises Rented To You Excluding Governmental Subdivision" name="DamageToPremisesRentedToYouExclGovernmentalSubdivision" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+</extension>

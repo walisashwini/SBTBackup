@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ConditionLookup public-id="zc3hsh20kh79t2nipc75q5fsus8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ConditionPatternCode>GL7CalculationOfPremium</ConditionPatternCode>
+    </ConditionLookup>
+</import>

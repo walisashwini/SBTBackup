@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7SublineTypeCond" xmlns="http://guidewire.com/datamodel">
+  <column desc="date cov term field" getterScriptability="doesNotExist" name="DateTerm1" nullok="true" setterScriptability="doesNotExist" type="datetime"/>
+  <column desc="whether or not the DateTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DateTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm1" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm2" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm3" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm3 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm3Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm4" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm4 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm4Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm5" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm5 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm5Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm6" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm6 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm6Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm7" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm7 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm7Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm1" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+  <column desc="whether or not the ChoiceTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm1" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm2" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm3" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm3 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm3Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm4" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm4 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm4Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm5" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm5 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm5Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm6" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm6 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm6Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm7" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm7 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm7Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+</extension>

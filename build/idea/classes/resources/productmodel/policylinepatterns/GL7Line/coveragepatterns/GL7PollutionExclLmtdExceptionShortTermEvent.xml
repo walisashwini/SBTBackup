@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7PollutionExclLmtdExceptionShortTermEvent" priority="112400" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7PollutionExclLmtdExceptionShortTermEvent" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7PollutionExclLmtdExceptionShortTermEvent");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium140" required="true" codeIdentifier="GL7ManualPremium140"/>
+    </CovTerms>
+</ExclusionPattern>

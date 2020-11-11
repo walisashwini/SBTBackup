@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="LobCoverageInputSet">
+    <Require
+      name="coveragePattern"
+      type="gw.api.productmodel.ClausePattern"/>
+    <Require
+      name="coverable"
+      type="Coverable"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Variable
+      initialValue="gw.lob.common.LobPropertyService.Instance"
+      name="lobPropertyService"
+      type="gw.lob.common.LobPropertyService"/>
+    <HiddenInput
+      id="CovPatternDisplayName"
+      value="coveragePattern.DisplayName" valueType="java.lang.String"/>
+    <InputGroup
+      allowToggle="coverageHelper.canToggleCoverage(coverable, coveragePattern) and coveragePattern.allowToggle(coverable)"
+      childrenVisible="coverable.getCoverageConditionOrExclusion(coveragePattern) != null"
+      id="CovPatternInputGroup"
+      label="coveragePattern.DisplayName"
+      onToggle="coverageHelper.onToggleCoverage(coverable, coveragePattern, jobWizardHelper, VALUE)">
+      <InputIterator
+        elementName="term"
+        forceRefreshDespiteChangedEntries="true"
+        id="CovTermIterator"
+        type="gw.api.domain.covterm.CovTerm"
+        value="coverable.getCoverageConditionOrExclusion(coveragePattern).CovTerms.sortBy( \ term -&gt; term.Pattern.Priority )" valueType="gw.api.domain.covterm.CovTerm[]">
+        <InputSetRef
+          def="CovTermInputSet(term, openForEdit)"
+          mode="term.ValueTypeName"
+          visible="not lobPropertyService.hasDependents(term.Clause, term.Pattern.CodeIdentifier) and not lobPropertyService.isValidationDependent(term.Clause, term.Pattern.CodeIdentifier)"/>
+        <InputSetRef
+          def="LobCovTermWithPostOnChangeInputSet(term, openForEdit, jobWizardHelper)"
+          mode="term.ValueTypeName"
+          visible="lobPropertyService.hasDependents(term.Clause, term.Pattern.CodeIdentifier) or lobPropertyService.isValidationDependent(term.Clause, term.Pattern.CodeIdentifier)"/>
+      </InputIterator>
+      <InputSetRef
+        def="LobScheduleInputSet(coverable.getCoverageConditionOrExclusion(coveragePattern), openForEdit, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+        mode="coverable.getCoverageConditionOrExclusion(coveragePattern) typeis gw.api.domain.Schedule"/>
+    </InputGroup>
+  </InputSet>
+</PCF>

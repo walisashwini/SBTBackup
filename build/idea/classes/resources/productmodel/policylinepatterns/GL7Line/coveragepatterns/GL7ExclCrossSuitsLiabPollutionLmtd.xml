@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7ExclCrossSuitsLiabPollutionLmtd" priority="1062000" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclCrossSuitsLiabPollutionLmtd" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclCrossSuitsLiabPollutionLmtd");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium347" required="true" codeIdentifier="GL7ManualPremium347"/>
+    </CovTerms>
+</ExclusionPattern>

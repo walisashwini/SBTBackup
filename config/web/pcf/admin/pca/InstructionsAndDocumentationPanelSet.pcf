@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="InstructionsAndDocumentationPanelSet">
+    <Require
+      name="decisionAndInstructions"
+      type="gw.sbt.model.DecisionAndInstructions"/>
+    <Require
+      name="description"
+      type="String"/>
+    <Require
+      name="readOnly"
+      type="boolean"/>
+    <ListViewPanel>
+      <Row>
+        <TextCell
+          id="InstructionsTitle"
+          value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Instructions&quot;)" 
+          valueType="java.lang.String"
+          width="100"/>
+        <BooleanRadioCell
+          action="InstructionsPopup.push(decisionAndInstructions, description, readOnly)"
+          align="center"
+          enableSort="false"
+          icon="gw.sbt.pca.view.presenter.PresenterUtil.getInstructionsIconName(decisionAndInstructions)"
+          iconLabel="gw.sbt.pca.view.presenter.PresenterUtil.getInstructionsTooltips(decisionAndInstructions)"
+          id="InstructionsPopupCell"
+          label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Instructions&quot;)"
+          showHeaderIcon="false" width="100"
+          value="true" valueType="boolean"/>
+      </Row>
+    </ListViewPanel>
+  </PanelSet>
+</PCF>

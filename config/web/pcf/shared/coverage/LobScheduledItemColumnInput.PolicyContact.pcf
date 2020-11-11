@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <ModalCell
+    id="LobScheduledItemColumnInput"
+    mode="PolicyContact">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="schedulePropertyInfo"
+      type="gw.api.productmodel.SchedulePropertyInfo"/>
+    <Require
+      name="scheduledItem"
+      type="ScheduledItem"/>
+    <Require
+      name="displayableFactory"
+      type="gw.lob.common.displayable.SchedulePropertyInfoDisplayableFactoryV2"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="scheduledItemColumnHelper"
+      type="gw.lob.common.schedules.ScheduledItemColumnHelper"/>
+    <Variable
+      initialValue="scheduledItemColumnHelper.intitializeContactDisplayable(displayableFactory, clause, scheduledItem, schedulePropertyInfo)"
+      name="displayable"
+      type="gw.lob.common.displayable.Displayable"/>
+    <TextCell
+      action="EditPolicyContactRolePopup.push(scheduledItemColumnHelper.getScheduleItemPolicyContactRole(scheduledItem), openForEdit)"
+      align="left"
+      id="PolicyContact"
+      required="displayable.Required"
+      value="scheduledItemColumnHelper.getContactDisplayableValue(displayable)"
+      valueType="PolicyContactRole">
+      <PostOnChange
+        onChange="displayable.onChange(jobWizardHelper)"/>
+    </TextCell>
+  </ModalCell>
+</PCF>

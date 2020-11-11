@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7YearsOfExperienceIncur" loadable="false" table="gl7yearsofexperienceincur" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="integer"/>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

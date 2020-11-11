@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7CompositeRating" priority="335000" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeStdGrp" codeIdentifier="GL7CompositeRating" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7CompositeRating");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3352" public-id="GL7CompositeRatingExposureBasis" required="true" codeIdentifier="GL7CompositeRatingExposureBasis">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7CompositeRating", "GL7CompositeRatingExposureBasis");]]></AvailabilityScript>
+            <Options>
+                <CovTermOpt public-id="z9li0aog3ecd1eqq1hp8shbmdub" priority="1" optionCode="Acres" value="0" codeIdentifier="z9li0aog3ecd1eqq1hp8shbmdub"/>
+                <CovTermOpt public-id="z94j6gpo90kn02cnikvj9fhv99b" priority="2" optionCode="Admissions" value="0" codeIdentifier="z94j6gpo90kn02cnikvj9fhv99b"/>
+                <CovTermOpt public-id="zlkjunnr9aidmfuu48lck8cr1ma" priority="3" optionCode="Area" value="0" codeIdentifier="zlkjunnr9aidmfuu48lck8cr1ma"/>
+                <CovTermOpt public-id="z3cggd24h5ms12kl50br231ld09" priority="4" optionCode="Each" value="0" codeIdentifier="z3cggd24h5ms12kl50br231ld09"/>
+                <CovTermOpt public-id="z4tjui1fd3ct374mjjvfnu6ub6a" priority="5" optionCode="EachPier" value="0" codeIdentifier="z4tjui1fd3ct374mjjvfnu6ub6a"/>
+                <CovTermOpt public-id="zs3j2tukok960dqi4iqhhml8uib" priority="6" optionCode="EachRange" value="0" codeIdentifier="zs3j2tukok960dqi4iqhhml8uib"/>
+                <CovTermOpt public-id="zhjga7bqo9suo09cvhn45aksis9" priority="7" optionCode="EachSolarEnergySystem" value="0" codeIdentifier="zhjga7bqo9suo09cvhn45aksis9"/>
+                <CovTermOpt public-id="zs7hmbfoad1i3386bl940t08d7a" priority="8" optionCode="EachTower" value="0" codeIdentifier="zs7hmbfoad1i3386bl940t08d7a"/>
+                <CovTermOpt public-id="zb3jmb467fm6t4nhfvv40rs4t6a" priority="9" optionCode="EachTurbine" value="0" codeIdentifier="zb3jmb467fm6t4nhfvv40rs4t6a"/>
+                <CovTermOpt public-id="zdkj8umn5b3hd9n1ulorfu95rj8" priority="10" optionCode="Gallons" value="0" codeIdentifier="zdkj8umn5b3hd9n1ulorfu95rj8"/>
+                <CovTermOpt public-id="zcfge46c73k7v80tpbatieanpnb" priority="11" optionCode="GrossSales" value="0" codeIdentifier="zcfge46c73k7v80tpbatieanpnb"/>
+                <CovTermOpt public-id="z6djqsecvguod7ie3q7qkg16mvb" priority="12" optionCode="Newscarrier" value="0" codeIdentifier="z6djqsecvguod7ie3q7qkg16mvb"/>
+                <CovTermOpt public-id="zsrgohlemjhfo8jgsnb172uqpg8" priority="13" optionCode="NumberofActivityDays" value="0" codeIdentifier="zsrgohlemjhfo8jgsnb172uqpg8"/>
+                <CovTermOpt public-id="za3giuvqj26utf1trrdijndrieb" priority="14" optionCode="NumberofAirports" value="0" codeIdentifier="za3giuvqj26utf1trrdijndrieb"/>
+                <CovTermOpt public-id="z8pigpnn3bjpr6tm3rb10c4sgub" priority="15" optionCode="NumberofAnimals" value="0" codeIdentifier="z8pigpnn3bjpr6tm3rb10c4sgub"/>
+                <CovTermOpt public-id="z7pje1lrkk6ci2967kum709hqg9" priority="16" optionCode="NumberofAttendants" value="0" codeIdentifier="z7pje1lrkk6ci2967kum709hqg9"/>
+                <CovTermOpt public-id="z9ji0d5rp2hji34kfe588sugp7a" priority="17" optionCode="NumberofBales" value="0" codeIdentifier="z9ji0d5rp2hji34kfe588sugp7a"/>
+                <CovTermOpt public-id="z99g68q6bo64n8ndu23bivkqrba" priority="18" optionCode="NumberofBeaches" value="0" codeIdentifier="z99g68q6bo64n8ndu23bivkqrba"/>
+                <CovTermOpt public-id="z31ju175v9756a7fhc4o3sb4hu9" priority="19" optionCode="NumberofBoats" value="0" codeIdentifier="z31ju175v9756a7fhc4o3sb4hu9"/>
+                <CovTermOpt public-id="zpsggcedu35aqfprgk6bp35d8ma" priority="20" optionCode="NumberofCamperDays" value="0" codeIdentifier="zpsggcedu35aqfprgk6bp35d8ma"/>
+                <CovTermOpt public-id="z0ljo91to9o64853m8nvbn3n21b" priority="21" optionCode="NumberofContestants" value="0" codeIdentifier="z0ljo91to9o64853m8nvbn3n21b"/>
+                <CovTermOpt public-id="zs6hujk9akmi05dnot44ms71ol8" priority="22" optionCode="NumberofConventionDays" value="0" codeIdentifier="zs6hujk9akmi05dnot44ms71ol8"/>
+                <CovTermOpt public-id="z08g8ju4mpali6jmtr5r1qrmo09" priority="23" optionCode="NumberofDamsLeveesorDikes" value="0" codeIdentifier="z08g8ju4mpali6jmtr5r1qrmo09"/>
+                <CovTermOpt public-id="zsnhe8i6j96mha8sufi0jcptqja" priority="24" optionCode="NumberofDrawbridges" value="0" codeIdentifier="zsnhe8i6j96mha8sufi0jcptqja"/>
+                <CovTermOpt public-id="zimi6dq6a48ek1hqbo1nj1eqg8b" priority="25" optionCode="NumberofDwellings" value="0" codeIdentifier="zimi6dq6a48ek1hqbo1nj1eqg8b"/>
+                <CovTermOpt public-id="zc0i488s93q809k6ipli7t8ednb" priority="26" optionCode="NumberofExhibitions" value="0" codeIdentifier="zc0i488s93q809k6ipli7t8ednb"/>
+                <CovTermOpt public-id="zppiimldhfnvj76ejnbrves6ovb" priority="27" optionCode="NumberofFacultyMembers" value="0" codeIdentifier="zppiimldhfnvj76ejnbrves6ovb"/>
+                <CovTermOpt public-id="zv9iame2nhiuh0v47g9e26hega8" priority="28" optionCode="NumberofFairgrounds" value="0" codeIdentifier="zv9iame2nhiuh0v47g9e26hega8"/>
+                <CovTermOpt public-id="zieg4hns9n7hm5hmhgpqhpq3ct9" priority="29" optionCode="NumberofGames" value="0" codeIdentifier="zieg4hns9n7hm5hmhgpqhpq3ct9"/>
+                <CovTermOpt public-id="z1uh887fchrd678u4lf44ubjprb" priority="30" optionCode="NumberofGrandstandsorBleachers" value="0" codeIdentifier="z1uh887fchrd678u4lf44ubjprb"/>
+                <CovTermOpt public-id="zk2ju6haihnm46gcacpd5tk8csb" priority="31" optionCode="NumberofHeadquarters/Offices" value="0" codeIdentifier="zk2ju6haihnm46gcacpd5tk8csb"/>
+                <CovTermOpt public-id="z9di88vg856nh50d1tm4e19s2d8" priority="32" optionCode="NumberofKennels" value="0" codeIdentifier="z9di88vg856nh50d1tm4e19s2d8"/>
+                <CovTermOpt public-id="z1hgqnhtoeh7p2bucajpmdpch98" priority="33" optionCode="NumberofLakesorReservoirs" value="0" codeIdentifier="z1hgqnhtoeh7p2bucajpmdpch98"/>
+                <CovTermOpt public-id="zpfj0rt2phi4o10aalat5kkvqra" priority="34" optionCode="NumberofLessees" value="0" codeIdentifier="zpfj0rt2phi4o10aalat5kkvqra"/>
+                <CovTermOpt public-id="z5dicvsu7ior22q39lam67imaq8" priority="35" optionCode="NumberofLocations" value="0" codeIdentifier="z5dicvsu7ior22q39lam67imaq8"/>
+                <CovTermOpt public-id="zq1i0bectepg18cu84vab5bqvk9" priority="36" optionCode="NumberofMembers" value="0" codeIdentifier="zq1i0bectepg18cu84vab5bqvk9"/>
+                <CovTermOpt public-id="z0bgqrhq1rtae5v02s0122khl6a" priority="37" optionCode="NumberofMiles" value="0" codeIdentifier="z0bgqrhq1rtae5v02s0122khl6a"/>
+                <CovTermOpt public-id="zhtig523bdegf91dlkgqh3denk8" priority="38" optionCode="NumberofModelHomes" value="0" codeIdentifier="zhtig523bdegf91dlkgqh3denk8"/>
+                <CovTermOpt public-id="zgjiuiv4qhj2v79o2ktv1o1l7sb" priority="39" optionCode="NumberofParades" value="0" codeIdentifier="zgjiuiv4qhj2v79o2ktv1o1l7sb"/>
+                <CovTermOpt public-id="zufjsum9fs4m5bcnrbi6guetica" priority="40" optionCode="NumberofParksorPlaygrounds" value="0" codeIdentifier="zufjsum9fs4m5bcnrbi6guetica"/>
+                <CovTermOpt public-id="zihi6s6476nb4fhq062akvro1k8" priority="41" optionCode="NumberofPersons" value="0" codeIdentifier="zihi6s6476nb4fhq062akvro1k8"/>
+                <CovTermOpt public-id="zchii1a8l8gj95kqqvbrsepcs29" priority="42" optionCode="NumberofPicnicGrounds" value="0" codeIdentifier="zchii1a8l8gj95kqqvbrsepcs29"/>
+                <CovTermOpt public-id="z5ng4odlclk21ap75747aj0uit9" priority="43" optionCode="NumberofRanges" value="0" codeIdentifier="z5ng4odlclk21ap75747aj0uit9"/>
+                <CovTermOpt public-id="zqugk244ohanm3a5c4qourq2jj9" priority="44" optionCode="NumberofRegistrants" value="0" codeIdentifier="zqugk244ohanm3a5c4qourq2jj9"/>
+                <CovTermOpt public-id="zhhjci2n4qko857jtikh9le5jn9" priority="45" optionCode="NumberofScouts" value="0" codeIdentifier="zhhjci2n4qko857jtikh9le5jn9"/>
+                <CovTermOpt public-id="zfrj6chubt1iqatoi7mh8a63qq8" priority="46" optionCode="NumberofShows" value="0" codeIdentifier="zfrj6chubt1iqatoi7mh8a63qq8"/>
+                <CovTermOpt public-id="zh2j0oa37akvtf26f9ktpfsjqg8" priority="47" optionCode="NumberofStations" value="0" codeIdentifier="zh2j0oa37akvtf26f9ktpfsjqg8"/>
+                <CovTermOpt public-id="z7agukmmbc03e1mj35gufh7j5ob" priority="48" optionCode="NumberofSwimmingPools" value="0" codeIdentifier="z7agukmmbc03e1mj35gufh7j5ob"/>
+                <CovTermOpt public-id="z27i6thbb92a995n80abek0kb8a" priority="49" optionCode="NumberofTanks" value="0" codeIdentifier="z27i6thbb92a995n80abek0kb8a"/>
+                <CovTermOpt public-id="z0jgsb5lako88a3kpjbivppi2sa" priority="50" optionCode="NumberofTeams" value="0" codeIdentifier="z0jgsb5lako88a3kpjbivppi2sa"/>
+                <CovTermOpt public-id="zuajqsrvp7vk9cfo9q4g47mb4da" priority="51" optionCode="NumberofTowers" value="0" codeIdentifier="zuajqsrvp7vk9cfo9q4g47mb4da"/>
+                <CovTermOpt public-id="zmrgqn0pai4nl2d452i2i93tl88" priority="52" optionCode="NumberofZoos" value="0" codeIdentifier="zmrgqn0pai4nl2d452i2i93tl88"/>
+                <CovTermOpt public-id="zq5g2ehmiau5g1j064cfmiq4ip9" priority="53" optionCode="PassengerDays" value="0" codeIdentifier="zq5g2ehmiau5g1j064cfmiq4ip9"/>
+                <CovTermOpt public-id="zoji21k7h01na41nskkkkpo78c9" priority="54" optionCode="Payroll" value="0" codeIdentifier="zoji21k7h01na41nskkkkpo78c9"/>
+                <CovTermOpt public-id="z1uiqt75c8u05c05bo3bka4t5aa" priority="55" optionCode="PerLocation/PerDay" value="0" codeIdentifier="z1uiqt75c8u05c05bo3bka4t5aa"/>
+                <CovTermOpt public-id="zo6jsoj6td58d2hdbearjtf7nc8" priority="56" optionCode="PerPerson" value="0" codeIdentifier="zo6jsoj6td58d2hdbearjtf7nc8"/>
+                <CovTermOpt public-id="zciigc05vsj75777u85gg52c0ba" priority="57" optionCode="PerStudent" value="0" codeIdentifier="zciigc05vsj75777u85gg52c0ba"/>
+                <CovTermOpt public-id="zeph02o8531hr7e8rl7u1k1sl6b" priority="58" optionCode="TotalCost" value="0" codeIdentifier="zeph02o8531hr7e8rl7u1k1sl6b"/>
+                <CovTermOpt public-id="z8ghalfjbp63o9brc74jjcvrgga" priority="59" optionCode="TotalOperatingExpenses" value="0" codeIdentifier="z8ghalfjbp63o9brc74jjcvrgga"/>
+                <CovTermOpt public-id="z60gsh8bhb67icnje9992o7hfbb" priority="60" optionCode="Units" value="0" codeIdentifier="z60gsh8bhb67icnje9992o7hfbb"/>
+                <CovTermOpt public-id="z8ki4u1dgl8g7dm7v4sudedekma" priority="61" optionCode="Vehicles" value="0" codeIdentifier="z8ki4u1dgl8g7dm7v4sudedekma"/>
+                <CovTermOpt public-id="zabjmgpemfvv83evmt68f1dgjl9" priority="62" optionCode="Other" value="0" codeIdentifier="zabjmgpemfvv83evmt68f1dgjl9"/>
+            </Options>
+        </OptionCovTermPattern>
+        <GenericCovTermPattern coverageColumn="StringTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3354" public-id="GL7CompositeRatingExposureBasisOverride" required="true" codeIdentifier="GL7CompositeRatingExposureBasisOverride">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7CompositeRating", "GL7CompositeRatingExposureBasisOverride");]]></AvailabilityScript>
+        </GenericCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3358" public-id="GL7FinalAdjustedCompositeExposure" required="true" codeIdentifier="GL7FinalAdjustedCompositeExposure">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7CompositeRating", "GL7FinalAdjustedCompositeExposure");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits maxVal="9999999999" minVal="0" public-id="GL7FinalAdjustedCompositeExposureNOCURRENCY" codeIdentifier="GL7FinalAdjustedCompositeExposureNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<subtype
+        xmlns="http://guidewire.com/datamodel"
+        desc="GL7 Subline Exclusion Schedule Item Exclusion Cost"
+        displayName="GL7 Subline Exclusion Schedule Item Exclusion Cost"
+        entity="GL7SublnSchedExclItemExclCost"
+        supertype="GL7SublnSchedExclItemCost">
+    <implementsInterface
+            iface="gw.lob.common.financials.LobCostMethods"
+            impl="gw.lob.gl7.financials.schedules.GL7SublnSchedExclItemExclCostMethodsImpl"/>
+    <implementsEntity
+      name="Cost"/>
+    <implementsInterface
+      iface="gw.api.domain.financials.CostAdapter"
+      impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+    <foreignkey
+            fkentity="GL7SublnSchedExclItmExcl"
+            name="SublnSchedExclItemExcl"
+            nullok="false"/>
+</subtype>

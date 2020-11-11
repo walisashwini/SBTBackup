@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <DetailViewPanel
+    id="LobClausesDV">
+    <Require
+      name="coverable"
+      type="Coverable"/>
+    <Require
+      name="clausePatterns"
+      type="gw.api.productmodel.ClausePattern[]"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <InputColumn>
+      <InputIterator
+        elementName="clausePattern"
+        forceRefreshDespiteChangedEntries="true"
+        id="clauseIterator"
+        value="clausePatterns" valueType="gw.api.productmodel.ClausePattern[]">
+        <IteratorSort
+          sortBy="clausePattern.Priority"
+          sortOrder="1"/>
+        <InputSetRef
+          def="LobCoverageInputSet(clausePattern, coverable,  CurrentLocation.InEditMode, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+          mode="clausePattern.CodeIdentifier"/>
+      </InputIterator>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="RatingTxDetailsPanelSet"
+    mode="GL7Line">
+    <Require
+      name="thePeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="totalPremLabel"
+      type="String"/>
+    <Require
+      name="totalCostLabel"
+      type="String"/>
+    <Require
+      name="revOpenForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="thePeriod.GL7Line"
+      name="line"
+      type="GL7Line"/>
+    <Variable
+      initialValue="new gw.lob.gl7.financials.GL7TxDisplayUtil(line)"
+      name="txDisplayUtil"
+      type="gw.lob.gl7.financials.GL7TxDisplayUtil"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="txDisplayUtil.getCoverablesWithTrxnsByType()"
+      name="cblByType"
+      type="java.util.Map&lt;gw.lang.reflect.IType,java.util.List&lt;entity.Coverable&gt;&gt;"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="txDisplayUtil.getLineLevelTrxns()"
+      name="lineLevelTrxns"
+      type="java.util.List&lt;entity.GL7Transaction&gt;"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="txDisplayUtil.getJurisdictions()"
+      name="jurisdictions"
+      type="List&lt;Jurisdiction&gt;"/>
+    <Variable
+      initialValue="true"
+      name="prorated"
+      type="boolean"/>
+    <ListViewPanel>
+      <RowSetRef
+        def="GL7CostChangeDetailsRowSet(line, txDisplayUtil)"/>
+    </ListViewPanel>
+  </PanelSet>
+</PCF>

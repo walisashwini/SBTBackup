@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7DamageToPremisesRentedToYou" priority="110000" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeStdGrp" codeIdentifier="GL7DamageToPremisesRentedToYou" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7DamageToPremisesRentedToYou");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="1100" public-id="GL7Limit" required="true" codeIdentifier="GL7Limit">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7DamageToPremisesRentedToYou", "GL7Limit");]]></AvailabilityScript>
+            <Options>
+                <CovTermOpt public-id="zvpicu20a87go3cj0oh1k77preb" priority="1" optionCode="25000" value="25000" codeIdentifier="zvpicu20a87go3cj0oh1k77preb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zmuggtj6apslb4b7i73nf9j2pcb" priority="2" optionCode="50000" value="50000" codeIdentifier="zmuggtj6apslb4b7i73nf9j2pcb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="z40ha0qjdq2tr2avm3165ia2rpa" priority="3" optionCode="100000" value="100000" codeIdentifier="z40ha0qjdq2tr2avm3165ia2rpa">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zqljen2lqr14h1400nt1iu190i8" priority="27" optionCode="Excluded" value="0" codeIdentifier="zqljen2lqr14h1400nt1iu190i8">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+            </Options>
+        </OptionCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7LocationCond"
+  type="effdated"
+  desc="Conditions directly attached to each GL7 Location"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  platform="false"
+  loadable="false"
+  table="gl7locationcond">
+  <implementsEntity
+    name="PolicyCondition"/>
+  <implementsInterface
+    iface="gw.api.domain.PolicyConditionAdapter"
+    impl="gw.lob.gl7.GL7LocationCondConditionAdapter"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7LocationCondMatcher"/>
+  <foreignkey
+    name="GL7Location"
+    fkentity="GL7Location"
+    exportable="true"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LocationCondCost"
+    cascadeDelete="true"
+    name="Costs"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7LocationSchedExcl" public-id="GL7ExclCovCMedPayLocClassLvl" priority="2030000" lookupTableName="GL7LocationExcl" existence="Electable" owningEntityType="GL7Location" referenceDateByType="PolicyTerm" coverageCategory="GL7LocationExclGrp" codeIdentifier="GL7ExclCovCMedPayLocClassLvl" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Location.isClauseAvailable("GL7ExclCovCMedPayLocClassLvl");]]></AvailabilityScript>
+    <CovTerms/>
+</ExclusionPattern>

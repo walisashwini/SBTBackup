@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7Location" xmlns="http://guidewire.com/datamodel">
+    <column columnName="gl7liquorded" desc="Deductible" name="LiquorDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7liquorliabterr" desc="Liquor" name="LiquorLiabTerr" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7liquorliabterritory" desc="Liquor Code" name="LiquorLiabTerritory" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7ownerscontractorsterritory" desc="Owners and Contractors Code" name="OwnersContractorsTerritory" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7pollutionterritory" desc="Pollution Code" name="PollutionTerritory" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7premopsbided" desc="BI Deductible" name="PremOpsBIDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7premopsbipdded" desc="BI and PD Deductible" name="PremOpsBIPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7premopspdded" desc="PD Deductible" name="PremOpsPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7premisesopsterr" desc="Premises/Operations" name="PremisesOperationsTerr" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7premisesopsterritory" desc="Premises/Operations Code" name="PremisesOperationsTerritory" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7prodscompldopsbided" desc="BI Deductible" name="ProdsCompldOpsBIDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7prodscompldopsbipdded" desc="BI and PD Deductible" name="ProdsCompldOpsBIPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7prodscompldopspdded" desc="PD Deductible" name="ProdsCompldOpsPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7prodscompldopsterritory" desc="Products/Completed Operations Code" name="ProdsCompldOpsTerritory" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7productwithdrawalded" desc="Product Withdrawal Deductible" name="ProductWithdrawalDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7railroadterritory" desc="Railroad Code" name="RailroadTerritory" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7zipcode" desc="Zip Code" name="ZipCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7zipcodeoverride" desc="Zip Code Override" name="ZipCodeOverride" nullok="true" type="varchar">
+        <columnParam name="size" value="10"/>
+    </column>
+</extension>

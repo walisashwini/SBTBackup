@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7LmtdProductWithdrawalExpenseEndtPolLvl" priority="900000" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7LmtdProductWithdrawalExpenseEndtPolLvl" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7LmtdProductWithdrawalExpenseEndtPolLvl");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7AggLimit8" required="true" codeIdentifier="GL7AggLimit8">
+            <DefaultsSet>
+                <CovTermDefault defaultValue="1000000" public-id="GL7AggLimit8DEFAULT" codeIdentifier="GL7AggLimit8DEFAULT"/>
+            </DefaultsSet>
+            <Options>
+                <CovTermOpt public-id="z61gefvhurkvh7cguqru7mdprga" priority="2" optionCode="50000" value="50000" codeIdentifier="z61gefvhurkvh7cguqru7mdprga"/>
+                <CovTermOpt public-id="zuniaodin04gr2cs5ueso5dldn8" priority="3" optionCode="100000" value="100000" codeIdentifier="zuniaodin04gr2cs5ueso5dldn8"/>
+                <CovTermOpt public-id="zaijavrori5aa70fs3s6fi2et59" priority="4" optionCode="200000" value="200000" codeIdentifier="zaijavrori5aa70fs3s6fi2et59"/>
+                <CovTermOpt public-id="z0bj8ip3252c83m4gbqq0gb2kka" priority="5" optionCode="300000" value="300000" codeIdentifier="z0bj8ip3252c83m4gbqq0gb2kka"/>
+                <CovTermOpt public-id="z86gatbnedhbd85fbcs83iijd88" priority="6" optionCode="500000" value="500000" codeIdentifier="z86gatbnedhbd85fbcs83iijd88"/>
+                <CovTermOpt public-id="zs2g6k27ihd3g76k1iuhgb80h8a" priority="7" optionCode="1000000" value="1000000" codeIdentifier="zs2g6k27ihd3g76k1iuhgb80h8a"/>
+                <CovTermOpt public-id="zt0ji1rf3iot92kknidevalrd08" priority="8" optionCode="1500000" value="1500000" codeIdentifier="zt0ji1rf3iot92kknidevalrd08"/>
+                <CovTermOpt public-id="zskg2coot9btcco9rmq60gf8i58" priority="9" optionCode="2000000" value="2000000" codeIdentifier="zskg2coot9btcco9rmq60gf8i58"/>
+                <CovTermOpt public-id="zodi6a4o307vs4o00cprr9phghb" priority="10" optionCode="3000000" value="3000000" codeIdentifier="zodi6a4o307vs4o00cprr9phghb"/>
+                <CovTermOpt public-id="zbrikrjkudvo9519sd2cg0e1oa8" priority="11" optionCode="4000000" value="4000000" codeIdentifier="zbrikrjkudvo9519sd2cg0e1oa8"/>
+                <CovTermOpt public-id="z8ohaqcp25p3u1ar68ujo17eu68" priority="12" optionCode="5000000" value="5000000" codeIdentifier="z8ohaqcp25p3u1ar68ujo17eu68"/>
+                <CovTermOpt public-id="z75j00ssh3baq3ui3dtjbjmudv8" priority="13" optionCode="10000000" value="10000000" codeIdentifier="z75j00ssh3baq3ui3dtjbjmudv8"/>
+            </Options>
+        </OptionCovTermPattern>
+        <GenericCovTermPattern coverageColumn="DateTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="600" public-id="GL7CutOffDate" required="true" codeIdentifier="GL7CutOffDate"/>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="400" public-id="GL7Ded" required="true" codeIdentifier="GL7Ded">
+            <DefaultsSet>
+                <CovTermDefault defaultValue="NoDeductible" public-id="GL7DedDEFAULT" codeIdentifier="GL7DedDEFAULT"/>
+            </DefaultsSet>
+            <Options>
+                <CovTermOpt public-id="z9hjs11cf1m908g1i9um16g7e9a" priority="1" optionCode="NoDeductible" value="0" codeIdentifier="z9hjs11cf1m908g1i9um16g7e9a"/>
+                <CovTermOpt public-id="zmihala9cf2gddc9d4f4buj4lp9" priority="2" optionCode="250PerClaim" value="0" codeIdentifier="zmihala9cf2gddc9d4f4buj4lp9"/>
+                <CovTermOpt public-id="zq9ii5nrvbbmrc5dnhi2i1jcsv8" priority="3" optionCode="250PerOccurrence" value="0" codeIdentifier="zq9ii5nrvbbmrc5dnhi2i1jcsv8"/>
+                <CovTermOpt public-id="zomj01mb8douabn66mfibju8079" priority="4" optionCode="500PerClaim" value="0" codeIdentifier="zomj01mb8douabn66mfibju8079"/>
+                <CovTermOpt public-id="zs8i6viiq2t137sat2ai3s90ev9" priority="5" optionCode="500PerOccurrence" value="0" codeIdentifier="zs8i6viiq2t137sat2ai3s90ev9"/>
+                <CovTermOpt public-id="zh5j4sok4f8u46vpfn9jnp0q098" priority="6" optionCode="750PerClaim" value="0" codeIdentifier="zh5j4sok4f8u46vpfn9jnp0q098"/>
+                <CovTermOpt public-id="z7mhefe2naunu020b9ki5dvqjeb" priority="7" optionCode="750PerOccurrence" value="0" codeIdentifier="z7mhefe2naunu020b9ki5dvqjeb"/>
+                <CovTermOpt public-id="za9js1if2gbd0fuu4arjq8bo10b" priority="8" optionCode="1000PerClaim" value="0" codeIdentifier="za9js1if2gbd0fuu4arjq8bo10b"/>
+                <CovTermOpt public-id="z6jigivog9r8udaekjrqguptr69" priority="9" optionCode="1000PerOccurrence" value="0" codeIdentifier="z6jigivog9r8udaekjrqguptr69"/>
+                <CovTermOpt public-id="za2iav2tl09ir22p32i0v37u258" priority="10" optionCode="2000PerClaim" value="0" codeIdentifier="za2iav2tl09ir22p32i0v37u258"/>
+                <CovTermOpt public-id="z6qh61hka56o6afku4t2lol7ia8" priority="11" optionCode="2000PerOccurrence" value="0" codeIdentifier="z6qh61hka56o6afku4t2lol7ia8"/>
+                <CovTermOpt public-id="ze0iif59ffg0d3qtaipeakmu22a" priority="12" optionCode="3000PerClaim" value="0" codeIdentifier="ze0iif59ffg0d3qtaipeakmu22a"/>
+                <CovTermOpt public-id="zudhg8pc4elko6jdr6rqbrdcunb" priority="13" optionCode="3000PerOccurrence" value="0" codeIdentifier="zudhg8pc4elko6jdr6rqbrdcunb"/>
+                <CovTermOpt public-id="zb3h0m213hs32f8qahd8vk28tb8" priority="14" optionCode="4000PerClaim" value="0" codeIdentifier="zb3h0m213hs32f8qahd8vk28tb8"/>
+                <CovTermOpt public-id="zutj003jvk6os9nca04ocdgb9va" priority="15" optionCode="4000PerOccurrence" value="0" codeIdentifier="zutj003jvk6os9nca04ocdgb9va"/>
+                <CovTermOpt public-id="z81g2ia74pqbf899vo9qshcsnvb" priority="16" optionCode="5000PerClaim" value="0" codeIdentifier="z81g2ia74pqbf899vo9qshcsnvb"/>
+                <CovTermOpt public-id="zpchkv23jurpla522a3p45oah4a" priority="17" optionCode="5000PerOccurrence" value="0" codeIdentifier="zpchkv23jurpla522a3p45oah4a"/>
+                <CovTermOpt public-id="zrcjcghtjgr193okmeide79g0b8" priority="18" optionCode="10000PerClaim" value="0" codeIdentifier="zrcjcghtjgr193okmeide79g0b8"/>
+                <CovTermOpt public-id="zsph6mfgk6qno22tg6994id85o8" priority="19" optionCode="10000PerOccurrence" value="0" codeIdentifier="zsph6mfgk6qno22tg6994id85o8"/>
+                <CovTermOpt public-id="z4oh0fvtpog089g10ne0e4fjb7b" priority="20" optionCode="15000PerClaim" value="0" codeIdentifier="z4oh0fvtpog089g10ne0e4fjb7b"/>
+                <CovTermOpt public-id="zdigk93ucu2v46ppot4b9qctoo9" priority="21" optionCode="15000PerOccurrence" value="0" codeIdentifier="zdigk93ucu2v46ppot4b9qctoo9"/>
+                <CovTermOpt public-id="zh2icbqilgfi4b6rcltmtratdka" priority="22" optionCode="20000PerClaim" value="0" codeIdentifier="zh2icbqilgfi4b6rcltmtratdka"/>
+                <CovTermOpt public-id="zi3gu0058q07t6fs3qvhu0ldkh9" priority="23" optionCode="20000PerOccurrence" value="0" codeIdentifier="zi3gu0058q07t6fs3qvhu0ldkh9"/>
+                <CovTermOpt public-id="zrqiunbkditjg76ppvr6n2m8qq8" priority="24" optionCode="25000PerClaim" value="0" codeIdentifier="zrqiunbkditjg76ppvr6n2m8qq8"/>
+                <CovTermOpt public-id="zvdhqgprcadp2cliv5gqllkpr4b" priority="25" optionCode="25000PerOccurrence" value="0" codeIdentifier="zvdhqgprcadp2cliv5gqllkpr4b"/>
+                <CovTermOpt public-id="zsjhqcqceno564dtdt6550kfbp8" priority="26" optionCode="50000PerClaim" value="0" codeIdentifier="zsjhqcqceno564dtdt6550kfbp8"/>
+                <CovTermOpt public-id="z5dh8ro3gda2095q6fko8c2i5qb" priority="27" optionCode="50000PerOccurrence" value="0" codeIdentifier="z5dh8ro3gda2095q6fko8c2i5qb"/>
+                <CovTermOpt public-id="z5aigbl8ogqbhd7q4k1v89gsgmb" priority="28" optionCode="75000PerClaim" value="0" codeIdentifier="z5aigbl8ogqbhd7q4k1v89gsgmb"/>
+                <CovTermOpt public-id="z88j470efs7av7cfgjmd3b8178a" priority="29" optionCode="75000PerOccurrence" value="0" codeIdentifier="z88j470efs7av7cfgjmd3b8178a"/>
+                <CovTermOpt public-id="zd3j2man7olag372794lsdp17i8" priority="30" optionCode="100000PerClaim" value="0" codeIdentifier="zd3j2man7olag372794lsdp17i8"/>
+                <CovTermOpt public-id="z8jjshdm369l95hragltjgbge28" priority="31" optionCode="100000PerOccurrence" value="0" codeIdentifier="z8jjshdm369l95hragltjgbge28"/>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="550" public-id="GL7ManualPremium131" required="true" codeIdentifier="GL7ManualPremium131">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7LmtdProductWithdrawalExpenseEndtPolLvl", "GL7ManualPremium131");]]></AvailabilityScript>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="percent" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="450" public-id="GL7ParticipationPctgPerProdWithdrawal" required="false" codeIdentifier="GL7ParticipationPctgPerProdWithdrawal"/>
+    </CovTerms>
+</CoveragePattern>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7UnmannedAircraftCond">
+  <Columns>
+    <Column
+      beanPath="GL7UnmannedAircraftCond.Pattern"
+      name="pattern"/>
+  </Columns>
+  <DisplayName><![CDATA[
+pattern
+  ]]></DisplayName>
+</Entity>

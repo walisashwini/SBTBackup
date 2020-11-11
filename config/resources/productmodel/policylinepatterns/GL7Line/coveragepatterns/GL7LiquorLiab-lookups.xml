@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="z7agau8dka6kn5n35me9bf4ajba">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7LiquorLiab</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="z3hie3b591hqc67c5hreggv3rea">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="zskjgd9uiuive3v5332ompshrk8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>zf7ggrq9leh27a6f1l1ed5574pb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zr3iid76dmamich7clb0pdio7r9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>z8djg8blvq0mhfn92nkfquu4apb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zohjoen58o9pm6cg0da7dg89trb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>z08g6vokpnrd75qrlt61u6fef8b</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z3fg4jagskunm6aga3jdvprg12b">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>zoai60gpv5fvs3vgdulnjggub9a</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zkrigq2ills2kc7dujb3sve3akb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>zsjji1gjo9a9u6obf07r8bae23a</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z41gmglb16iqr8l60j67t0lehf9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>zl9j26kfg025m54s2284io0ht4b</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zusgij8u23c365d9kllm2ijgg9a">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7LiquorClassCode</CovTermPatternCode>
+        <CovTermOptCode>zgsjo8bcj8dg22p994qtimtqff9</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermLookup public-id="zuphsisu7kdnt42vcksuuiu4kba">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium133</CovTermPatternCode>
+    </CovTermLookup>
+</import>

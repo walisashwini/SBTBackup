@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="General Liability Location"
+  displayName="GL7 Location"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7Location"
+  exportable="true"
+  loadable="false"
+  table="gl7location"
+  type="effdated">
+  <implementsInterface
+    iface="gw.api.domain.LineSpecificLocation"
+    impl="gw.lob.gl7.GL7SpecificLocation"/>
+  <implementsInterface
+    iface="gw.lob.gl7.GL7Coverable"
+    impl="gw.lob.gl7.GL7LocationCoverable"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.GL7LocationCoverableAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="Modifiable"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifiableAdapter"
+    impl="gw.lob.gl7.GL7LocationCoverableAdapter"/>
+  <foreignkey
+    fkentity="GL7SublineType"
+    name="SublineType"
+    nullok="false"/>
+  <foreignkey
+    fkentity="PolicyLocation"
+    name="Location"
+    nullok="false"/>
+  <column
+    desc="Location Number"
+    name="LocationNumber"
+    nullok="false"
+    type="integer"/>
+  <array
+    arrayentity="GL7LocationCov"
+    cascadeDelete="true"
+    desc="Coverages directly attached to the GL7 Location"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7LocationExcl"
+    cascadeDelete="true"
+    desc="Exclusions directly attached to the GL7 Location"
+    name="Exclusions"/>
+  <array
+    arrayentity="GL7LocationCond"
+    cascadeDelete="true"
+    desc="Conditions directly attached to the GL7 Location"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7LocationMod"
+    cascadeDelete="true"
+    desc="Modifiers directly attached to the GL7 Location"
+    name="GL7LocationMods"/>
+  <array
+    arrayentity="GL7Exposure"
+    cascadeDelete="true"
+    name="GL7Exposures"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

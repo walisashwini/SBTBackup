@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeSchedCov" coveredPartyType="ThirdParty" public-id="GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1" priority="1045000" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium264" required="true" codeIdentifier="GL7ManualPremium264"/>
+    </CovTerms>
+</CoveragePattern>

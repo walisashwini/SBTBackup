@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    id="BureauCodesDetailPopup"
+    title="codesPresenter.Description">
+    <LocationEntryPoint
+      signature="BureauCodesDetailPopup(codesPresenter : gw.sbt.pca.view.presenter.bureau.BureauCodePresenter)"/>
+    <Variable
+      name="codesPresenter"
+      type="gw.sbt.pca.view.presenter.bureau.BureauCodePresenter"/>
+    <Screen>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(codesPresenter.DecisionAndInstructions, codesPresenter.Description, codesPresenter.ReadOnly)"/>
+      <DetailViewPanel>
+        <InputColumn
+          width="900">
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="Jurisdiction"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Jurisdiction&quot;)"
+            value="codesPresenter.Jurisdiction" valueType="java.lang.String"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <DetailViewPanel>
+        <InputColumn>
+          <ListViewInput
+            boldLabel="true"
+            id="FactorsLV"
+            labelAbove="true">
+            <Toolbar/>
+            <ListViewPanel>
+              <Row
+                renderAsSmartHeader="true">
+                <CellIterator
+                  elementName="columnHeader"
+                  id="ColumnHeadingIterator"
+                  value="codesPresenter.ColumnHeadings" valueType="java.util.List&lt;java.lang.String&gt;">
+                  <TextCell
+                    id="ColumnHeader"
+                    value="columnHeader" valueType="java.lang.String"/>
+                </CellIterator>
+                <TextCell
+                  align="left"
+                  id="NewValueHeader"
+                  value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Status&quot;)" valueType="java.lang.String"/>
+              </Row>
+              <RowIterator
+                canPick="false"
+                checkBoxVisible="false"
+                editable="true"
+                elementName="row"
+                id="TerritoryCodesRowIterator"
+                pageSize="20"
+                value="codesPresenter.Rows" valueType="java.util.List&lt;gw.sbt.model.bureau.BureauCode&gt;">
+                <Row>
+                  <CellIterator
+                    elementName="columnValue"
+                    id="RowValuesIterator"
+                    value="row.Attributes*.Value" valueType="java.lang.String[]">
+                    <TextCell
+                      align="left"
+                      id="ColumnValue"
+                      value="columnValue"/>
+                  </CellIterator>
+                  <TextCell
+                    align="left"
+                    id="Status"
+                    value="UpdateDiffType.from(row.Intent)?.Description" valueType="java.lang.String"/>
+                </Row>
+              </RowIterator>
+            </ListViewPanel>
+          </ListViewInput>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

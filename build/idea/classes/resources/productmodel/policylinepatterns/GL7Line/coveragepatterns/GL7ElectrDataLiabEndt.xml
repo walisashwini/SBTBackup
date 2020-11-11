@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7ElectrDataLiabEndt" priority="101500" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7ElectrDataLiabEndt" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ElectrDataLiabEndt");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7ExposureBasis" required="true" codeIdentifier="GL7ExposureBasis">
+            <Options>
+                <CovTermOpt public-id="zvdg0vpeigkh8fbtm6e5554bddb" priority="1" optionCode="Payroll" value="0" codeIdentifier="zvdg0vpeigkh8fbtm6e5554bddb"/>
+                <CovTermOpt public-id="zrfg45eveu5cv2bec500i35o599" priority="2" optionCode="GrossSales" value="0" codeIdentifier="zrfg45eveu5cv2bec500i35o599"/>
+                <CovTermOpt public-id="zvshev6ugd9qf2k6e7s0lfsdlj9" priority="3" optionCode="AllOther" value="0" codeIdentifier="zvshev6ugd9qf2k6e7s0lfsdlj9"/>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7Limit1" required="true" codeIdentifier="GL7Limit1"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium44" required="true" codeIdentifier="GL7ManualPremium44"/>
+    </CovTerms>
+</CoveragePattern>

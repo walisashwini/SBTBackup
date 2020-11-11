@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="PolicyLineSummaryPanelSet"
+    mode="GL7Line">
+    <Require
+      name="line"
+      type="PolicyLine"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="line as GL7GeneralLiabilityLine"
+      name="gl7line"
+      type="entity.GL7GeneralLiabilityLine"/>
+    <Variable
+      initialValue="gw.lob.gl7.presenters.GL7CoverablePerSubline.forSublinesOn(gl7line)"
+      name="sublines"
+      type="gw.lob.gl7.presenters.GL7CoverablePerSubline&lt;entity.GL7SublineType&gt;"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="gl7line.Branch"
+      name="policyPeriod"
+      type="entity.PolicyPeriod"/>
+    <Variable
+      initialValue="gw.lob.gl7.GL7Category"
+      name="category"
+      type="Type&lt;gw.lob.gl7.GL7Category&gt;"/>
+    <CardViewPanel>
+      <Card
+        id="generalLiability"
+        title="DisplayKey.get(&quot;Web.Policy.GL7.GeneralLiability&quot;)">
+        <PanelRef
+          def="GL7PolicyReviewGeneralLiabilityPanelSet(gl7line, sublines, jobWizardHelper)"/>
+      </Card>
+      <Card
+        id="stateSpecificInfo"
+        title="DisplayKey.get(&quot;Web.Policy.GL7.StateSpecificInformation&quot;)">
+        <PanelRef
+          def="GL7PolicyReviewStateSpecificInfoPanelSet(policyPeriod, jobWizardHelper)"/>
+      </Card>
+      <Card
+        id="risks"
+        title="DisplayKey.get(&quot;Web.Policy.GL7.Risks&quot;)">
+        <PanelRef
+          def="GL7PolicyReviewRisksPanelSet(gl7line.PolicyLine.Branch.GL7Line, false, jobWizardHelper, policyPeriod)"/>
+      </Card>
+    </CardViewPanel>
+  </PanelSet>
+</PCF>

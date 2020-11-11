@@ -1,0 +1,21 @@
+package com.guidewire._generated.productmodel;
+
+@gw.lang.SimplePropertyProcessing
+@javax.annotation.Generated(comments = "config/resources/productmodel/policylinepatterns/GL7Line/coveragepatterns/GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns.xml", date = "", value = "com.guidewire.pc.productmodel.codegen.ProductModelCodegen")
+public class DirectGL7ManualPremium700TypeImpl extends com.guidewire.pc.api.domain.covterm.DirectCovTermInternal implements productmodel.DirectGL7ManualPremium700Type {
+  public DirectGL7ManualPremium700TypeImpl(gw.api.productmodel.DirectCovTermPattern pattern, entity.Clause clause)  {
+    super(pattern, clause);
+  }
+  
+  @java.lang.Override
+  public productmodel.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns getCoverage() {
+    return (productmodel.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns)getClause();
+  }
+  
+  @java.lang.Override
+  public productmodel.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns getGL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns() {
+    return (productmodel.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns)getClause();
+  }
+  
+  
+}

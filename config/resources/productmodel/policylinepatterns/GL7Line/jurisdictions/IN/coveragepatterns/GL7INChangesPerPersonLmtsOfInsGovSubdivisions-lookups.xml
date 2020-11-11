@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zj8ial7vuiuj4f8ljvbno43hj0b">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7INChangesPerPersonLmtsOfInsGovSubdivisions</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zmgh47hg878aq1p5jofv9vc0e8a">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7LimitOfInsPerPerson</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+</import>

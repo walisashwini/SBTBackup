@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="z41i00buf4r60aomcvle4ehh8pb">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7ExtendedReportingPeriodEndorsementPollutionLia1</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="z9ljg08htombh9uj3dnum0jn069">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ManualPremium196</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+</import>

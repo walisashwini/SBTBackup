@@ -1,0 +1,3079 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScheduleConfig>
+  <Clause pattern="GL7AbuseOrMolestationExclSpecifiedProfessionalServ">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfProfessionalServices">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AbuseOrMolestationExclSpecifiedProfessionalServ.DescriptionOfProfessionalServices</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdAutomaticStatusForDesignatedOps">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdAutomaticStatusForDesignatedOps.DescriptionOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdConcessionaires">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdConcessionaires.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdConcessionaires.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdControllingInt">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdControllingInt.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdDesigntdPersonOrg">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdDesigntdPersonOrg.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdDesigntdPersonOrg.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdEngrsArchsSrvyrsNotEngagedInsd">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdEngrsArchsSrvyrsNotEngagedInsd.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdEngrsArchsSrvyrsNotEngagedInsd.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdGrantorFranchise">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdGrantorFranchise.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdGrantorFranchise.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdGrantorLicenses">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdGrantorLicenses.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdGrantorOfFranchiseLiquorLiab">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="NamesOfPersonsOrOrganizations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdGrantorOfFranchiseLiquorLiab.NamesOfPersonsOrOrganizations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdLessorLeasedEquipmt">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdLessorLeasedEquipmt.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdLessorLeasedEquipmt.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationID">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg.LocationID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdSponsorsLiquorLiab">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfEventOrFunction">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdSponsorsLiquorLiab.DescriptionOfEventOrFunction</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NamesOfPersonsOrOrganizations">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdSponsorsLiquorLiab.NamesOfPersonsOrOrganizations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  
+  <Clause pattern="GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="StateGovernmentalAgencyPoliticalSubdivision">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe.StateGovernmentalAgencyPoliticalSubdivision</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdStatePolitlSubdPermits">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="StatePoliticalSubdivision">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdStatePolitlSubdPermits.StatePoliticalSubdivision</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdStatePolitlSubdPermitsOwnersContractors">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="StatePoliticalSubdivision">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdStatePolitlSubdPermitsOwnersContractors.StatePoliticalSubdivision</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdStatePolitlSubdPermitsRelatingPrem">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="StatePoliticalSubdivision">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdStatePolitlSubdPermitsRelatingPrem.StatePoliticalSubdivision</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdVendors">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="AdditionalInsured">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdVendors.AdditionalInsured</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AddressName">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdVendors.AddressName</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdVendors.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Products">
+      <Version>
+        <ColumnName>StringCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdVendors.Products</ColumnLabel>
+        <Required>false</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfCovTerritoryAdditionalScheduledCount">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SpecifiedAdditionalCountries">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfCovTerritoryAdditionalScheduledCount.SpecifiedAdditionalCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SpecifiedAdditionalCountries">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1.SpecifiedAdditionalCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifie">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SpecifiedExceptedCountries">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifie.SpecifiedExceptedCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SpecifiedExceptedCountries">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi1.SpecifiedExceptedCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi2">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SpecifiedExceptedCountries">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi2.SpecifiedExceptedCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmndmtOfCovTerrAddlSchddCountries">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfCovTerrAddlSchddCountries.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="SpecifiedAdditionalCountries">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfCovTerrAddlSchddCountries.SpecifiedAdditionalCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmndmtOfCovTerrWorldwideCovWithSpecdExcptns">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SpecifiedExceptedCountries">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfCovTerrWorldwideCovWithSpecdExcptns.SpecifiedExceptedCountries</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmndmtOfLiquorLiabExclExcptnScheddActivs">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfLiquorLiabExclExcptnScheddActivs.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfLiquorLiabExclExcptnScheddActivs.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmndmtOfLiquorLiabExclExcptnScheddActivsProdsCo">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfLiquorLiabExclExcptnScheddActivsProdsCo.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Act">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.Act</ColumnLabel>
+        <Required>true</Required>
+        <Priority>900</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ActDate">
+      <Version>
+        <ColumnName>DateCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.ActDate</ColumnLabel>
+        <Required>true</Required>
+        <Priority>1000</Priority>
+        <Type>Date</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DateOfAccident">
+      <Version>
+        <ColumnName>DateCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.DateOfAccident</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Date</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DescriptionOfAccident">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.DescriptionOfAccident</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.Location</ColumnLabel>
+        <Required>false</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationAddress">
+      <Version>
+        <ColumnName>LongStringCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.LocationAddress</ColumnLabel>
+        <Required>true</Required>
+        <Priority>500</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationDescription">
+      <Version>
+        <ColumnName>LongStringCol4</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.LocationDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>600</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationOfAccident">
+      <Version>
+        <ColumnName>LongStringCol5</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.LocationOfAccident</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ProductDescription">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.ProductDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>700</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ScheduleType">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.ScheduleType</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="WorkDescription">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs.WorkDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>800</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7Boats">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfWatercraft">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Boats.DescriptionOfWatercraft</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ConstrctnProjMngmtProtvLiabCov">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="ArchitectEngineerSurveyorID">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.ArchitectEngineerSurveyorID</ColumnLabel>
+        <Required>false</Required>
+        <Priority>500</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ConstructionManagerID">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.ConstructionManagerID</ColumnLabel>
+        <Required>false</Required>
+        <Priority>600</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ContractorID">
+      <Version>
+        <ColumnName>StringCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.ContractorID</ColumnLabel>
+        <Required>false</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DesignatedConstructionProjectDescription">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.DesignatedConstructionProjectDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DesignatedConstructionProjectLocation">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.DesignatedConstructionProjectLocation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>150</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="OwnerID">
+      <Version>
+        <ColumnName>StringCol4</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.OwnerID</ColumnLabel>
+        <Required>false</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="TypeOfBusiness">
+      <Version>
+        <ColumnName>LongStringCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ConstrctnProjMngmtProtvLiabCov.TypeOfBusiness</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ContractualLiabRailroads">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedJobSite">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ContractualLiabRailroads.DesignatedJobSite</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Railroad">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ContractualLiabRailroads.Railroad</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7DesignatedConstrctnProjGeneralAggLimit">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedConstructionProject">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7DesignatedConstrctnProjGeneralAggLimit.DesignatedConstructionProject</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7DesignatedConstrctnProjGeneralAggLimit.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7DesignatedProjectsAggLimit">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedProjects">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7DesignatedProjectsAggLimit.DesignatedProjects</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7DesignatedProjectsProdsCompldOpsAggLimit">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedProjects">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7DesignatedProjectsProdsCompldOpsAggLimit.DesignatedProjects</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>TextArea</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7EarthMovementExclForDesignatedOpsOrProjects">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperationsOrProjects">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7EarthMovementExclForDesignatedOpsOrProjects.DescriptionOfOperationsOrProjects</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclAthleticSportsParticipants">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclAthleticSportsParticipants.DescriptionOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedOngoingOps">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperation">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOngoingOps.DescriptionOfOperation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="SpecifiedLocation">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOngoingOps.SpecifiedLocation</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedOpsCovByAControlledWrapUpInsProgr">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionAndLocationsOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProgr.DescriptionAndLocationsOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionAndLocationsOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg1.DescriptionAndLocationsOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg2">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionAndLocationsOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg2.DescriptionAndLocationsOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedOpsCovByConsolidatedWrapUpInsProg">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOpsCovByConsolidatedWrapUpInsProg.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedOpsCovByConsolidatedWrapUpInsProg.Location</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedProds">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedProducts">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedProds.DesignatedProducts</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedProfessionalServices">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedProfessionalServices.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDesignatedWork">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfWork">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDesignatedWork.DescriptionOfWork</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclMedPayCovInmatesPatientsPrisoners">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Operations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclMedPayCovInmatesPatientsPrisoners.Operations</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclPropertyEntrusted">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Operations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclPropertyEntrusted.Operations</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclServicesFurnishedByHealthCarePrvdrs">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclServicesFurnishedByHealthCarePrvdrs.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclSpecificAccidentsProdsWorkOrLocation">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="AccidentDate">
+      <Version>
+        <ColumnName>DateCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.AccidentDate</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>Date</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AccidentDescription">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.AccidentDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AccidentLocation">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.AccidentLocation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Act">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.Act</ColumnLabel>
+        <Required>true</Required>
+        <Priority>900</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ActDate">
+      <Version>
+        <ColumnName>DateCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.ActDate</ColumnLabel>
+        <Required>true</Required>
+        <Priority>1000</Priority>
+        <Type>Date</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AddressID">
+      <Version>
+        <ColumnName>StringCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.AddressID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>500</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Exclusion">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.Exclusion</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>StringCol4</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.Location</ColumnLabel>
+        <Required>false</Required>
+        <Priority>450</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationDescription">
+      <Version>
+        <ColumnName>StringCol5</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.LocationDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>600</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ProductDescription">
+      <Version>
+        <ColumnName>StringCol6</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.ProductDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>700</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="WorkDescription">
+      <Version>
+        <ColumnName>StringCol7</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocation.WorkDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>800</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="AccidentDate">
+      <Version>
+        <ColumnName>DateCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.AccidentDate</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>Date</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AccidentDescription">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.AccidentDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AccidentLocation">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.AccidentLocation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Act">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.Act</ColumnLabel>
+        <Required>true</Required>
+        <Priority>900</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ActDate">
+      <Version>
+        <ColumnName>DateCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.ActDate</ColumnLabel>
+        <Required>true</Required>
+        <Priority>1000</Priority>
+        <Type>Date</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="AddressID">
+      <Version>
+        <ColumnName>StringCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.AddressID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>500</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Exclusion">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.Exclusion</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>StringCol4</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.Location</ColumnLabel>
+        <Required>false</Required>
+        <Priority>450</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationDescription">
+      <Version>
+        <ColumnName>StringCol5</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.LocationDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>600</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ProductDescription">
+      <Version>
+        <ColumnName>StringCol6</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.ProductDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>700</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="WorkDescription">
+      <Version>
+        <ColumnName>StringCol7</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo.WorkDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>800</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclSpecifiedTherapeuticOrCosmeticSrvcs">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesciptionOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclSpecifiedTherapeuticOrCosmeticSrvcs.DesciptionOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclUndergroundResourcesAndEquip">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclUndergroundResourcesAndEquip.DescriptionOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclAthleticOrSportsParticipantsAllContestsOrEx">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclAthleticOrSportsParticipantsAllContestsOrEx.DescriptionOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7GeneticallyModifiedOrganismExclForDesignatedOps">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperation">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7GeneticallyModifiedOrganismExclForDesignatedOps.DescriptionOfOperation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DesignatedProducts">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7GeneticallyModifiedOrganismExclForDesignatedOps.DesignatedProducts</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7GeneticallyModifiedOrganismExclForDesignatedOp1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperation">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7GeneticallyModifiedOrganismExclForDesignatedOp1.DescriptionOfOperation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DesignatedProducts">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7GeneticallyModifiedOrganismExclForDesignatedOp1.DesignatedProducts</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LimitationOfCovToDesignatedPremOrProject">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfPremises">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LimitationOfCovToDesignatedPremOrProject.DescriptionOfPremises</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DescriptionOfProject">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LimitationOfCovToDesignatedPremOrProject.DescriptionOfProject</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LmtdContractualLiabCovPersonalAdvertisingInj">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedContractOrAgreement">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdContractualLiabCovPersonalAdvertisingInj.DesignatedContractOrAgreement</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LmtdContractualLiabRailroads">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedJobSite">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdContractualLiabRailroads.DesignatedJobSite</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ScheduledRailroad">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdContractualLiabRailroads.ScheduledRailroad</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LmtdExclDesignatedOpsCovByAControlledWrapUpInsP">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionAndLocationsOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpInsP.DescriptionAndLocationsOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionAndLocationsOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns1.DescriptionAndLocationsOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns2">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionAndLocationsOfOperations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns2.DescriptionAndLocationsOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7PesticideOrHerbicideApplicatorCov">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOps">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7PesticideOrHerbicideApplicatorCov.DescriptionOps</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>TextArea</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7PesticideOrHerbicideApplicatorCovOwnersContract">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOps">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7PesticideOrHerbicideApplicatorCovOwnersContract.DescriptionOps</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>TextArea</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7PollutionExclLmtdExceptionForDesigntdPollutants">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedPollutant">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7PollutionExclLmtdExceptionForDesigntdPollutants.DesignatedPollutant</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ProdsCompletedOpsHazardRedefined">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionPremisesOps">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ProdsCompletedOpsHazardRedefined.DescriptionPremisesOps</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ProflLiabExclSpasOrPersonalEnhancementFacilitie">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ProflLiabExclSpasOrPersonalEnhancementFacilitie.DescriptionOfOperations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7TotalPollutionExclForDesignatedProdsOrWork">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedProductOrDescriptionOfWork">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7TotalPollutionExclForDesignatedProdsOrWork.DesignatedProductOrDescriptionOfWork</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7TotalPollutionExclForDesignatedProdsOrWork.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>150</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7UndergroundResourcesAndEquipmtCov">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7UndergroundResourcesAndEquipmtCov.DescriptionOfOperations</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7WaiverOfTransferOfRightsOfRecoveryAgainstOthers">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOthers.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther5">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="NamesOfPersonsOrOrganizations">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther5.NamesOfPersonsOrOrganizations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7WaiverTransferRightsRecovery">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7WaiverTransferRightsRecovery.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="BodilyInjuryExcluded">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs.BodilyInjuryExcluded</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="PersonalAndAdvertisingInjuryExcluded">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs.PersonalAndAdvertisingInjuryExcluded</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="PropertyDamageExcluded">
+      <Version>
+        <ColumnName>OptionCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs.PropertyDamageExcluded</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="BodilyInjuryExcluded">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO.BodilyInjuryExcluded</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ExcludedProductsOrCompletedOps">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO.ExcludedProductsOrCompletedOps</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="PropertyDamageExcluded">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO.PropertyDamageExcluded</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="BodilyInjuryCoverage">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption.BodilyInjuryCoverage</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DescriptionOfLocOperationProdOrSrvcCovered">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption.DescriptionOfLocOperationProdOrSrvcCovered</ColumnLabel>
+        <Required>true</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>500</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="PersonalAndAdvertisingInjuryCoverage">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption.PersonalAndAdvertisingInjuryCoverage</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="PropertyDamageCoverage">
+      <Version>
+        <ColumnName>OptionCol3</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption.PropertyDamageCoverage</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="BodilyInjuryCoverage">
+      <Version>
+        <ColumnName>OptionCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds.BodilyInjuryCoverage</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="DescOfProdOrCompOpsToBeCovered">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds.DescOfProdOrCompOpsToBeCovered</ColumnLabel>
+        <Required>true</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>500</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="PropertyDamageCoverage">
+      <Version>
+        <ColumnName>OptionCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds.PropertyDamageCoverage</ColumnLabel>
+        <Required>false</Required>
+        <Priority>300</Priority>
+        <Type>Option</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdCoOwnerInsdPrem">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="LocationOfPremises">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdCoOwnerInsdPrem.LocationOfPremises</ColumnLabel>
+        <Required>false</Required>
+        <Priority>400</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdCoOwnerInsdPrem.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdMgrsLessorsPrem">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignationOfPremises">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdMgrsLessorsPrem.DesignationOfPremises</ColumnLabel>
+        <Required>false</Required>
+        <Priority>50</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdMgrsLessorsPrem.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>25</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdMgrsLessorsPrem.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdMortgageeAssigneeOrRecvr">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignationOfPremises">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdMortgageeAssigneeOrRecvr.DesignationOfPremises</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdMortgageeAssigneeOrRecvr.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdOwnersLesseesContrctrsCompldOpsLocLvl">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfCompletedOperation">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsCompldOpsLocLvl.DescriptionOfCompletedOperation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>300</Priority>
+        <Type>TextArea</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationOfCompletedOperation">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsCompldOpsLocLvl.LocationOfCompletedOperation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ManualPremium">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsCompldOpsLocLvl.ManualPremium</ColumnLabel>
+        <Required>true</Required>
+        <Priority>50</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsCompldOpsLocLvl.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdOwnersLesseesContrctrsCompletedOpsSubje">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="LocationAndDescription">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsCompletedOpsSubje.LocationAndDescription</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameOfAdditionalInsured">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersLesseesContrctrsCompletedOpsSubje.NameOfAdditionalInsured</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdOwnersManagersOrLessorsOfPremisesLiquor">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignationPremises">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersManagersOrLessorsOfPremisesLiquor.DesignationPremises</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NamesOfPersonsOrOrganizations">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersManagersOrLessorsOfPremisesLiquor.NamesOfPersonsOrOrganizations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddlInsdOwnersOrOtherIntsFromWhomLandLeased">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignationOfPremises">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersOrOtherIntsFromWhomLandLeased.DesignationOfPremises</ColumnLabel>
+        <Required>false</Required>
+        <Priority>50</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AddlInsdOwnersOrOtherIntsFromWhomLandLeased.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7DesignatedLocationsProdsCompldOpsAggLimit">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedLocations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7DesignatedLocationsProdsCompldOpsAggLimit.DesignatedLocations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7DesignatedLocsAggLimitProdsCompldOps">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DesignatedLocations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7DesignatedLocsAggLimitProdsCompldOps.DesignatedLocations</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclAllHazardsInConnectionWithDesignatedPrem">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclAllHazardsInConnectionWithDesignatedPrem.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationOfPremise">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclAllHazardsInConnectionWithDesignatedPrem.LocationOfPremise</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclDamageToWorkPerformedBySubcontractorsOnYou1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfDesignatedSiteOrOperation">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclDamageToWorkPerformedBySubcontractorsOnYou1.DescriptionOfDesignatedSiteOrOperation</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif.Description</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="ExcludedHazard">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif.ExcludedHazard</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif.Location</ColumnLabel>
+        <Required>false</Required>
+        <Priority>50</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpeci1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="CoveredHazard">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpeci1.CoveredHazard</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>StringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpeci1.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpeci1.Location</ColumnLabel>
+        <Required>false</Required>
+        <Priority>50</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclCovCMedPayLocClassLvl">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclCovCMedPayLocClassLvl.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclCovCMedPayLocClassLvl.Location</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7LimitationOfCovToInsuredPremisesLocLvl">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfPremises">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LimitationOfCovToInsuredPremisesLocLvl.DescriptionOfPremises</ColumnLabel>
+        <Required>false</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="LocationOfPremises">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7LimitationOfCovToInsuredPremisesLocLvl.LocationOfPremises</ColumnLabel>
+        <Required>false</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7ExclCovCMedPayLocClassLvl1">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="Description">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclCovCMedPayLocClassLvl1.Description</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="Location">
+      <Version>
+        <ColumnName>LongStringCol2</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7ExclCovCMedPayLocClassLvl1.Location</ColumnLabel>
+        <Required>true</Required>
+        <Priority>200</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <EffectiveDate>2019-12-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfDefinitionOfPollutants">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SubstancesOrMaterials">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfDefinitionOfPollutants.SubstancesOrMaterials.IN</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>TextArea</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <Jurisdiction>IN</Jurisdiction>
+        <EffectiveDate>2020-03-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AmendmentOfDefinitionOfPollutantsRailRoadCov">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="SubstancesOrMaterials">
+      <Version>
+        <ColumnName>StringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7AmendmentOfDefinitionOfPollutantsRailRoadCov.SubstancesOrMaterials.IN</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>TextArea</Type>
+        <ScheduledItemType>ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <Jurisdiction>IN</Jurisdiction>
+        <EffectiveDate>2020-03-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7PesticideOrHerbicideApplicatorCovForPropertyInC">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo>
+    <PropertyInfo name="DescriptionOfOperations">
+      <Version>
+        <ColumnName>LongStringCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7PesticideOrHerbicideApplicatorCovForPropertyInC.DescriptionOfOperations.OH</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>String</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <Jurisdiction>OH</Jurisdiction>
+        <EffectiveDate>2020-03-01</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+  <Clause pattern="GL7AddInsdTenantorLessee">
+    <AutoNumberPropertyInfo name="ScheduleNumber">
+      <ColumnName>ScheduleNumber</ColumnName>
+      <ColumnLabel>Web.Policy.Schedule.ScheduleNumber</ColumnLabel>
+      <Required>true</Required>
+      <Priority>1</Priority>
+    </AutoNumberPropertyInfo> 
+    <PropertyInfo name="NameID">
+      <Version>
+        <ColumnName>AdditionalInsured</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7TenantorLessee_Ext.NameID</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>AdditionalInsured</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2020-10-29</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+    <PropertyInfo name="RentedLeasedPercent">
+      <Version>
+        <ColumnName>DecimalCol1</ColumnName>
+        <ColumnLabel>Web.Policy.Schedule.GL7TenantorLessee_Ext.RentedLeasedPercent</ColumnLabel>
+        <Required>true</Required>
+        <Priority>100</Priority>
+        <Type>Decimal</Type>
+        <ScheduledItemType>GL7ScheduledItem</ScheduledItemType>
+        <IsKey>true</IsKey>
+        <EffectiveDate>2020-10-29</EffectiveDate>
+        <Available>true</Available>
+      </Version>
+    </PropertyInfo>
+  </Clause>
+</ScheduleConfig>

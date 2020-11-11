@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7LocationSchedCov" coveredPartyType="ThirdParty" public-id="GL7AddlInsdOwnersOrOtherIntsFromWhomLandLeased" priority="1500500" lookupTableName="GL7LocationCov" existence="Electable" owningEntityType="GL7Location" referenceDateByType="PolicyTerm" coverageCategory="GL7LocationAddlInsdGrp" codeIdentifier="GL7AddlInsdOwnersOrOtherIntsFromWhomLandLeased" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Location.isClauseAvailable("GL7AddlInsdOwnersOrOtherIntsFromWhomLandLeased");]]></AvailabilityScript>
+    <CovTerms/>
+</CoveragePattern>

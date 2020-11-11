@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Popup
+    countsAsWork="false"
+    id="GL7CoveragePatternSearchPopup"
+    returnType="gw.lob.gl7.presenters.GL7CoverageSearchPresenter.ClauseSpec[]"
+    title="presenter.Title">
+    <LocationEntryPoint
+      signature="GL7CoveragePatternSearchPopup(presenter : gw.lob.gl7.presenters.GL7CoverageSearchPresenter)"/>
+    <Variable
+      name="presenter"
+      type="gw.lob.gl7.presenters.GL7CoverageSearchPresenter"/>
+    <Screen
+      id="CoveragePatternSearchScreen">
+      <SearchPanel
+        cachingEnabled="false"
+        criteriaName="searchCriteria"
+        resultsName="clauseSpecs"
+        search="presenter.searchResults()"
+        searchCriteria="presenter.initializeSearchCriteria()"
+        searchCriteriaType="gw.productmodel.ClausePatternSearchCriteria"
+        searchOnEnter="false"
+        searchResultsType="gw.lob.gl7.presenters.GL7CoverageSearchPresenter.ClauseSpec[]">
+        <PanelRef
+          def="CoveragePatternSearchDV(presenter.SearchCriteria, presenter.PolicyLinePattern, presenter.CoverageCategories, true)"/>
+        <PanelRef
+          def="GL7CoveragePatternSearchResultsLV(clauseSpecs)">
+          <Toolbar>
+            <CheckedValuesToolbarButton
+              allCheckedRowsAction="presenter.addCoverages(CheckedValues); CurrentLocation.commit()"
+              id="AddCoverageButton"
+              iterator="GL7CoveragePatternSearchResultsLV.GL7CoveragePatternSearchResultsLV"
+              label="presenter.SearchActionLabel"/>
+          </Toolbar>
+        </PanelRef>
+      </SearchPanel>
+    </Screen>
+  </Popup>
+</PCF>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7SublineCov" xmlns="http://guidewire.com/datamodel">
+  <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm1" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+  <column desc="whether or not the ChoiceTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm2" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+  <column desc="whether or not the ChoiceTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm3" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+  <column desc="whether or not the ChoiceTerm3 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm3Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm4" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+  <column desc="whether or not the ChoiceTerm4 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm4Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm5"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm5Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm6"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm6Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm7"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm7Avl"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm1" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm8"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm8Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm9"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm9Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm10"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm10Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="patterncode" name="ChoiceTerm11"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="ChoiceTerm11Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="decimal" name="DirectTerm2">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="DirectTerm2Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="decimal" name="DirectTerm3">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="DirectTerm3Avl"/>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="decimal" name="DirectTerm4">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column getterScriptability="doesNotExist" nullok="true" setterScriptability="doesNotExist" type="bit" name="DirectTerm4Avl"/>
+</extension>

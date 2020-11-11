@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    afterCancel="formComparisonPresenter.revertChanges()"
+    canEdit="true"
+    id="StateUpdateFormDiffPopup"
+    startInEditMode="not formComparisonPresenter.ReadOnly"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.FormDetails.Title&quot;)">
+    <LocationEntryPoint
+      signature="StateUpdateFormDiffPopup(formComparisonPresenter : gw.sbt.pca.view.presenter.compare.FormComparisonPresenter)"/>
+    <Variable
+      name="formComparisonPresenter"
+      type="gw.sbt.pca.view.presenter.compare.FormComparisonPresenter"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons
+          cancelVisible="not formComparisonPresenter.ReadOnly"
+          editVisible="false"
+          updateVisible="not formComparisonPresenter.ReadOnly"/>
+      </Toolbar>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(formComparisonPresenter.DecisionAndInstructions, formComparisonPresenter.FullDescription, formComparisonPresenter.ReadOnly)"/>
+      <DetailViewPanel>
+        <InputColumn labelWidth="400">
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="Form"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Form&quot;)"
+            value="formComparisonPresenter.FullDescription" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="LatestAdoptedEffDate"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedEdition&quot;)"
+            value="formComparisonPresenter.AdoptedSBTEdition" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="EffDate"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.NewUpdateEdition&quot;)"
+            value="formComparisonPresenter.NewSBTEdition" valueType="java.lang.String"/>
+          <RangeInput
+            boldLabel="true"
+            editable="not formComparisonPresenter.ReadOnly and (formComparisonPresenter.DecisionAndInstructions.Decision == null or formComparisonPresenter.DecisionAndInstructions.Decision != gw.sbt.model.UpdateDecision.NOT_REQUIRED) "
+            id="Decision"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+            noneSelectedLabel="formComparisonPresenter.NoDecisionSelectedLabel"
+            value="formComparisonPresenter.Decision"
+            valueRange="gw.sbt.util.DisplayDescriptionHelper.UserSelectableComparisonDecisionDescriptions" valueType="java.lang.String"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <ListViewPanel
+        id="SampleTableLayoutLV">
+        <Row
+          renderAsSmartHeader="true">
+          <CellIterator
+            elementName="versionHeader"
+            id="VersionHeaders"
+            value="formComparisonPresenter.DetailsTableHeaderRow" valueType="java.util.List&lt;java.lang.String&gt;">
+            <TextCell
+              id="VersionHeader"
+              value="versionHeader" valueType="java.lang.String"/>
+          </CellIterator>
+        </Row>
+        <RowIterator
+          editable="false"
+          elementName="row"
+          value="formComparisonPresenter.DetailsTableRows" valueType="java.util.List&lt;gw.sbt.pca.view.presenter.compare.FormComparisonPresenter.DetailsRow&gt;">
+          <Row>
+            <TextCell
+              id="PropertyLabel"
+              value="row.Label"/>
+            <CellIterator
+              desc=","
+              elementName="value"
+              value="row.Values" valueType="java.util.List&lt;java.lang.String&gt;">
+              <TextCell
+                id="PropertyValue"
+                value="value"
+                fontColor="row.ValueColor"/>
+            </CellIterator>
+          </Row>
+        </RowIterator>
+      </ListViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

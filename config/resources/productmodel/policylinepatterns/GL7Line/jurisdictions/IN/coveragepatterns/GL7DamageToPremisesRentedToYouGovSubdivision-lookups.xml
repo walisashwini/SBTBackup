@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zc6hmuum8nu91dnrm5i17nrc5r9">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7DamageToPremisesRentedToYouGovSubdivision</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zfnigb37kc08nb3j31ue9f00tab">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7LimitGovSubdivision</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermOptLookup public-id="z6djcqnve27q46468ru5uu7vk89">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitGovSubdivision</CovTermPatternCode>
+    <CovTermOptCode>z09imd4uhoc8gaklqlfenjjkhub</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z47jm9bgtqgqc2mc3pc2gtgscd9">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitGovSubdivision</CovTermPatternCode>
+    <CovTermOptCode>zg2islh6ak1rla2bgtme1nssed8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+</import>

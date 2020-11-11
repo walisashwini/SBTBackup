@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7NumPassgrFreightTrains public-id="zbohqs2f5m7nf8hnoglcfp7th49">
+    <Value>5 or Less</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="z34i4oim2v9mh7920bprb1tc4ub">
+    <Value>6 - 20</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="z2sgkc5j110enbtjfk5aoggmfrb">
+    <Value>21 - 40</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="z1piaj6goiuvu4n1m15krv5ipa9">
+    <Value>41 - 60</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="znmg82gjlfg35a66ssj463h0m58">
+    <Value>61 - 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zr0g6hadngb7jen88bi81g25ci9">
+    <Value>Over 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zrbjma7r1lm75cmt4gqgkfhqcu9">
+    <Value>5 or Less</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zl4h67vmt3bfncjoqrsqrp3op38">
+    <Value>6 - 20</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zonieuhtg2b9167ns3sessnq5t8">
+    <Value>21 - 40</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zlqjcea82a0k9efhk7324glh8j9">
+    <Value>41 - 60</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zcugo92qb9450d5ngt83pfnlf2a">
+    <Value>61 - 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zscj8qnlp34t80e1f2eupvm5c8b">
+    <Value>Over 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zlhhsigb113jl2c6htets6l5tp9">
+    <Value>5 or Less</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zjuhmqkgnet19effepfu3iv1en8">
+    <Value>6 - 20</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zr1hkm7sd6h0rbp98266gg08nl8">
+    <Value>21 - 40</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zd1gs4mrtvg4r69jkqvbpq0lm9a">
+    <Value>41 - 60</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zhhhehddi0sqc7n6j5tft6krlh9">
+    <Value>61 - 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zvugaj8p5ko38eg4d87g5t4qskb">
+    <Value>Over 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+  <GL7NumPassgrFreightTrains public-id="zqdi2g2k554ks9p6udleiilvjh8">
+    <Value>Not Applicable</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeRailroad>40014</ClassCodeRailroad>
+  </GL7NumPassgrFreightTrains>
+</import>

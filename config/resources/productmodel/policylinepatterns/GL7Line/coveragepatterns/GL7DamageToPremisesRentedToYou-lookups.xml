@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zfvj21nac1ljdb44lqhutnrtfq9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7DamageToPremisesRentedToYou</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="z1ajsh1rvogb4ds83fsips9p798">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7Limit</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="zuljsd5uvueba5l8atgd9lqkj78">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7Limit</CovTermPatternCode>
+        <CovTermOptCode>zvpicu20a87go3cj0oh1k77preb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zb6g8nh04dopc4ns373d6p4tvqa">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7Limit</CovTermPatternCode>
+        <CovTermOptCode>zmuggtj6apslb4b7i73nf9j2pcb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="ztvj231c9aveh0mee61e9svideb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7Limit</CovTermPatternCode>
+        <CovTermOptCode>z40ha0qjdq2tr2avm3165ia2rpa</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z9fj45ko6p1cu1isidpin0ija69">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7Limit</CovTermPatternCode>
+        <CovTermOptCode>zqljen2lqr14h1400nt1iu190i8</CovTermOptCode>
+    </CovTermOptLookup>
+</import>

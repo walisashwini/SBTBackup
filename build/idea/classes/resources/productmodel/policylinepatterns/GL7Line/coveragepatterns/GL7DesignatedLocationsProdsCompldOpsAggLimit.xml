@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7LocationSchedCov" coveredPartyType="ThirdParty" public-id="GL7DesignatedLocationsProdsCompldOpsAggLimit" priority="1521000" lookupTableName="GL7LocationCov" existence="Electable" owningEntityType="GL7Location" referenceDateByType="PolicyTerm" coverageCategory="GL7LocationAddlGrp" codeIdentifier="GL7DesignatedLocationsProdsCompldOpsAggLimit" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Location.isClauseAvailable("GL7DesignatedLocationsProdsCompldOpsAggLimit");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7LocationCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium249" required="true" codeIdentifier="GL7ManualPremium249"/>
+    </CovTerms>
+</CoveragePattern>

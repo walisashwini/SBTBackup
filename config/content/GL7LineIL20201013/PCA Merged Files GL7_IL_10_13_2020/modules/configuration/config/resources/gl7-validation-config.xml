@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ValidationConfig xsi:noNamespaceSchemaLocation="validation-config.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Container name="GL7SublineType" type="Coverable">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_4e13</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7dc3</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_f3b9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8ca0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_9e44</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_c151</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_5b8c</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7752</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_298e</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7512</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a51c</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_44ed</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_3935</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_1cf0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_d267</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_c929</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_73e7</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ef9d</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_5faa</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ece1</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.il.v09012020.GL7_ER_a207</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_525e</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_fc14</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8455</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_28f2</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_839d</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_4f61</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_f279</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_036a</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a4f0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_e847</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ba61</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_4a0a</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7e47</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ced5</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_91e5</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a913</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_34d8</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_f7e0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ba21</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_2092</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_2cea</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_6614</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a331</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_0f61</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_d408</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_3bd9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8801</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_40f9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_6814</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_5a83</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_3e64</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8dc5</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_e3d2</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8229</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a218</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_53a9</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7PrincipalsProtectiveLiabCov_ER_db55</Validator>
+    </Version>
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_4e13</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7dc3</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_f3b9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8ca0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_9e44</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_c151</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_5b8c</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7752</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_298e</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7512</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a51c</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_44ed</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_3935</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_24e0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_1cf0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_d267</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_c929</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_73e7</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ef9d</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_5faa</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ece1</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a207</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_525e</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_fc14</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8455</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_28f2</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_839d</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_4f61</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_f279</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_036a</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a4f0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_e847</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ba61</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_4a0a</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_7e47</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ced5</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_91e5</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a913</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_34d8</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_f7e0</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_ba21</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_2092</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_2cea</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_6614</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a331</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_0f61</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_d408</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_3bd9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8801</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_40f9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_6814</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_5a83</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_3e64</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8dc5</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_e3d2</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_8229</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_a218</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_53a9</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.ia.v12012019.GL7_ER_2c48</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7PrincipalsProtectiveLiabCov_ER_db55</Validator>
+    </Version>
+  </Container>
+  <Container name="GL7Subline" type="Coverable">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_2d79</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.il.v09012020.GL7_ER_4ad7</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.il.v09012020.GL7_ER_0eab</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.il.v09012020.GL7_ER_8529</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.il.v09012020.GL7_ER_d9bc</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.il.v09012020.GL7_ER_8d8a</Validator>
+    </Version>
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.cw.v12012019.GL7_ER_2d79</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.ia.v12012019.GL7_ER_a19f</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.ia.v12012019.GL7_ER_7444</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.ia.v12012019.GL7_ER_a041</Validator>
+      <Validator quoteTime="false">gw.lob.gl7.validations.generated.ia.v12012019.GL7_ER_e7ba</Validator>
+    </Version>
+  </Container>
+  <Container name="GL7UnmannedAircraft" type="Coverable">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_32b4</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_7feb</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_02fe</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_b611</Validator>
+    </Version>
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_32b4</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_7feb</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_02fe</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7UnmannedAircraft_ER_b611</Validator>
+    </Version>
+  </Container>
+  <Container name="GL7Exposure" type="Coverable">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_d1aa</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_caa9</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_f0fb</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_daad</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_7913</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9eff</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_bf27</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_1bbf</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_4b32</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9d9f</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_31c5</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9904</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_827f</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_de2d</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_4712</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_b144</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_1916</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_ca01</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_f744</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_5f16</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_1e74</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_fb0c</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_8ab8</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_c668</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_b27b</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_c3cf</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9aa6</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_f915</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_4bf6</Validator>
+    </Version>
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_d1aa</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_caa9</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_f0fb</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_daad</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_7913</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9eff</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_bf27</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_1bbf</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_4b32</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9d9f</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_31c5</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9904</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_827f</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_de2d</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_4712</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_b144</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_1916</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_ca01</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_f744</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_5f16</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_1e74</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_fb0c</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_8ab8</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_c668</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_b27b</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_c3cf</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_9aa6</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_f915</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.cw.v12012019.GL7Classification_ER_4bf6</Validator>
+    </Version>
+  </Container>
+  <Container name="GL7Location" type="Coverable">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.il.v09012020.GL7Location_ER_5912</Validator>
+      <Validator quoteTime="true">gw.lob.gl7.validations.generated.il.v09012020.GL7Location_ER_9594</Validator>
+    </Version>
+  </Container>
+</ValidationConfig>

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../../pcf.xsd">
+  <CardViewPanel
+    id="GL7UnmannedAircraftsCV">
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="presenter"
+      type="gw.lob.gl7.presenters.GL7UnmannedAircraftPresenter"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageCategories"
+      type="gw.lob.gl7.GL7Category.CoverableCoverageCategories"/>
+    <Variable
+      initialValue="gw.lob.gl7.GL7Category"
+      name="category"
+      type="Type&lt;gw.lob.gl7.GL7Category&gt;"/>
+    <Variable
+      initialValue="presenter.UnmannedAircraft"
+      name="coverable"
+      type="entity.GL7UnmannedAircraft"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="coverable == null ? {} : coverageCategories.StandardCoverage.availableCoveragePatternsForCoverable(coverable, openForEdit)"
+      name="clausePatterns"
+      recalculateOnRefresh="true"
+      type="gw.api.productmodel.ClausePattern[]"/>
+    <Variable
+      initialValue="new gw.lob.gl7.synchronizer.GL7LobCoverageHelper()"
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Variable
+      initialValue="new gw.lob.common.schedules.LobScheduledItemHelper()"
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Card
+      id="DetailsCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.DetailsAndCoverages&quot;)">
+      <PanelRow>
+        <PanelColumn>
+          <PanelRef>
+            <TitleBar
+              title="DisplayKey.get(&quot;Web.Policy.GL7.Details&quot;)"/>
+            <DetailViewPanel>
+              <InputColumn>
+                <InputSet
+                  id="UnmannedAircraftDetails">
+                  <TextInput
+                    id="Subline"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft.Subline&quot;)"
+                    value="presenter.SublineType"
+                    valueType="entity.GL7SublineType"/>
+                  <RangeInput
+                    editable="openForEdit"
+                    id="Location"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft.Location&quot;)"
+                    required="true"
+                    value="presenter.Location"
+                    valueType="entity.PolicyLocation"
+                    valueRange="presenter.validLocations(policyPeriod.GL7Line)">
+                    <PostOnChange/>
+                  </RangeInput>
+                  <RangeInput
+                    editable="openForEdit"
+                    visible = "presenter.IsLocationSet"
+                    id="ClassCode"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft.ClassCode&quot;)"
+                    required="true"
+                    value="presenter.ClassCode"
+                    valueType="java.lang.String"
+                    valueRange="presenter.ValidClassCodes">
+                    <PostOnChange/>
+                  </RangeInput>
+                  <TextInput
+                    visible = "presenter.IsLocationSet"
+                    id="ClassDescription"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft.ClassDescription&quot;)"
+                    value="presenter.ClassDescription"
+                    valueType="java.lang.String"/>
+                  <TextInput
+                    visible = "presenter.IsClassCodeSet"
+                    id="UnmannedAircraftNumber"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft.SequenceLabel&quot;)"
+                    value="presenter.UnmannedAircraftNumber"
+                    valueType="java.lang.Integer"/>
+                </InputSet>
+              </InputColumn>
+            </DetailViewPanel>
+          </PanelRef>
+          <PanelRef
+            def="LobEntityDV(presenter.UnmannedAircraft, gw.lob.gl7.displayable.GL7UnmannedAircraftDisplayable, jobWizardHelper, openForEdit)"
+            visible="presenter.IsClassCodeSet"/>
+        </PanelColumn>
+        <PanelColumn>
+          <PanelRef
+            def="LobClausesDV(coverable, clausePatterns, jobWizardHelper, coverageHelper, scheduledItemHelper, new gw.lob.gl7.GL7AdditionalInsuredHelper())"
+            editable="true">
+            <TitleBar
+              title="DisplayKey.get(&quot;Web.Policy.GL7.Coverages&quot;)"/>
+          </PanelRef>
+        </PanelColumn>
+      </PanelRow>
+    </Card>
+  </CardViewPanel>
+</PCF>

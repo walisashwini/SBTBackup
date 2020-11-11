@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="GL7ExposuresPanelSet">
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="policyPeriod.GL7Line"
+      name="line"
+      type="GL7GeneralLiabilityLine"/>
+    <PanelRef>
+      <Toolbar>
+        <ToolbarButton
+          id="AddExposureBtn"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.Add&quot;)"
+          visible="openForEdit">
+          <MenuItemIterator
+            elementName="subline"
+            value="gw.lob.gl7.presenters.GL7CoverablePerSubline.forSublinesOn(line).SublineSortedCoverables"
+            valueType="entity.GL7SublineType[]">
+            <MenuItem
+              action="GL7ExposurePopup.push(policyPeriod, gw.lob.gl7.presenters.GL7ExposurePresenter.createWithNewExposure(policyPeriod, subline), openForEdit, jobWizardHelper)"
+              id="Item"
+              label="subline.Subline"/>
+          </MenuItemIterator>
+        </ToolbarButton>
+        <IteratorButtons
+          addVisible="false"
+          iterator="ExposureLV"
+          removeConfirmMessage="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.RemovalMessage&quot;)"/>
+        <CheckedValuesToolbarButton
+          allCheckedRowsAction="splitExposure(CheckedValues)"
+          confirmMessage="DisplayKey.get(&quot;Web.Policy.GL.ExposureUnits.Confirm.SplitExposures&quot;)"
+          hideIfReadOnly="true"
+          id="Split"
+          iterator="ExposureLV"
+          label="DisplayKey.get(&quot;Button.Split&quot;)"
+          visible="policyPeriod.Job typeis PolicyChange"/>
+        <CheckedValuesToolbarButton
+          allCheckedRowsAction="endExposure(CheckedValues)"
+          confirmMessage="DisplayKey.get(&quot;Web.Policy.GL.ExposureUnits.Confirm.EndExposures&quot;)"
+          hideIfReadOnly="true"
+          id="End"
+          iterator="ExposureLV"
+          label="DisplayKey.get(&quot;Button.End&quot;)"
+          visible="policyPeriod.Job typeis PolicyChange"/>
+      </Toolbar>
+      <ListDetailPanel
+        id="ExposureLDV"
+        selectionName="selectedExposurePresenter"
+        selectionType="gw.lob.gl7.presenters.GL7ExposurePresenter">
+        <ListViewPanel
+          id="ExposureLV">
+          <RowIterator
+            editable="true"
+            elementName="exposurePresenter"
+            hasCheckBoxes="true"
+            hideCheckBoxesIfReadOnly="true"
+            toRemove="exposurePresenter.removeFromPolicy()"
+            value="line.GL7ExposuresWM.map(\ exposure -&gt; gw.lob.gl7.presenters.GL7ExposurePresenter.create(exposure))"
+            valueType="gw.lob.gl7.presenters.GL7ExposurePresenter[]">
+            <IteratorSort
+              sortBy="exposurePresenter.LocationWM"
+              sortOrder="1"/>
+            <IteratorSort
+              sortBy="gw.lob.gl7.presenters.GL7PresenterUtil.SortedSublines.indexOf(exposurePresenter.SublineType.Subline)"
+              sortOrder="2"/>
+            <IteratorSort
+              sortBy="exposurePresenter.ExposureSliced.ClassCode"
+              sortOrder="3"/>
+            <IteratorSort
+              sortBy="exposurePresenter.EffectiveDate"
+              sortOrder="4"/>
+            <Row
+              editable="exposurePresenter.IsEditEffective">
+              <DateCell
+                action="GL7ExposurePopup.push(policyPeriod, exposurePresenter, openForEdit and exposurePresenter.IsEditEffective, jobWizardHelper)"
+                id="EffectiveDate"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.EffectiveDate&quot;)"
+                value="exposurePresenter.EffectiveDate"/>
+              <DateCell
+                action="GL7ExposurePopup.push(policyPeriod, exposurePresenter, openForEdit and exposurePresenter.IsEditEffective, jobWizardHelper)"
+                id="ExpirationDate"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ExpirationDate&quot;)"
+                value="exposurePresenter.ExpirationDate"/>
+              <TextCell
+                id="Subline"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.Subline&quot;)"
+                value="exposurePresenter.SublineType"
+                valueType="entity.GL7SublineType"/>
+              <TextCell
+                id="Location"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.Location&quot;)"
+                required="true"
+                value="exposurePresenter.LocationWM"
+                valueType="entity.PolicyLocation"/>
+              <TextCell
+                action="GL7ExposurePopup.push(policyPeriod, exposurePresenter, openForEdit and exposurePresenter.IsEditEffective, jobWizardHelper)"
+                id="ClassCode"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ClassCode&quot;)"
+                value="exposurePresenter.ClassCode"/>
+              <TextCell
+                action="GL7ExposurePopup.push(policyPeriod, exposurePresenter, openForEdit and exposurePresenter.IsEditEffective, jobWizardHelper)"
+                id="Description"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ClassDescription&quot;)"
+                value="exposurePresenter.ClassDescription"/>
+              <TextCell
+                id="Exposure"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ExposureAmount&quot;)"
+                tooltip="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ExposureAmount.Tooltip&quot;)"
+                value="exposurePresenter.ExposureAmount"
+                valueType="java.lang.Long"/>
+              <TextCell
+                id="ProdsExposure"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ProdsCompltdOpsExposureAmount&quot;)"
+                value="exposurePresenter.ProdsCompltdOpsExposureAmount"
+                valueType="java.lang.Long"/>
+              <TextCell
+                id="PremiumBasis"
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.PremiumBasis&quot;)"
+                value="exposurePresenter.PremiumBasis"/>
+            </Row>
+          </RowIterator>
+        </ListViewPanel>
+        <PanelRef
+          def="GL7ExposureCV(policyPeriod, selectedExposurePresenter, false, jobWizardHelper, gw.lob.gl7.GL7Category.CategoriesForExposure)"
+          editable="false"
+          visible="selectedExposurePresenter != null"/>
+      </ListDetailPanel>
+    </PanelRef>
+    <Code><![CDATA[uses pcf.api.Wizard
+uses gw.lob.gl7.presenters.GL7ExposurePresenter
+
+function endExposure(presenters : GL7ExposurePresenter[]){
+  if((CurrentLocation as Wizard).saveDraft()){ // to keep the data up-to-date before changing LV PL-5377
+    for(presenter in presenters) {
+      presenter.endExposureWM()
+    }
+  }
+}
+
+function splitExposure(presenters : GL7ExposurePresenter[]){
+  if((CurrentLocation as Wizard).saveDraft()){ // to keep the data up-to-date before changing LV PL-5377
+    for(presenter in presenters) {
+      presenter.splitExposureWM()
+    }
+  }
+}]]></Code>
+  </PanelSet>
+</PCF>

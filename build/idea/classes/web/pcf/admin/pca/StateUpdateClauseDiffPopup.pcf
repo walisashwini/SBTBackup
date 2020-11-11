@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    afterCancel="clauseComparisonPresenter.revertChanges()"
+    canEdit="true"
+    id="StateUpdateClauseDiffPopup"
+    startInEditMode="not clauseComparisonPresenter.ReadOnly"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClauseDetails.Title&quot;)">
+    <LocationEntryPoint
+      signature="StateUpdateClauseDiffPopup(clauseComparisonPresenter : gw.sbt.pca.view.presenter.compare.ClauseComparisonPresenter, newSBTUpdateEdition : String, adoptedSBTUpdateEdition: String)"/>
+    <Variable
+      name="newSBTUpdateEdition"
+      type="String"/>
+    <Variable
+      name="adoptedSBTUpdateEdition"
+      type="String"/>
+    <Variable
+      name="clauseComparisonPresenter"
+      type="gw.sbt.pca.view.presenter.compare.ClauseComparisonPresenter"/>
+    <Variable
+      initialValue="clauseComparisonPresenter.getTreeRootNode()"
+      name="treeRootNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Screen
+      editable="true">
+      <Toolbar>
+        <EditButtons
+          cancelVisible="not clauseComparisonPresenter.ReadOnly"
+          editVisible="false"
+          updateVisible="not clauseComparisonPresenter.ReadOnly"/>
+      </Toolbar>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(clauseComparisonPresenter.DecisionAndInstructions, clauseComparisonPresenter.Description, clauseComparisonPresenter.ReadOnly)"/>
+      <DetailViewPanel>
+        <InputColumn
+          labelWidth="400">
+          <TextInput
+            align="left"
+            id="clauselabel"
+            boldLabel="true"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClauseDetails.Label&quot;)"
+            value="clauseComparisonPresenter.Description" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            id="LatestAdoptedEffDate"
+            boldLabel="true"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedEdition&quot;)"
+            value="adoptedSBTUpdateEdition" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            id="EffDate"
+            boldLabel="true"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.NewUpdateEdition&quot;)"
+            value="newSBTUpdateEdition" valueType="java.lang.String"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelSet
+        visible="treeRootNode.Children.HasElements">
+        <PanelRef
+          def="ClauseDetailsComparisonPanelSet(treeRootNode, true, newSBTUpdateEdition, adoptedSBTUpdateEdition)"/>
+      </PanelSet>
+    </Screen>
+  </Popup>
+</PCF>

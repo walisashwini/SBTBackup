@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7ExclUnmannedAircraft" priority="1003000" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclUnmannedAircraft" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclUnmannedAircraft");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium103" required="true" codeIdentifier="GL7ManualPremium103"/>
+    </CovTerms>
+</ExclusionPattern>

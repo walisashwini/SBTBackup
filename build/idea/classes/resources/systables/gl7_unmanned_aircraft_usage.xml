@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftUsage public-id="z1ui8q5iij2mr5llip696saq6r8">
+    <Value>Aerial photography, surveillance, inspection, survey, data collection, media services</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zsiiocot2e5c98p667it1l3qeba">
+    <Value>Firefighting, search and rescue, and other emergency services</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="z28h2403msomiajlnitmrf3m71b">
+    <Value>Crop spraying, dispersing of chemicals</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zdkgere8uhomn714evsm2cp87k9">
+    <Value>Internet access, other communication services</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zg5ju8vi20jrp13913me2f99508">
+    <Value>Delivery of goods or merchandise, transport of cargo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zmhhghbt5ldmaedjeamobpisia8">
+    <Value>Weather and environmental monitoring (including storm monitoring)</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="z20haiaef7tr4f4tnlcoovu9kub">
+    <Value>Education and Research </Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zu4je8qbn77bhfqdh7vghnjh9g9">
+    <Value>Operator/Pilot training</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zs8hko20onrubbk52nh6jrpp53a">
+    <Value>Entertainment and demonstrations, special events, sports (including drone racing)</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="z0gho2f742mcna7ou62hb8tlbb9">
+    <Value>Towing signs or banners, pulling twine or cable, or distribution of materials</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="zp6g40r1026tmf941c16phh0q5a">
+    <Value>Manufacturing, sales, repair or rental of unmanned aircraft - testing or demonstration operations</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+  <GL7UnmannedAircraftUsage public-id="z4ujehqo6gbi1bpfeank1cgbbna">
+    <Value>Other Usage, not otherwise classified</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftUsage>
+</import>

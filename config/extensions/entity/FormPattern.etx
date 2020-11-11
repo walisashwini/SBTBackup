@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="FormPattern">
+  <array
+    arrayentity="FormPatternClauseCode"
+    cascadeDelete="true"
+    desc="Clause codes associated with this form pattern."
+    name="FormPatternClauseCodes"
+    owner="true"/>
+  <array
+    arrayentity="FormPatternTypeKey"
+    cascadeDelete="true"
+    desc="Typekeys associated with this form pattern."
+    name="CoverableTypeKeys"
+    owner="true"/>
+  <array
+    arrayentity="FormPatternSysTableValue"
+    desc="SysTable values associated with this pattern"
+    name="CoverableSysTableValues"/>
+  <column
+    desc="Name of the System Table field on CoverableType used to infer this form (used by MultipleCoverableSysTableValuesSelectionForm)."
+    name="CoverableSysTable"
+    nullok="true"
+    type="shorttext"/>
+  <column
+    desc="Must the CoverableSystableValue values be selected on all instances of the coverable on this form's policy line? (used by MultipleCoverableSysTableSelectionForm)"
+    name="CovSysTableValueExistsOnAll"
+    nullok="true"
+    type="bit"/>
+</extension>

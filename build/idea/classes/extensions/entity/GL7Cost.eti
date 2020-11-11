@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  abstract="true"
+  desc="A unit of premium or other cost (taxes, fees, etc.) for the General Liability line."
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7Cost"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7cost"
+  type="effdated">
+  <implementsInterface
+    iface="gw.lob.common.financials.LobCostMethods"
+    impl="gw.lob.gl7.financials.GL7CostMethodsImpl"/>
+  <implementsEntity
+    name="Cost"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.CostAdapter"
+    impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+  <foreignkey
+    fkentity="GL7GeneralLiabilityLine"
+    name="GL7Line"
+    nullok="false"/>
+  <array
+    arrayentity="GL7Transaction"
+    cascadeDelete="true"
+    getterScriptability="doesNotExist"
+    name="Transactions"
+    setterScriptability="hidden"/>
+</entity>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <InputSet
+    id="LobInputSet"
+    visible="visible">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <Variable
+      initialValue="displayable.Editable"
+      name="editable"
+      recalculateOnRefresh="true"
+      type="boolean"/>
+    <Variable
+      initialValue="displayable.Visible"
+      name="visible"
+      recalculateOnRefresh="true"
+      type="boolean"/>
+    <Variable
+      initialValue="displayable.InputSetMode"
+      name="inputMode"
+      recalculateOnRefresh="true"
+      type="String"/>
+    <InputSetRef
+      def="LobInternalInputSet(displayable)"
+      editable="editable"
+      mode="inputMode"/>
+  </InputSet>
+</PCF>

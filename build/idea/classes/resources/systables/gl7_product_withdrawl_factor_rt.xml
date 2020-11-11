@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ProductWithdrawlFactor public-id="zokhgagmihnpuermdhgg6a5k368">
+    <Value>0.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+  </GL7ProductWithdrawlFactor>
+  <GL7ProductWithdrawlFactor public-id="z0sg6pfv5vt0t70f2ndcqmr0nr9">
+    <Value>0.15</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+  </GL7ProductWithdrawlFactor>
+  <GL7ProductWithdrawlFactor public-id="zb9igk1im08gf21sc1791c3ko88">
+    <Value>0.1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+  </GL7ProductWithdrawlFactor>
+</import>

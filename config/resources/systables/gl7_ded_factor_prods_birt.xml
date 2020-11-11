@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7DedFactorProdsBIRT public-id="zfpjurg6cufh58hgn062ndr628b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>No Deductible</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zofg0nlolqhgtd6gk2667rogh6b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>250 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z6sh01g5sjqr0a1kkmb85igmie9">
+    <Value>0.006</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>250 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zkpg2ngai2et2dovnvjhj0tkmva">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>500 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zmih8d386eo1jdcuumc768re6f9">
+    <Value>0.011</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>500 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z1qg8f5mj69i91gq3chkvpifhlb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>750 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zuohi7v94uncb4anshva4eqqe68">
+    <Value>0.014</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>750 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z32geo98aa6hbds2u35uf0mumqb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>1,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z4lhq890ark8q6khku2rg27ugpa">
+    <Value>0.018</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>1,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z9oicercm7ecdd97hreh5e8fu88">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>2,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z3fh6ajtmjbk6ah85q0ouq3j7bb">
+    <Value>0.032</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>2,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zqujip8ie9l06e43cvt8n3mtng9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>3,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zh9g0srk3j70782q059b942d7da">
+    <Value>0.04</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>3,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zrggk6piaf089asbjmc5b6i3m38">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>4,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zknhcsp6mmqjvd4hdbl4u58s8e8">
+    <Value>0.048</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>4,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z8djkvcvf9lrs2j8c6rvem01a58">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>5,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zsnis1hj8vruifr9igtokk0bvl8">
+    <Value>0.054</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>5,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zgdgu85lk9672302k191h7vqfga">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>10,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zr7j8tb5jngi9fealiqvnfcnvoa">
+    <Value>0.076</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>10,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zluh2qfpre6t88abfln7vs8tlsb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>15,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zg7imlj1rvhlc4kq6vdkgaop3j9">
+    <Value>0.092</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>15,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z1sjecb7gt8la6jd2jpg5638jva">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>20,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zs7juvagmecep2gobt39ui3op39">
+    <Value>0.102</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>20,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zlsj84vbpnfo8bdrb54ungc2ne8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>25,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z3bjcsc65br3s7bnc0rj7g431eb">
+    <Value>0.112</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>25,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zedjsmr2tglos07gv1gcpejuc7a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>50,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zeug0tqjane8e72775m1i61eikb">
+    <Value>0.142</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>50,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zmajuke7lhrgc3hmeb00abg9v2b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>75,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z80g0njb5j3502r5cieraf660q9">
+    <Value>0.161</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>75,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zihi0m4dd9hkt1cs5nd4fjbh1u9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>100,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zlli6nn610d3c67qv0r4q8pn29a">
+    <Value>0.176</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>100,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zf1jm5tob0t1c5l7hfqp8j7oina">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>No Deductible</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z84g4hou2oj3r320h33b6a37eaa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>250 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z8ch2pt25q5n02g7ieepq1b4frb">
+    <Value>0.001</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>250 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zhej8uhm3cbo42npftj8mo581ib">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>500 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zq1hoiq3b1qauftlc32feoot8fa">
+    <Value>0.002</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>500 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zq6jst8mbsbcv0adtv6cf62oc29">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>750 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zf7henmrsntoi3b4s8gf9h77q2b">
+    <Value>0.003</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>750 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zodicaug9cqgp9m6qcbvqcngfoa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>1,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zt7je176vk9a358jfdbarqrjjp9">
+    <Value>0.004</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>1,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z8kg6b8t7adnifge49gpavs8q7a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>2,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z0ph2ahrspdi53kp9eiv2nqgrr9">
+    <Value>0.008</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>2,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zvhj4mesjqdh1cfmkgjguqvessb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>3,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zssj6ln7siu0ieu60nbj83e0lkb">
+    <Value>0.011</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>3,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zraio0oqr6r736mrh2m75cnj4ib">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>4,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z9tj6q8bbalsk6bij1it8q1jl9a">
+    <Value>0.012</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>4,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zurimgfbtgpetaui6fd05l6nh1a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>5,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z1giiudkh1jv5629g35f61v4488">
+    <Value>0.015</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>5,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z5fge9f0gk38r3r49gcbosbt0bb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>10,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zq8judqtk8gtnfsr86ksve1eh2b">
+    <Value>0.025</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>10,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zbfg285tfh298crtj1g8hnt52lb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>15,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zooggfvunksnr0tlej4mn033bb8">
+    <Value>0.033</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>15,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zurhota8ocee9e58dod11kmkuma">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>20,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z2ej4t0jf7522892028ksb3i1ea">
+    <Value>0.04</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>20,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z9ej695ebnndg58hr3q6f2neqtb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>25,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z0mj4s03mk71mecbkunko7km7t9">
+    <Value>0.046</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>25,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zlrji5q7d26f78uroikhq6vk798">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>50,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z57iktlj3th1d3dqqe27h1ttnc8">
+    <Value>0.07</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>50,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z3jh8iqh1f3eu36ohg9ju7ns21a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>75,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="ze0j2sd4383hfebidddtqceate9">
+    <Value>0.087</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>75,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zi6ic44vrk9se7k19rig9lk9og9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>100,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zoliuclsf083q1v840kfo7dv4o9">
+    <Value>0.101</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>100,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zf8ggkpb3cab2859eojhd6ie9q8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>No Deductible</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z4nh2kso9p4uu5636qq37kia0q8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>250 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zrhjq959qs1spcgacu0v6hl6av9">
+    <Value>0.001</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>250 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zslguf14ihna1dc6cfcjnia3gq9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>500 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z1pj0hs4ttdds8gqo4fcc8s72e9">
+    <Value>0.001</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>500 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="znah80rbdf22u5ej6cvh1t20389">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>750 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z2pg61g96c4514jliet3hhbids9">
+    <Value>0.002</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>750 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zv9hk4750uci04j7p6ee3dp0eea">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>1,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zrlhk5c1tdi6b76fj3s3nlo5h1a">
+    <Value>0.003</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>1,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z1sh0dhos2a0idh4voq414then9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>2,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z9gi02htk7vhjav298m11cr9q38">
+    <Value>0.005</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>2,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="ztriqo3qnk93m390lqlmgeq9oga">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>3,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zhagoibtrapff12f6fc2a36vng9">
+    <Value>0.007</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>3,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zp7jikauh6g4073009febj2t1l8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>4,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z2fiavqkpl42e3u3t8linv8btka">
+    <Value>0.01</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>4,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zlphs8h3ucmb4baj2f9b4cdn778">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>5,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z2rgutkls8kj76c00kb2hibbqsa">
+    <Value>0.011</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>5,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z6bi4ur0n74j76iiefqvssuem89">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>10,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zahgsc88u9mkc8qqnopu1p4cbu9">
+    <Value>0.02</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>10,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zs2jg42p44ibb00dk02rlrc4dta">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>15,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zfghuugjdh4pdcqv7s8cuc4cmub">
+    <Value>0.028</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>15,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zudj23h2oeap6f2jsl61k70re89">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>20,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zb4g4pfm4guog2uhj9g04a6ogt9">
+    <Value>0.034</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>20,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zkcj8bifvehfs5s9pvlo9okamc9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>25,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zeii4mb64dotg5c0rum95mcu518">
+    <Value>0.04</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>25,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z4ih6239ph5v97rhg3vg3q3c5j9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>50,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zrkhmq8bbln77a00t06a8rgrg28">
+    <Value>0.066</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>50,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z1dikaheinqbv9udjs8r1tt1tr9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>75,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="z3vh6qc1qct1rc2g4atjlnm8vfb">
+    <Value>0.086</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>75,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zjuhu90l3trbse8vfthapc8c9h9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>100,000 Per Claim</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+  <GL7DedFactorProdsBIRT public-id="zb2jsmm67ggab9q4goedqv42jm8">
+    <Value>0.103</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdsCompldOpsDed>100,000 Per Occurrence</ProdsCompldOpsDed>
+  </GL7DedFactorProdsBIRT>
+</import>

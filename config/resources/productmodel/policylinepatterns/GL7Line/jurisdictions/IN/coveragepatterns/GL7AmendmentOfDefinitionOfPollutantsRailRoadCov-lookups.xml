@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zb7g89lc1csm17uhmqum33u7l9b">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7AmendmentOfDefinitionOfPollutantsRailRoadCov</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="z6ij8tirl5gcn7m52gmqkn0pf78">
+    <Availability>Available</Availability>
+    <State>IN</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ManualPremium18</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+</import>

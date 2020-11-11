@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension xmlns="http://guidewire.com/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityName="GL7StatRecord" xsi:noNamespaceSchemaLocation="datamodel.xsd">
+    <column desc="SRPLocationExposureInsidePremisesPctConverted" name="SRPLocationExposureInsidePremi" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="PollutionLiabCovFormDesigntdSites" name="PollutionLiabCovFormDesigntdSi" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="PremiumBasis" name="PremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="30"/>
+    </column>
+    <column desc="ERPSublinePresentAvgRateProdCompldOps" name="ERPSublinePresentAvgRateProdCo" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ExposureIndicatorCode" name="ExposureIndicatorCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="TypeOfPolicyStatCode" name="TypeOfPolicyStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="10"/>
+    </column>
+    <column desc="RiskIDStatCode" name="RiskIDStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="ERPLossDevelopmentFactorThirdLatestYearPremOps" name="ERPLossDevelopmentFactorThirdL" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="LCMStatCode" name="LCMStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ERPSublinePresentAvgRatePremOps" name="ERPSublinePresentAvgRatePremOp" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="PollutionLiabLimitedCovFormDesigntdSites" name="PollutionLiabLmtdCovFormDesign" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="DroneModificationsStatCode" name="DroneModificationsStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="SublineCode" name="SublineCode" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column desc="AnnualBasicLimitsCoPremiumPremOps" name="AnnualBasicLmtsCoPremiumPremOp" nullok="true" type="varchar">
+        <columnParam name="size" value="11"/>
+    </column>
+    <column desc="LimitsIdentifierStatCode" name="LmtsIdentifierStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="ERPTotalAdjmtToUltimateLevelOfLosses" name="ERPTotalAdjmtToUltimateLevelOf" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="AggregateEndorsementLiabLimitStatCode" name="AggEndorsementLiabLimStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="ExposureIndicatorStatCode" name="ExposureIndicatorStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="ERPBasicLimitsCoSubjectLossCostSecondLatestYearPremOps" name="ERPBasicLmtsCoSubjectLossCostS" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="LimitStatCode" name="LimStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="ERPBasicLimitsCoLossCostBySublineLatestYearPremOps" name="ERPBasicLmtsCoLossCostBySublin" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="ERPPolicyAdjustmentFactorCSecondLatestYearPremOps" name="ERPPolicyAdjustmentFactorCSeco" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ExperienceRatingModificationFactor" name="ExperienceRatingModificationFa" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="PackageModFactor" name="PackageModFactor" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="State" name="State" nullok="true" type="varchar">
+        <columnParam name="size" value="20"/>
+    </column>
+    <column desc="PDDedStatCode" name="PDDedStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="SRPClassificationPctConverted" name="SRPClassificationPctConverted" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPMaturitySecondLatestYear" name="ERPMaturitySecondLatestYear" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="LCM" name="LCM" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="RatingIDStatCode" name="RatingIDStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="LevelOfCertificationStatCode" name="LevelOfCertificationStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="ERPLatestYearDetrendFactorProdsCompldOps" name="ERPLatestYearDetrendFactorProd" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="SpecialClassificationsRisksStatCode" name="SpecialClassificationsRisksSta" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="BIDedStatCode" name="BIDedStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="CoverageStatCodeEBL" name="CovStatCodeEBL" nullok="true" type="varchar">
+        <columnParam name="size" value="10"/>
+    </column>
+    <column desc="ERPPolicyAdjustmentFactorBProdsCompldOps" name="ERPPolicyAdjustmentFactorBProd" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="MoldStatCode" name="MoldStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="SRPEmployeesPctConverted" name="SRPEmplsPctConverted" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="HoursOfOperationStatCode" name="HoursOfOperationStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="StateCode" name="StateCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="Year2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOps" name="Y2KCompuReltdOtherElectrProbLm" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ExposureStatCode" name="ExposureStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="15"/>
+    </column>
+    <column desc="ERPActualExperienceRatio" name="ERPActualExperienceRatio" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="PollutionLiabCovExtension" name="PollutionLiabCovExtension" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ExpensePremium" name="ExpensePremium" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="OwnershipAndOperationStatCode" name="OwnershipOperationStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="ERPLatestYearDetrendFactorPremOps" name="ERPLatestYearDetrendFactorPrem" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="SRPMaximumCredit" name="SRPMaxCredit" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPSecondLatestYearDetrendFactorPremOps" name="ERPSecondLatestYearDetrendFact" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="SRPLocationExposureOutsidePremisesPctConverted" name="SRPLocationExposureOutsidePrem" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="LiabilityPremium" name="LiabPremium" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="RatingModificationFactorStatCode" name="RatingModificationFactorStatCo" nullok="true" type="varchar">
+        <columnParam name="size" value="8"/>
+    </column>
+    <column desc="SRPCooperationSafetyProgramPctConverted" name="SRPCooperationSafetyProgramPct" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="Subline" name="Subline" nullok="true" type="varchar">
+        <columnParam name="size" value="60"/>
+    </column>
+    <column desc="ERPBasicLimitsCoSubjectLossCostLatestYearPremOps" name="ERPBasicLmtsCoSubjectLossCostL" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="ERPExpectedLossRatio" name="ERPExpectedLossRatio" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ExpenseModification" name="ExpenseModification" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPCredibilityFactor" name="ERPCredibilityFactor" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPMaturityThirdLatestYear" name="ERPMaturityThirdLatestYear" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="ERPLossDevelopmentFactorSecondLatestYearPremOps" name="ERPLossDevelopmentFactorSecond" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPLossDevelopmentFactorLatestYearPremOps" name="ERPLossDevelopmentFactorLatest" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="SRPTotalModificationPct" name="SRPTotalModificationPct" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPAnnualBasicLimitsCoLossCostPremOps" name="ERPAnnualBasicLmtsCoLossCostPr" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="EmployeeBenefitsLiabCovClaimsMade" name="EmplBenefitsLiabCovClaimsMade" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ERPThirdLatestYearDetrendFactorPremOps" name="ERPThirdLatestYearDetrendFacto" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="AddlInsd" name="AddlInsd" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="UndergroundResourcesAndEquipmtCov" name="UndergroundResourcesEquipmtCov" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="CoverageStatCode" name="CovStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="ERPExpectedExperienceRatio" name="ERPExpectedExperienceRatio" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPPolicyAdjustmentFactorBPremOps" name="ERPPolicyAdjustmentFactorBPrem" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="TerrorismCovUnderlyigPolicyStatCode" name="TerrCovUnderlyigPolicyStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column desc="ERPTotalIncludedLosses" name="ERPTotalIncludedLosses" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="ERPTotalBasicLimitsCoSubjectLossCost" name="ERPTotalBasicLmtsCoSubjectLoss" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="TerrorismCovStatCode" name="TerrCovStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column desc="UsageStatCode" name="UsageStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="PrimaryPlaceOfOperationStatCode" name="PrimaryPlaceOfOperationStatCod" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="ManufacturerModelStatCode" name="ManufacturerModelStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="4"/>
+    </column>
+    <column desc="SRPCooperationMedicalFacilitiesPctConverted" name="SRPCooperationMedicalFacilitie" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPAdjmtToUltimateLevelOfLossesLatestYearPremOps" name="ERPAdjmtToUltimateLevelOfLosse" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="SRPEquipmentPctConverted" name="SRPEquipPctConverted" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPMaturityLatestYear" name="ERPMaturityLatestYear" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="ERPBasicLimitsCoSubjectLossCostThirdLatestYearPremOps" name="ERPBasicLmtsCoSubjectLossCostT" nullok="true" type="varchar">
+        <columnParam name="size" value="17"/>
+    </column>
+    <column desc="SRPPremisesPctConverted" name="SRPPremisesPctConverted" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ExclRiotCivilCommotionMobActionGovtSubdivision" name="ExclRiotCivilCommotionMobActio" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="AnnualBasicLimitsCoPremiumProdCompldOps" name="AnnualBasicLmtsCoPremiumProdCo" nullok="true" type="varchar">
+        <columnParam name="size" value="11"/>
+    </column>
+    <column desc="ERPPolicyAdjustmentFactorCLatestYearPremOps" name="ERPPolicyAdjustmentFactorCLate" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="OperatorYearsOfExperienceStatCode" name="OperatorYearsOfExperienceStatC" nullok="true" type="varchar">
+        <columnParam name="size" value="1"/>
+    </column>
+    <column desc="ScheduleRatingModificationFactor" name="ScheduleRatingModificationFact" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="WeightOfDroneStatCode" name="WeightOfDroneStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="SpecialClassificationsIncludingNuclearEnergyLiability" name="SpecialClassificationsIncludin" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ExclSalineSubstancesContamination" name="ExclSalineSubstancesContaminat" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ClassCode" name="ClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="ProductWithdrawalPDDedStatCode" name="ProductWithdrawalPDDedStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+    <column desc="SRPMaximumDebit" name="SRPMaxDebit" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ModToUse" name="ModToUse" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPExperienceModification" name="ERPExperienceModification" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ERPPolicyAdjustmentFactorCThirdLatestYearPremOps" name="ERPPolicyAdjustmentFactorCThir" nullok="true" type="varchar">
+        <columnParam name="size" value="9"/>
+    </column>
+    <column desc="ProductWithdrawalBIDedStatCode" name="ProductWithdrawalBIDedStatCode" nullok="true" type="varchar">
+        <columnParam name="size" value="2"/>
+    </column>
+</extension>

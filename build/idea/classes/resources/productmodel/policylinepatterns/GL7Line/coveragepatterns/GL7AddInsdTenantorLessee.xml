@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CoveragePattern
+  codeIdentifier="GL7AddInsdTenantorLessee"
+  coverageCategory="GL7SublineTypeAddlInsdGrp"
+  coverageSubtype="GL7SublineTypeSchedCov"
+  coveredPartyType="FirstParty"
+  existence="Electable"
+  lookupTableName="GL7SublineTypeCov"
+  owningEntityType="GL7SublineType"
+  policyLinePattern="GL7Line"
+  priority="2014300"
+  public-id="zn8gm2rukefo3cjo3huj72g3ch8"
+  referenceDateByType="PolicyTerm">
+  <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AddInsdTenantorLessee");]]></AvailabilityScript>
+  <CovTerms/>
+  <Schedules/>
+</CoveragePattern>

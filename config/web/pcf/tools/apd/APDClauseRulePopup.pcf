@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Popup
+    afterEnter="if (rule == null) {rule = clause.createAndAddRule(ruleType)}"
+    beforeCommit="rule.removeIfUnnecessary(); if (riskCoverable != null) riskCoverable.syncClauseAvailability(clause)"
+    canEdit="openForEdit"
+    canVisit="true"
+    id="APDClauseRulePopup"
+    startInEditMode="true"
+    title="gw.apd.web.APDRulePopupHelper.getRulePopupTitle(rule)">
+    <LocationEntryPoint
+      signature="APDClauseRulePopup(rule:APDClauseRule, clause:APDClause, ruleType:APDRuleType, openForEdit:boolean)"/>
+    <LocationEntryPoint
+      signature="APDClauseRulePopup(rule:APDClauseRule, clause:APDClause, ruleType:APDRuleType, riskCoverable:APDRiskCoverable, openForEdit:boolean)"/>
+    <Variable
+      name="clause"
+      type="APDClause"/>
+    <Variable
+      name="ruleType"
+      type="APDRuleType"/>
+    <Variable
+      name="rule"
+      type="APDClauseRule"/>
+    <Variable
+      name="riskCoverable"
+      type="APDRiskCoverable"/>
+    <Variable
+      name="openForEdit"
+      type="boolean"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <TextInput
+            id="clauseLabel"
+            label="DisplayKey.get(&quot;Web.APDAttributeRule.Label&quot;)"
+            value="clause.Name"
+            visible="clause.Name.HasContent"/>
+          <InputSet
+            visible="rule.RuleType == APDRuleType.TC_EXISTENCE">
+            <RangeInput
+              editable="true"
+              id="DefaultExistence"
+              label="gw.apd.web.APDRulePopupHelper.getDefaultValueLabel(rule)"
+              required="true"
+              value="rule.DefaultExistence"
+              valueRange="APDDataExistenceType.TF_CLAUSEEXISTENCE.TypeKeys"
+              valueType="APDDataExistenceType">
+              <PostOnChange/>
+            </RangeInput>
+            <TextInput
+              id="RuleDescText"
+              labelAbove="true"
+              value="gw.apd.web.APDRulePopupHelper.getRuleDisplayDescription(rule)"></TextInput>
+          </InputSet>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="APDRuleDV(rule)"/>
+    </Screen>
+  </Popup>
+</PCF>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ExclusionPattern
+  codeIdentifier="GL7ExclProdsCompletedOpsHazard"
+  coverageCategory="GL7SublineTypeExclGrp"
+  exclusionSubtype="GL7SublineTypeExcl"
+  existence="Electable"
+  lookupTableName="GL7SublineTypeExcl"
+  owningEntityType="GL7SublineType"
+  policyLinePattern="GL7Line"
+  priority="2040100"
+  public-id="z0tj63admkslecp1112qo7m96ja"
+  referenceDateByType="PolicyTerm">
+  <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclProdsCompletedOpsHazardAvl");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern
+      codeIdentifier="GL7ManualPremium75"
+      coverageColumn="DirectTerm1"
+      lookupTableName="GL7SublineTypeCovTerm"
+      priority="100"
+      public-id="zrhjurhfj1evceoarroktsnh718"
+      required="true"
+      valueType="other">
+      <LimitsSet/>
+    </DirectCovTermPattern>
+  </CovTerms>
+  <Schedules/>
+</ExclusionPattern>

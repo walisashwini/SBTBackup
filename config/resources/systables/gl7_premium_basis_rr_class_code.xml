@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PremiumBasisRRClassCod public-id="zp2iirovmpdcv0tku3f01e1jvjb">
+    <Value>Total Cost</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCode>40011</RailroadClassCode>
+  </GL7PremiumBasisRRClassCod>
+  <GL7PremiumBasisRRClassCod public-id="za8hs2ef8fuskfv4kmokhli2dr8">
+    <Value>Total Cost</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCode>40012</RailroadClassCode>
+  </GL7PremiumBasisRRClassCod>
+  <GL7PremiumBasisRRClassCod public-id="z7khi19mda3fr4ujj3cmdanfc3a">
+    <Value>Total Cost</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCode>40013</RailroadClassCode>
+  </GL7PremiumBasisRRClassCod>
+  <GL7PremiumBasisRRClassCod public-id="zm6ie4n339tvl2a7k81avdug7lb">
+    <Value>Total Cost</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCode>40014</RailroadClassCode>
+  </GL7PremiumBasisRRClassCod>
+</import>

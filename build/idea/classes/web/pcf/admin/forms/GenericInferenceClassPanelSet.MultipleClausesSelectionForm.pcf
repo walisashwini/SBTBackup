@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="GenericInferenceClassPanelSet"
+    mode="MultipleClausesSelectionForm">
+    <Require
+      name="formPattern"
+      type="FormPattern"/>
+    <Variable
+      initialValue="formPattern.PolicyLinePatternRange"
+      name="policyLineRange"
+      type="java.util.List&lt;gw.admin.PatternRef&lt;gw.api.productmodel.PolicyLinePattern&gt;&gt;"/>
+    <PanelRef>
+      <Toolbar
+        id="ClauseToolbar"
+        visible="CurrentLocation.InEditMode">
+        <PickerToolbarButton
+          action="FormClausePatternsSelectionPopup.push(formPattern, formPattern.FormPatternClauseCodes*.Code ?: {})"
+          id="pickClausePatternsButton"
+          label="DisplayKey.get(&quot;Web.Admin.AddClauses&quot;)"
+          onPick="addClauses(PickedValue)"/>
+        <RemoveButton
+          id="removeButton"
+          iterator="clauseIterator"
+          label="DisplayKey.get(&quot;Button.Remove&quot;)"/>
+      </Toolbar>
+      <ListViewPanel
+        id="ClauseLV">
+        <RowIterator
+          checkBoxVisible="CurrentLocation.InEditMode"
+          editable="false"
+          elementName="clause"
+          id="clauseIterator"
+          toRemove="formPattern.removeFromFormPatternClauseCodes(clause)"
+          value="formPattern.FormPatternClauseCodes" valueType="entity.FormPatternClauseCode[]">
+          <Row>
+            <TextCell
+              id="clauseName"
+              label="DisplayKey.get(&quot;Web.Coverage.SearchPage.Coverage&quot;)"
+              value="gw.api.productmodel.ClausePatternLookup.getByCodeIdentifier(clause.Code).DisplayName" valueType="java.lang.String"/>
+            <TextCell
+              id="Category"
+              label="DisplayKey.get(&quot;Web.Coverage.SearchPage.Category&quot;)"
+              value="gw.api.productmodel.ClausePatternLookup.getByCodeIdentifier(clause.Code).CoverageCategory.DisplayName" valueType="java.lang.String"/>
+            <TextCell
+              id="clauseDesc"
+              label="DisplayKey.get(&quot;Web.Coverage.SearchPage.Type&quot;)"
+              value="gw.api.productmodel.ClausePatternLookup.getByCodeIdentifier(clause.Code).ClauseName" valueType="java.lang.String"/>
+          </Row>
+        </RowIterator>
+      </ListViewPanel>
+    </PanelRef>
+    <Code><![CDATA[uses gw.api.productmodel.ClausePattern
+
+function addClauses(clausePatterns : ClausePattern[]) {
+  clausePatterns.each( \ clausePattern -> {
+    var code = new FormPatternClauseCode()
+    code.Code = clausePattern.CodeIdentifier
+    code.FormPattern = formPattern
+    formPattern.addToFormPatternClauseCodes(code)
+  })
+}]]></Code>
+  </PanelSet>
+</PCF>

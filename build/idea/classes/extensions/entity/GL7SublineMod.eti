@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="A modifier for General Liability Subline"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7SublineMod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7sublinemod"
+  type="effdated">
+  <implementsEntity
+    name="Modifier"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifierAdapter"
+    impl="gw.lob.gl7.GL7SublineModifierAdapter"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7SublineModifierMatcher"/>
+  <foreignkey
+    fkentity="GL7Subline"
+    name="GL7Subline"
+    nullok="false"/>
+  <array
+    arrayentity="GL7SublineRF"
+    cascadeDelete="true"
+    desc="Individual components of the rating factor"
+    name="GL7SublineRateFactors"/>
+</entity>

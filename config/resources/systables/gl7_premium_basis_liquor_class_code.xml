@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PremiumBasisLiquorClas public-id="zmugskrc209kg5h1gfcesj4csp8">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>70412</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zoajq5lap51sn34agftink81loa">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>50911</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z52i8m30vmkrb7dr7f76dbdj2a9">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>59211</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zr4je8je1rdg46eku6tve5cogi8">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>58161</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zt3i45jv7qmrs78i8kk0gf4o8v8">
+    <Value>Each</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>58168</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z58h2gvldnf191qc0vvhd54s089">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>58165</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z8dhad4ob7o4ldqu6i68qnassf9">
+    <Value>Refer To Co.</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <LiquorClassCode>58166</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z2mj82173kgnh9r6a8mi5v4egea">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>70412</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zsbieel13r00fapfu88ionemoib">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>58161</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z46i66b8ejll50qnqq3sidbivqa">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>50881</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zu4ja9k6fdqn9d1ooe42ark73aa">
+    <Value>Each</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>58198</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zr1g2t07cvbqm0vd541f6556k9a">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>70114</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zs0go6id71vjr8b6iee3691d6ta">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>58191</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z3gj69tbi52dbcdek7rqaicjgb8">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>70413</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z77h42kfq486o73nor0d5acr05b">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>50882</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z6tgcmue7i16m83l95t7m94q73b">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>70113</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zf1h27gijvj9sebdo4e9bnelur9">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>58151</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zfdhubnrt6osj1ukst5443pd2g8">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>59211</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zt4gk4ncsdgoo520t1qulh5qvsa">
+    <Value>Each</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>58168</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="zqri85o7ilevf82l7nbdu31jo4b">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>50911</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+  <GL7PremiumBasisLiquorClas public-id="z0ci2atj54b1sdhpu29gq8omiaa">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <LiquorClassCode>59212</LiquorClassCode>
+  </GL7PremiumBasisLiquorClas>
+</import>

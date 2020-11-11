@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <InputSet
+    id="BigDecimalInputSet">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.Displayable&lt;java.math.BigDecimal&gt;"/>
+    <Require
+      name="scheduledItem"
+      type="ScheduledItem"/>
+    <Require
+      name="schedulePropertyInfo"
+      type="gw.api.productmodel.SchedulePropertyInfo"/>
+    <Require
+      name="fieldDependencyInput"
+      type="boolean"/>
+    <Require
+      name="wizard"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <TextInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="Displayable"
+      label="displayable.Label"
+      requestValidationExpression="(schedulePropertyInfo typeis gw.lob.common.sbt.schedules.impl.ScheduleDecimalPropertyInfo ) ? schedulePropertyInfo.validate(VALUE) : null"
+      required="displayable.Required"
+      showConfirmMessage="displayable.ShowConfirmMessage"
+      value="displayable.Value"
+      visible="not fieldDependencyInput and displayable.Visible" valueType="java.math.BigDecimal">
+      <PostOnChange
+        onChange="displayable.onChange(wizard)"/>
+    </TextInput>
+    <TextInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="FieldDependencyDisplayable"
+      label="displayable.Label"
+      requestValidationExpression="(schedulePropertyInfo typeis gw.lob.common.sbt.schedules.impl.ScheduleDecimalPropertyInfo ) ? schedulePropertyInfo.validate(VALUE) : null"
+      required="displayable.Required"
+      showConfirmMessage="displayable.ShowConfirmMessage"
+      value="displayable.Value"
+      visible="fieldDependencyInput and displayable.Visible" valueType="java.math.BigDecimal">
+      <PostOnChange
+        onChange="displayable.onChange(wizard)"/>
+    </TextInput>
+  </InputSet>
+</PCF>

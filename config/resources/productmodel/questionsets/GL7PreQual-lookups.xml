@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<import>
+  <QuestionSetLookup public-id="zo4hosnmjr16s71fin5pb6u6fna">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <IndustryCode/>
+    <JobType>Submission</JobType>
+    <PolicyLinePatternCode/>
+    <QuestionSetCode>GL7PreQual</QuestionSetCode>
+    <StartEffectiveDate>2000-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionSetLookup>
+  <QuestionSetLookup public-id="z7dg4khng6d3b3tjsbl821g7bib">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <IndustryCode/>
+    <JobType>RewriteNewAccount</JobType>
+    <PolicyLinePatternCode/>
+    <QuestionSetCode>GL7PreQual</QuestionSetCode>
+    <StartEffectiveDate>2000-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionSetLookup>
+  <QuestionLookup public-id="z9hhkqjn8faue57p3k6h4gr1jn8">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <QuestionCode>GL7MedFacility</QuestionCode>
+    <StartEffectiveDate>2000-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionLookup>
+  <QuestionLookup public-id="z7pggujehirlva29m400npo8f0a">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <QuestionCode>GL7Aerospace</QuestionCode>
+    <StartEffectiveDate>2000-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionLookup>
+  <QuestionLookup public-id="zsrju405egjpa7t6r2mknp8nt39">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <QuestionCode>GL7Lawsuits</QuestionCode>
+    <StartEffectiveDate>2000-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionLookup>
+  <QuestionLookup public-id="zmkg0tfuu30obcc5ob0n2egi82a">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <QuestionCode>GL7PendingLoss</QuestionCode>
+    <StartEffectiveDate>2000-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+  </QuestionLookup>
+</import>

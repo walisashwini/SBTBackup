@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ProductCoverage public-id="z03iefslmcfnh276ic5e7sunqpb">
+    <Value>No</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Subline>Premises/Operations and Products/Completed Operations</Subline>
+  </GL7ProductCoverage>
+  <GL7ProductCoverage public-id="z5eji0fd3si3s6e116og8pofle9">
+    <Value>No</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Subline>Premises/Operations</Subline>
+  </GL7ProductCoverage>
+  <GL7ProductCoverage public-id="zp1hqhq6tc4pr9jrdu4201jlbt9">
+    <Value>Yes</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Subline>Products/Completed Operations</Subline>
+  </GL7ProductCoverage>
+  <GL7ProductCoverage public-id="zt9i8dmk1rnuoebffl90a04gpub">
+    <Value>Yes</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Subline>Product Withdrawal</Subline>
+  </GL7ProductCoverage>
+</import>

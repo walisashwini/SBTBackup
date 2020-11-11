@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7LocSchedCondItemCov"
+  type="effdated"
+  desc="GL7 Line level condition scheduled item with coverage terms"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7locschedconditemcov">
+  <implementsEntity
+    name="Coverage"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverageAdapter"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCondItemCovAdapter"/>
+  <implementsEntity
+    name="GL7Clause"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCondItemCovMatcher"/>
+  <foreignkey
+    name="GL7LocationSchedCondItem"
+    fkentity="GL7LocationSchedCondItem"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LocSchedCondItemCovCost"
+    name="LocSchedCondItemCovCosts"/>
+</entity>

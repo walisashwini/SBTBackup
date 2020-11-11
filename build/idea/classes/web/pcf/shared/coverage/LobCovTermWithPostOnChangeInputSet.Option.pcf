@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="LobCovTermWithPostOnChangeInputSet"
+    mode="Option">
+    <Require
+      name="term"
+      type="gw.api.domain.covterm.CovTerm"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="gw.web.productmodel.ChoiceCovTermUtil.isEditable(term)"
+      name="editable"
+      recalculateOnRefresh="true"
+      type="boolean"/>
+    <Variable
+      initialValue="new gw.lob.common.displayable.LobCovTermDisplayable(term, jobWizardHelper, openForEdit)"
+      name="displayable"
+      recalculateOnRefresh="true"
+      type="gw.lob.common.displayable.LobCovTermDisplayable"/>
+    <RangeInput
+      editable="displayable.Editable and editable"
+      id="OptionTermInput"
+      label="term.Pattern.DisplayName"
+      required="term.Pattern.Required"
+      sortValueRange="false"
+      value="(term as gw.api.domain.covterm.OptionCovTerm).OptionValue"
+      valueRange="gw.web.productmodel.ChoiceCovTermUtil.getModelValueRange(term as gw.api.domain.covterm.OptionCovTerm, openForEdit)" valueType="gw.api.productmodel.CovTermOpt">
+      <PostOnChange
+        onChange="gw.lob.common.LobPropertyService.Instance.updateCovTermDependentProperties(term, jobWizardHelper)"/>
+    </RangeInput>
+  </InputSet>
+</PCF>

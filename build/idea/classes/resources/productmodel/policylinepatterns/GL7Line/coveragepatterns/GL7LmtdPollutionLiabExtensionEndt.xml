@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeCond" public-id="GL7LmtdPollutionLiabExtensionEndt" priority="107800" lookupTableName="GL7SublineTypeCond" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7LmtdPollutionLiabExtensionEndt" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7LmtdPollutionLiabExtensionEndt");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7AggLimit7" required="true" codeIdentifier="GL7AggLimit7">
+            <LimitsSet>
+                <CovTermLimits currency="usd" maxVal="50000000" minVal="10000" public-id="GL7AggLimit7USD" codeIdentifier="GL7AggLimit7USD"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium130" required="true" codeIdentifier="GL7ManualPremium130"/>
+    </CovTerms>
+</ConditionPattern>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<typelistextension
+        xmlns="http://guidewire.com/typelists"
+        name="RoundingScaleType">
+    <typecode code="9" desc="billionth" name=".0000000001"/>
+    <typecode code="8" desc="hundred millionths" name=".00000001"/>
+    <typecode code="7" desc="ten millionths" name=".0000001"/>
+    <typecode code="6" desc="millionths" name=".000001"/>
+    <typecode code="5" desc="hundred thousandths" name=".00001"/>
+</typelistextension>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="General Liability Exposure"
+  displayName="GL7 Exposure"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7Exposure"
+  exportable="true"
+  loadable="false"
+  table="gl7exposure"
+  type="effdated">
+  <implementsInterface
+    iface="gw.lob.gl7.GL7Coverable"
+    impl="gw.lob.gl7.GL7ExposureCoverable"/>
+  <implementsInterface
+    iface="gw.rating.CoverableWithRatingBasisType"
+    impl="gw.lob.gl7.rating.GL7ExposureCoverableWithRatingBasisType"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.GL7ExposureCoverableAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="Modifiable"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifiableAdapter"
+    impl="gw.lob.gl7.GL7ExposureCoverableAdapter"/>
+  <foreignkey
+    fkentity="GL7Location"
+    name="GL7Location"
+    nullok="false"/>
+  <column
+    desc="The exposure determined by an auditor."
+    name="AuditedExposure"
+    nullok="true"
+    type="longint"/>
+  <column
+    desc="The exposure for Products/Completed Operations determined by an auditor."
+    name="AuditedProdsCompltdOpsExposure"
+    nullok="true"
+    type="longint"/>
+  <array
+    arrayentity="GL7ExposureCov"
+    cascadeDelete="true"
+    desc="Coverages directly attached to the GL7 Exposure"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7ExposureExcl"
+    cascadeDelete="true"
+    desc="Exclusions directly attached to the GL7 Exposure"
+    name="Exclusions"/>
+  <array
+    arrayentity="GL7ExposureCond"
+    cascadeDelete="true"
+    desc="Conditions directly attached to the GL7 Exposure"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7ExposureMod"
+    cascadeDelete="true"
+    desc="Modifiers directly attached to the GL7 Exposure"
+    name="GL7ExposureMods"/>
+  <array
+    name="UnmannedAircrafts"
+    desc="Covered UnmannedAircraft"
+    arrayentity="GL7UnmannedAircraft"
+    owner="false"
+    cascadeDelete="true"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+  <foreignkey
+    desc="Sequence to autonumber GL7UnmannedAircraft coverables"
+    fkentity="AutoNumberSequence"
+    name="UnmannedAircraftAutoNumberSeq"
+    nullok="true"/>
+</entity>

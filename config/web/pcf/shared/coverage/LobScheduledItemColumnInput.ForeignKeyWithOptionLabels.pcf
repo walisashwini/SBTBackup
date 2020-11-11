@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <ModalCell
+    id="LobScheduledItemColumnInput"
+    mode="ForeignKeyWithOptionLabels">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="schedulePropertyInfo"
+      type="gw.api.productmodel.SchedulePropertyInfo"/>
+    <Require
+      name="scheduledItem"
+      type="ScheduledItem"/>
+    <Require
+      name="displayableFactory"
+      type="gw.lob.common.displayable.SchedulePropertyInfoDisplayableFactoryV2"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="scheduledItemColumnHelper"
+      type="gw.lob.common.schedules.ScheduledItemColumnHelper"/>
+    <Variable
+      initialValue="displayableFactory.createSchedulePropertyInfoDisplayable(clause, scheduledItem, schedulePropertyInfo)"
+      name="displayable"
+      type="gw.lob.common.displayable.Displayable"/>
+    <RangeCell
+      available="displayable.Available"
+      editable="true"
+      id="RangeValue"
+      optionGroupLabel="displayable.getOptionGroupLabel(VALUE)"
+      required="displayable.Required"
+      value="displayable.Value"
+      valueType="java.lang.Object"
+      valueRange="gw.api.upgrade.Coercions.makeArray&lt;entity.KeyableBean&gt;(displayable.ValueRange)">
+      <PostOnChange
+        onChange="displayable.onChange(jobWizardHelper)"/>
+    </RangeCell>
+  </ModalCell>
+</PCF>

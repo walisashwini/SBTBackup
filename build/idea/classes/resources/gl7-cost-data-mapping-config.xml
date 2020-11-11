@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CostDataMapping>
+    <!-- GL7SublineType -->
+    <Mapping coverableName="GL7SublineType" clauseType="Coverage">gw.lob.gl7.rating.GL7SublineTypeCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineType" clauseType="Condition">gw.lob.gl7.rating.GL7SublineTypeCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineType" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublineTypeExclCostData</Mapping>
+    <!-- GL7Subline -->
+    <Mapping coverableName="GL7Subline" clauseType="Coverage">gw.lob.gl7.rating.GL7SublineCovCostData</Mapping>
+    <Mapping coverableName="GL7Subline" clauseType="Condition">gw.lob.gl7.rating.GL7SublineCondCostData</Mapping>
+    <Mapping coverableName="GL7Subline" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublineExclCostData</Mapping>
+    <!-- GL7Location -->
+    <Mapping coverableName="GL7Location" clauseType="Coverage">gw.lob.gl7.rating.GL7LocationCovCostData</Mapping>
+    <Mapping coverableName="GL7Location" clauseType="Condition">gw.lob.gl7.rating.GL7LocationCondCostData</Mapping>
+    <Mapping coverableName="GL7Location" clauseType="Exclusion">gw.lob.gl7.rating.GL7LocationExclCostData</Mapping>
+    <!-- GL7Exposure -->
+    <Mapping coverableName="GL7Exposure" clauseType="Coverage">gw.lob.gl7.rating.GL7ExposureCovCostData</Mapping>
+    <Mapping coverableName="GL7Exposure" clauseType="Condition">gw.lob.gl7.rating.GL7ExposureCondCostData</Mapping>
+    <Mapping coverableName="GL7Exposure" clauseType="Exclusion">gw.lob.gl7.rating.GL7ExposureExclCostData</Mapping>
+
+    <!-- GL7SublineType Schedule Item -->
+    <Mapping coverableName="GL7SublineTypeSchCovItem">gw.lob.gl7.rating.GL7SublnTypeSchCovItemCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchCondItem">gw.lob.gl7.rating.GL7SublnTypeSchCondItemCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchExclItem">gw.lob.gl7.rating.GL7SublnTypeSchExclItemCostData</Mapping>
+
+    <Mapping coverableName="GL7SublineTypeSchCovItem" clauseType="Coverage">gw.lob.gl7.rating.GL7SublnTypSchCovItemCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchCovItem" clauseType="Condition">gw.lob.gl7.rating.GL7SublnTypSchCovItemCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchCovItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublnTypSchCovItemExclCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchCondItem" clauseType="Coverage">gw.lob.gl7.rating.GL7SublnTypSchCondItemCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchCondItem" clauseType="Condition">gw.lob.gl7.rating.GL7SublnTypSchCondItemCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchCondItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublnTypSchCondItemExclCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchExclItem" clauseType="Coverage">gw.lob.gl7.rating.GL7SublnTypSchExclItemCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchExclItem" clauseType="Condition">gw.lob.gl7.rating.GL7SublnTypSchExclItemCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineTypeSchExclItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublnTypSchExclItemExclCostData</Mapping>
+
+    <!-- GL7Subline Schedule Item -->
+    <Mapping coverableName="GL7SublineSchedCovItem">gw.lob.gl7.rating.GL7SublnSchedCovItemCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedCondItem">gw.lob.gl7.rating.GL7SublnSchedCondItemCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedExclItem">gw.lob.gl7.rating.GL7SublnSchedExclItemCostData</Mapping>
+
+    <Mapping coverableName="GL7SublineSchedCovItem" clauseType="Coverage">gw.lob.gl7.rating.GL7SublnSchedCovItemCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedCovItem" clauseType="Condition">gw.lob.gl7.rating.GL7SublnSchedCovItemCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedCovItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublnSchedCovItemExclCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedCondItem" clauseType="Coverage">gw.lob.gl7.rating.GL7SublnSchedCondItemCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedCondItem" clauseType="Condition">gw.lob.gl7.rating.GL7SublnSchedCondItemCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedCondItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublnSchedCondItemExclCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedExclItem" clauseType="Coverage">gw.lob.gl7.rating.GL7SublnSchedExclItemCovCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedExclItem" clauseType="Condition">gw.lob.gl7.rating.GL7SublnSchedExclItemCondCostData</Mapping>
+    <Mapping coverableName="GL7SublineSchedExclItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7SublnSchedExclItemExclCostData</Mapping>
+
+    <!-- GL7Location Schedule Item -->
+    <Mapping coverableName="GL7LocationSchedCovItem">gw.lob.gl7.rating.GL7LocSchedCovItemCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedCondItem">gw.lob.gl7.rating.GL7LocSchedCondItemCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedExclItem">gw.lob.gl7.rating.GL7LocSchedExclItemCostData</Mapping>
+
+    <Mapping coverableName="GL7LocationSchedCovItem" clauseType="Coverage">gw.lob.gl7.rating.GL7LocSchedCovItemCovCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedCovItem" clauseType="Condition">gw.lob.gl7.rating.GL7LocSchedCovItemCondCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedCovItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7LocSchedCovItemExclCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedCondItem" clauseType="Coverage">gw.lob.gl7.rating.GL7LocSchedCondItemCovCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedCondItem" clauseType="Condition">gw.lob.gl7.rating.GL7LocSchedCondItemCondCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedCondItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7LocSchedCondItemExclCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedExclItem" clauseType="Coverage">gw.lob.gl7.rating.GL7LocSchedExclItemCovCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedExclItem" clauseType="Condition">gw.lob.gl7.rating.GL7LocSchedExclItemCondCostData</Mapping>
+    <Mapping coverableName="GL7LocationSchedExclItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7LocSchedExclItemExclCostData</Mapping>
+
+    <!-- GL7Exposure Schedule Item -->
+    <Mapping coverableName="GL7ExposureSchedCovItem">gw.lob.gl7.rating.GL7ExpSchedCovItemCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedCondItem">gw.lob.gl7.rating.GL7ExpSchedCondItemCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedExclItem">gw.lob.gl7.rating.GL7ExpSchedExclItemCostData</Mapping>
+
+    <Mapping coverableName="GL7ExposureSchedCovItem" clauseType="Coverage">gw.lob.gl7.rating.GL7ExpSchedCovItemCovCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedCovItem" clauseType="Condition">gw.lob.gl7.rating.GL7ExpSchedCovItemCondCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedCovItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7ExpSchedCovItemExclCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedCondItem" clauseType="Coverage">gw.lob.gl7.rating.GL7ExpSchedCondItemCovCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedCondItem" clauseType="Condition">gw.lob.gl7.rating.GL7ExpSchedCondItemCondCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedCondItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7ExpSchedCondItemExclCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedExclItem" clauseType="Coverage">gw.lob.gl7.rating.GL7ExpSchedExclItemCovCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedExclItem" clauseType="Condition">gw.lob.gl7.rating.GL7ExpSchedExclItemCondCostData</Mapping>
+    <Mapping coverableName="GL7ExposureSchedExclItem" clauseType="Exclusion">gw.lob.gl7.rating.GL7ExpSchedExclItemExclCostData</Mapping>
+</CostDataMapping>

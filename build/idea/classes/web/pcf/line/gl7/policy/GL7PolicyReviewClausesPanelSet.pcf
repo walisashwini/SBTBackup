@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    editable="false"
+    id="GL7PolicyReviewClausesPanelSet">
+    <Require
+      name="coverable"
+      type="Coverable"/>
+    <Require
+      name="coverableCategories"
+      type="gw.lob.gl7.GL7Category.CoverableCoverageCategories"/>
+    <Variable
+      initialValue="new gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter(coverable, coverableCategories)"
+      name="presenter"
+      type="gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="java.lang.System.getProperty(&quot;line.separator&quot;)"
+      name="lineSeparator"
+      type="java.lang.String"
+      recalculateOnRefresh="true"/>
+    <!-- Line-level clauses -->
+    <DetailViewPanel
+      id="SublineDV">
+      <InputColumn>
+        <ListViewInput
+          boldLabel="true"
+          def="CoverageSummaryLV(presenter.Coverages, coverable)"
+          id="CoverageSummaryLV"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.Coverages.GeneralLiabilityCoverages&quot;)"
+          labelAbove="true"
+          visible="presenter.Coverages.HasElements">
+          <Toolbar/>
+        </ListViewInput>
+        <ListViewInput
+          boldLabel="true"
+          def="CoverageSummaryLV(presenter.AdditionalCoverages, coverable)"
+          id="AdditionalCoverageSummaryLV"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.AdditionalCoverages&quot;)"
+          labelAbove="true"
+          visible="presenter.AdditionalCoverages.HasElements">
+          <Toolbar/>
+        </ListViewInput>
+        <ListViewInput
+          boldLabel="true"
+          def="CoverageSummaryLV(presenter.Exclusions, coverable)"
+          id="ExclusionSummaryLV"
+          label="DisplayKey.get(&quot;Web.Policy.Coverages.Exclusions&quot;)"
+          labelAbove="true"
+          visible="presenter.Exclusions.HasElements">
+          <Toolbar/>
+        </ListViewInput>
+        <ListViewInput
+          boldLabel="true"
+          def="CoverageSummaryLV(presenter.Conditions, coverable)"
+          id="ConditionSummaryLV"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.Conditions&quot;)"
+          labelAbove="true"
+          visible="presenter.Conditions.HasElements">
+          <Toolbar/>
+        </ListViewInput>
+        <ListViewInput
+          boldLabel="true"
+          def="CoverageSummaryLV(presenter.AdditionalInsureds, coverable)"
+          id="AdditionalInsuredSummaryLV"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.AdditionalInsureds&quot;)"
+          labelAbove="true"
+          visible="presenter.AdditionalInsureds.HasElements">
+          <Toolbar/>
+        </ListViewInput>
+        <Label
+          id="spacer"
+          label="lineSeparator + lineSeparator"/>
+      </InputColumn>
+    </DetailViewPanel>
+  </PanelSet>
+</PCF>

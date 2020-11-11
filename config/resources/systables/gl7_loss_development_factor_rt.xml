@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7LossDevelopmentFactorR public-id="zk6jmfqpibhlp128s2h3qht1ms8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>1</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zeoga3mdouqjibos4e39pcrkou9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>2</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zqmji45g7icmral603flqruo429">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>3</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zgejechplmmt0ealsg3r2pu9b9a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>4</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z4gi2lno9s0mo8jbaan5dieshv8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>5</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zsei477lg1rcj0gi2ffaisn25v8">
+    <Value>0.895</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>6</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zmeg6pfnt89fq7o95a69b66uph8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>7</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zcfgsc61m30678mggb4j220dptb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>8</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zgti4lf606sotfnuc494k44oe19">
+    <Value>0.806</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>9</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z3oi4qfbmoq0d1ma7dogof9mdgb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>10</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zr9iui8d68u3a3uu7ifsf2689ga">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>11</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zm5igbs0nn0a2e388ni13l9niab">
+    <Value>0.7</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>12</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="ze4goea2n4cl29ncbh31v10ionb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>13</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z95jmfmhjrjrkccbsva5lj4d4pb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>14</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z32j0kav0oddcflljk74anha4u8">
+    <Value>0.63</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>15</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z6agqvo5ducmd8udbm3qbcj8kb9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>16</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zmmigbrk0ir4paalqbikdntopa9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>17</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zh2j4quoko9dl5ncdl4e38hc6qb">
+    <Value>0.57</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>18</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zf2j43lj8ufo2ag6ekeav04q4ta">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>19</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="ze8igdnakqt813d6i9acspem9c9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>20</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zonjs98tg9irtfemv3upg6fnfd9">
+    <Value>0.517</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>21</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z1uiefkv39l8p7amu80k09v7oh9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>22</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z43icgfc7gm3d31cfh8nesffcu8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>23</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zoghm66jfsdjmeusmh1qj7a207b">
+    <Value>0.46</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>24</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z79h8ifbt6kq3fs0ro9eq8rcidb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>25</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zuajquj2pct0t6trf04h2f2nmn9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>26</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z07h6p7rl5tjn8jlmaonsmb5p69">
+    <Value>0.406</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>27</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zepjsgis623ko5ddbr0e3q5qj7b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>28</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zt3iku2vv3kuva5ba2t0ag5mfsa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>29</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zcoieamlephareemil1ln115vjb">
+    <Value>0.355</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>30</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zj4js4lgt2u589r4q2hp05vfntb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>31</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z3fg08t74cci10ph94f2luc2sb8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>32</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z0ajmlbu26q6i4799b1mftlc178">
+    <Value>0.309</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>33</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zsrgc411fkj4s6s40nplnjrue78">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>34</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zatj8743qhi8j1r1bovqpjmkl1a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>35</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zj0giemign7a3co75i12cb2cu3b">
+    <Value>0.267</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>36</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z2viuppt9bo7k4fasgakjvtr9ra">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>37</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zc0h6hdk4v4qpd36bvlrotmf5ma">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>38</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zagik26fefucfcd6icm74ea3r1b">
+    <Value>0.226</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>39</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zm7gidcspg33n3m07ftsbgkic18">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>40</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z1sgmicbdhh59828chv64lu91qb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>41</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z8fgit1gbtouibqhpch5tacmi8b">
+    <Value>0.187</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>42</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zeih29jtsqm6n4dqcm72o7nu7r8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>43</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zkgj0eq37c0gd5r61hpo4pdng7a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>44</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z8ojgaq57o259e3hhv7md2hgda8">
+    <Value>0.157</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>45</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zr5gursl41od76g7oflaochsjtb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>46</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z99hc4hogp7o93gbj6m122abf3b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>47</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zlfg2df1i9bt4a297g6hfh1ecrb">
+    <Value>0.138</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>48</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z5phafp0bj9kq3bom3ine5man19">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>49</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zejj232hnguid9vu5gtvcu0fuu8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>50</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zvhi22akdn7a58svj7mjpv58gea">
+    <Value>0.121</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>51</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zcoh4j3dk8fat8cg2lgjdb4isfa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>52</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zq6h0h3o4gus56mrf1pu2it5589">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <MaturityMonths>53</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z2bhsmrukogv8b27gineomg3te9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>1</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zlgio24v98cveb9rqurocf4htqb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>2</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zvai6nqcau63nam00a9di5pblb9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>3</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zaniuq9m8evna87tql7qa2i3fg9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>4</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="ztki2260mju59fnrd2lvhs5q598">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>5</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z2jjevs1g3rmadj1pqacmi8h1o8">
+    <Value>0.932</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>6</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z72jsl67bbtmvc24gpvbhbu1tn9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>7</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zkmg4t46sm1e826p2ipgaed0fgb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>8</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zq6g0s0qvgjtu3abqmoe5ftkga9">
+    <Value>0.872</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>9</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z2eg6ivfv9qmq6ogh75kqgpon79">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>10</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z71g00965g7pv0eh1arsgl2b908">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>11</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z3hj8gd61icjt1pur3ltu8tnpma">
+    <Value>0.799</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>12</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zfsje8bacr5ji4kb9cf0prp9jo8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>13</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zv4ikuq67qrq5bst7pog3sgfck8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>14</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zkcior3dbql1iablf84vvsdkeha">
+    <Value>0.747</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>15</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zggg490mmlou8beirfi8c3t69ub">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>16</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zj6ieblg19sr7c7llb2pvhb67j8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>17</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zqqjk7tc1fa5o819su4rmfnnqe9">
+    <Value>0.701</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>18</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zllguegelgceg6tqam3af0m3bka">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>19</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z6kh65mj4mmq72q1vhaj5u92rs9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>20</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zoqgci382bnlga7t7ar9mrd0bk8">
+    <Value>0.661</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>21</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zmnhc68rb5ucvfhc287je6mu0c8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>22</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z3ujk11cutjet4ff2qb7dvci5t9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>23</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zfhja6h7ak5c064k7cfe52joec9">
+    <Value>0.619</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>24</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zalhemi3oblf2bb6h21kkd0g659">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>25</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zmag2lb5hodc24pvh2lfrj3c5ja">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>26</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zp4juhnes87du92bpj5e1cgorkb">
+    <Value>0.58</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>27</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zohg6lhk3rvls1isdhq3shcgfpa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>28</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zevhskp4qcb3623o2r4vaj69htb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>29</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zkagugiubgo45fpgsbonun6m5ca">
+    <Value>0.543</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>30</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zj0hegjsj1dqrfectt726k6mv89">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>31</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z50j4q2ahfn0bctm58ouer5luv8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>32</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zlkigiik1k8fhc2tli5dvkohgd9">
+    <Value>0.496</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>33</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z5ii8jh7cd9mg31gqj4g07msn5b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>34</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zngig258q96si1vtimelfh9moma">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>35</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z91jqvqt1m1o9aptc8tnuq6maa8">
+    <Value>0.46</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>36</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zliieokeieapead5cjsmevsuki9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>37</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="za3gsd981902c8ogmuv32lkkhkb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>38</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zgnggqbv1ctpoa82ccbsu5270t8">
+    <Value>0.424</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>39</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z0uju7iu7a1u25c3p6d4eugjc29">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>40</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="znpjo33n5ogsme3jpsj4i1qkpb9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>41</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="znajc3sorhdov0rep4dnpjb74s8">
+    <Value>0.39</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>42</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zquhc0o1n5puffjr1n9ahnormq8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>43</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zt5ha44slrrrda47f8sjm7p6rla">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>44</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zjgiu6jtmmcep2hqi4o4s881ro9">
+    <Value>0.358</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>45</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z6rgif6s94p49f16qm9afgjknd8">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>46</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z9ah45sppjfvg65ln6fr7gglfa9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>47</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zu5jmm8l8srb418k9c9nvte7jja">
+    <Value>0.335</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>48</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z4si6cb7bf2lbdvcllkml8sbd1a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>49</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zsphgecigqkggbibthojkqbsv49">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>50</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="zjri4tojqgdvbcg53htlhbokdha">
+    <Value>0.312</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>51</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z09ho3bvduri4254cfpj3vjtn18">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>52</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+  <GL7LossDevelopmentFactorR public-id="z4qgcueo8et06c46qugt5qdg2ma">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <MaturityMonths>53</MaturityMonths>
+  </GL7LossDevelopmentFactorR>
+</import>

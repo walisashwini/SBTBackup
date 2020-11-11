@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7DedLiabInsurance" priority="100600" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7DedLiabInsurance" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7DedLiabInsurance");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="700" public-id="GL7Limitation" required="false" codeIdentifier="GL7Limitation"/>
+        <GenericCovTermPattern coverageColumn="StringTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="50" public-id="GL7Location" required="false" codeIdentifier="GL7Location"/>
+    </CovTerms>
+</CoveragePattern>

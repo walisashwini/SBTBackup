@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7UnmannedAircraftAggre1" xmlns="http://guidewire.com/datamodel">
+  <column desc="EachOccurrenceLimitGovernmentalSubdivision" name="EachOccurrenceLimGovSubdivisio" nullok="true" type="varchar">
+    <columnParam name="size" value="16"/>
+  </column>
+</extension>

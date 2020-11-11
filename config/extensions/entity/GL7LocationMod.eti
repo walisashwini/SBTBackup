@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="A modifier for GL7 Location"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7LocationMod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7locationmod"
+  type="effdated">
+  <implementsEntity
+    name="Modifier"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifierAdapter"
+    impl="gw.lob.gl7.GL7LocationModifierAdapter"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <foreignkey
+    fkentity="GL7Location"
+    name="GL7Location"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LocationRF"
+    cascadeDelete="true"
+    desc="Individual components of the rating factor"
+    name="GL7LocationRateFactors"/>
+</entity>

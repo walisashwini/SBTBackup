@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7AggregateLimitPollutio public-id="zh5iie00u73637r91t7ri6luoma">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>25,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z3mj2ilqf4vag02qc75e91r6j8b">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>25,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zfiika72j0jifcuahe09rlfagfb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>25,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z40jsi2j5fkod07l6r58c5f4a18">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>25,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zl1h2vp1akfnt9eoe552vq2fa0a">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>50,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zksguhqrgtfhrc7vd6m4bm8q68a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>50,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z1bhqne2ujf4hf4kd8bgvbkpgca">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>50,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zhqjcd2u4gmbh6j7f2r86do7159">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>50,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zs4heug6vimnkfit7pd4oqid1c9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>50,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z24i4klivqadn23t1balvvolb68">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>50,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zskg4ccfgfjq2d9bn72dm6d4vpb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>100,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z0ij8vo9eoshebg6ankfftpp619">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>100,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zq6j25fr3hg2vb83c0afjffr0f9">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>100,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z3ggiohe8dfhies8s2omo7hjbl9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>100,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zn8i60o3okv5282oaq4l5g6ud2b">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>100,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z4bj08gtu4tft0gm1tr7urrhvq9">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>100,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zquj8l178dgdb6qporqa67ngsj8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z9fh2qt137tlr7448qtrclvfbf8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zcfi42b47gsf6727v1b7t1rr529">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zc3jgdfl53icd6bvufqb1gvc69b">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zjtgkalkof683cp49o48obfc1j9">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zkggcdrjtjf6q20j4ntttnjdsc8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z3pj8cau2it9m44kgi4peat3f2a">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>200,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zbaics02j79uabvg4js01kgfho9">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zbdgqf7ojl7tb053vcoudmm75m9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zivjk2lmcs0hf02sa7k20p7tc48">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z47hm4gpvq8qi438k9c7cr13fbb">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z1ahikqnf9hgb9sbrce70phgec8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="ztkhc4ge7cogrfl5kcv9s55n80a">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zk6ico01c528jdhqs7067tkcvdb">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z8ggg39q84ba069he05r5j73kt9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>300,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z07h85vm66bb47ejsgd2eb260pb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z5hi4qvpeeihtbj4ac3jajng3ib">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z1vhuu0lis5habl10vn6h35p598">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zn9jiqfui4fmn2mj5jj1c7ngqaa">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zrlggn3gi4dot8qouthgv41vbg9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zu1gm8q3v95eo71nuhrhcnarbnb">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z2jg8hirq6f0f8v2v6pgi8t0cg8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zfhiio4ejeu60dkv1sh8mpha0m9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="znihgo56fso7p83ggmtn8623lv8">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z7egqru9uv7kif7j6g028r8vur9">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zc6g6dp2r77d24kfp4r2gpp0ok8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zpphqglv239refhtfdp19446ua9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z1sgi5f3q1mrees2at3nkdkgkt9">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z96gm6q60qi86ea2utrkccgkt89">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zfgg2174nia2937sif7tjuo0kr9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z5dhmcnpajsfeb190ii458787fb">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zrdh6emjuprf8dah38nc7a6qrjb">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zkhjgccum6d7l7kr8b7rsgsc2o8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z59jge04di7c9eo5cb3kqqd9jp8">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zjfgo61r1b870f159jmdiore399">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z9igab4t0n9ha6gpe4lmdtt94e8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zkhi6rmog423t75081622cq7vb8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zhbiej1f0j5nm81ldm562j2m4h9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zljh87hst9o3f1qvvkb3b55a9jb">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>1,500,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zdugc9k10f94e0en7d1b7gfacr9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>2,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zkjhao9kb4ff8eibtp4ui1pmk38">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>2,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z6rga2ujtbb6aeql44i6ragfoka">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>2,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zboh63ot85cdm9971ef1e1v8lf8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>2,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z0shk88g7dd579rum216knomsr9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>2,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z02jcu4ce99mqc65vf1nmdkvp38">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>2,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zschokvgcbatn22on28gdp52r2b">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>3,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zloi02bibi1nm52aet17ub254t8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>3,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="ztig4schvl0micq43g0q9dkadha">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>3,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zalh8h4pssmk0fq8p89t50pp8e8">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>3,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zapgc6ni2tfvpcet0lc1citvmc9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>4,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z45gqedacisbh646gl95p0dq37b">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>4,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zl2jktmu9u3ca1kiqkrifgmnf78">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>4,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zo9jknedvgqju23hhpig8j0ajc8">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>5,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zusjac1slovpcdtuval3g1prp19">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>5,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="zc3g68m6q3ddpeka9b36oagusoa">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>10,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+  <GL7AggregateLimitPollutio public-id="z4jiojm1mi3cv3tpgddes9sfug9">
+    <Value>20,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachPollutionIncidentLim>10,000,000</EachPollutionIncidentLim>
+  </GL7AggregateLimitPollutio>
+</import>

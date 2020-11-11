@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="ValidationConfig">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="AbstractConfigType"/>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="AbstractConfigType" abstract="true">
+        <xs:sequence>
+            <xs:element name="Container" type="ContainerType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ContainerType">
+        <xs:sequence>
+            <xs:element name="Version" type="ContainerVersionType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="Property" type="PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="ContainerTypeEnum" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="PropertyType">
+        <xs:sequence>
+            <xs:element name="Version" type="PropertyVersionType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="BaseVersionType">
+        <xs:sequence>
+            <xs:element name="Jurisdiction" type="xs:string" minOccurs="0"/>
+            <xs:element name="EffectiveDate" type="xs:date"/>
+            <xs:element name="ExpiryDate" type="xs:date" minOccurs="0"/>
+            <xs:element name="Available" type="xs:boolean" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ContainerVersionType">
+        <xs:complexContent>
+            <xs:extension base="BaseVersionType">
+                <xs:sequence>
+                    <xs:element name="Validator" type="Validator" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="PropertyVersionType">
+        <xs:complexContent>
+            <xs:extension base="BaseVersionType">
+                <xs:sequence>
+                    <xs:element name="RangeValidator" type="RangeValidator" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:simpleType name="ContainerTypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Coverable"/>
+            <xs:enumeration value="Schedule"/>
+            <xs:enumeration value="Clause"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="BaseValidator" abstract="true">
+        <xs:attribute name="quoteTime" type="xs:boolean"/>
+    </xs:complexType>
+
+    <xs:complexType name="Validator" mixed="true">
+        <xs:complexContent>
+            <xs:extension base="BaseValidator"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="RangeValidator">
+        <xs:complexContent>
+            <xs:extension base="BaseValidator">
+                <xs:sequence>
+                    <xs:element name="Depends" type="DependsType" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+                <xs:attribute name="table" type="xs:string"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="DependsType">
+        <xs:sequence>
+            <xs:element name="On" type="OnType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="OnType">
+        <xs:attribute name="path" type="xs:string"/>
+        <xs:attribute name="column" type="xs:string"/>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  desc="General Liability line of business"
+  displayName="General Liability"
+  entity="GL7GeneralLiabilityLine"
+  supertype="PolicyLine">
+  <implementsInterface
+    iface="gw.api.policy.PolicyLineMethods"
+    impl="gw.lob.gl7.GL7PolicyLineMethods"/>
+  <implementsInterface
+    iface="gw.lob.common.LobPolicyLineMethods"
+    impl="gw.lob.common.DefaultLobPolicyLineMethods"/>
+  <implementsInterface
+    iface="gw.lob.gl7.GL7Coverable"
+    impl="gw.lob.gl7.GL7GeneralLiabilityLineCoverable"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.GL7LineCoverableAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="Modifiable"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifiableAdapter"
+    impl="gw.lob.gl7.GL7LineCoverableAdapter"/>
+  <array
+    arrayentity="GL7LineCov"
+    cascadeDelete="true"
+    desc="Line level coverages for General Liability"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7LineExcl"
+    cascadeDelete="true"
+    desc="Line level exclusions for General Liability"
+    name="Exclusions"/>
+  <array
+    arrayentity="GL7LineCond"
+    cascadeDelete="true"
+    desc="Line level conditions for General Liability"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7LineMod"
+    cascadeDelete="true"
+    desc="Line level modifiers for General Liability"
+    name="Modifiers"/>
+  <array
+    arrayentity="GL7Cost"
+    cascadeDelete="true"
+    name="GL7Costs"/>
+  <array
+    arrayentity="GL7SublineType"
+    cascadeDelete="true"
+    name="GL7SublineTypes"/>
+  <foreignkey fkentity="GL7StatRecord" name="GL7StatRecord" nullok="true"/>
+</subtype>

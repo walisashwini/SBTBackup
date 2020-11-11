@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineSchedCov" coveredPartyType="ThirdParty" public-id="GL7AmendmentOfDefinitionOfPollutants" priority="841000" lookupTableName="GL7SublineCov" existence="Electable" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineAddlGrp" codeIdentifier="GL7AmendmentOfDefinitionOfPollutants" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7AmendmentOfDefinitionOfPollutants");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="50" public-id="GL7ManualPremium13" required="true" codeIdentifier="GL7ManualPremium13"/>
+  </CovTerms>
+</CoveragePattern>

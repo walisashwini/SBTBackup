@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    editable="false"
+    id="GL7PolicyReviewPanelSet"
+    mode="PolicyLocation">
+    <Require
+      name="rowEntity"
+      type="Object"/>
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="rowEntity typeis PolicyLocation ? rowEntity : null"
+      name="location"
+      recalculateOnRefresh="true"
+      type="PolicyLocation"/>
+    <Variable
+      initialValue="new gw.lob.gl7.presenters.GL7LocationPresenter(policyPeriod.GL7Line, location)"
+      name="presenter"
+      recalculateOnRefresh="true"
+      type="gw.lob.gl7.presenters.GL7LocationPresenter"/>
+    <Variable
+      initialValue="policyPeriod.GL7Line.SupportsNonSpecificLocations"
+      name="supportsNonSpecificLocation"
+      recalculateOnRefresh="true"
+      type="boolean"/>
+    <CardViewPanel
+      hideTabIfSingle="true">
+      <Variable
+        initialValue="gw.lob.gl7.presenters.GL7CoverablePerSubline.forLocation(policyPeriod.GL7Line, location)"
+        name="coverablePerSubline"
+        recalculateOnRefresh="true"
+        type="gw.lob.gl7.presenters.GL7CoverablePerSubline&lt;entity.GL7Location&gt;"/>
+      <Card
+        id="riskLocation"
+        title="&quot;&quot;">
+        <PanelRef>
+          <Verbatim
+            label="DisplayKey.get(&quot;Web.Policy.GL7.Details&quot;)"/>
+          <DetailViewPanel
+            id="LocationDetailDV">
+            <InputColumn>
+              <InputSetRef
+                def="GL7LocationDetailInputSet(presenter, supportsNonSpecificLocation, false)"/>
+            </InputColumn>
+          </DetailViewPanel>
+        </PanelRef>
+        <PanelIterator
+          elementName="entry"
+          value="coverablePerSubline.Entries"
+          valueType="gw.lob.gl7.presenters.GL7CoverablePerSubline.Entry[]">
+          <Variable
+            initialValue="new gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter(entry.Coverable, gw.lob.gl7.GL7Category.CategoriesForLocation)"
+            name="summaryPresenter"
+            type="gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter"
+            recalculateOnRefresh="true"/>
+          <PanelRef>
+            <TitleBar
+              id="subline"
+              title="entry.SublineType.DisplayName"
+              visible="summaryPresenter.displayTitle(gw.lob.gl7.displayable.GL7LocationDisplayable)"/>
+            <PanelSet>
+              <PanelRef
+                def="LobEntityDV(entry.Coverable, gw.lob.gl7.displayable.GL7LocationDisplayable, jobWizardHelper, false)"/>
+              <PanelRef
+                def="GL7PolicyReviewClausesPanelSet(entry.Coverable, gw.lob.gl7.GL7Category.CategoriesForLocation)"/>
+            </PanelSet>
+          </PanelRef>
+        </PanelIterator>
+      </Card>
+    </CardViewPanel>
+  </PanelSet>
+</PCF>

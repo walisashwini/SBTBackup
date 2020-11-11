@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7DisclosureOfPremiumThrough123105CertifiedActsTe" priority="240000" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7DisclosureOfPremiumThrough123105CertifiedActsTe" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7DisclosureOfPremiumThrough123105CertifiedActsTe");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ActualPremiumThrough1231051" required="true" codeIdentifier="GL7ActualPremiumThrough1231051"/>
+        <GenericCovTermPattern coverageColumn="StringTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7AdditionalInformation1" required="false" codeIdentifier="GL7AdditionalInformation1"/>
+        <GenericCovTermPattern coverageColumn="StringTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="250" public-id="GL7CovFormPartPolicy1" required="false" codeIdentifier="GL7CovFormPartPolicy1"/>
+        <GenericCovTermPattern coverageColumn="StringTerm3" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="150" public-id="GL7EndOfYear1" required="false" codeIdentifier="GL7EndOfYear1"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="400" public-id="GL7FedShareTerrLossesA1" required="true" codeIdentifier="GL7FedShareTerrLossesA1">
+            <LimitsSet>
+                <CovTermLimits maxVal="100" minVal="0" public-id="GL7FedShareTerrLossesA1NOCURRENCY" codeIdentifier="GL7FedShareTerrLossesA1NOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm3" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="500" public-id="GL7FedShareTerrLossesB1" required="true" codeIdentifier="GL7FedShareTerrLossesB1">
+            <LimitsSet>
+                <CovTermLimits maxVal="100" minVal="0" public-id="GL7FedShareTerrLossesB1NOCURRENCY" codeIdentifier="GL7FedShareTerrLossesB1NOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm4" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="450" public-id="GL7YearA1" required="true" codeIdentifier="GL7YearA1">
+            <LimitsSet>
+                <CovTermLimits maxVal="99" minVal="00" public-id="GL7YearA1NOCURRENCY" codeIdentifier="GL7YearA1NOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm5" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="600" public-id="GL7YearB1" required="true" codeIdentifier="GL7YearB1">
+            <LimitsSet>
+                <CovTermLimits maxVal="99" minVal="00" public-id="GL7YearB1NOCURRENCY" codeIdentifier="GL7YearB1NOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

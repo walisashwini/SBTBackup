@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineCov" coveredPartyType="ThirdParty" public-id="GL7ILChangesContractorsHomeRepairAndRemodeling" priority="790000" lookupTableName="GL7SublineCov" existence="Required" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineAddlGrp" codeIdentifier="GL7ILChangesContractorsHomeRepairAndRemodeling" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7ILChangesContractorsHomeRepairAndRemodeling");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" defaultValue="0" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="200" public-id="GL7Ded1" required="true" codeIdentifier="GL7Ded1">
+      <LimitsSet>
+        <CovTermLimits currency="usd" maxVal="1000000" minVal="0" public-id="GL7Ded1USD" codeIdentifier="GL7Ded1USD"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+  </CovTerms>
+</CoveragePattern>

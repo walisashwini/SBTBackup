@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7Act public-id="zi9gotb69702acjsk6lcu4osof9">
+    <Value>Completion</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Act>
+  <GL7Act public-id="z6ehadqfv3gab0s614fdod1ndk9">
+    <Value>Disposal</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Act>
+  <GL7Act public-id="zo2igh72c30aq4oop22g61kmbt8">
+    <Value>Distribution</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Act>
+  <GL7Act public-id="zgvhsp6ivhttn332n2mrq9m7a79">
+    <Value>Manufacture</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Act>
+  <GL7Act public-id="zrbj4h0ma8pr1br8967bk5h3v88">
+    <Value>Sale</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Act>
+</import>

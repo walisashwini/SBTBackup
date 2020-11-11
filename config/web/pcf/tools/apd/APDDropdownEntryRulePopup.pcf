@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Popup
+    afterEnter="if (rule == null) {rule = dropdownEntry.createAndAddRule(ruleType)}"
+    canEdit="true"
+    canVisit="true"
+    id="APDDropdownEntryRulePopup"
+    startInEditMode="startInEditMode"
+    title="gw.apd.web.APDRulePopupHelper.getRulePopupTitle(rule)">
+    <LocationEntryPoint
+      signature="APDDropdownEntryRulePopup(rule:APDDropdownEntryRule, dropdownEntry:APDDropdownEntry, ruleType:APDRuleType)"/>
+    <LocationEntryPoint
+      signature="APDDropdownEntryRulePopup(rule:APDDropdownEntryRule, dropdownEntry:APDDropdownEntry, ruleType:APDRuleType, startInEditMode : boolean)"/>
+    <Variable
+      name="dropdownEntry"
+      type="APDDropdownEntry"/>
+    <Variable
+      name="ruleType"
+      type="APDRuleType"/>
+    <Variable
+      name="rule"
+      type="APDDropdownEntryRule"/>
+    <Variable
+      name="startInEditMode"
+      type="boolean"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <TextInput
+            id="dropdownEntryLabel"
+            label="DisplayKey.get(&quot;Web.APDAttributeRule.Label&quot;)"
+            value="dropdownEntry.Name"
+            visible="dropdownEntry.Name.HasContent"/>
+          <InputSet
+            visible="rule.RuleType == APDRuleType.TC_EXISTENCE">
+            <RangeInput
+              editable="true"
+              id="DefaultExistence"
+              label="gw.apd.web.APDRulePopupHelper.getDefaultValueLabel(rule)"
+              required="true"
+              value="rule.DefaultExistence"
+              valueRange="APDDataExistenceType.TF_DROPDOWNENTRYEXISTENCE.TypeKeys"
+              valueType="APDDataExistenceType">
+              <PostOnChange/>
+            </RangeInput>
+            <TextInput
+              id="RuleDescText"
+              labelAbove="true"
+              value="gw.apd.web.APDRulePopupHelper.getRuleDisplayDescription(rule)"/>
+          </InputSet>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="APDRuleDV(rule)"/>
+    </Screen>
+  </Popup>
+</PCF>

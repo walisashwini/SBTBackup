@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <Page
+    id="PolicyFile_GL7StateSpecificInfo"
+    parent="PolicyFile(policyPeriod, asOfDate)"
+    title="DisplayKey.get(&quot;Web.Policy.GL7.StateSpecificInformation&quot;)">
+    <LocationEntryPoint
+      signature="PolicyFile_GL7StateSpecificInfo(policyPeriod : PolicyPeriod, asOfDate : java.util.Date)"/>
+    <Variable
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Variable
+      name="asOfDate"
+      type="java.util.Date"/>
+    <Screen>
+      <PanelRef
+        def="GL7StateSpecificInfoPanelSet(policyPeriod, false, null)"/>
+    </Screen>
+  </Page>
+</PCF>

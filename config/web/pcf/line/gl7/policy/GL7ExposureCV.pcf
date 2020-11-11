@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../../pcf.xsd">
+  <CardViewPanel
+    id="GL7ExposureCV">
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="presenter"
+      type="gw.lob.gl7.presenters.GL7ExposurePresenter"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageCategories"
+      type="gw.lob.gl7.GL7Category.CoverableCoverageCategories"/>
+    <Variable
+      initialValue="gw.lob.gl7.GL7Category"
+      name="category"
+      type="Type&lt;gw.lob.gl7.GL7Category&gt;"/>
+    <Variable
+      initialValue="presenter.ExposureSliced"
+      name="coverable"
+      type="entity.GL7Exposure"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="coverable == null ? {} : coverageCategories.StandardCoverage.availableCoveragePatternsForCoverable(coverable, openForEdit)"
+      name="clausePatterns"
+      recalculateOnRefresh="true"
+      type="gw.api.productmodel.ClausePattern[]"/>
+    <Variable
+      initialValue="new gw.lob.common.coverage.LobCoverageHelper()"
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Variable
+      initialValue="new gw.lob.common.schedules.LobScheduledItemHelper()"
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Variable
+      initialValue="new gw.lob.gl7.GL7AdditionalInsuredHelper()"
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Card
+      id="DetailsCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.DetailsAndCoverages&quot;)">
+      <PanelRow>
+        <PanelColumn>
+          <PanelRef>
+            <TitleBar
+              title="DisplayKey.get(&quot;Web.Policy.GL7.Details&quot;)"/>
+            <DetailViewPanel>
+              <InputColumn>
+                <InputSet
+                  id="ExposureDetails">
+                  <DateInput
+                    id="EffectiveDate"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.EffectiveDate&quot;)"
+                    value="presenter.EffectiveDate"/>
+                  <DateInput
+                    id="ExpirationDate"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.ExpirationDate&quot;)"
+                    value="presenter.ExpirationDate"/>
+                  <TextInput
+                    id="Subline"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.Subline&quot;)"
+                    value="presenter.SublineType"
+                    valueType="entity.GL7SublineType"/>
+                  <RangeInput
+                    editable="presenter.ExposureWM.NewExposure"
+                    id="Location"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.Exposure.Location&quot;)"
+                    required="true"
+                    value="presenter.LocationWM"
+                    valueType="entity.PolicyLocation"
+                    valueRange="presenter.ValidLocations">
+                    <PostOnChange/>
+                  </RangeInput>
+                </InputSet>
+              </InputColumn>
+            </DetailViewPanel>
+          </PanelRef>
+          <PanelRef
+            def="LobEntityDV(presenter.ExposureSliced, gw.lob.gl7.displayable.GL7ExposureDisplayable, jobWizardHelper, openForEdit)"
+            visible="presenter.IsLocationSet"/>
+        </PanelColumn>
+        <PanelColumn>
+          <PanelRef
+            def="LobClausesDV(coverable, clausePatterns, jobWizardHelper, coverageHelper, scheduledItemHelper, new gw.lob.gl7.GL7AdditionalInsuredHelper())"
+            editable="presenter.CanEditClausesForSlice">
+            <TitleBar
+              title="DisplayKey.get(&quot;Web.Policy.GL7.Coverages&quot;)"/>
+          </PanelRef>
+        </PanelColumn>
+      </PanelRow>
+    </Card>
+    <Card
+      id="AdditionalCoveragesCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.AdditionalCoverages&quot;)">
+      <PanelRef
+        def="LobAdditionalCoveragesPanelSet(presenter.ExposureSliced, {gw.lob.gl7.GL7Category.EXPOSURE_ADDITIONAL_COVERAGE.PublicID}, true, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+        editable="presenter.CanEditClausesForSlice"/>
+    </Card>
+    <Card
+      id="ExclusionsAndConditionsCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.ExclusionsAndConditions&quot;)">
+      <PanelRef
+        def="LobExclusionsAndConditionsPanelSet(presenter.ExposureSliced, {gw.lob.gl7.GL7Category.EXPOSURE_EXCLUSION.PublicID, gw.lob.gl7.GL7Category.EXPOSURE_CONDITION.PublicID}, true, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+        editable="presenter.CanEditClausesForSlice"/>
+    </Card>
+    <Card
+      id="AdditionalInsuredsCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.AdditionalInsureds&quot;)">
+      <PanelRef
+        def="LobAdditionalCoveragesPanelSet(presenter.ExposureSliced, {gw.lob.gl7.GL7Category.EXPOSURE_ADDITIONAL_INSURED.PublicID}, true, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+        editable="presenter.CanEditClausesForSlice"
+        id="AdditionalInsuredsPanelSet"/>
+    </Card>
+  </CardViewPanel>
+</PCF>

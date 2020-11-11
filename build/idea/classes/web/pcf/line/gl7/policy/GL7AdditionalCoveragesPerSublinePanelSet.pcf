@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="GL7AdditionalCoveragesPerSublinePanelSet">
+    <Require
+      name="coverablePerSubline"
+      type="gw.lob.gl7.presenters.GL7CoverablePerSubline"/>
+    <Require
+      name="coverageCategories"
+      type="String[]"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="label"
+      type="String"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <PanelRef
+      def="GL7CoveragesPerSublineDV(coverablePerSubline, gw.lob.gl7.presenters.GL7PresenterUtil.coveragesProviderFor(coverageCategories), jobWizardHelper, openForEdit)">
+      <Toolbar>
+        <ToolbarButton
+          action="GL7CoveragePatternSearchPopup.push(new gw.lob.gl7.presenters.GL7SyncCoverageSearchPresenter (coverablePerSubline, coverageCategories, TC_COVERAGE, label))"
+          hideIfReadOnly="true"
+          id="Add"
+          label="DisplayKey.get(&quot;Web.Policy.Coverages.AddCoverages&quot;)"/>
+      </Toolbar>
+    </PanelRef>
+  </PanelSet>
+</PCF>

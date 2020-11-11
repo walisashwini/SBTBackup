@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+    <GL7RatingBasisType public-id="HtbyJr3Imj+cvfu/H5PD925aOOk">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Acres</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="5fJGY1w4wvPZu1KP0o0ofa1Sylw">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Admissions</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="P+36IEwbOzi82iAAdBReSLMu/Jg">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>All Other</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="J0XeuqZKIO7bSdnxSguAfIeqLSo">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Area</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="bMWffuKBVPdvVTK1D30G54xFOYs">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Cost of Work</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="NjN0awZyQWZrxGLc/nok/yOo22g">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Each</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="cIlrtRYz47xi45t9rl+2AhpyGmQ">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Each Hand Truck or Rack</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="D7KNBEn6Sk8nbFnHgUgvOXewatQ">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+            <BasisType>Each Pier</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="guoXQJmd5Up1bLSLqRT9oPErphY">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Each Range</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="8xNqw127f2b0T5IN7thFkKw5aMI">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Each Solar Energy System</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="p+8Ru3u3b8ggu6KwAn65Kc74zFo">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Each Tower</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="Z6bPbSxy3qJNZ59eG/SU9GXtirE">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Each Turbine</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="et7QHLyLtKCne/t1xrXum3+nkvU">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Gallons</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="D9FZeTSQ2rgFcFjiSYd10Y4INGU">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Gross Sales</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="X6bEAyvjEHYhLrV/L+a6RNRF1QE">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Miles</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="tcf1P7oV+g4lo1Yx8X7WSIzH0GM">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Newscarrier</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="aEDWfgt+2LQAe55wURtFvmp7ZUM">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>No Exposure</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="ew7ivfRZSAmbRfGSQVXiWjxGNe4">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Activity Days</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="mB2cfs/eOnb7dfwPCVP+N+Du5MQ">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Airports</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="rdwt9ZVB8aTYBb4L1wBgJaynOMM">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Animals</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="hdrxtlR9FXR3xAE7W4s2Zd4RWNY">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Attendants</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="YPIHCTJF0bXFgCNK6yCo4TWbAJs">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Bales</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="QkwuXCxqFubB5WwsxMJBAkA8luk">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Beaches</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="/bhSPCXJgCtvLuVd3ogWjeC9Hhw">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Boats</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="VUGwzAeZP5c+56VCR6j0/l8CVf4">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Camper Days</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="My1YixndV3Q4EecWjbA8hDlkDkk">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Contestants</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="zLcbSrCx50Z/+GlIG07BriWZtnA">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Convention Days</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="o7HW11YKTr+Ev9iQVt2mkjDxAVM">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Dams, Levees,  or Dikes</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="AeK1LoKCwm2CzGGZ13dL+alT+co">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Dams, Levees, or Dikes</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="CnkR1AgF3MR4o5OhbSpMt17PrRI">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Drawbridges</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="IEY1raSpp5Au9AP2PBdhtk41WxI">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Dwellings</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="cGt4cTBjRr6fdHvTo2vzObrxpT4">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Exhibitions</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="FortHcOE61uqlJYrVLL5MRRGQLw">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Faculty Members</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="DEwYEOZcuEQlFoZocHWZ8eR2i+I">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Fairgrounds</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="fKbzpkyVfHqkyUHyt8lBdDBa3ys">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Games</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="DtCQGIcq8KBnF7nHgf1iHswedzk">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Grandstands or Bleachers</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="oTmERSTvOEELeHJAqTkjPaQqOuY">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Headquarters/Offices</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="hytobaSCE7uWfh48/7RdciucRfI">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Kennels</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="qnPBLsZyf7TX3NL21uWbR1AIotE">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Lakes or Reservoirs</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="KDBUb92N1/bYYCiInUHtlgZ3jtI">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Lessees</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="dElaNhJCqc77eJEZP8zo2dNrG/Y">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Locations</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="1yYlbpKIsy6Tge8ptSN+8n0zgPg">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Members</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="ouzJ3QUEVFvF/5s7x4yJfl34ygA">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Miles</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="KZRmszzV14vfWLX28/CWCbwYC08">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Model Homes</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="hVgQo5l6XJ5pl3gEHgY9654XrLg">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Parades</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="Kx7w8PEpgHfoVki02J/S6/9E58M">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Parks or Playgrounds</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="DUe1DsYtXz4SoN5p1+rCAdKWwh4">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Persons</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="ROAgmepFo+p1GPTvS1QvCYeel5w">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Picnic Grounds</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="pKwFlJs9KDPrFCwh4XeZDNzlWsw">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Ranges</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="WWGwajGIlGIwknV+i7yspOik9e4">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Registrants</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="E+OYJvU0DcLZDQZFbeftnW51LAA">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Scouts</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="V7oH75EBcYFacFM6z7UbUptCwsw">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Shows</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="o9RWZ6kZDbAgcVirgLsAgI1E4LU">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Stations</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="QK3GlkaA8WTEqN/r7joFdSFWcJY">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Swimming Pools</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="+US8ay3TezN3VMCiQkPZjrP+B+Q">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Tanks</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="fNq1u3NWtxojOvmNOEumjtB61G0">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Teams</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="wcCoyFN/eC1WA9zeFvdbnC8QlI8">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Towers</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="351/dKVUa+hKwqvL0B2UHgvPlEU">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Number of Zoos</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="MohDkllrh60NWaFnavxt8s4dW3s">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Passenger Days</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="1FmHRBqgqr0mao1/8GLZAiiyG3s">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Payroll</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="lEV2+enM19wvR7qM1noMAUPauOc">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Per Location/Per Day</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="yFXr1pY4+t4l7LZDH8lCmaZ4S6U">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Per Mile</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="6/n3qVvG0R9Yaf+LL1Obc16QQcE">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Per Person</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="4mtxVbJeeJBMP5qdaHpDPjKYx0o">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Per Student</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="OvEUtiRmA7SWRiFKUomb8CiXGzA">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Permits</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="1trewGZy76hO1Jzy43FUiagNmug">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Receipts</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="cidrvD+r+momwPyM3UqffXUlQK8">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Refer To Co.</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="0O37boxVyHQqg/DxkohuDhX6A0c">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Sales</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="tdjaQPPtMZLawWETLHg3/xCAqxA">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Total Cost</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="G8lvDZaWp07B5iKgXFe0y5pRDtH">
+        <EffectiveDate>2019-02-01</EffectiveDate>
+        <BasisType>Total Operating Expenses</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="EnSCgeDwI1fyovZcHGp9Ae4SJQY">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Units</BasisType>
+        <RatingBasisType>fixed</RatingBasisType>
+    </GL7RatingBasisType>
+    <GL7RatingBasisType public-id="YCYe0nUreN5/2sdcje+qnwsQ79k">
+        <EffectiveDate>2015-06-01</EffectiveDate>
+        <BasisType>Vehicles</BasisType>
+        <RatingBasisType>variable</RatingBasisType>
+    </GL7RatingBasisType>
+</import>

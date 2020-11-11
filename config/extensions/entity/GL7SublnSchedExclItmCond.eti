@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entity
+        xmlns="http://guidewire.com/datamodel"
+        desc="GL7 Subline level exclusion scheduled item with condition terms"
+        effDatedBranchType="PolicyPeriod"
+        entity="GL7SublnSchedExclItmCond"
+        exportable="true"
+        final="false"
+        loadable="false"
+        table="gl7sublnschedexclitmcond"
+        type="effdated">
+    <implementsEntity
+      name="PolicyCondition"/>
+    <implementsInterface
+      iface="gw.api.domain.PolicyConditionAdapter"
+      impl="gw.lob.gl7.schedules.GL7SublnSchedExclItemCondAdapter"/>
+    <implementsEntity
+            name="GL7Clause"/>
+    <implementsInterface
+            iface="gw.api.copier.EffDatedCopyable"
+            impl="gw.api.copier.EffDatedCopier"/>
+    <implementsInterface
+            iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+            impl="gw.lob.gl7.schedules.GL7SublnSchedExclItemCondMatcher"/>
+    <foreignkey
+            fkentity="GL7SublineSchedExclItem"
+            name="GL7SublnSchedExclItem"
+            nullok="false"/>
+    <array
+            arrayentity="GL7SublnSchedExclItemCondCost"
+            name="SublnSchedExclItemCondCosts"/>
+</entity>

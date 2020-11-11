@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Screen
+    id="APDProductScreen">
+    <Require
+      name="product"
+      type="APDProduct"/>
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Variable
+      initialValue="new gw.api.web.userpreference.UserPreferencesOfCurrentUser().inDevelopMode()"
+      name="inDevelopMode"
+      type="Boolean"/>
+    <Variable
+      initialValue="policyPeriod != null ? policyPeriod.OpenForEdit : CurrentLocation.InEditMode"
+      name="openForEdit"
+      recalculateOnRefresh="true"
+      type="Boolean"/>
+    <Toolbar>
+      <ToolbarButton
+        action="CurrentLocation.commit(); CurrentLocation.startEditing()"
+        hideIfReadOnly="true"
+        id="Save"
+        label="DisplayKey.get(&quot;Button.Save&quot;)"
+        shortcut="S"
+        visible="openForEdit"/>
+      <ToolbarButton
+        action="CurrentLocation.cancel(); APDProductManagementPage.go()"
+        hideIfReadOnly="true"
+        id="Cancel"
+        label="DisplayKey.get(&quot;Web.APDProduct.Button.Cancel&quot;)"
+        shortcut="L"
+        visible="policyPeriod == null"/>
+      <ToolbarButton
+        action="CurrentLocation.commit(); CurrentLocation.startEditing(); GenerateSourceCodePopup.push(product, ALL)"
+        hideIfReadOnly="true"
+        id="Generate"
+        label="DisplayKey.get(&quot;Web.APDProduct.Button.Generate&quot;)"
+        shortcut="G"
+        visible="inDevelopMode"/>
+    </Toolbar>
+    <DetailViewPanel
+      editable="openForEdit">
+      <InputColumn>
+        <InputSetRef
+          def="APDProductInputSet(product, inDevelopMode)"/>
+      </InputColumn>
+    </DetailViewPanel>
+    <PanelRef
+      def="LocalizedValuesDV(product, {&quot;Name&quot;, &quot;Description&quot;}, {DisplayKey.get(&quot;Web.APDProductScreen.APDProduct.Name&quot;), DisplayKey.get(&quot;Web.APDProductScreen.APDProduct.Description&quot;)})"
+      editable="openForEdit"
+      id="ProductLocalizedValues"/>
+    <PanelRef
+      def="APDProductLinesCV(product, openForEdit)"
+      editable="openForEdit"
+      mode="product.Multiline ? &quot;multi&quot; : &quot;single&quot;"/>
+  </Screen>
+</PCF>

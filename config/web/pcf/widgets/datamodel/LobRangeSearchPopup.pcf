@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Popup
+    id="LobRangeSearchPopup"
+    returnType="gw.lob.common.search.LobQueryResultRow"
+    title="DisplayKey.get(&quot;Web.Policy.Common.DataModel.SearchTitle&quot;, displayable.Label)">
+    <LocationEntryPoint
+      signature="LobRangeSearchPopup(displayable: gw.lob.common.displayable.LobDisplayable)"/>
+    <Variable
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <ScreenRef
+      def="LobRangeSearchScreen(displayable)"
+      mode="displayable.PopupMode"/>
+  </Popup>
+</PCF>

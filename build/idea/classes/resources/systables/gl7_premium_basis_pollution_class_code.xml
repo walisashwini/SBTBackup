@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PremiumBasisPollutionC public-id="zajiq8rlmj89499fm12u1l8sq0a">
+    <Value>Number of Tanks</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCode>90115</PollutionClassCode>
+  </GL7PremiumBasisPollutionC>
+  <GL7PremiumBasisPollutionC public-id="zuvjkmgtao9797ab0avknmngmqa">
+    <Value>Number of Tanks</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCode>90110</PollutionClassCode>
+  </GL7PremiumBasisPollutionC>
+  <GL7PremiumBasisPollutionC public-id="ze9jaomtspf24am6d61ak9gvmv9">
+    <Value>Number of Tanks</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCode>90100</PollutionClassCode>
+  </GL7PremiumBasisPollutionC>
+  <GL7PremiumBasisPollutionC public-id="zd2i8kgg3ve5b6vlkslpue3aj4b">
+    <Value>Number of Tanks</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCode>90105</PollutionClassCode>
+  </GL7PremiumBasisPollutionC>
+</import>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7CollegeSchool" priority="115200" lookupTableName="GL7SublineTypeCov" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7CollegeSchool" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7CollegeSchool");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7CollegeSchool");]]></ExistenceScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium28" required="true" codeIdentifier="GL7ManualPremium28"/>
+    </CovTerms>
+</CoveragePattern>

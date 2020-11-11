@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:redefine schemaLocation="availability-config.xsd">
+        <xs:complexType name="VersionType">
+            <xs:complexContent>
+                <xs:extension base="VersionType">
+                    <xs:sequence>
+                        <xs:element name="Existence" type="ExistenceType" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:redefine>
+
+    <xs:element name="ExistenceConfig" type="ExistenceConfigType"/>
+
+    <xs:complexType name="ExistenceConfigType">
+        <xs:complexContent>
+            <xs:extension base="AbstractConfigType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="ExistenceType">
+        <xs:attribute name="met" type="ExistenceTypeEnum" use="required"/>
+        <xs:attribute name="notMet" type="ExistenceTypeEnum" use="optional"/>
+    </xs:complexType>
+
+    <xs:simpleType name="ExistenceTypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Electable"/>
+            <xs:enumeration value="Required"/>
+            <xs:enumeration value="Suggested"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

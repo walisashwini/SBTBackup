@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7ExposureCond"
+  type="effdated"
+  desc="Conditions directly attached to each GL7 Exposure"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  platform="false"
+  loadable="false"
+  table="gl7exposurecond">
+  <implementsEntity
+    name="PolicyCondition"/>
+  <implementsInterface
+    iface="gw.api.domain.PolicyConditionAdapter"
+    impl="gw.lob.gl7.GL7ExposureCondConditionAdapter"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7ExposureCondMatcher"/>
+  <foreignkey
+    name="GL7Exposure"
+    fkentity="GL7Exposure"
+    exportable="true"
+    nullok="false"/>
+  <array
+    arrayentity="GL7ExposureCondCost"
+    cascadeDelete="true"
+    name="Costs"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeCond" public-id="GL7AmndmtTravelAgencyToursLimitationOfCov" priority="124800" lookupTableName="GL7SublineTypeCond" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7AmndmtTravelAgencyToursLimitationOfCov" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AmndmtTravelAgencyToursLimitationOfCov");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7AmndmtTravelAgencyToursLimitationOfCov");]]></ExistenceScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium22" required="true" codeIdentifier="GL7ManualPremium22"/>
+    </CovTerms>
+</ConditionPattern>

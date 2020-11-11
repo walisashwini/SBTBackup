@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7LimitNumericRT public-id="zkphgn805r10fdgu2ki6kckltk8">
+    <Value>25000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>25,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z75i0cq8256u6fhrfv2n6oasdqb">
+    <Value>50000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>50,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z68is7io5662nbum2vjrhhnocb9">
+    <Value>100000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>100,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zlcgkcbcjq899ch929uhoee0ipa">
+    <Value>200000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>200,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zabgcua86bn2e1ajrl6918m56u9">
+    <Value>300000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>300,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z9ahicp9e10dg3isulg76k04nob">
+    <Value>500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>500,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zujggeaaejiq177ohmsfohouit9">
+    <Value>600000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>600,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zprj0d0uqoiao4e74n0d5ogibp8">
+    <Value>1000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>1,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z11ju7gmmo2ed7v1t7ibhkchfp8">
+    <Value>1500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>1,500,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zs0guahqkcg4bf6mcf2fjuecq68">
+    <Value>2000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>2,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z87jukrc1vugs5bcm1lfe4mu1n8">
+    <Value>2500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>2,500,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zmnjg94n6pbid7sac1t80p0on39">
+    <Value>3000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>3,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zb1hk3n4o0ocv8t059ttdct74q8">
+    <Value>4000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>4,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zpkgodea5r6ut6pq53c06glje9a">
+    <Value>5000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>5,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zmqhomlh59gn9fp07i1dvt2n4ha">
+    <Value>10000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>10,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zrej698mrque7a0d9m0p7ld06ga">
+    <Value>20000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>20,000,000</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="za9his9df2er5ajof3scpok5qea">
+    <Value>25000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>25,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z7riuik4efr1db1lbp5c9c49229">
+    <Value>50000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>50,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zjlhceavmf3bb778f1rb9m0oe38">
+    <Value>100000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>100,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zerje41q5531c0l737gqi545sv8">
+    <Value>200000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>200,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="znrggirvvj0tlefujriu5l567v9">
+    <Value>300000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>300,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zehgklcvf8ac4alqi0dcru4cjua">
+    <Value>500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>500,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="ze7gkctne44eh9k223s48cpdcf9">
+    <Value>600000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>600,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zrphk6ipvttm3c85qacfppcp3jb">
+    <Value>1000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>1,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zhsjc1i0rq44ddjtrrr5j6ip5fb">
+    <Value>1500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>1,500,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z7rh82i8fsg3ve68u6jj2ofqfsb">
+    <Value>2000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>2,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z9oi23l6jvcn3fhlds8ufcbfbf8">
+    <Value>2500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>2,500,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zleiq46jvhdk4c5v3oiu9gl27ob">
+    <Value>3000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>3,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zt8ieh23n0pi1150jsn7vpq7o78">
+    <Value>4000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>4,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zp6i2m5alplfj0erqgjqhf637u9">
+    <Value>5000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>5,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z7oi4f1nipo8e9hr68jj7bkhaa8">
+    <Value>10000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>10,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z2tgmi26dksa2ac2lt06q9viaa8">
+    <Value>20000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>20,000,000 CSL</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zmtj4et69d0ej8eeink5ggj1q59">
+    <Value>25000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>25,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zd5iq9778i9gt5oifcvg6fahcab">
+    <Value>50000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>50,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zbciei0l9rbjk6ji1jjia2fke4a">
+    <Value>100000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>100,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z72jmpoiockvi1njaospppi5m89">
+    <Value>200000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>200,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zj5ho30fhnse17r4dsp7df0q1o8">
+    <Value>300000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>300,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zmigo6iov7n9i60ud3jid1ce06a">
+    <Value>500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>500,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zlhimib7irpoq709fksa0n167hb">
+    <Value>600000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>600,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z3ri6jvni88m2dvhmu83d3rsg7b">
+    <Value>1000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>1,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zp8i43nuun3vpd94b734o1jicla">
+    <Value>1500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>1,500,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zsog26digq4sc70ffj7tkn7up38">
+    <Value>2000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>2,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z71iq6ubf27rafeh14o3i0krr29">
+    <Value>2500000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>2,500,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zooj0tud18ib49bu7lvb4sjqsqb">
+    <Value>3000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>3,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="znji2n5d13thn7des5tntqhrs0a">
+    <Value>4000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>4,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zu7iej2mkl5ki0qpddea9otoo68">
+    <Value>5000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>5,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="z5ti6glhp1q5t7psbcrgctf7r09">
+    <Value>10000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>10,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zqkjuaga9s8tobhrbomuullclfa">
+    <Value>20000000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Lim>20,000,000 BI</Lim>
+  </GL7LimitNumericRT>
+  <GL7LimitNumericRT public-id="zvrh8cl4n9cdfbm9fhpl1if777b">
+    <Value>7500000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <Lim>7,500,000</Lim>
+  </GL7LimitNumericRT>
+</import>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7MedPayLimitExcl public-id="za9iu2e6ltjbd5q0sqshs7hf6rb">
+    <Value>5,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <MedPayExcl>No</MedPayExcl>
+  </GL7MedPayLimitExcl>
+  <GL7MedPayLimitExcl public-id="zb6j2eo86ldd0e7sr6jo0n2gr6b">
+    <Value>10,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <MedPayExcl>No</MedPayExcl>
+  </GL7MedPayLimitExcl>
+  <GL7MedPayLimitExcl public-id="zmijohh1pi8rf6ct952m9l90jqa">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <MedPayExcl>Yes</MedPayExcl>
+  </GL7MedPayLimitExcl>
+</import>

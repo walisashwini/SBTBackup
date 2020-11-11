@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <ConditionLookup public-id="zuqj4378b104b7vri8ho4276jt9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <ConditionPatternCode>GL7PolicyChangesExceptions</ConditionPatternCode>
+    <EndEffectiveDate/>
+  </ConditionLookup>
+  <CovTermLookup public-id="z2kh0tde0le9ha3hajp2abfs9ia">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7AdditionalInterestedParties</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z4jgk521b9rpo2v418d243av9p8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7AdditionalPremium</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zh3h0flk0cnrc2k8b09pugmjl99">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ChangeEndorsementNumber</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="ztqg0fadseqe68im029eae6do59">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7Classification</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zubjal7pgtl077ht131niih9v29">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7CompanyCheckBox</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zligaiov7lhqea3e2atd7cr9ku8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7CountersignedBy</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zlghgigevcm8f97udu99qcun1d8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7CovFormsandEndorsements</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zrdguv3lni0j4dp3hinmp7q11s9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7CovrdProperty</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zckjk7n6raq9n5cqkd7qulh9jfa">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7Deds1</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zksjmfki0bgee616neu2bcgbrba">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7EffectiveDateOfChange</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zapjqabu7sqclepoivpdmme6c39">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7EffectiveOrExpirationDate</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zlnhc03glnjlib77p9uo0k8edb8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7Exposure</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z21g80e1l17u09hqib1fdi3a119">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7InsuredsLegalStatusOrBusinessOfInsured</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z24hqmeni2oli2ul52m2kapd42a">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7InsuredsMailingAddress</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z3biaekgisd155skk3kp1nmd6h8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7InsuredsName</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z9nigptovf43jfjgbqgalt0579a">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7NamedInsured2</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zl0h8l8ajg8se39gliisei0kv7a">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7NoChanges</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zm4gurk1hus304spqvc0b0nputa">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7PaymentPlan</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zd8jsses2b0cp4ilko0qc75hql8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7PolicyChangesEndorsementDescription</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zrhg681lqltug4qu8j7j1takci9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7PolicyNumber</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zijiuve7h1hfl82go1lebldu9na">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7PremiumDetermination</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z0gim0oe4rh244dadonjcsulglb">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7Rates</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zecjisebj6bv21cin8nbkcqrtta">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ReturnPremium</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z7rjci3ht08cu5urit79dpf4lha">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ToBeAdjustedAtAudit</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zq4gsb26j83pgdq84pjhk3t39sa">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7UnderlyingInsurance</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+</import>

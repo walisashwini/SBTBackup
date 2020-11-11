@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7AggregateLimitLiquor public-id="zo7joau7a3kbv51snuo2dpscf08">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zmrj0a1mnl6941rkfd2qktollo9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zm8haevu4ehp5cgfe8vsvul9k2a">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="ziii4jd247m9ldqvrgjsa419r7b">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zj6hkfdhf812938lvtp871jlf8a">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zvljcuk79fo8la968rst6pckc79">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z1nisalvghjkid382bc0mr663jb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zbjh48hf02fkgd5afbauknp4i68">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z3tjadaandp8g9sn4eknomm2sa9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z2kg4k7jcrsjo3u9uau4336t228">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zlfjmu5a3t3ns22nk2fa7ig0i3a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z3miuibdilp6tf8ugefemvu5kr8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z2rja90kjdsl76h94vlckgst5b8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z89io9usji12u4buas02mi9drnb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z3cga10eae3dd7gucksj4jrti9b">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zpqhu6aopb9pa111n29ath69i19">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z8tjqhr8p9kfu3h7jl3a3224ivb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zdsh2d4dnp0rg9jvblmr9u72gfb">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z0kik80tekgvjcm6dvojcb02kqa">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zvuiaf23vsjuaapv45klmif8n3a">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z86i4e1cn74160r6n3l25i2ffm9">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zu1jms618epbe94ea30ld9hihqb">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zlih65ed81a5a2f02fb0bimkkd8">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zhugafvb5vf9ucritu4o9jl1p69">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zqcguot3n5cak29vbbnug5ocijb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z35geurkhmv678s3lgk2tna7tf8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z64jgd27pcm9q5aikroudltec8b">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zokjc09rp7cgs6c5sd1iosu3348">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z83iatqj1pj6u9m9j4ommhnkrka">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zarj6frsf9q6veb4nahgu1jb2ua">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z9lgg5rom3kle9ouu6s6fjhvc3a">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z47haqtenctnu8knvugfprq83eb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zq3iiunnl08fi4dn97ga29mm9t8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z4ij8orlj0r7c25fs6ecabmsbia">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z63i4ra5nm6b73rs2fsq9dqnt4b">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zvrh81oi9dvp34feornn7m5b5v9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z0vhea4a4h4e74kj296om7819t8">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zbcjmnq6dlt95fhjnh5ub09knka">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z0hje3ft1b9edc48hqvco7d4go8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zdlig7jkdt2ms8t2o28q0se1n88">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zdeio9bk2cursc4n5tq50btsvb8">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z0hgoesuimf2m4a6tdhuittpg7b">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zueha1qmpvhen0ef8hjas0iun39">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zekhcstrd94kq1qi97c52in5u18">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zcfjsudp8u0cedjvt4aktmpjj5a">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z06iq35edhjaq270gcbau85m6o8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z8ujqq58b7f4e5v6g48i23no6d9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z8chab46unt264n8dsbmj2jqd8a">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zbpis15o4ev5mco32hsm7a75g6a">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zlhja60uqv694dics7al1qbqoeb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zjahmoa9l033p12tl91je837bf8">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zp6ic58q5avnrb57h7d1l6ub5j9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z5mhudcuqpj2kd2fmoi1groug28">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zd6hok6uke18u3v9qjuaek2ggt8">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zabjsokq7la5i2261f8uulfehla">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zf9gu82qdggor56objdkhhntj29">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zssiec9hovh0m657iav4aeq42r8">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z0djmmnc30gfu4qqecddva7sp8a">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z7ai03a6mn21lc47kktg1v9ts9a">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zt1g0jqgsp3ba0nll1jodout9k9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zivh4ttau7fuadl81idqivkvheb">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zdfhao3g40uc42vb91mjiig220a">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zqdj4uimbmjotbl3fpntdmsbvr9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zl9gs58i6qcm9cbgvqhh8l1u98b">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z2oiimuch5t8o0bso44eau5lpl9">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zpdjc6cemvnce8bljosj08dl5eb">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zkjj4ikdb3et9dt86knfpebbim9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z6mik3rd5vvhm8na5vhh2eln1e8">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="zvsi6v27n63e8d8kojokooclsb9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z2fjioah3goa502ei8u0nr4vo5a">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z2fhur673gj4o4c63ni0kelrora">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+  <GL7AggregateLimitLiquor public-id="z3mg85q6f2efgbumfh7pr9v8fkb">
+    <Value>20,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+  </GL7AggregateLimitLiquor>
+</import>

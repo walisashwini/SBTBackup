@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DiffTree>
+    <Properties includefromtype="GL7Exposure" parentpath="ENTITY" sortorder="1">
+        <PropertyDisplay label="ENTITY.getPropertyLabel('Contractor')" propertyname="Contractor"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('LiquorExposureOnPremises')" propertyname="LiquorExposureOnPremises"/>
+    </Properties>
+</DiffTree>

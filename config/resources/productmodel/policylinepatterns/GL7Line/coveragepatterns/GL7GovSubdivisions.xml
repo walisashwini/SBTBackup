@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7GovSubdivisions" priority="720000" lookupTableName="GL7SublineTypeCov" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7GovSubdivisions" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7GovSubdivisions");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7GovSubdivisions");]]></ExistenceScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium114" required="true" codeIdentifier="GL7ManualPremium114"/>
+    </CovTerms>
+</CoveragePattern>

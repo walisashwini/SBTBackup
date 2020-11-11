@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7EmplBenefitsLiabCovClaimsMade" priority="108400" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7EmplBenefitsLiabCovClaimsMade" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7EmplBenefitsLiabCovClaimsMade");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7AggLimitInt" required="true" codeIdentifier="GL7AggLimitInt"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="400" public-id="GL7DedInt" required="true" codeIdentifier="GL7DedInt"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm3" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7LimitEachEmplInt" required="true" codeIdentifier="GL7LimitEachEmplInt"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm4" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="600" public-id="GL7ManualPremium46" required="true" codeIdentifier="GL7ManualPremium46"/>
+        <GenericCovTermPattern coverageColumn="DateTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="500" public-id="GL7RetroactiveDate" required="true" codeIdentifier="GL7RetroactiveDate"/>
+    </CovTerms>
+</CoveragePattern>

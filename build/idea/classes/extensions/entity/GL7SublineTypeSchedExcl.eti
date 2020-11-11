@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7SublineTypeSchedExcl"
+  desc="GL7 Subline Type Exclusion with a schedule"
+  final="false"
+  supertype="GL7SublineTypeExcl">
+  <implementsInterface
+    iface="gw.api.domain.Schedule"
+    impl="gw.lob.gl7.schedules.GL7SublineTypeSchedExclImpl"/>
+  <implementsEntity
+    name="ScheduleAutoNumberSequence"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7SublineTypeSchedExclMatcher"/>
+  <array
+    arrayentity="GL7SublineTypeSchExclItem"
+    name="GL7ScheduledItems"
+    cascadeDelete="true"
+    desc="Scheduled Items"
+    setterScriptability="all"/>
+</subtype>

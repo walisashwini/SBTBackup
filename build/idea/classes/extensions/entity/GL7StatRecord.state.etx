@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7StatRecord" xsi:noNamespaceSchemaLocation="datamodel.xsd" xmlns="http://guidewire.com/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <column desc="StopGapStatCode" name="StopGapStatCode" nullok="true" type="varchar">
+    <columnParam name="size" value="10"/>
+  </column>
+</extension>

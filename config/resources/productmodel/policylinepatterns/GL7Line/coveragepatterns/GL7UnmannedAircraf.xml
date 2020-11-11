@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7UnmannedAircraftCov" coveredPartyType="ThirdParty" public-id="GL7UnmannedAircraf" priority="120500" lookupTableName="GL7UnmannedAircraftCov" existence="Required" owningEntityType="GL7UnmannedAircraft" referenceDateByType="PolicyTerm" coverageCategory="GL7UnmannedAircraftStdGrp" codeIdentifier="GL7UnmannedAircraf" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7UnmannedAircraft.isClauseAvailable("GL7UnmannedAircraf");]]></AvailabilityScript>
+  <CovTerms>
+    <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7UnmannedAircraftCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7UnmannedAircraftCovTerm" modelType="Other" priority="1150" public-id="GL7AggLimit23" required="true" codeIdentifier="GL7AggLimit23">
+      <AvailabilityScript><![CDATA[return GL7UnmannedAircraft.isCovTermAvailable("GL7UnmannedAircraf", "GL7AggLimit23");]]></AvailabilityScript>
+      <Options>
+        <CovTermOpt public-id="ze6h2equ41ig02dtn1s1ajhq4q9" priority="1" optionCode="50000" value="50000" codeIdentifier="ze6h2equ41ig02dtn1s1ajhq4q9">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z26is1luuj2rl37867ig52lbkd9" priority="2" optionCode="100000" value="100000" codeIdentifier="z26is1luuj2rl37867ig52lbkd9">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z1ojqnpm3b9h72nn9pcc760kl2a" priority="3" optionCode="200000" value="200000" codeIdentifier="z1ojqnpm3b9h72nn9pcc760kl2a">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z4ghc46abr8aidkpla0cdctfggb" priority="4" optionCode="300000" value="300000" codeIdentifier="z4ghc46abr8aidkpla0cdctfggb">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z08huorgb9omqant058vrivkf58" priority="9" optionCode="500000" value="500000" codeIdentifier="z08huorgb9omqant058vrivkf58">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zocgmbpdig8khd5hf3uuquf2rg9" priority="10" optionCode="600000" value="600000" codeIdentifier="zocgmbpdig8khd5hf3uuquf2rg9">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zibiqomm9gf1f1s6a3473edbs29" priority="17" optionCode="1000000" value="1000000" codeIdentifier="zibiqomm9gf1f1s6a3473edbs29">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zl9ier5f8npksfjhpr32l8k6l99" priority="25" optionCode="1500000" value="1500000" codeIdentifier="zl9ier5f8npksfjhpr32l8k6l99">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zkrjk6gendm71ebapsm3htrai69" priority="26" optionCode="2000000" value="2000000" codeIdentifier="zkrjk6gendm71ebapsm3htrai69">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zumh6j1t8a57k0k1qkm4o61lsja" priority="36" optionCode="2500000" value="2500000" codeIdentifier="zumh6j1t8a57k0k1qkm4o61lsja">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zkpiujusr1qur8jtgp76a276vh8" priority="37" optionCode="3000000" value="3000000" codeIdentifier="zkpiujusr1qur8jtgp76a276vh8">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zvjhq5r5u9pk82ordq1gf6dums8" priority="49" optionCode="4000000" value="4000000" codeIdentifier="zvjhq5r5u9pk82ordq1gf6dums8">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zq2hm2iebvuls8n79c76sodi689" priority="50" optionCode="5000000" value="5000000" codeIdentifier="zq2hm2iebvuls8n79c76sodi689">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zb0h669e9fd57dsmfhh50engbba" priority="63" optionCode="10000000" value="10000000" codeIdentifier="zb0h669e9fd57dsmfhh50engbba">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zdriojlmshqccdrttv56hfdlic9" priority="138" optionCode="20000000" value="20000000" codeIdentifier="zdriojlmshqccdrttv56hfdlic9">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+      </Options>
+    </OptionCovTermPattern>
+    <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7UnmannedAircraftCovOpt" coverageColumn="ChoiceTerm2" lookupTableName="GL7UnmannedAircraftCovTerm" modelType="Other" priority="1160" public-id="GL7AggLimitGovSubdivision" required="true" codeIdentifier="GL7AggLimitGovSubdivision">
+      <AvailabilityScript><![CDATA[return GL7UnmannedAircraft.isCovTermAvailable("GL7UnmannedAircraf", "GL7AggLimitGovSubdivision");]]></AvailabilityScript>
+      <Options>
+        <CovTermOpt public-id="z0dh85khdn5qm3fi1ltrm5t8d29" priority="1" optionCode="200000" value="200000" codeIdentifier="z0dh85khdn5qm3fi1ltrm5t8d29">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zgjhmo6nmoh0u0prn8ohmuq3lf9" priority="2" optionCode="300000" value="300000" codeIdentifier="zgjhmo6nmoh0u0prn8ohmuq3lf9">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z0bg8r1hbgko3dj9gqv1epq05r8" priority="3" optionCode="500000" value="500000" codeIdentifier="z0bg8r1hbgko3dj9gqv1epq05r8">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="za1hm8s2lliolaghv3ft1tjv5f8" priority="4" optionCode="600000" value="600000" codeIdentifier="za1hm8s2lliolaghv3ft1tjv5f8">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z9ki28i36brpa8uvi4o8rj9p9qa" priority="5" optionCode="1000000" value="1000000" codeIdentifier="z9ki28i36brpa8uvi4o8rj9p9qa">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zsmgoron7m4sa5342lt76fmg09a" priority="6" optionCode="1500000" value="1500000" codeIdentifier="zsmgoron7m4sa5342lt76fmg09a">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z8phs59542oedfdr1i7m7k4nufa" priority="7" optionCode="2000000" value="2000000" codeIdentifier="z8phs59542oedfdr1i7m7k4nufa">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z54j8f365m5rvaa0uslpv5q90m8" priority="8" optionCode="2500000" value="2500000" codeIdentifier="z54j8f365m5rvaa0uslpv5q90m8">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z4ti86erbss18292q4vivg8kh38" priority="9" optionCode="3000000" value="3000000" codeIdentifier="z4ti86erbss18292q4vivg8kh38">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zcmisl9m2vqfu3rl6mkj8j1k4ha" priority="17" optionCode="4000000" value="4000000" codeIdentifier="zcmisl9m2vqfu3rl6mkj8j1k4ha">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zrcjo5kjlu00nctqr6rp3net979" priority="18" optionCode="5000000" value="5000000" codeIdentifier="zrcjo5kjlu00nctqr6rp3net979">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="z9sj4af6u3al185nuog4lhino79" priority="26" optionCode="7500000" value="7500000" codeIdentifier="z9sj4af6u3al185nuog4lhino79">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zc1iue7tl11sb2cbsogg2klq2a9" priority="27" optionCode="10000000" value="10000000" codeIdentifier="zc1iue7tl11sb2cbsogg2klq2a9">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+      </Options>
+    </OptionCovTermPattern>
+  </CovTerms>
+</CoveragePattern>

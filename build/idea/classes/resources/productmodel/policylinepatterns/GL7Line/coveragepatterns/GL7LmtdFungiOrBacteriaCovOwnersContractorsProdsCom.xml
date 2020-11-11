@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7LmtdFungiOrBacteriaCovOwnersContractorsProdsCom" priority="129100" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7LmtdFungiOrBacteriaCovOwnersContractorsProdsCom" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7LmtdFungiOrBacteriaCovOwnersContractorsProdsCom");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7FungiBacteriaLiabAggLimit1" required="true" codeIdentifier="GL7FungiBacteriaLiabAggLimit1">
+            <LimitsSet>
+                <CovTermLimits currency="usd" public-id="GL7FungiBacteriaLiabAggLimit1USD" codeIdentifier="GL7FungiBacteriaLiabAggLimit1USD"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7ManualPremium129" required="false" codeIdentifier="GL7ManualPremium129"/>
+    </CovTerms>
+</CoveragePattern>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7UnmannedAircraft"
+  type="effdated"
+  desc="Covered UnmannedAircraft"
+  displayName="Unmanned Aircraft"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  extendable="true"
+  platform="false"
+  loadable="false"
+  table="gl7unmannedaircraft">
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.GL7UnmannedAircraftCoverableAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7UnmannedAircraftMatcher"/>
+  <foreignkey
+    name="Exposure"
+    fkentity="GL7Exposure"
+    exportable="true"
+    nullok="false"/>
+  <array
+    name="Coverages"
+    desc="Coverages directly attached to the UnmannedAircraft"
+    arrayentity="GL7UnmannedAircraftCov"
+    owner="false"
+    cascadeDelete="true"/>
+  <array
+    name="Exclusions"
+    desc="Exclusions directly attached to the UnmannedAircraft"
+    arrayentity="GL7UnmannedAircraftExcl"
+    owner="false"
+    cascadeDelete="true"/>
+  <array
+    name="Conditions"
+    desc="Conditions directly attached to the UnmannedAircraft"
+    arrayentity="GL7UnmannedAircraftCond"
+    owner="false"
+    cascadeDelete="true"/>
+  
+  <column
+    desc="Unmanned Aircraft Number"
+    name="UnmannedAircraftNumber"
+    nullok="true"
+    type="integer"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+  <implementsInterface
+    iface="gw.lob.gl7.GL7Coverable"
+    impl="gw.lob.gl7.GL7UnmannedAircraftCoverable"/>
+</entity>

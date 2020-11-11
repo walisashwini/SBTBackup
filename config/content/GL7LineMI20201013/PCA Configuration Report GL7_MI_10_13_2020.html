@@ -1,0 +1,71 @@
+<html><head><style type="text/css">
+body {
+	font: normal 15px/21px "Open Sans", sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+table#header th {
+  text-align: right;
+}
+th, td {
+	padding: 2px 5px;
+	border: 1px solid #555;
+}
+th {
+  white-space: nowrap;
+	background-color: #ccc;
+}
+</style>
+</head><body><h1>Configuration Report</h1><div>Update Processed on: 10/13/2020</div>
+<div>Product Content Analyzer Version: 3.8.0<br/>.367</div>
+<div>Line of Business: General Liability (v7)</div>
+<div>State: Michigan</div>
+<div>ERC Effective Date and Version: 11/01/2020 V01</div>
+<div>Adoption Date: 11/01/2020</div>
+<div>Files with Conflicts: config/content/GL7LineMI20201013/PCA Conflict Files GL7_MI_10_13_2020.zip</div>
+<h2>Coverages, Conditions &amp; Exclusions</h2>
+<h3>Artifacts containing conflicts or modifications that could impact existing configuration</h3><table><tr><th>Coverage, Condition or Exclusion</th>
+<th>Conflicts Detected</th>
+<th>Added</th>
+<th>Removed</th>
+<th>File Name</th></tr><tr><td>Extended Reporting Period Endorsement (General Liability Subline Type)</td>
+<td></td>
+<td>New Attributes:<br/>existence<br/></td>
+<td>Removed Existence Script<br/></td>
+<td>GL7ExtendedReportingPeriodEndt.xml</td></tr></table>
+
+<ul><li>Note: If there are any existence attribute conflicts detected above, please review the changes manually and update the existence-config.xml file as required</li>
+<li>Note: Items listed as &ldquo;Conflicts&rdquo; or &ldquo;Removed&rdquo; have not been automatically merged by the PCA</li>
+<li>Note: Items listed as &ldquo;Added&rdquo; have been automatically merged by the PCA</li></ul>
+
+<h2>Forms</h2>
+<ul><li>File is named GL7FormPatterns.xml and is located in the content directory (...modules\configuration\config\content\GL7LineMI20201013). Server must be restarted prior to loading Forms.</li></ul>
+
+<h2>Rating</h2>
+<ul><li>Rate Book Decision: User has indicated that the Rate Book should be processed. Load file using Import Rate Book functionality. File is named ISO_General_Liability_MI-11012020-V01.xml and is located in the content directory (...modules\configuration\config\content\GL7LineMI20201013). Server must be restarted prior to loading Rate Book.</li></ul>
+
+<h2>Background Artifacts</h2>
+<h3>Pcf Files</h3>
+<h4>Conflicts detected - might require manual merging</h4><ul><li>config/web/pcf/job/policychange/PolicyChangeWizard_DifferencesScreen.pcf</li>
+<li>config/web/pcf/job/renewal/RenewalWizard_DifferencesScreen.pcf</li>
+<li>config/web/pcf/job/rewrite/RewriteWizard_DifferencesScreen.pcf</li>
+<li>config/web/pcf/job/submission/SubmissionWizard_PreQualificationScreen.pcf</li>
+<li>config/web/pcf/shared/coverage/CovTermInputSet.Option.pcf</li>
+<li>config/web/pcf/shared/coverage/CovTermInputSet.Package.pcf</li>
+<li>config/web/pcf/shared/coverage/ScheduledItemCovTermInput.Direct.pcf</li>
+<li>config/web/pcf/shared/coverage/ScheduledItemCovTermInput.bit.pcf</li>
+<li>config/web/pcf/shared/coverage/ScheduledItemCovTermInput.shorttext.pcf</li></ul>
+
+<h3>Gosu Files</h3>
+<h4>Conflicts detected - might require manual merging</h4><ul><li>gw.job.AuditProcess</li>
+<li>gw.lob.common.AbstractScheduledItemAdapter</li>
+<li>gw.plugin.diff.impl.PolicyPeriodDiffPlugin</li>
+<li>gw.productmodel.ProductModelIconMapper</li>
+<li>gw.question.QuestionIssueAutoRaiser</li>
+<li>gw.rating.flow.RoundingScaleTypeEnhancement</li></ul>
+
+<h3>Plugin Registry (.gwp)</h3>
+<h4>Conflicts detected - might require manual merging</h4><ul><li>config/plugin/registry/IRatingPlugin.gwp</li>
+<li>config/plugin/registry/IReferenceDatePlugin.gwp</li></ul>
+</body></html>

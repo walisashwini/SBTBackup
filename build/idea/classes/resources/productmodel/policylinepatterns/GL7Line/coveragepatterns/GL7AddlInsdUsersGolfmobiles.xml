@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7AddlInsdUsersGolfmobiles" priority="124000" lookupTableName="GL7SublineTypeCov" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlInsdGrp" codeIdentifier="GL7AddlInsdUsersGolfmobiles" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AddlInsdUsersGolfmobiles");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7AddlInsdUsersGolfmobiles");]]></ExistenceScript>
+    <CovTerms/>
+</CoveragePattern>

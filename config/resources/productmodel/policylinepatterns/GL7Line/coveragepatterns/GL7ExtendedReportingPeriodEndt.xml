@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7ExtendedReportingPeriodEndt" priority="127600" lookupTableName="GL7SublineTypeCov" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7ExtendedReportingPeriodEndt" policyLinePattern="GL7Line">
+  <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7ExtendedReportingPeriodEndt");]]></ExistenceScript>
+  <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExtendedReportingPeriodEndt");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium108" required="true" codeIdentifier="GL7ManualPremium108"/>
+  </CovTerms>
+</CoveragePattern>

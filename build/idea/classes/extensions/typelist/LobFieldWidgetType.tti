@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="LobFieldWidgetType"
+  name="LobFieldWidgetType">
+  <typecode
+    code="BooleanRadio"
+    desc="BooleanRadioInput widget"
+    name="BooleanRadio"/>
+  <typecode
+    code="Integer"
+    desc="Input widget with integer value"
+    name="Integer"/>
+  <typecode
+    code="Money"
+    desc="Input widget with money value"
+    name="Money"/>
+  <typecode
+    code="Range"
+    desc="RangeInput widget"
+    name="Range"/>
+  <typecode
+    code="RangeRadio"
+    desc="RangeRadioInput widget"
+    name="RangeRadio"/>
+  <typecode
+    code="Text"
+    desc="Input widget with text value"
+    name="Text"/>
+  <typecode
+    code="TextArea"
+    desc="TextAreaInput widget"
+    name="TextArea"/>
+  <typecode
+    code="TypeKey"
+    desc="TypeKeyInput widget"
+    name="TypeKey"/>
+  <typecode
+    code="Year"
+    desc="Input widget with year value"
+    name="Year"/>
+  <typecode
+    code="Date"
+    desc="DateInput widget"
+    name="Date"/>
+  <typecode
+    code="Decimal"
+    desc="Input widget with decimal value"
+    name="Decimal"/>
+  <typecode
+    code="Label"
+    desc="Static readonly text widget"
+    name="Label"/>
+</typelist>

@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BureauCodeConfig>
+    <Lob code="WC7Line">
+        <BureauCode>
+            <FileName>wc7_class_codes</FileName>
+            <Label>Class Codes</Label>
+        </BureauCode>
+    </Lob>
+    <Lob code="BP7Line">
+        <BureauCode>
+            <FileName>territory_codes</FileName>
+            <Label>Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>bp7_eq_territory_codes</FileName>
+            <Label>Earthquake Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>bp7_fire_protection_class_ppc</FileName>
+            <Label>Fire Protection</Label>
+        </BureauCode>
+    </Lob>
+    <Lob code="CA7Line">
+        <BureauCode>
+            <FileName>territory_codes</FileName>
+            <Label>Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_garage_dealers_class_code</FileName>
+            <Label>Garage Dealers Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_garaging_zone</FileName>
+            <Label>Garaging Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_private_passenger_class_code</FileName>
+            <Label>Private Passenger Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_primary_class_code</FileName>
+            <Label>Public Transport Primary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_secondary_class_code</FileName>
+            <Label>Public Transport Secondary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_special_types_class_code</FileName>
+            <Label>Special Types Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_special_types_class</FileName>
+            <Label>Special Purpose Vehicle Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_truck_primary_class_code</FileName>
+            <Label>Truck Primary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_truck_secondary_class_code</FileName>
+            <Label>Truck Secondary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_primary_class_code</FileName>
+            <Label>Zone Rated Primary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_secondary_class_code</FileName>
+            <Label>Zone Rated Secondary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_naics_code</FileName>
+            <Label>NAICS Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_naics_definition</FileName>
+            <Label>NAICS Definition</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_private_passenger_fleet</FileName>
+            <Label>Private Passenger Fleet</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_private_passenger_operator_experience</FileName>
+            <Label>Private Passenger Operator Experience</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_private_passenger_type</FileName>
+            <Label>Private Passenger Type</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_private_passenger_use</FileName>
+            <Label>Private Passenger Use</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_category</FileName>
+            <Label>Public Transportation Category</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_classification</FileName>
+            <Label>Public Transportation Classification</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_fleet</FileName>
+            <Label>Public Transportation Fleet</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_radius_class</FileName>
+            <Label>Public Transportation Radius Class</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_public_transportation_seating_capacity</FileName>
+            <Label>Public Transportation Seating Capacity</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_special_types_supplementary_type</FileName>
+            <Label>Special Types Supplementary Type</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_special_types_type</FileName>
+            <Label>Special Types Type</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_transportation_of_seasonal_or_migrant_agricultural_workers_primary_class_code</FileName>
+            <Label>Transportation Of Seasonal Or Migrant Agricultural Workers Primary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_transportation_of_seasonal_or_migrant_agricultural_workers_secondary_class_code</FileName>
+            <Label>Transportation Of Seasonal Or Migrant Agricultural Workers Secondary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_truck_business_use_class</FileName>
+            <Label>Truck Business Use Class</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_truck_radius_class</FileName>
+            <Label>Truck Radius Class</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_truck_secondary_classification</FileName>
+            <Label>Truck Secondary Classification</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_truck_size_class</FileName>
+            <Label>Truck Size Class</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zip_code</FileName>
+            <Label>Zip Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_truck_business_use</FileName>
+            <Label>Zone Rated Truck Business Use</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_truck_primary_class_code</FileName>
+            <Label>Zone Rated Truck Primary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_truck_secondary_class_code</FileName>
+            <Label>Zone Rated Truck Secondary Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_truck_secondary_classification</FileName>
+            <Label>Zone Rated Truck Secondary Classification</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>ca7_zone_rated_truck_size_class</FileName>
+            <Label>Zone Rated Truck Size Class</Label>
+        </BureauCode>
+    </Lob>
+    <Lob code="GL7Line">
+        <BureauCode>
+            <FileName>gl7_territory_codes</FileName>
+            <Label>Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_subline_value</FileName>
+            <Label>Sublines</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_prem_ops_terr</FileName>
+            <Label>Premises &amp; Operations Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_prods_compld_ops_terr</FileName>
+            <Label>Products Completed Operations Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_railroad_terr</FileName>
+            <Label>Railroad Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_liquor_liab_terr</FileName>
+            <Label>Liquor Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_owners_contractors_terr</FileName>
+            <Label>Owners &amp; Contractors Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_pollution_terr</FileName>
+            <Label>Pollution Territory Codes</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_cgl_prods</FileName>
+            <Label>CGL Products Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_liquor</FileName>
+            <Label>Liquor Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_ust</FileName>
+            <Label>Underground Storage Tanks Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_edl</FileName>
+            <Label>Electronic Data Liability Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_railroad</FileName>
+            <Label>Railroad Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_pollution</FileName>
+            <Label>Pollution Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>gl7_class_code_owners_contrctrs</FileName>
+            <Label>Owners &amp; Contractors Class Code</Label>
+        </BureauCode>
+    </Lob>
+    <Lob code="CP7Line">
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ak</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_al</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ar</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_az</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ca</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_co</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ct</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_dc</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_de</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ia</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_il</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_in</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ks</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ky</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ma</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_md</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_me</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_mi</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_mn</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_mo</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_nc</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_nd</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ne</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_nh</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_nj</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_nm</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_nv</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_oh</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ok</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_or</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_pa</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ri</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_sc</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_sd</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_tn</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_tx</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_ut</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_va</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_vt</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_wi</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_wv</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_rating_territory_wy</FileName>
+            <Label>Basic Group I Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_al</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_co</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_ct</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_de</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_illinois</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_ma</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_md</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_me</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_nc</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_ne</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_nh</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_nj</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_nm</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_ri</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_sc</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_tx</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_va</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_ii_rating_terr_wy</FileName>
+            <Label>Basic Group II Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_al</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_az</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ca</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_co</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ct</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_il</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_in</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ks</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ky</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ma</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_md</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_mi</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_mo</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ne</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_nj</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_oh</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ok</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_or</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_pa</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_ri</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_tn</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_tx</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_va</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_rating_terr_wi</FileName>
+            <Label>Special Cause of Loss Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_ak</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_al</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_ar</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_az</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_ca</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_co</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_territory_de</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_il</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_in</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_ky</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_ma</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_me</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_mo</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_nc</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_territory_nh</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_nj</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_nm</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_nv</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_oh</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_ok</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_or</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_terr_pa</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_sc</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_tn</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_ut</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_va</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_terr_vt</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_eq_rating_territory_wy</FileName>
+            <Label>Earthquake Territory/Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_az</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_ca</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_co</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_ct</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_de</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_il</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_in</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_terr</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_ky</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_terr_ma</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_md</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_mi</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_mn</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_mo</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_nc</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_nj</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_nv</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_oh</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_or</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_pa</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_tn</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_tx</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_ut</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_va</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_wi</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_wv</FileName>
+            <Label>Terrorism Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_geographic_wind_hazard_level_territory</FileName>
+            <Label>Geographic Wind Hazard Level Territory</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_basic_group_i_district_territory</FileName>
+            <Label>East of the 141st meridian of West longitude</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_override</FileName>
+            <Label>Terrorism Territory Override</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_terrorism_territory_il_override</FileName>
+            <Label>Terrorism Territory Override</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_territory_code_location</FileName>
+            <Label>Territorial Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_territorial_zone</FileName>
+            <Label>Territorial Zone</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_class_code_bldg</FileName>
+            <Label>Building Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_class_desc</FileName>
+            <Label>Building Class Code Description</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_class_code_occup_class</FileName>
+            <Label>Occupancy Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_class_desc</FileName>
+            <Label>Occupancy Class Code Description</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_class_code</FileName>
+            <Label>Special Class Code</Label>
+        </BureauCode>
+        <BureauCode>
+            <FileName>cp7_special_class_description</FileName>
+            <Label>Special Class Code Description</Label>
+        </BureauCode>
+    </Lob>
+</BureauCodeConfig>

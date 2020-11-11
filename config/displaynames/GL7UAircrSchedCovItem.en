@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7UAircrSchedCovItem">
+  <Columns>
+    <Column
+      beanPath="GL7UAircrSchedCovItem.Description"
+      name="description"/>
+  </Columns>
+  <DisplayName><![CDATA[description]]></DisplayName>
+</Entity>

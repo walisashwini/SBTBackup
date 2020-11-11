@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ValueDependencyConfig>
+  <ValueDependency property="EDLCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageFormClaimsMade">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ERPDramaticChangeOnExposure" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ERPPeriodEnds6MonthsPrior" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ERPYearsOfExperienceIncurred" container="GL7SublineType">
+    <SystemTable name="GL7YearsOfExperienceIncur">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ExperienceRatingApplies" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="CompositeRating" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GovernmentalSubdivision" container="GL7SublineType">
+    <SystemTable name="GL7GovernmentalSubdivisio">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LegalEntity" container="GL7SublineType">
+    <SystemTable name="GL7LegalEntity">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LimitedCovForDesignatedUnmannedAircraft" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageForm">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+    <SystemTable name="GL7CoverageFormOccurrence">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Jurisdiction>IA</Jurisdiction>
+    </SystemTable>
+    <SystemTable name="GL7LiquorCoverageForm">
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <Jurisdiction>MI</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="MedicalPaymentsExcl" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OwnersContractorsCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageFormOccurrence">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PollutionCleanUpCoverage" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PollutionCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageFormClaimsMade">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsProdsCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageForm">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsWithdrawalCoverage" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalCoverageType" container="GL7SublineType">
+    <SystemTable name="GL7ProductWithdrawalCover">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RailroadCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageFormOccurrence">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RetroactiveDateApplies" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RiskType" container="GL7SublineType">
+    <SystemTable name="GL7RiskType">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ScheduleRatingModificationApplies" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="TRIAExtended" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="TRIPTerminatesBeforeExpirationDate" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="TerrorismCoverage" container="GL7SublineType">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="USTCoverageForm" container="GL7SublineType">
+    <SystemTable name="GL7CoverageFormClaimsMade">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Act" container="GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs">
+    <SystemTable name="GL7Act">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ScheduleType" container="GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs">
+    <SystemTable name="GL7ScheduleType">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimit" container="GL7CertifiedActsOfTerrAggLimitCapOnLossesFromCerti">
+    <SystemTable name="GL7TerrorismAggregateLimi">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PolicyEachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimit11" container="GL7CertifiedActsOfTerrAggLimitCapOnLossesFromCert1">
+    <SystemTable name="GL7TerrorismAggregateLimi">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PolicyEachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimit2" container="GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct">
+    <SystemTable name="GL7TerrorismAggregateLimi">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PolicyEachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7Limit" container="GL7DamageToPremisesRentedToYou">
+    <SystemTable name="GL7DamageToPremisesRented">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="DamageToPremisesRentedToYouExc">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/DamageToPremisesRentedToYouExcl</Path>
+      </KeyColumn>
+      <KeyColumn name="EachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Act" container="GL7ExclSpecificAccidentsProdsWorkOrLocation">
+    <SystemTable name="GL7Act">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Exclusion" container="GL7ExclSpecificAccidentsProdsWorkOrLocation">
+    <SystemTable name="GL7Exclusion">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Act" container="GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo">
+    <SystemTable name="GL7Act">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Exclusion" container="GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo">
+    <SystemTable name="GL7Exclusion">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimit3" container="GL7LimitationOfCovForTerrSubLimitAnnualAggBasis">
+    <SystemTable name="GL7TerrorismAggregateLimi">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PolicyEachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7Limit2" container="GL7MedPay">
+    <SystemTable name="GL7MedPayLimitExcl">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="MedPayExcl">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/MedicalPaymentsExcl</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7PremOpsBIPDDed" container="GL7Deds">
+    <SystemTable name="GL7PremOpsBIPDDeductible">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PremOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Deds/GL7PremOpsBIDed</Path>
+      </KeyColumn>
+      <KeyColumn name="PremOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Deds/GL7PremOpsPDDed</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7ProdsCompldOpsBIPDDed" container="GL7Deds">
+    <SystemTable name="GL7ProdsCompldOpsBIPDDedu">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ProdsCompldOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Deds/GL7ProdsCompldOpsBIDed</Path>
+      </KeyColumn>
+      <KeyColumn name="ProdsCompldOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Deds/GL7ProdsCompldOpsPDDed</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimit1" container="GL7Lmts">
+    <SystemTable name="GL7AggregateLimitLiquor">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachCommonCauseLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7EachCommonCauseLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+    <SystemTable name="GL7AggregateLimitLiquorLi">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7GeneralAggLimit1" container="GL7Lmts">
+    <SystemTable name="GL7GeneralAggregateLimit">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7OwnersContractorsAggLimit" container="GL7Lmts">
+    <SystemTable name="GL7AggregateLimitOwnersCo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachOccurrenceLimOwnersContrac">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7OwnersContractorsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7PersonalAndAdvertisingInjuryLimit" container="GL7Lmts">
+    <SystemTable name="GL7PersonalAndAdvertising">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+      <KeyColumn name="PersonalAdvertisingInjuryExcl">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/PersonalAndAdvertisingInjuryExcl</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7PollutionAggLimit" container="GL7Lmts">
+    <SystemTable name="GL7AggregateLimitPollutio">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachPollutionIncidentLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7EachPollutionIncidentLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7ProdsCompldOpsAggLimit" container="GL7Lmts">
+    <SystemTable name="GL7ProdsCompldOpsAggregat">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7RailroadAggLimit" container="GL7Lmts">
+    <SystemTable name="GL7AggregateLimitRailroad">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EachOccurrenceLimRailroad">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7RailroadEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7USTAggLimit" container="GL7Lmts">
+    <SystemTable name="GL7AggregateLimitUST">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="IncidentLimUST">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7IncidentLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="BodilyInjuryExcluded" container="GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PersonalAndAdvertisingInjuryExcluded" container="GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PropertyDamageExcluded" container="GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="BodilyInjuryExcluded" container="GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PropertyDamageExcluded" container="GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="BodilyInjuryCoverage" container="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PersonalAndAdvertisingInjuryCoverage" container="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PropertyDamageCoverage" container="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="BodilyInjuryCoverage" container="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PropertyDamageCoverage" container="GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorDeductible" container="GL7Location">
+    <SystemTable name="GL7DeductibleLiquor">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorLiabTerritory" container="GL7Location">
+    <SystemTable name="GL7DBTerritory">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PostalCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/ZipCode</Path>
+      </KeyColumn>
+      <ValueColumn>Code</ValueColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OwnersContractorsTerritory" container="GL7Location">
+    <SystemTable name="GL7OwnersContractorsTerr">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PollutionTerritory" container="GL7Location">
+    <SystemTable name="GL7PollutionTerr">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsBIDeductible" container="GL7Location">
+    <SystemTable name="GL7PremOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsBIPDDeductible" container="GL7Location">
+    <SystemTable name="GL7PremOpsBIPDDeductible">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PremOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/PremOpsBIDeductible</Path>
+      </KeyColumn>
+      <KeyColumn name="PremOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/PremOpsPDDeductible</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsPDDeductible" container="GL7Location">
+    <SystemTable name="GL7PremOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremisesOperationsTerritory" container="GL7Location">
+    <SystemTable name="GL7DBTerritory">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PostalCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/ZipCode</Path>
+      </KeyColumn>
+      <ValueColumn>Code</ValueColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsBIDeductible" container="GL7Location">
+    <SystemTable name="GL7ProdsCompldOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsBIPDDeductible" container="GL7Location">
+    <SystemTable name="GL7ProdsCompldOpsBIPDDedu">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ProdsCompldOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/ProdsCompldOpsBIDeductible</Path>
+      </KeyColumn>
+      <KeyColumn name="ProdsCompldOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/ProdsCompldOpsPDDeductible</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsPDDeductible" container="GL7Location">
+    <SystemTable name="GL7ProdsCompldOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsTerritory" container="GL7Location">
+    <SystemTable name="GL7ProdsCompldOpsTerr">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalDeductible" container="GL7Location">
+    <SystemTable name="GL7ProdsCompldOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RailroadTerritory" container="GL7Location">
+    <SystemTable name="GL7RailroadTerr">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ZipCode" container="GL7Location">
+    <SystemTable name="GL7ZipCode">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ClassCode" container="GL7Exposure">
+    <SystemTable name="GL7ClassCodeForClassDesc9">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="Product">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ProductCoverage</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7ClassDescriptionByClas">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCodeForClassDescription">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ClassificationType" container="GL7Exposure">
+    <SystemTable name="GL7ClassificationTypeRT">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Contractor" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Jurisdiction>IA</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="EDLClassCode" container="GL7Exposure">
+    <SystemTable name="GL7EDLClassCodeForClassDe">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="EDLClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7EDLClassDescriptionByC">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EDLClassCodeForClassDescriptio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/EDLClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="EDLPremiumRatingBase" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisEDLClassCo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="EDLClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/EDLClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="IfAnyBasis" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="IfAnyBasisProdsCompldOps" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="InjurySuprvsrInspctrsOtherEmpsCov" container="GL7Exposure">
+    <SystemTable name="GL7InjurySuprvsrInspctrsO">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LimitedCovForPersonalAndAdvertisingInjury" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorClassCode" container="GL7Exposure">
+    <SystemTable name="GL7ClassCodeForClassDescr">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7ClassDescriptionByCla9">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCodeForClassDescriptionLi">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/LiquorClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorDeductible" container="GL7Exposure">
+    <SystemTable name="GL7DeductibleLiquor">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorExposureOnPremises" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <Jurisdiction>IA</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LiquorPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisLiquorClas">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="LiquorClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/LiquorClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="MedPayCovForStud" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="MiscIfAnyBasis" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="MunicipalityOperatesAFireDepartment" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="NumPassgrFreightTrains" container="GL7Exposure">
+    <SystemTable name="GL7NumPassgrFreightTrains">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCodeRailroad">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/RailroadClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OtherThanProdsCompldOpsCov" container="GL7Exposure">
+    <SystemTable name="GL7OtherThanProductsCompl">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassDescriptionCGLProds">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassDescription</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OwnersContractorsClassCode" container="GL7Exposure">
+    <SystemTable name="GL7OwnersContractorsClass">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OwnersContractorsClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7OwnersContractorsClas9">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="OwnersContractorsClassCodeForC">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/OwnersContractorsClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OwnersContractorsPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisOwnersCont">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="OwnersContractorsClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/OwnersContractorsClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PollutionClassCode" container="GL7Exposure">
+    <SystemTable name="GL7PollutionClassCodeForC">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PollutionClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7PollutionClassDescript">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PollutionClassCodeForClassDesc">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/PollutionClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PollutionPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisPollutionC">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PollutionClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/PollutionClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsBIDeductible" container="GL7Exposure">
+    <SystemTable name="GL7PremOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsBIPDDeductible" container="GL7Exposure">
+    <SystemTable name="GL7PremOpsBIPDDeductible">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PremOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/PremOpsBIDeductible</Path>
+      </KeyColumn>
+      <KeyColumn name="PremOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/PremOpsPDDeductible</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsIncrdLimitTableAssignment" container="GL7Exposure">
+    <SystemTable name="GL7PremOpsIncrdLimitTable">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCodeCGLProds">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsIncrdLimitTableAssignmentOverride" container="GL7Exposure">
+    <SystemTable name="GL7IncreasedLimitsTableAs">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="IncreasedLmtsTableAssignmentPr">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/PremOpsIncrdLimitTableAssignment</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsPDDeductible" container="GL7Exposure">
+    <SystemTable name="GL7PremOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PremOpsPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisPremOpsCla">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsBIDeductible" container="GL7Exposure">
+    <SystemTable name="GL7ProdsCompldOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsBIPDDeductible" container="GL7Exposure">
+    <SystemTable name="GL7ProdsCompldOpsBIPDDedu">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ProdsCompldOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ProdsCompldOpsBIDeductible</Path>
+      </KeyColumn>
+      <KeyColumn name="ProdsCompldOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ProdsCompldOpsPDDeductible</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsCov" container="GL7Exposure">
+    <SystemTable name="GL7ProductsCompldOpsCov">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassDescriptionCGLProds">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassDescription</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsIncrdLimitTableAssignment" container="GL7Exposure">
+    <SystemTable name="GL7IncreasedLimitsTableA8">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCodeCGLProds">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsIncrdLimitTableAssignmentOverride" container="GL7Exposure">
+    <SystemTable name="GL7IncreasedLimitsTableA9">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="IncreasedLmtsTableAssignmentPr">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ProdsCompldOpsIncrdLimitTableAssignment</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsPDDeductible" container="GL7Exposure">
+    <SystemTable name="GL7ProdsCompldOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProdsCompldOpsPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisProdsCompl">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductCoverage" container="GL7Exposure">
+    <SystemTable name="GL7ProductCoverage">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="Subline">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/Subline</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalCoverage" container="GL7Exposure">
+    <SystemTable name="GL7ProductsCompldOpsCov">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassDescriptionCGLProds">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassDescription</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalDeductible" container="GL7Exposure">
+    <SystemTable name="GL7ProdsCompldOpsDed">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalExpensesAndLiabilityIncrdLimitTableAssignment" container="GL7Exposure">
+    <SystemTable name="GL7IncreasedLimitsTableA8">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCodeCGLProds">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalExpensesAndLiabilityIncrdLimitTableAssignmentOverride" container="GL7Exposure">
+    <SystemTable name="GL7IncreasedLimitsTableA9">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="IncreasedLmtsTableAssignmentPr">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ProductWithdrawalExpensesAndLiabilityIncrdLimitTableAssignment</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ProductWithdrawalPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisProdsCompl">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="ClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/ClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RailroadClassCode" container="GL7Exposure">
+    <SystemTable name="GL7RailroadClassCodeForCl">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RailroadClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7RailroadClassDescripti">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="RailroadClassCodeForClassDescr">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/RailroadClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="RailroadPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisRRClassCod">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="RailroadClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/RailroadClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="SprayPainting" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="USTClassCode" container="GL7Exposure">
+    <SystemTable name="GL7USTClassCodeForClassDe">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="USTClassDescription" container="GL7Exposure">
+    <SystemTable name="GL7USTClassDescriptionByC">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="USTClassCodeForClassDescriptio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/USTClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="USTPremiumBasis" container="GL7Exposure">
+    <SystemTable name="GL7PremiumBasisUSTClassCo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="USTClassCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/USTClassCode</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="CovAApplies" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="CovBApplies" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="LevelOfCertification" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftLevelO">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Manufacturer" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftManufa">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Model" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftModel">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="UnmannedAircraftManufacturer">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/GL7UnmannedAircraft/Manufacturer</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OperatorYearsOfExperience" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftOperat">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="OwnershipAndOperation" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftOwners">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="PrimaryPlaceOfOperation" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftPrimar">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="TypeOfModifications" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftTypeOf">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="Usage" container="GL7UnmannedAircraft">
+    <SystemTable name="GL7UnmannedAircraftUsage">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7BIPDDed" container="GL7UnmannedAircraftCovABIPD">
+    <SystemTable name="GL7PremOpsBIPDDeductible">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PremOpsBIDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/GL7UnmannedAircraft/GL7UnmannedAircraftCovABIPD/GL7BIDed</Path>
+      </KeyColumn>
+      <KeyColumn name="PremOpsPDDed">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure/GL7UnmannedAircraft/GL7UnmannedAircraftCovABIPD/GL7PDDed</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimit23" container="GL7UnmannedAircraf">
+    <SystemTable name="GL7UnmannedAircraftAggreg">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <KeyColumn name="PolicyEachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Lmts/GL7PremOpsProdsEachOccurrenceLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7ClassificationRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModifica">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7CooperationMedicalFacilitiesRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific1">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7CooperationSafetyProgramRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific2">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7EmplsRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific3">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7EquipRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific4">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7LocationExposureInsidePremisesRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific5">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7LocationExposureOutsidePremisesRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific6">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7PremisesRate" container="GL7ScheduleRatingModification1">
+    <SystemTable name="GL7ScheduleRatingModific7">
+      <EffectiveDate>2019-12-01</EffectiveDate>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="TerrorismTerritory" container="GL7Location">
+    <SystemTable name="GL7DBTerritory">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+      <KeyColumn name="PostalCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/ZipCode</Path>
+      </KeyColumn>
+      <ValueColumn>Code</ValueColumn>
+    </SystemTable>
+    <SystemTable name="GL7DBTerritory">
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <Jurisdiction>MI</Jurisdiction>
+      <KeyColumn name="PostalCode">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/ZipCode</Path>
+      </KeyColumn>
+      <ValueColumn>Code</ValueColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ByLawsCreatedOrAmendedOnOrAfterDate" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="CondominiumAssociation" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="DoesThisRiskOperateScaffoldBuildingsInChicagoThatRequirePermit" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="DoesThisRiskOperateScaffolds" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="DoesThisRiskPerformHomeRepairAndRemodeling" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="EnergyEfficiencyInstaller" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <Jurisdiction>IL</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7AggLimitGovSubdivision" container="GL7UnmannedAircraf">
+    <SystemTable name="GL7UnmannedAircraftAggre1">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>IN</Jurisdiction>
+      <KeyColumn name="EachOccurrenceLimGovSubdivisio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PremOpsProdsEachOccurrenceLimitGovSubdivision</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7LimitGovSubdivision" container="GL7DamageToPremisesRentedToYouGovSubdivision">
+    <SystemTable name="GL7DamageToPremisesRente9">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>IN</Jurisdiction>
+      <KeyColumn name="DamageToPremisesRentedToYouExc">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/DamageToPremisesRentedToYouExcl</Path>
+      </KeyColumn>
+      <KeyColumn name="EachOccurrenceLimGovSubdivisio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PremOpsProdsEachOccurrenceLimitGovSubdivision</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7GeneralAggLimitGovSubdivision" container="GL7LmtsState">
+    <SystemTable name="GL7GeneralAggregateLimitG">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>IN</Jurisdiction>
+      <KeyColumn name="EachOccurrenceLimGovSubdivisio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PremOpsProdsEachOccurrenceLimitGovSubdivision</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7PersonalAndAdvertisingInjuryLimitGovSubdivision" container="GL7LmtsState">
+    <SystemTable name="GL7PersonalAndAdvertisin1">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>IN</Jurisdiction>
+      <KeyColumn name="EachOccurrenceLimGovSubdivisio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PremOpsProdsEachOccurrenceLimitGovSubdivision</Path>
+      </KeyColumn>
+      <KeyColumn name="PersonalAdvertisingInjuryExcl">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/PersonalAndAdvertisingInjuryExcl</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7PremOpsProdsEachOccurrenceLimitGovSubdivision" container="GL7LmtsState">
+    <SystemTable name="GL7EachOccurrenceLimitGov">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>IN</Jurisdiction>
+      <KeyColumn name="PerPersonLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PerPersonLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7ProdsCompldOpsAggLimitGovSubdivision" container="GL7LmtsState">
+    <SystemTable name="GL7ProdsCompldOpsAggrega9">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>IN</Jurisdiction>
+      <KeyColumn name="EachOccurrenceLimGovSubdivisio">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PremOpsProdsEachOccurrenceLimitGovSubdivision</Path>
+      </KeyColumn>
+      <KeyColumn name="PerPersonLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7LmtsState/GL7PerPersonLimit</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="ClimbingFacilityOperator" container="GL7Exposure">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>OH</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="StopGap" container="GL7Subline">
+    <SystemTable name="GL7YesNo">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>OH</Jurisdiction>
+    </SystemTable>
+  </ValueDependency>
+  <ValueDependency property="GL7LimitBIByDiseaseAgg" container="GL7StopGapEmployersLiabCovEndorsementPolLvl">
+    <SystemTable name="GL7GeneralAggregateLimit">
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <Jurisdiction>OH</Jurisdiction>
+      <KeyColumn name="EachOccurrenceLim">
+        <Path>/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline/GL7StopGapEmployersLiabCovEndorsementPolLvl/GL7LimitBIByAccident</Path>
+      </KeyColumn>
+    </SystemTable>
+  </ValueDependency>
+</ValueDependencyConfig>

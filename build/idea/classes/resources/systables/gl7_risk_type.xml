@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7RiskType public-id="zbdg2mreco2598pr7gqqbsevef9">
+    <Value>Motel/Hotel</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="zgfjudv6q47qp4801doahjthtga">
+    <Value>Apartment House</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="z14jcgbtoatuk5ib9pqn501qhm8">
+    <Value>Office</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="z70heve0l34v55frcfttoqbulhb">
+    <Value>Mercantile</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="z13hg9dt1tqk1dd9dga0bcc4tu8">
+    <Value>Institutional</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="zeugohm5k02n95tls89dha2mps8">
+    <Value>Service</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="z1uhchs6a6ivscs3tj8ekqqo0f8">
+    <Value>Industrial/Processing</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="zh8g6oamebmoa97eak5ip3h6a39">
+    <Value>Contracting</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+  <GL7RiskType public-id="z7jjag5ov3an99n3lgeua62j7ka">
+    <Value>CPP not Providing Property and Premises/Operations Liability Coverage</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7RiskType>
+</import>

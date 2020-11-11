@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftOwners public-id="zvoh22f6hsiqrbgih62q4q1gbeb">
+    <Value>Unmanned aircraft owned and operated by the insured</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="z6hgina04a8a7b8g83fbgfs4vk8">
+    <Value>Unmanned aircraft rented or leased to and operated by the insured</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="zl6g2sbajvj8belvpf4fhrqqoab">
+    <Value>Unmanned aircraft operations are contracted out to a subcontractor</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="zvvjop5ar01orfit0nlfff1vo2b">
+    <Value>The insured is a hired operator/pilot operating unmanned aircraft provided by client</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="zgihab3jgcgc40opcjdti7vinab">
+    <Value>Unmanned aircraft rented or leased to others</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="zr7j2027s2ni7e2ocpo2o1s6q1a">
+    <Value>Owned unmanned aircraft operated on insured's behalf by hired operator</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="z9bhce9r7g3bt97orgn1kbph809">
+    <Value>Non-owned unmanned aircraft operated by other parties</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="zfri6fm3nkp2ecutjbafo2d43ia">
+    <Value>Not Applicable</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+  <GL7UnmannedAircraftOwners public-id="zcsgad2hnp8a6b0n7orggk9qjj8">
+    <Value>Unknown</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftOwners>
+</import>

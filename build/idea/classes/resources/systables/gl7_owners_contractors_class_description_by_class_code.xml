@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7OwnersContractorsClas9 public-id="z5lg2fh9id2eab830fnql5eoc49">
+    <Value>Principals Protective Liability-Liability To Independent Contractors-(Cov A)-NOC</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>15191</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="z21jkbt72sc6ldjgrdom54fko18">
+    <Value>Principals Protective Liability-Liability For Independent Contractors-(CovB)-NOC</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>15192</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="zkjiqd21h0uakbhuvs7001k3vp9">
+    <Value>Construction Operations-Contractor(Not RR)-Excluding Operations On Board Ships</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>16291</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="zj9juc2uvtcf32lt3s22r3aknp9">
+    <Value>Construction Operations-Owner (Not RR)-Excluding Operations On Board Ships-NOC</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>16292</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="za7gqprfof5ttagoi8nc01fk9fb">
+    <Value>Operations-NOC</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>17982</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="zili45msadp8s4a7dhvs8aa9r6b">
+    <Value>Principals Protective Liab-Newspaper Publishers-Liab To Indep Contractor-(Cov A)</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>27111</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="z4aj4mtgke8hb4sicevscdqpqaa">
+    <Value>Principals Protective Liab-Newspaper Publisher-Liab For Indep Contractor-(Cov B)</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>27112</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="zichue9t8ulrk7216j68itkvjpb">
+    <Value>Construction Operations - Federal, State Or Local Housing Authorities</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>91181</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="ztbham2o3hlfs38iq87qcunj2cb">
+    <Value>Construction Project Management Protective Liability</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>93040</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="z4sgaghrouj5u4ra354a3r1brt8">
+    <Value>Permits - Building Demolition Operations - Municipalities</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>93161</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+  <GL7OwnersContractorsClas9 public-id="zsrgo0o6amo7j76u7keoloo9n2a">
+    <Value>Permits - Construction Operations - Municipalities</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <OwnersContractorsClassCodeForC>93163</OwnersContractorsClassCodeForC>
+  </GL7OwnersContractorsClas9>
+</import>

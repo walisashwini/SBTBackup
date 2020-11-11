@@ -1,0 +1,13 @@
+package com.guidewire._generated.typekey;
+
+@javax.annotation.Generated(value = "com.guidewire.pl.metadata.codegen.Codegen", comments = "GL7LocSchedCondItemCov.eti;GL7LocSchedCondItemCov.eix;GL7LocSchedCondItemCov.etx")
+@java.lang.SuppressWarnings(value = {"deprecation", "unchecked"})
+public class GL7LocSchedCondItemCovInternalAccess {
+  public static final com.guidewire.pl.system.internal.FriendAccessor<com.guidewire.pl.persistence.code.TypeKeyFriendAccess<typekey.GL7LocSchedCondItemCov>> FRIEND_ACCESSOR = new com.guidewire.pl.system.internal.FriendAccessor<com.guidewire.pl.persistence.code.TypeKeyFriendAccess<typekey.GL7LocSchedCondItemCov>>(typekey.GL7LocSchedCondItemCov.class);
+  
+  private GL7LocSchedCondItemCovInternalAccess()  {
+    
+  }
+  
+  
+}

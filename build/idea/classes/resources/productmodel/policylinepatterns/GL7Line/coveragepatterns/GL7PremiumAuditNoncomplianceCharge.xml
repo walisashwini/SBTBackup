@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeCond" public-id="GL7PremiumAuditNoncomplianceCharge" priority="1104000" lookupTableName="GL7SublineTypeCond" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7PremiumAuditNoncomplianceCharge" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7PremiumAuditNoncomplianceCharge");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7AuditNoncomplianceChargeFactor" required="true" codeIdentifier="GL7AuditNoncomplianceChargeFactor"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="400" public-id="GL7NumberOfWrittenAttempts" required="true" codeIdentifier="GL7NumberOfWrittenAttempts"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm3" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ReassessmentCharge" required="true" codeIdentifier="GL7ReassessmentCharge"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm4" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7TotalAdvancePremium" required="true" codeIdentifier="GL7TotalAdvancePremium"/>
+    </CovTerms>
+</ConditionPattern>

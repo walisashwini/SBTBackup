@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7ExpSchedExclItemExcl"
+  type="effdated"
+  desc="GL7 exposure level exclusion scheduled item with exclusion terms"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7expschedexclitemexcl">
+  <implementsEntity
+    name="Exclusion"/>
+  <implementsInterface
+    iface="gw.api.domain.ExclusionAdapter"
+    impl="gw.lob.gl7.schedules.GL7ExposureSchedExclItemExclAdapter"/>
+  <implementsEntity
+    name="GL7Clause"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7ExposureSchedExclItemExclMatcher"/>
+  <foreignkey
+    name="GL7ExposureSchedExclItem"
+    fkentity="GL7ExposureSchedExclItem"
+    nullok="false"/>
+  <array
+    arrayentity="GL7ExpSchedExclItemExclCost"
+    name="ExpSchedExclItemExclCosts"/>
+</entity>

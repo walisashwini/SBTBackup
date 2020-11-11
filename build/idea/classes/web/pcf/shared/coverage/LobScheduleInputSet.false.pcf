@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <InputSet
+    id="LobScheduleInputSet"
+    mode="false">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Variable
+      initialValue="clause typeis gw.api.domain.Schedule ? clause : null"
+      name="schedule"
+      recalculateOnRefresh="true" type="gw.api.domain.Clause &amp; gw.api.domain.Schedule"/>
+    <Variable
+      initialValue="clause typeis gw.api.domain.Schedule ? schedule.ScheduledItemMultiPatterns?.first() : null "
+      name="scheduledItemPattern"
+      recalculateOnRefresh="true" type="gw.api.productmodel.ClausePattern"/>
+  </InputSet>
+</PCF>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7ExclAccessOrDisclosureOfConfidentialOrPersonal2" priority="811000" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclAccessOrDisclosureOfConfidentialOrPersonal2" policyLinePattern="GL7Line">
+    <CovTerms/>
+</ExclusionPattern>

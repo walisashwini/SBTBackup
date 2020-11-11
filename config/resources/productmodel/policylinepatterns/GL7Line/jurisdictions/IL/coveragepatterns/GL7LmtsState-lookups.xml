@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zglj8hnr22iff31ke5hq7vhj8m9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7LmtsState</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zm6ho9dfdahisc20frth6uefcv9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7LossSupportPerInjuredPerson</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zbihcdljhjif10hpv1d6jp03b18">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7PerPersonLimit</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zd7hg87dourm1doj1nutcrekeda">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7PerPersonLimitPD</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermOptLookup public-id="z45gan5jik74qc3m61oilvja06a">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LossSupportPerInjuredPerson</CovTermPatternCode>
+    <CovTermOptCode>zcojc3h5v76sjcr1nlqk3eblhda</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zc6jus6hqtjrebjnq9iduk763d8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7PerPersonLimit</CovTermPatternCode>
+    <CovTermOptCode>zp5go5sltfg5312e9n37np4o669</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z11ju9jq367vi0ui086cv2ql6i8">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7PerPersonLimitPD</CovTermPatternCode>
+    <CovTermOptCode>z3nh8n3ve90ssfpqdo8e3vuscm9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+</import>

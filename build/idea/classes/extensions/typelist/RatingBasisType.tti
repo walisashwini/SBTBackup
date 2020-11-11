@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="Rating basis type"
+  name="RatingBasisType">
+  <typecode
+    code="fixed"
+    desc="Fixed basis"
+    name="Fixed"
+    priority="10"/>
+  <typecode
+    code="variable"
+    desc="Variable basis"
+    name="Variable"
+    priority="20"/>
+</typelist>

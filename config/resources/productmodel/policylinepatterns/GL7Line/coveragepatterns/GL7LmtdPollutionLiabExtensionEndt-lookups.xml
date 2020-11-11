@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ConditionLookup public-id="zl2jqekpag71k33esbbtg5bti98">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ConditionPatternCode>GL7LmtdPollutionLiabExtensionEndt</ConditionPatternCode>
+    </ConditionLookup>
+    <CovTermLookup public-id="zfjh68njpvsbg72f7h1fnosncr8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7AggLimit7</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="z1th653isnso6etns8dliev8rbb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium130</CovTermPatternCode>
+    </CovTermLookup>
+</import>

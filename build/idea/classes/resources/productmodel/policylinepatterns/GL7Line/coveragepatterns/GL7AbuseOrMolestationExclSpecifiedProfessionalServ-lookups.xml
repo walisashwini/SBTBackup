@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ExclusionLookup public-id="z85i66g54nftrd3ue8qv9qmsnrb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ExclusionPatternCode>GL7AbuseOrMolestationExclSpecifiedProfessionalServ</ExclusionPatternCode>
+    </ExclusionLookup>
+    <CovTermLookup public-id="zm7i6av9dkcnu1ie6esp14rdieb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium1</CovTermPatternCode>
+    </CovTermLookup>
+</import>

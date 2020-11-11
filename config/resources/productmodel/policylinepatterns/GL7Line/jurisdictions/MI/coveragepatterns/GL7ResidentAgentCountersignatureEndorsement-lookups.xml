@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <ConditionLookup public-id="z83gsvvb6s4r9903a6lnlojr1na">
+    <Availability>Unavailable</Availability>
+    <State>MI</State>
+    <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <ConditionPatternCode>GL7ResidentAgentCountersignatureEndorsement</ConditionPatternCode>
+    <EndEffectiveDate/>
+  </ConditionLookup>
+</import>

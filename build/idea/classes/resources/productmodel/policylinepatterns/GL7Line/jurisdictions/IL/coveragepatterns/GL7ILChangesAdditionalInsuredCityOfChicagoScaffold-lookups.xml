@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zgji2p4lro1ccb1uc3e4hk58uo9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7ILChangesAdditionalInsuredCityOfChicagoScaffold</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="ze1ik58f9tnvmaa7p2r3rrgkcb9">
+    <Availability>Available</Availability>
+    <State>IL</State>
+    <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ManualPremium197</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+</import>

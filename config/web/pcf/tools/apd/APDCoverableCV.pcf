@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <CardViewPanel
+    id="APDCoverableCV">
+    <Require
+      name="coverable"
+      type="APDCoverable"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Variable
+      initialValue="new gw.api.web.userpreference.UserPreferencesOfCurrentUser()"
+      name="userPreferences"
+      type="gw.api.web.userpreference.UserPreferencesOfCurrentUser"/>
+    <Variable
+      initialValue="userPreferences.inDevelopMode()"
+      name="inDevelopMode"
+      type="Boolean"/>
+    <Variable
+      initialValue="coverable.LocalizationFields"
+      name="localizationFields"
+      recalculateOnRefresh="true"
+      type="String[]"/>
+    <Variable
+      initialValue="coverable.LocalizationLabels"
+      name="localizationLabels"
+      recalculateOnRefresh="true"
+      type="String[]"/>
+    <Variable
+      initialValue="new gw.apd.model.CostCodeHelper()"
+      name="costCodeHelper"
+      type="gw.apd.model.CostCodeHelper"/>
+    <Card
+      id="CoverableDetail"
+      title="DisplayKey.get(&quot;Web.APDProductScreen.APDProductLine.Details&quot;)">
+      <DetailViewPanel>
+        <InputColumn>
+          <InputSetRef
+            def="APDCoverableInputSet(coverable)"
+            mode="coverable typeis APDProductLine ? &quot;line&quot; : &quot;default&quot;"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="LocalizedValuesDV(coverable, localizationFields, localizationLabels)"
+        id="ProductLineLocalizedValues"/>
+    </Card>
+    <Card
+      id="CoverableFields"
+      title="DisplayKey.get(&quot;Web.APDProductScreen.APDProductLine.Fields&quot;)">
+      <ListDetailPanel
+        selectionName="fieldDetails"
+        selectionType="APDField">
+        <PanelRef>
+          <Toolbar>
+            <IteratorButtons
+              iterator="FieldsLV"
+              removeFlags="all canDelete"/>
+          </Toolbar>
+          <ListViewPanel
+            disableUserCustomization="true">
+            <RowIterator
+              editable="true"
+              elementName="field"
+              id="FieldsLV"
+              toCreateAndAdd="coverable.createAndAddField()"
+              toRemove="coverable.removeField(field)"
+              value="coverable.Fields"
+              valueType="APDField[]">
+              <IteratorSort
+                sortBy="field.Sequence"
+                sortOrder="1"/>
+              <ToolbarFlag
+                condition="not field.Jurisdiction"
+                name="canDelete"/>
+              <Row>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Label"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Label&quot;)"
+                  required="true"
+                  value="field.Label"/>
+                <TypeKeyCell
+                  editable="not field.Jurisdiction"
+                  enableSort="false"
+                  id="Type"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Type&quot;)"
+                  required="true"
+                  value="field.Type"
+                  valueType="APDFieldType">
+                  <PostOnChange
+                    onChange="field.DropDownType = (field.Type == APDFieldType.TC_TYPEKEY) ? APDDropDownType.TC_TYPELIST : null"/>
+                  <MenuItem
+                    action="APDDropDownDefinitionPopup.push(field, false, CurrentLocation.InEditMode)"
+                    id="DropDownDefinition"
+                    label="DisplayKey.get(&quot;Web.APDAttributeDropDownDefinition.Button&quot;)"
+                    visible="field.Type == APDFieldType.TC_TYPEKEY"/>
+                </TypeKeyCell>
+                <CheckBoxCell
+                  available="APDFieldType.TF_IDENTIFIERTYPES.TypeKeys.hasMatch(\tk -&gt; tk == field.Type)"
+                  editable="true"
+                  enableSort="false"
+                  id="Identifier"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Identifier&quot;)"
+                  value="field.Identifier"/>
+                <CheckBoxCell
+                  editable="true"
+                  enableSort="false"
+                  id="Jurisdiction"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Jurisdiction&quot;)"
+                  value="field.Jurisdiction"
+                  valueVisible="field.Type == APDFieldType.TC_LOCATION"
+                  visible="not (coverable typeis APDProductLine)">
+                  <PostOnChange
+                    onChange="field.autoSetRiskLocation()"/>
+                </CheckBoxCell>
+                <RangeCell
+                  action="APDAttributeRulePopup.push(field.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE and not (r typeis APDDropdownEntryRule)), field, APDRuleType.TC_EXISTENCE, openForEdit)"
+                  enableSort="false"
+                  id="Usage"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.ExistenceRule&quot;)"
+                  value="field.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE and not (r typeis APDDropdownEntryRule)).DefaultExistence ?: APDDataExistenceType.TC_CAPTURED"
+                  valueRange="APDDataExistenceType.getTypeKeys(false)"
+                  valueType="APDDataExistenceType"/>
+                <ModalCellRef
+                  def="APDAttributeDefaultValue(field, APDRuleType.TC_DEFAULT, null, openForEdit)"
+                  editable="false"
+                  grow="true"
+                  id="DefaultValue"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.DefaultingRule&quot;)"
+                  mode="field.getUIRuleMode(APDRuleType.TC_DEFAULT)"
+                  required="false"/>
+                <ModalCellRef
+                  def="APDAttributeDefaultValue(field, APDRuleType.TC_MIN, null, openForEdit)"
+                  editable="false"
+                  grow="true"
+                  id="MinimumValue"
+                  label="DisplayKey.get(&quot;Web.Policy.ManualLine.RiskCoverable.MinimumAmountRule&quot;)"
+                  mode="field.getUIRuleMode(APDRuleType.TC_MIN)"
+                  required="false"/>
+                <ModalCellRef
+                  def="APDAttributeDefaultValue(field, APDRuleType.TC_MAX, null, openForEdit)"
+                  editable="false"
+                  grow="true"
+                  id="MaximumValue"
+                  label="DisplayKey.get(&quot;Web.Policy.ManualLine.RiskCoverable.MaximumAmountRule&quot;)"
+                  mode="field.getUIRuleMode(APDRuleType.TC_MAX)"
+                  required="false"/>
+                <TextCell
+                  action="APDTagPopup.push(field, openForEdit)"
+                  enableSort="false"
+                  id="Tags"
+                  label="DisplayKey.get(&quot;Web.Policy.ManualLine.RiskCoverable.Tags&quot;)"
+                  value="field.TagDisplayValue"
+                  valueVisible="field.ShowDisplayValue"
+                  visible="false"/>
+                <CheckBoxCell
+                  editable="true"
+                  enableSort="false"
+                  id="SplitByRatingPeriods"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.SplitByRatingPeriods&quot;)"
+                  value="field.SplitByRatingPeriods">
+                  <PostOnChange
+                    onChange="if (field.SplitByRatingPeriods == false) {field.Scalable = false}"/>
+                </CheckBoxCell>
+                <CheckBoxCell
+                  editable="true"
+                  enableSort="false"
+                  id="Scalable"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Scalable&quot;)"
+                  value="field.Scalable"
+                  valueVisible="field.CanScale"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Category"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Category&quot;)"
+                  value="field.Category"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Description"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDProductScreen.APDField.Description&quot;))"
+                  value="field.Description"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Name"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDProductScreen.APDField.Name&quot;))"
+                  value="field.Name"
+                  visible="inDevelopMode"/>
+                <ButtonCell
+                  hideIfDisabled="false"
+                  hideIfReadOnly="true"
+                  id="MoveButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Move&quot;)"
+                  value="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Move&quot;)">
+                  <MenuItem
+                    action="field.moveUp()"
+                    available="field.Sequence != 1"
+                    id="MoveUp"
+                    label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Move.Up&quot;)"/>
+                  <MenuItem
+                    action="field.moveDown()"
+                    available="field.Sequence != coverable.Fields.Count"
+                    id="MoveDown"
+                    label="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Move.Down&quot;)"/>
+                </ButtonCell>
+              </Row>
+            </RowIterator>
+          </ListViewPanel>
+        </PanelRef>
+        <CardViewPanel
+          hideTabIfSingle="true">
+          <Card
+            id="FieldDetails"
+            title="&quot;&quot;">
+            <PanelRow>
+              <PanelColumn>
+                <PanelRef
+                  def="LocalizedValuesDV(fieldDetails, {&quot;Label&quot;, &quot;Description&quot;}, {DisplayKey.get(&quot;Web.APDProductScreen.APDField.Label&quot;), DisplayKey.get(&quot;Web.APDProductScreen.APDField.Description&quot;)})"
+                  id="FieldLocalizedValues"/>
+              </PanelColumn>
+            </PanelRow>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </Card>
+    <Card
+      id="CoverableExposures"
+      title="DisplayKey.get(&quot;Web.APDProductScreen.APDProductLine.Exposures&quot;)"
+      visible="coverable.HasExposure">
+      <ListDetailPanel
+        selectionName="exposureDetails"
+        selectionType="APDExposure">
+        <PanelRef>
+          <Toolbar>
+            <IteratorButtons
+              iterator="ExposuresLV"/>
+          </Toolbar>
+          <ListViewPanel>
+            <RowIterator
+              editable="true"
+              elementName="exposure"
+              id="ExposuresLV"
+              toCreateAndAdd="coverable.addExposure()"
+              toRemove="coverable.removeFromExposures(exposure)"
+              value="coverable.Exposures"
+              valueType="APDExposure[]">
+              <Row>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Name"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.Name&quot;)"
+                  required="true"
+                  sortOrder="1"
+                  value="exposure.Name"/>
+                <TextCell
+                  action="APDExposureFieldsPopup.push(exposure, openForEdit)"
+                  enableSort="false"
+                  id="TermsButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Fields&quot;)"
+                  value="DisplayKey.get(&quot;Web.APDCoverableCV.EditFields&quot;)"/>
+                <TypeKeyCell
+                  editable="true"
+                  enableSort="false"
+                  id="ExposureType"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.ExposureType&quot;)"
+                  required="true"
+                  value="exposure.ExposureType"
+                  valueType="APDExposureType">
+                  <PostOnChange/>
+                </TypeKeyCell>
+                <TypeKeyCell
+                  editable="true"
+                  enableSort="false"
+                  id="ContactRole"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.ContactRole&quot;)"
+                  required="false"
+                  validationExpression="return (exposure.ExposureType == APDExposureType.TC_CONTACT &amp;&amp; exposure.ContactRole == null)? DisplayKey.get(&quot;Web.APDValidation.Exposure.MissingContactRole&quot;) : null"
+                  value="exposure.ContactRole"
+                  valueType="APDExposureContactRole"
+                  valueVisible="exposure.ExposureType == APDExposureType.TC_CONTACT">
+                  <PostOnChange/>
+                </TypeKeyCell>
+                <TypeKeyCell
+                  editable="true"
+                  enableSort="false"
+                  id="RiskLocation"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.RiskLocation&quot;)"
+                  required="true"
+                  value="exposure.RiskLocation"
+                  valueType="APDRiskLocationType">
+                  <PostOnChange
+                    onChange="exposure.toggleJurisdictionLocation()"/>
+                </TypeKeyCell>
+                <TypeKeyCell
+                  editable="true"
+                  enableSort="false"
+                  id="RatingType"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.RatingType&quot;)"
+                  required="true"
+                  value="exposure.RatingType"
+                  valueType="APDExposureRatingType"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="MenuLabel"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.MenuLabel&quot;))"
+                  sortOrder="1"
+                  value="exposure.MenuLabel"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Description"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.Description&quot;))"
+                  value="exposure.Description"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="TypeName"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.TypeName&quot;))"
+                  value="exposure.TypeName"
+                  visible="inDevelopMode"/>
+              </Row>
+            </RowIterator>
+          </ListViewPanel>
+        </PanelRef>
+        <CardViewPanel
+          hideTabIfSingle="true">
+          <Card
+            id="ExposureTranslations"
+            title="&quot;&quot;">
+            <PanelRef
+              def="LocalizedValuesDV(exposureDetails, {&quot;Name&quot;, &quot;Description&quot;, &quot;MenuLabel&quot;}, {DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.Name&quot;), DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.Description&quot;), DisplayKey.get(&quot;Web.APDCoverableCV.APDExposure.MenuLabel&quot;)})"
+              id="ExposureLocalizedValues"/>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </Card>
+    <Card
+      id="CoverableCoverages"
+      title="DisplayKey.get(&quot;Web.APDProductScreen.APDProductLine.Coverages&quot;)">
+      <ListDetailPanel
+        selectionName="coverageDetails"
+        selectionType="APDCoverage">
+        <PanelRef>
+          <Toolbar>
+            <IteratorButtons
+              iterator="CoveragesLV"/>
+            <ToolbarButton
+              action="APDManageClauseCategoriesPopup.push(coverable, openForEdit)"
+              id="ManageCoverageCategories"
+              label="DisplayKey.get( &quot;Web.APDCoverableCV.ManageClauseCategoriesButton&quot; )"
+              shortcut="M"/>
+          </Toolbar>
+          <ListViewPanel>
+            <RowIterator
+              editable="true"
+              elementName="coverage"
+              id="CoveragesLV"
+              toCreateAndAdd="coverable.addCoverage(null)"
+              toRemove="coverable.removeCoverage(coverage)"
+              type="APDCoverage"
+              value="coverable.Coverages"
+              valueType="APDCoverage[]">
+              <IteratorSort
+                sortBy="coverage.Sequence"
+                sortOrder="1"/>
+              <Row>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Name"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.Name&quot;)"
+                  required="true"
+                  value="coverage.Name"/>
+                <TextCell
+                  action="APDClauseTermsPopup.push(coverage, openForEdit)"
+                  enableSort="false"
+                  id="TermsButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Terms&quot;)"
+                  value="DisplayKey.get(&quot;Web.APDCoverableCV.EditTerms&quot;)"/>
+                <TextCell
+                  action="APDCoveragePopup.push(coverage, openForEdit)"
+                  enableSort="false"
+                  id="EditButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Details&quot;)"
+                  value="DisplayKey.get(&quot;Web.APDCoverableCV.EditCoverageDetails&quot;)"/>
+                <RangeCell
+                  actionAvailable="true"
+                  editable="true"
+                  enableSort="false"
+                  id="ClauseCategory"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.ClauseCategory&quot;)"
+                  required="true"
+                  value="coverage.ClauseCategory"
+                  valueRange="coverage.Coverable.ClauseCategories"
+                  valueType="APDClauseCategory">
+                  <MenuItem
+                    action="APDClauseCategoryPopup.push(coverage.ClauseCategory, CurrentLocation.InEditMode)"
+                    available="coverage.ClauseCategory != null"
+                    id="EditCategory"
+                    label="DisplayKey.get(&quot;Web.APDCoverableCV.EditClauseCategory&quot;)"/>
+                  <PickerMenuItem
+                    action="APDNewLibraryCategoryPopup.push(coverable)"
+                    id="AddNewCategory"
+                    label="DisplayKey.get(&quot;Web.APDCoverageSearchResultsLV.AddNewCategoryMenu&quot;)"
+                    onPick="coverage.ClauseCategory = PickedValue"/>
+                </RangeCell>
+                <RangeCell
+                  action="APDClauseRulePopup.push(coverage.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE), coverage, APDRuleType.TC_EXISTENCE, openForEdit)"
+                  enableSort="false"
+                  id="Usage"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverableCV.ExistenceRule&quot;)"
+                  value="coverage.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE).DefaultExistence ?: APDDataExistenceType.TC_OPTIONAL"
+                  valueRange="APDDataExistenceType.getTypeKeys(false)"
+                  valueType="APDDataExistenceType"/>
+                <TextCell
+                  action="APDTagPopup.push(coverage, openForEdit)"
+                  editable="false"
+                  enableSort="false"
+                  id="Tags"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverableCV.Tags&quot;)"
+                  value="coverage.TagDisplayValue"
+                  visible="false"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Description"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.Description&quot;))"
+                  value="coverage.Description"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="CodeIdentifier"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.CodeIdentifier&quot;, coverable.LinePrefix))"
+                  value="coverage.CodeIdentifier"
+                  visible="inDevelopMode"/>
+                <ButtonCell
+                  hideIfDisabled="false"
+                  hideIfReadOnly="true"
+                  id="MoveButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Move&quot;)"
+                  value="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Move&quot;)">
+                  <MenuItem
+                    action="coverage.moveUp()"
+                    available="coverage.Sequence != 1"
+                    id="MoveUp"
+                    label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverage.Move.Up&quot;)"/>
+                  <MenuItem
+                    action="coverage.moveDown()"
+                    available="coverage.Sequence != coverable.Coverages.Count"
+                    id="MoveDown"
+                    label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverage.Move.Down&quot;)"/>
+                </ButtonCell>
+              </Row>
+            </RowIterator>
+          </ListViewPanel>
+        </PanelRef>
+        <CardViewPanel
+          hideTabIfSingle="true">
+          <Card
+            id="CoverageDetails"
+            title="&quot;&quot;">
+            <PanelRow>
+              <PanelColumn>
+                <PanelRef
+                  def="LocalizedValuesDV(coverageDetails, {&quot;Name&quot;, &quot;Description&quot;}, {DisplayKey.get(&quot;Web.APDCoverableCV.Name&quot;), DisplayKey.get(&quot;Web.APDCoverableCV.Description&quot;)})"
+                  id="CoverageLocalizedValues"/>
+              </PanelColumn>
+            </PanelRow>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </Card>
+    <Card
+      id="CoverableExclusions"
+      title="DisplayKey.get( &quot;Web.APDProductScreen.APDProductLine.Exclusions&quot; )">
+      <ListDetailPanel
+        selectionName="exclusionDetails"
+        selectionType="APDExclusion">
+        <PanelRef>
+          <Toolbar>
+            <IteratorButtons
+              iterator="ExclusionsLV"/>
+            <ToolbarButton
+              action="APDManageClauseCategoriesPopup.push(coverable, openForEdit)"
+              id="ManageExclusionCategories"
+              label="DisplayKey.get( &quot;Web.APDCoverableCV.ManageClauseCategoriesButton&quot; )"
+              shortcut="M"/>
+          </Toolbar>
+          <ListViewPanel>
+            <RowIterator
+              editable="true"
+              elementName="exclusion"
+              id="ExclusionsLV"
+              toCreateAndAdd="coverable.addExclusion( null )"
+              toRemove="coverable.removeExclusion( exclusion )"
+              type="APDExclusion"
+              value="coverable.Exclusions"
+              valueType="APDExclusion[]">
+              <IteratorSort
+                sortBy="exclusion.Sequence"
+                sortOrder="1"/>
+              <Row>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Name"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.Name&quot;)"
+                  required="true"
+                  value="exclusion.Name"/>
+                <TextCell
+                  action="APDClauseTermsPopup.push(exclusion, openForEdit)"
+                  enableSort="false"
+                  id="TermsButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Terms&quot;)"
+                  value="DisplayKey.get( &quot;Web.APDCoverableCV.EditTerms&quot; )"/>
+                <RangeCell
+                  actionAvailable="true"
+                  editable="true"
+                  enableSort="false"
+                  id="ClauseCategory"
+                  label="DisplayKey.get(&quot;Web.APDCoverableCV.ClauseCategory&quot;)"
+                  required="true"
+                  value="exclusion.ClauseCategory"
+                  valueRange="exclusion.Coverable.ClauseCategories"
+                  valueType="APDClauseCategory">
+                  <MenuItem
+                    action="APDClauseCategoryPopup.push(exclusion.ClauseCategory, CurrentLocation.InEditMode)"
+                    available="exclusion.ClauseCategory != null"
+                    id="EditCategory"
+                    label="DisplayKey.get(&quot;Web.APDCoverableCV.EditClauseCategory&quot;)"/>
+                  <PickerMenuItem
+                    action="APDNewLibraryCategoryPopup.push(coverable)"
+                    id="AddNewCategory"
+                    label="DisplayKey.get(&quot;Web.APDCoverageSearchResultsLV.AddNewCategoryMenu&quot;)"
+                    onPick="exclusion.ClauseCategory = PickedValue"/>
+                </RangeCell>
+                <RangeCell
+                  action="APDClauseRulePopup.push(exclusion.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE), exclusion, APDRuleType.TC_EXISTENCE, openForEdit)"
+                  enableSort="false"
+                  id="Usage"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverableCV.ExistenceRule&quot;)"
+                  value="exclusion.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE).DefaultExistence ?: APDDataExistenceType.TC_OPTIONAL"
+                  valueRange="APDDataExistenceType.getTypeKeys(false)"
+                  valueType="APDDataExistenceType"/>
+                <TextCell
+                  action="APDTagPopup.push(exclusion, openForEdit)"
+                  editable="false"
+                  enableSort="false"
+                  id="Tags"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverableCV.Tags&quot;)"
+                  value="exclusion.TagDisplayValue"
+                  visible="false"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Description"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.Description&quot;))"
+                  value="exclusion.Description"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="CodeIdentifier"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.APDCoverableCV.CodeIdentifier&quot;, coverable.LinePrefix))"
+                  value="exclusion.CodeIdentifier"
+                  visible="inDevelopMode"/>
+                <ButtonCell
+                  hideIfDisabled="false"
+                  hideIfReadOnly="true"
+                  id="MoveButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Move&quot;)"
+                  value="DisplayKey.get(&quot;Web.APDProductScreen.APDField.Move&quot;)">
+                  <MenuItem
+                    action="exclusion.moveUp()"
+                    available="exclusion.Sequence != 1"
+                    id="MoveUp"
+                    label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverage.Move.Up&quot;)"/>
+                  <MenuItem
+                    action="exclusion.moveDown()"
+                    available="exclusion.Sequence != coverable.Exclusions.Count"
+                    id="MoveDown"
+                    label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverage.Move.Down&quot;)"/>
+                </ButtonCell>
+              </Row>
+            </RowIterator>
+          </ListViewPanel>
+        </PanelRef>
+        <CardViewPanel
+          hideTabIfSingle="true">
+          <Card
+            id="ExclusionDetails"
+            title="&quot;&quot;">
+            <PanelRow>
+              <PanelColumn>
+                <PanelRef
+                  def="LocalizedValuesDV(exclusionDetails, {&quot;Name&quot;, &quot;Description&quot;}, {DisplayKey.get(&quot;Web.APDCoverableCV.Name&quot;), DisplayKey.get(&quot;Web.APDCoverableCV.Description&quot;)})"
+                  id="ExclusionLocalizedValues"/>
+              </PanelColumn>
+            </PanelRow>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </Card>
+    <Card
+      id="CoverableConditions"
+      title="DisplayKey.get( &quot;Web.APDProductScreen.APDProductLine.Conditions&quot; )">
+      <ListDetailPanel
+        selectionName="conditionDetails"
+        selectionType="APDCondition">
+        <PanelRef>
+          <Toolbar>
+            <IteratorButtons
+              iterator="ConditionsLV"/>
+            <ToolbarButton
+              action="APDManageClauseCategoriesPopup.push(coverable, openForEdit)"
+              id="ManageConditionCategories"
+              label="DisplayKey.get( &quot;Web.APDCoverableCV.ManageClauseCategoriesButton&quot; )"
+              shortcut="M"/>
+          </Toolbar>
+          <ListViewPanel>
+            <RowIterator
+              editable="true"
+              elementName="condition"
+              id="ConditionsLV"
+              selectLabel="DisplayKey.get( &quot;Button.Select&quot; )"
+              toCreateAndAdd="coverable.addCondition( null )"
+              toRemove="coverable.removeCondition( condition )"
+              type="APDCondition"
+              value="coverable.Conditions"
+              valueType="APDCondition[]">
+              <IteratorSort
+                sortBy="condition.Sequence"
+                sortOrder="1"/>
+              <Row>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Name"
+                  label="DisplayKey.get( &quot;Web.APDCoverableCV.Name&quot; )"
+                  required="true"
+                  value="condition.Name"/>
+                <TextCell
+                  action="APDClauseTermsPopup.push(condition, openForEdit)"
+                  enableSort="false"
+                  id="TermsButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Terms&quot;)"
+                  value="DisplayKey.get( &quot;Web.APDCoverableCV.EditTerms&quot; )"/>
+                <RangeCell
+                  actionAvailable="true"
+                  editable="true"
+                  enableSort="false"
+                  id="ClauseCategory"
+                  label="DisplayKey.get( &quot;Web.APDCoverableCV.ClauseCategory&quot; )"
+                  required="true"
+                  value="condition.ClauseCategory"
+                  valueRange="condition.Coverable.ClauseCategories"
+                  valueType="APDClauseCategory">
+                  <MenuItem
+                    action="APDClauseCategoryPopup.push(condition.ClauseCategory, CurrentLocation.InEditMode)"
+                    available="condition.ClauseCategory != null"
+                    id="EditCategory"
+                    label="DisplayKey.get( &quot;Web.APDCoverableCV.EditClauseCategory&quot; )"/>
+                  <PickerMenuItem
+                    action="APDNewLibraryCategoryPopup.push(coverable)"
+                    id="AddNewCategory"
+                    label="DisplayKey.get(&quot;Web.APDCoverageSearchResultsLV.AddNewCategoryMenu&quot;)"
+                    onPick="condition.ClauseCategory = PickedValue"/>
+                </RangeCell>
+                <RangeCell
+                  action="APDClauseRulePopup.push(condition.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE), condition, APDRuleType.TC_EXISTENCE, openForEdit)"
+                  enableSort="false"
+                  id="Usage"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverableCV.ExistenceRule&quot;)"
+                  value="condition.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE).DefaultExistence ?: APDDataExistenceType.TC_OPTIONAL"
+                  valueRange="APDDataExistenceType.getTypeKeys(false)"
+                  valueType="APDDataExistenceType"/>
+                <TextCell
+                  action="APDTagPopup.push(condition, openForEdit)"
+                  editable="false"
+                  enableSort="false"
+                  id="Tags"
+                  label="DisplayKey.get(&quot;Web.APDProductScreen.APDCoverableCV.Tags&quot;)"
+                  value="condition.TagDisplayValue"
+                  visible="false"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="Description"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get( &quot;Web.APDCoverableCV.Description&quot; ))"
+                  value="condition.Description"/>
+                <TextCell
+                  editable="true"
+                  enableSort="false"
+                  id="CodeIdentifier"
+                  label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get( &quot;Web.APDCoverableCV.CodeIdentifier&quot;, coverable.LinePrefix ))"
+                  value="condition.CodeIdentifier"
+                  visible="inDevelopMode"/>
+                <ButtonCell
+                  hideIfDisabled="false"
+                  hideIfReadOnly="true"
+                  id="MoveButton"
+                  label="DisplayKey.get(&quot;Web.APD.LVColumnHeading.Move&quot;)"
+                  value="DisplayKey.get( &quot;Web.APDProductScreen.APDField.Move&quot; )">
+                  <MenuItem
+                    action="condition.moveUp()"
+                    available="condition.Sequence != 1"
+                    id="MoveUp"
+                    label="DisplayKey.get( &quot;Web.APDProductScreen.APDCoverage.Move.Up&quot; )"/>
+                  <MenuItem
+                    action="condition.moveDown()"
+                    available="condition.Sequence != coverable.Conditions.Count"
+                    id="MoveDown"
+                    label="DisplayKey.get( &quot;Web.APDProductScreen.APDCoverage.Move.Down&quot; )"/>
+                </ButtonCell>
+              </Row>
+            </RowIterator>
+          </ListViewPanel>
+        </PanelRef>
+        <CardViewPanel
+          hideTabIfSingle="true">
+          <Card
+            id="ConditionDetails"
+            title="&quot;&quot;">
+            <PanelRow>
+              <PanelColumn>
+                <PanelRef
+                  def="LocalizedValuesDV( conditionDetails, {&quot;Name&quot;, &quot;Description&quot;}, {DisplayKey.get( &quot;Web.APDCoverableCV.Name&quot; ), DisplayKey.get( &quot;Web.APDCoverableCV.Description&quot; )})"
+                  id="ConditionLocalizedValues"/>
+              </PanelColumn>
+            </PanelRow>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </Card>
+    <Card
+      id="CoverablePricing"
+      title="DisplayKey.get( &quot;Web.APDProductScreen.APDCoverable.Pricing&quot; )">
+      <PanelRef
+        def="APDCoverablePricingPanelSet(coverable, costCodeHelper)"/>
+    </Card>
+    <Card
+      id="CoverableChildren"
+      title="DisplayKey.get(&quot;Web.APDProductScreen.APDProductLine.Children&quot;)"
+      visible="coverable.HasChildren">
+      <PanelRef>
+        <Toolbar>
+          <IteratorButtons
+            iterator="CoverableLV"/>
+        </Toolbar>
+        <ListViewPanel>
+          <RowIterator
+            editable="true"
+            elementName="child"
+            id="CoverableLV"
+            toCreateAndAdd="coverable.addCoverable()"
+            toRemove="coverable.removeCoverable(child)"
+            value="coverable.ChildCoverables"
+            valueType="APDCoverable[]">
+            <Row>
+              <TextCell
+                action="APDCoverablePopup.push(child, openForEdit)"
+                id="childName"
+                label="DisplayKey.get(&quot;Web.APDCoverable.Name&quot;)"
+                value="child.Name"/>
+              <TextCell
+                id="childDescription"
+                label="DisplayKey.get(&quot;Web.APDCoverable.Description&quot;)"
+                value="child.Description"/>
+            </Row>
+          </RowIterator>
+        </ListViewPanel>
+      </PanelRef>
+    </Card>
+  </CardViewPanel>
+</PCF>

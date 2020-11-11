@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="SBTUpdateStatus"
+  name="SBTUpdateStatus">
+  <typecode
+    code="NotStarted"
+    desc="Not Started"
+    name="Not Started"
+    priority="10"/>
+  <typecode
+    code="InProgress"
+    desc="In Progress"
+    name="In Progress"
+    priority="20"/>
+  <typecode
+    code="Complete"
+    desc="Complete"
+    name="Complete"
+    priority="30"/>
+</typelist>

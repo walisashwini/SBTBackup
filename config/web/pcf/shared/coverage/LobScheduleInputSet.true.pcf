@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <InputSet
+    id="LobScheduleInputSet"
+    mode="true">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Variable
+      initialValue="clause typeis gw.api.domain.Schedule ? clause : null"
+      name="schedule"
+      recalculateOnRefresh="true"
+      type="gw.api.domain.Schedule"/>
+    <Variable
+      initialValue="clause.Pattern.CoverageCategory"
+      name="category"
+      recalculateOnRefresh="true"
+      type="gw.api.productmodel.CoverageCategory"/>
+    <Variable
+      initialValue="clause.PolicyLine.AdditionalInsuredOtherCandidates.asViews()"
+      name="otherContacts"
+      type="AccountContactView[]"/>
+    <Variable
+      initialValue="clause.PolicyLine.ExistingAdditionalInsureds.asViews()"
+      name="existingAdditionalInsureds"
+      recalculateOnRefresh="true"
+      type="AccountContactView[]"/>
+    <Variable
+      initialValue="gw.plugin.Plugins.get(gw.plugin.contact.IContactConfigPlugin)"
+      name="contactConfigPlugin"
+      recalculateOnRefresh="true" type="gw.plugin.contact.IContactConfigPlugin"/>
+    <InputSetRef
+      def="LobScheduledItemsLVInputSet(clause, openForEdit, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+      mode="clause.PolicyLine.PatternCode"/>
+  </InputSet>
+</PCF>

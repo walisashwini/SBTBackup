@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PremiumBasisEDLClassCo public-id="z88i6fdl89677c18plu4ouaga28">
+    <Value>Payroll</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EDLClassCode>92900</EDLClassCode>
+  </GL7PremiumBasisEDLClassCo>
+  <GL7PremiumBasisEDLClassCo public-id="z0ei0h3nmktg486qcp6se4dd9db">
+    <Value>Gross Sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EDLClassCode>92901</EDLClassCode>
+  </GL7PremiumBasisEDLClassCo>
+  <GL7PremiumBasisEDLClassCo public-id="zk7j8g72mcvuu94vi0csroh0f28">
+    <Value>All Other</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EDLClassCode>92909</EDLClassCode>
+  </GL7PremiumBasisEDLClassCo>
+</import>

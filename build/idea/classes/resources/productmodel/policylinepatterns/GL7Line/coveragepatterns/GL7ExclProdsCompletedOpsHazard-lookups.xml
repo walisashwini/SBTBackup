@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<import>
+  <ExclusionLookup public-id="zvshgkq0gskqn9s3dup7dm6aoba">
+    <Availability>Available</Availability>
+    <EndEffectiveDate/>
+    <ExclusionPatternCode>z0tj63admkslecp1112qo7m96ja</ExclusionPatternCode>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-11-02 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </ExclusionLookup>
+  <CovTermLookup public-id="zf2h6vm23pabt4e5lnid8eaq8ka">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zrhjurhfj1evceoarroktsnh718</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-11-02 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+</import>

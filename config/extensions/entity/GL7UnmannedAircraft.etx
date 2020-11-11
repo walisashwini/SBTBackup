@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7UnmannedAircraft" xmlns="http://guidewire.com/datamodel">
+    <column columnName="gl7covaapplies" desc="Coverage A Applies" name="CovAApplies" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7covbapplies" desc="Coverage B Applies" name="CovBApplies" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7hoursofoperationperyear" desc="Hours Of Operation Per Year" name="HoursOfOperationPerYear" nullok="true" type="integer"/>
+    <column columnName="gl7levelofcertification" desc="Level Of Certification" name="LevelOfCertification" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7manufacturer" desc="Manufacturer" name="Manufacturer" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7maxtakeoffweight" desc="Maximum Takeoff Weight (including drone, camera and payload) in lbs." name="MaximumTakeoffWeight" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7model" desc="Model" name="Model" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7operatoryearsofexperience" desc="Primary Operator Years Of Experience" name="OperatorYearsOfExperience" nullok="true" type="varchar">
+        <columnParam name="size" value="20"/>
+    </column>
+    <column columnName="gl7ownershipoperation" desc="Ownership And Operation" name="OwnershipAndOperation" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7primaryplaceofoperation" desc="Primary Place Of Operation" name="PrimaryPlaceOfOperation" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7typeofmodifications" desc="Type of Modifications" name="TypeOfModifications" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+    <column columnName="gl7uaidentificationcode" desc="Aircraft Identification Code" name="UAIdentificationCode" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column columnName="gl7usage" desc="Usage" name="Usage" nullok="true" type="varchar">
+        <columnParam name="size" value="128"/>
+    </column>
+</extension>

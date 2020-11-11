@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7TerrEndorsement" priority="334000" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7TerrEndorsement" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7TerrEndorsement");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3344" public-id="GL7CertifiedActsofTerrExposureClassFactorOverride" required="false" codeIdentifier="GL7CertifiedActsofTerrExposureClassFactorOverride">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7TerrEndorsement", "GL7CertifiedActsofTerrExposureClassFactorOverride");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits maxVal="0.009" minVal="0" public-id="GL7CertifiedActsofTerrExposureClassFactorOverrideNOCURRENCY" codeIdentifier="GL7CertifiedActsofTerrExposureClassFactorOverrideNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="A modifier for GL7 Exposure"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7ExposureMod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7exposuremod"
+  type="effdated">
+  <implementsEntity
+    name="Modifier"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifierAdapter"
+    impl="gw.lob.gl7.GL7ExposureModifierAdapter"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <foreignkey
+    fkentity="GL7Exposure"
+    name="GL7Exposure"
+    nullok="false"/>
+  <array
+    arrayentity="GL7ExposureRF"
+    cascadeDelete="true"
+    desc="Individual components of the rating factor"
+    name="GL7ExposureRateFactors"/>
+</entity>

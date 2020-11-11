@@ -1,0 +1,2703 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7USTClassDescriptionByC public-id="zmvh6vro7hri09ahr74p8fk14rb">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21164</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z23hgotf64lr17bl695dmoigi98">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21165</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2bi82j42g5pb4n40m054rh39a8">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21166</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqqiksiqpue2ifn66bs9plljf6b">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21167</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7cj8o70m09fr5a131m053qirib">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21169</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8ug4btcimulq1b2pa3h6oqppq8">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21174</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z78i0toipsrh35u1ihcv8m5j9oa">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21175</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zo9hiulhtkqqe2rensk77g7mj58">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21176</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z79h411nd7hhh1aian1mbun9f38">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21177</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmbgusr3paqm43u4knkrn41l3cb">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21179</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zukjuaei489emep7vd8mkdn8dj8">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21184</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zarjqklhlp5kp0t7uj5td0i3ag9">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21185</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmij474dsvjf29864tgod7op5d8">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21186</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zl6i2qud8v04p9im642ti7836h9">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21187</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zm4ieabksrsqsds7udvjjj46ud9">
+    <Value>UST-Gas-Fiber,Syn Suction Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21189</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zoshe9pq84gv33alsl5uk3u66k9">
+    <Value>UST-Gas-Fiber,Syn Suction Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21194</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqaga19d0pfnadqvqgjo70jr5b8">
+    <Value>UST-Gas-Fiber,Syn Suction Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21195</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlqjg4k3t7qhu5mr0qhrfobb8ta">
+    <Value>UST-Gas-Fiber,Syn Suction Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21196</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zc2jcojnq510j6omg3vv219jpd8">
+    <Value>UST-Gas-Fiber,Syn Suction Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21197</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrkik9l9d6n9ca5g3c1muli3a19">
+    <Value>UST-Gas-Fiber,Syn Suction Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21199</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zc2gkr5nkuj3jdnifsv80jf5gdb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21264</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z82gaiiudsd49161aohjnqt21aa">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21265</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4ojgqrf5oj2m0vsg7n947i3ut8">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21266</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgnhc8vs6b9cf7lcvtodfts8c2a">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21267</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zg1jsa9pcln1608os0e7rn90uab">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21269</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0kh683in6vnl5cgcudmr5iketb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21274</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zioj294v2eeag19qqmtc4ko0kmb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21275</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8aju2kq6gr0u2vsfr7g0cae5e9">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21276</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7vgcqrs2jj298gcs9sqmo6uc1b">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21277</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4tjcibl270t31prln4d4bf9fma">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21279</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjog008vq7hvebo00d0km2kgcja">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21284</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9mjg65mu809feh5h2l5lir4ut8">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21285</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zljgiue2118jlerovfq4hteb8vb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21286</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjrgq0tgvljgh364410t3ne2lpb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21287</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6ngm2b6b4kcna590cm3bct66d8">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21289</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb8j04qu1iu658qdl62kpbertjb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21294</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd8gov0inn9ko2eikt4q6i753la">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21295</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zk2i6uup9ig15evumcbitu0hm09">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21296</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z75h2qcg307dqecueesnqfv4jqb">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21297</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgkho8qjgj2p2ad4bec6bnlb66b">
+    <Value>UST-Gas-Fiber,Syn Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21299</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zskhoj8gb0p875ms7ftn1cfls2b">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21364</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z08hqmrhjjhdt4ip1i6bp41n66b">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21365</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7lhe8hbf0epp1vn50j5gu421va">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21366</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlvjioip53h9meanb4aeklgeki8">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21367</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zaphg62vds5ps6340m00po7c3j9">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21369</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztngif28h0j4damob2r3uic9n48">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21374</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb4gqrv39rnj0464esi6msi0a29">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21375</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zthh6p1rrahckb1bts481f5ukb9">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21376</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcrgqd5bovind39lgg9fhlvtdob">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21377</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z79iei8oprug9cgp21qlrsk9ui8">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21379</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zg8hidghe5kn99skhrrvhcqjmfa">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21384</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zp4g2hqe2um6279hvc812i1pegb">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21385</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="znhiu7793m1qo5vbavu388tva2b">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21386</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="za2ier6erfr8792ao157ape77s9">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21387</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z3bhejqb95cn2cdb4nfju8ep2db">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21389</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgche10khnor88dtmb42rnp829b">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21394</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zv2i6ofi0hc0e4mqfb8vqrb04jb">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21395</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zklhcg6ossage202aha1q5c3cua">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21396</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zl3g4divbpehv048r130vd5udoa">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21397</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhuh61fi0mjep4bd6iuqbcqj8d8">
+    <Value>UST-Gas-Steel,W/Cor Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21399</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zt2jqnrjgujr230a1fsr07sm2fa">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21464</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4qgq6ba2voce64msplmdk4q769">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21465</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrdja7mcfpjdhfagts157tc4sna">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21466</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z20g4o59lilj7dl178o60nfb11a">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21467</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmmj2v9j14jrpfldtb4cpk4dtsa">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21469</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqeim9ajgccdh3b3nb4jjh1vre9">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21474</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z39jgqmueluu53fu4ekoje9tkoa">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21475</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh8iovq4qefrpcef2ofrg8ju3i8">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21476</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrvim7s30phj2bsiv4p351shq5a">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21477</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zckggl149q0467vddsc6s41t5ea">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21479</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zurh0v9vs39ikddgkqbgbd13vn9">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21484</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7hi2tccmqtbtfbbirbg84e9tva">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21485</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6pge1htgku814qc2lk4rnpruc9">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21486</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhkj0dudoh45r9to26olu8btl08">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21487</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7bgu4k2ivbt01245io6ipmt5v8">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21489</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z90gapnn06h975eogk8eteh0hab">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21494</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdui42tafliae7g7qd1pbgbnmt8">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21495</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z54imja2qobqjemeak94qaaa9ca">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21496</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh9giifq08bfr9qsjvf3n97vnka">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21497</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgsjud3c0b1uk9v37aba7fb84ka">
+    <Value>UST-Gas-Steel,W/Cor Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21499</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z02ig5548kj2f992tjtbboak7q9">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21564</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2vjq2h68hodr5mk09cp2so27tb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21565</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zikjif7r2o69u8ucbpunvj66b1a">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21566</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5bj4s88em3f0et87uc4qm872aa">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21567</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5lh8nv2hesl2ej19a1kks4gqva">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21569</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zs8iebe468rc610t25uhs4kq448">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21574</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zl5j6g9d0j2h54slmdj4pqafhvb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21575</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcqjajiecfdfe27hmmm68a1vgab">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21576</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zili6jf07vkgbe4m7phvkfbrj19">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21577</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztrias9u7tnlsdngl6i6iaj6hkb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21579</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zp8j6l6gs8r6k72fh4qvkctn6fb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21584</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9dj8egjvltb19i3bcvsiq0eph8">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21585</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfogeagj9d4a2ae26vt3he2vp79">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21586</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpjg8r8oblmlc553g1gtc588lib">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21587</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeggcv0lnmdrh6sc45cnroslhea">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21589</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zg7jedci8bhi56rjvtj6l00vsnb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21594</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0eji2aoo3ktrer5kc9ihufhajb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21595</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z16i8bc31gumkcq649tuhvjm5pa">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21596</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zn6iidovmt3787toubcc20ttugb">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21597</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeoimom6d3o1j4nbcjpi1m8srs9">
+    <Value>UST-Gas-Steel,W/O Cor Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21599</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zalhqkqct6tg05mssi6mb95lf49">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21664</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1vhmdqu61eq2361lcuakdne7k8">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21665</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztehkmds7dq1h6h3q9sn4b4scua">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21666</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfihaaqs685g94b9ppc23qb8a88">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21667</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zepjk73b4os754mkharec2nas98">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21669</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeti4tt49gjtaaknhvspht2hh29">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21674</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlbh0olcskbik8m9esfiq1906v8">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21675</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5nge5j3fbtirbp8at92k76doaa">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21676</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zj4iu1p9d1on47e5c8ibe4lvfv9">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21677</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0tg8g3sleb3ff76beu7kkvnda8">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21679</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z3jg223v0po2d669qh37ln2po39">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21684</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zuriempk6a8sv6omtib6e3lt59b">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21685</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zv8j22e9appte9kvgl3veo0pk9a">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21686</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfriceuej2igl2ejl459et74be9">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21687</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvfjab51k10hp5qg6pdjm69pg49">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21689</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpcgk8rkporvvc9m36rke8csgj9">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21694</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zm7iitb13jg8m1s1gh0l45o26d9">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21695</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkvg8mda7hpnhbvm3a5cbso13l8">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21696</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgeikolhgrbke3qq1bqebkhv718">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21697</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhsgg2glr5tv0f8jb3ukvqsraa9">
+    <Value>UST-Gas-Steel,W/O Cor Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21699</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ze3i4l2qer64f2silhd18iujpk9">
+    <Value>UST-Gas-NOC-Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21764</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zv7hop7ena0ll5iggdkbtoocftb">
+    <Value>UST-Gas-NOC-Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21765</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7phgm6krlngq88vgjr8uaah34a">
+    <Value>UST-Gas-NOC-Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21766</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdkjaqafb7m12amq7446frirpl8">
+    <Value>UST-Gas-NOC-Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21767</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z86ggirehi6eq4q05633u6a1bt8">
+    <Value>UST-Gas-NOC-Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21769</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z62jasvskjs9o6tlv61ra93hp1a">
+    <Value>UST-Gas-NOC-Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21774</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7ig01pkl044uepagk2cff9a93b">
+    <Value>UST-Gas-NOC-Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21775</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztrgipv36n0j9efvql4op0tmp3a">
+    <Value>UST-Gas-NOC-Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21776</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcjjm3t9td6scff3rq4c90gbn2a">
+    <Value>UST-Gas-NOC-Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21777</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqqgo4f0vr0vc9f1nmglm56ds2b">
+    <Value>UST-Gas-NOC-Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21779</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z91ha4igu544tbiut21qmv69oq8">
+    <Value>UST-Gas-NOC-Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21784</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zn4g8dkh0ivjb1mgo2piffarepa">
+    <Value>UST-Gas-NOC-Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21785</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeih25pd03isi7jedqvv2nog29b">
+    <Value>UST-Gas-NOC-Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21786</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zssj2qj91gqme445n98q6er2q3a">
+    <Value>UST-Gas-NOC-Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21787</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdpjkeitijgmr6tvc5brj8kp72b">
+    <Value>UST-Gas-NOC-Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21789</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zu1jci37vm95ud1oe23s6deds08">
+    <Value>UST-Gas-NOC-Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21794</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zo1h6v76e8logaeq819ecpt8o89">
+    <Value>UST-Gas-NOC-Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21795</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfnh0mp0quf590ra3d9b6gr75m9">
+    <Value>UST-Gas-NOC-Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21796</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z76gc1qbekf0987elrdktn23uda">
+    <Value>UST-Gas-NOC-Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21797</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjngus481smrg1g3kueo56svg78">
+    <Value>UST-Gas-NOC-Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21799</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlmgkbvdrlutr3p36ct9uk54dgb">
+    <Value>UST-Gas-NOC-Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21864</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrbgols19ro3b99ch4672h8tqa8">
+    <Value>UST-Gas-NOC-Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21865</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zi7gi3deschunbig21kdrlqnaoa">
+    <Value>UST-Gas-NOC-Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21866</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjgjsi06k0jd1a526fpgdltkiqb">
+    <Value>UST-Gas-NOC-Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21867</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb9h2konr6ebj2o7hruototka18">
+    <Value>UST-Gas-NOC-Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21869</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvbj4amrvgqhs5j0q0vfmhk86nb">
+    <Value>UST-Gas-NOC-Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21874</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ziggql5rrk38g0vfo1l23j22949">
+    <Value>UST-Gas-NOC-Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21875</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0shgobq1o5jgblkkmbkfgkag0b">
+    <Value>UST-Gas-NOC-Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21876</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb4jggo3i6bsu520cjdkpb6rusb">
+    <Value>UST-Gas-NOC-Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21877</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z11hul2414e6g6e1kfog97qnrlb">
+    <Value>UST-Gas-NOC-Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21879</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvpjgk1o4af891bo44cujhefk1b">
+    <Value>UST-Gas-NOC-Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21884</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="znfgkjbqd69bc7c3nirrvq202rb">
+    <Value>UST-Gas-NOC-Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21885</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcpjkbcqh2t85a9v4as1ltee9g9">
+    <Value>UST-Gas-NOC-Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21886</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq4huggfq83ju4h5f838qk631ib">
+    <Value>UST-Gas-NOC-Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21887</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zp5he25knmsrh7tqps81jg3sg08">
+    <Value>UST-Gas-NOC-Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21889</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjjia9rg1c5aebj0iep36m1epe8">
+    <Value>UST-Gas-NOC-Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21894</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zccg2ttsv4a7l88c0ev0i2m9l89">
+    <Value>UST-Gas-NOC-Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21895</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z19g2jn773vjid7rb2rjcd53t08">
+    <Value>UST-Gas-NOC-Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21896</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdqha90j39srs9u6i62jpb850db">
+    <Value>UST-Gas-NOC-Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21897</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zasg8f444878beiohrem0re8g39">
+    <Value>UST-Gas-NOC-Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21899</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zf0h6t2jdvaqr84jodrabdl8a6a">
+    <Value>UST-Gas-Aboveground Tank-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21964</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvujgrl97cp1a2f6fcb1rbri8s9">
+    <Value>UST-Gas-Aboveground Tank-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21965</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgrg8be6a59ls6vbtrjpvra84e9">
+    <Value>UST-Gas-Aboveground Tank-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21966</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd4hkn3p3nhdkb8qa4sssrvr4bb">
+    <Value>UST-Gas-Aboveground Tank-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21967</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb0hg5r8r3sad3nqkc15kdn3cfa">
+    <Value>UST-Gas-Aboveground Tank-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21969</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="znahu92cmoom3a4vj8v8vp65tl9">
+    <Value>UST-Gas-Aboveground Tank-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21974</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvahu0r7rdesf4bqmoauom23u4a">
+    <Value>UST-Gas-Aboveground Tank-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21975</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4hh8unoh78rh9afj66advjflqb">
+    <Value>UST-Gas-Aboveground Tank-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21976</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z3mjkte5otkf472fndrm5h6nfja">
+    <Value>UST-Gas-Aboveground Tank-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21977</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4ggaf87i21im0dg6b955ciafab">
+    <Value>UST-Gas-Aboveground Tank-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21979</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdihm8ia9oktregmnbpjt01108a">
+    <Value>UST-Gas-Aboveground Tank-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21984</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd1hisel4flb257if9hkjtj2j9a">
+    <Value>UST-Gas-Aboveground Tank-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21985</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhaji62sm4tn4b7gltek4kisnna">
+    <Value>UST-Gas-Aboveground Tank-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21986</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcpjsr6510p4t20lsalft0n1crb">
+    <Value>UST-Gas-Aboveground Tank-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21987</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z40jeqm8dlm18e8086vpn8qthp9">
+    <Value>UST-Gas-Aboveground Tank-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21989</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcuh0honeq6chaqi848ta60f4ub">
+    <Value>UST-Gas-Aboveground Tank->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21994</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z37g0b8hjil069bijjuveor13ib">
+    <Value>UST-Gas-Aboveground Tank->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21995</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmbhor23h335e55cosm53ckachb">
+    <Value>UST-Gas-Aboveground Tank->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21996</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrijskbdc85d25b2ljeua1m58t9">
+    <Value>UST-Gas-Aboveground Tank->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21997</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvdg2i8jvc4pteu7b0m8r1un1r8">
+    <Value>UST-Gas-Aboveground Tank->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>21999</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4ajsu50oda8k9rgqse9e78vla8">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22164</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zn9huputl8p11c2iodptaa4df59">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22165</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="znih0redfvk9nbfs7cgt14ep8d8">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22166</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztfimkjj43caj719fonl8nemafb">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22167</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8qhi93j54cgf04qff1phjcph08">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22169</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0ijei7vhsiqr1i45ok5ute71ea">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22174</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhtialptfqacuctsp3f68h1qt58">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22175</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeei8c14u08uf8tkg0n1lq0h46a">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22176</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zueiur221ni3q8ec5d3use6rlv8">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22177</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkqj0a722k09h5bo70s9o0sgvra">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22179</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zaihs518to7lndch7m41vfoslpa">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22184</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zauhm9itc952h8adlafn4jgbl69">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22185</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zngjaicbnptnkchnjenfo9263qb">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22186</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zm9g4le856elv9no7hjmlsjnu8a">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22187</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z60iku2shaiv911aq27p5nck358">
+    <Value>UST-Oil-Fiber,Syn Suction Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22189</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4bg0ntl958jt943boosoc1k0ub">
+    <Value>UST-Oil-Fiber,Syn Suction Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22194</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6dj4jua6ltms1365k0sqku85oa">
+    <Value>UST-Oil-Fiber,Syn Suction Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22195</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zapia6ijt2rjl6nnm93fc1ptfub">
+    <Value>UST-Oil-Fiber,Syn Suction Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22196</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvbhgvpa8jm5pcngrss35t4b9q9">
+    <Value>UST-Oil-Fiber,Syn Suction Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22197</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5kis307hn36lf6lcvrvi51mv9b">
+    <Value>UST-Oil-Fiber,Syn Suction Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22199</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z22hcqo9lbkjlbsts5iaclthb0a">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22264</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zsigu0mmp4nho7aiuhh2eph8n29">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22265</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9ih0tc0ddvehat9vgfl9dqk3q9">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22266</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z92g8lrh4bgdm8vifru86jfl64b">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22267</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6rgilf4bndamcu2qlkfmmj5l29">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22269</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zttiiv3m26m4hbu81ko9nje8la8">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22274</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhdjqhrmgcp7t9g5m3sj6lptpra">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22275</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkdhoau5u5gqdfqjt0s04hndc58">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22276</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmrho7mrau9a5bbmh9vjej64uka">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22277</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeuhk64jfpe1r888rdj3bnlbmf8">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22279</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zifg0tc0l9rr8aa1cvp33cn4ktb">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22284</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z49imn257eset5045nmc1moge39">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22285</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqljmtalluggc4f4hppefnrhtt8">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22286</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjni2u2qpju22472h0ppjk6o7ra">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22287</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2hhqqrjl2ar08v3kr4mnkgra89">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22289</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdji6h9a79pt86c0d5d6kvgpo89">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22294</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zamiqbb7rpbnn6ofr7tf8r61g1b">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22295</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd7i6go1al8ic27pihphs8akfkb">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22296</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztkggstpmbctr3dcmi2d64obm59">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22297</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcficb560o5mj2mu83o5lnjh6f8">
+    <Value>UST-Oil-Fiber,Syn Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22299</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zadjkkd21ha014mqlbtv4ol69l9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22364</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zk7ieiib6k1t07p1ofcut4rn059">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22365</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zs1i0b8rtu7ec902ji2qeop2vi9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22366</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0njq164rj8l4fj1loaqavjkfj9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22367</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2bgepbe2u9g6ekag7abq5tbkq9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22369</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zn0hisvegbpck5t29h4ho8ir5l9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22374</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zr5iohre3je7s1qrrcid2iemis9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22375</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlghg2fmc5o019pm3ulrg8ghhta">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22376</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zochsi9dme57861cudq8m2o8ao8">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22377</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6nhcqah03kgv7aa6673mu16gd9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22379</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z41hst6j213gk2cd4cfn5pal29a">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22384</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqlimlmh9fsp84ptgnav3pv2rpa">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22385</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zm9j62k5u5v167b27eii4mc6ad9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22386</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zt7hukm6i4l0m6574k2nup1dcva">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22387</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zstjgtoo8f3vd0nm8ukh1qcpsvb">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22389</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7pjqufpvdlih0nkopi105ev8fb">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22394</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zubhmjd437f1f07nhjjqqsjj0q9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22395</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zl3gkc38v7me7b7u0rfa52lpmoa">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22396</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfjgof163tqr2a4gk28csqu8qk9">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22397</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z03h4jjkba69a313g0rqvspteja">
+    <Value>UST-Oil-Steel,W/Cor Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22399</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zuhgmq60amv6j6i7cv5lvp2j4k9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22464</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdjig4j9u3o3j4vgvppttfbtal8">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22465</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbnjcb68bsmb90cfpjm10miunfb">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22466</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9ag446ftkkph4ohgsdvo8rnqr9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22467</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlih07kbdik1p2k71d4liblilf9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22469</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zc4j663g3vfr95b38bq1hcb195a">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22474</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqqjs7qhfcvnc874hn2pdhhj3jb">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22475</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2ijcirtn02b6ek2lka3aqhv0k9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22476</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1ui4375uj67d8rmm78amkjmjma">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22477</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrbj67f5tpte90g23da5m13jfu8">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22479</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7kiavrbec3m4an2s0kr6p3hoq9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22484</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbkgqpn6rbc37c2ddpdispo46p9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22485</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpdj06chhufrlcmsutst4sa824b">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22486</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0higohf7aiu54080n45093a6r8">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22487</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zilgs7kqkuc9i6p8gpqtvvphot9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22489</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhqjaf1ukee7gegmgt8qsl0dr8a">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22494</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb6joq05of3mibt8nrtq4s8gme8">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22495</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zsfigvp6os7im2r8b6oqms4b7q9">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22496</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8chghg32prn3d6cku612s69cf8">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22497</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvgjm0hkicq1m4vfvq4dod9n20a">
+    <Value>UST-Oil-Steel,W/Cor Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22499</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z33igr3d4khesddh9id3j30s2u9">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22564</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb3imaluodk2qbndah822sinrpb">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22565</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrihs6m8roesgdh0l2koho94em8">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22566</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zopga9m31sgm630lmhhpqqpv7aa">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22567</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8ij2gdmq5lroc9ikqfp8bp8mma">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22569</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2rg6jgdjjl9m9eu0ofkpfof2cb">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22574</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zoph833grdnoc1jdgb74comcnoa">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22575</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5bhi70rrtho7e90storqi6bji8">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22576</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpuigb0ne4fqs7r4h9gja0cevab">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22577</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9vjm838jnivjbiqce9fic26prb">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22579</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcbjk1ptsefdqcuf3c7djuosoeb">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22584</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zccisq8n3lcom4kk47311vqaihb">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22585</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlcg4k9g7j17j2apd3c0gh4pa59">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22586</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z24gkr18q64ob0lberj1f2vtmt9">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22587</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1qhapd1433rfarrdivt7bc39i8">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22589</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbkjuo151epmjdqi55fqdfh67s9">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22594</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zt8j2q7bi9vr4al5bbo7rq29us8">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22595</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="za3he0ooodhffa5k5bvqkfpcvua">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22596</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zotjqvko0iugq6m9uhvb0ag653a">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22597</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpmiaie9psg461p574quam0uj2a">
+    <Value>UST-Oil-Steel,W/O Cor Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22599</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvgik7nfqpmtgbu0lb1qddbut09">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22664</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbqgeke4jrrpm02bnp3m71lq5ga">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22665</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z25i6i6e831efeghug8oq5c0sjb">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22666</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvfg6hd1mvs9c6ccjt025v0hks9">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22667</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7hj867c0um3tddr2k57nenvkua">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22669</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq7hghccvb0775uh2bkkgv7vd8b">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22674</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdqh2bcmorn301t51krn9jhpo48">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22675</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0nje9saouhmvd0ttsheln6031b">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22676</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zm8gq6urdosvcbeq1uoaivbif3a">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22677</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfjjivcbdjmr19b6c6sc8k6h9i8">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22679</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjtg8oanodqe75kt4ufchcjbmta">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22684</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgajq2t1hb9ulal7rudp1to02ub">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22685</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zi8islfdufj1d2elq0qse40il1a">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22686</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zloise8grarm8e730800rv0vmub">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22687</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zk0gg361rl1qs5i8o8b0l9injh9">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22689</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9ohmlnqj6ukb5aco32bao3lqjb">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22694</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhmhinl9oa9bf2uvue862ipqr2a">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22695</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcmj29nhblhob8lu9r62lj6ec9b">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22696</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zf8h67211m9ap5i494eg1e4a8s9">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22697</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcjgc49qkob6s83ri2gsfopiqv9">
+    <Value>UST-Oil-Steel,W/O Cor Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22699</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7dg0cp888u259v8u33fm7kmqra">
+    <Value>UST-Oil-NOC-Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22764</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zsfguca935fvqfircefslsbe0ka">
+    <Value>UST-Oil-NOC-Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22765</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgsgco89089qoaogdah29s3pg69">
+    <Value>UST-Oil-NOC-Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22766</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z52jatbbffdji8f2dsmui1aqsda">
+    <Value>UST-Oil-NOC-Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22767</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb3gi2trg96d561csv1152t9fjb">
+    <Value>UST-Oil-NOC-Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22769</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkci64ivs3ssg8f41ch4t89hasa">
+    <Value>UST-Oil-NOC-Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22774</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zffgs5aa04tv1b5ml6b4i5d5u5b">
+    <Value>UST-Oil-NOC-Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22775</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdnhuug0vep2a8ilemho270au8b">
+    <Value>UST-Oil-NOC-Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22776</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zu3i0k7c46nmr7q68nvunjr502b">
+    <Value>UST-Oil-NOC-Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22777</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztjj2v1csmrnmabbckg8d9ob1na">
+    <Value>UST-Oil-NOC-Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22779</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z3ihajsud26uj7d7sho0596gdda">
+    <Value>UST-Oil-NOC-Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22784</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh3h2buo779o27l8pgbfkn9245a">
+    <Value>UST-Oil-NOC-Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22785</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zaljqe8saun98fgk4it5oruvsi8">
+    <Value>UST-Oil-NOC-Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22786</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpois36dg97tu4ne8c08fc9e78a">
+    <Value>UST-Oil-NOC-Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22787</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbahu6869ql7g1pj983hv89pmb9">
+    <Value>UST-Oil-NOC-Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22789</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdtii55rpqgol32ej5ur9ouaps9">
+    <Value>UST-Oil-NOC-Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22794</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0ih21dikt3egfk341ikcc9hh2b">
+    <Value>UST-Oil-NOC-Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22795</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zsbh8g4llctk94j2t2vusct2jg8">
+    <Value>UST-Oil-NOC-Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22796</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zohg45scp900ndv64ub895dqjs8">
+    <Value>UST-Oil-NOC-Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22797</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmugq287ognjudo258q07pacidb">
+    <Value>UST-Oil-NOC-Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22799</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4egqu6p7tsq443ss1mf1nd5dua">
+    <Value>UST-Oil-NOC-Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22864</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfph4iq8du30hajro3tm04jipr9">
+    <Value>UST-Oil-NOC-Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22865</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1tjecfjjgdem9v6c6qfu4k53ma">
+    <Value>UST-Oil-NOC-Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22866</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z90jshcqm6ve33kkfeauoj3gora">
+    <Value>UST-Oil-NOC-Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22867</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z45juh1ans1h46b0n7unok0i8sa">
+    <Value>UST-Oil-NOC-Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22869</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z34jg9iviu8v931hdmoult3p5b9">
+    <Value>UST-Oil-NOC-Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22874</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zveg2k4vpiokkf2okp0b7qhhfn9">
+    <Value>UST-Oil-NOC-Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22875</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztvjqqhpi0j0k8eer1dj3fm7cp8">
+    <Value>UST-Oil-NOC-Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22876</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1aiktq88k2q86uuvl69mq3nqf8">
+    <Value>UST-Oil-NOC-Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22877</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbrgm73h56b3r19sjhkpetluv19">
+    <Value>UST-Oil-NOC-Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22879</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7qioubqa4621856sn8uve8bck9">
+    <Value>UST-Oil-NOC-Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22884</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zg9heckolfrqo75tjlpd6js55v9">
+    <Value>UST-Oil-NOC-Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22885</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z3bhu0u5adivtfon57ciss4f1gb">
+    <Value>UST-Oil-NOC-Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22886</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z65gmqqabij5m9men32p1si46qa">
+    <Value>UST-Oil-NOC-Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22887</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zelg44c6ngcut0amdvljh15nkfb">
+    <Value>UST-Oil-NOC-Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22889</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgnge9961o0ej395t4gsl8k58f9">
+    <Value>UST-Oil-NOC-Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22894</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh3gueou9gj9pe9a32qsfb4o238">
+    <Value>UST-Oil-NOC-Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22895</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh5jmif90it76arttkr1o9n9gl8">
+    <Value>UST-Oil-NOC-Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22896</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zu1jerqbjodhf5pk49275laoth9">
+    <Value>UST-Oil-NOC-Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22897</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2ujmhm506aen7in66kanqb1ck8">
+    <Value>UST-Oil-NOC-Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22899</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zavh8s8uvmgcudnuluatbvm2688">
+    <Value>UST-Oil-Aboveground Tank-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22964</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq6jc6u2pftub4n6rj51d34voi8">
+    <Value>UST-Oil-Aboveground Tank-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22965</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4rj4jljaahsq7tfqbgad1ga6g9">
+    <Value>UST-Oil-Aboveground Tank-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22966</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkchqtapt4od0aev8tpge3bsjs9">
+    <Value>UST-Oil-Aboveground Tank-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22967</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zurg89pudkig9frcs5du1sforq8">
+    <Value>UST-Oil-Aboveground Tank-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22969</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zj0ie74678ulbckdpeptsiegnhb">
+    <Value>UST-Oil-Aboveground Tank-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22974</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd2j2vfk40o9067smna12spr7v8">
+    <Value>UST-Oil-Aboveground Tank-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22975</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zuch2jd7sd2mhcckk9clcsehei8">
+    <Value>UST-Oil-Aboveground Tank-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22976</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb0hq3g6ql5cc040f3sifmgqui9">
+    <Value>UST-Oil-Aboveground Tank-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22977</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjgjuh6djakmla34dsvt5406kka">
+    <Value>UST-Oil-Aboveground Tank-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22979</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z71ict2c09qep8h90k5ick7kan9">
+    <Value>UST-Oil-Aboveground Tank-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22984</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvhhm6etvll6d1l049f33lu2l88">
+    <Value>UST-Oil-Aboveground Tank-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22985</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z90girvduc25rdinrhdb640qjqa">
+    <Value>UST-Oil-Aboveground Tank-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22986</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq8jmoutnt2hcc94ncm6pdpfifa">
+    <Value>UST-Oil-Aboveground Tank-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22987</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z3picoev70dh78gpiqi4bttaoe9">
+    <Value>UST-Oil-Aboveground Tank-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22989</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zisia8bhk98c165kte2639svok9">
+    <Value>UST-Oil-Aboveground Tank->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22994</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ziggaesfnpr097opigra1d2opra">
+    <Value>UST-Oil-Aboveground Tank->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22995</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmoj6v9g294014g17sv8s0eham8">
+    <Value>UST-Oil-Aboveground Tank->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22996</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkqi8dsgu54dn84v7bn6p3h1gc8">
+    <Value>UST-Oil-Aboveground Tank->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22997</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z06jcn4mb1pgb5vag0hj68mj3rb">
+    <Value>UST-Oil-Aboveground Tank->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>22999</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zotgat1tgpqmm74v4o2ag9vtvnb">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23164</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeaggao3r7s7c93enqlbjm5a8lb">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23165</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh9jqivgv1flgfrg22hknim13m8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23166</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfdji72c7nlmb6r3apu83ln1qta">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23167</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztfiep3r9j1ag95m5c1b0t4sqsb">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23169</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zc4hspnqc3ctj6snroia74cnoi8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23174</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zktie0ulevsi0bhtvt8505q0pca">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23175</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7ugsanh872mheiekevcmor3pv8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23176</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z52iqu1cutgba3b1pgi7n12mg29">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23177</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdghi41m88u1i5o9575no34tmf8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23179</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zplhoaboq13rj3n8611e7v5v1s8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23184</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmjh6su0qif8f7cjdubnk5a1o8a">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23185</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zngjgp6htac5q1d40stjblkdv9a">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23186</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvvhkthsu04a63ka0u4uonj9uta">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23187</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpehgbj3gr4fn2fb3f1n4damar8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23189</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z70i4g5dsi01rck6j4snj5q5mqa">
+    <Value>UST-Othr-Fiber,Syn Suction Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23194</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6nhug5sq7t4c1vd7q8ffaprsm9">
+    <Value>UST-Othr-Fiber,Syn Suction Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23195</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvjjmco9s8gtneis1nmjfuj56f8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23196</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhugkf34ai9m8e7qnugblvtl0h8">
+    <Value>UST-Othr-Fiber,Syn Suction Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23197</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd9gc0s2q94j408d97bddso0u1b">
+    <Value>UST-Othr-Fiber,Syn Suction Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23199</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7mg4gs6q67mh3pdl2et6mcgn8a">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23264</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zi9gk9rph0j572s8k94vujbgo49">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23265</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2hggmugi1dd89911j9bh4rrsc9">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23266</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zk1gs5hq5dcg5b6dhv0ngbgvlca">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23267</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z67gua04ddp0h3s8asu5ct3r1gb">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23269</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrsge1ruu3sje2po0s0pdabss88">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23274</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z02ienps3m0t04eglltc1fbitpb">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23275</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5tgo0rsll708cjq45at2dld8vb">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23276</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zgqgs0lfsfei3fh08vmmacuqo39">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23277</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zinhm3lp60ofsdov4it16s611ab">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23279</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9vias9n0qgr32jtk75c7j4rc38">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23284</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfchkthdkvmht6gg1tm7prkghca">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23285</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhjg8pr7bokfc0q4qgogmr8f9kb">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23286</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmoia59oapviv97nmqt9baciiu8">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23287</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdnj06ldpu3l2fgiru8nfeec9ea">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23289</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlegegd92c5s5bv008qgci3avg9">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23294</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zj2i4c82cv2l279i6fl9485l49b">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23295</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpqgm7rrn58sqbqbo918smvmr39">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23296</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7ohm4htu062v13b807tthi61n9">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23297</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7diueh7aunb91l3c59utl411q9">
+    <Value>UST-Othr-Fiber,Syn Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23299</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvajapsnji2925le08q2k4f2358">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23364</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z11ik2dor9dctdvmen009jbpk48">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23365</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpsi6lenmd2e5eavg4g1ijfuud9">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23366</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="za1g87vc8mql02de5dr6odbif79">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23367</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqciq5ie328qb28htcg8vhdcak9">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23369</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5gje1ji1vp7qf1050dp0i5r6j8">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23374</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhggg6eljfcagc8j9gb6e54ruqa">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23375</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpjh296b8h0k291oa9a8aohu3i8">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23376</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdhh41n39a4t08cc6nm0rih53aa">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23377</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0lj0ak9lqjrn6riuhm37ajl3b9">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23379</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zr5i01ct56m6t2itik6jar0lh39">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23384</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z73gqbsem6iagancrjgrh61mh1b">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23385</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z05iur92db3ru0bb0m0kmbn9l1a">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23386</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeeh2eeg3qikke0teoodmr1s8qa">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23387</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4hjkkriep7t9ffpfeduhbom45a">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23389</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9bgmfvjqr1esco29ic8ghmbga8">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23394</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1mic1tit1ih9cdkpqo916qt4da">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23395</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z74hinq26vfuf1vhutcbjqsgg2a">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23396</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2ags6un3jvqfc0prouqb2929n8">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23397</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zu6gir4ukitdj8a3i8afe126l0b">
+    <Value>UST-Othr-Steel,W/Cor Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23399</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4sieo1ub3su6ec8jdtnra9tvl9">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23464</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zaeh4mp9mhmhs3hleqaglkqq4sa">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23465</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjgh24et38ttib58eh076ngdmba">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23466</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z36gqa7v7jt36dgs73d32tf7bu9">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23467</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7qic5qc84rbef68p070fp4kcf9">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23469</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhmhq24jitdfo6ic1c97ppjeb58">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23474</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfgg4ds3chns7f7vj2g3dhunac8">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23475</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zk0jknimf3m9d8lccotdi9s6ap8">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23476</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd2iq1jbttt6g30534ot6kmkada">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23477</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zklisits2qkpmem1odoigf6uru9">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23479</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zefgo9ilur7m89c4dd9kldtn349">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23484</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0ghmi85lbt0ubj6nl7981sip89">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23485</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmkhodgrghic933bbs9tj6vd39a">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23486</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zemjggnm0tovc4ig506nvm1oo0b">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23487</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztjhq7au1fjp4c3n41rfu2hd3b8">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23489</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq0hipbt1spmcdgg0ss5c6epa8b">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23494</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zptjg2m94ct050ougdn8c4i1oka">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23495</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd7ji82gn9obc9iupu2pg4dntpa">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23496</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbrhgcj23jeq7fa45u1oejp5599">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23497</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlhiitfek2phdb12lrgu1u9fba9">
+    <Value>UST-Othr-Steel,W/Cor Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23499</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z38j660un97h4e79ql226itli99">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23564</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zr7jonhqslsql3lpme9kh9oi9e9">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23565</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8uhs57eue6g57jeu0tbh4uu24b">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23566</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zj3gqaq3ljikaasctnbbvvu8msa">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23567</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zoii2lkg6n3om0ecmvs035vk2h9">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23569</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zeogi21noa2r3efi0mc3guugcab">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23574</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvgheh2p1jcoa8nnqm8mrf5s16b">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23575</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0piupterb3ui8umgb9lqe3pv89">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23576</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zo5hq0jn6ohnaf62dc917f7g8ea">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23577</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbmhuts4755gbdc9vj8rtui36kb">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23579</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvljeec3adi036dcuniji5l7ta8">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23584</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbhgchha6ltg601hchlt8787ag8">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23585</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2limvam85q8j9kccubtgbt87bb">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23586</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqeg025vu33gm3u1om9h3a08hfb">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23587</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zfhhq8tcoqr428k3ip33f81on7a">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23589</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z50h4ojgc0djbcj3co34o8d8fpb">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23594</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkai2g0jp8o31dh7h3rmckahaf8">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23595</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z53hqcmmmif140u9bo7tbt60dva">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23596</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq6hque30q6jh95h7kbjdti0rs9">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23597</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zemiap0790n4p3srfrdjs6of0v8">
+    <Value>UST-Othr-Steel,W/O Cor Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23599</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z2ej2d4kf9e0v0g64d6qcp8pgk8">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23664</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvgg0e385a7ob2bq7na4rauknb9">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23665</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zpdhmg95nfe8g9ehbjhaturlava">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23666</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zssjq1crdpp3qdf7hokmbueb778">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23667</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq1g0vqo0qrp4dtnhdsbh80s64a">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23669</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4lhene6vregq10vp20lplnotbb">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23674</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztpi8vl8elsp60od7lvqcbcucf8">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23675</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7bhkoosrd3e7e3ugsjuul0k0sa">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23676</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z33ggltccvkq6bl3q9u7v47rud8">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23677</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="za4j057hjt84d9qkp227a6j3lk9">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23679</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z21jkb264ej606a2djnsvq8vcla">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23684</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zsegs5cli8cim7qqbsimu38kk99">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23685</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zt3icimperv3e4k4jkgfl0rpk59">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23686</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcah42r3vdu0eapl0lvdak7dv6b">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23687</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zurho8s9ued1d7urmq2a2e754b9">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23689</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8pha5nne6hrh201scsdmg50dcb">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23694</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhdiihkqvskt428a3lsqbdv4cg8">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23695</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zjkio28biq4v47o3btlqa35enpa">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23696</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zktg8re4dr873b2m6p3lko9f0h9">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23697</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5hi4g5jmrk1i65g6k6ejbdnl2b">
+    <Value>UST-Othr-Steel,W/O Cor Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23699</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zdcjmg3rsi5dn53sutbbkqa273a">
+    <Value>UST-Othr-NOC-Suctn Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23764</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zh6ig0vep0rsqf94ai3cikv7gm9">
+    <Value>UST-Othr-NOC-Suctn Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23765</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z99h66d6ta7uaaviccbgih21ldb">
+    <Value>UST-Othr-NOC-Suctn Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23766</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zodja7f447il5ehl84celv59bp8">
+    <Value>UST-Othr-NOC-Suctn Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23767</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zp0j2588fvq2q0dr5m6gev616h8">
+    <Value>UST-Othr-NOC-Suctn Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23769</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhbjkg54k9clr2o263dpemfuqtb">
+    <Value>UST-Othr-NOC-Suctn Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23774</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zcji2g50hmuima4d5t642dntvub">
+    <Value>UST-Othr-NOC-Suctn Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23775</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zl5gi3jb190iq67jd5kteptotr9">
+    <Value>UST-Othr-NOC-Suctn Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23776</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zi7is58jsapm8b5eeq0b3kd12mb">
+    <Value>UST-Othr-NOC-Suctn Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23777</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb0ic4a8q23l6ct8m0e78omof08">
+    <Value>UST-Othr-NOC-Suctn Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23779</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqkh4s00vl22taf38g8jtsghd2a">
+    <Value>UST-Othr-NOC-Suctn Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23784</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zb0hag6152ko05cnlhjfs3nf589">
+    <Value>UST-Othr-NOC-Suctn Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23785</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zd4gce3b5o7dsfa8238igbc3cna">
+    <Value>UST-Othr-NOC-Suctn Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23786</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z9li6aat8eq9734usuhtg0s3u98">
+    <Value>UST-Othr-NOC-Suctn Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23787</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z24gc8bjg3ud4af13286bpt1s79">
+    <Value>UST-Othr-NOC-Suctn Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23789</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zqcjuqtf6p0qqauq5hlo3l4qvla">
+    <Value>UST-Othr-NOC-Suctn Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23794</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhjjonaccjtfo35uv6vv2rnbrs9">
+    <Value>UST-Othr-NOC-Suctn Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23795</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbog2nep88fo2e4l0r63vr52ppa">
+    <Value>UST-Othr-NOC-Suctn Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23796</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5eg09a9dimj85impf9unfohnja">
+    <Value>UST-Othr-NOC-Suctn Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23797</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1piutamk647oac1okg4jl78599">
+    <Value>UST-Othr-NOC-Suctn Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23799</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhfhoddkes1035peukct1b8hbm9">
+    <Value>UST-Othr-NOC-Pressr Pump-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23864</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zkegsj5gmbm5qetrgcjc887bte8">
+    <Value>UST-Othr-NOC-Pressr Pump-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23865</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zuihqofcmg8bsasamt7bhu3g978">
+    <Value>UST-Othr-NOC-Pressr Pump-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23866</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8jiamr2mob7jekua39irtv5cl8">
+    <Value>UST-Othr-NOC-Pressr Pump-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23867</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zhfhemg5r1rd010k1ul9pn3fp69">
+    <Value>UST-Othr-NOC-Pressr Pump-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23869</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4jj6uqm646up6i5i70vmnfpfbb">
+    <Value>UST-Othr-NOC-Pressr Pump-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23874</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6ojot8s81s9415e12p9hs9qbeb">
+    <Value>UST-Othr-NOC-Pressr Pump-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23875</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zr2g8udu1be7k917ucpd554efd9">
+    <Value>UST-Othr-NOC-Pressr Pump-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23876</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zllhqupf8124m87gjpafvaitep9">
+    <Value>UST-Othr-NOC-Pressr Pump-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23877</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zn3jo61gl6tc74juj3bn8n6atub">
+    <Value>UST-Othr-NOC-Pressr Pump-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23879</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zsiiqnovm71la725lubpkjvcmla">
+    <Value>UST-Othr-NOC-Pressr Pump-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23884</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z8oigc1kg4lg32ufhp1h4djeur9">
+    <Value>UST-Othr-NOC-Pressr Pump-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23885</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq0gqum61bia15d7g3udtkf6qp8">
+    <Value>UST-Othr-NOC-Pressr Pump-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23886</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="znjia7lesk7gr7rtjdenqaci3eb">
+    <Value>UST-Othr-NOC-Pressr Pump-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23887</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6cjcbkp26ae8amhcgb8f3gspab">
+    <Value>UST-Othr-NOC-Pressr Pump-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23889</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zs4hi9m622nhp4qs1ad26tra20a">
+    <Value>UST-Othr-NOC-Pressr Pump->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23894</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z4ti29p1o88cbae6iu4qq6f2np9">
+    <Value>UST-Othr-NOC-Pressr Pump->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23895</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zslia49vm6lc1d2lf4uumbaffl8">
+    <Value>UST-Othr-NOC-Pressr Pump->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23896</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z1nieutt048652g164cnlbvd4b8">
+    <Value>UST-Othr-NOC-Pressr Pump->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23897</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zrni6iup1ahi0at3uq02brsc92a">
+    <Value>UST-Othr-NOC-Pressr Pump->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23899</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z92g4838m15pj11lcuaosse71cb">
+    <Value>UST-Othr-Aboveground Tank-0-5yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23964</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zq2gqv27p296v1buuib2tqr61g9">
+    <Value>UST-Othr-Aboveground Tank-0-5yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23965</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z7rgctrt9qqh81i7rsjcut7ek8a">
+    <Value>UST-Othr-Aboveground Tank-0-5yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23966</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlsgo9cdmpmsrf8srte04ehle69">
+    <Value>UST-Othr-Aboveground Tank-0-5yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23967</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z80h2hh4sdofl7kfv7g638u4sj8">
+    <Value>UST-Othr-Aboveground Tank-0-5yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23969</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="ztuj89bdtokei8g2ao9kni7mju8">
+    <Value>UST-Othr-Aboveground Tank-6-10yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23974</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zijh0qgtngl1bcm0hltvg998h9b">
+    <Value>UST-Othr-Aboveground Tank-6-10yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23975</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zmji2a7evra4h6qo30il9ktqpm8">
+    <Value>UST-Othr-Aboveground Tank-6-10yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23976</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zavhi6qhidg9ab908rsue6vj2v8">
+    <Value>UST-Othr-Aboveground Tank-6-10yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23977</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zc3j6dsli6pdf6lk8pl06ql0vo8">
+    <Value>UST-Othr-Aboveground Tank-6-10yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23979</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z0jiu6a4ohdiibdne2i7r15d53b">
+    <Value>UST-Othr-Aboveground Tank-11-25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23984</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zluie5olsga7c3vqf5b18kp8ura">
+    <Value>UST-Othr-Aboveground Tank-11-25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23985</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlbh2ska4mggl06jq5mpr6dtbq9">
+    <Value>UST-Othr-Aboveground Tank-11-25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23986</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zo0hqfl4acq5dasmp88g1eretia">
+    <Value>UST-Othr-Aboveground Tank-11-25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23987</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zk7g6judvfgggc8eg39b45uf8q8">
+    <Value>UST-Othr-Aboveground Tank-11-25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23989</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zlnjop2m0tenlf92sn28qf1qcr9">
+    <Value>UST-Othr-Aboveground Tank->25yrs-Auto Leak Detect Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23994</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z6pi40jp4fsff2ok9f6t0onb9l9">
+    <Value>UST-Othr-Aboveground Tank->25yrs-Auto Ovrfill Prot Only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23995</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zbmgo973rhpgp21eb1jfnt1fg28">
+    <Value>UST-Othr-Aboveground Tank->25yrs-Auto Leak Det&amp;Ovrfill Prot</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23996</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="zvtiotpoq91l82707ckd1rda5c8">
+    <Value>UST-Othr-Aboveground Tank->25yrs-No Protective Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23997</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+  <GL7USTClassDescriptionByC public-id="z5aha9muhnru5d2lrqlgp3ha2pb">
+    <Value>UST-Othr-Aboveground Tank->25yrs-All Other Prot Devices</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <USTClassCodeForClassDescriptio>23999</USTClassCodeForClassDescriptio>
+  </GL7USTClassDescriptionByC>
+</import>

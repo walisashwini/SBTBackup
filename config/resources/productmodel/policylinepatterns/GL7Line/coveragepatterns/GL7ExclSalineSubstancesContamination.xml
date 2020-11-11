@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7ExclSalineSubstancesContamination" priority="120300" lookupTableName="GL7SublineTypeExcl" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclSalineSubstancesContamination" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclSalineSubstancesContamination");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7ExclSalineSubstancesContamination");]]></ExistenceScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="50" public-id="GL7ClassDescription" required="false" codeIdentifier="GL7ClassDescription">
+            <Options>
+                <CovTermOpt public-id="zquia1nnk9hjk4tm7n59o82pbjb" priority="1" optionCode="OilorNaturalGasLeaseOperations" value="0" codeIdentifier="zquia1nnk9hjk4tm7n59o82pbjb"/>
+                <CovTermOpt public-id="zhnias203k9rd4a7rlm25bpldmb" priority="2" optionCode="OilGasLeaseOps_naturalgas_w/intowncitylmtsRRorinanyocngulforbay" value="0" codeIdentifier="zhnias203k9rd4a7rlm25bpldmb"/>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium82" required="true" codeIdentifier="GL7ManualPremium82"/>
+    </CovTerms>
+</ExclusionPattern>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7SublineType">
+  <Columns>
+    <Column
+      beanPath="GL7SublineType.Subline"
+      name="SublineType"/>
+  </Columns>
+  <DisplayName><![CDATA[SublineType]]></DisplayName>
+</Entity>

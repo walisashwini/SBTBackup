@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7ExclTelecommEquipmtServicePrvdrsErrorsOmissions" priority="110400" lookupTableName="GL7SublineTypeExcl" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclTelecommEquipmtServicePrvdrsErrorsOmissions" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclTelecommEquipmtServicePrvdrsErrorsOmissions");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7ExclTelecommEquipmtServicePrvdrsErrorsOmissions");]]></ExistenceScript>
+    <CovTerms/>
+</ExclusionPattern>

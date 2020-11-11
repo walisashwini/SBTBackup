@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ConditionLookup public-id="zg1jo516krhvcehfo4m3ac96ak9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ConditionPatternCode>GL7PremiumAuditNoncomplianceChargeOwnersContractor</ConditionPatternCode>
+    </ConditionLookup>
+    <CovTermLookup public-id="zb7ie9qo5ukc24hhdgfvmgne309">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7AuditNoncomplianceChargeFactor1</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zt2gk6jutg9vnabiomvpnd6a6qa">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7NumberOfWrittenAttempts1</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="z65jqmp14tfuc1pquvt7g0enfc8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ReassessmentCharge1</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zkciun9pdmon60r16hjmor8iep9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7TotalAdvancePremium1</CovTermPatternCode>
+    </CovTermLookup>
+</import>

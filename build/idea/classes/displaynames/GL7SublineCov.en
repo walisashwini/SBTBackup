@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7SublineCov">
+  <Columns>
+    <Column
+      beanPath="GL7SublineCov.GL7Subline.SublineType.Subline"
+      name="subline"/>
+    <Column
+      beanPath="GL7SublineCov.GL7Subline.Jurisdiction"
+      name="jurisdiction"/>
+  </Columns>
+  <DisplayName><![CDATA["${jurisdiction.DisplayName} [${subline}]"]]></DisplayName>
+</Entity>

@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7DamageToPremisesRented public-id="z4dg0082uo4u5b191jdk3ve5qjb">
+    <Value>25,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zh8gmjqp1bhcucc2j6slg5j6gja">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zlti8a4192homcbi7e587thgsi9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zhkhkrrhrvcne2ilmvogg4o6p9a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zhhggbo6d5mhieujg0p7045c4gb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z6hiug0khf09pce3kcf4da3dccb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z55io0hj89aop7kruisk78hau9a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zu6ikgje00sp049jq3ilek0v5kb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z9hjcgo1ho7kl9gbj45kn4dj4lb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z7rgupbhthdd3bd7blk8tb5gbtb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zofhud7dp5eqd3urp5nh7lrpno9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zrfj6h4rkq4fea4aq51ta9akun9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>5,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="znqjeskckv7p70t8pcisjq6g9m8">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>10,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zlcg89v0njp5tf2dene7mg5rica">
+    <Value>25,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z3ljegfu39anre6tu0tma7q22sb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zvrg2mjm9j5g2biujlpg1vfp458">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z0jggi1s12e2638ultiag22ugm9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="ziagi787bq2569um5jm3n00v679">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z9jhgqdhfned55hn9l40s77f5db">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zd2js9mg72j17653dbn80ttbi2b">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zt9ji6cofduq83krcbbauk3o0eb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zb6iac5lqogua0qrcmkj3sjfgt9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zoqhgflkm06rfetrm660go99uf8">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zu8h67macgk544jg188gsu4cooa">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zeniimrrcm8ku2nmpkeh60sjb68">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>5,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z5hiemo03hco73pu2sbqp7ufuh9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>10,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="ze9gubm6nt3rj09060ludmj6o7a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zo4gks0v5sheh339rkom46jp4va">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="ztmhajjpmodst7f1lietimqlgka">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z1tjsr62moiqkbi31bunleeb22a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zkjjek7s0u5s88qrj1ufs4mvl68">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z72gemh3ojm94fvedsdtru2qe7a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z6qhk6p94mks94n5a3hlhi22p88">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zrcg6h7di18786ocrh0gi1id4lb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zvqh80rru1t1gesjp4pi6p9dhca">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zm2iul19tcbdn7hvf0f913b4j09">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zvchqthv30gipe0d2tbo0435ib9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z54g2ef4ge7104vqqfd2vcm42h9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>5,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zafjkh2trqk9n3qceg0vojukhb8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>10,000,000 CSL</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z5djec6eimfej16pcg1f35dqkqa">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zp7hcbi3g93fmec9g9b0mk4esu8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z3njof078cs0ha9ke21lnib1imb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z3fh0tlde23t03rg8mc68k95b39">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="ze7jmcoo080pu3uoveadujoonoa">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zfsi2rosu3435e6cesd10bta049">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zm3j43ggpgkun33tdsfkmu575bb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z34gatbi9fpjk7fofqk5crlk6qa">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zifg8cccsoe1r61l1uvjh3squc9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zesiq58ddcpc463j1jnbi2iqcf8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="zquh2444cosrl2oftrbksbn83m9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="z9di68e3ptofucle63glhn1u0db">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>5,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+  <GL7DamageToPremisesRented public-id="znmiovq80n9r980bmqaragupb78">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLim>10,000,000 BI</EachOccurrenceLim>
+  </GL7DamageToPremisesRented>
+</import>

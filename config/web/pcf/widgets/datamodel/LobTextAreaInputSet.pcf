@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="LobTextAreaInputSet">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <TextAreaInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="LobTextAreaInput"
+      label="displayable.Label"
+      numRows="5"
+      required="displayable.Required"
+      value="displayable.Value"
+      valueType="java.lang.Object"
+      visible="not displayable.NeedsRefresh"/>
+    <TextAreaInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="DynamicLobTextAreaInput"
+      label="displayable.Label"
+      numRows="5"
+      required="displayable.Required"
+      value="displayable.Value"
+      valueType="java.lang.Object"
+      visible="displayable.NeedsRefresh">
+      <PostOnChange
+        onChange="displayable.onChange()"/>
+    </TextAreaInput>
+  </InputSet>
+</PCF>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="Exclusions for the General Liability Subline Type"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7SublineTypeExcl"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7sublntypexcl"
+  type="effdated">
+  <implementsEntity
+    name="Exclusion"/>
+  <implementsInterface
+    iface="gw.api.domain.ExclusionAdapter"
+    impl="gw.lob.gl7.GL7SublineTypeExclusionAdapter"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7SublineTypeExclMatcher"/>
+  <foreignkey
+    fkentity="GL7SublineType"
+    name="GL7SublineType"
+    nullok="false"/>
+  <array
+    arrayentity="GL7SublineTypeExclCost"
+    cascadeDelete="true"
+    name="Costs"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

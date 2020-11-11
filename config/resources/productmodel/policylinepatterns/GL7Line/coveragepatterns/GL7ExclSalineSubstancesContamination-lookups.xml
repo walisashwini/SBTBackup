@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ExclusionLookup public-id="zjdhun9eoll108h25c7ur8pu9d8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ExclusionPatternCode>GL7ExclSalineSubstancesContamination</ExclusionPatternCode>
+    </ExclusionLookup>
+    <CovTermLookup public-id="z8ciuhfdq6dh07m8j1f6sipl5v8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ClassDescription</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="zdkjkrqm5ph5j7o1sh9ttl82c18">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ClassDescription</CovTermPatternCode>
+        <CovTermOptCode>zquia1nnk9hjk4tm7n59o82pbjb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z0piuf3vpjcdibjk8n1hk6lqf4a">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ClassDescription</CovTermPatternCode>
+        <CovTermOptCode>zhnias203k9rd4a7rlm25bpldmb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermLookup public-id="zrjjur9qls8it6efaph1s740pv8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium82</CovTermPatternCode>
+    </CovTermLookup>
+</import>

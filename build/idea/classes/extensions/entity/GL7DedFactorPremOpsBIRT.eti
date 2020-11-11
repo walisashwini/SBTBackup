@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7DedFactorPremOpsBIRT" loadable="false" table="gl7dedfactorpremopsbirt" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="decimal">
+        <columnParam name="scale" value="4"/>
+        <columnParam name="precision" value="20"/>
+    </column>
+    <column desc="IncreasedLimitsTableAssignmentPremOpsFinal" name="IncreasedLmtsTableAssignmentPr" nullok="true" type="integer"/>
+    <column desc="PremOpsDed" name="PremOpsDed" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

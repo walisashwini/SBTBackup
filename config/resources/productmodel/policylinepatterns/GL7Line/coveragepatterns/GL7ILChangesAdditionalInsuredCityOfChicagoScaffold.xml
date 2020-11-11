@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineCov" coveredPartyType="ThirdParty" public-id="GL7ILChangesAdditionalInsuredCityOfChicagoScaffold" priority="775000" lookupTableName="GL7SublineCov" existence="Required" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineAddlInsdGrp" codeIdentifier="GL7ILChangesAdditionalInsuredCityOfChicagoScaffold" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7ILChangesAdditionalInsuredCityOfChicagoScaffold");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium197" required="true" codeIdentifier="GL7ManualPremium197"/>
+  </CovTerms>
+</CoveragePattern>

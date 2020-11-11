@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftPrimar public-id="z4oiselberlgm43b3q4gkuiti59">
+    <Value>Rural</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zbngm2p8nfp8v03np9j832bui79">
+    <Value>Urban</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zboiam1fmkk49dspehuu2rrqbdb">
+    <Value>Suburban</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zgqjqnh3v46m61buqnhrfa6ahib">
+    <Value>Indoors</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zc7ikio03bstn7c0lhotuf1o0m8">
+    <Value>Private Land</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="z5hi4nge1521g2bc566hsp3pj7a">
+    <Value>Over bodies of water</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zfmjkraaj4t57bfgmvnc2j3fjbb">
+    <Value>High concentration of people (non-employees) - e.g., stadiums, concerts, etc.</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zofjijkp5sjdt38jijcq29p2kja">
+    <Value>Not Applicable</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+  <GL7UnmannedAircraftPrimar public-id="zl2ia0e14tmevad0euakvr61h48">
+    <Value>Unknown</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftPrimar>
+</import>

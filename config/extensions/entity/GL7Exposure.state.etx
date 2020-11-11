@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7Exposure" xmlns="http://guidewire.com/datamodel">
+  <column columnName="gl7contractor" desc="Is the insured a contractor as defined in IA Code Ch 105?" name="Contractor" nullok="true" type="varchar">
+    <columnParam name="size" value="125"/>
+  </column>
+  <column columnName="gl7liquorexposureonpremises" desc="Liquor Exposure On-Premises" name="LiquorExposureOnPremises" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+  <column columnName="gl7climbingfacilityoperator" desc="Climbing Facility Operator" name="ClimbingFacilityOperator" nullok="true" type="varchar">
+    <columnParam name="size" value="16"/>
+  </column>
+  <column columnName="gl7stopgapincrdlimfactoroverri" desc="Stop Gap Increased Limits Factor Override" name="StopGapIncrdLimitFactorOverride" nullok="true" type="decimal">
+    <columnParam name="precision" value="8"/>
+    <columnParam name="scale" value="4"/>
+  </column>
+</extension>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CoveragePattern
+  codeIdentifier="GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg"
+  coverageCategory="GL7SublineTypeAddlInsdGrp"
+  coverageSubtype="GL7SublineTypeSchedCov"
+  coveredPartyType="ThirdParty"
+  existence="Electable"
+  lookupTableName="GL7SublineTypeCov"
+  owningEntityType="GL7SublineType"
+  policyLinePattern="GL7Line"
+  priority="106300"
+  public-id="GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg"
+  referenceDateByType="PolicyTerm">
+  <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg");]]></AvailabilityScript>
+  <CovTerms/>
+  <Schedules/>
+</CoveragePattern>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeSchedExcl" public-id="GL7TotalPollutionExclForDesignatedProdsOrWork" priority="879000" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7TotalPollutionExclForDesignatedProdsOrWork" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7TotalPollutionExclForDesignatedProdsOrWork");]]></AvailabilityScript>
+    <CovTerms/>
+</ExclusionPattern>

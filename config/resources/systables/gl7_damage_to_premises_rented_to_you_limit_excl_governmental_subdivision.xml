@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<import>
+  <GL7DamageToPremisesRente9 public-id="zi9ha6qokg2t74e1dft5bsk036b">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="z16hcprtvpiudd2icqk4vnf7khb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zimgi4kjar7tj3bng0rn7496gc8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>100,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zi1ggem6c0m0uc41ampmqil8309">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zccgan2omu7c3ff7a2hav8grvj8">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zoigckrcpf3vn3q3phddotmvgc9">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zhngqrdg4l4s96r6cgfvi9kigj8">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>100,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="z2jhelbbphauqel37rt23hg2kgb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zsriculqm4n7pfokcnoenpj0rn8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zm2i8rqg496bjepd0k07at6bh59">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zlsiqurg7o5u04bg8ds88r9bjg9">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zpdhee082fl1qa3d5cl76tnde6b">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zv6jina11qv3i830j479f572i8a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zqujasvo8ou1d93ehfh9l68nkib">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zqria4ngk1c9bcf0mvbr9biucbb">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="z7khenbl0vml621afhpo35fg2pb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zaogu9j3c62nafqjtqm8uucdeqb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>Yes</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+  <GL7DamageToPremisesRente9 public-id="zijg0f6rtlg1rfggnif69rtdiib">
+    <Value>100,000</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <DamageToPremisesRentedToYouExc>No</DamageToPremisesRentedToYouExc>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+  </GL7DamageToPremisesRente9>
+</import>

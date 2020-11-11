@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Screen
+    desc="1"
+    editable="true"
+    id="StateUpdateDiffsScreen">
+    <Require
+      name="sbtUpdatePresenter"
+      type="gw.sbt.pca.view.presenter.compare.StateUpdatePresenter"/>
+    <TitleBar
+      title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.UpdatesDiffScreenTitle&quot;, typekey.Jurisdiction.get(sbtUpdatePresenter.NewSBTUpdate.MetaData.Jurisdiction).DisplayName, sbtUpdatePresenter.NewSBTUpdate.MetaData.Line.Name)"/>
+    <Toolbar>
+      <EditButtons
+        cancelVisible="not sbtUpdatePresenter.ReadOnly"
+        editVisible="false"
+        updateLabel="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Save&quot;)"
+        updateVisible="not sbtUpdatePresenter.ReadOnly"/>
+    </Toolbar>
+    <PanelSet>
+      <DetailViewPanel>
+        <InputColumn
+          labelWidth="350"
+          width="50%">
+          <TextInput
+            align="left"
+            id="LatestAdoptedEffDate"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedEdition&quot;)"
+            value="sbtUpdatePresenter.LatestAdoptedEdition" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            id="LatestAdoptedCwEdition"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedCwEdition&quot;)"
+            value="sbtUpdatePresenter.LatestAdoptedCwEdition" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            id="EffDate"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.NewUpdateEdition&quot;)"
+            value="sbtUpdatePresenter.Edition" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            id="CwEdition"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.NewUpdateCwEdition&quot;)"
+            value="sbtUpdatePresenter.CwEdition" valueType="java.lang.String"/>
+          <DateInput
+            dateFormat="short"
+            editable="not sbtUpdatePresenter.ReadOnly"
+            id="AdoptionDate"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.AdoptionDate&quot;)"
+            requestValidationExpression="sbtUpdatePresenter.validateAdoptionDataUI(VALUE)"
+            value="sbtUpdatePresenter.AdoptionDate">
+            <PostOnChange onChange="sbtUpdatePresenter.refreshByAdoptionDate(sbtUpdatePresenter.AdoptionDate)"/>
+          </DateInput>
+        </InputColumn>
+        <InputColumn
+          labelWidth="350"
+          width="50%">
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ElectronicRatingContentReleaseNotes&quot;)"
+            visible="sbtUpdatePresenter.hasStateRCRN()">
+            <Link
+              action="sbtUpdatePresenter.downloadStateRCRN()"
+              download="true"
+              icon="&quot;document.png&quot;"
+              id="RCRNStateLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ElectronicRatingContentReleaseNotesCW&quot;)"
+            visible="sbtUpdatePresenter.hasCWRCRN()">
+            <Link
+              action="sbtUpdatePresenter.downloadCWRCRN()"
+              download="true"
+              icon="&quot;document.png&quot;"
+              id="RCRNCWLink"/>
+          </ContentInput>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(sbtUpdatePresenter.DecisionAndInstructions, null, sbtUpdatePresenter.ReadOnly)"/>
+    </PanelSet>
+    <CardViewPanel
+      hideTabIfSingle="true">
+      <Variable
+        initialValue="sbtUpdatePresenter.TreeRootNode"
+        name="mainTreeRootNode"
+        type="gw.api.tree.RowTreeRootNode"/>
+      <Card
+        id="EvaluationResultsCard"
+        title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.EvaluationDetails.EvalResultsCardTitle&quot;)">
+        <DetailViewPanel>
+          <InputColumn>
+            <Label
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Message.NoMoreDiffsToReview&quot;)"
+              visible="mainTreeRootNode.Children.Empty"/>
+            <Label
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.StateUpdateFlowDescription&quot;)"
+              visible="mainTreeRootNode.Children.HasElements"/>
+          </InputColumn>
+        </DetailViewPanel>
+        <PanelSet
+          visible="mainTreeRootNode.Children.HasElements or gw.sbt.pca.view.presenter.PresenterUtil.isMaintenanceUpdate(sbtUpdatePresenter.Edition, sbtUpdatePresenter.LatestAdoptedEdition,
+          sbtUpdatePresenter.CwEdition, sbtUpdatePresenter.LatestAdoptedCwEdition)">
+          <PanelRef
+            def="UpdateTreeViewPanelSet(mainTreeRootNode, sbtUpdatePresenter)"/>
+        </PanelSet>
+      </Card>
+    </CardViewPanel>
+  </Screen>
+</PCF>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <InputSet
+    id="LobInternalInputSet"
+    mode="rangeradio">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <RangeRadioInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="true"
+      id="Input"
+      label="displayable.Label"
+      required="displayable.Required"
+      showConfirmMessage="false"
+      value="displayable.Value"
+      valueType="java.lang.Object"
+      valueRange="displayable.ValueRange"/>
+  </InputSet>
+</PCF>

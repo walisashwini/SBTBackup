@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="LobInternalInputSet"
+    mode="booleanradio">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <BooleanRadioInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="true"
+      id="Input"
+      label="displayable.Label"
+      required="displayable.Required"
+      value="displayable.Value"
+      valueType="java.lang.Object"/>
+  </InputSet>
+</PCF>

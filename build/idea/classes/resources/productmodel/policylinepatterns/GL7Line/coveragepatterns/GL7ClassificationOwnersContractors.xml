@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7ExposureCov" coveredPartyType="ThirdParty" public-id="GL7ClassificationOwnersContractors" priority="155000" lookupTableName="GL7ExposureCov" existence="Required" owningEntityType="GL7Exposure" referenceDateByType="PolicyTerm" coverageCategory="GL7ExposureStdGrp" codeIdentifier="GL7ClassificationOwnersContractors" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Exposure.isClauseAvailable("GL7ClassificationOwnersContractors");]]></AvailabilityScript>
+    <CovTerms/>
+</CoveragePattern>

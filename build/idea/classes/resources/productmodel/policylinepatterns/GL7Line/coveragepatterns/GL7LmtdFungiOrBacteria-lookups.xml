@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zmth4splmo4pc2f895qu40srikb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7LmtdFungiOrBacteria</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="z9uj688e8tuvlao6dkfkn659opa">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7FungiBacteriaLiabAggLimit</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zr7h2ore6lpej7ltgj15rr07o18">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium128</CovTermPatternCode>
+    </CovTermLookup>
+</import>

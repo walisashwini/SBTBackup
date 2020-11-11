@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <Popup
+    afterCommit="presenter.updateSelectedJurisdictionsForSubline()"
+    canEdit="openForEdit"
+    id="GL7SublineJurisdictionsPopup"
+    startInEditMode="true"
+    title="DisplayKey.get(&quot;Web.Policy.GL7.AvailableStates&quot;, presenter.Subline)">
+    <LocationEntryPoint
+      signature="GL7SublineJurisdictionsPopup(policyPeriod : PolicyPeriod,  presenter : gw.lob.gl7.presenters.GL7SublineJurisdictionsPresenter,  openForEdit : boolean)"/>
+    <Variable
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Variable
+      name="presenter"
+      recalculateOnRefresh="true"
+      type="gw.lob.gl7.presenters.GL7SublineJurisdictionsPresenter"/>
+    <Variable
+      name="openForEdit"
+      type="boolean"/>
+    <Screen>
+      <DetailViewPanel>
+        <InputColumn>
+          <ListViewInput
+            boldLabel="true"
+            id="SelectedSublinesLV"
+            labelAbove="true">
+            <Toolbar
+              visible="openForEdit">
+              <CheckedValuesToolbarButton
+                allCheckedRowsAction="presenter.updateSelectedChoicesFrom(CheckedValues); CurrentLocation.commit()"
+                default="true"
+                id="UpdateStatesButton"
+                iterator="JurisdictionIterator"
+                label="DisplayKey.get(&quot;Button.OK&quot;)"/>
+              <EditButtons
+                updateDefault="true"
+                updateVisible="false"/>
+            </Toolbar>
+            <ListViewPanel>
+              <RowIterator
+                editable="true"
+                elementName="jurisdictionChoice"
+                hasCheckBoxes="true"
+                hideCheckBoxesIfReadOnly="true"
+                id="JurisdictionIterator"
+                pageSize="0"
+                startChecked="jurisdictionChoice.Selected"
+                value="presenter.Choices"
+                valueType="java.util.List&lt;gw.lob.gl7.presenters.GL7SublineJurisdictionsPresenter.JurisdictionChoice&gt;">
+                <Row>
+                  <TextCell
+                    id="jurisdictionDescription"
+                    label="DisplayKey.get(&quot;Web.Policy.GL7.State&quot;)"
+                    value="jurisdictionChoice.JurisdictionDescription"/>
+                </Row>
+              </RowIterator>
+            </ListViewPanel>
+          </ListViewInput>
+          <Label/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

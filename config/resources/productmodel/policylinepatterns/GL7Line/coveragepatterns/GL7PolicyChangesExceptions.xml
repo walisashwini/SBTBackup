@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineCond" public-id="GL7PolicyChangesExceptions" priority="260100" lookupTableName="GL7SublineCond" existence="Electable" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineCondGrp" codeIdentifier="GL7PolicyChangesExceptions" policyLinePattern="GL7Line">
+  <CovTerms>
+    <GenericCovTermPattern coverageColumn="BooleanTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1000" public-id="GL7AdditionalInterestedParties" required="false" codeIdentifier="GL7AdditionalInterestedParties"/>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="2200" public-id="GL7AdditionalPremium" required="false" codeIdentifier="GL7AdditionalPremium"/>
+    <GenericCovTermPattern coverageColumn="StringTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="60" public-id="GL7ChangeEndorsementNumber" required="false" codeIdentifier="GL7ChangeEndorsementNumber"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm2" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1500" public-id="GL7Classification" required="false" codeIdentifier="GL7Classification"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm3" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="225" public-id="GL7CompanyCheckBox" required="false" codeIdentifier="GL7CompanyCheckBox"/>
+    <GenericCovTermPattern coverageColumn="StringTerm2" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="2350" public-id="GL7CountersignedBy" required="false" codeIdentifier="GL7CountersignedBy"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm4" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1100" public-id="GL7CovFormsandEndorsements" required="false" codeIdentifier="GL7CovFormsandEndorsements"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm5" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1400" public-id="GL7CovrdProperty" required="false" codeIdentifier="GL7CovrdProperty"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm6" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1300" public-id="GL7Deds1" required="false" codeIdentifier="GL7Deds1"/>
+    <GenericCovTermPattern coverageColumn="DateTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="50" public-id="GL7EffectiveDateOfChange" required="false" codeIdentifier="GL7EffectiveDateOfChange"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm7" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="250" public-id="GL7EffectiveOrExpirationDate" required="false" codeIdentifier="GL7EffectiveOrExpirationDate"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm8" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1200" public-id="GL7Exposure" required="false" codeIdentifier="GL7Exposure"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm9" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="275" public-id="GL7InsuredsLegalStatusOrBusinessOfInsured" required="false" codeIdentifier="GL7InsuredsLegalStatusOrBusinessOfInsured"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm10" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="175" public-id="GL7InsuredsMailingAddress" required="false" codeIdentifier="GL7InsuredsMailingAddress"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm11" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="150" public-id="GL7InsuredsName" required="false" codeIdentifier="GL7InsuredsName"/>
+    <GenericCovTermPattern coverageColumn="StringTerm3" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="70" public-id="GL7NamedInsured2" required="false" codeIdentifier="GL7NamedInsured2"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm12" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="2000" public-id="GL7NoChanges" required="false" codeIdentifier="GL7NoChanges"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm13" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="300" public-id="GL7PaymentPlan" required="false" codeIdentifier="GL7PaymentPlan"/>
+    <GenericCovTermPattern coverageColumn="StringTerm4" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="2400" public-id="GL7PolicyChangesEndorsementDescription" required="false" codeIdentifier="GL7PolicyChangesEndorsementDescription"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm14" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="200" public-id="GL7PolicyNumber" required="false" codeIdentifier="GL7PolicyNumber"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm15" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="325" public-id="GL7PremiumDetermination" required="false" codeIdentifier="GL7PremiumDetermination"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm16" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1600" public-id="GL7Rates" required="false" codeIdentifier="GL7Rates"/>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="2300" public-id="GL7ReturnPremium" required="false" codeIdentifier="GL7ReturnPremium"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm17" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="2100" public-id="GL7ToBeAdjustedAtAudit" required="false" codeIdentifier="GL7ToBeAdjustedAtAudit"/>
+    <GenericCovTermPattern coverageColumn="BooleanTerm18" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1700" public-id="GL7UnderlyingInsurance" required="false" codeIdentifier="GL7UnderlyingInsurance"/>
+  </CovTerms>
+</ConditionPattern>

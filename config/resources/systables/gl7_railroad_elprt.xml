@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7RailroadELPRT public-id="z52gu962d7qci7si3rv18sqr4u8">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zuej01ijlfa59bv2n2cv8or5hoa">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="znfh070scor101okaru9ruke7i8">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zfgg2dstl6a8t80nr1fq3ivjl0a">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeRailroad>40014</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zj1iu72hn0uvn2hlf8292jjanub">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeRailroad>40014</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="z8bg4dqsnvpbi0bgi0qm41v48o9">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zmfi8290bls6d5c1f1tf8ea15d8">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zhug0glrn1tt8fjfigubvpdcvd8">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="z78jiqvqe398r5vogev9c30o8d9">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeRailroad>40014</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zdlg69au8mpe4aihegp57f40lpa">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="ziajg5cnncgq105haj6a40bhhoa">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zjfg2se87cbk73e584k4q8tcob9">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zd6h051vj6ir1cqiu6k9g4r555a">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeRailroad>40014</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zv2johud9hdru2r9sk8g316b42b">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zfqh6enl4ket65q74ihmppgtcna">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="z82jiqkiupeu14qsjfenb6h6dh8">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zpuiqqtsnrok20hmfl7i4gkn738">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeRailroad>40014</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="zqfhis95udvtl0mcgf1ji8lq8q9">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeRailroad>40013</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="z1aj2vvsrasg7c2tnri0bbqobgb">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeRailroad>40012</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+  <GL7RailroadELPRT public-id="z8chmmsc9tcjv0rqdkblm98vf8b">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeRailroad>40011</ClassCodeRailroad>
+  </GL7RailroadELPRT>
+</import>

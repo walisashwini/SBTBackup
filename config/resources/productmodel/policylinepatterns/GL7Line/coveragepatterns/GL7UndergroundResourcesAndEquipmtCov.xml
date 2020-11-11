@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeSchedCov" coveredPartyType="ThirdParty" public-id="GL7UndergroundResourcesAndEquipmtCov" priority="1506000" lookupTableName="GL7SublineTypeCov" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7UndergroundResourcesAndEquipmtCov" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7UndergroundResourcesAndEquipmtCov");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7UndergroundResourcesAndEquipmtCov");]]></ExistenceScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7AggLimit9" required="true" codeIdentifier="GL7AggLimit9">
+            <LimitsSet>
+                <CovTermLimits currency="usd" maxVal="999999999" minVal="0" public-id="GL7AggLimit9USD" codeIdentifier="GL7AggLimit9USD"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium167" required="true" codeIdentifier="GL7ManualPremium167"/>
+    </CovTerms>
+</CoveragePattern>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="APDAttributeInputSet">
+    <Require
+      name="attribute"
+      type="APDAttribute"/>
+    <Variable
+      initialValue="new gw.api.web.userpreference.UserPreferencesOfCurrentUser().inDevelopMode()"
+      name="inDevelopMode"
+      type="Boolean"/>    
+    <TextInput
+      editable="true"
+      id="Label"
+      label="DisplayKey.get(&quot;Web.Policy.ManualLine.APDAttribute.Label&quot;)"
+      required="true"
+      value="attribute.Label"/>
+    <TypeKeyInput
+      action="APDAttributeRulePopup.push(attribute.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE and not (r typeis APDDropdownEntryRule)), attribute, APDRuleType.TC_EXISTENCE, CurrentLocation.InEditMode)"
+      id="Usage"
+      label="DisplayKey.get(&quot;Web.Policy.ManualLine.RiskCoverable.ExistenceRule.Attribute.Field&quot;)"
+      value="attribute.Rules.firstWhere(\r -&gt; r.RuleType == APDRuleType.TC_EXISTENCE and not (r typeis APDDropdownEntryRule)).DefaultExistence ?: APDDataExistenceType.TC_CAPTURED"
+      valueType="typekey.APDDataExistenceType"/>
+    <TextInput
+      editable="true"
+      id="Description"
+      label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.Policy.ManualLine.APDAttribute.Description&quot;))"
+      value="attribute.Description"/>
+    <TextInput
+      editable="true"
+      id="Name"
+      label="DisplayKey.get(&quot;Web.APD.RequiredForGeneration&quot;, DisplayKey.get(&quot;Web.Policy.ManualLine.APDAttribute.Name&quot;))"
+      value="attribute.Name"
+      visible="inDevelopMode"/>
+  </InputSet>
+</PCF>

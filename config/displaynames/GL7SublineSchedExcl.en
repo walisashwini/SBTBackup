@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7SublineSchedExcl">
+  <Columns>
+    <Column
+      beanPath="GL7SublineSchedExcl.Pattern"
+      name="pattern"/>
+  </Columns>
+  <DisplayName><![CDATA[pattern]]></DisplayName>
+</Entity>

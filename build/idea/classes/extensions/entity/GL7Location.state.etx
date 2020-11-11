@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7Location" xmlns="http://guidewire.com/datamodel">
+  <column columnName="gl7terrterritory" desc="Terrorism Territory Code" name="TerrorismTerritory" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+</extension>

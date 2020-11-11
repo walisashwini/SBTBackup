@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7UnmannedAircraftCov" xmlns="http://guidewire.com/datamodel">
+    <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm1" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+    <column desc="whether or not the ChoiceTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+    <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm2" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+    <column desc="whether or not the ChoiceTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+    <column desc="choice cov term field" getterScriptability="doesNotExist" name="ChoiceTerm3" nullok="true" setterScriptability="doesNotExist" type="patterncode"/>
+    <column desc="whether or not the ChoiceTerm3 field was available the last time availability was checked" getterScriptability="doesNotExist" name="ChoiceTerm3Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+</extension>

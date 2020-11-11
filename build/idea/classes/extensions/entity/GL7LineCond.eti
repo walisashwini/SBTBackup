@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="Conditions for the General Liability Line"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7LineCond"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7linecond"
+  type="effdated">
+  <implementsEntity
+    name="PolicyCondition"/>
+  <implementsInterface
+    iface="gw.api.domain.PolicyConditionAdapter"
+    impl="gw.lob.gl7.GL7LineConditionAdapter"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7LineCondMatcher"/>
+  <foreignkey
+    fkentity="GL7GeneralLiabilityLine"
+    name="GL7Line"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LineCondCost"
+    cascadeDelete="true"
+    name="Costs"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

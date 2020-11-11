@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7EarlierNoticeOfCancellationProvidedByUsOwnersCo" priority="125800" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7EarlierNoticeOfCancellationProvidedByUsOwnersCo" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7EarlierNoticeOfCancellationProvidedByUsOwnersCo");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium43" required="true" codeIdentifier="GL7ManualPremium43"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7NumberOfDaysNotice1" required="true" codeIdentifier="GL7NumberOfDaysNotice1"/>
+    </CovTerms>
+</CoveragePattern>

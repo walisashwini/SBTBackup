@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7PremOpsLossCost002RT" xmlns="http://guidewire.com/datamodel">
+  <column desc="ClassCodeCGLProds" name="ClassCodeCGLProds" nullok="true" type="varchar">
+    <columnParam name="size" value="5"/>
+  </column>
+  <column desc="PremOpsTerr" name="PremOpsTerr" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+</extension>

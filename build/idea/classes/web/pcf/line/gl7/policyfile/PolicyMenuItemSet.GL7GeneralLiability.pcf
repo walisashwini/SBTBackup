@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <MenuItemSet
+    id="PolicyMenuItemSet"
+    mode="GL7GeneralLiability">
+    <Require
+      name="period"
+      type="PolicyPeriod"/>
+    <Require
+      name="asOfDate"
+      type="java.util.Date"/>
+    <MenuItem
+      action="PolicyFile_PolicyInfo.go(period, asOfDate)"
+      id="PolicyMenuItemSet_PolicyInfo"
+      label="DisplayKey.get(&quot;Web.PolicyFile.PolicyInfo&quot;)"/>
+    <MenuItem
+      action="PolicyFile_GL7SublineSelection.go(period, asOfDate)"
+      id="PolicyMenuItemSet_SublineSelection"
+      label="DisplayKey.get(&quot;Web.Policy.GL7.SublineSelection&quot;)"/>
+    <MenuItem
+      action="PolicyFile_GL7GeneralLiabilityCoverages.go(period, asOfDate)"
+      id="PolicyMenuItemSet_LineCoverages"
+      label="DisplayKey.get(&quot;Web.Policy.GL7.GeneralLiability&quot;)"/>
+    <MenuItem
+      action="PolicyFile_GL7StateSpecificInfo.go(period, asOfDate)"
+      id="PolicyMenuItemSet_GL7StateSpecificInfo"
+      label="DisplayKey.get(&quot;Web.Policy.GL7.StateSpecificInformation&quot;)"/>
+    <MenuItem
+      action="PolicyFile_GL7Locations.go(period, asOfDate)"
+      id="PolicyMenuItemSet_GL7Locations"
+      label="DisplayKey.get(&quot;Web.PolicyFile.Locations&quot;)"/>
+    <MenuItem
+      action="PolicyFile_GL7Exposures.go(period, asOfDate)"
+      id="PolicyMenuItemSet_GL7Exposures"
+      label="DisplayKey.get(&quot;Web.Policy.GL7.Exposures&quot;)"/>
+    <MenuItem
+      action="PolicyFile_GL7UnmannedAircrafts.go(period, asOfDate)"
+      id="PolicyMenuItemSet_GL7UnmannedAircraft"
+      label="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft&quot;)"
+      visible="period.GL7Line.isUnmannedAircraftAvailable"/>
+    <MenuItem
+      action="PolicyFile_GL7Modifiers.go(period, asOfDate)"
+      id="PolicyMenuItemSet_GL7Modifiers"
+      label="DisplayKey.get(&quot;Web.Policy.GL7.Modifiers&quot;)"/>
+    <MenuItem
+      action="PolicyFile_Pricing.go(period, asOfDate)"
+      id="PolicyMenuItemSet_Pricing"
+      label="DisplayKey.get(&quot;Web.PolicyFile.Pricing&quot;)"/>
+    <MenuItem
+      action="PolicyFile_Forms_GL7.go(period, asOfDate)"
+      id="PolicyMenuItemSet_Endorsements"
+      label="DisplayKey.get(&quot;Web.PolicyFile.Endorsements&quot;)"/>
+  </MenuItemSet>
+</PCF>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7DetrendFactorRT" loadable="false" table="gl7detrendfactorrt" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="decimal">
+        <columnParam name="scale" value="4"/>
+        <columnParam name="precision" value="20"/>
+    </column>
+    <column desc="Coverage" name="Coverage" nullok="true" type="varchar">
+        <columnParam name="size" value="20"/>
+    </column>
+    <column desc="YearOfExp" name="YearOfExp" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    afterCancel="clauseDetailsPresenter.revertChanges()"
+    canEdit="true"
+    id="ClauseDiffPopup"
+    startInEditMode="not clauseDetailsPresenter.ReadOnly"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClauseDetails.Title&quot;)">
+    <LocationEntryPoint
+      signature="ClauseDiffPopup(clauseDetailsPresenter : gw.sbt.pca.view.presenter.ClauseDetailsPresenter)"/>
+    <Variable
+      name="clauseDetailsPresenter"
+      type="gw.sbt.pca.view.presenter.ClauseDetailsPresenter"/>
+    <Variable
+      initialValue="clauseDetailsPresenter.getTreeRootNode()"
+      name="treeRootNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons
+          cancelVisible="not clauseDetailsPresenter.ReadOnly"
+          editVisible="false"
+          updateVisible="not clauseDetailsPresenter.ReadOnly"/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn
+          width="900">
+          <Label
+            label="clauseDetailsPresenter.Description"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(clauseDetailsPresenter.DecisionAndInstructions, clauseDetailsPresenter.Description, clauseDetailsPresenter.ReadOnly)"/>
+      <PanelSet
+        visible="treeRootNode.Children.HasElements">
+        <PanelRef
+          def="ClauseDetailsTreeViewPanelSet(treeRootNode, true, clauseDetailsPresenter.ReadOnly)"/>
+      </PanelSet>
+    </Screen>
+  </Popup>
+</PCF>

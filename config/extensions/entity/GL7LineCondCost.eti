@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  desc="The cost for a Line Condition"
+  displayName="GL7 Line Condition Cost"
+  entity="GL7LineCondCost"
+  final="true"
+  supertype="GL7Cost">
+  <implementsInterface
+    iface="gw.lob.common.financials.LobCostMethods"
+    impl="gw.lob.gl7.financials.GL7LineCondCostImpl"/>
+  <implementsEntity
+    name="Cost"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.CostAdapter"
+    impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+  <foreignkey
+    fkentity="GL7LineCond"
+    name="LineCondition"
+    nullok="false"/>
+</subtype>

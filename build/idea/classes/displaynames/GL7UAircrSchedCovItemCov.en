@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7UAircrSchedCovItemCov">
+  <Columns>
+    <Column
+      beanPath="GL7UAircrSchedCovItemCov.Pattern"
+      name="pattern"/>
+  </Columns>
+  <DisplayName><![CDATA[
+pattern
+  ]]></DisplayName>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7PremiumBasisPollutionC" loadable="false" table="gl7premiumbasispollutionc" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column desc="PollutionClassCode" name="PollutionClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

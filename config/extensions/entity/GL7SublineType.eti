@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="General Liability Subline Type"
+  displayName="General Liability Subline Type"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7SublineType"
+  exportable="true"
+  loadable="false"
+  table="gl7sublinetype"
+  type="effdated">
+  <implementsInterface
+    iface="gw.api.domain.LineSpecificLocationContainer"
+    impl="gw.lob.gl7.GL7SpecificLocationContainer"/>
+  <implementsInterface
+    iface="gw.lob.gl7.GL7Coverable"
+    impl="gw.lob.gl7.GL7SublineTypeCoverable"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.GL7SublineTypeCoverableAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsInterface
+    iface="gw.lob.common.MultistateAvailabilityCoverable"
+    impl="gw.lob.gl7.GL7MultistateAvailabilitySublineTypeAdapter"/>
+  <implementsEntity
+    name="Modifiable"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifiableAdapter"
+    impl="gw.lob.gl7.GL7SublineTypeCoverableAdapter"/>
+  <foreignkey
+    fkentity="GL7GeneralLiabilityLine"
+    name="Line"
+    nullok="false"/>
+  <foreignkey
+    desc="Sequence to autonumber GL7Location coverables"
+    fkentity="AutoNumberSequence"
+    name="LocationAutoNumberSeq"
+    nullok="true"/>
+  <array
+    arrayentity="GL7SublineTypeCov"
+    cascadeDelete="true"
+    desc="Subline Type level coverages for General Liability"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7SublineTypeExcl"
+    cascadeDelete="true"
+    desc="Subline Type level exclusions for General Liability"
+    name="Exclusions"/>
+  <array
+    arrayentity="GL7SublineTypeCond"
+    cascadeDelete="true"
+    desc="Subline Type level conditions for General Liability"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7SublineTypeMod"
+    cascadeDelete="true"
+    desc="Subline Type level modifiers for General Liability"
+    name="Modifiers"/>
+  <array
+    arrayentity="GL7Location"
+    cascadeDelete="true"
+    desc="Covered Location"
+    name="Locations"/>
+  <array
+    arrayentity="GL7Subline"
+    cascadeDelete="true"
+    desc="Jurisdiction-specific Subline extensions"
+    name="Sublines"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

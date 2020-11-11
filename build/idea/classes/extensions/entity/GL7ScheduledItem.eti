@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<delegate requiresType="effdated" extendable="true" name="GL7ScheduledItem" xmlns="http://guidewire.com/datamodel">
+    <fulldescription>A GL7 scheduled item</fulldescription>
+    <column desc="Date Field" getterScriptability="doesNotExist" name="DateCol2" nullok="true" setterScriptability="doesNotExist" type="dateonly"/>
+    <column desc="Decimal field" name="DecimalCol1" nullok="true" type="decimal">
+        <columnParam name="scale" value="2"/>
+        <columnParam name="precision" value="10"/>
+    </column>
+    <column desc="String field" name="LongStringCol1" nullok="true" type="longtext"/>
+    <column desc="String field" name="LongStringCol2" nullok="true" type="longtext"/>
+    <column desc="String field" name="LongStringCol3" nullok="true" type="longtext"/>
+    <column desc="String field" name="LongStringCol4" nullok="true" type="longtext"/>
+    <column desc="String field" name="LongStringCol5" nullok="true" type="longtext"/>
+    <column desc="Option field" name="OptionCol1" nullok="true" type="shorttext"/>
+    <column desc="Option field" name="OptionCol2" nullok="true" type="shorttext"/>
+    <column desc="Option field" name="OptionCol3" nullok="true" type="shorttext"/>
+    <column desc="String field" name="StringCol5" nullok="true" type="shorttext"/>
+    <column desc="String field" name="StringCol6" nullok="true" type="shorttext"/>
+    <column desc="String field" name="StringCol7" nullok="true" type="shorttext"/>
+    <foreignkey fkentity="PolicyAddlInsuredDetail" name="AdditionalInsured" nullok="true"/>
+</delegate>

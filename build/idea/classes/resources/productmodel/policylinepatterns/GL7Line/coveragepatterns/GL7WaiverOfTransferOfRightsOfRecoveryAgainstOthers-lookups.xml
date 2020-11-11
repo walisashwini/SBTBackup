@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ConditionLookup public-id="zbphc44tq6lco77opv2ugo83gbb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ConditionPatternCode>GL7WaiverOfTransferOfRightsOfRecoveryAgainstOthers</ConditionPatternCode>
+    </ConditionLookup>
+    <CovTermLookup public-id="zl7gu1kpknqvp7ke1v1pn19ikpa">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium171</CovTermPatternCode>
+    </CovTermLookup>
+</import>

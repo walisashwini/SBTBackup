@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7DedFactorLiquorRT public-id="zhihevdcpnv0aaloijl72fahin9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>No Deductible</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z2ohamtmdd6rgemclesk3iv3oja">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>250 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="za1hu4fm4mkhv9o53dsmfkpl4pa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>250 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zpcj8mcfbjdi34arg791brhsqj9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>500 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z0jjgnq27osbhecc10sapjqt89a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>500 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zb2h62fqf71387j3s17a0b0q11a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>750 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zr8g47521446nekg1he8i527uba">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>750 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zrkje09b8mk5p6ffq6t4t1qruba">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>1,000 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zukioaij6tief8bg1j5dnjjgsta">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>1,000 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z8njo92k65vjj5qlduc0hvmq7q9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>2,500 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z80gk24i3vo6lemlokg0efdpqfa">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>2,500 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z84ge5jrgil3q9d9fup8dmrubcb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>5,000 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zerj8p13tunubd00vpkr9p40b1a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>5,000 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zfiheu95g7bika92hfc9r2pr5eb">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>10,000 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zq6js2cn8lletdd1chqdoqtmr1b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>10,000 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z60i4f5c591mpb650saiud5c37b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>15,000 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z27i4bmmc1v4r2070b6gepgk9s9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>15,000 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z8gh42oktp35f7lgn3t5ke21l0a">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>20,000 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="z9cheenatmbjoer9k61cah4ukj9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>20,000 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zcjj4ar9k8k1d41a5i3r1f2sg7b">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>25,000 Per Claim</DedLiquor>
+  </GL7DedFactorLiquorRT>
+  <GL7DedFactorLiquorRT public-id="zi5guh2h237tebf8koifv9mmve9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <DedLiquor>25,000 Per Common Cause</DedLiquor>
+  </GL7DedFactorLiquorRT>
+</import>

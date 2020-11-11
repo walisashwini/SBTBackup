@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7ExperienceRatingModificationLatestYear" priority="742600" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeStdGrp" codeIdentifier="GL7ExperienceRatingModificationLatestYear" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExperienceRatingModificationLatestYear");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3224" public-id="GL7ERPExposuresOnSpecialUWBasisLatestYearPremOps" required="true" codeIdentifier="GL7ERPExposuresOnSpecialUWBasisLatestYearPremOps">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPExposuresOnSpecialUWBasisLatestYearPremOps");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits maxVal="9999999999" minVal="1" public-id="GL7ERPExposuresOnSpecialUWBasisLatestYearPremOpsNOCURRENCY" codeIdentifier="GL7ERPExposuresOnSpecialUWBasisLatestYearPremOpsNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3226" public-id="GL7ERPExposuresOnSpecialUWBasisLatestYearProdCompl" required="true" codeIdentifier="GL7ERPExposuresOnSpecialUWBasisLatestYearProdCompl">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPExposuresOnSpecialUWBasisLatestYearProdCompl");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits maxVal="9999999999" minVal="1" public-id="GL7ERPExposuresOnSpecialUWBasisLatestYearProdComplNOCURRENCY" codeIdentifier="GL7ERPExposuresOnSpecialUWBasisLatestYearProdComplNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <GenericCovTermPattern coverageColumn="DateTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3198" public-id="GL7ERPLatestYearEffectiveDate" required="true" codeIdentifier="GL7ERPLatestYearEffectiveDate">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPLatestYearEffectiveDate");]]></AvailabilityScript>
+        </GenericCovTermPattern>
+        <GenericCovTermPattern coverageColumn="DateTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3200" public-id="GL7ERPLatestYearLatestValuationDate" required="true" codeIdentifier="GL7ERPLatestYearLatestValuationDate">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPLatestYearLatestValuationDate");]]></AvailabilityScript>
+        </GenericCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm3" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3228" public-id="GL7ERPLatestYearTotalIncludedLoss" required="true" codeIdentifier="GL7ERPLatestYearTotalIncludedLoss">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPLatestYearTotalIncludedLoss");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits minVal="0" public-id="GL7ERPLatestYearTotalIncludedLossNOCURRENCY" codeIdentifier="GL7ERPLatestYearTotalIncludedLossNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3204" public-id="GL7ERPLatestYearTypeOfPolicy" required="true" codeIdentifier="GL7ERPLatestYearTypeOfPolicy">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPLatestYearTypeOfPolicy");]]></AvailabilityScript>
+            <DefaultsSet>
+                <CovTermDefault defaultValue="Occurrence" public-id="GL7ERPLatestYearTypeOfPolicyDEFAULT" codeIdentifier="GL7ERPLatestYearTypeOfPolicyDEFAULT"/>
+            </DefaultsSet>
+            <Options>
+                <CovTermOpt public-id="zatggvd3tlr2dcdh1ufp5bi79p8" priority="1" optionCode="Occurrence" value="0" codeIdentifier="zatggvd3tlr2dcdh1ufp5bi79p8"/>
+                <CovTermOpt public-id="zluiu165qqsrg7924nf4767uheb" priority="2" optionCode="ClaimsMade" value="0" codeIdentifier="zluiu165qqsrg7924nf4767uheb"/>
+            </Options>
+        </OptionCovTermPattern>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3202" public-id="GL7ERPLatestYearWithSameCarrier" required="true" codeIdentifier="GL7ERPLatestYearWithSameCarrier">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPLatestYearWithSameCarrier");]]></AvailabilityScript>
+            <DefaultsSet>
+                <CovTermDefault defaultValue="Yes" public-id="GL7ERPLatestYearWithSameCarrierDEFAULT" codeIdentifier="GL7ERPLatestYearWithSameCarrierDEFAULT"/>
+            </DefaultsSet>
+            <Options>
+                <CovTermOpt public-id="zsqiug547sgog5fid4m7sed9fu8" priority="0" optionCode="Yes" value="0" codeIdentifier="zsqiug547sgog5fid4m7sed9fu8"/>
+                <CovTermOpt public-id="z49hqf57hfhkn4mtno1tsj0jglb" priority="1" optionCode="No" value="0" codeIdentifier="z49hqf57hfhkn4mtno1tsj0jglb"/>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm4" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3206" public-id="GL7ERPLatestYearYIP" required="true" codeIdentifier="GL7ERPLatestYearYIP">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModificationLatestYear", "GL7ERPLatestYearYIP");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits minVal="0" public-id="GL7ERPLatestYearYIPNOCURRENCY" codeIdentifier="GL7ERPLatestYearYIPNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

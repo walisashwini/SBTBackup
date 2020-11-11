@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7UnmannedAircraftCov" coveredPartyType="ThirdParty" public-id="GL7UnmannedAircraftTerr" priority="132000" lookupTableName="GL7UnmannedAircraftCov" existence="Required" owningEntityType="GL7UnmannedAircraft" referenceDateByType="PolicyTerm" coverageCategory="GL7UnmannedAircraftStdGrp" codeIdentifier="GL7UnmannedAircraftTerr" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7UnmannedAircraft.isClauseAvailable("GL7UnmannedAircraftTerr");]]></AvailabilityScript>
+    <CovTerms/>
+</CoveragePattern>

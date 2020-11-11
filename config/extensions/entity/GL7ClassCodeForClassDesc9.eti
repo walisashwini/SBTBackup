@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7ClassCodeForClassDesc9" loadable="false" table="gl7classcodeforclassdesc9" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column desc="ProductCoverage" name="Product" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

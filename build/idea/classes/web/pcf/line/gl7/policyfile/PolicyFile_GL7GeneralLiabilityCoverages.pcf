@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <Page
+    afterEnter="gw.api.web.PebblesUtil.addWebMessages(CurrentLocation, policyPeriod.PolicyFileMessages)"
+    canVisit="perm.PolicyPeriod.view(policyPeriod) and perm.System.pfiledetails"
+    id="PolicyFile_GL7GeneralLiabilityCoverages"
+    parent="PolicyFile(policyPeriod, asOfDate)"
+    title="DisplayKey.get(&quot;Web.Policy.GL7.GeneralLiability&quot;)">
+    <LocationEntryPoint
+      signature="PolicyFile_GL7GeneralLiabilityCoverages(policyPeriod : PolicyPeriod, asOfDate : java.util.Date)"/>
+    <Variable
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Variable
+      name="asOfDate"
+      type="java.util.Date"/>
+    <Screen
+      id="PolicyFile_GL7Line_Coverages_Screen">
+      <Variable
+        initialValue="policyPeriod.GL7Line"
+        name="line"
+        type="productmodel.GL7Line"/>
+      <Variable
+        initialValue="gw.lob.gl7.presenters.GL7CoverablePerSubline.forSublinesOn(line)"
+        name="sublines"
+        type="gw.lob.gl7.presenters.GL7CoverablePerSubline&lt;entity.GL7SublineType&gt;"/>
+      <TitleBar/>
+      <Toolbar/>
+      <PanelRef
+        def="GL7SublinesCV(sublines, false, null, gw.lob.gl7.GL7Category.CategoriesForSublineTypes)"/>
+    </Screen>
+  </Page>
+</PCF>

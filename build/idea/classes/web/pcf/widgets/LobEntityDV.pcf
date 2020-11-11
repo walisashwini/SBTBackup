@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <DetailViewPanel
+    id="LobEntityDV">
+    <Require
+      name="entity"
+      type="KeyableBean"/>
+    <Require
+      name="lobDisplayableClass"
+      type="Type"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="isScreenEditable"
+      type="boolean"/>
+    <Variable
+      initialValue="gw.lob.common.displayable.LobDisplayableFactory.getEntityDisplayables(entity, lobDisplayableClass, jobWizardHelper, isScreenEditable)"
+      name="displayables"
+      recalculateOnRefresh="true"
+      type="java.util.List&lt;gw.lob.common.displayable.LobDisplayable&gt;"/>
+    <InputColumn>
+      <InputIterator
+        elementName="displayable"
+        value="displayables" valueType="java.util.List&lt;gw.lob.common.displayable.LobDisplayable&gt;">
+        <InputSetRef
+          def="LobInputSet(displayable)"/>
+      </InputIterator>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7EDLClassDescriptionByC public-id="zm7ik29avffjsfur8bpfnu75h68">
+    <Value>Payroll Exposure Basis</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EDLClassCodeForClassDescriptio>92900</EDLClassCodeForClassDescriptio>
+  </GL7EDLClassDescriptionByC>
+  <GL7EDLClassDescriptionByC public-id="z4qjohgkbur664nhite0ces00vb">
+    <Value>Gross Sales Exposure Basis</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EDLClassCodeForClassDescriptio>92901</EDLClassCodeForClassDescriptio>
+  </GL7EDLClassDescriptionByC>
+  <GL7EDLClassDescriptionByC public-id="zgfjs31a1rnt402p7mot1jp89c9">
+    <Value>All Other Exposure Bases</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EDLClassCodeForClassDescriptio>92909</EDLClassCodeForClassDescriptio>
+  </GL7EDLClassDescriptionByC>
+</import>

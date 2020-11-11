@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7ExpSchedCondItemCov"
+  type="effdated"
+  desc="GL7 exposure level condition scheduled item with coverage terms"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7expschedconditemcov">
+  <implementsEntity
+    name="Coverage"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverageAdapter"
+    impl="gw.lob.gl7.schedules.GL7ExposureSchedCondItemCovAdapter"/>
+  <implementsEntity
+    name="GL7Clause"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7ExposureSchedCondItemCovMatcher"/>
+  <foreignkey
+    name="GL7ExposureSchedCondItem"
+    fkentity="GL7ExposureSchedCondItem"
+    nullok="false"/>
+  <array
+    arrayentity="GL7ExpSchedCondItemCovCost"
+    name="ExpSchedCondItemCovCosts"/>
+</entity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7SublineCond" xmlns="http://guidewire.com/datamodel">
+  <column desc="date cov term field" getterScriptability="doesNotExist" name="DateTerm1" nullok="true" setterScriptability="doesNotExist" type="datetime"/>
+  <column desc="whether or not the DateTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DateTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm1" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm2" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm3" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm3 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm3Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm4" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm4 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm4Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm1" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm2" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm3" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm3 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm3Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm4" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm4 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm4Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm5" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm5 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm5Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm6" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm6 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm6Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm7" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm7 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm7Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm8" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm8 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm8Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm9" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm9 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm9Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm10" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm10 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm10Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm11" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm11 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm11Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm12" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm12 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm12Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm13" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm13 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm13Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm14" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm14 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm14Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm15" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm15 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm15Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm16" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm16 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm16Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm17" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm17 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm17Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="boolean cov term field" getterScriptability="doesNotExist" name="BooleanTerm18" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="whether or not the BooleanTerm18 field was available the last time availability was checked" getterScriptability="doesNotExist" name="BooleanTerm18Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm1" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm2" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm2 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm2Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+</extension>

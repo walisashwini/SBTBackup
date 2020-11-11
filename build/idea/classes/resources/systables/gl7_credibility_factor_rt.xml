@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7CredibilityFactorRT public-id="z0fio1qc1p308datii392ssp2s9">
+    <Value>0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>0</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zr1gcj675ddi587dof2d4o4h1db">
+    <Value>0.03</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>9056</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zrgiulmqo7fdu1ahhngfm9q4ff8">
+    <Value>0.04</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>12810</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zlujifc5er1s08epp25p1t9giva">
+    <Value>0.05</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>16642</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zl5j8jjht4kld9m4tsl41f5hl9a">
+    <Value>0.06</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>20555</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z33g6t6egdeuq60iotinrab0ol9">
+    <Value>0.07</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>24552</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zfvjg88u4li0r33m6vm5ik8peca">
+    <Value>0.08</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>28636</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zv1gu2pu51slv7lohqoabfd8509">
+    <Value>0.09</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>32809</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zm1gmjpbdkd2797lkr5nkoccbg8">
+    <Value>0.1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>37073</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="ze1imhujerr7efksagi3k4qk39a">
+    <Value>0.11</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>41434</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z3lic9se0afqj79batv08kb3spb">
+    <Value>0.12</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>45893</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zddie5bjj3tkq6g6k651nn5p2jb">
+    <Value>0.13</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>50453</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z1vi00sbu7selciln871faa6h58">
+    <Value>0.14</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>55119</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z7qhcekl5s9crc1cusark97df1b">
+    <Value>0.15</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>59895</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z9eju2qgnit736cmvrbt4rl19e9">
+    <Value>0.16</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>64783</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zvvju06l2a58f6st15fg7b9re7b">
+    <Value>0.17</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>69788</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z66i63hkto5k52i166996qanknb">
+    <Value>0.18</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>74915</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zd0g4svfa4q414hm481lcngjh7b">
+    <Value>0.19</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>80168</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z39i6t14cc9a90aj2qv4tk51ojb">
+    <Value>0.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>85551</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zl6jeajub22a6avqmcg0gkjecf9">
+    <Value>0.21</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>91069</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z51jeasqj1boa9o9bscqjtvvmqa">
+    <Value>0.22</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>96728</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zllg4d42psg1bd6v3nhdr3d9fsa">
+    <Value>0.23</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>102533</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z5cha4qcd9vr967cj3f26o1f799">
+    <Value>0.24</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>108490</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zooi8str6proq51opuom94lbea8">
+    <Value>0.25</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>114605</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zjni6t1tq5v1n0ku9fsujse6ssa">
+    <Value>0.26</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>120884</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z9ehmq1akselodoi7c43krn2d88">
+    <Value>0.27</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>127334</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zdljua7am4afq4bg442osg6dqab">
+    <Value>0.28</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>133961</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z9cic5eve1db51q492bdoald12b">
+    <Value>0.29</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>140774</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z6egcnccvsu8508q27c7ksclrs9">
+    <Value>0.3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>147780</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zj6haqqc59f374dsumjhqku4av9">
+    <Value>0.31</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>154988</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zl6jsg75hobf23hcpbs7bu0l2ub">
+    <Value>0.32</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>162407</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zmrjon4ubqg0dbjm3hpvt4qn7pa">
+    <Value>0.33</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>170045</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z99j47i6iu73qfj1ja4oaf0ii4a">
+    <Value>0.34</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>177913</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z7rjknlsh0cbhe6g87b1t3sffha">
+    <Value>0.35</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>186021</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="znfgcit93cinj3n32n31n1tq0l9">
+    <Value>0.36</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>194380</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zl9h8ihpposklel5c2tbjq07l58">
+    <Value>0.37</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>203003</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z9dieuhvfn1bqfkbearouvg6m3b">
+    <Value>0.38</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>211902</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zqegsnuagqcdu0h2l9266rij73a">
+    <Value>0.39</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>221090</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zfvisg316vpi27l6iv89aqshd38">
+    <Value>0.4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>230582</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zong6hr0c7g7g61m95dn02kkje8">
+    <Value>0.41</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>240393</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zqcg6h1hrogd73dosq8a0e9trqb">
+    <Value>0.42</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>250539</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zhsjqprcpidhrcpn1otr1upu0p9">
+    <Value>0.43</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>261038</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zlij8hdclba7c6kagimvuk1ou98">
+    <Value>0.44</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>271909</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z93iolec5rdu894rg0jdfdetf09">
+    <Value>0.45</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>283172</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zn0jkso51n2rab5qt5qddduhdf8">
+    <Value>0.46</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>294848</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zg2hi8hj4b0je9ml691i27b5h6b">
+    <Value>0.47</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>306960</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z47ia7qvoi4tj22ucapl2abg0p9">
+    <Value>0.48</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>319534</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zi9i2ekdphibt2fbijdi4lqhg18">
+    <Value>0.49</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>332597</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z39jgk2plib4tapn9895qi7oks9">
+    <Value>0.5</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>346176</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zlggkir459p0lbs1b09l9dnr5ba">
+    <Value>0.51</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>360304</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="znmh2o8qscgop0ocn4d6uo8l5u8">
+    <Value>0.52</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>375015</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zm3gqpnkmhl6092f6hdrskcgt3a">
+    <Value>0.53</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>390345</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zvnjeb6mhnets1vgm30t4gqkvi9">
+    <Value>0.54</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>406335</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zsbh6q60sg0fi6rntip1ol49ug8">
+    <Value>0.55</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>423027</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zaui8oro6cj717di4ucblj042vb">
+    <Value>0.56</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>440470</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zgvgoiukt4fdu50rp3s4bnmbi68">
+    <Value>0.57</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>458714</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zn8hcnvpqujhf40sc3o804o2glb">
+    <Value>0.58</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>477817</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z28j2fg4u1nfj9lffdm21gneqoa">
+    <Value>0.59</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>497841</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zslg2dre2eofp1e2cdefvdkeplb">
+    <Value>0.6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>518854</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zn0i82a7dqfua4ec06keraram29">
+    <Value>0.61</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>540930</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zari4q1dht2i69snm9cemq959h9">
+    <Value>0.62</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>564154</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="ztgio11jpc7au6aik9rv91p8tla">
+    <Value>0.63</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>588616</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zofjmhprjdcra5h0vjp868okpg9">
+    <Value>0.64</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>614418</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z1qj86ahhg2op1q2nevlmsu1ioa">
+    <Value>0.65</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>641674</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zs7ic76lur1ta2cb8pj4681oe29">
+    <Value>0.66</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>670510</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zenh4jako2rtv7r28bshaacl159">
+    <Value>0.67</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>701067</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zt3ga7rq1enuncii2jtqut9s818">
+    <Value>0.68</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>733505</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="ztfhubemp8h756a3rmsni8k7i18">
+    <Value>0.69</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>768003</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z3fi8bbs1up2l5718rf65n5n938">
+    <Value>0.7</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>804763</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zesju343ufpc84osabsa8gtul68">
+    <Value>0.71</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>844015</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z0sik2v8nus0c9b8jbimmqlv9o8">
+    <Value>0.72</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>886021</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zgtjki216o0j53hb3td6nehkd4b">
+    <Value>0.73</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>931082</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z51geot82t7rkb8ho5aukb9svj9">
+    <Value>0.74</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>979545</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z86j66sive74q7tnmebfafb07f9">
+    <Value>0.75</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1031808</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z45iuluapa2ob6t9gghvch8snv9">
+    <Value>0.76</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1088338</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="ze0g8hjfnr89o6jcmst2g2okog8">
+    <Value>0.77</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1149678</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zp0hsr1cncjiu2rbh18e56noth8">
+    <Value>0.78</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1216472</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z09gqghn736ppdd7khp6ahlk91a">
+    <Value>0.79</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1289478</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zd0hmatfa4ss1f9um2dcudddj38">
+    <Value>0.8</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1369607</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z4nh0ij5q89m10jrvhm7crroge8">
+    <Value>0.81</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1457955</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zj4g4g9jl6bjpcd5v5ha8rnmmha">
+    <Value>0.82</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1555853</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zq8jmmbnochu88rknqgg4bnk4ga">
+    <Value>0.83</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1664940</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zn9hahg4863hu86h45or5iu2ed9">
+    <Value>0.84</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1787250</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zheiuq101fobma0fk2ccjtpktla">
+    <Value>0.85</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>1925341</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zkejstn77sb381fmunn3a75uie9">
+    <Value>0.86</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>2082480</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zabi8n83tme2uc64sdceboqg3pb">
+    <Value>0.87</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>2262898</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z6hg6489bjs3v59825st956adda">
+    <Value>0.88</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>2472184</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zoqg8f6mjf61f8iba52fa634ik9">
+    <Value>0.89</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>2717866</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zn3h2kbnfq01h39siupb0lretp8">
+    <Value>0.9</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>3010346</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zodju3nq8rcnafpocr7e3ougqvb">
+    <Value>0.91</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>3364400</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="z8vje5a47p0pe7hre2uf86aogib">
+    <Value>0.92</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>3801761</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zqmh8kqs5a90tcuersrim7l8h6a">
+    <Value>0.93</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>4355752</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zg6im96pclhfkc5n2mbekt2djt9">
+    <Value>0.94</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>5080201</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zgqgi0hlt5ecf3649f8r2aqm2ka">
+    <Value>0.95</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>6068086</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zkhhea005mvro3362idf4tfro79">
+    <Value>0.96</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>7495032</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zs8h013fh08pu2hf48tqe6r5qb9">
+    <Value>0.97</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>9737374</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zcqhoulfmmm4kbb7fnv6ci0jdu8">
+    <Value>0.98</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>13773592</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zhag8vhh39k796kh6em38os4aob">
+    <Value>0.99</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>23191432</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+  <GL7CredibilityFactorRT public-id="zgrhcufhbul5se4oo0b1tu2eq8a">
+    <Value>1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <TotalBasicLmtsCoSubjectLossCos>70280632</TotalBasicLmtsCoSubjectLossCos>
+  </GL7CredibilityFactorRT>
+</import>

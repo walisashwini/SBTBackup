@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <PanelSet
+    id="UpdateSummaryPanelSet">
+    <Require
+      name="metaDataPresenter"
+      type="gw.sbt.pca.view.presenter.MetaDataPresenter"/>
+    <Require
+      name="repo"
+      type="gw.sbt.pca.repository.ContentRepository"/>
+    <Variable
+      initialValue="metaDataPresenter.AvailableSBTUpdate"
+      name="selectedSBTUpdateMetadata"
+      type="gw.sbt.model.SBTUpdateMetaData"/>
+    <PanelRef>
+      <TitleBar
+        icon="metaDataPresenter.Icon"
+        iconType="svgFileName"
+        id="UpdateSummaryTitle"
+        title="getUpdateSummaryTitle(metaDataPresenter.Line, metaDataPresenter.Jurisdiction, metaDataPresenter.AvailableSBTUpdateEdition)"/>
+      <DetailViewPanel>
+        <InputColumn
+          labelWidth="350">
+          <TextInput
+            id="Line"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Line&quot;)"
+            value="metaDataPresenter.Line" valueType="java.lang.String"/>
+          <TextInput
+            id="Jurisdiction"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Jurisdiction&quot;)"
+            value="metaDataPresenter.Jurisdiction" valueType="java.lang.String"/>
+          <TextInput
+            id="LatestAdoptedSBTEffDateAndVersion"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedEdition&quot;)"
+            value="metaDataPresenter.LatestAdoptedSBTUpdateEdition"
+            visible="metaDataPresenter.HasLatestAdoptedSBTUpdateEdition" valueType="java.lang.String"/>
+          <TextInput
+            id="LatestAdoptedSBTCwEffDateAndVersion"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.LatestAdoptedCwEdition&quot;)"
+            value="metaDataPresenter.LatestAdoptedSBTUpdateCwEdition"
+            visible="metaDataPresenter.HasLatestAdoptedSBTUpdateEdition" valueType="java.lang.String"/>
+          <TextInput
+            id="NewSBTEffDateAndVersion"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.NewUpdateEdition&quot;)"
+            value="metaDataPresenter.AvailableSBTUpdateEdition"
+            visible="metaDataPresenter.HasAvailableSBTUpdateEdition" valueType="java.lang.String"/>
+          <TextInput
+            id="CwEffDateAndVersion"
+            label="metaDataPresenter.CwEditionLabel"
+            value="metaDataPresenter.CwEdition" valueType="java.lang.String"/>
+          <TextInput
+            id="Status"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Status&quot;)"
+            value="metaDataPresenter.DisplayStatus" valueType="java.lang.String"/>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ElectronicRatingContentReleaseNotes&quot;)"
+            visible="metaDataPresenter.hasCWRCRN(repo)">
+            <Link
+              action="metaDataPresenter.downloadStateRCRN(repo)"
+              download="true"
+              icon="&quot;document&quot;"
+              iconType="svgFileName"
+              id="RCRNStateLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ElectronicRatingContentReleaseNotesCW&quot;)"
+            visible="metaDataPresenter.hasStateRCRN(repo)">
+            <Link
+              action="metaDataPresenter.downloadCWRCRN(repo)"
+              download="true"
+              icon="&quot;document&quot;"
+              iconType="svgFileName"
+              id="RCRNCWLink"/>
+          </ContentInput>
+          <TextInput
+            id="spacer"
+            value="&quot;&quot;"
+            visible="metaDataPresenter.hasAnyReport(repo)" valueType="java.lang.String"/>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Report.LoadReportTitle&quot;)"
+            visible="metaDataPresenter.hasLoadReport(repo)">
+            <Link
+              action="metaDataPresenter.downloadLoadReport(repo)"
+              download="true"
+              icon="&quot;document&quot;"
+              iconType="svgFileName"
+              id="loadReportLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Report.ConfigurationReportTitle&quot;)"
+            visible="metaDataPresenter.hasConfigurationReport(repo)">
+            <Link
+              action="metaDataPresenter.downloadConfigurationReport(repo)"
+              download="true"
+              icon="&quot;document&quot;"
+              iconType="svgFileName"
+              id="configurationReportLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Report.AuditReportTitle&quot;)"
+            visible="metaDataPresenter.hasAuditReport(repo)">
+            <Link
+              action="metaDataPresenter.downloadAuditReport(repo)"
+              download="true"
+              icon="&quot;document.png&quot;"
+              id="auditReportLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Report.DeviationsReportTitle&quot;)"
+            visible="metaDataPresenter.hasDeviationsReport(repo)">
+            <Link
+              action="metaDataPresenter.downloadDeviationsReport(repo)"
+              download="true"
+              icon="&quot;document&quot;"
+              iconType="svgFileName"
+              id="deviationsReportLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Report.RatingReportTitle&quot;)"
+            visible="metaDataPresenter.hasRatingReport(repo)">
+            <Link
+              action="metaDataPresenter.downloadRatingReport(repo)"
+              download="true"
+              icon="&quot;document.png&quot;"
+              id="ratingReportLink"/>
+          </ContentInput>
+          <TextInput
+            id="spacer2"
+            value="&quot;&quot;"
+            visible="metaDataPresenter.hasConflictFilesZip(repo) or metaDataPresenter.hasMergedFilesZip(repo)"
+            valueType="java.lang.String"/>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Download.FilesWithConflicts&quot;)"
+            visible="metaDataPresenter.hasConflictFilesZip(repo)">
+            <Link
+              action="metaDataPresenter.downloadConflictFilesZip(repo)"
+              download="true"
+              icon="&quot;document.png&quot;"
+              id="conflictsZipLink"/>
+          </ContentInput>
+          <ContentInput
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Download.MergedFiles&quot;)"
+            visible="metaDataPresenter.hasMergedFilesZip(repo)">
+            <Link
+              action="metaDataPresenter.downloadMergedFilesZip(repo)"
+              download="true"
+              icon="&quot;document.png&quot;"
+              id="mergedFilesZipLink"/>
+          </ContentInput>
+        </InputColumn>
+      </DetailViewPanel>
+    </PanelRef>
+    <ListViewPanel
+      visible="metaDataPresenter.ValidUpdatesSelected">
+      <RowIterator
+        editable="false"
+        elementName="artifactStatistics"
+        pageSize="0"
+        value="metaDataPresenter.getArtifactStatistics(repo)" valueType="java.util.List&lt;gw.sbt.pca.view.ArtifactStatistics&gt;">
+        <Row
+          id="Update">
+          <TextCell
+            id="artifactTypeColumn"
+            value="artifactStatistics.Description"
+            width="510"
+            valueType="java.lang.String"/>
+          <TextCell
+            id="NumberAdded"
+            label="gw.sbt.util.DisplayDescriptionHelper.getSummaryStatisticsLabel(metaDataPresenter.HasLatestAdoptedSBTUpdateEdition, UpdateDiffType.TC_NEW)"
+            value="artifactStatistics.NumberAdded"
+            width="130" valueType="int"/>
+          <TextCell
+            id="NumberUpdated"
+            label="gw.sbt.util.DisplayDescriptionHelper.getSummaryStatisticsLabel(metaDataPresenter.HasLatestAdoptedSBTUpdateEdition, UpdateDiffType.TC_CHANGED)"
+            value="artifactStatistics.NumberUpdated"
+            width="130" valueType="int"/>
+          <TextCell
+            id="NumberDeleted"
+            label="gw.sbt.util.DisplayDescriptionHelper.getSummaryStatisticsLabel(metaDataPresenter.HasLatestAdoptedSBTUpdateEdition, UpdateDiffType.TC_DELETED)"
+            value="artifactStatistics.NumberDeleted"
+            width="130" valueType="int"/>
+        </Row>
+      </RowIterator>
+    </ListViewPanel>
+    <Code><![CDATA[function getUpdateSummaryTitle(line: String, formattedJurisdiction: String, edition: String) : String {
+  var title = line +" - " + formattedJurisdiction
+  if(edition.HasContent){
+    title += " - "+edition
+  }
+  return title
+}]]></Code>
+  </PanelSet>
+</PCF>

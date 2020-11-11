@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7ExposureCov">
+  <Columns>
+    <Column
+      beanPath="GL7ExposureCov.Pattern"
+      name="pattern"/>
+  </Columns>
+  <DisplayName><![CDATA[pattern]]></DisplayName>
+</Entity>

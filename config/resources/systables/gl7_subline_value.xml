@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7SublineValue public-id="zj2guhq5qpnv81hq75s1s16gup9">
+    <Value>Premises/Operations and Products/Completed Operations</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="z6ejq7h6u8ro03en32k3iq6sita">
+    <Value>Premises/Operations</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zilhg64d5n48ddp6ookjv6256db">
+    <Value>Products/Completed Operations</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zj1h8i8jcbequ59ppp6335ieeta">
+    <Value>Liquor</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zjri6mv5s0t7c45m86mvfv6suc8">
+    <Value>Owners and Contractors</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="ztdhaua5a0p29523vgccm7bbj39">
+    <Value>Pollution</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="z6jhc4elj4p68707pdsdh16o678">
+    <Value>Product Withdrawal</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zbvgsabkdec9g7jni7spcnnnrm8">
+    <Value>Railroad</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zboj608sia248025mctqetrsj18">
+    <Value>Underground Storage Tank</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zrejs1fnd08jva5ps6f38i3rmia">
+    <Value>Electronic Data Liability</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7SublineValue>
+  <GL7SublineValue public-id="zokgc2uphl1rm7m7un5d3ojk0v9">
+    <Value>Electronic Data Liability</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-09-01</ExpirationDate>
+    <Jurisdiction>IL</Jurisdiction>
+  </GL7SublineValue>
+</import>

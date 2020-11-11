@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7BaseELPRRRT public-id="zuvg8pam1uh5i21umu0r8b0f1ka">
+    <Value>2.88</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z1mjk8a1ts1j5dbu0deveen0of8">
+    <Value>4.8</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z94i8hdvjjbd553u0vqe7rb9ku8">
+    <Value>6.4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zvdhciu8ar6430ss4cvfqmudbq8">
+    <Value>8.32</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zh4hce10dvib006o6dog52ssfca">
+    <Value>11.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z2ni2pponcst2bopkrlbdi5e0sb">
+    <Value>13.92</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z8bg43p5qa66f40qgsval4romia">
+    <Value>2.4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z04jgu2sdfute8k7jiedv9jse3b">
+    <Value>4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zpuh08upuvgkf50guid2ue7p2r9">
+    <Value>5.6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zp6gqji7vq67q08vkgqho5949oa">
+    <Value>7.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z9kgeod2rpqok9b6n7og8ertf69">
+    <Value>9.6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zbhjabmv3hedr3mrsu6reoq9as9">
+    <Value>12</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z7hj62b8qil50cfk1a1715iecm8">
+    <Value>4.8</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zvch66c9r1i740tamskpj4qqj8a">
+    <Value>7.68</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z66iqdqj9qoimc6vc81ga0fvm69">
+    <Value>10.4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z57hcddv1jv16elsbj668emt6g9">
+    <Value>13.6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zgqj48okpcv0l3elljs33fa59k9">
+    <Value>18.4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zach09bdjvgrg3rvkln7s0mh4k8">
+    <Value>23.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zd2icm33rj1v39p3ag07liumvua">
+    <Value>13.6</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zg8he1uhs22cffjpunh17m5186a">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z1ii4vmg4e3c3ffp6f8nlj2r7jb">
+    <Value>11.2</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z4ph07nun4t8acaabvll75ubceb">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zrmimt8fkeimbaafrr6s8s6q88a">
+    <Value>7.68</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zbug0enseu57tdp9rk4a7noj688">
+    <Value>23.2</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zd2h82ggg2j63dnib00mo7s3f38">
+    <Value>18.4</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zv3h8hrjf4ecgfoenraks7tqkc8">
+    <Value>2.88</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zl9i8a354g8lkf44ncgi3ehb4l8">
+    <Value>6.4</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zt3i6hbgev7jmetgjtckcqvn1h9">
+    <Value>13.92</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zgpgarjun2aee9ab6tivfg0dmvb">
+    <Value>2.4</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z50jm1k8j0n2n97f4hg2kseocc9">
+    <Value>7.2</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zvriqlu40hfq90uf9ec66iaqg59">
+    <Value>4</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z1dg0dgpibblqcmrbhdmv18hvs8">
+    <Value>12</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z2bhk12aqa7f31jg5deg98e1jnb">
+    <Value>8.32</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zh4jej4iunu4v3gn0cb7l2qli8a">
+    <Value>9.6</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z10jusveq9c5959lvhq27avodh8">
+    <Value>5.6</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zgki6bbnuet0p69uppfsqifgqu8">
+    <Value>10.4</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z0qgq077t24ajfg3c2a8r2e7qo9">
+    <Value>13.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zmahq9hr2bkhndlu8opcsc1a2da">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="za1icm4b4kbvaaa1ed57br4r54a">
+    <Value>11.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z47ik0lqe50qu3ca5024phitbva">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zd8gempqdc164cvqlfjdjfnl9ba">
+    <Value>7.68</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zl9ho6h9dohojbprsft5ggd2948">
+    <Value>23.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z6og0vovjtimh5d93l9j06dql7b">
+    <Value>18.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z83jue62oi4056qpe4qph2121da">
+    <Value>2.88</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zlfhigevcb4qqag1h69vmea9tib">
+    <Value>6.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="ze2jsm16d6skn62v1557i76prv9">
+    <Value>13.92</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z9eiikenss7lkc9337ohufp2cob">
+    <Value>2.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z93h40b5b5a0i3gc9m8a0cqj5p8">
+    <Value>7.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z8jigemnj80q605782jr3qui16b">
+    <Value>4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z5ug0mnh1h3br5urtot087pubr8">
+    <Value>12</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zaki8452tfduf1552vvh5qoi2h9">
+    <Value>8.32</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zp9ii22ep6bpramgb6sm4306159">
+    <Value>9.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zekgugjsjpcauda8dj5bp5igi29">
+    <Value>5.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zduh4bd97km0c7003o55jf82c09">
+    <Value>10.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zbmiu1v1glfkg91eiulp22i3beb">
+    <Value>13.6</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zuuh0hbugsscj83tdn2cggr60oa">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zjbjo4ggk3rta0pm5tenpt6omf8">
+    <Value>11.2</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z0uj813usduvn39akvh93hvfre9">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zediohvecqh7rfjsjlubs56n0p8">
+    <Value>7.68</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z8bj2qrnd1mdv14ie7iqo4spcd8">
+    <Value>23.2</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zj0g0h8jr9uf11r111icph59ema">
+    <Value>18.4</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zpaisfmo85koubcdub32il1u8u8">
+    <Value>2.88</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zamg0lhhihn0ke4kho97nuacot8">
+    <Value>6.4</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z1charo9qn2db37qcvn8idml1r8">
+    <Value>13.92</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z04g8bgcq4h0i65kspnoctt6t9a">
+    <Value>2.4</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zrgj6pokpebvm9a3jkimd4m08sa">
+    <Value>7.2</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zjji6cd2n639j0fkh367u8nguoa">
+    <Value>4</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z99je4ak7mg85ej07soqir4ujh9">
+    <Value>12</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z45gusleskoe5b55jb50gomu119">
+    <Value>8.32</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z1bh4k130p7d66k6re5hpr3v7u9">
+    <Value>9.6</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zgvi6q2976kgh2bk9emka0liprb">
+    <Value>5.6</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zesj8hfbrvcnt2cdlq6nal84u78">
+    <Value>10.4</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z4dgkcpnln6lq1090lu9jeumdg9">
+    <Value>13.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zj8gusp6d5k622047c5prvnsr28">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z0liaqtfu5sc587f4fkkhsk16i8">
+    <Value>11.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z8ti2jnnnhou98p2itpe18l9f29">
+    <Value>4.8</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zthj04dj10al56ptgcqdmif9bh8">
+    <Value>7.68</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z46j0qf33dddeerqfgme27tmh99">
+    <Value>23.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zm2je02bqujfv8h6p332tck8fua">
+    <Value>18.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zqegcs497vvrv4a9ft5iphn43n8">
+    <Value>2.88</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zeag4vq58pkpj59vi1tv3nthbra">
+    <Value>6.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z6risvjq91mt88n5nt8hfm2349a">
+    <Value>13.92</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zh8gmjjb8eghd711at11adcdtua">
+    <Value>2.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>5 or Less</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="znphe3v7mg7v93hobpl4q16meq9">
+    <Value>7.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="z39i46acl6b1dfna60plhdu9le9">
+    <Value>4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>6 - 20</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="ztbj4hf4qmnbqcnh75rntth8trb">
+    <Value>12</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>Over 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zjqgu2aeejjoi1o0mq4l85cfpi9">
+    <Value>8.32</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40011</ClassCode>
+    <NumPassgrFreightTrains>41 - 60</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zq8isia0i6shs1a80nlbbjcbar8">
+    <Value>9.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>61 - 100</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zhoh47ffso4r544gtuolqmlij4a">
+    <Value>5.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40012</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+  <GL7BaseELPRRRT public-id="zvqhkb07tlts5808qkt7cin4q6a">
+    <Value>10.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCode>40013</ClassCode>
+    <NumPassgrFreightTrains>21 - 40</NumPassgrFreightTrains>
+  </GL7BaseELPRRRT>
+</import>

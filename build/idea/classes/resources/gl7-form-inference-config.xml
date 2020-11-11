@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FormInferenceConfig>
+  <FormInference formCode="CG22300798">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG22300798</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29050118">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG29050118</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG28380417">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG28380417</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29810591">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG29810591</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL02760908">
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.ia.v12012019.IL02760908</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00400413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00400413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG01681120">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG01681120</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG33630514">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG33630514</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG31911204">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG31911204</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30180118">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG30180118</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG33031204">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG33031204</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG31681207">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG31681207</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00420413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00420413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG99080520">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG99080520</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00380413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00380413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL01621013">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.IL01621013</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30620397">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG30620397</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00090413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00090413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29060118">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG29060118</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG23010413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG23010413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG02061014">
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.ia.v12012019.CG02061014</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL01470911">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.IL01470911</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG33011204">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG33011204</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG22671093">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG22671093</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG24060413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG24060413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00010413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00010413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30291194">
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.ia.v12012019.CG30291194</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG01991093">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG01991093</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30321297">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG30321297</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG02000118">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG02000118</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29251000">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG29251000</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG28100397">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG28100397</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL01171210">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.IL01171210</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30231000">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG30231000</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00370413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00370413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG01650805">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG01650805</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG31991204">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG31991204</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30100417">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG30100417</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00020413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00020413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG28110397">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG28110397</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG33020417">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG33020417</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL02860417">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.IL02860417</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29261000">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG29261000</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG21060514">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG21060514</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL00171198">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.IL00171198</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00330413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00330413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG31691204">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG31691204</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30601194">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG30601194</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL01580908">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.IL01580908</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29271287">
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.ia.v12012019.CG29271287</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL00210908">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.IL00210908</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00350413">
+    <Version>
+      <Jurisdiction>CW</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00350413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG01230397">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.CG01230397</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL02720907">
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.in.v03012020.IL02720907</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG28390417">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG28390417</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG00340413">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00340413</InferenceClass>
+    </Version>
+    <Version>
+      <Jurisdiction>IN</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00340413</InferenceClass>
+    </Version>
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.cw.v12012019.CG00340413</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG26220417">
+    <Version>
+      <Jurisdiction>MI</Jurisdiction>
+      <EffectiveDate>2020-11-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.mi.v11012020.CG26220417</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG31881204">
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.ia.v12012019.CG31881204</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29800591">
+    <Version>
+      <Jurisdiction>IL</Jurisdiction>
+      <EffectiveDate>2020-09-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.il.v09012020.CG29800591</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG29281287">
+    <Version>
+      <Jurisdiction>IA</Jurisdiction>
+      <EffectiveDate>2019-12-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.ia.v12012019.CG29281287</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG30160102">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.oh.v03012020.CG30160102</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="IL02440907">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.oh.v03012020.IL02440907</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG28450102">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.oh.v03012020.CG28450102</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG22020817">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.oh.v03012020.CG22020817</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG28460102">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.oh.v03012020.CG28460102</InferenceClass>
+    </Version>
+  </FormInference>
+  <FormInference formCode="CG33131204">
+    <Version>
+      <Jurisdiction>OH</Jurisdiction>
+      <EffectiveDate>2020-03-01</EffectiveDate>
+      <InferenceClass>gw.lob.gl7.forms.generated.oh.v03012020.CG33131204</InferenceClass>
+    </Version>
+  </FormInference>
+</FormInferenceConfig>

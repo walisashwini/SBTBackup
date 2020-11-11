@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7LegalEntity public-id="zkah8a5a2tmk9eeigrdp4ab026b">
+    <Value>Association</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="za6ho4pnhtd0q60n9rcr8qhlri9">
+    <Value>Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zpfiimjfgb1d6a6jnk72vjk3g6b">
+    <Value>C Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zvciervc8v4mre5ufcnnrc7lcca">
+    <Value>S Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z79ja3ksupgmi18mcklgd26i6c8">
+    <Value>Domestic Profit Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z3ah4095agptdf8j9g9m85qefe8">
+    <Value>Foreign Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zp0gmjn980et41cvk95kt8ejdfb">
+    <Value>Foreign Limited Liability Company</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zfsjalapgcut748a6uap7b5oh69">
+    <Value>Foreign Limited Partnership</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zrjhqrnni7avd62k1nlft43t3b8">
+    <Value>General Partnership</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zimh4qrj9krs68hoelojeaui1ba">
+    <Value>Governmental Unit</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z7jg0k77p2g6ubrsq7175cpalt9">
+    <Value>Individual</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zlmhq1e9vgbkpe3nbd2h8mqdahb">
+    <Value>Joint Venture</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zs7j67rrnkmd6emnqpepmsrlsea">
+    <Value>Limited Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zahjc0d8ov6qabjils2rql5oht8">
+    <Value>Limited Liability Company</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zjnj4n2hd7v4n2skk0gr880fbl8">
+    <Value>Limited Liability Partnership</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zj0hq6am8v9mvftii1oi37dasma">
+    <Value>Limited Partnership</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zrfgu79ub6k0qd7acak68acmdra">
+    <Value>Nonprofit Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z1egck1imuff56l2ervagtkghqa">
+    <Value>Partnership</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="zonjcuqqdvgf99crgrfthqspora">
+    <Value>Professional Corporation</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z2ihmlc4n7lbcd0hhk32vphsp79">
+    <Value>Religious Organization</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z95iiuulosso8f1rivt2dlp7ht9">
+    <Value>Sole Proprietor</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+  <GL7LegalEntity public-id="z43igf2e52lhh394i6n5aruvf59">
+    <Value>Other</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7LegalEntity>
+</import>

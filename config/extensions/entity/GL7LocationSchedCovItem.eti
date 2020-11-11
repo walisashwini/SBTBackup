@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7LocationSchedCovItem"
+  table="gl7locationschedcovitem"
+  desc="GL7 location level coverage scheduled item"
+  exportable="true"
+  final="false"
+  loadable="false"
+  type="effdated"
+  platform="false"
+  effDatedBranchType="PolicyPeriod">
+  <implementsEntity
+    name="ScheduledItem"/>
+  <implementsInterface
+    iface="gw.api.productmodel.ScheduledItemAdapter"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCovItemAdapter"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCovItemAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="GL7ScheduledItem"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCovItemMatcher"/>
+  <foreignkey
+    fkentity="GL7LocationSchedCov"
+    name="ScheduleCoverage"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LocSchedCovItemCov"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7LocSchedCovItemCond"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7LocSchedCovItemExcl"
+    name="Exclusions"/> 
+  <array
+    arrayentity="GL7LocSchedCovItemCovCost"
+    name="CoverageCosts"/>
+  <array
+    arrayentity="GL7LocSchedCovItemCondCost"
+    name="ConditionCosts"/>
+  <array
+    arrayentity="GL7LocSchedCovItemExclCost"
+    name="ExclusionCosts"/>
+  <array
+    arrayentity="GL7LocSchedCovItemCost"
+    name="ScheduleItemCosts"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

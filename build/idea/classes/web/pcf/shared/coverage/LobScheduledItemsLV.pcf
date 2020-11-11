@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <ListViewPanel
+    id="LobScheduledItemsLV">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="schedule"
+      type="gw.api.domain.Schedule"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="scheduledItemColumnHelper"
+      type="gw.lob.common.schedules.ScheduledItemColumnHelper"/>
+    <Variable
+      initialValue="schedule.PropertyInfos"
+      name="propertyInfos"
+      recalculateOnRefresh="true" type="gw.api.productmodel.SchedulePropertyInfo[]"/>
+    <Variable
+      initialValue="(scheduledItemPattern == null) ? {} : scheduledItemPattern.CovTerms.sortBy(\elt -&gt; elt.Priority)"
+      name="covTermPatterns"
+      recalculateOnRefresh="true"
+      type="java.util.List&lt;gw.api.productmodel.CovTermPattern&gt;"/>
+    <ExposeIterator
+      valueType="ScheduledItem"
+      widget="ScheduledItemsIterator"/>
+    <Variable
+      initialValue="schedule.ScheduledItemMultiPatterns?.first()"
+      name="scheduledItemPattern" type="gw.api.productmodel.ClausePattern"/>
+    <Variable
+      initialValue="new gw.lob.common.displayable.SchedulePropertyInfoDisplayableFactoryV2()"
+      name="displayableFactory"
+      type="gw.lob.common.displayable.SchedulePropertyInfoDisplayableFactoryV2"/>
+    <Row
+      renderAsSmartHeader="true">
+      <CellIterator
+        elementName="columnInfo"
+        id="ColumnHeaders"
+        value="propertyInfos" valueType="gw.api.productmodel.SchedulePropertyInfo[]">
+        <TextCell
+          id="ColumnHeader"
+          required="columnInfo.Required and columnInfo.ValueType != &quot;AutoNumber&quot;"
+          value="columnInfo.Label" valueType="java.lang.String"
+          visible="true"/>
+      </CellIterator>
+    </Row>
+    <RowIterator
+      autoAdd="schedule.ScheduledItems.IsEmpty and not schedule.IsAdditionalInsuredScheduleV2 and not schedule.isComplexSchedule and not schedule.IsPolicyContactSchedule"
+      editable="true"
+      elementName="scheduledItem"
+      hasCheckBoxes="true"
+      hideCheckBoxesIfReadOnly="true"
+      id="ScheduledItemsIterator"
+      numEntriesRequired="0"
+      toCreateAndAdd="scheduledItemHelper.addScheduledItem(schedule)"
+      toRemove="scheduledItemHelper.removeScheduledItem(schedule, scheduledItem)"
+      value="schedule.ScheduledItems" valueType="entity.ScheduledItem[]">
+      <IteratorSort
+        sortBy="scheduledItem.getFieldValue(&quot;ScheduleNumber&quot;)"
+        sortOrder="2"/>
+      <Row>
+        <CellIterator
+          elementName="propertyInfo"
+          id="PropertyValues"
+          value="propertyInfos" valueType="gw.api.productmodel.SchedulePropertyInfo[]">
+          <ModalCellRef
+            def="LobScheduledItemColumnInput(clause, propertyInfo, scheduledItem, displayableFactory, jobWizardHelper, openForEdit, scheduledItemColumnHelper)"
+            editable="schedule.IsSimpleSchedule"
+            id="UnvalidatedScheduledItemColumnInput"
+            mode="propertyInfo.ValueType"
+            required="propertyInfo.Required"
+            visible="true"/>
+        </CellIterator>
+      </Row>
+    </RowIterator>
+  </ListViewPanel>
+</PCF>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- ==============================================================================  COVERAGE TERM OPTIONS  ============================================================================== -->
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="CovTermOptLookup">
+  <index
+    desc="Used for Product Model Verification (reduces time from 40minutes to 15 seconds)"
+    name="ctocodelookup">
+    <indexcol
+      keyposition="1"
+      name="CovTermOptCode"/>
+    <indexcol
+      keyposition="2"
+      name="LookupTableCode"/>
+  </index>
+</extension>

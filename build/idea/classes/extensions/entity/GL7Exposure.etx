@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7Exposure" xmlns="http://guidewire.com/datamodel">
+    <column columnName="gl7classcode" desc="Class Code" name="ClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7classdescription" desc="Class Description" name="ClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7classificationtype" desc="Classification Type" name="ClassificationType" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7edlclasscode" desc="Class Code" name="EDLClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7edlclassdescription" desc="Class Description" name="EDLClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7edlexposure" desc="Exposure" name="EDLExposure" nullok="true" type="longint"/>
+    <column columnName="gl7edlpremiumratingbase" desc="Premium Basis" name="EDLPremiumRatingBase" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7estdcontractcostworrhzd" desc="Estimated Contract Cost Without Railroad Train Hazard" name="EstdContractCostWORRHzd" nullok="true" type="decimal">
+        <columnParam name="precision" value="12"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7estimatedcontractcostratio" desc="Estimated Contract Cost Ratio Railroad Operations" name="EstimatedContractCostRatio" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7prodscompldopslosscost" desc="ProdsCompldOpsLossCost" name="ProdsCompldOpsLossCost" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7ifanybasis" desc="'If Any' Basis" name="IfAnyBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7ifanybasisprodscompldops" desc="'If Any' Basis" name="IfAnyBasisProdsCompldOps" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7injurysuprvsrinspctrsothere" desc="Injury to Supervisors, Inspectors and Other Employees" name="InjurySuprvsrInspctrsOtherEmpsCov" nullok="true" type="varchar">
+        <columnParam name="size" value="16"/>
+    </column>
+    <column columnName="gl7lmtdcovforpersonaladvertisi" desc="Is limited coverage for personal and advertising injury desired?" name="LimitedCovForPersonalAndAdvertisingInjury" nullok="true" type="varchar">
+        <columnParam name="size" value="10"/>
+    </column>
+    <column columnName="gl7liquorclasscode" desc="Class Code" name="LiquorClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7liquorclassdescription" desc="Class Description" name="LiquorClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7liquordedfactoroverride" desc="Deductible Factor Override" name="LiquorDedFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7liquorded" desc="Deductible" name="LiquorDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7liquorelpoverride" desc="ELP Override" name="LiquorELPOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7liquorexposure" desc="Exposure" name="LiquorExposure" nullok="true" type="longint"/>
+    <column columnName="gl7liquorpremiumbasis" desc="Premium Basis" name="LiquorPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7lmtdprodswithdrawaldedfacto" desc="Limited Product Withdrawal Deductible Factor Override" name="LmtdProdsWithdrawalDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7medpaycovforstud" desc="Medical Payments Coverage for Students" name="MedPayCovForStud" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7miscifanybasis" desc="'If Any' Basis" name="MiscIfAnyBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7municipalityoperatesafirede" desc="Municipality Operates a Fire Department" name="MunicipalityOperatesAFireDepartment" nullok="true" type="varchar">
+        <columnParam name="size" value="10"/>
+    </column>
+    <column columnName="gl7numpassgrfreighttrains" desc="Number of Passenger or Freight Trains Per Day" name="NumPassgrFreightTrains" nullok="true" type="varchar">
+        <columnParam name="size" value="16"/>
+    </column>
+    <column columnName="gl7oththanprodscompldopscov" desc="Coverage" name="OtherThanProdsCompldOpsCov" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column columnName="gl7ownerscontractorsclasscode" desc="Class Code" name="OwnersContractorsClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7ownerscontractorsclassdescr" desc="Class Description" name="OwnersContractorsClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7ownerscontractorselpoveron1" desc="Estimated Loss Potential (Exposure Over 1,000,000)" name="OwnersContractorsELPOverOneMillionOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7ownerscontractorselpoverrid" desc="ELP Override" name="OwnersContractorsELPOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7ownerscontractorsexposure" desc="Exposure" name="OwnersContractorsExposure" nullok="true" type="longint"/>
+    <column columnName="gl7ownerscontractorspremiumbas" desc="Premium Basis" name="OwnersContractorsPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7pollutionclasscode" desc="Class Code" name="PollutionClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7pollutionclassdescription" desc="Class Description" name="PollutionClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7pollutionexposure" desc="Exposure" name="PollutionExposure" nullok="true" type="longint"/>
+    <column columnName="gl7pollutionpremiumbasis" desc="Premium Basis" name="PollutionPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7premopsbided" desc="BI Deductible" name="PremOpsBIDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7premopsbidedfactoroverride" desc="BI Deductible Factor Override" name="PremOpsBIDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7premopsbipdded" desc="BI and PD Deductible" name="PremOpsBIPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7premopsbipddedfactoroverrid" desc="BI and PD Deductible Factor Override" name="PremOpsBIPDDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7premopselpoverride" desc="ELP Override" name="PremOpsELPOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7premopsexposure" desc="Exposure" name="PremOpsExposure" nullok="true" type="longint"/>
+    <column columnName="gl7premopsincrdlimtableassign1" desc="Increased Limits Table Assignment" name="PremOpsIncrdLimitTableAssignment" nullok="true" type="varchar">
+        <columnParam name="size" value="20"/>
+    </column>
+    <column columnName="gl7premopsincrdlimtableassignm" desc="Increased Limits Table Assignment Override" name="PremOpsIncrdLimitTableAssignmentOverride" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7premopspdded" desc="PD Deductible" name="PremOpsPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7premopspddedfactoroverride" desc="PD Deductible Factor Override" name="PremOpsPDDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7premopspremiumbasis" desc="Premium Basis" name="PremOpsPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="40"/>
+    </column>
+    <column columnName="gl7prodscompldopsbided" desc="BI Deductible" name="ProdsCompldOpsBIDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7prodscompldopsbidedfactorov" desc="BI Deductible Factor Override" name="ProdsCompldOpsBIDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7prodscompldopsbipdded" desc="BI and PD Deductible" name="ProdsCompldOpsBIPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7prodscompldopsbipddedfactor" desc="BI and PD Deductible Factor Override" name="ProdsCompldOpsBIPDDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7prodscompldopscov" desc="Coverage" name="ProdsCompldOpsCov" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7prodscompldopselpoverride" desc="ELP Override" name="ProdsCompldOpsELPOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7prodscompldopsexposure" desc="Exposure" name="ProdsCompldOpsExposure" nullok="true" type="longint"/>
+    <column columnName="gl7prodscompldopsincrdlimtabl1" desc="Increased Limits Table Assignment" name="ProdsCompldOpsIncrdLimitTableAssignment" nullok="true" type="varchar">
+        <columnParam name="size" value="20"/>
+    </column>
+    <column columnName="gl7prodscompldopsincrdlimtable" desc="Increased Limits Table Assignment Override" name="ProdsCompldOpsIncrdLimitTableAssignmentOverride" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7prodscompldopspdded" desc="PD Deductible" name="ProdsCompldOpsPDDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7prodscompldopspddedfactorov" desc="PD Deductible Factor Override" name="ProdsCompldOpsPDDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7prodscompldopspremiumbasis" desc="Premium Basis" name="ProdsCompldOpsPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7product" desc="Product Coverage Only" name="ProductCoverage" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7productwithdrawal" desc="Coverage" name="ProductWithdrawalCoverage" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7productwithdrawalded" desc="Product Withdrawal Deductible" name="ProductWithdrawalDeductible" nullok="true" type="varchar">
+        <columnParam name="size" value="24"/>
+    </column>
+    <column columnName="gl7productwithdrawaldedfactoro" desc="Deductible Factor Override" name="ProductWithdrawalDeductibleFactorOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7productwithdrawalelpoverrid" desc="ELP Override" name="ProductWithdrawalELPOverride" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7productwithdrawalexpensesl2" desc="Increased Limit Table Assignment" name="ProductWithdrawalExpensesAndLiabilityIncrdLimitTableAssignment" nullok="true" type="varchar">
+        <columnParam name="size" value="20"/>
+    </column>
+    <column columnName="gl7productwithdrawalexpensesl1" desc="Increased Limits Table Assignment Override" name="ProductWithdrawalExpensesAndLiabilityIncrdLimitTableAssignmentOverride" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7productwithdrawalexposure" desc="Exposure" name="ProductWithdrawalExposure" nullok="true" type="longint"/>
+    <column columnName="gl7productwithdrawalpremiumbas" desc="Premium Basis" name="ProductWithdrawalPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7railroadclasscode" desc="Class Code" name="RailroadClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7railroadclassdescription" desc="Class Description" name="RailroadClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7railroadexposure" desc="Exposure" name="RailroadExposure" nullok="true" type="longint"/>
+    <column columnName="gl7railroadpremiumbasis" desc="Premium Basis" name="RailroadPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7spraypainting" desc="Spray Painting" name="SprayPainting" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7terrexposureclassesother" desc="Terrorism Exposure Classes Other" name="TerrorismExposureClassesOther" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column columnName="gl7terrexposureclassespremises" desc="Terrorism Exposure Classes Premises/Operations" name="TerrorismExposureClassesPremises" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column columnName="gl7terrexposureclassesprods" desc="Terrorism Exposure Classes Products/Completed Operations" name="TerrorismExposureClassesProducts" nullok="true" type="varchar">
+        <columnParam name="size" value="50"/>
+    </column>
+    <column columnName="gl7totalcostworktrainsorotherr" desc="Cost of Work Trains or Other Railroad Equipment Assigned" name="TotalCostWorkTrainsOrOtherRREquipmtAssigned" nullok="true" type="integer"/>
+    <column columnName="gl7ustclasscode" desc="Class Code" name="USTClassCode" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7ustclassdescription" desc="Class Description" name="USTClassDescription" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7ustexposure" desc="Exposure" name="USTExposure" nullok="true" type="longint"/>
+    <column columnName="gl7ustpremiumbasis" desc="Premium Basis" name="USTPremiumBasis" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+</extension>

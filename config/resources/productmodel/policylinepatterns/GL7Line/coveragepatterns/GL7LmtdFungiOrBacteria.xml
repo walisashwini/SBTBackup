@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7LmtdFungiOrBacteria" priority="100800" lookupTableName="GL7SublineTypeCov" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlGrp" codeIdentifier="GL7LmtdFungiOrBacteria" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7LmtdFungiOrBacteria");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7FungiBacteriaLiabAggLimit" required="true" codeIdentifier="GL7FungiBacteriaLiabAggLimit">
+            <LimitsSet>
+                <CovTermLimits currency="usd" public-id="GL7FungiBacteriaLiabAggLimitUSD" codeIdentifier="GL7FungiBacteriaLiabAggLimitUSD"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium128" required="true" codeIdentifier="GL7ManualPremium128"/>
+    </CovTerms>
+</CoveragePattern>

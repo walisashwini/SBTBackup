@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7LocationExcl">
+  <Columns>
+    <Column
+      beanPath="GL7LocationExcl.Pattern"
+      name="pattern"/>
+  </Columns>
+  <DisplayName><![CDATA[pattern]]></DisplayName>
+</Entity>

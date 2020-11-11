@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="General Liability Subline"
+  displayName="General Liability Subline"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7Subline"
+  exportable="true"
+  loadable="false"
+  table="gl7subline"
+  type="effdated">
+  <implementsInterface
+    iface="gw.lob.gl7.GL7Coverable"
+    impl="gw.lob.gl7.GL7SublineCoverable"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.GL7SublineCoverableAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="Modifiable"/>
+  <implementsInterface
+    iface="gw.api.domain.ModifiableAdapter"
+    impl="gw.lob.gl7.GL7SublineCoverableAdapter"/>
+  <foreignkey
+    fkentity="GL7SublineType"
+    name="SublineType"
+    nullok="false"/>
+  <typekey
+    desc="The jurisdiction of the subline"
+    name="Jurisdiction"
+    nullok="true"
+    typelist="Jurisdiction"/>
+  <array
+    arrayentity="GL7SublineCov"
+    cascadeDelete="true"
+    desc="Subline level coverages for General Liability"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7SublineExcl"
+    cascadeDelete="true"
+    desc="Subline level exclusions for General Liability"
+    name="Exclusions"/>
+  <array
+    arrayentity="GL7SublineCond"
+    cascadeDelete="true"
+    desc="Subline level conditions for General Liability"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7SublineMod"
+    cascadeDelete="true"
+    desc="Subline level modifiers for General Liability"
+    name="Modifiers"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

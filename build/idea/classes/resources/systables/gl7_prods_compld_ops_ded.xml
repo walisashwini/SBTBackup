@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ProdsCompldOpsDed public-id="z7kj0us6j4uda3gklcjs7rl6a38">
+    <Value>No Deductible</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z4ugml061h8te97c1ggfqhmimpa">
+    <Value>250 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z5fiufrb4024r4mo8looeaaa7sa">
+    <Value>250 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="znvjg4krf6omi8m2e3b5e26m6qb">
+    <Value>500 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z6sjmvbuv3a1a0dm7235et4sv48">
+    <Value>500 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zrvjipt7pg040dt388evatb5o48">
+    <Value>750 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z36hagomt9pnmcbums63ehofpda">
+    <Value>750 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z67j88uv4a20l06cp8dlli9m099">
+    <Value>1,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zekii1842tkcj2j8vn7e7lfqcsa">
+    <Value>1,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="ztohc87m69kga681u2amh6o9nhb">
+    <Value>2,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zcbg4p4domh98ai8vde90om48i9">
+    <Value>2,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z0kioeh49vi1l39h0b2elcjgr8b">
+    <Value>3,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zj3gm3h2aef8u3m7pp4st394mt9">
+    <Value>3,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z6vj4edokp743cfigun60pakj9a">
+    <Value>4,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zbvh2rnqb4imp432djhb7jpdv9b">
+    <Value>4,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zjhj2smbccbj35c9tpl9ibsebr9">
+    <Value>5,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zlkgmdangfh5hc4rd5oho28s00a">
+    <Value>5,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z8fimm8qf9lmu3dtqk0apj74oha">
+    <Value>10,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zlig2dst5c0ie4ltovbfvgkj8i9">
+    <Value>10,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z9ehgoech8h68fmmirrsfdc8c79">
+    <Value>15,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zldj0p0s576ogbtscjod9cjt7va">
+    <Value>15,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zbkhkd9bdfcif3n0e4ebhc932f9">
+    <Value>20,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zrdicm4dt6ulh0bnb1a1bfpji6a">
+    <Value>20,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="z1gj800s78fem8oj3tf2r1ojl0a">
+    <Value>25,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zvdhm367bffs2aogr8a22kfs40a">
+    <Value>25,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zkhg044jddl6q0rcd5tsua41qa9">
+    <Value>50,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="ze9iu8f7i3gme2uoj1dnup8lhm8">
+    <Value>50,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zsdjkaeuurh678bv3ua4m2e3kta">
+    <Value>75,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zc9iij118bup94ac63ss018u8e8">
+    <Value>75,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zpii6ji4ktmtr7p9j2aae3e2o48">
+    <Value>100,000 Per Claim</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+  <GL7ProdsCompldOpsDed public-id="zaij03nbnpl4f6cgjjbsufhmp98">
+    <Value>100,000 Per Occurrence</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProdsCompldOpsDed>
+</import>

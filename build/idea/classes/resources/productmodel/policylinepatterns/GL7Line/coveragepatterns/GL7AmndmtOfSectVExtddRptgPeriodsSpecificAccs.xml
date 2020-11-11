@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeSchedCond" public-id="GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs" priority="108700" lookupTableName="GL7SublineTypeCond" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs");]]></AvailabilityScript>
+    <CovTerms/>
+</ConditionPattern>

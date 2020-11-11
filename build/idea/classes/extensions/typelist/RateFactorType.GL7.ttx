@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<typelistextension name="RateFactorType" xmlns="http://guidewire.com/typelists">
+    <typecode code="GL7Classification" desc="Peculiarities of Classification" name="Classification" priority="33200"/>
+    <typecode code="GL7CooperationMedicalFacilities" desc="Medical Facilities" name="Cooperation Medical Facilities" priority="33240"/>
+    <typecode code="GL7CooperationSafetyProgram" desc="Safety Program" name="Cooperation Safety Program" priority="33260"/>
+    <typecode code="GL7LocationExposureInsidePremises" desc="Exposure Inside Premises" name="Location Exposure Inside Premises" priority="33120"/>
+    <typecode code="GL7LocationExposureOutsidePremises" desc="Exposure Outside Premises" name="Location Exposure Outside Premises" priority="33140"/>
+</typelistextension>

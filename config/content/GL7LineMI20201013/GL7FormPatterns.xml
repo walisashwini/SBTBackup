@@ -1,0 +1,1512 @@
+<?xml version="1.0"?>
+<import xmlns="http://guidewire.com/pc/exim/import">
+  <FormPattern public-id="z8pi8f6idovu3353closavr52j9">
+    <ClausePatternCode>GL7SupplementalExtendedReportingPeriodEndtSpecific</ClausePatternCode>
+    <Code>CG27110413</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Supplemental Extended Reporting Period Endorsement For Specific Accidents, Products, Work Or Locations</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 13</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 27 11</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z9bha82ku25t54688hbe0bp873a">
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zfph4eosevi0n19iqpjs7h153kb">
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zfpjqnh7genf0f1qubkd91r3v6a">
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="znnig0u64l4mm37mec3gita19t9">
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zq6iatf2v33kk0cc7a4tf7surib">
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zasi0g0amgimg0ssmglfi91d538">
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 27 11 04 13</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z7igavr3giv3f0hj4lvr6p7n458">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zt4g6ihk3sudf2mu0i5v6j9roob">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z8pi8f6idovu3353closavr52j9"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1016</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb">
+    <ClausePatternCode>GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs</ClausePatternCode>
+    <Code>CG27030196</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Amendment Of Section V - Extended Reporting Periods For Specific Accidents, Products, Work Or Location</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 96</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 27 03</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zbhiq1heqigia2243aj4qs89e9b">
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zhgjglm44lf0j77potfnp1pu228">
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zrmjasqtqsedbbj1p8u31vqb439">
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ztjgi36n0a8gu98fm6k72r30dsb">
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zv8g8f8qtm8mvbk7b9vqtm3jiab">
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z59jecg567relch3g2fa2ekh9j8">
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 27 03 01 96</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z4bgu6tu4bbad6orhm5a14e4cpa">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="z16hu2qm2n8pc5jg2f5gk05r6v9">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zbcgkrtta5ol61q22r6ibrdh5eb"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1087</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha">
+    <ClausePatternCode/>
+    <Code>CG33020417</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 33 02</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zj2gkhbdd7g0ofk3cbnvg2bcu9a">
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z3thqs04d4cbidp3tr4523muo09">
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z0pjqik858agi17lmnirk9ncps8">
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zrpjao63ec6hn42bn6st8nkkbmb">
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z67jqf80lugqpe189jelen6qlt8">
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zi4ictkd6drmse5j7qrl7slmeea">
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zlkhabeooqrns2hov6b2lm4kslb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z1sjo9h359n0b09hpr2cv8474ha"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7830</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b">
+    <ClausePatternCode/>
+    <Code>CG33031204</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 04</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 33 03</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zljhm7o8lmrtc6b1jidvqrqul29">
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zooj67soncjiu4h8nvd6vesfoab">
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zfgh4n9sj9jera9e4cltvib2vb8">
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z5ejc20gnr184dr4jpqbs8k6ctb">
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zt1hqnajkvvjid36j7vhecq61ka">
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z42gketa758ce3oobngdp7feooa">
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zn5hqfkv70pkp20ps09oosepfu9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zoji48e5dsr9m5g5o8mjm16fc7b"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7785</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb">
+    <ClausePatternCode>GL7PersonalInjuryLiab</ClausePatternCode>
+    <Code>CG28091120_CG28051001</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Personal Injury Liability</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>11 20</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 09</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z27jkfk5b1n453ri34pcgbspjob">
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zk5johl5dpkbi3tf4374kd2jd38">
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z1tj2ek5h3tlfdvt2tta417fb7a">
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z4pg2a33oht3oe16785bu9ulrab">
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zdehu5be5h6nbcuh0v6bu2ffmhb">
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z4jhcfh4p09r4f1687h8om3d579">
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 28 05 10 01</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zo3hgiujfscr19roq6dekpu5emb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z18jif3ct3q2ha2oiqnu5dsbalb"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7925</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG28051001</UseInsteadOfCode>
+  </FormPattern>
+  <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8">
+    <ClausePatternCode>GL7SupplementalExtendedReportingPeriodEndtLiquorLi</ClausePatternCode>
+    <Code>CG28030196</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Supplemental Extended Reporting Period Endorsement</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 96</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 03</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z6ehsk0cpuo0kdsh6cvep3gdjc9">
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z9qga7fohl9m8005kq38ie7vhb9">
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ze8i28hdt4h102vm0bumeg46p7b">
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zjlgs48vcspi859navkdfcl13fa">
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zogj6tn762sl003vnvja1c2gi68">
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zs8jehjt2ufn580in7ugkij6c29">
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 28 03 01 96</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z7cgq4qo9gra99p9r7ik73le1ma">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <Jurisdiction>IA</Jurisdiction>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="znmhmogu6a3kkd3nc2p7in7fbeb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zgvi8sij3h5ue9is3r1ia7kapvb">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zhpj2p8ok6udp6vj5mbbftahdh8"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1252</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b">
+    <ClausePatternCode/>
+    <Code>IL02860417</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>IL 02 86</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z4vhkc41rqadqbb187v4jl706ma">
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zf9jk7g737m3rd2t4kqlmnfebub">
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zuehsccpsnlku6b0v6uhsd65tia">
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zithabaj1mk1nf8q6fglp96jpha">
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zaaj412mp825i3poiavfa64j0fa">
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zd2i643gs36aua0oqu09snjd1m9">
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z69ik6ocjvmspavsaqb04asohe8">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zesgggaborhtr0n4d4rhk4pkp6b"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7800</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b">
+    <ClausePatternCode>GL7ResidentAgentCountersignatureEndorsement</ClausePatternCode>
+    <Code>IL09171185</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Resident Agent Countersignature Endorsement</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>11 85</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>IL 09 17</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="ze8gmd5of0e3i0ma24ihgdthjga">
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zf3jo8j6crv2efp3kk15hpk0kpb">
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zq5h82fg0kdbmb3u9k9jmtu1nc9">
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zsugiog5sgfeg858uhj9bkf6kg8">
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zvcgqtnr5tu0ddp762a3290jgqa">
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zrqhejs0f04n0caiksm6fg8g10a">
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>IL 09 17 11 85</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z6ugm6qrqetdh25vidu0deir0m8">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zhjgo0e7t0e4n9jbanh6vndk4pb">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <Jurisdiction>IL</Jurisdiction>
+        <StartEffectiveDate>2020-09-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zmljq0jodsqqq98ev65hh75cv8b">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <Jurisdiction>IA</Jurisdiction>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zn1hmqdosj4bh1vbo74tegj9pd8">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zh1gq2ttbkidl231i19i5d6o31b"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1289</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db">
+    <ClausePatternCode>GL7EmplBenefitsLiabCovClaimsMade</ClausePatternCode>
+    <Code>CG04731120_CG04351207</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Employee Benefits Liability Coverage</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>11 20</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 04 73</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zrrjgrbu9jatce061fkngcgnth9">
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z2gh64hsr2ghj580ne4oarnlj08">
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zf3g67obdaftg0khg8j7p0tq159">
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zbrj87o7vku1s3vsbam6tqpjr39">
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zggjq6bv9bvt48707f0c96mj838">
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z4ijm2jsqv39q367ou0gmcmpi58">
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 04 35 12 07</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zaui6qqc16ucfblv8vr0mb8u939">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zjkg0k07rlpd38u36ptur87f8db"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1084</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG04351207</UseInsteadOfCode>
+  </FormPattern>
+  <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28">
+    <ClausePatternCode/>
+    <Code>CG00340413</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Liquor Liability Coverage Form</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 13</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 00 34</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z3shkcmrnikt33lmsvhoeodbd3a">
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zd4h2fptu3gul1l1fkcpfe8ren8">
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zdvjuh4i6vr7b5rmf4dtb2acvhb">
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zi9jqcphtrhot5dvv16bq075n09">
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zlmgi4mk47gos8op29287h0mrba">
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z0sjk71117bab1ge2eojcbmr4qb">
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 00 34 04 13</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z4gia9pgac4435vphn2vp71v8db">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="z6phk14jj3p6o11e2464u6gca29">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <Jurisdiction>IA</Jurisdiction>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zc3ied5ngljg8806bs2neldrrp9">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="ztlhq7fe0qc76ee7oj1cfo7oq28"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1254</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db">
+    <ClausePatternCode>GL7ExtendedReportingPeriodEndtForEmpBenefitsLiabCo</ClausePatternCode>
+    <Code>CG27791120_CG27151207</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Extended Reporting Period Endorsement For Employee Benefits Liability Coverage</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>11 20</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 27 79</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z02g4o898c6fv3oauj9qdflpao8">
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zt7geictbueb327hs6l8pce1cp9">
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z8li6103o488de3vsd3mh79vr29">
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zatierl4n4hk911euge3007n5nb">
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zajhk21il02c680vbh7talg51nb">
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zd9i4mf89fosuci4hr0kfp93e28">
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 27 15 12 07</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zm0iu7soiielb4pd96m8ms535j9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z1hj83bne0q1j6bin2hskvt46db"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1082</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG27151207</UseInsteadOfCode>
+  </FormPattern>
+  <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca">
+    <ClausePatternCode/>
+    <Code>CG28390417</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 39</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z3siu8ioehmd4dipv3gqn8hv9c8">
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z25hsm39uq7nhb09fdki5p01hmb">
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zqshgmqv9ajiv8r9bgofadfvcp9">
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zsuj6n7eolshk01oelqpul1lju9">
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z5djq9jebgp5sarauaph9rqmh08">
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z86ho8cijglcs8tjq6gfbp2o729">
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zd4h2outiln0v9o4okb1q4v0bg8">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z7jjg6dhvbr7p75j58jk13fltca"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7725</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8">
+    <ClausePatternCode/>
+    <Code>CG28380417</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 38</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z2vi8rvbktllgccunig6dpkfp6b">
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z1sisnca6esgt90g2atpohg86j8">
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z91gqm0jpcm0saneutsrvejm9qb">
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zc6hmk8v9imve2f8tg385jb5u4b">
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z29i66etf6mkrb1gra3inkj4tf9">
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zfugk6c6hs00l55ffe6jhfaskpa">
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z89goeb4os5gm1oq65rf126efm8">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zdvi4qvupdfqj91ifmim53t9kq8"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7775</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb">
+    <ClausePatternCode>GL7SupplementalExtendedReportingPeriodEndtSpecifi1</ClausePatternCode>
+    <Code>CG28350196</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Supplemental Extended Reporting Period Endorsement For Specific Accidents, Products, Work Or Locations</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 96</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 35</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z17gsji6n13eeevau9l4okeql18">
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z1ej6f1smfbe30586lcg74vf2g9">
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z6bhi21c5ojbq28uk0i0jupqhi8">
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zhfgajodf23qd4bpb2hesuudjrb">
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zmkg0oa3r6blh7669iopuc0iiea">
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zahguprchcv629dpjs58qsu5dq8">
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 28 35 01 96</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zshi4s2bq14n72fk21k83495b9b">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zo2ia5demcs20aoh6j3mbahkd2a">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zf2hucs60lm00cg5rjrkblbj0vb"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1017</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8">
+    <ClausePatternCode/>
+    <Code>CG30321297</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Underground Storage Tank Policy</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 97</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 30 32</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zmnjeqh09naii92tl7un1eq2vaa">
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z9ticgr985ovudlgt9nj6ibnel9">
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zo6gsd3kjp9ojed99jamgf79bib">
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z8tjosqhlo37tc6eun8kskb583b">
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zf1i80n4m731fci08obqrp8rfbb">
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zcpikbonm57id5l4qg5l1mg0j29">
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z0mhmrvuqm7fh5gibefmsml6l1b">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zjvj85ooi3iq00krvuc9ag626u8"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7940</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb">
+    <ClausePatternCode>GL7LmtdContractualLiabCovPersonalAdvertisingInj</ClausePatternCode>
+    <Code>CG22741001</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Limited Contractual Liability Coverage For Personal And Advertising Injury</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>10 01</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 22 74</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z09gkfi47p21sebbf6al4i1hid8">
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z2bjqpv7npe825da8snr0ajcfc9">
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z8fgie591c53f28kbebvglkr8fb">
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zfgi6011q8vf3ciuj4drmrkohj8">
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zgvj6i7nmgil41n0lu2c2f3ldja">
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zp4iun87ksdlc09omtljlq71lv9">
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 22 74 10 01</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zl6ju5gsru4d5fltedikbqh7s98">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="za4j4oj9daqo2373nj532eb0h9a">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zgvh2fiq1gi6k3ke6co0lhcqtrb"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7661</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb">
+    <ClausePatternCode/>
+    <Code>CG30100417</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 30 10</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zm9i4vkf0amkm56s81jb412dh9b">
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zelimp2s67iu51o0qtrijd4sgb8">
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z02g63r76r131dhofrpfn14v60b">
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z5ajickstq5ua30f7mdj1ehal29">
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z7ugef5vklqqb4o1fvnkaofc8n9">
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zt8jabk9tjjqo4kqpllbnu1qvda">
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zgug026ve87496l0avirdql4u49">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z7fgq0nm19s3h7ovq66ptpa4svb"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7825</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8">
+    <ClausePatternCode/>
+    <Code>CG01681120</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>11 20</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 01 68</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zt2jo43jloeq25ogal9g3v5qn59">
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zaag4if5af89r9uqa8e2jbcblq9">
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zo0h4jke4asps8ksma5m7i4031b">
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zboik7eknm54e17atjfejsq28ba">
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ztcgafk752ja7al6du1ma7idto8">
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zrogi0tgakcep17t7tgrl1h9ek9">
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zvvj4r82to2ac05lajst6vb7888">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zcfha3klddem9191rtrqajd5rt8"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7750</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19">
+    <ClausePatternCode>GL7ExclSpecificAccidentsProdsWorkOrLocation</ClausePatternCode>
+    <Code>CG01801093_CG27020196</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Exclusion Of Specific Accidents, Products, Work Or Locations</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>10 93</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 01 80</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zorgcg580bedp5onkdom6t7ek2b">
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zjiio8ke9ietjafdnvd5ci5pt38">
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zrdiegic5fi6a2cfli4n0lhdia9">
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zc6hq3djdj71v6r5dclq03dapi8">
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zqij6g6r3lep30869s8udt8g6ib">
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zqrjo20rnnf044474nlskqbdn18">
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 27 02 01 96</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zq8hct8jolkp1ajr0ruo8jne8u8">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z0mimco96sna11l28rlbvdg8v19"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7801</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG27020196</UseInsteadOfCode>
+  </FormPattern>
+  <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8">
+    <ClausePatternCode/>
+    <Code>CG26220417</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Liquor Liability</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>04 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 26 22</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zihg4grt56ar97sa5rea069lb78">
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zkgjqi9apbgdn7ac44mlntkvb4b">
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zecikkdrk0ukv1csu9f75f2l1sb">
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zo3he1pt8afu01amrsfv6tt08d8">
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zs9juugbiigv30psji96tkj945a">
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z0njs95220gae4ve5l3dho0lmgb">
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zt0hmkg1cdhhp9uq9r9gsvn3l0b">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zd6j0dkjj2mombuukb8qddm73u8"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7900</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zc9g095atco331u7pni5q5llmpa">
+    <ClausePatternCode>GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo</ClausePatternCode>
+    <Code>CG29911093_CG27050196</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Michigan Changes - Exclusion Of Specific Accidents, Products, Work Or Locations</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>10 93</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 29 91</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z69hagfs504s3e7uvac5fugeqv9">
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zv4iusecsdv2e4jjg0q58hb9nob">
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zuui8rh5jr14r29jqjbastrdtj9">
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z3tjikptfrgtr2uo8p725lbjuk9">
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z8pjoh3vsh51h7edtg322nf0le8">
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z8pjkq74r8s2iekqeb4vk0pble9">
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 27 05 01 96</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z0oh8kr6qr0cod333si2ad3jpg9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zc9g095atco331u7pni5q5llmpa"/>
+        <Jurisdiction>MI</Jurisdiction>
+        <StartEffectiveDate>2020-11-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7701</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG27050196</UseInsteadOfCode>
+  </FormPattern>
+</import>

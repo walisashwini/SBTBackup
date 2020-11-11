@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7LocationExcl" xmlns="http://guidewire.com/datamodel">
+  <column desc="string cov term field" getterScriptability="doesNotExist" name="StringTerm1" nullok="true" setterScriptability="doesNotExist" type="longtext"/>
+  <column desc="whether or not the StringTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="StringTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+  <column desc="direct cov term field" getterScriptability="doesNotExist" name="DirectTerm1" nullok="true" setterScriptability="doesNotExist" type="decimal">
+    <columnParam name="scale" value="4"/>
+    <columnParam name="precision" value="20"/>
+  </column>
+  <column desc="whether or not the DirectTerm1 field was available the last time availability was checked" getterScriptability="doesNotExist" name="DirectTerm1Avl" nullok="true" setterScriptability="doesNotExist" type="bit"/>
+</extension>

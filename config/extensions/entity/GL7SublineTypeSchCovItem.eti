@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7SublineTypeSchCovItem"
+  table="gl7sublntypschcovitem"
+  desc="GL7 Subline Type level coverage scheduled item"
+  exportable="true"
+  final="false"
+  loadable="false"
+  type="effdated"
+  platform="false"
+  effDatedBranchType="PolicyPeriod">
+  <implementsEntity
+    name="ScheduledItem"/>
+  <implementsInterface
+    iface="gw.api.productmodel.ScheduledItemAdapter"
+    impl="gw.lob.gl7.schedules.GL7SublineTypeSchedCovItemAdapter"/>
+  <implementsEntity
+    name="Coverable"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverableAdapter"
+    impl="gw.lob.gl7.schedules.GL7SublineTypeSchedCovItemAdapter"/>
+  <implementsEntity
+    name="CoverableFieldAvailability"/>
+  <implementsEntity
+    name="GL7ScheduledItem"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7SublineTypeSchedCovItemMatcher"/>
+  <foreignkey
+    fkentity="GL7SublineTypeSchedCov"
+    name="ScheduleCoverage"
+    nullok="false"/>
+  <array
+    arrayentity="GL7SublnTypSchCovItmCov"
+    name="Coverages"/>
+  <array
+    arrayentity="GL7SublnTypSchCovItmCond"
+    name="Conditions"/>
+  <array
+    arrayentity="GL7SublnTypSchCovItmExcl"
+    name="Exclusions"/> 
+  <array
+    arrayentity="GL7SublnTypSchCovItemCovCost"
+    name="CoverageCosts"/>
+  <array
+    arrayentity="GL7SublnTypSchCovItemCondCost"
+    name="ConditionCosts"/>
+  <array
+    arrayentity="GL7SublnTypSchCovItemExclCost"
+    name="ExclusionCosts"/>
+  <array
+    arrayentity="GL7SublnTypSchCovItemCost"
+    name="ScheduleItemCosts"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

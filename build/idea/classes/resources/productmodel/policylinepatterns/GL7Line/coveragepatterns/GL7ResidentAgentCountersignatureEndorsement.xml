@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeCond" public-id="GL7ResidentAgentCountersignatureEndorsement" priority="128900" lookupTableName="GL7SublineTypeCond" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7ResidentAgentCountersignatureEndorsement" policyLinePattern="GL7Line">
+    <CovTerms>
+        <GenericCovTermPattern coverageColumn="StringTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7CompanyName1" required="false" codeIdentifier="GL7CompanyName1"/>
+        <GenericCovTermPattern coverageColumn="DateTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="600" public-id="GL7DateofCountersignature" required="false" codeIdentifier="GL7DateofCountersignature"/>
+        <GenericCovTermPattern coverageColumn="StringTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="700" public-id="GL7LicensedResidentAgent" required="false" codeIdentifier="GL7LicensedResidentAgent"/>
+        <GenericCovTermPattern coverageColumn="StringTerm3" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7NamedInsured1" required="false" codeIdentifier="GL7NamedInsured1"/>
+        <GenericCovTermPattern coverageColumn="StringTerm4" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7PolicyNumber2" required="false" codeIdentifier="GL7PolicyNumber2"/>
+        <GenericCovTermPattern coverageColumn="StringTerm5" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="400" public-id="GL7StateName" required="false" codeIdentifier="GL7StateName"/>
+    </CovTerms>
+</ConditionPattern>

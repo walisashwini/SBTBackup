@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- simple types -->
+    <xs:simpleType name="TypeListType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z_$][a-zA-Z\d_$]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ScheduledItemTypeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z_$][a-zA-Z\d_$]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="NameType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([a-zA-Z\d_$])*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ColumnNameType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z_$][a-zA-Z\d_$]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="PropertyInfoEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Integer"/>
+            <xs:enumeration value="Percent"/>
+            <xs:enumeration value="String"/>
+            <xs:enumeration value="Boolean"/>
+            <xs:enumeration value="Date"/>
+            <xs:enumeration value="TypeKey"/>
+            <xs:enumeration value="ForeignKey"/>
+            <xs:enumeration value="PolicyLocation"/>
+            <xs:enumeration value="Building"/>
+            <xs:enumeration value="NamedInsured"/>
+            <xs:enumeration value="ForeignKeyWithOptionLabels"/>
+            <xs:enumeration value="AdditionalInsured"/>
+            <xs:enumeration value="AdditionalInterest"/>
+            <xs:enumeration value="Decimal"/>
+            <xs:enumeration value="ReadOnly"/>
+            <xs:enumeration value="TextArea"/>
+            <xs:enumeration value="Option"/>
+            <xs:enumeration value="PolicyContact"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="ItemClauseType">
+        <xs:attribute ref="pattern" use="required"/>
+        <xs:attribute ref="amendmentOf" use="optional"/>
+        <xs:attribute ref="whenClause" use="optional"/>
+        <xs:attribute ref="hideFromSummary" use="optional"/>
+    </xs:complexType>
+    <xs:simpleType name="PatternType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z_$][a-zA-Z\d_$]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="ScheduleConfigType">
+        <xs:sequence>
+            <xs:element ref="Clause" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- complex types -->
+    <xs:complexType name="ClauseType">
+        <xs:sequence>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element ref="AutoNumberPropertyInfo" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="PropertyInfo" minOccurs="0" maxOccurs="unbounded" />
+            </xs:choice>
+            <xs:element ref="ItemClause" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute ref="pattern" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="PropertyInfoType">
+        <xs:sequence>
+            <xs:element ref="Version" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute ref="name" use="required" />
+    </xs:complexType>
+    <xs:complexType name="BasePropertyInfoType">
+        <xs:sequence>
+            <xs:element ref="ColumnName" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="ColumnLabel" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="Required" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="Priority" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PropertyInfoVersionType">
+        <xs:complexContent>
+            <xs:extension base="BasePropertyInfoType">
+                <xs:sequence>
+                    <xs:element ref="Type" minOccurs="1" maxOccurs="1"/>
+                    <xs:element ref="ScheduledItemType" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="Default" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="IsKey" minOccurs="0" maxOccurs="1"/>
+                    <!-- Decimal -->
+                    <xs:element ref="Minimum" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="Maximum" minOccurs="0" maxOccurs="1"/>
+                    <!-- ReadOnly -->
+                    <xs:element ref="MethodExpression" minOccurs="0" maxOccurs="1"/>
+                    <!-- accessible variables:
+                        '_entity' - current ScheduledItem
+                        '_prop' - current IEntityPropertyInfo build based on 'ScheduledItemType' & 'ColumnName'-->
+                    <!-- TypeKey -->
+                    <xs:element ref="TypeList" minOccurs="0" maxOccurs="1"/>  <!-- minOccurs="1" TODO try xsd 1.1 conditional feature -->
+                    <xs:element ref="TypeFilter" minOccurs="0" maxOccurs="1"/>
+                    <!-- ForeignKey and ForeignKeyWithOptionLabels -->
+                    <xs:element ref="ValueRangeGetter" minOccurs="0" maxOccurs="1"/> <!-- minOccurs="1" TODO try xsd 1.1 conditional feature -->
+                    <!-- ForeignKeyWithOptionLabels -->
+                    <xs:element ref="OptionGroupLabelMethodExpression" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="OptionLabelMethodExpression" minOccurs="0" maxOccurs="1"/>
+                    <!-- version specific -->
+                    <xs:element ref="Jurisdiction" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="EffectiveDate" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="ExpirationDate" minOccurs="0" maxOccurs="1"/>
+                    <xs:element ref="Available" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="AutoNumberPropertyInfoType">
+        <xs:complexContent>
+            <xs:extension base="BasePropertyInfoType">
+                <xs:attribute ref="name" use="required" />
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:attribute name="name" type="NameType"/>
+    <xs:attribute name="min" type="xs:decimal"/>
+    <xs:attribute name="max" type="xs:decimal"/>
+    <xs:attribute name="pattern" type="PatternType"/>
+    <xs:attribute name="amendmentOf" type="xs:string"/>
+    <xs:attribute name="whenClause" type="xs:string"/>
+    <xs:attribute name="hideFromSummary" type="xs:boolean"/>
+    <xs:element name="Type" type="PropertyInfoEnum"/>
+    <xs:element name="Priority" type="xs:int"/>
+    <xs:element name="IsKey" type="xs:boolean"/>
+    <xs:element name="Minimum" type="xs:int"/>
+    <xs:element name="Maximum" type="xs:int"/>
+    <xs:element name="ValueRangeGetter" type="xs:string"/>
+    <xs:element name="ScheduledItemType" type="ScheduledItemTypeType"/>
+    <xs:element name="TypeFilter" type="xs:string"/>
+    <xs:element name="TypeList" type="TypeListType"/>
+    <xs:element name="ScheduleConfig" type="ScheduleConfigType"/>
+    <xs:element name="Required" type="xs:boolean"/>
+    <xs:element name="Default" type="xs:string"/>
+    <xs:element name="MethodExpression" type="xs:string"/>
+    <xs:element name="PropertyInfo" type="PropertyInfoType"/>
+    <xs:element name="Version" type="PropertyInfoVersionType"/>
+    <xs:element name="AutoNumberPropertyInfo" type="AutoNumberPropertyInfoType"/>
+    <xs:element name="ColumnName" type="ColumnNameType"/>
+    <xs:element name="ColumnLabel" type="xs:string"/>
+    <xs:element name="Clause" type="ClauseType"/>
+    <xs:element name="ItemClause" type="ItemClauseType"/>
+    <xs:element name="OptionGroupLabelMethodExpression" type="xs:string"/>
+    <xs:element name="OptionLabelMethodExpression" type="xs:string"/>
+    <xs:element name="Jurisdiction" type="xs:string"/>
+    <xs:element name="EffectiveDate" type="xs:string"/>
+    <xs:element name="ExpirationDate" type="xs:string"/>
+    <xs:element name="Available" type="xs:boolean"/>
+</xs:schema>

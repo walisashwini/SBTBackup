@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <WizardStepSet
+    id="LineWizardStepSet"
+    mode="GL7GeneralLiability">
+    <Require
+      name="job"
+      type="Job"/>
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <JobWizardStep
+      beforeSave="gw.lob.gl7.pcf.GL7ValidationUtil.beforeSaveSublines(policyPeriod)"
+      id="SublineSelection"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7SublineSelectionScreen(job, policyPeriod, openForEdit, jobWizardHelper)"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.SublineSelection&quot;)"/>
+    <JobWizardStep
+      id="GeneralLiabilityCoverages"
+      onEnter="policyPeriod.GL7Line.syncLineWizardStepOnEnter(jobWizardHelper)"
+      onExit="policyPeriod.GL7Line.syncLineWizardStepOnExit(jobWizardHelper)"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7GeneralLiabilityCoveragesScreen(policyPeriod, openForEdit, jobWizardHelper)"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.GeneralLiability&quot;)"/>
+    <JobWizardStep
+      id="StateSpecificInformation"
+      onExit="policyPeriod.GL7Line.syncLocationAddressFields()"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7StateSpecificInfoScreen(policyPeriod, openForEdit, jobWizardHelper)"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.StateSpecificInformation&quot;)"/>
+    <JobWizardStep
+      beforeSave="gw.policy.PolicyLocationValidation.validateLocationsStep(policyPeriod.PolicyLocations); gw.lob.gl7.pcf.GL7ValidationUtil.beforeSaveExposures(policyPeriod)"
+      id="Locations"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7LocationsScreen(policyPeriod, openForEdit, jobWizardHelper, policyPeriod.GL7Line.SupportsNonSpecificLocations)"
+      title="DisplayKey.get(&quot;Web.LineWizardMenu.Locations&quot;)"/>
+    <JobWizardStep
+      beforeSave="gw.lob.gl7.pcf.GL7ValidationUtil.beforeSaveExposures(policyPeriod)"
+      id="Exposures"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7ExposuresScreen(policyPeriod, openForEdit, jobWizardHelper)"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.Exposures&quot;)"/>
+    <JobWizardStep
+      id="UnmannedAircrafts"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7UnmannedAircraftsScreen(policyPeriod, openForEdit, jobWizardHelper)"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.UnmannedAircraft&quot;)"
+      visible="policyPeriod.GL7Line.isUnmannedAircraftAvailable"/>
+    <JobWizardStep
+      id="Modifiers"
+      onEnter="policyPeriod.GL7Line.syncAllModifiers()"
+      onExit="policyPeriod.GL7Line.setScheduleRatingModificationApplies()"
+      save="policyPeriod.OpenForEdit"
+      screen="GL7ModifiersScreen(policyPeriod, openForEdit, jobWizardHelper)"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.Modifiers&quot;)"/>
+  </WizardStepSet>
+</PCF>

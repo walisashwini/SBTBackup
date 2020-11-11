@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <ModalCell
+    id="APDAttributeDefaultValue"
+    mode="bigdecimal">
+    <Require
+      name="attribute"
+      type="APDAttribute"/>
+    <Require
+      name="ruleType"
+      type="APDRuleType"/>
+    <Require
+      name="dataField"
+      type="APDDataField"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Variable
+      initialValue="attribute.Rules?.firstWhere(\r -&gt; r.RuleType == ruleType)"
+      name="rule"
+      type="APDAttributeRule"/>
+    <TextCell
+      action="APDAttributeRulePopup.push(rule, attribute, ruleType, openForEdit)"
+      id="value"
+      userInputRestriction="decimal"
+      value="UIValue"
+      valueType="java.math.BigDecimal"/>
+    <Code><![CDATA[property get UIValue() : java.math.BigDecimal {
+      if (dataField == null) return rule.DefaultDecimalValue
+      return dataField.getRuleDecimalValue(ruleType)
+    }]]></Code>
+  </ModalCell>
+</PCF>

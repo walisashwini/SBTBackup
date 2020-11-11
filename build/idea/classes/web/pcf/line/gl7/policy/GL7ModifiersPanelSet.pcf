@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="GL7ModifiersPanelSet">
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="new gw.lob.common.util.modifiers.DefaultRateFactorProvider()"
+      name="rateFactorRangeGenerator"
+      type="gw.lob.common.util.modifiers.RateFactorRangeGenerator"/>
+    <PanelRef
+      def="OOSEPanelSet(policyPeriod, jobWizardHelper)"
+      id="oosePanelSet"/>
+    <PanelRef
+      def="LOBModifiablesModifiersPanelSet(policyPeriod.GL7Line.AllModifiables, rateFactorRangeGenerator)"/>
+  </PanelSet>
+</PCF>

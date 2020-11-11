@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<entity
+  exportable="true"
+  xmlns="http://guidewire.com/datamodel"
+  entity="FormPatternSysTableValue"
+  table="formpatternsystablevalue"
+  type="retireable">
+  <foreignkey
+    fkentity="FormPattern"
+    name="FormPattern"
+    nullok="false"/>
+  <column
+    name="Code"
+    nullok="false"
+    type="text"/>
+</entity>

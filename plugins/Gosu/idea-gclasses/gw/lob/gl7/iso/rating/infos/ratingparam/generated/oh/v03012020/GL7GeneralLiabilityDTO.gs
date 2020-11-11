@@ -1,0 +1,2837 @@
+package gw.lob.gl7.iso.rating.infos.ratingparam.generated.oh.v03012020
+
+uses gw.api.rating.flow.VisibleInRateflow
+class GL7GeneralLiabilityDTO extends gw.lob.gl7.iso.rating.infos.ratingparam.generated.cw.v12012019.GL7GeneralLiabilityDTO {
+
+  public construct(_gL7GeneralLiabilityLine : GL7GeneralLiabilityLine, parameters : gw.lob.common.parameters.Parameters) {
+    super( _gL7GeneralLiabilityLine, parameters )
+    var tempGL7SublineTypes = _gL7GeneralLiabilityLine.GL7SublineTypes.singleWhere( \ elm -> elm.Subline == Parameters.getParam("GL7SublineType"))
+    var tempSublines = tempGL7SublineTypes.Sublines.singleWhere( \ elm -> elm.Jurisdiction.Code == Parameters.getParam("Jurisdiction"))
+    _currentJurisdiction = Jurisdiction.get(parameters.getParam("Jurisdiction"))
+    _stopGap = (_cf.stateMatches(tempGL7SublineTypes.Sublines.singleWhere( \ elm -> elm.Jurisdiction.Code == Parameters.getParam("Jurisdiction")), Parameters)) ? tempSublines.StopGap : _stopGap
+    _abuseMolestationExcl = tempGL7SublineTypes.GL7AbuseMolestationExcl != null ? new GL7GeneralLiabilityAbuseMolestationExclDTO(tempGL7SublineTypes.GL7AbuseMolestationExcl, this) : null
+    _abuseOrMolestationExclusionSpecifiedProfessionalServices = tempGL7SublineTypes.GL7AbuseOrMolestationExclSpecifiedProfessionalServ != null ? new GL7GeneralLiabilityAbuseOrMolestationExclusionSpecifiedProfessionalServicesDTO(tempGL7SublineTypes.GL7AbuseOrMolestationExclSpecifiedProfessionalServ, this) : null
+    _addlInsdAutomaticStatusForDesignatedOperations = tempGL7SublineTypes.GL7AddlInsdAutomaticStatusForDesignatedOps != null ? new GL7GeneralLiabilityAddlInsdAutomaticStatusForDesignatedOperationsDTO(tempGL7SublineTypes.GL7AddlInsdAutomaticStatusForDesignatedOps, this) : null
+    _addlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreement = tempGL7SublineTypes.GL7AddlInsdAutomaticStatusWhenRequiredInWrittenCon != null ? new GL7GeneralLiabilityAddlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreementDTO(tempGL7SublineTypes.GL7AddlInsdAutomaticStatusWhenRequiredInWrittenCon, this) : null
+    _addlInsdCharitableInstitns = tempGL7SublineTypes.GL7AddlInsdCharitableInstitns != null ? new GL7GeneralLiabilityAddlInsdCharitableInstitnsDTO(tempGL7SublineTypes.GL7AddlInsdCharitableInstitns, this) : null
+    _addlInsdChurchMbrOffcrVolunWrkr = tempGL7SublineTypes.GL7AddlInsdChurchMbrOffcrVolunWrkr != null ? new GL7GeneralLiabilityAddlInsdChurchMbrOffcrVolunWrkrDTO(tempGL7SublineTypes.GL7AddlInsdChurchMbrOffcrVolunWrkr, this) : null
+    _addlInsdClubMembers = tempGL7SublineTypes.GL7AddlInsdClubMembers != null ? new GL7GeneralLiabilityAddlInsdClubMembersDTO(tempGL7SublineTypes.GL7AddlInsdClubMembers, this) : null
+    _addlInsdConcessionaires = tempGL7SublineTypes.GL7AddlInsdConcessionaires != null ? new GL7GeneralLiabilityAddlInsdConcessionairesDTO(tempGL7SublineTypes.GL7AddlInsdConcessionaires, this) : null
+    _addlInsdCondoUnitOwners = tempGL7SublineTypes.GL7AddlInsdCondoUnitOwners != null ? new GL7GeneralLiabilityAddlInsdCondoUnitOwnersDTO(tempGL7SublineTypes.GL7AddlInsdCondoUnitOwners, this) : null
+    _addlInsdControllingInt = tempGL7SublineTypes.GL7AddlInsdControllingInt != null ? new GL7GeneralLiabilityAddlInsdControllingIntDTO(tempGL7SublineTypes.GL7AddlInsdControllingInt, this) : null
+    _addlInsdDesigntdPersonOrg = tempGL7SublineTypes.GL7AddlInsdDesigntdPersonOrg != null ? new GL7GeneralLiabilityAddlInsdDesigntdPersonOrgDTO(tempGL7SublineTypes.GL7AddlInsdDesigntdPersonOrg, this) : null
+    _addlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorps = tempGL7SublineTypes.GL7AddlInsdElectiveOrAppointiveExecutiveOfficersOf != null ? new GL7GeneralLiabilityAddlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorpsDTO(tempGL7SublineTypes.GL7AddlInsdElectiveOrAppointiveExecutiveOfficersOf, this) : null
+    _addlInsdEngrsArchsSrvyrs = tempGL7SublineTypes.GL7AddlInsdEngrsArchsSrvyrs != null ? new GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsDTO(tempGL7SublineTypes.GL7AddlInsdEngrsArchsSrvyrs, this) : null
+    _addlInsdEngrsArchsSrvyrsNotEngagedInsd = tempGL7SublineTypes.GL7AddlInsdEngrsArchsSrvyrsNotEngagedInsd != null ? new GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsNotEngagedInsdDTO(tempGL7SublineTypes.GL7AddlInsdEngrsArchsSrvyrsNotEngagedInsd, this) : null
+    _addlInsdEngrsArchsSrvyrsOwnersContractors = tempGL7SublineTypes.GL7AddlInsdEngrsArchsSrvyrsOwnersContractors != null ? new GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsOwnersContractorsDTO(tempGL7SublineTypes.GL7AddlInsdEngrsArchsSrvyrsOwnersContractors, this) : null
+    _addlInsdExecsAdminsTrstesBenefics = tempGL7SublineTypes.GL7AddlInsdExecsAdminsTrstesBenefics != null ? new GL7GeneralLiabilityAddlInsdExecsAdminsTrstesBeneficsDTO(tempGL7SublineTypes.GL7AddlInsdExecsAdminsTrstesBenefics, this) : null
+    _addlInsdGrantorFranchise = tempGL7SublineTypes.GL7AddlInsdGrantorFranchise != null ? new GL7GeneralLiabilityAddlInsdGrantorFranchiseDTO(tempGL7SublineTypes.GL7AddlInsdGrantorFranchise, this) : null
+    _addlInsdGrantorLicenses = tempGL7SublineTypes.GL7AddlInsdGrantorLicenses != null ? new GL7GeneralLiabilityAddlInsdGrantorLicensesDTO(tempGL7SublineTypes.GL7AddlInsdGrantorLicenses, this) : null
+    _addlInsdGrantorOfFranchiseLiquorLiability = tempGL7SublineTypes.GL7AddlInsdGrantorOfFranchiseLiquorLiab != null ? new GL7GeneralLiabilityAddlInsdGrantorOfFranchiseLiquorLiabilityDTO(tempGL7SublineTypes.GL7AddlInsdGrantorOfFranchiseLiquorLiab, this) : null
+    _addlInsdGrantorOfLicensesAutomaticStatusReqdLicensor = tempGL7SublineTypes.GL7AddlInsdGrantorOfLicensesAutomaticStatusReqdLic != null ? new GL7GeneralLiabilityAddlInsdGrantorOfLicensesAutomaticStatusReqdLicensorDTO(tempGL7SublineTypes.GL7AddlInsdGrantorOfLicensesAutomaticStatusReqdLic, this) : null
+    _addlInsdLessorLeasedEquipmt = tempGL7SublineTypes.GL7AddlInsdLessorLeasedEquipmt != null ? new GL7GeneralLiabilityAddlInsdLessorLeasedEquipmtDTO(tempGL7SublineTypes.GL7AddlInsdLessorLeasedEquipmt, this) : null
+    _addlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYou = tempGL7SublineTypes.GL7AddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenR != null ? new GL7GeneralLiabilityAddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYouDTO(tempGL7SublineTypes.GL7AddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenR, this) : null
+    _addlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOps = tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomaticStatusWh != null ? new GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOpsDTO(tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomaticStatusWh, this) : null
+    _addlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmt = tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomtcStatusForO != null ? new GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmtDTO(tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomtcStatusForO, this) : null
+    _addlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOps = tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomtcStatusOthe != null ? new GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOpsDTO(tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomtcStatusOthe, this) : null
+    _addlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYou = tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomtcStatusWhen != null ? new GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYouDTO(tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsAutomtcStatusWhen, this) : null
+    _addlInsdOwnersLesseesContrctrsScheddPersonOrg = tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg != null ? new GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsScheddPersonOrgDTO(tempGL7SublineTypes.GL7AddlInsdOwnersLesseesContrctrsScheddPersonOrg, this) : null
+    _addlInsdSponsorsLiquorLiability = tempGL7SublineTypes.GL7AddlInsdSponsorsLiquorLiab != null ? new GL7GeneralLiabilityAddlInsdSponsorsLiquorLiabilityDTO(tempGL7SublineTypes.GL7AddlInsdSponsorsLiquorLiab, this) : null
+    _addlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiab = tempGL7SublineTypes.GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe != null ? new GL7GeneralLiabilityAddlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiabDTO(tempGL7SublineTypes.GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe, this) : null
+    _addlInsdStatePolitlSubdPermits = tempGL7SublineTypes.GL7AddlInsdStatePolitlSubdPermits != null ? new GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsDTO(tempGL7SublineTypes.GL7AddlInsdStatePolitlSubdPermits, this) : null
+    _addlInsdStatePolitlSubdPermitsOwnersContractors = tempGL7SublineTypes.GL7AddlInsdStatePolitlSubdPermitsOwnersContractors != null ? new GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsOwnersContractorsDTO(tempGL7SublineTypes.GL7AddlInsdStatePolitlSubdPermitsOwnersContractors, this) : null
+    _addlInsdStatePolitlSubdPermitsRelatingPrem = tempGL7SublineTypes.GL7AddlInsdStatePolitlSubdPermitsRelatingPrem != null ? new GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsRelatingPremDTO(tempGL7SublineTypes.GL7AddlInsdStatePolitlSubdPermitsRelatingPrem, this) : null
+    _addlInsdTownhouseAssocs = tempGL7SublineTypes.GL7AddlInsdTownhouseAssocs != null ? new GL7GeneralLiabilityAddlInsdTownhouseAssocsDTO(tempGL7SublineTypes.GL7AddlInsdTownhouseAssocs, this) : null
+    _addlInsdTrusts = tempGL7SublineTypes.GL7AddlInsdTrusts != null ? new GL7GeneralLiabilityAddlInsdTrustsDTO(tempGL7SublineTypes.GL7AddlInsdTrusts, this) : null
+    _addlInsdUsersGolfmobiles = tempGL7SublineTypes.GL7AddlInsdUsersGolfmobiles != null ? new GL7GeneralLiabilityAddlInsdUsersGolfmobilesDTO(tempGL7SublineTypes.GL7AddlInsdUsersGolfmobiles, this) : null
+    _addlInsdUsersOfTeamsDraftOrSaddleAnimals = tempGL7SublineTypes.GL7AddlInsdUsersOfTeamsDraftOrSaddleAnimals != null ? new GL7GeneralLiabilityAddlInsdUsersOfTeamsDraftOrSaddleAnimalsDTO(tempGL7SublineTypes.GL7AddlInsdUsersOfTeamsDraftOrSaddleAnimals, this) : null
+    _addlInsdVendors = tempGL7SublineTypes.GL7AddlInsdVendors != null ? new GL7GeneralLiabilityAddlInsdVendorsDTO(tempGL7SublineTypes.GL7AddlInsdVendors, this) : null
+    _addlInsdVendorsAutomaticStatusWhenRequiredInAgreement = tempGL7SublineTypes.GL7AddlInsdVendorsAutomaticStatusWhenRequiredInAgr != null ? new GL7GeneralLiabilityAddlInsdVendorsAutomaticStatusWhenRequiredInAgreementDTO(tempGL7SublineTypes.GL7AddlInsdVendorsAutomaticStatusWhenRequiredInAgr, this) : null
+    _addlInsdVolunteerWorkersLiquor = tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersLiquor != null ? new GL7GeneralLiabilityAddlInsdVolunteerWorkersLiquorDTO(tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersLiquor, this) : null
+    _addlInsdVolunteerWorkersPollution = tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersPollution != null ? new GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionDTO(tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersPollution, this) : null
+    _addlInsdVolunteerWorkersPollutionLimitedUST = tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersPollutionLmtdUST != null ? new GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionLimitedUSTDTO(tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersPollutionLmtdUST, this) : null
+    _addlInsdVolunteerWorkersProdsCompldOps = tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersProdsCompldOps != null ? new GL7GeneralLiabilityAddlInsdVolunteerWorkersProdsCompldOpsDTO(tempGL7SublineTypes.GL7AddlInsdVolunteerWorkersProdsCompldOps, this) : null
+    _amendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMade = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryAdditionalScheduledCount != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMadeDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryAdditionalScheduledCount, this) : null
+    _amendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrence = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1 != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrenceDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryAdditionalScheduledCoun1, this) : null
+    _amendmentOfCovTerritoryWorldwideCovEDL = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovEDL != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovEDLDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovEDL, this) : null
+    _amendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMade = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovProdsCompldO != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMadeDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovProdsCompldO, this) : null
+    _amendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrence = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovProdsCompld1 != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrenceDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovProdsCompld1, this) : null
+    _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDL = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifie != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDLDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifie, this) : null
+    _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMade = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi1 != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMadeDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi1, this) : null
+    _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrence = tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi2 != null ? new GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrenceDTO(tempGL7SublineTypes.GL7AmendmentOfCovTerritoryWorldwideCovWithSpecifi2, this) : null
+    _amendmentOfInsuredContractDefinition = tempGL7SublineTypes.GL7AmendmentOfInsuredContractDefinition != null ? new GL7GeneralLiabilityAmendmentOfInsuredContractDefinitionDTO(tempGL7SublineTypes.GL7AmendmentOfInsuredContractDefinition, this) : null
+    _amendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcohol = tempGL7SublineTypes.GL7AmendmentOfLiquorLiabExclLmtdExceptionForBringY != null ? new GL7GeneralLiabilityAmendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcoholDTO(tempGL7SublineTypes.GL7AmendmentOfLiquorLiabExclLmtdExceptionForBringY, this) : null
+    _amendmentOfPersonalAndAdvertisingInjuryDefinition = tempGL7SublineTypes.GL7AmendmentOfPersonalAndAdvertisingInjuryDefiniti != null ? new GL7GeneralLiabilityAmendmentOfPersonalAndAdvertisingInjuryDefinitionDTO(tempGL7SublineTypes.GL7AmendmentOfPersonalAndAdvertisingInjuryDefiniti, this) : null
+    _amndmtOfCovTerrAddlSchddCountries = tempGL7SublineTypes.GL7AmndmtOfCovTerrAddlSchddCountries != null ? new GL7GeneralLiabilityAmndmtOfCovTerrAddlSchddCountriesDTO(tempGL7SublineTypes.GL7AmndmtOfCovTerrAddlSchddCountries, this) : null
+    _amndmtOfCovTerrWorldwideCov = tempGL7SublineTypes.GL7AmndmtOfCovTerrWorldwideCov != null ? new GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovDTO(tempGL7SublineTypes.GL7AmndmtOfCovTerrWorldwideCov, this) : null
+    _amndmtOfCovTerrWorldwideCovWithSpecdExcptns = tempGL7SublineTypes.GL7AmndmtOfCovTerrWorldwideCovWithSpecdExcptns != null ? new GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovWithSpecdExcptnsDTO(tempGL7SublineTypes.GL7AmndmtOfCovTerrWorldwideCovWithSpecdExcptns, this) : null
+    _amndmtOfLimitsOfIns = tempGL7SublineTypes.GL7AmndmtOfLmtsOfIns != null ? new GL7GeneralLiabilityAmndmtOfLimitsOfInsDTO(tempGL7SublineTypes.GL7AmndmtOfLmtsOfIns, this) : null
+    _amndmtOfLiquorLiabExcl = tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExcl != null ? new GL7GeneralLiabilityAmndmtOfLiquorLiabExclDTO(tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExcl, this) : null
+    _amndmtOfLiquorLiabExclExcptnScheddActivs = tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExclExcptnScheddActivs != null ? new GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsDTO(tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExclExcptnScheddActivs, this) : null
+    _amndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOps = tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExclExcptnScheddActivsProdsCo != null ? new GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOpsDTO(tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExclExcptnScheddActivsProdsCo, this) : null
+    _amndmtOfLiquorLiabExclProdsCompldOps = tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExclProdsCompldOps != null ? new GL7GeneralLiabilityAmndmtOfLiquorLiabExclProdsCompldOpsDTO(tempGL7SublineTypes.GL7AmndmtOfLiquorLiabExclProdsCompldOps, this) : null
+    _amndmtOfSectVExtddRptgPeriodsSpecificAccs = tempGL7SublineTypes.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs != null ? new GL7GeneralLiabilityAmndmtOfSectVExtddRptgPeriodsSpecificAccsDTO(tempGL7SublineTypes.GL7AmndmtOfSectVExtddRptgPeriodsSpecificAccs, this) : null
+    _amndmtTravelAgencyToursLimitationOfCov = tempGL7SublineTypes.GL7AmndmtTravelAgencyToursLimitationOfCov != null ? new GL7GeneralLiabilityAmndmtTravelAgencyToursLimitationOfCovDTO(tempGL7SublineTypes.GL7AmndmtTravelAgencyToursLimitationOfCov, this) : null
+    _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDL = tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormedL != null ? new GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDLDTO(tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormedL, this) : null
+    _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquor = tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed1 != null ? new GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquorDTO(tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed1, this) : null
+    _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollution = tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed2 != null ? new GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionDTO(tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed2, this) : null
+    _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProds = tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed3 != null ? new GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProdsDTO(tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed3, this) : null
+    _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompanies = tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed4 != null ? new GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompaniesDTO(tempGL7SublineTypes.GL7AutomaticInsuredStatusForNewlyAcquiredOrFormed4, this) : null
+    _bindingArbitration = tempGL7SublineTypes.GL7BindingArbitration != null ? new GL7GeneralLiabilityBindingArbitrationDTO(tempGL7SublineTypes.GL7BindingArbitration, this) : null
+    _boats = tempGL7SublineTypes.GL7Boats != null ? new GL7GeneralLiabilityBoatsDTO(tempGL7SublineTypes.GL7Boats, this) : null
+    _calculationOfPremium = tempGL7SublineTypes.GL7CalculationOfPremium != null ? new GL7GeneralLiabilityCalculationOfPremiumDTO(tempGL7SublineTypes.GL7CalculationOfPremium, this) : null
+    _calculationOfPremiumProductWithdrawal = tempGL7SublineTypes.GL7CalculationOfPremiumProductWithdrawal != null ? new GL7GeneralLiabilityCalculationOfPremiumProductWithdrawalDTO(tempGL7SublineTypes.GL7CalculationOfPremiumProductWithdrawal, this) : null
+    _cannabisExclusion = tempGL7SublineTypes.GL7CannabisExcl != null ? new GL7GeneralLiabilityCannabisExclusionDTO(tempGL7SublineTypes.GL7CannabisExcl, this) : null
+    _cannabisExclusionEDL = tempGL7SublineTypes.GL7CannabisExclEDL != null ? new GL7GeneralLiabilityCannabisExclusionEDLDTO(tempGL7SublineTypes.GL7CannabisExclEDL, this) : null
+    _cannabisExclusionOwnersContractors = tempGL7SublineTypes.GL7CannabisExclOwnersContractors != null ? new GL7GeneralLiabilityCannabisExclusionOwnersContractorsDTO(tempGL7SublineTypes.GL7CannabisExclOwnersContractors, this) : null
+    _cannabisExclusionPollution = tempGL7SublineTypes.GL7CannabisExclPollution != null ? new GL7GeneralLiabilityCannabisExclusionPollutionDTO(tempGL7SublineTypes.GL7CannabisExclPollution, this) : null
+    _cannabisExclusionProductWithdrawal = tempGL7SublineTypes.GL7CannabisExclProductWithdrawal != null ? new GL7GeneralLiabilityCannabisExclusionProductWithdrawalDTO(tempGL7SublineTypes.GL7CannabisExclProductWithdrawal, this) : null
+    _cannabisExclusionRailroad = tempGL7SublineTypes.GL7CannabisExclRailroad != null ? new GL7GeneralLiabilityCannabisExclusionRailroadDTO(tempGL7SublineTypes.GL7CannabisExclRailroad, this) : null
+    _cannabisExclusionUST = tempGL7SublineTypes.GL7CannabisExclUST != null ? new GL7GeneralLiabilityCannabisExclusionUSTDTO(tempGL7SublineTypes.GL7CannabisExclUST, this) : null
+    _cannabisExclusionWithHempException = tempGL7SublineTypes.GL7CannabisExclWithHempException != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionDTO(tempGL7SublineTypes.GL7CannabisExclWithHempException, this) : null
+    _cannabisExclusionWithHempExceptionEDL = tempGL7SublineTypes.GL7CannabisExclWithHempExceptionEDL != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionEDLDTO(tempGL7SublineTypes.GL7CannabisExclWithHempExceptionEDL, this) : null
+    _cannabisExclusionWithHempExceptionOwnersContractors = tempGL7SublineTypes.GL7CannabisExclWithHempExceptionOwnersContractors != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionOwnersContractorsDTO(tempGL7SublineTypes.GL7CannabisExclWithHempExceptionOwnersContractors, this) : null
+    _cannabisExclusionWithHempExceptionPollution = tempGL7SublineTypes.GL7CannabisExclWithHempExceptionPollution != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionPollutionDTO(tempGL7SublineTypes.GL7CannabisExclWithHempExceptionPollution, this) : null
+    _cannabisExclusionWithHempExceptionProductWithdrawal = tempGL7SublineTypes.GL7CannabisExclWithHempExceptionProductWithdrawal != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionProductWithdrawalDTO(tempGL7SublineTypes.GL7CannabisExclWithHempExceptionProductWithdrawal, this) : null
+    _cannabisExclusionWithHempExceptionRailroad = tempGL7SublineTypes.GL7CannabisExclWithHempExceptionRailroad != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionRailroadDTO(tempGL7SublineTypes.GL7CannabisExclWithHempExceptionRailroad, this) : null
+    _cannabisExclusionWithHempExceptionUST = tempGL7SublineTypes.GL7CannabisExclWithHempExceptionUST != null ? new GL7GeneralLiabilityCannabisExclusionWithHempExceptionUSTDTO(tempGL7SublineTypes.GL7CannabisExclWithHempExceptionUST, this) : null
+    _cannabisExclusionWithHempandLessorsRiskExceptions = tempGL7SublineTypes.GL7CannabisExclWithHempandLessorsRiskExceptions != null ? new GL7GeneralLiabilityCannabisExclusionWithHempandLessorsRiskExceptionsDTO(tempGL7SublineTypes.GL7CannabisExclWithHempandLessorsRiskExceptions, this) : null
+    _capOnLossesFromCertifiedActsOfTerrorism = tempGL7SublineTypes.GL7CapOnLossesFromCertifiedActsOfTerr != null ? new GL7GeneralLiabilityCapOnLossesFromCertifiedActsOfTerrorismDTO(tempGL7SublineTypes.GL7CapOnLossesFromCertifiedActsOfTerr, this) : null
+    _certifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOps = tempGL7SublineTypes.GL7CertifiedActsOfTerrAggLimitCapOnLossesFromCerti != null ? new GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOpsDTO(tempGL7SublineTypes.GL7CertifiedActsOfTerrAggLimitCapOnLossesFromCerti, this) : null
+    _certifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOps = tempGL7SublineTypes.GL7CertifiedActsOfTerrAggLimitCapOnLossesFromCert1 != null ? new GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOpsDTO(tempGL7SublineTypes.GL7CertifiedActsOfTerrAggLimitCapOnLossesFromCert1, this) : null
+    _changesInFormsForCommercialPackagePolicies = tempGL7SublineTypes.GL7ChangesInGL7FormsForCommercialPackagePolicies != null ? new GL7GeneralLiabilityChangesInGeneralLiabilityFormsForCommercialPackagePoliciesDTO(tempGL7SublineTypes.GL7ChangesInGL7FormsForCommercialPackagePolicies, this) : null
+    _collegeSchool = tempGL7SublineTypes.GL7CollegeSchool != null ? new GL7GeneralLiabilityCollegeSchoolDTO(tempGL7SublineTypes.GL7CollegeSchool, this) : null
+    _collegeSchoolLimitedForm = tempGL7SublineTypes.GL7CollegeSchoolLmtdForm != null ? new GL7GeneralLiabilityCollegeSchoolLimitedFormDTO(tempGL7SublineTypes.GL7CollegeSchoolLmtdForm, this) : null
+    _communicableDiseaseExclusion = tempGL7SublineTypes.GL7CommunicableDiseaseExcl != null ? new GL7GeneralLiabilityCommunicableDiseaseExclusionDTO(tempGL7SublineTypes.GL7CommunicableDiseaseExcl, this) : null
+    _communicableDiseaseExclusionProdsCompldOps = tempGL7SublineTypes.GL7CommunicableDiseaseExclProdsCompldOps != null ? new GL7GeneralLiabilityCommunicableDiseaseExclusionProdsCompldOpsDTO(tempGL7SublineTypes.GL7CommunicableDiseaseExclProdsCompldOps, this) : null
+    _compositeRating = tempGL7SublineTypes.GL7CompositeRating != null ? new GL7GeneralLiabilityCompositeRatingDTO(tempGL7SublineTypes.GL7CompositeRating, this) : null
+    _conditionalExclusionOfTerrorismDispositionOfAct2002 = tempGL7SublineTypes.GL7CondExclOfTerrDispositionOfAct2002 != null ? new GL7GeneralLiabilityConditionalExclusionOfTerrorismDispositionOfAct2002DTO(tempGL7SublineTypes.GL7CondExclOfTerrDispositionOfAct2002, this) : null
+    _conditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002 = tempGL7SublineTypes.GL7CondExclOfTerrNuclearBiologicalChemicalDisposit != null ? new GL7GeneralLiabilityConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002DTO(tempGL7SublineTypes.GL7CondExclOfTerrNuclearBiologicalChemicalDisposit, this) : null
+    _conditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002 = tempGL7SublineTypes.GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct != null ? new GL7GeneralLiabilityConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002DTO(tempGL7SublineTypes.GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct, this) : null
+    _constrctnProjMngmtProtvLiabCov = tempGL7SublineTypes.GL7ConstrctnProjMngmtProtvLiabCov != null ? new GL7GeneralLiabilityConstrctnProjMngmtProtvLiabCovDTO(tempGL7SublineTypes.GL7ConstrctnProjMngmtProtvLiabCov, this) : null
+    _contractualLiabLimitation = tempGL7SublineTypes.GL7ContractualLiabLimitation != null ? new GL7GeneralLiabilityContractualLiabLimitationDTO(tempGL7SublineTypes.GL7ContractualLiabLimitation, this) : null
+    _contractualLiabRailroads = tempGL7SublineTypes.GL7ContractualLiabRailroads != null ? new GL7GeneralLiabilityContractualLiabRailroadsDTO(tempGL7SublineTypes.GL7ContractualLiabRailroads, this) : null
+    _covForInjuryLeasedWorkers = tempGL7SublineTypes.GL7CovForInjuryLeasedWorkers != null ? new GL7GeneralLiabilityCovForInjuryLeasedWorkersDTO(tempGL7SublineTypes.GL7CovForInjuryLeasedWorkers, this) : null
+    _covForInjuryLeasedWorkersUndergroundStorageTanks = tempGL7SublineTypes.GL7CovForInjuryLeasedWorkersUndergroundStorageTank != null ? new GL7GeneralLiabilityCovForInjuryLeasedWorkersUndergroundStorageTanksDTO(tempGL7SublineTypes.GL7CovForInjuryLeasedWorkersUndergroundStorageTank, this) : null
+    _coverageExtensionCoverageAProductRestorationExpense = tempGL7SublineTypes.GL7CovExtensionCovAProductRestorationExpense != null ? new GL7GeneralLiabilityCoverageExtensionCoverageAProductRestorationExpenseDTO(tempGL7SublineTypes.GL7CovExtensionCovAProductRestorationExpense, this) : null
+    _damageToPremisesRentedToYouCoverage = tempGL7SublineTypes.GL7DamageToPremisesRentedToYou != null ? new GL7GeneralLiabilityDamageToPremisesRentedToYouCoverageDTO(tempGL7SublineTypes.GL7DamageToPremisesRentedToYou, this) : null
+    _deductibleLiabilityInsurance = tempGL7SublineTypes.GL7DedLiabInsurance != null ? new GL7GeneralLiabilityDeductibleLiabilityInsuranceDTO(tempGL7SublineTypes.GL7DedLiabInsurance, this) : null
+    _deductibleLiabilityInsuranceLiquorLiab = tempGL7SublineTypes.GL7DedLiabInsuranceLiquorLiab != null ? new GL7GeneralLiabilityDeductibleLiabilityInsuranceLiquorLiabDTO(tempGL7SublineTypes.GL7DedLiabInsuranceLiquorLiab, this) : null
+    _designatedConstrctnProjGeneralAggregateLimit = tempGL7SublineTypes.GL7DesignatedConstrctnProjGeneralAggLimit != null ? new GL7GeneralLiabilityDesignatedConstrctnProjGeneralAggregateLimitDTO(tempGL7SublineTypes.GL7DesignatedConstrctnProjGeneralAggLimit, this) : null
+    _designatedProjectsAggregateLimit = tempGL7SublineTypes.GL7DesignatedProjectsAggLimit != null ? new GL7GeneralLiabilityDesignatedProjectsAggregateLimitDTO(tempGL7SublineTypes.GL7DesignatedProjectsAggLimit, this) : null
+    _designatedProjectsProdsCompldOpsAggregateLimit = tempGL7SublineTypes.GL7DesignatedProjectsProdsCompldOpsAggLimit != null ? new GL7GeneralLiabilityDesignatedProjectsProdsCompldOpsAggregateLimitDTO(tempGL7SublineTypes.GL7DesignatedProjectsProdsCompldOpsAggLimit, this) : null
+    _disclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002 = tempGL7SublineTypes.GL7DisclosureOfPremiumEstimatedPremiumCertifiedAct != null ? new GL7GeneralLiabilityDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002DTO(tempGL7SublineTypes.GL7DisclosureOfPremiumEstimatedPremiumCertifiedAct, this) : null
+    _disclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002 = tempGL7SublineTypes.GL7DisclosureOfPremiumThrough123105CertifiedActsTe != null ? new GL7GeneralLiabilityDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002DTO(tempGL7SublineTypes.GL7DisclosureOfPremiumThrough123105CertifiedActsTe, this) : null
+    _disclosurePursuantToTerrorismRiskInsuranceActOf2002 = tempGL7SublineTypes.GL7DisclosurePursuantToTerrRiskInsuranceActOf2002 != null ? new GL7GeneralLiabilityDisclosurePursuantToTerrorismRiskInsuranceActOf2002DTO(tempGL7SublineTypes.GL7DisclosurePursuantToTerrRiskInsuranceActOf2002, this) : null
+    _druggists = tempGL7SublineTypes.GL7Druggists != null ? new GL7GeneralLiabilityDruggistsDTO(tempGL7SublineTypes.GL7Druggists, this) : null
+    _druggistsBroadenedCov = tempGL7SublineTypes.GL7DruggistsBroadCov != null ? new GL7GeneralLiabilityDruggistsBroadenedCovDTO(tempGL7SublineTypes.GL7DruggistsBroadCov, this) : null
+    _earlierNoticeOfCancellationProvidedByUs = tempGL7SublineTypes.GL7EarlierNoticeOfCancellationProvidedByUs != null ? new GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsDTO(tempGL7SublineTypes.GL7EarlierNoticeOfCancellationProvidedByUs, this) : null
+    _earlierNoticeOfCancellationProvidedByUsOwnersContractors = tempGL7SublineTypes.GL7EarlierNoticeOfCancellationProvidedByUsOwnersCo != null ? new GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsOwnersContractorsDTO(tempGL7SublineTypes.GL7EarlierNoticeOfCancellationProvidedByUsOwnersCo, this) : null
+    _earthMovementExclusionForDesignatedOperationsOrProjects = tempGL7SublineTypes.GL7EarthMovementExclForDesignatedOpsOrProjects != null ? new GL7GeneralLiabilityEarthMovementExclusionForDesignatedOperationsOrProjectsDTO(tempGL7SublineTypes.GL7EarthMovementExclForDesignatedOpsOrProjects, this) : null
+    _electronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovB = tempGL7SublineTypes.GL7ElectrDataLiabCovCovAWithAccessOrDisclosureOfCo != null ? new GL7GeneralLiabilityElectronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovBDTO(tempGL7SublineTypes.GL7ElectrDataLiabCovCovAWithAccessOrDisclosureOfCo, this) : null
+    _electronicDataLiabEndt = tempGL7SublineTypes.GL7ElectrDataLiabEndt != null ? new GL7GeneralLiabilityElectronicDataLiabEndtDTO(tempGL7SublineTypes.GL7ElectrDataLiabEndt, this) : null
+    _electronicDataLiabilityCoverageForm = tempGL7SublineTypes.GL7ElectrDataLiabCovForm != null ? new GL7GeneralLiabilityElectronicDataLiabilityCoverageFormDTO(tempGL7SublineTypes.GL7ElectrDataLiabCovForm, this) : null
+    _electronicDataLiabilityLimitedBodilyInjuryExceptionNotIncluded = tempGL7SublineTypes.GL7ElectrDataLiabLmtdBIExceptionNotIncluded != null ? new GL7GeneralLiabilityElectronicDataLiabilityLimitedBodilyInjuryExceptionNotIncludedDTO(tempGL7SublineTypes.GL7ElectrDataLiabLmtdBIExceptionNotIncluded, this) : null
+    _electronicDataLiabilityPremiumToReachMinCoverage = tempGL7SublineTypes.GL7ElectrDataLiabPremiumToReachMin != null ? new GL7GeneralLiabilityElectronicDataLiabilityPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7ElectrDataLiabPremiumToReachMin, this) : null
+    _employeeBenefitsLiabCovClaimsMade = tempGL7SublineTypes.GL7EmplBenefitsLiabCovClaimsMade != null ? new GL7GeneralLiabilityEmployeeBenefitsLiabCovClaimsMadeDTO(tempGL7SublineTypes.GL7EmplBenefitsLiabCovClaimsMade, this) : null
+    _employmentRelatedPracticesExclusion = tempGL7SublineTypes.GL7EmploymentReltdPracticesExcl != null ? new GL7GeneralLiabilityEmploymentRelatedPracticesExclusionDTO(tempGL7SublineTypes.GL7EmploymentReltdPracticesExcl, this) : null
+    _employmentRelatedPracticesExclusionOwnersContrctrsPollution = tempGL7SublineTypes.GL7EmploymentReltdPracticesExclOwnersContrctrsPoll != null ? new GL7GeneralLiabilityEmploymentRelatedPracticesExclusionOwnersContrctrsPollutionDTO(tempGL7SublineTypes.GL7EmploymentReltdPracticesExclOwnersContrctrsPoll, this) : null
+    _excessProvisionVendors = tempGL7SublineTypes.GL7ExcessProvisionVendors != null ? new GL7GeneralLiabilityExcessProvisionVendorsDTO(tempGL7SublineTypes.GL7ExcessProvisionVendors, this) : null
+    _exclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProds = tempGL7SublineTypes.GL7ExclAccessDisclosureConfidentialPersonalInfoDat != null ? new GL7GeneralLiabilityExclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProdsDTO(tempGL7SublineTypes.GL7ExclAccessDisclosureConfidentialPersonalInfoDat, this) : null
+    _exclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProds = tempGL7SublineTypes.GL7ExclAccessDisclosureConfidentialPrsnlInfoDataRe != null ? new GL7GeneralLiabilityExclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProdsDTO(tempGL7SublineTypes.GL7ExclAccessDisclosureConfidentialPrsnlInfoDataRe, this) : null
+    _exclAdultDayCareCenters = tempGL7SublineTypes.GL7ExclAdultDayCareCenters != null ? new GL7GeneralLiabilityExclAdultDayCareCentersDTO(tempGL7SublineTypes.GL7ExclAdultDayCareCenters, this) : null
+    _exclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessories = tempGL7SublineTypes.GL7ExclAllHazardsInConnectionWithElectrSmokingDevi != null ? new GL7GeneralLiabilityExclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessoriesDTO(tempGL7SublineTypes.GL7ExclAllHazardsInConnectionWithElectrSmokingDevi, this) : null
+    _exclAthleticSportsParticipants = tempGL7SublineTypes.GL7ExclAthleticSportsParticipants != null ? new GL7GeneralLiabilityExclAthleticSportsParticipantsDTO(tempGL7SublineTypes.GL7ExclAthleticSportsParticipants, this) : null
+    _exclBodilyInjuryToRailroadPassengers = tempGL7SublineTypes.GL7ExclBIToRailroadPassengers != null ? new GL7GeneralLiabilityExclBodilyInjuryToRailroadPassengersDTO(tempGL7SublineTypes.GL7ExclBIToRailroadPassengers, this) : null
+    _exclCampsOrCampgrounds = tempGL7SublineTypes.GL7ExclCampsOrCampgrounds != null ? new GL7GeneralLiabilityExclCampsOrCampgroundsDTO(tempGL7SublineTypes.GL7ExclCampsOrCampgrounds, this) : null
+    _exclConstructionMngmtErrorsOmissions = tempGL7SublineTypes.GL7ExclConstructionMngmtErrorsOmissions != null ? new GL7GeneralLiabilityExclConstructionMngmtErrorsOmissionsDTO(tempGL7SublineTypes.GL7ExclConstructionMngmtErrorsOmissions, this) : null
+    _exclContractorsProfessionalLiab = tempGL7SublineTypes.GL7ExclContractorsProfessionalLiab != null ? new GL7GeneralLiabilityExclContractorsProfessionalLiabDTO(tempGL7SublineTypes.GL7ExclContractorsProfessionalLiab, this) : null
+    _exclCounselingServices = tempGL7SublineTypes.GL7ExclCounselingServices != null ? new GL7GeneralLiabilityExclCounselingServicesDTO(tempGL7SublineTypes.GL7ExclCounselingServices, this) : null
+    _exclDamageToPremRentedToYou = tempGL7SublineTypes.GL7ExclDamageToPremRentedToYou != null ? new GL7GeneralLiabilityExclDamageToPremRentedToYouDTO(tempGL7SublineTypes.GL7ExclDamageToPremRentedToYou, this) : null
+    _exclDamageToWorkPerformedBySubcontractorsOnYourBehalf = tempGL7SublineTypes.GL7ExclDamageToWorkPerformedBySubcontractorsOnYour != null ? new GL7GeneralLiabilityExclDamageToWorkPerformedBySubcontractorsOnYourBehalfDTO(tempGL7SublineTypes.GL7ExclDamageToWorkPerformedBySubcontractorsOnYour, this) : null
+    _exclDescribedHazardsCarnivalsCircusesFairs = tempGL7SublineTypes.GL7ExclDescribedHazardsCarnivalsCircusesFairs != null ? new GL7GeneralLiabilityExclDescribedHazardsCarnivalsCircusesFairsDTO(tempGL7SublineTypes.GL7ExclDescribedHazardsCarnivalsCircusesFairs, this) : null
+    _exclDesignatedOngoingOps = tempGL7SublineTypes.GL7ExclDesignatedOngoingOps != null ? new GL7GeneralLiabilityExclDesignatedOngoingOpsDTO(tempGL7SublineTypes.GL7ExclDesignatedOngoingOps, this) : null
+    _exclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL = tempGL7SublineTypes.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProgr != null ? new GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO(tempGL7SublineTypes.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProgr, this) : null
+    _exclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps = tempGL7SublineTypes.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg1 != null ? new GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO(tempGL7SublineTypes.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg1, this) : null
+    _exclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps = tempGL7SublineTypes.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg2 != null ? new GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO(tempGL7SublineTypes.GL7ExclDesignatedOpsCovByAControlledWrapUpInsProg2, this) : null
+    _exclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvl = tempGL7SublineTypes.GL7ExclDesignatedOpsCovByConsolidatedWrapUpInsProg != null ? new GL7GeneralLiabilityExclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvlDTO(tempGL7SublineTypes.GL7ExclDesignatedOpsCovByConsolidatedWrapUpInsProg, this) : null
+    _exclDesignatedProducts = tempGL7SublineTypes.GL7ExclDesignatedProds != null ? new GL7GeneralLiabilityExclDesignatedProductsDTO(tempGL7SublineTypes.GL7ExclDesignatedProds, this) : null
+    _exclDesignatedProfessionalServices = tempGL7SublineTypes.GL7ExclDesignatedProfessionalServices != null ? new GL7GeneralLiabilityExclDesignatedProfessionalServicesDTO(tempGL7SublineTypes.GL7ExclDesignatedProfessionalServices, this) : null
+    _exclDesignatedWork = tempGL7SublineTypes.GL7ExclDesignatedWork != null ? new GL7GeneralLiabilityExclDesignatedWorkDTO(tempGL7SublineTypes.GL7ExclDesignatedWork, this) : null
+    _exclDiagnosticTestingLabs = tempGL7SublineTypes.GL7ExclDiagnosticTestingLabs != null ? new GL7GeneralLiabilityExclDiagnosticTestingLabsDTO(tempGL7SublineTypes.GL7ExclDiagnosticTestingLabs, this) : null
+    _exclEmployeesAndVolunteerWorkersAsInsureds = tempGL7SublineTypes.GL7ExclEmplsAndVolunteerWorkersAsInsureds != null ? new GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsDTO(tempGL7SublineTypes.GL7ExclEmplsAndVolunteerWorkersAsInsureds, this) : null
+    _exclEmployeesAndVolunteerWorkersAsInsuredsEDL = tempGL7SublineTypes.GL7ExclEmplsAndVolunteerWorkersAsInsuredsEDL != null ? new GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsEDLDTO(tempGL7SublineTypes.GL7ExclEmplsAndVolunteerWorkersAsInsuredsEDL, this) : null
+    _exclEngineersArchitectsOrSurveyorsProfessionalLiab = tempGL7SublineTypes.GL7ExclEngineersArchitectsOrSurveyorsProfessionalL != null ? new GL7GeneralLiabilityExclEngineersArchitectsOrSurveyorsProfessionalLiabDTO(tempGL7SublineTypes.GL7ExclEngineersArchitectsOrSurveyorsProfessionalL, this) : null
+    _exclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchants = tempGL7SublineTypes.GL7ExclErroneousDeliveryOrMixtureResultingFailrSee != null ? new GL7GeneralLiabilityExclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchantsDTO(tempGL7SublineTypes.GL7ExclErroneousDeliveryOrMixtureResultingFailrSee, this) : null
+    _exclExistenceOrMaintenanceOfStreetsRdsHwysOrBridges = tempGL7SublineTypes.GL7ExclExistenceOrMaintenanceOfStreetsRdsHwysOrBri != null ? new GL7GeneralLiabilityExclExistenceOrMaintenanceOfStreetsRdsHwysOrBridgesDTO(tempGL7SublineTypes.GL7ExclExistenceOrMaintenanceOfStreetsRdsHwysOrBri, this) : null
+    _exclFailureToSupply = tempGL7SublineTypes.GL7ExclFailureToSupply != null ? new GL7GeneralLiabilityExclFailureToSupplyDTO(tempGL7SublineTypes.GL7ExclFailureToSupply, this) : null
+    _exclFiduciaryOrRepLiabOfFinclInstitutions = tempGL7SublineTypes.GL7ExclFiduciaryOrRepLiabOfFinclInstitutions != null ? new GL7GeneralLiabilityExclFiduciaryOrRepLiabOfFinclInstitutionsDTO(tempGL7SublineTypes.GL7ExclFiduciaryOrRepLiabOfFinclInstitutions, this) : null
+    _exclFinancialServ = tempGL7SublineTypes.GL7ExclFinancialServ != null ? new GL7GeneralLiabilityExclFinancialServDTO(tempGL7SublineTypes.GL7ExclFinancialServ, this) : null
+    _exclFuneralServ = tempGL7SublineTypes.GL7ExclFuneralServ != null ? new GL7GeneralLiabilityExclFuneralServDTO(tempGL7SublineTypes.GL7ExclFuneralServ, this) : null
+    _exclHousingProjects = tempGL7SublineTypes.GL7ExclHousingProjects != null ? new GL7GeneralLiabilityExclHousingProjectsDTO(tempGL7SublineTypes.GL7ExclHousingProjects, this) : null
+    _exclInjuryToVolunteerFirefighters = tempGL7SublineTypes.GL7ExclInjuryToVolunteerFirefighters != null ? new GL7GeneralLiabilityExclInjuryToVolunteerFirefightersDTO(tempGL7SublineTypes.GL7ExclInjuryToVolunteerFirefighters, this) : null
+    _exclInspectionAppraisalAndSurveyCompanies = tempGL7SublineTypes.GL7ExclInspectionAppraisalAndSurveyCompanies != null ? new GL7GeneralLiabilityExclInspectionAppraisalAndSurveyCompaniesDTO(tempGL7SublineTypes.GL7ExclInspectionAppraisalAndSurveyCompanies, this) : null
+    _exclInsuranceAndRelatedOperations = tempGL7SublineTypes.GL7ExclInsuranceAndReltdOps != null ? new GL7GeneralLiabilityExclInsuranceAndRelatedOperationsDTO(tempGL7SublineTypes.GL7ExclInsuranceAndReltdOps, this) : null
+    _exclIntercompanyProductsSuits = tempGL7SublineTypes.GL7ExclIntercompanyProdsSuits != null ? new GL7GeneralLiabilityExclIntercompanyProductsSuitsDTO(tempGL7SublineTypes.GL7ExclIntercompanyProdsSuits, this) : null
+    _exclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissions = tempGL7SublineTypes.GL7ExclInternetServicePrvdrsAndInternetAccessPrvdr != null ? new GL7GeneralLiabilityExclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissionsDTO(tempGL7SublineTypes.GL7ExclInternetServicePrvdrsAndInternetAccessPrvdr, this) : null
+    _exclLaundryDryCleaningDamage = tempGL7SublineTypes.GL7ExclLaundryDryCleaningDamage != null ? new GL7GeneralLiabilityExclLaundryDryCleaningDamageDTO(tempGL7SublineTypes.GL7ExclLaundryDryCleaningDamage, this) : null
+    _exclLawEnforcementActivities = tempGL7SublineTypes.GL7ExclLawEnforcementActivities != null ? new GL7GeneralLiabilityExclLawEnforcementActivitiesDTO(tempGL7SublineTypes.GL7ExclLawEnforcementActivities, this) : null
+    _exclLoggingLumberingOperations = tempGL7SublineTypes.GL7ExclLoggingLumberingOps != null ? new GL7GeneralLiabilityExclLoggingLumberingOperationsDTO(tempGL7SublineTypes.GL7ExclLoggingLumberingOps, this) : null
+    _exclMedPayCovInmatesPatientsPrisoners = tempGL7SublineTypes.GL7ExclMedPayCovInmatesPatientsPrisoners != null ? new GL7GeneralLiabilityExclMedPayCovInmatesPatientsPrisonersDTO(tempGL7SublineTypes.GL7ExclMedPayCovInmatesPatientsPrisoners, this) : null
+    _exclMedPayToChildrenDayCareCenters = tempGL7SublineTypes.GL7ExclMedPayToChildrenDayCareCenters != null ? new GL7GeneralLiabilityExclMedPayToChildrenDayCareCentersDTO(tempGL7SublineTypes.GL7ExclMedPayToChildrenDayCareCenters, this) : null
+    _exclMovementBuildingsStructures = tempGL7SublineTypes.GL7ExclMovementBuildingsStructures != null ? new GL7GeneralLiabilityExclMovementBuildingsStructuresDTO(tempGL7SublineTypes.GL7ExclMovementBuildingsStructures, this) : null
+    _exclNewEntities = tempGL7SublineTypes.GL7ExclNewEntities != null ? new GL7GeneralLiabilityExclNewEntitiesDTO(tempGL7SublineTypes.GL7ExclNewEntities, this) : null
+    _exclOilGasProducingOps = tempGL7SublineTypes.GL7ExclOilGasProducingOps != null ? new GL7GeneralLiabilityExclOilGasProducingOpsDTO(tempGL7SublineTypes.GL7ExclOilGasProducingOps, this) : null
+    _exclPersonalAdvertisingInjury = tempGL7SublineTypes.GL7ExclPersonalAdvertisingInjury != null ? new GL7GeneralLiabilityExclPersonalAdvertisingInjuryDTO(tempGL7SublineTypes.GL7ExclPersonalAdvertisingInjury, this) : null
+    _exclProductsCompletedOperationsHazard = tempGL7SublineTypes.GL7ExclProdsCompletedOpsHazard != null ? new GL7GeneralLiabilityExclProductsCompletedOperationsHazardDTO(tempGL7SublineTypes.GL7ExclProdsCompletedOpsHazard, this) : null
+    _exclProductsProfessionalServicesDruggists = tempGL7SublineTypes.GL7ExclProdsProfessionalServicesDruggists != null ? new GL7GeneralLiabilityExclProductsProfessionalServicesDruggistsDTO(tempGL7SublineTypes.GL7ExclProdsProfessionalServicesDruggists, this) : null
+    _exclProductsProfessionalServicesOpticalHearingAidEstablishments = tempGL7SublineTypes.GL7ExclProdsProfessionalServicesOpticalHearingAidE != null ? new GL7GeneralLiabilityExclProductsProfessionalServicesOpticalHearingAidEstablishmentsDTO(tempGL7SublineTypes.GL7ExclProdsProfessionalServicesOpticalHearingAidE, this) : null
+    _exclProfessionalServicesBloodBanks = tempGL7SublineTypes.GL7ExclProfessionalServicesBloodBanks != null ? new GL7GeneralLiabilityExclProfessionalServicesBloodBanksDTO(tempGL7SublineTypes.GL7ExclProfessionalServicesBloodBanks, this) : null
+    _exclProfessionalVeterinarianServices = tempGL7SublineTypes.GL7ExclProfessionalVeterinarianServices != null ? new GL7GeneralLiabilityExclProfessionalVeterinarianServicesDTO(tempGL7SublineTypes.GL7ExclProfessionalVeterinarianServices, this) : null
+    _exclPropertyEntrusted = tempGL7SublineTypes.GL7ExclPropertyEntrusted != null ? new GL7GeneralLiabilityExclPropertyEntrustedDTO(tempGL7SublineTypes.GL7ExclPropertyEntrusted, this) : null
+    _exclRiotCivilCommotionMobActionGovtSubdivision = tempGL7SublineTypes.GL7ExclRiotCivilCommotionMobActionGovtSubdivision != null ? new GL7GeneralLiabilityExclRiotCivilCommotionMobActionGovtSubdivisionDTO(tempGL7SublineTypes.GL7ExclRiotCivilCommotionMobActionGovtSubdivision, this) : null
+    _exclRollingStockRailroadConstruction = tempGL7SublineTypes.GL7ExclRollingStockRailroadConstruction != null ? new GL7GeneralLiabilityExclRollingStockRailroadConstructionDTO(tempGL7SublineTypes.GL7ExclRollingStockRailroadConstruction, this) : null
+    _exclSalineSubstancesContamination = tempGL7SublineTypes.GL7ExclSalineSubstancesContamination != null ? new GL7GeneralLiabilityExclSalineSubstancesContaminationDTO(tempGL7SublineTypes.GL7ExclSalineSubstancesContamination, this) : null
+    _exclServicesFurnishedByHealthCarePrvdrs = tempGL7SublineTypes.GL7ExclServicesFurnishedByHealthCarePrvdrs != null ? new GL7GeneralLiabilityExclServicesFurnishedByHealthCarePrvdrsDTO(tempGL7SublineTypes.GL7ExclServicesFurnishedByHealthCarePrvdrs, this) : null
+    _exclSpecificAccidentsProdsWorkOrLocation = tempGL7SublineTypes.GL7ExclSpecificAccidentsProdsWorkOrLocation != null ? new GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationDTO(tempGL7SublineTypes.GL7ExclSpecificAccidentsProdsWorkOrLocation, this) : null
+    _exclSpecificAccidentsProdsWorkOrLocationProdsCompldOps = tempGL7SublineTypes.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo != null ? new GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationProdsCompldOpsDTO(tempGL7SublineTypes.GL7ExclSpecificAccidentsProdsWorkOrLocationProdsCo, this) : null
+    _exclSpecifiedTherapeuticOrCosmeticSrvcs = tempGL7SublineTypes.GL7ExclSpecifiedTherapeuticOrCosmeticSrvcs != null ? new GL7GeneralLiabilityExclSpecifiedTherapeuticOrCosmeticSrvcsDTO(tempGL7SublineTypes.GL7ExclSpecifiedTherapeuticOrCosmeticSrvcs, this) : null
+    _exclTelecommEquipmtServicePrvdrsErrorsOmissions = tempGL7SublineTypes.GL7ExclTelecommEquipmtServicePrvdrsErrorsOmissions != null ? new GL7GeneralLiabilityExclTelecommEquipmtServicePrvdrsErrorsOmissionsDTO(tempGL7SublineTypes.GL7ExclTelecommEquipmtServicePrvdrsErrorsOmissions, this) : null
+    _exclTestingConsultingErrorsOmissions = tempGL7SublineTypes.GL7ExclTestingConsultingErrorsOmissions != null ? new GL7GeneralLiabilityExclTestingConsultingErrorsOmissionsDTO(tempGL7SublineTypes.GL7ExclTestingConsultingErrorsOmissions, this) : null
+    _exclUndergroundResourcesAndEquipment = tempGL7SublineTypes.GL7ExclUndergroundResourcesAndEquip != null ? new GL7GeneralLiabilityExclUndergroundResourcesAndEquipmentDTO(tempGL7SublineTypes.GL7ExclUndergroundResourcesAndEquip, this) : null
+    _exclUndergroundStorageTankIncidents = tempGL7SublineTypes.GL7ExclUndergroundStorageTankIncidents != null ? new GL7GeneralLiabilityExclUndergroundStorageTankIncidentsDTO(tempGL7SublineTypes.GL7ExclUndergroundStorageTankIncidents, this) : null
+    _exclVolunteerWorkers = tempGL7SublineTypes.GL7ExclVolunteerWorkers != null ? new GL7GeneralLiabilityExclVolunteerWorkersDTO(tempGL7SublineTypes.GL7ExclVolunteerWorkers, this) : null
+    _exclYear2000ComputerReltdElectronicProblems = tempGL7SublineTypes.GL7ExclY2KCompReltdElectrProb != null ? new GL7GeneralLiabilityExclYear2000ComputerReltdElectronicProblemsDTO(tempGL7SublineTypes.GL7ExclY2KCompReltdElectrProb, this) : null
+    _exclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOps = tempGL7SublineTypes.GL7ExclY2KCompReltdOtherElectrProbProdsCompldOps != null ? new GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOpsDTO(tempGL7SublineTypes.GL7ExclY2KCompReltdOtherElectrProbProdsCompldOps, this) : null
+    _exclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPrem = tempGL7SublineTypes.GL7ExclY2KCompReltdOtherElectrProbWithExceptionFor != null ? new GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPremDTO(tempGL7SublineTypes.GL7ExclY2KCompReltdOtherElectrProbWithExceptionFor, this) : null
+    _exclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGL = tempGL7SublineTypes.GL7ExclAccessOrDisclosureOfConfidentialOrPersonalI != null ? new GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGLDTO(tempGL7SublineTypes.GL7ExclAccessOrDisclosureOfConfidentialOrPersonalI, this) : null
+    _exclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGL = tempGL7SublineTypes.GL7ExclAccessOrDisclosureOfConfidentialOrPersonal2 != null ? new GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGLDTO(tempGL7SublineTypes.GL7ExclAccessOrDisclosureOfConfidentialOrPersonal2, this) : null
+    _exclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnly = tempGL7SublineTypes.GL7ExclAccessOrDisclosureOfConfidentialOrPersonal1 != null ? new GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnlyDTO(tempGL7SublineTypes.GL7ExclAccessOrDisclosureOfConfidentialOrPersonal1, this) : null
+    _exclusionAthleticOrSportsParticipantsAllContestsOrExhibitions = tempGL7SublineTypes.GL7ExclAthleticOrSportsParticipantsAllContestsOrEx != null ? new GL7GeneralLiabilityExclusionAthleticOrSportsParticipantsAllContestsOrExhibitionsDTO(tempGL7SublineTypes.GL7ExclAthleticOrSportsParticipantsAllContestsOrEx, this) : null
+    _exclusionCrossSuitsLiabilityCGL = tempGL7SublineTypes.GL7ExclCrossSuitsLiabCGL1 != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityCGLDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabCGL1, this) : null
+    _exclusionCrossSuitsLiabilityEDL = tempGL7SublineTypes.GL7ExclCrossSuitsLiabEDL != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityEDLDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabEDL, this) : null
+    _exclusionCrossSuitsLiabilityLiquor = tempGL7SublineTypes.GL7ExclCrossSuitsLiabLiquor != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityLiquorDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabLiquor, this) : null
+    _exclusionCrossSuitsLiabilityOwnersContractors = tempGL7SublineTypes.GL7ExclCrossSuitsLiabOwnersContractors != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityOwnersContractorsDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabOwnersContractors, this) : null
+    _exclusionCrossSuitsLiabilityPollution = tempGL7SublineTypes.GL7ExclCrossSuitsLiabPollution != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabPollution, this) : null
+    _exclusionCrossSuitsLiabilityPollutionLimited = tempGL7SublineTypes.GL7ExclCrossSuitsLiabPollutionLmtd != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionLimitedDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabPollutionLmtd, this) : null
+    _exclusionCrossSuitsLiabilityRailroad = tempGL7SublineTypes.GL7ExclCrossSuitsLiabRailroad != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityRailroadDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabRailroad, this) : null
+    _exclusionCrossSuitsLiabilityUST = tempGL7SublineTypes.GL7ExclCrossSuitsLiabUST != null ? new GL7GeneralLiabilityExclusionCrossSuitsLiabilityUSTDTO(tempGL7SublineTypes.GL7ExclCrossSuitsLiabUST, this) : null
+    _exclusionEarthMovement = tempGL7SublineTypes.GL7ExclEarthMovement != null ? new GL7GeneralLiabilityExclusionEarthMovementDTO(tempGL7SublineTypes.GL7ExclEarthMovement, this) : null
+    _exclusionEarthMovementCompletedOperations = tempGL7SublineTypes.GL7ExclEarthMovementCompletedOps != null ? new GL7GeneralLiabilityExclusionEarthMovementCompletedOperationsDTO(tempGL7SublineTypes.GL7ExclEarthMovementCompletedOps, this) : null
+    _exclusionEarthMovementOwnersContractors = tempGL7SublineTypes.GL7ExclEarthMovementOwnersContractors != null ? new GL7GeneralLiabilityExclusionEarthMovementOwnersContractorsDTO(tempGL7SublineTypes.GL7ExclEarthMovementOwnersContractors, this) : null
+    _exclusionExteriorInsulationAndFinishSystemsOwnersContractors = tempGL7SublineTypes.GL7ExclExteriorInsulationAndFinishSystemsOwnersCon != null ? new GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsOwnersContractorsDTO(tempGL7SublineTypes.GL7ExclExteriorInsulationAndFinishSystemsOwnersCon, this) : null
+    _exclusionExteriorInsulationAndFinishSystemsPremOpsProds = tempGL7SublineTypes.GL7ExclExteriorInsulationAndFinishSystemsPremOpsPr != null ? new GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsPremOpsProdsDTO(tempGL7SublineTypes.GL7ExclExteriorInsulationAndFinishSystemsPremOpsPr, this) : null
+    _exclusionExteriorInsulationAndFinishSystemsProdsCompldOps = tempGL7SublineTypes.GL7ExclExteriorInsulationAndFinishSystemsProdsComp != null ? new GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsProdsCompldOpsDTO(tempGL7SublineTypes.GL7ExclExteriorInsulationAndFinishSystemsProdsComp, this) : null
+    _exclusionHealthHazardsElectronicSmokingDeviceVapor = tempGL7SublineTypes.GL7ExclHealthHazardsElectrSmokingDeviceVapor != null ? new GL7GeneralLiabilityExclusionHealthHazardsElectronicSmokingDeviceVaporDTO(tempGL7SublineTypes.GL7ExclHealthHazardsElectrSmokingDeviceVapor, this) : null
+    _exclusionHiredAutoLiability = tempGL7SublineTypes.GL7ExclHiredAutoLiab != null ? new GL7GeneralLiabilityExclusionHiredAutoLiabilityDTO(tempGL7SublineTypes.GL7ExclHiredAutoLiab, this) : null
+    _exclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActs = tempGL7SublineTypes.GL7ExclOfCertifiedActsOfNuclearBiologicalChemicalA != null ? new GL7GeneralLiabilityExclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActsDTO(tempGL7SublineTypes.GL7ExclOfCertifiedActsOfNuclearBiologicalChemicalA, this) : null
+    _exclusionOfCertifiedActsOfTerrorism = tempGL7SublineTypes.GL7ExclOfCertifiedActsOfTerr != null ? new GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismDTO(tempGL7SublineTypes.GL7ExclOfCertifiedActsOfTerr, this) : null
+    _exclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorism = tempGL7SublineTypes.GL7ExclOfCertifiedActsOfTerrAndOtherActsOfTerr != null ? new GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorismDTO(tempGL7SublineTypes.GL7ExclOfCertifiedActsOfTerrAndOtherActsOfTerr, this) : null
+    _exclusionOfNewlyAcquiredOrganizationsAsInsureds = tempGL7SublineTypes.GL7ExclOfNewlyAcquiredOrganizationsAsInsureds != null ? new GL7GeneralLiabilityExclusionOfNewlyAcquiredOrganizationsAsInsuredsDTO(tempGL7SublineTypes.GL7ExclOfNewlyAcquiredOrganizationsAsInsureds, this) : null
+    _exclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorism = tempGL7SublineTypes.GL7ExclOfPunitiveDamagesReltdToACertifiedActOfTerr != null ? new GL7GeneralLiabilityExclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorismDTO(tempGL7SublineTypes.GL7ExclOfPunitiveDamagesReltdToACertifiedActOfTerr, this) : null
+    _exclusionOfTerrorism = tempGL7SublineTypes.GL7ExclOfTerr != null ? new GL7GeneralLiabilityExclusionOfTerrorismDTO(tempGL7SublineTypes.GL7ExclOfTerr, this) : null
+    _exclusionOfTerrorismNuclearBiologicalChemicalTerrorism = tempGL7SublineTypes.GL7ExclOfTerrNuclearBiologicalChemicalTerr != null ? new GL7GeneralLiabilityExclusionOfTerrorismNuclearBiologicalChemicalTerrorismDTO(tempGL7SublineTypes.GL7ExclOfTerrNuclearBiologicalChemicalTerr, this) : null
+    _exclusionProductReplacementRepairOrRepurchase = tempGL7SublineTypes.GL7ExclProductReplacementRepairOrRepurchase != null ? new GL7GeneralLiabilityExclusionProductReplacementRepairOrRepurchaseDTO(tempGL7SublineTypes.GL7ExclProductReplacementRepairOrRepurchase, this) : null
+    _exclusionProductTampering = tempGL7SublineTypes.GL7ExclProductTampering != null ? new GL7GeneralLiabilityExclusionProductTamperingDTO(tempGL7SublineTypes.GL7ExclProductTampering, this) : null
+    _exclusionProfessionalServicesOpticalAndHearingAidEstablishments = tempGL7SublineTypes.GL7ExclProfessionalServicesOpticalAndHearingAidEst != null ? new GL7GeneralLiabilityExclusionProfessionalServicesOpticalAndHearingAidEstablishmentsDTO(tempGL7SublineTypes.GL7ExclProfessionalServicesOpticalAndHearingAidEst, this) : null
+    _exclusionProfessionalServicesPharmacists = tempGL7SublineTypes.GL7ExclProfessionalServicesPharmacists != null ? new GL7GeneralLiabilityExclusionProfessionalServicesPharmacistsDTO(tempGL7SublineTypes.GL7ExclProfessionalServicesPharmacists, this) : null
+    _exclusionUnmannedAircraft = tempGL7SublineTypes.GL7ExclUnmannedAircraft != null ? new GL7GeneralLiabilityExclusionUnmannedAircraftDTO(tempGL7SublineTypes.GL7ExclUnmannedAircraft, this) : null
+    _exclusionUnmannedAircraftCovAOnly = tempGL7SublineTypes.GL7ExclUnmannedAircraftCovAOnly != null ? new GL7GeneralLiabilityExclusionUnmannedAircraftCovAOnlyDTO(tempGL7SublineTypes.GL7ExclUnmannedAircraftCovAOnly, this) : null
+    _exclusionUnmannedAircraftCovBOnly = tempGL7SublineTypes.GL7ExclUnmannedAircraftCovBOnly != null ? new GL7GeneralLiabilityExclusionUnmannedAircraftCovBOnlyDTO(tempGL7SublineTypes.GL7ExclUnmannedAircraftCovBOnly, this) : null
+    _exclusionUnmannedAircraftOwnersAndContractors = tempGL7SublineTypes.GL7ExclUnmannedAircraftOwnersAndContractors != null ? new GL7GeneralLiabilityExclusionUnmannedAircraftOwnersAndContractorsDTO(tempGL7SublineTypes.GL7ExclUnmannedAircraftOwnersAndContractors, this) : null
+    _exclusionUnmannedAircraftRailroad = tempGL7SublineTypes.GL7ExclUnmannedAircraftRailroad != null ? new GL7GeneralLiabilityExclusionUnmannedAircraftRailroadDTO(tempGL7SublineTypes.GL7ExclUnmannedAircraftRailroad, this) : null
+    _exclusionVolunteerWorkersAsInsuredsEDL = tempGL7SublineTypes.GL7ExclVolunteerWorkersAsInsuredsEDL1 != null ? new GL7GeneralLiabilityExclusionVolunteerWorkersAsInsuredsEDLDTO(tempGL7SublineTypes.GL7ExclVolunteerWorkersAsInsuredsEDL1, this) : null
+    _extendedReportingPeriodEndorsementForElectronicDataLiabilityCoverage = tempGL7SublineTypes.GL7ExtendedReportingPeriodEndorsementForElectrData != null ? new GL7GeneralLiabilityExtendedReportingPeriodEndorsementForElectronicDataLiabilityCoverageDTO(tempGL7SublineTypes.GL7ExtendedReportingPeriodEndorsementForElectrData, this) : null
+    _extendedReportingPeriodEndt = tempGL7SublineTypes.GL7ExtendedReportingPeriodEndt != null ? new GL7GeneralLiabilityExtendedReportingPeriodEndtDTO(tempGL7SublineTypes.GL7ExtendedReportingPeriodEndt, this) : null
+    _extendedReportingPeriodEndtForEmpBenefitsLiabCov = tempGL7SublineTypes.GL7ExtendedReportingPeriodEndtForEmpBenefitsLiabCo != null ? new GL7GeneralLiabilityExtendedReportingPeriodEndtForEmpBenefitsLiabCovDTO(tempGL7SublineTypes.GL7ExtendedReportingPeriodEndtForEmpBenefitsLiabCo, this) : null
+    _extendedReportingPeriodForTerrorismCoverage = tempGL7SublineTypes.GL7ExtendedReportingPeriodForTerr != null ? new GL7GeneralLiabilityExtendedReportingPeriodForTerrorismCoverageDTO(tempGL7SublineTypes.GL7ExtendedReportingPeriodForTerr, this) : null
+    _fiduciariesFiduciaryInterest = tempGL7SublineTypes.GL7FiduciariesFiduciaryInterest != null ? new GL7GeneralLiabilityFiduciariesFiduciaryInterestDTO(tempGL7SublineTypes.GL7FiduciariesFiduciaryInterest, this) : null
+    _financialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterest = tempGL7SublineTypes.GL7FinancialInstitutionsRptgProvisionLmtnToFiducia != null ? new GL7GeneralLiabilityFinancialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterestDTO(tempGL7SublineTypes.GL7FinancialInstitutionsRptgProvisionLmtnToFiducia, this) : null
+    _fungiOrBacteriaExclusion = tempGL7SublineTypes.GL7FungiOrBacteriaExcl != null ? new GL7GeneralLiabilityFungiOrBacteriaExclusionDTO(tempGL7SublineTypes.GL7FungiOrBacteriaExcl, this) : null
+    _fungiOrBacteriaExclusionOwnersContractorsProductsCompleted = tempGL7SublineTypes.GL7FungiOrBacteriaExclOwnersContractorsProdsComple != null ? new GL7GeneralLiabilityFungiOrBacteriaExclusionOwnersContractorsProductsCompletedDTO(tempGL7SublineTypes.GL7FungiOrBacteriaExclOwnersContractorsProdsComple, this) : null
+    _geneticallyModifiedOrganismExclusion = tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExcl != null ? new GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionDTO(tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExcl, this) : null
+    _geneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGL = tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExclForDesignatedOps != null ? new GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGLDTO(tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExclForDesignatedOps, this) : null
+    _geneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOps = tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExclForDesignatedOp1 != null ? new GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOpsDTO(tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExclForDesignatedOp1, this) : null
+    _geneticallyModifiedOrganismExclusionProdsCompldOps = tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExclProdsCompldOps != null ? new GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionProdsCompldOpsDTO(tempGL7SublineTypes.GL7GeneticallyModifiedOrganismExclProdsCompldOps, this) : null
+    _governmentalSubdivisions = tempGL7SublineTypes.GL7GovSubdivisions != null ? new GL7GeneralLiabilityGovernmentalSubdivisionsDTO(tempGL7SublineTypes.GL7GovSubdivisions, this) : null
+    _hazardousMaterialContractors = tempGL7SublineTypes.GL7HazardousMaterialContractors != null ? new GL7GeneralLiabilityHazardousMaterialContractorsDTO(tempGL7SublineTypes.GL7HazardousMaterialContractors, this) : null
+    _insuredSiteDefinition = tempGL7SublineTypes.GL7InsuredSiteDefinition != null ? new GL7GeneralLiabilityInsuredSiteDefinitionDTO(tempGL7SublineTypes.GL7InsuredSiteDefinition, this) : null
+    _lawnCareServicesCov = tempGL7SublineTypes.GL7LawnCareServicesCov != null ? new GL7GeneralLiabilityLawnCareServicesCovDTO(tempGL7SublineTypes.GL7LawnCareServicesCov, this) : null
+    _limitationOfCovRealEstateOps = tempGL7SublineTypes.GL7LimitationOfCovRealEstateOps != null ? new GL7GeneralLiabilityLimitationOfCovRealEstateOpsDTO(tempGL7SublineTypes.GL7LimitationOfCovRealEstateOps, this) : null
+    _limitationOfCovToDesignatedPremOrProject = tempGL7SublineTypes.GL7LimitationOfCovToDesignatedPremOrProject != null ? new GL7GeneralLiabilityLimitationOfCovToDesignatedPremOrProjectDTO(tempGL7SublineTypes.GL7LimitationOfCovToDesignatedPremOrProject, this) : null
+    _limitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis = tempGL7SublineTypes.GL7LimitationOfCovForTerrSubLimitAnnualAggBasis != null ? new GL7GeneralLiabilityLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasisDTO(tempGL7SublineTypes.GL7LimitationOfCovForTerrSubLimitAnnualAggBasis, this) : null
+    _limitedContractualLiabCovPersonalAdvertisingInj = tempGL7SublineTypes.GL7LmtdContractualLiabCovPersonalAdvertisingInj != null ? new GL7GeneralLiabilityLimitedContractualLiabCovPersonalAdvertisingInjDTO(tempGL7SublineTypes.GL7LmtdContractualLiabCovPersonalAdvertisingInj, this) : null
+    _limitedContractualLiabilityRailroads = tempGL7SublineTypes.GL7LmtdContractualLiabRailroads != null ? new GL7GeneralLiabilityLimitedContractualLiabilityRailroadsDTO(tempGL7SublineTypes.GL7LmtdContractualLiabRailroads, this) : null
+    _limitedCovForDesignatedUnmannedAircraft = tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraf1 != null ? new GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftDTO(tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraf1, this) : null
+    _limitedCovForDesignatedUnmannedAircraftCovAOnly = tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftCovAOnl1 != null ? new GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovAOnlyDTO(tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftCovAOnl1, this) : null
+    _limitedCovForDesignatedUnmannedAircraftCovBOnly = tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftCovBOnl1 != null ? new GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovBOnlyDTO(tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftCovBOnl1, this) : null
+    _limitedCovForDesignatedUnmannedAircraftOwnersContractors = tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftOwnersContr != null ? new GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftOwnersContractorsDTO(tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftOwnersContr, this) : null
+    _limitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverage = tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftPremiumToRe != null ? new GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftPremiumToRe, this) : null
+    _limitedCovForDesignatedUnmannedAircraftRailroad = tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftRailroad != null ? new GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftRailroadDTO(tempGL7SublineTypes.GL7LmtdCovForDesignatedUnmannedAircraftRailroad, this) : null
+    _limitedExclContractorsProfessionalLiab = tempGL7SublineTypes.GL7LmtdExclContractorsProfessionalLiab != null ? new GL7GeneralLiabilityLimitedExclContractorsProfessionalLiabDTO(tempGL7SublineTypes.GL7LmtdExclContractorsProfessionalLiab, this) : null
+    _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL = tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpInsP != null ? new GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO(tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpInsP, this) : null
+    _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps = tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns1 != null ? new GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO(tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns1, this) : null
+    _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps = tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns2 != null ? new GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO(tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByAControlledWrapUpIns2, this) : null
+    _limitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgram = tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns != null ? new GL7GeneralLiabilityLimitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgramDTO(tempGL7SublineTypes.GL7LmtdExclDesignatedOpsCovByConsolidatedWrapUp1ns, this) : null
+    _limitedExclPersonalAdvertisingInjLawyers = tempGL7SublineTypes.GL7LmtdExclPersonalAdvertisingInjLawyers != null ? new GL7GeneralLiabilityLimitedExclPersonalAdvertisingInjLawyersDTO(tempGL7SublineTypes.GL7LmtdExclPersonalAdvertisingInjLawyers, this) : null
+    _limitedFungiOrBacteriaCoverage = tempGL7SublineTypes.GL7LmtdFungiOrBacteria != null ? new GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageDTO(tempGL7SublineTypes.GL7LmtdFungiOrBacteria, this) : null
+    _limitedFungiOrBacteriaCoverageOwnersContractorsProductsCompleted = tempGL7SublineTypes.GL7LmtdFungiOrBacteriaCovOwnersContractorsProdsCom != null ? new GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageOwnersContractorsProductsCompletedDTO(tempGL7SublineTypes.GL7LmtdFungiOrBacteriaCovOwnersContractorsProdsCom, this) : null
+    _limitedPollutionLiabExtensionEndt = tempGL7SublineTypes.GL7LmtdPollutionLiabExtensionEndt != null ? new GL7GeneralLiabilityLimitedPollutionLiabExtensionEndtDTO(tempGL7SublineTypes.GL7LmtdPollutionLiabExtensionEndt, this) : null
+    _limitedProductWithdrawalExpenseEndtPolLvl = tempGL7SublineTypes.GL7LmtdProductWithdrawalExpenseEndtPolLvl != null ? new GL7GeneralLiabilityLimitedProductWithdrawalExpenseEndtPolLvlDTO(tempGL7SublineTypes.GL7LmtdProductWithdrawalExpenseEndtPolLvl, this) : null
+    _limitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorism = tempGL7SublineTypes.GL7LmtdTerrExclOthThanCertifiedActsOfTerrCapOnLoss != null ? new GL7GeneralLiabilityLimitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorismDTO(tempGL7SublineTypes.GL7LmtdTerrExclOthThanCertifiedActsOfTerrCapOnLoss, this) : null
+    _liquorLiab = tempGL7SublineTypes.GL7LiquorLiab != null ? new GL7GeneralLiabilityLiquorLiabDTO(tempGL7SublineTypes.GL7LiquorLiab, this) : null
+    _liquorPremiumToReachMinCoverage = tempGL7SublineTypes.GL7LiquorPremiumToReachMin != null ? new GL7GeneralLiabilityLiquorPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7LiquorPremiumToReachMin, this) : null
+    _location = tempGL7SublineTypes.Locations?.where(\elm -> _cf.stateMatches(elm, Parameters)) != null ? new GL7GeneralLiabilityLocationGroupingDTO(tempGL7SublineTypes.Locations?.where(\elm -> _cf.stateMatches(elm, Parameters)), this) : null
+    _medPayCoverage = tempGL7SublineTypes.GL7MedPay != null ? new GL7GeneralLiabilityMedPayCoverageDTO(tempGL7SublineTypes.GL7MedPay, this) : null
+    _misdeliveryLiquidProductsCov = tempGL7SublineTypes.GL7MisdeliveryLiquidProdsCov != null ? new GL7GeneralLiabilityMisdeliveryLiquidProductsCovDTO(tempGL7SublineTypes.GL7MisdeliveryLiquidProdsCov, this) : null
+    _nonBindingArbitration = tempGL7SublineTypes.GL7NonBindingArbitration != null ? new GL7GeneralLiabilityNonBindingArbitrationDTO(tempGL7SublineTypes.GL7NonBindingArbitration, this) : null
+    _oilGasOpsNonoperatingWorkingInterests = tempGL7SublineTypes.GL7OilGasOpsNonoperatingWorkingInterests != null ? new GL7GeneralLiabilityOilGasOpsNonoperatingWorkingInterestsDTO(tempGL7SublineTypes.GL7OilGasOpsNonoperatingWorkingInterests, this) : null
+    _operationOfCustomersAutosOnParticularPrem = tempGL7SublineTypes.GL7OperationOfCustomersAutosOnParticularPrem != null ? new GL7GeneralLiabilityOperationOfCustomersAutosOnParticularPremDTO(tempGL7SublineTypes.GL7OperationOfCustomersAutosOnParticularPrem, this) : null
+    _opticalHearingAidEstablishments = tempGL7SublineTypes.GL7OpticalHearingAidEstablishments != null ? new GL7GeneralLiabilityOpticalHearingAidEstablishmentsDTO(tempGL7SublineTypes.GL7OpticalHearingAidEstablishments, this) : null
+    _ownersContractorsPremiumToReachMinCoverage = tempGL7SublineTypes.GL7OwnersContractorsPremiumToReachMin != null ? new GL7GeneralLiabilityOwnersContractorsPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7OwnersContractorsPremiumToReachMin, this) : null
+    _personalInjuryLiab = tempGL7SublineTypes.GL7PersonalInjuryLiab != null ? new GL7GeneralLiabilityPersonalInjuryLiabDTO(tempGL7SublineTypes.GL7PersonalInjuryLiab, this) : null
+    _pesticideOrHerbicideApplicatorCov = tempGL7SublineTypes.GL7PesticideOrHerbicideApplicatorCov != null ? new GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovDTO(tempGL7SublineTypes.GL7PesticideOrHerbicideApplicatorCov, this) : null
+    _pesticideOrHerbicideApplicatorCovForPropertyInCareCustodyAndControlOfTheInsured = tempSublines.GL7PesticideOrHerbicideApplicatorCovForPropertyInC != null ? new GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovForPropertyInCareCustodyAndControlOfTheInsuredDTO(tempSublines.GL7PesticideOrHerbicideApplicatorCovForPropertyInC, this) : null
+    _pesticideOrHerbicideApplicatorCovOwnersContractors = tempGL7SublineTypes.GL7PesticideOrHerbicideApplicatorCovOwnersContract != null ? new GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovOwnersContractorsDTO(tempGL7SublineTypes.GL7PesticideOrHerbicideApplicatorCovOwnersContract, this) : null
+    _policyChanges = tempGL7SublineTypes.GL7PolicyChanges != null ? new GL7GeneralLiabilityPolicyChangesDTO(tempGL7SublineTypes.GL7PolicyChanges, this) : null
+    _pollutionExclLimitedExceptionForDesigntdPollutants = tempGL7SublineTypes.GL7PollutionExclLmtdExceptionForDesigntdPollutants != null ? new GL7GeneralLiabilityPollutionExclLimitedExceptionForDesigntdPollutantsDTO(tempGL7SublineTypes.GL7PollutionExclLmtdExceptionForDesigntdPollutants, this) : null
+    _pollutionExclLimitedExceptionShortTermEvent = tempGL7SublineTypes.GL7PollutionExclLmtdExceptionShortTermEvent != null ? new GL7GeneralLiabilityPollutionExclLimitedExceptionShortTermEventDTO(tempGL7SublineTypes.GL7PollutionExclLmtdExceptionShortTermEvent, this) : null
+    _pollutionExclNamedPerilLimitedExcptnShortTermPollutionEvent = tempGL7SublineTypes.GL7PollutionExclNamedPerilLmtdExcptnShortTermPollu != null ? new GL7GeneralLiabilityPollutionExclNamedPerilLimitedExcptnShortTermPollutionEventDTO(tempGL7SublineTypes.GL7PollutionExclNamedPerilLmtdExcptnShortTermPollu, this) : null
+    _pollutionLiabCovExtension = tempGL7SublineTypes.GL7PollutionLiabCovExtension != null ? new GL7GeneralLiabilityPollutionLiabCovExtensionDTO(tempGL7SublineTypes.GL7PollutionLiabCovExtension, this) : null
+    _pollutionLiabCovFormDesigntdSites = tempGL7SublineTypes.GL7PollutionLiabCovFormDesigntdSites != null ? new GL7GeneralLiabilityPollutionLiabCovFormDesigntdSitesDTO(tempGL7SublineTypes.GL7PollutionLiabCovFormDesigntdSites, this) : null
+    _pollutionLiabLimitedCovFormDesigntdSites = tempGL7SublineTypes.GL7PollutionLiabLmtdCovFormDesigntdSites != null ? new GL7GeneralLiabilityPollutionLiabLimitedCovFormDesigntdSitesDTO(tempGL7SublineTypes.GL7PollutionLiabLmtdCovFormDesigntdSites, this) : null
+    _pollutionPremiumToReachMinCoverage = tempGL7SublineTypes.GL7PollutionPremiumToReachMin != null ? new GL7GeneralLiabilityPollutionPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7PollutionPremiumToReachMin, this) : null
+    _premOpsPremiumToReachMinCoverage = tempGL7SublineTypes.GL7PremOpsPremiumToReachMin != null ? new GL7GeneralLiabilityPremOpsPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7PremOpsPremiumToReachMin, this) : null
+    _premiumAuditNoncomplianceCharge = tempGL7SublineTypes.GL7PremiumAuditNoncomplianceCharge != null ? new GL7GeneralLiabilityPremiumAuditNoncomplianceChargeDTO(tempGL7SublineTypes.GL7PremiumAuditNoncomplianceCharge, this) : null
+    _premiumAuditNoncomplianceChargeOwnersContractors = tempGL7SublineTypes.GL7PremiumAuditNoncomplianceChargeOwnersContractor != null ? new GL7GeneralLiabilityPremiumAuditNoncomplianceChargeOwnersContractorsDTO(tempGL7SublineTypes.GL7PremiumAuditNoncomplianceChargeOwnersContractor, this) : null
+    _primaryAndNoncontributoryOtherInsuranceCondition = tempGL7SublineTypes.GL7PrimaryAndNoncontributoryOtherInsuranceConditio != null ? new GL7GeneralLiabilityPrimaryAndNoncontributoryOtherInsuranceConditionDTO(tempGL7SublineTypes.GL7PrimaryAndNoncontributoryOtherInsuranceConditio, this) : null
+    _principalsProtectiveLiabCov = tempGL7SublineTypes.GL7PrincipalsProtectiveLiabCov != null ? new GL7GeneralLiabilityPrincipalsProtectiveLiabCovDTO(tempGL7SublineTypes.GL7PrincipalsProtectiveLiabCov, this) : null
+    _prodsCompldOpsPremiumToReachMinCoverage = tempGL7SublineTypes.GL7ProdsCompldOpsPremiumToReachMin != null ? new GL7GeneralLiabilityProdsCompldOpsPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7ProdsCompldOpsPremiumToReachMin, this) : null
+    _prodsCompletedOpsHazardRedefined = tempGL7SublineTypes.GL7ProdsCompletedOpsHazardRedefined != null ? new GL7GeneralLiabilityProdsCompletedOpsHazardRedefinedDTO(tempGL7SublineTypes.GL7ProdsCompletedOpsHazardRedefined, this) : null
+    _productWithdrawalCoverageForm = tempGL7SublineTypes.GL7ProductWithdrawalCovForm != null ? new GL7GeneralLiabilityProductWithdrawalCoverageFormDTO(tempGL7SublineTypes.GL7ProductWithdrawalCovForm, this) : null
+    _productWithdrawalPremiumToReachMinCoverage = tempGL7SublineTypes.GL7ProductWithdrawalPremiumToReachMin != null ? new GL7GeneralLiabilityProductWithdrawalPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7ProductWithdrawalPremiumToReachMin, this) : null
+    _professionalLiabExclComputerDataProcessing = tempGL7SublineTypes.GL7ProfessionalLiabExclCompDataProcessing != null ? new GL7GeneralLiabilityProfessionalLiabExclComputerDataProcessingDTO(tempGL7SublineTypes.GL7ProfessionalLiabExclCompDataProcessing, this) : null
+    _professionalLiabExclComputerSoftware = tempGL7SublineTypes.GL7ProfessionalLiabExclCompSoftware != null ? new GL7GeneralLiabilityProfessionalLiabExclComputerSoftwareDTO(tempGL7SublineTypes.GL7ProfessionalLiabExclCompSoftware, this) : null
+    _professionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvc = tempGL7SublineTypes.GL7ProfessionalLiabExclElectrDataProcgSrvcCompuCon != null ? new GL7GeneralLiabilityProfessionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvcDTO(tempGL7SublineTypes.GL7ProfessionalLiabExclElectrDataProcgSrvcCompuCon, this) : null
+    _professionalLiabExclWebSiteDesigners = tempGL7SublineTypes.GL7ProfessionalLiabExclWebSiteDesigners != null ? new GL7GeneralLiabilityProfessionalLiabExclWebSiteDesignersDTO(tempGL7SublineTypes.GL7ProfessionalLiabExclWebSiteDesigners, this) : null
+    _proflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilities = tempGL7SublineTypes.GL7ProflLiabExclHealthExerciseClubCommerciallyOper != null ? new GL7GeneralLiabilityProflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilitiesDTO(tempGL7SublineTypes.GL7ProflLiabExclHealthExerciseClubCommerciallyOper, this) : null
+    _proflLiabExclSpasOrPersonalEnhancementFacilities = tempGL7SublineTypes.GL7ProflLiabExclSpasOrPersonalEnhancementFacilitie != null ? new GL7GeneralLiabilityProflLiabExclSpasOrPersonalEnhancementFacilitiesDTO(tempGL7SublineTypes.GL7ProflLiabExclSpasOrPersonalEnhancementFacilitie, this) : null
+    _railroadPremiumToReachMinCoverage = tempGL7SublineTypes.GL7RailroadPremiumToReachMin != null ? new GL7GeneralLiabilityRailroadPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7RailroadPremiumToReachMin, this) : null
+    _realEstatePropertyManaged = tempGL7SublineTypes.GL7RealEstatePropertyManaged != null ? new GL7GeneralLiabilityRealEstatePropertyManagedDTO(tempGL7SublineTypes.GL7RealEstatePropertyManaged, this) : null
+    _residentAgentCountersignatureEndorsement = tempGL7SublineTypes.GL7ResidentAgentCountersignatureEndorsement != null ? new GL7GeneralLiabilityResidentAgentCountersignatureEndorsementDTO(tempGL7SublineTypes.GL7ResidentAgentCountersignatureEndorsement, this) : null
+    _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGermin = tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAndR != null ? new GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminDTO(tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAndR, this) : null
+    _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotIncldd = tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAnd1 != null ? new GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddDTO(tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAnd1, this) : null
+    _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOps = tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAnd2 != null ? new GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOpsDTO(tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAnd2, this) : null
+    _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOps = tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAnd3 != null ? new GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOpsDTO(tempGL7SublineTypes.GL7SeedMerchantsCovForErroneousDeliveryMixtureAnd3, this) : null
+    _silicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOps = tempGL7SublineTypes.GL7SilicaOrSilicaReltdDustExclOwnersContractorsPro != null ? new GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOpsDTO(tempGL7SublineTypes.GL7SilicaOrSilicaReltdDustExclOwnersContractorsPro, this) : null
+    _silicaOrSilicaRelatedDustExclusionPremOpsProds = tempGL7SublineTypes.GL7SilicaOrSilicaReltdDustExclPremOpsProds != null ? new GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionPremOpsProdsDTO(tempGL7SublineTypes.GL7SilicaOrSilicaReltdDustExclPremOpsProds, this) : null
+    _silicaOrSilicaRelatedDustExclusionRailroad = tempGL7SublineTypes.GL7SilicaOrSilicaReltdDustExclRailroad != null ? new GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionRailroadDTO(tempGL7SublineTypes.GL7SilicaOrSilicaReltdDustExclRailroad, this) : null
+    _specialCombinedPremiumToReachMinCoverage = tempGL7SublineTypes.GL7SpecialCombinedPremiumToReachMin != null ? new GL7GeneralLiabilitySpecialCombinedPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7SpecialCombinedPremiumToReachMin, this) : null
+    _stevedoringOperations = tempGL7SublineTypes.GL7StevedoringOps != null ? new GL7GeneralLiabilityStevedoringOperationsDTO(tempGL7SublineTypes.GL7StevedoringOps, this) : null
+    _stopGapEmployersLiabilityCoverageEndorsementPolLvl = tempSublines.GL7StopGapEmployersLiabCovEndorsementPolLvl != null ? new GL7GeneralLiabilityStopGapEmployersLiabilityCoverageEndorsementPolLvlDTO(tempSublines.GL7StopGapEmployersLiabCovEndorsementPolLvl, this) : null
+    _supplementalExtendedReportingPeriodEndorsementCG3057 = tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndorsementC != null ? new GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndorsementCG3057DTO(tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndorsementC, this) : null
+    _supplementalExtendedReportingPeriodEndt = tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndt != null ? new GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtDTO(tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndt, this) : null
+    _supplementalExtendedReportingPeriodEndtLiquorLiab = tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtLiquorLi != null ? new GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtLiquorLiabDTO(tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtLiquorLi, this) : null
+    _supplementalExtendedReportingPeriodEndtProdsCompldOps = tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtProdsCom != null ? new GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtProdsCompldOpsDTO(tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtProdsCom, this) : null
+    _supplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocations = tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtSpecific != null ? new GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocationsDTO(tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtSpecific, this) : null
+    _supplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOps = tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtSpecifi1 != null ? new GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOpsDTO(tempGL7SublineTypes.GL7SupplementalExtendedReportingPeriodEndtSpecifi1, this) : null
+    _terrorismEndorsementCoverage = tempGL7SublineTypes.GL7TerrEndorsement != null ? new GL7GeneralLiabilityTerrorismEndorsementCoverageDTO(tempGL7SublineTypes.GL7TerrEndorsement, this) : null
+    _totalPollutionExclEndt = tempGL7SublineTypes.GL7TotalPollutionExclEndt != null ? new GL7GeneralLiabilityTotalPollutionExclEndtDTO(tempGL7SublineTypes.GL7TotalPollutionExclEndt, this) : null
+    _totalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptn = tempGL7SublineTypes.GL7TotalPollutionExclWithABldgHeatgEquipmtExcptnHo != null ? new GL7GeneralLiabilityTotalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptnDTO(tempGL7SublineTypes.GL7TotalPollutionExclWithABldgHeatgEquipmtExcptnHo, this) : null
+    _totalPollutionExclWithAHostileFireExcptn = tempGL7SublineTypes.GL7TotalPollutionExclWithAHostileFireExcptn != null ? new GL7GeneralLiabilityTotalPollutionExclWithAHostileFireExcptnDTO(tempGL7SublineTypes.GL7TotalPollutionExclWithAHostileFireExcptn, this) : null
+    _totalPollutionExclusionForDesignatedProdsOrWork = tempGL7SublineTypes.GL7TotalPollutionExclForDesignatedProdsOrWork != null ? new GL7GeneralLiabilityTotalPollutionExclusionForDesignatedProdsOrWorkDTO(tempGL7SublineTypes.GL7TotalPollutionExclForDesignatedProdsOrWork, this) : null
+    _totalPollutionExclusionOwnersContractors = tempGL7SublineTypes.GL7TotalPollutionExclOwnersContractors != null ? new GL7GeneralLiabilityTotalPollutionExclusionOwnersContractorsDTO(tempGL7SublineTypes.GL7TotalPollutionExclOwnersContractors, this) : null
+    _totalPollutionExclusionProdsCompldOps = tempGL7SublineTypes.GL7TotalPollutionExclProdsCompldOps != null ? new GL7GeneralLiabilityTotalPollutionExclusionProdsCompldOpsDTO(tempGL7SublineTypes.GL7TotalPollutionExclProdsCompldOps, this) : null
+    _totalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractors = tempGL7SublineTypes.GL7TotalPollutionExclWithABldgHeatgEquipmtExcptnH1 != null ? new GL7GeneralLiabilityTotalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractorsDTO(tempGL7SublineTypes.GL7TotalPollutionExclWithABldgHeatgEquipmtExcptnH1, this) : null
+    _totalPollutionExclusionWithAHostileFireExceptionOwnersContractors = tempGL7SublineTypes.GL7TotalPollutionExclWithAHostileFireExceptionOwne != null ? new GL7GeneralLiabilityTotalPollutionExclusionWithAHostileFireExceptionOwnersContractorsDTO(tempGL7SublineTypes.GL7TotalPollutionExclWithAHostileFireExceptionOwne, this) : null
+    _undergroundResourcesAndEquipmtCov = tempGL7SublineTypes.GL7UndergroundResourcesAndEquipmtCov != null ? new GL7GeneralLiabilityUndergroundResourcesAndEquipmtCovDTO(tempGL7SublineTypes.GL7UndergroundResourcesAndEquipmtCov, this) : null
+    _undergroundStorageTankPremiumToReachMinCoverage = tempGL7SublineTypes.GL7UndergroundStorageTankPremiumToReachMin != null ? new GL7GeneralLiabilityUndergroundStorageTankPremiumToReachMinCoverageDTO(tempGL7SublineTypes.GL7UndergroundStorageTankPremiumToReachMin, this) : null
+    _voluntaryCleanUpCostsReimbursement = tempGL7SublineTypes.GL7VoluntaryCleanUpCostsReimbursement != null ? new GL7GeneralLiabilityVoluntaryCleanUpCostsReimbursementDTO(tempGL7SublineTypes.GL7VoluntaryCleanUpCostsReimbursement, this) : null
+    _waiverCharitableImmunity = tempGL7SublineTypes.GL7WaiverCharitableImmunity != null ? new GL7GeneralLiabilityWaiverCharitableImmunityDTO(tempGL7SublineTypes.GL7WaiverCharitableImmunity, this) : null
+    _waiverGovernmentalImmunity = tempGL7SublineTypes.GL7WaiverGovImmunity != null ? new GL7GeneralLiabilityWaiverGovernmentalImmunityDTO(tempGL7SublineTypes.GL7WaiverGovImmunity, this) : null
+    _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrs = tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOthers != null ? new GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrsDTO(tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOthers, this) : null
+    _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomatic = tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther2 != null ? new GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticDTO(tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther2, this) : null
+    _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractors = tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther3 != null ? new GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractorsDTO(tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther3, this) : null
+    _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawal = tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther4 != null ? new GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawalDTO(tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther4, this) : null
+    _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawal = tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther5 != null ? new GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawalDTO(tempGL7SublineTypes.GL7WaiverOfTransferOfRightsOfRecoveryAgainstOther5, this) : null
+    _waiverTransferRightsRecovery = tempGL7SublineTypes.GL7WaiverTransferRightsRecovery != null ? new GL7GeneralLiabilityWaiverTransferRightsRecoveryDTO(tempGL7SublineTypes.GL7WaiverTransferRightsRecovery, this) : null
+    _woodDestroyingInsectDiagnosticInspectionErrorsAndOmissionsCoverage = tempSublines.GL7WoodDestroyingInsectDiagnosticInspectionErrorsA != null ? new GL7GeneralLiabilityWoodDestroyingInsectDiagnosticInspectionErrorsAndOmissionsCoverageDTO(tempSublines.GL7WoodDestroyingInsectDiagnosticInspectionErrorsA, this) : null
+    _year2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcs = tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs != null ? new GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcsDTO(tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbExclDesigntdLocs, this) : null
+    _year2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOps = tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO != null ? new GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOpsDTO(tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbExclProdsCompldO, this) : null
+    _year2000CompuReltdAndOtherElectronicProblemsLimitedCovOption = tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption != null ? new GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLimitedCovOptionDTO(tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOption, this) : null
+    _year2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOps = tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds != null ? new GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOpsDTO(tempGL7SublineTypes.GL7Y2KCompuReltdAndOtherElectrProbLmtdCovOptsProds, this) : null
+  }
+
+  
+  @VisibleInRateflow
+  override property get Self() : GL7GeneralLiabilityDTO {
+   return this
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Year2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOps() : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOpsDTO {
+   return _year2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOps as GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Year2000CompuReltdAndOtherElectronicProblemsLimitedCovOption() : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLimitedCovOptionDTO {
+   return _year2000CompuReltdAndOtherElectronicProblemsLimitedCovOption as GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLimitedCovOptionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Year2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOps() : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOpsDTO {
+   return _year2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOps as GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Year2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcs() : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcsDTO {
+   return _year2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcs as GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcsDTO
+  }
+  
+
+  @VisibleInRateflow
+  var _woodDestroyingInsectDiagnosticInspectionErrorsAndOmissionsCoverage : GL7GeneralLiabilityWoodDestroyingInsectDiagnosticInspectionErrorsAndOmissionsCoverageDTO as readonly WoodDestroyingInsectDiagnosticInspectionErrorsAndOmissionsCoverage  
+
+  
+  @VisibleInRateflow
+  property get WaiverTransferRightsRecovery() : GL7GeneralLiabilityWaiverTransferRightsRecoveryDTO {
+   return _waiverTransferRightsRecovery as GL7GeneralLiabilityWaiverTransferRightsRecoveryDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawal() : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawalDTO {
+   return _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawal as GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawalDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawal() : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawalDTO {
+   return _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawal as GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawalDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractors() : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractorsDTO {
+   return _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractors as GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomatic() : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticDTO {
+   return _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomatic as GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrs() : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrsDTO {
+   return _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrs as GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverGovernmentalImmunity() : GL7GeneralLiabilityWaiverGovernmentalImmunityDTO {
+   return _waiverGovernmentalImmunity as GL7GeneralLiabilityWaiverGovernmentalImmunityDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get WaiverCharitableImmunity() : GL7GeneralLiabilityWaiverCharitableImmunityDTO {
+   return _waiverCharitableImmunity as GL7GeneralLiabilityWaiverCharitableImmunityDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get VoluntaryCleanUpCostsReimbursement() : GL7GeneralLiabilityVoluntaryCleanUpCostsReimbursementDTO {
+   return _voluntaryCleanUpCostsReimbursement as GL7GeneralLiabilityVoluntaryCleanUpCostsReimbursementDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get UndergroundStorageTankPremiumToReachMinCoverage() : GL7GeneralLiabilityUndergroundStorageTankPremiumToReachMinCoverageDTO {
+   return _undergroundStorageTankPremiumToReachMinCoverage as GL7GeneralLiabilityUndergroundStorageTankPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get UndergroundResourcesAndEquipmtCov() : GL7GeneralLiabilityUndergroundResourcesAndEquipmtCovDTO {
+   return _undergroundResourcesAndEquipmtCov as GL7GeneralLiabilityUndergroundResourcesAndEquipmtCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclusionWithAHostileFireExceptionOwnersContractors() : GL7GeneralLiabilityTotalPollutionExclusionWithAHostileFireExceptionOwnersContractorsDTO {
+   return _totalPollutionExclusionWithAHostileFireExceptionOwnersContractors as GL7GeneralLiabilityTotalPollutionExclusionWithAHostileFireExceptionOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractors() : GL7GeneralLiabilityTotalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractorsDTO {
+   return _totalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractors as GL7GeneralLiabilityTotalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclusionProdsCompldOps() : GL7GeneralLiabilityTotalPollutionExclusionProdsCompldOpsDTO {
+   return _totalPollutionExclusionProdsCompldOps as GL7GeneralLiabilityTotalPollutionExclusionProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclusionOwnersContractors() : GL7GeneralLiabilityTotalPollutionExclusionOwnersContractorsDTO {
+   return _totalPollutionExclusionOwnersContractors as GL7GeneralLiabilityTotalPollutionExclusionOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclusionForDesignatedProdsOrWork() : GL7GeneralLiabilityTotalPollutionExclusionForDesignatedProdsOrWorkDTO {
+   return _totalPollutionExclusionForDesignatedProdsOrWork as GL7GeneralLiabilityTotalPollutionExclusionForDesignatedProdsOrWorkDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclWithAHostileFireExcptn() : GL7GeneralLiabilityTotalPollutionExclWithAHostileFireExcptnDTO {
+   return _totalPollutionExclWithAHostileFireExcptn as GL7GeneralLiabilityTotalPollutionExclWithAHostileFireExcptnDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptn() : GL7GeneralLiabilityTotalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptnDTO {
+   return _totalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptn as GL7GeneralLiabilityTotalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptnDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TotalPollutionExclEndt() : GL7GeneralLiabilityTotalPollutionExclEndtDTO {
+   return _totalPollutionExclEndt as GL7GeneralLiabilityTotalPollutionExclEndtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get TerrorismEndorsementCoverage() : GL7GeneralLiabilityTerrorismEndorsementCoverageDTO {
+   return _terrorismEndorsementCoverage as GL7GeneralLiabilityTerrorismEndorsementCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOps() : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOpsDTO {
+   return _supplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOps as GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocations() : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocationsDTO {
+   return _supplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocations as GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocationsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SupplementalExtendedReportingPeriodEndtProdsCompldOps() : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtProdsCompldOpsDTO {
+   return _supplementalExtendedReportingPeriodEndtProdsCompldOps as GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SupplementalExtendedReportingPeriodEndtLiquorLiab() : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtLiquorLiabDTO {
+   return _supplementalExtendedReportingPeriodEndtLiquorLiab as GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtLiquorLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SupplementalExtendedReportingPeriodEndt() : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtDTO {
+   return _supplementalExtendedReportingPeriodEndt as GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SupplementalExtendedReportingPeriodEndorsementCG3057() : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndorsementCG3057DTO {
+   return _supplementalExtendedReportingPeriodEndorsementCG3057 as GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndorsementCG3057DTO
+  }
+  
+
+  @VisibleInRateflow
+  var _stopGapEmployersLiabilityCoverageEndorsementPolLvl : GL7GeneralLiabilityStopGapEmployersLiabilityCoverageEndorsementPolLvlDTO as readonly StopGapEmployersLiabilityCoverageEndorsementPolLvl  
+
+  
+  @VisibleInRateflow
+  property get StevedoringOperations() : GL7GeneralLiabilityStevedoringOperationsDTO {
+   return _stevedoringOperations as GL7GeneralLiabilityStevedoringOperationsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SpecialCombinedPremiumToReachMinCoverage() : GL7GeneralLiabilitySpecialCombinedPremiumToReachMinCoverageDTO {
+   return _specialCombinedPremiumToReachMinCoverage as GL7GeneralLiabilitySpecialCombinedPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SilicaOrSilicaRelatedDustExclusionRailroad() : GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionRailroadDTO {
+   return _silicaOrSilicaRelatedDustExclusionRailroad as GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionRailroadDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SilicaOrSilicaRelatedDustExclusionPremOpsProds() : GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionPremOpsProdsDTO {
+   return _silicaOrSilicaRelatedDustExclusionPremOpsProds as GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionPremOpsProdsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SilicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOps() : GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOpsDTO {
+   return _silicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOps as GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOps() : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOpsDTO {
+   return _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOps as GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOps() : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOpsDTO {
+   return _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOps as GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotIncldd() : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddDTO {
+   return _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotIncldd as GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGermin() : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminDTO {
+   return _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGermin as GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ResidentAgentCountersignatureEndorsement() : GL7GeneralLiabilityResidentAgentCountersignatureEndorsementDTO {
+   return _residentAgentCountersignatureEndorsement as GL7GeneralLiabilityResidentAgentCountersignatureEndorsementDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get RealEstatePropertyManaged() : GL7GeneralLiabilityRealEstatePropertyManagedDTO {
+   return _realEstatePropertyManaged as GL7GeneralLiabilityRealEstatePropertyManagedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get RailroadPremiumToReachMinCoverage() : GL7GeneralLiabilityRailroadPremiumToReachMinCoverageDTO {
+   return _railroadPremiumToReachMinCoverage as GL7GeneralLiabilityRailroadPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProflLiabExclSpasOrPersonalEnhancementFacilities() : GL7GeneralLiabilityProflLiabExclSpasOrPersonalEnhancementFacilitiesDTO {
+   return _proflLiabExclSpasOrPersonalEnhancementFacilities as GL7GeneralLiabilityProflLiabExclSpasOrPersonalEnhancementFacilitiesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilities() : GL7GeneralLiabilityProflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilitiesDTO {
+   return _proflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilities as GL7GeneralLiabilityProflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilitiesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProfessionalLiabExclWebSiteDesigners() : GL7GeneralLiabilityProfessionalLiabExclWebSiteDesignersDTO {
+   return _professionalLiabExclWebSiteDesigners as GL7GeneralLiabilityProfessionalLiabExclWebSiteDesignersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProfessionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvc() : GL7GeneralLiabilityProfessionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvcDTO {
+   return _professionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvc as GL7GeneralLiabilityProfessionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvcDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProfessionalLiabExclComputerSoftware() : GL7GeneralLiabilityProfessionalLiabExclComputerSoftwareDTO {
+   return _professionalLiabExclComputerSoftware as GL7GeneralLiabilityProfessionalLiabExclComputerSoftwareDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProfessionalLiabExclComputerDataProcessing() : GL7GeneralLiabilityProfessionalLiabExclComputerDataProcessingDTO {
+   return _professionalLiabExclComputerDataProcessing as GL7GeneralLiabilityProfessionalLiabExclComputerDataProcessingDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProductWithdrawalPremiumToReachMinCoverage() : GL7GeneralLiabilityProductWithdrawalPremiumToReachMinCoverageDTO {
+   return _productWithdrawalPremiumToReachMinCoverage as GL7GeneralLiabilityProductWithdrawalPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProductWithdrawalCoverageForm() : GL7GeneralLiabilityProductWithdrawalCoverageFormDTO {
+   return _productWithdrawalCoverageForm as GL7GeneralLiabilityProductWithdrawalCoverageFormDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProdsCompletedOpsHazardRedefined() : GL7GeneralLiabilityProdsCompletedOpsHazardRedefinedDTO {
+   return _prodsCompletedOpsHazardRedefined as GL7GeneralLiabilityProdsCompletedOpsHazardRedefinedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ProdsCompldOpsPremiumToReachMinCoverage() : GL7GeneralLiabilityProdsCompldOpsPremiumToReachMinCoverageDTO {
+   return _prodsCompldOpsPremiumToReachMinCoverage as GL7GeneralLiabilityProdsCompldOpsPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PrincipalsProtectiveLiabCov() : GL7GeneralLiabilityPrincipalsProtectiveLiabCovDTO {
+   return _principalsProtectiveLiabCov as GL7GeneralLiabilityPrincipalsProtectiveLiabCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PrimaryAndNoncontributoryOtherInsuranceCondition() : GL7GeneralLiabilityPrimaryAndNoncontributoryOtherInsuranceConditionDTO {
+   return _primaryAndNoncontributoryOtherInsuranceCondition as GL7GeneralLiabilityPrimaryAndNoncontributoryOtherInsuranceConditionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PremiumAuditNoncomplianceChargeOwnersContractors() : GL7GeneralLiabilityPremiumAuditNoncomplianceChargeOwnersContractorsDTO {
+   return _premiumAuditNoncomplianceChargeOwnersContractors as GL7GeneralLiabilityPremiumAuditNoncomplianceChargeOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PremiumAuditNoncomplianceCharge() : GL7GeneralLiabilityPremiumAuditNoncomplianceChargeDTO {
+   return _premiumAuditNoncomplianceCharge as GL7GeneralLiabilityPremiumAuditNoncomplianceChargeDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PremOpsPremiumToReachMinCoverage() : GL7GeneralLiabilityPremOpsPremiumToReachMinCoverageDTO {
+   return _premOpsPremiumToReachMinCoverage as GL7GeneralLiabilityPremOpsPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionPremiumToReachMinCoverage() : GL7GeneralLiabilityPollutionPremiumToReachMinCoverageDTO {
+   return _pollutionPremiumToReachMinCoverage as GL7GeneralLiabilityPollutionPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionLiabLimitedCovFormDesigntdSites() : GL7GeneralLiabilityPollutionLiabLimitedCovFormDesigntdSitesDTO {
+   return _pollutionLiabLimitedCovFormDesigntdSites as GL7GeneralLiabilityPollutionLiabLimitedCovFormDesigntdSitesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionLiabCovFormDesigntdSites() : GL7GeneralLiabilityPollutionLiabCovFormDesigntdSitesDTO {
+   return _pollutionLiabCovFormDesigntdSites as GL7GeneralLiabilityPollutionLiabCovFormDesigntdSitesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionLiabCovExtension() : GL7GeneralLiabilityPollutionLiabCovExtensionDTO {
+   return _pollutionLiabCovExtension as GL7GeneralLiabilityPollutionLiabCovExtensionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionExclNamedPerilLimitedExcptnShortTermPollutionEvent() : GL7GeneralLiabilityPollutionExclNamedPerilLimitedExcptnShortTermPollutionEventDTO {
+   return _pollutionExclNamedPerilLimitedExcptnShortTermPollutionEvent as GL7GeneralLiabilityPollutionExclNamedPerilLimitedExcptnShortTermPollutionEventDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionExclLimitedExceptionShortTermEvent() : GL7GeneralLiabilityPollutionExclLimitedExceptionShortTermEventDTO {
+   return _pollutionExclLimitedExceptionShortTermEvent as GL7GeneralLiabilityPollutionExclLimitedExceptionShortTermEventDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PollutionExclLimitedExceptionForDesigntdPollutants() : GL7GeneralLiabilityPollutionExclLimitedExceptionForDesigntdPollutantsDTO {
+   return _pollutionExclLimitedExceptionForDesigntdPollutants as GL7GeneralLiabilityPollutionExclLimitedExceptionForDesigntdPollutantsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PolicyChanges() : GL7GeneralLiabilityPolicyChangesDTO {
+   return _policyChanges as GL7GeneralLiabilityPolicyChangesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PesticideOrHerbicideApplicatorCovOwnersContractors() : GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovOwnersContractorsDTO {
+   return _pesticideOrHerbicideApplicatorCovOwnersContractors as GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovOwnersContractorsDTO
+  }
+  
+
+  @VisibleInRateflow
+  var _pesticideOrHerbicideApplicatorCovForPropertyInCareCustodyAndControlOfTheInsured : GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovForPropertyInCareCustodyAndControlOfTheInsuredDTO as readonly PesticideOrHerbicideApplicatorCovForPropertyInCareCustodyAndControlOfTheInsured  
+
+  
+  @VisibleInRateflow
+  property get PesticideOrHerbicideApplicatorCov() : GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovDTO {
+   return _pesticideOrHerbicideApplicatorCov as GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get PersonalInjuryLiab() : GL7GeneralLiabilityPersonalInjuryLiabDTO {
+   return _personalInjuryLiab as GL7GeneralLiabilityPersonalInjuryLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get OwnersContractorsPremiumToReachMinCoverage() : GL7GeneralLiabilityOwnersContractorsPremiumToReachMinCoverageDTO {
+   return _ownersContractorsPremiumToReachMinCoverage as GL7GeneralLiabilityOwnersContractorsPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get OpticalHearingAidEstablishments() : GL7GeneralLiabilityOpticalHearingAidEstablishmentsDTO {
+   return _opticalHearingAidEstablishments as GL7GeneralLiabilityOpticalHearingAidEstablishmentsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get OperationOfCustomersAutosOnParticularPrem() : GL7GeneralLiabilityOperationOfCustomersAutosOnParticularPremDTO {
+   return _operationOfCustomersAutosOnParticularPrem as GL7GeneralLiabilityOperationOfCustomersAutosOnParticularPremDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get OilGasOpsNonoperatingWorkingInterests() : GL7GeneralLiabilityOilGasOpsNonoperatingWorkingInterestsDTO {
+   return _oilGasOpsNonoperatingWorkingInterests as GL7GeneralLiabilityOilGasOpsNonoperatingWorkingInterestsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get NonBindingArbitration() : GL7GeneralLiabilityNonBindingArbitrationDTO {
+   return _nonBindingArbitration as GL7GeneralLiabilityNonBindingArbitrationDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get MisdeliveryLiquidProductsCov() : GL7GeneralLiabilityMisdeliveryLiquidProductsCovDTO {
+   return _misdeliveryLiquidProductsCov as GL7GeneralLiabilityMisdeliveryLiquidProductsCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get MedPayCoverage() : GL7GeneralLiabilityMedPayCoverageDTO {
+   return _medPayCoverage as GL7GeneralLiabilityMedPayCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Location() : GL7GeneralLiabilityLocationGroupingDTO {
+   return _location as GL7GeneralLiabilityLocationGroupingDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LiquorPremiumToReachMinCoverage() : GL7GeneralLiabilityLiquorPremiumToReachMinCoverageDTO {
+   return _liquorPremiumToReachMinCoverage as GL7GeneralLiabilityLiquorPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LiquorLiab() : GL7GeneralLiabilityLiquorLiabDTO {
+   return _liquorLiab as GL7GeneralLiabilityLiquorLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorism() : GL7GeneralLiabilityLimitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorismDTO {
+   return _limitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorism as GL7GeneralLiabilityLimitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedProductWithdrawalExpenseEndtPolLvl() : GL7GeneralLiabilityLimitedProductWithdrawalExpenseEndtPolLvlDTO {
+   return _limitedProductWithdrawalExpenseEndtPolLvl as GL7GeneralLiabilityLimitedProductWithdrawalExpenseEndtPolLvlDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedPollutionLiabExtensionEndt() : GL7GeneralLiabilityLimitedPollutionLiabExtensionEndtDTO {
+   return _limitedPollutionLiabExtensionEndt as GL7GeneralLiabilityLimitedPollutionLiabExtensionEndtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedFungiOrBacteriaCoverageOwnersContractorsProductsCompleted() : GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageOwnersContractorsProductsCompletedDTO {
+   return _limitedFungiOrBacteriaCoverageOwnersContractorsProductsCompleted as GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageOwnersContractorsProductsCompletedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedFungiOrBacteriaCoverage() : GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageDTO {
+   return _limitedFungiOrBacteriaCoverage as GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedExclPersonalAdvertisingInjLawyers() : GL7GeneralLiabilityLimitedExclPersonalAdvertisingInjLawyersDTO {
+   return _limitedExclPersonalAdvertisingInjLawyers as GL7GeneralLiabilityLimitedExclPersonalAdvertisingInjLawyersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgram() : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgramDTO {
+   return _limitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgram as GL7GeneralLiabilityLimitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgramDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps() : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO {
+   return _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps as GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps() : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO {
+   return _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps as GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL() : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO {
+   return _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL as GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedExclContractorsProfessionalLiab() : GL7GeneralLiabilityLimitedExclContractorsProfessionalLiabDTO {
+   return _limitedExclContractorsProfessionalLiab as GL7GeneralLiabilityLimitedExclContractorsProfessionalLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedCovForDesignatedUnmannedAircraftRailroad() : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftRailroadDTO {
+   return _limitedCovForDesignatedUnmannedAircraftRailroad as GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftRailroadDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverage() : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverageDTO {
+   return _limitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverage as GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedCovForDesignatedUnmannedAircraftOwnersContractors() : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftOwnersContractorsDTO {
+   return _limitedCovForDesignatedUnmannedAircraftOwnersContractors as GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedCovForDesignatedUnmannedAircraftCovBOnly() : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovBOnlyDTO {
+   return _limitedCovForDesignatedUnmannedAircraftCovBOnly as GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovBOnlyDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedCovForDesignatedUnmannedAircraftCovAOnly() : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovAOnlyDTO {
+   return _limitedCovForDesignatedUnmannedAircraftCovAOnly as GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovAOnlyDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedCovForDesignatedUnmannedAircraft() : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftDTO {
+   return _limitedCovForDesignatedUnmannedAircraft as GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedContractualLiabilityRailroads() : GL7GeneralLiabilityLimitedContractualLiabilityRailroadsDTO {
+   return _limitedContractualLiabilityRailroads as GL7GeneralLiabilityLimitedContractualLiabilityRailroadsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitedContractualLiabCovPersonalAdvertisingInj() : GL7GeneralLiabilityLimitedContractualLiabCovPersonalAdvertisingInjDTO {
+   return _limitedContractualLiabCovPersonalAdvertisingInj as GL7GeneralLiabilityLimitedContractualLiabCovPersonalAdvertisingInjDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis() : GL7GeneralLiabilityLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasisDTO {
+   return _limitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis as GL7GeneralLiabilityLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasisDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitationOfCovToDesignatedPremOrProject() : GL7GeneralLiabilityLimitationOfCovToDesignatedPremOrProjectDTO {
+   return _limitationOfCovToDesignatedPremOrProject as GL7GeneralLiabilityLimitationOfCovToDesignatedPremOrProjectDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LimitationOfCovRealEstateOps() : GL7GeneralLiabilityLimitationOfCovRealEstateOpsDTO {
+   return _limitationOfCovRealEstateOps as GL7GeneralLiabilityLimitationOfCovRealEstateOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get LawnCareServicesCov() : GL7GeneralLiabilityLawnCareServicesCovDTO {
+   return _lawnCareServicesCov as GL7GeneralLiabilityLawnCareServicesCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get InsuredSiteDefinition() : GL7GeneralLiabilityInsuredSiteDefinitionDTO {
+   return _insuredSiteDefinition as GL7GeneralLiabilityInsuredSiteDefinitionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get HazardousMaterialContractors() : GL7GeneralLiabilityHazardousMaterialContractorsDTO {
+   return _hazardousMaterialContractors as GL7GeneralLiabilityHazardousMaterialContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get GovernmentalSubdivisions() : GL7GeneralLiabilityGovernmentalSubdivisionsDTO {
+   return _governmentalSubdivisions as GL7GeneralLiabilityGovernmentalSubdivisionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get GeneticallyModifiedOrganismExclusionProdsCompldOps() : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionProdsCompldOpsDTO {
+   return _geneticallyModifiedOrganismExclusionProdsCompldOps as GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get GeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOps() : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOpsDTO {
+   return _geneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOps as GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get GeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGL() : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGLDTO {
+   return _geneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGL as GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get GeneticallyModifiedOrganismExclusion() : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionDTO {
+   return _geneticallyModifiedOrganismExclusion as GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get FungiOrBacteriaExclusionOwnersContractorsProductsCompleted() : GL7GeneralLiabilityFungiOrBacteriaExclusionOwnersContractorsProductsCompletedDTO {
+   return _fungiOrBacteriaExclusionOwnersContractorsProductsCompleted as GL7GeneralLiabilityFungiOrBacteriaExclusionOwnersContractorsProductsCompletedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get FungiOrBacteriaExclusion() : GL7GeneralLiabilityFungiOrBacteriaExclusionDTO {
+   return _fungiOrBacteriaExclusion as GL7GeneralLiabilityFungiOrBacteriaExclusionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get FinancialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterest() : GL7GeneralLiabilityFinancialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterestDTO {
+   return _financialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterest as GL7GeneralLiabilityFinancialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterestDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get FiduciariesFiduciaryInterest() : GL7GeneralLiabilityFiduciariesFiduciaryInterestDTO {
+   return _fiduciariesFiduciaryInterest as GL7GeneralLiabilityFiduciariesFiduciaryInterestDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExtendedReportingPeriodForTerrorismCoverage() : GL7GeneralLiabilityExtendedReportingPeriodForTerrorismCoverageDTO {
+   return _extendedReportingPeriodForTerrorismCoverage as GL7GeneralLiabilityExtendedReportingPeriodForTerrorismCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExtendedReportingPeriodEndtForEmpBenefitsLiabCov() : GL7GeneralLiabilityExtendedReportingPeriodEndtForEmpBenefitsLiabCovDTO {
+   return _extendedReportingPeriodEndtForEmpBenefitsLiabCov as GL7GeneralLiabilityExtendedReportingPeriodEndtForEmpBenefitsLiabCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExtendedReportingPeriodEndt() : GL7GeneralLiabilityExtendedReportingPeriodEndtDTO {
+   return _extendedReportingPeriodEndt as GL7GeneralLiabilityExtendedReportingPeriodEndtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExtendedReportingPeriodEndorsementForElectronicDataLiabilityCoverage() : GL7GeneralLiabilityExtendedReportingPeriodEndorsementForElectronicDataLiabilityCoverageDTO {
+   return _extendedReportingPeriodEndorsementForElectronicDataLiabilityCoverage as GL7GeneralLiabilityExtendedReportingPeriodEndorsementForElectronicDataLiabilityCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionVolunteerWorkersAsInsuredsEDL() : GL7GeneralLiabilityExclusionVolunteerWorkersAsInsuredsEDLDTO {
+   return _exclusionVolunteerWorkersAsInsuredsEDL as GL7GeneralLiabilityExclusionVolunteerWorkersAsInsuredsEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionUnmannedAircraftRailroad() : GL7GeneralLiabilityExclusionUnmannedAircraftRailroadDTO {
+   return _exclusionUnmannedAircraftRailroad as GL7GeneralLiabilityExclusionUnmannedAircraftRailroadDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionUnmannedAircraftOwnersAndContractors() : GL7GeneralLiabilityExclusionUnmannedAircraftOwnersAndContractorsDTO {
+   return _exclusionUnmannedAircraftOwnersAndContractors as GL7GeneralLiabilityExclusionUnmannedAircraftOwnersAndContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionUnmannedAircraftCovBOnly() : GL7GeneralLiabilityExclusionUnmannedAircraftCovBOnlyDTO {
+   return _exclusionUnmannedAircraftCovBOnly as GL7GeneralLiabilityExclusionUnmannedAircraftCovBOnlyDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionUnmannedAircraftCovAOnly() : GL7GeneralLiabilityExclusionUnmannedAircraftCovAOnlyDTO {
+   return _exclusionUnmannedAircraftCovAOnly as GL7GeneralLiabilityExclusionUnmannedAircraftCovAOnlyDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionUnmannedAircraft() : GL7GeneralLiabilityExclusionUnmannedAircraftDTO {
+   return _exclusionUnmannedAircraft as GL7GeneralLiabilityExclusionUnmannedAircraftDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionProfessionalServicesPharmacists() : GL7GeneralLiabilityExclusionProfessionalServicesPharmacistsDTO {
+   return _exclusionProfessionalServicesPharmacists as GL7GeneralLiabilityExclusionProfessionalServicesPharmacistsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionProfessionalServicesOpticalAndHearingAidEstablishments() : GL7GeneralLiabilityExclusionProfessionalServicesOpticalAndHearingAidEstablishmentsDTO {
+   return _exclusionProfessionalServicesOpticalAndHearingAidEstablishments as GL7GeneralLiabilityExclusionProfessionalServicesOpticalAndHearingAidEstablishmentsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionProductTampering() : GL7GeneralLiabilityExclusionProductTamperingDTO {
+   return _exclusionProductTampering as GL7GeneralLiabilityExclusionProductTamperingDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionProductReplacementRepairOrRepurchase() : GL7GeneralLiabilityExclusionProductReplacementRepairOrRepurchaseDTO {
+   return _exclusionProductReplacementRepairOrRepurchase as GL7GeneralLiabilityExclusionProductReplacementRepairOrRepurchaseDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfTerrorismNuclearBiologicalChemicalTerrorism() : GL7GeneralLiabilityExclusionOfTerrorismNuclearBiologicalChemicalTerrorismDTO {
+   return _exclusionOfTerrorismNuclearBiologicalChemicalTerrorism as GL7GeneralLiabilityExclusionOfTerrorismNuclearBiologicalChemicalTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfTerrorism() : GL7GeneralLiabilityExclusionOfTerrorismDTO {
+   return _exclusionOfTerrorism as GL7GeneralLiabilityExclusionOfTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorism() : GL7GeneralLiabilityExclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorismDTO {
+   return _exclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorism as GL7GeneralLiabilityExclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfNewlyAcquiredOrganizationsAsInsureds() : GL7GeneralLiabilityExclusionOfNewlyAcquiredOrganizationsAsInsuredsDTO {
+   return _exclusionOfNewlyAcquiredOrganizationsAsInsureds as GL7GeneralLiabilityExclusionOfNewlyAcquiredOrganizationsAsInsuredsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorism() : GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorismDTO {
+   return _exclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorism as GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfCertifiedActsOfTerrorism() : GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismDTO {
+   return _exclusionOfCertifiedActsOfTerrorism as GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActs() : GL7GeneralLiabilityExclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActsDTO {
+   return _exclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActs as GL7GeneralLiabilityExclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionHiredAutoLiability() : GL7GeneralLiabilityExclusionHiredAutoLiabilityDTO {
+   return _exclusionHiredAutoLiability as GL7GeneralLiabilityExclusionHiredAutoLiabilityDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionHealthHazardsElectronicSmokingDeviceVapor() : GL7GeneralLiabilityExclusionHealthHazardsElectronicSmokingDeviceVaporDTO {
+   return _exclusionHealthHazardsElectronicSmokingDeviceVapor as GL7GeneralLiabilityExclusionHealthHazardsElectronicSmokingDeviceVaporDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionExteriorInsulationAndFinishSystemsProdsCompldOps() : GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsProdsCompldOpsDTO {
+   return _exclusionExteriorInsulationAndFinishSystemsProdsCompldOps as GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionExteriorInsulationAndFinishSystemsPremOpsProds() : GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsPremOpsProdsDTO {
+   return _exclusionExteriorInsulationAndFinishSystemsPremOpsProds as GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsPremOpsProdsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionExteriorInsulationAndFinishSystemsOwnersContractors() : GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsOwnersContractorsDTO {
+   return _exclusionExteriorInsulationAndFinishSystemsOwnersContractors as GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionEarthMovementOwnersContractors() : GL7GeneralLiabilityExclusionEarthMovementOwnersContractorsDTO {
+   return _exclusionEarthMovementOwnersContractors as GL7GeneralLiabilityExclusionEarthMovementOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionEarthMovementCompletedOperations() : GL7GeneralLiabilityExclusionEarthMovementCompletedOperationsDTO {
+   return _exclusionEarthMovementCompletedOperations as GL7GeneralLiabilityExclusionEarthMovementCompletedOperationsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionEarthMovement() : GL7GeneralLiabilityExclusionEarthMovementDTO {
+   return _exclusionEarthMovement as GL7GeneralLiabilityExclusionEarthMovementDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityUST() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityUSTDTO {
+   return _exclusionCrossSuitsLiabilityUST as GL7GeneralLiabilityExclusionCrossSuitsLiabilityUSTDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityRailroad() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityRailroadDTO {
+   return _exclusionCrossSuitsLiabilityRailroad as GL7GeneralLiabilityExclusionCrossSuitsLiabilityRailroadDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityPollutionLimited() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionLimitedDTO {
+   return _exclusionCrossSuitsLiabilityPollutionLimited as GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionLimitedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityPollution() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionDTO {
+   return _exclusionCrossSuitsLiabilityPollution as GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityOwnersContractors() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityOwnersContractorsDTO {
+   return _exclusionCrossSuitsLiabilityOwnersContractors as GL7GeneralLiabilityExclusionCrossSuitsLiabilityOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityLiquor() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityLiquorDTO {
+   return _exclusionCrossSuitsLiabilityLiquor as GL7GeneralLiabilityExclusionCrossSuitsLiabilityLiquorDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityEDL() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityEDLDTO {
+   return _exclusionCrossSuitsLiabilityEDL as GL7GeneralLiabilityExclusionCrossSuitsLiabilityEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionCrossSuitsLiabilityCGL() : GL7GeneralLiabilityExclusionCrossSuitsLiabilityCGLDTO {
+   return _exclusionCrossSuitsLiabilityCGL as GL7GeneralLiabilityExclusionCrossSuitsLiabilityCGLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionAthleticOrSportsParticipantsAllContestsOrExhibitions() : GL7GeneralLiabilityExclusionAthleticOrSportsParticipantsAllContestsOrExhibitionsDTO {
+   return _exclusionAthleticOrSportsParticipantsAllContestsOrExhibitions as GL7GeneralLiabilityExclusionAthleticOrSportsParticipantsAllContestsOrExhibitionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnly() : GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnlyDTO {
+   return _exclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnly as GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnlyDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGL() : GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGLDTO {
+   return _exclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGL as GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGL() : GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGLDTO {
+   return _exclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGL as GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPrem() : GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPremDTO {
+   return _exclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPrem as GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPremDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOps() : GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOpsDTO {
+   return _exclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOps as GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclYear2000ComputerReltdElectronicProblems() : GL7GeneralLiabilityExclYear2000ComputerReltdElectronicProblemsDTO {
+   return _exclYear2000ComputerReltdElectronicProblems as GL7GeneralLiabilityExclYear2000ComputerReltdElectronicProblemsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclVolunteerWorkers() : GL7GeneralLiabilityExclVolunteerWorkersDTO {
+   return _exclVolunteerWorkers as GL7GeneralLiabilityExclVolunteerWorkersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclUndergroundStorageTankIncidents() : GL7GeneralLiabilityExclUndergroundStorageTankIncidentsDTO {
+   return _exclUndergroundStorageTankIncidents as GL7GeneralLiabilityExclUndergroundStorageTankIncidentsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclUndergroundResourcesAndEquipment() : GL7GeneralLiabilityExclUndergroundResourcesAndEquipmentDTO {
+   return _exclUndergroundResourcesAndEquipment as GL7GeneralLiabilityExclUndergroundResourcesAndEquipmentDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclTestingConsultingErrorsOmissions() : GL7GeneralLiabilityExclTestingConsultingErrorsOmissionsDTO {
+   return _exclTestingConsultingErrorsOmissions as GL7GeneralLiabilityExclTestingConsultingErrorsOmissionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclTelecommEquipmtServicePrvdrsErrorsOmissions() : GL7GeneralLiabilityExclTelecommEquipmtServicePrvdrsErrorsOmissionsDTO {
+   return _exclTelecommEquipmtServicePrvdrsErrorsOmissions as GL7GeneralLiabilityExclTelecommEquipmtServicePrvdrsErrorsOmissionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclSpecifiedTherapeuticOrCosmeticSrvcs() : GL7GeneralLiabilityExclSpecifiedTherapeuticOrCosmeticSrvcsDTO {
+   return _exclSpecifiedTherapeuticOrCosmeticSrvcs as GL7GeneralLiabilityExclSpecifiedTherapeuticOrCosmeticSrvcsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclSpecificAccidentsProdsWorkOrLocationProdsCompldOps() : GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationProdsCompldOpsDTO {
+   return _exclSpecificAccidentsProdsWorkOrLocationProdsCompldOps as GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclSpecificAccidentsProdsWorkOrLocation() : GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationDTO {
+   return _exclSpecificAccidentsProdsWorkOrLocation as GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclServicesFurnishedByHealthCarePrvdrs() : GL7GeneralLiabilityExclServicesFurnishedByHealthCarePrvdrsDTO {
+   return _exclServicesFurnishedByHealthCarePrvdrs as GL7GeneralLiabilityExclServicesFurnishedByHealthCarePrvdrsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclSalineSubstancesContamination() : GL7GeneralLiabilityExclSalineSubstancesContaminationDTO {
+   return _exclSalineSubstancesContamination as GL7GeneralLiabilityExclSalineSubstancesContaminationDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclRollingStockRailroadConstruction() : GL7GeneralLiabilityExclRollingStockRailroadConstructionDTO {
+   return _exclRollingStockRailroadConstruction as GL7GeneralLiabilityExclRollingStockRailroadConstructionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclRiotCivilCommotionMobActionGovtSubdivision() : GL7GeneralLiabilityExclRiotCivilCommotionMobActionGovtSubdivisionDTO {
+   return _exclRiotCivilCommotionMobActionGovtSubdivision as GL7GeneralLiabilityExclRiotCivilCommotionMobActionGovtSubdivisionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclPropertyEntrusted() : GL7GeneralLiabilityExclPropertyEntrustedDTO {
+   return _exclPropertyEntrusted as GL7GeneralLiabilityExclPropertyEntrustedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclProfessionalVeterinarianServices() : GL7GeneralLiabilityExclProfessionalVeterinarianServicesDTO {
+   return _exclProfessionalVeterinarianServices as GL7GeneralLiabilityExclProfessionalVeterinarianServicesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclProfessionalServicesBloodBanks() : GL7GeneralLiabilityExclProfessionalServicesBloodBanksDTO {
+   return _exclProfessionalServicesBloodBanks as GL7GeneralLiabilityExclProfessionalServicesBloodBanksDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclProductsProfessionalServicesOpticalHearingAidEstablishments() : GL7GeneralLiabilityExclProductsProfessionalServicesOpticalHearingAidEstablishmentsDTO {
+   return _exclProductsProfessionalServicesOpticalHearingAidEstablishments as GL7GeneralLiabilityExclProductsProfessionalServicesOpticalHearingAidEstablishmentsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclProductsProfessionalServicesDruggists() : GL7GeneralLiabilityExclProductsProfessionalServicesDruggistsDTO {
+   return _exclProductsProfessionalServicesDruggists as GL7GeneralLiabilityExclProductsProfessionalServicesDruggistsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclProductsCompletedOperationsHazard() : GL7GeneralLiabilityExclProductsCompletedOperationsHazardDTO {
+   return _exclProductsCompletedOperationsHazard as GL7GeneralLiabilityExclProductsCompletedOperationsHazardDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclPersonalAdvertisingInjury() : GL7GeneralLiabilityExclPersonalAdvertisingInjuryDTO {
+   return _exclPersonalAdvertisingInjury as GL7GeneralLiabilityExclPersonalAdvertisingInjuryDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclOilGasProducingOps() : GL7GeneralLiabilityExclOilGasProducingOpsDTO {
+   return _exclOilGasProducingOps as GL7GeneralLiabilityExclOilGasProducingOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclNewEntities() : GL7GeneralLiabilityExclNewEntitiesDTO {
+   return _exclNewEntities as GL7GeneralLiabilityExclNewEntitiesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclMovementBuildingsStructures() : GL7GeneralLiabilityExclMovementBuildingsStructuresDTO {
+   return _exclMovementBuildingsStructures as GL7GeneralLiabilityExclMovementBuildingsStructuresDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclMedPayToChildrenDayCareCenters() : GL7GeneralLiabilityExclMedPayToChildrenDayCareCentersDTO {
+   return _exclMedPayToChildrenDayCareCenters as GL7GeneralLiabilityExclMedPayToChildrenDayCareCentersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclMedPayCovInmatesPatientsPrisoners() : GL7GeneralLiabilityExclMedPayCovInmatesPatientsPrisonersDTO {
+   return _exclMedPayCovInmatesPatientsPrisoners as GL7GeneralLiabilityExclMedPayCovInmatesPatientsPrisonersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclLoggingLumberingOperations() : GL7GeneralLiabilityExclLoggingLumberingOperationsDTO {
+   return _exclLoggingLumberingOperations as GL7GeneralLiabilityExclLoggingLumberingOperationsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclLawEnforcementActivities() : GL7GeneralLiabilityExclLawEnforcementActivitiesDTO {
+   return _exclLawEnforcementActivities as GL7GeneralLiabilityExclLawEnforcementActivitiesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclLaundryDryCleaningDamage() : GL7GeneralLiabilityExclLaundryDryCleaningDamageDTO {
+   return _exclLaundryDryCleaningDamage as GL7GeneralLiabilityExclLaundryDryCleaningDamageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissions() : GL7GeneralLiabilityExclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissionsDTO {
+   return _exclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissions as GL7GeneralLiabilityExclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclIntercompanyProductsSuits() : GL7GeneralLiabilityExclIntercompanyProductsSuitsDTO {
+   return _exclIntercompanyProductsSuits as GL7GeneralLiabilityExclIntercompanyProductsSuitsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclInsuranceAndRelatedOperations() : GL7GeneralLiabilityExclInsuranceAndRelatedOperationsDTO {
+   return _exclInsuranceAndRelatedOperations as GL7GeneralLiabilityExclInsuranceAndRelatedOperationsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclInspectionAppraisalAndSurveyCompanies() : GL7GeneralLiabilityExclInspectionAppraisalAndSurveyCompaniesDTO {
+   return _exclInspectionAppraisalAndSurveyCompanies as GL7GeneralLiabilityExclInspectionAppraisalAndSurveyCompaniesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclInjuryToVolunteerFirefighters() : GL7GeneralLiabilityExclInjuryToVolunteerFirefightersDTO {
+   return _exclInjuryToVolunteerFirefighters as GL7GeneralLiabilityExclInjuryToVolunteerFirefightersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclHousingProjects() : GL7GeneralLiabilityExclHousingProjectsDTO {
+   return _exclHousingProjects as GL7GeneralLiabilityExclHousingProjectsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclFuneralServ() : GL7GeneralLiabilityExclFuneralServDTO {
+   return _exclFuneralServ as GL7GeneralLiabilityExclFuneralServDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclFinancialServ() : GL7GeneralLiabilityExclFinancialServDTO {
+   return _exclFinancialServ as GL7GeneralLiabilityExclFinancialServDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclFiduciaryOrRepLiabOfFinclInstitutions() : GL7GeneralLiabilityExclFiduciaryOrRepLiabOfFinclInstitutionsDTO {
+   return _exclFiduciaryOrRepLiabOfFinclInstitutions as GL7GeneralLiabilityExclFiduciaryOrRepLiabOfFinclInstitutionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclFailureToSupply() : GL7GeneralLiabilityExclFailureToSupplyDTO {
+   return _exclFailureToSupply as GL7GeneralLiabilityExclFailureToSupplyDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclExistenceOrMaintenanceOfStreetsRdsHwysOrBridges() : GL7GeneralLiabilityExclExistenceOrMaintenanceOfStreetsRdsHwysOrBridgesDTO {
+   return _exclExistenceOrMaintenanceOfStreetsRdsHwysOrBridges as GL7GeneralLiabilityExclExistenceOrMaintenanceOfStreetsRdsHwysOrBridgesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchants() : GL7GeneralLiabilityExclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchantsDTO {
+   return _exclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchants as GL7GeneralLiabilityExclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchantsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclEngineersArchitectsOrSurveyorsProfessionalLiab() : GL7GeneralLiabilityExclEngineersArchitectsOrSurveyorsProfessionalLiabDTO {
+   return _exclEngineersArchitectsOrSurveyorsProfessionalLiab as GL7GeneralLiabilityExclEngineersArchitectsOrSurveyorsProfessionalLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclEmployeesAndVolunteerWorkersAsInsuredsEDL() : GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsEDLDTO {
+   return _exclEmployeesAndVolunteerWorkersAsInsuredsEDL as GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclEmployeesAndVolunteerWorkersAsInsureds() : GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsDTO {
+   return _exclEmployeesAndVolunteerWorkersAsInsureds as GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDiagnosticTestingLabs() : GL7GeneralLiabilityExclDiagnosticTestingLabsDTO {
+   return _exclDiagnosticTestingLabs as GL7GeneralLiabilityExclDiagnosticTestingLabsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedWork() : GL7GeneralLiabilityExclDesignatedWorkDTO {
+   return _exclDesignatedWork as GL7GeneralLiabilityExclDesignatedWorkDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedProfessionalServices() : GL7GeneralLiabilityExclDesignatedProfessionalServicesDTO {
+   return _exclDesignatedProfessionalServices as GL7GeneralLiabilityExclDesignatedProfessionalServicesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedProducts() : GL7GeneralLiabilityExclDesignatedProductsDTO {
+   return _exclDesignatedProducts as GL7GeneralLiabilityExclDesignatedProductsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvl() : GL7GeneralLiabilityExclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvlDTO {
+   return _exclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvl as GL7GeneralLiabilityExclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvlDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps() : GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO {
+   return _exclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps as GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps() : GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO {
+   return _exclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps as GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL() : GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO {
+   return _exclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL as GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDesignatedOngoingOps() : GL7GeneralLiabilityExclDesignatedOngoingOpsDTO {
+   return _exclDesignatedOngoingOps as GL7GeneralLiabilityExclDesignatedOngoingOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDescribedHazardsCarnivalsCircusesFairs() : GL7GeneralLiabilityExclDescribedHazardsCarnivalsCircusesFairsDTO {
+   return _exclDescribedHazardsCarnivalsCircusesFairs as GL7GeneralLiabilityExclDescribedHazardsCarnivalsCircusesFairsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDamageToWorkPerformedBySubcontractorsOnYourBehalf() : GL7GeneralLiabilityExclDamageToWorkPerformedBySubcontractorsOnYourBehalfDTO {
+   return _exclDamageToWorkPerformedBySubcontractorsOnYourBehalf as GL7GeneralLiabilityExclDamageToWorkPerformedBySubcontractorsOnYourBehalfDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclDamageToPremRentedToYou() : GL7GeneralLiabilityExclDamageToPremRentedToYouDTO {
+   return _exclDamageToPremRentedToYou as GL7GeneralLiabilityExclDamageToPremRentedToYouDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclCounselingServices() : GL7GeneralLiabilityExclCounselingServicesDTO {
+   return _exclCounselingServices as GL7GeneralLiabilityExclCounselingServicesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclContractorsProfessionalLiab() : GL7GeneralLiabilityExclContractorsProfessionalLiabDTO {
+   return _exclContractorsProfessionalLiab as GL7GeneralLiabilityExclContractorsProfessionalLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclConstructionMngmtErrorsOmissions() : GL7GeneralLiabilityExclConstructionMngmtErrorsOmissionsDTO {
+   return _exclConstructionMngmtErrorsOmissions as GL7GeneralLiabilityExclConstructionMngmtErrorsOmissionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclCampsOrCampgrounds() : GL7GeneralLiabilityExclCampsOrCampgroundsDTO {
+   return _exclCampsOrCampgrounds as GL7GeneralLiabilityExclCampsOrCampgroundsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclBodilyInjuryToRailroadPassengers() : GL7GeneralLiabilityExclBodilyInjuryToRailroadPassengersDTO {
+   return _exclBodilyInjuryToRailroadPassengers as GL7GeneralLiabilityExclBodilyInjuryToRailroadPassengersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclAthleticSportsParticipants() : GL7GeneralLiabilityExclAthleticSportsParticipantsDTO {
+   return _exclAthleticSportsParticipants as GL7GeneralLiabilityExclAthleticSportsParticipantsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessories() : GL7GeneralLiabilityExclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessoriesDTO {
+   return _exclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessories as GL7GeneralLiabilityExclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessoriesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclAdultDayCareCenters() : GL7GeneralLiabilityExclAdultDayCareCentersDTO {
+   return _exclAdultDayCareCenters as GL7GeneralLiabilityExclAdultDayCareCentersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProds() : GL7GeneralLiabilityExclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProdsDTO {
+   return _exclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProds as GL7GeneralLiabilityExclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProdsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProds() : GL7GeneralLiabilityExclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProdsDTO {
+   return _exclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProds as GL7GeneralLiabilityExclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProdsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ExcessProvisionVendors() : GL7GeneralLiabilityExcessProvisionVendorsDTO {
+   return _excessProvisionVendors as GL7GeneralLiabilityExcessProvisionVendorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get EmploymentRelatedPracticesExclusionOwnersContrctrsPollution() : GL7GeneralLiabilityEmploymentRelatedPracticesExclusionOwnersContrctrsPollutionDTO {
+   return _employmentRelatedPracticesExclusionOwnersContrctrsPollution as GL7GeneralLiabilityEmploymentRelatedPracticesExclusionOwnersContrctrsPollutionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get EmploymentRelatedPracticesExclusion() : GL7GeneralLiabilityEmploymentRelatedPracticesExclusionDTO {
+   return _employmentRelatedPracticesExclusion as GL7GeneralLiabilityEmploymentRelatedPracticesExclusionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get EmployeeBenefitsLiabCovClaimsMade() : GL7GeneralLiabilityEmployeeBenefitsLiabCovClaimsMadeDTO {
+   return _employeeBenefitsLiabCovClaimsMade as GL7GeneralLiabilityEmployeeBenefitsLiabCovClaimsMadeDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ElectronicDataLiabilityPremiumToReachMinCoverage() : GL7GeneralLiabilityElectronicDataLiabilityPremiumToReachMinCoverageDTO {
+   return _electronicDataLiabilityPremiumToReachMinCoverage as GL7GeneralLiabilityElectronicDataLiabilityPremiumToReachMinCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ElectronicDataLiabilityLimitedBodilyInjuryExceptionNotIncluded() : GL7GeneralLiabilityElectronicDataLiabilityLimitedBodilyInjuryExceptionNotIncludedDTO {
+   return _electronicDataLiabilityLimitedBodilyInjuryExceptionNotIncluded as GL7GeneralLiabilityElectronicDataLiabilityLimitedBodilyInjuryExceptionNotIncludedDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ElectronicDataLiabilityCoverageForm() : GL7GeneralLiabilityElectronicDataLiabilityCoverageFormDTO {
+   return _electronicDataLiabilityCoverageForm as GL7GeneralLiabilityElectronicDataLiabilityCoverageFormDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ElectronicDataLiabEndt() : GL7GeneralLiabilityElectronicDataLiabEndtDTO {
+   return _electronicDataLiabEndt as GL7GeneralLiabilityElectronicDataLiabEndtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ElectronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovB() : GL7GeneralLiabilityElectronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovBDTO {
+   return _electronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovB as GL7GeneralLiabilityElectronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovBDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get EarthMovementExclusionForDesignatedOperationsOrProjects() : GL7GeneralLiabilityEarthMovementExclusionForDesignatedOperationsOrProjectsDTO {
+   return _earthMovementExclusionForDesignatedOperationsOrProjects as GL7GeneralLiabilityEarthMovementExclusionForDesignatedOperationsOrProjectsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get EarlierNoticeOfCancellationProvidedByUsOwnersContractors() : GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsOwnersContractorsDTO {
+   return _earlierNoticeOfCancellationProvidedByUsOwnersContractors as GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get EarlierNoticeOfCancellationProvidedByUs() : GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsDTO {
+   return _earlierNoticeOfCancellationProvidedByUs as GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DruggistsBroadenedCov() : GL7GeneralLiabilityDruggistsBroadenedCovDTO {
+   return _druggistsBroadenedCov as GL7GeneralLiabilityDruggistsBroadenedCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Druggists() : GL7GeneralLiabilityDruggistsDTO {
+   return _druggists as GL7GeneralLiabilityDruggistsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DisclosurePursuantToTerrorismRiskInsuranceActOf2002() : GL7GeneralLiabilityDisclosurePursuantToTerrorismRiskInsuranceActOf2002DTO {
+   return _disclosurePursuantToTerrorismRiskInsuranceActOf2002 as GL7GeneralLiabilityDisclosurePursuantToTerrorismRiskInsuranceActOf2002DTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002() : GL7GeneralLiabilityDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002DTO {
+   return _disclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002 as GL7GeneralLiabilityDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002DTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002() : GL7GeneralLiabilityDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002DTO {
+   return _disclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002 as GL7GeneralLiabilityDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002DTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DesignatedProjectsProdsCompldOpsAggregateLimit() : GL7GeneralLiabilityDesignatedProjectsProdsCompldOpsAggregateLimitDTO {
+   return _designatedProjectsProdsCompldOpsAggregateLimit as GL7GeneralLiabilityDesignatedProjectsProdsCompldOpsAggregateLimitDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DesignatedProjectsAggregateLimit() : GL7GeneralLiabilityDesignatedProjectsAggregateLimitDTO {
+   return _designatedProjectsAggregateLimit as GL7GeneralLiabilityDesignatedProjectsAggregateLimitDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DesignatedConstrctnProjGeneralAggregateLimit() : GL7GeneralLiabilityDesignatedConstrctnProjGeneralAggregateLimitDTO {
+   return _designatedConstrctnProjGeneralAggregateLimit as GL7GeneralLiabilityDesignatedConstrctnProjGeneralAggregateLimitDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DeductibleLiabilityInsuranceLiquorLiab() : GL7GeneralLiabilityDeductibleLiabilityInsuranceLiquorLiabDTO {
+   return _deductibleLiabilityInsuranceLiquorLiab as GL7GeneralLiabilityDeductibleLiabilityInsuranceLiquorLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DeductibleLiabilityInsurance() : GL7GeneralLiabilityDeductibleLiabilityInsuranceDTO {
+   return _deductibleLiabilityInsurance as GL7GeneralLiabilityDeductibleLiabilityInsuranceDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get DamageToPremisesRentedToYouCoverage() : GL7GeneralLiabilityDamageToPremisesRentedToYouCoverageDTO {
+   return _damageToPremisesRentedToYouCoverage as GL7GeneralLiabilityDamageToPremisesRentedToYouCoverageDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CoverageExtensionCoverageAProductRestorationExpense() : GL7GeneralLiabilityCoverageExtensionCoverageAProductRestorationExpenseDTO {
+   return _coverageExtensionCoverageAProductRestorationExpense as GL7GeneralLiabilityCoverageExtensionCoverageAProductRestorationExpenseDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CovForInjuryLeasedWorkersUndergroundStorageTanks() : GL7GeneralLiabilityCovForInjuryLeasedWorkersUndergroundStorageTanksDTO {
+   return _covForInjuryLeasedWorkersUndergroundStorageTanks as GL7GeneralLiabilityCovForInjuryLeasedWorkersUndergroundStorageTanksDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CovForInjuryLeasedWorkers() : GL7GeneralLiabilityCovForInjuryLeasedWorkersDTO {
+   return _covForInjuryLeasedWorkers as GL7GeneralLiabilityCovForInjuryLeasedWorkersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ContractualLiabRailroads() : GL7GeneralLiabilityContractualLiabRailroadsDTO {
+   return _contractualLiabRailroads as GL7GeneralLiabilityContractualLiabRailroadsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ContractualLiabLimitation() : GL7GeneralLiabilityContractualLiabLimitationDTO {
+   return _contractualLiabLimitation as GL7GeneralLiabilityContractualLiabLimitationDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ConstrctnProjMngmtProtvLiabCov() : GL7GeneralLiabilityConstrctnProjMngmtProtvLiabCovDTO {
+   return _constrctnProjMngmtProtvLiabCov as GL7GeneralLiabilityConstrctnProjMngmtProtvLiabCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002() : GL7GeneralLiabilityConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002DTO {
+   return _conditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002 as GL7GeneralLiabilityConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002DTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002() : GL7GeneralLiabilityConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002DTO {
+   return _conditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002 as GL7GeneralLiabilityConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002DTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ConditionalExclusionOfTerrorismDispositionOfAct2002() : GL7GeneralLiabilityConditionalExclusionOfTerrorismDispositionOfAct2002DTO {
+   return _conditionalExclusionOfTerrorismDispositionOfAct2002 as GL7GeneralLiabilityConditionalExclusionOfTerrorismDispositionOfAct2002DTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CompositeRating() : GL7GeneralLiabilityCompositeRatingDTO {
+   return _compositeRating as GL7GeneralLiabilityCompositeRatingDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CommunicableDiseaseExclusionProdsCompldOps() : GL7GeneralLiabilityCommunicableDiseaseExclusionProdsCompldOpsDTO {
+   return _communicableDiseaseExclusionProdsCompldOps as GL7GeneralLiabilityCommunicableDiseaseExclusionProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CommunicableDiseaseExclusion() : GL7GeneralLiabilityCommunicableDiseaseExclusionDTO {
+   return _communicableDiseaseExclusion as GL7GeneralLiabilityCommunicableDiseaseExclusionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CollegeSchoolLimitedForm() : GL7GeneralLiabilityCollegeSchoolLimitedFormDTO {
+   return _collegeSchoolLimitedForm as GL7GeneralLiabilityCollegeSchoolLimitedFormDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CollegeSchool() : GL7GeneralLiabilityCollegeSchoolDTO {
+   return _collegeSchool as GL7GeneralLiabilityCollegeSchoolDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get ChangesInFormsForCommercialPackagePolicies() : GL7GeneralLiabilityChangesInGeneralLiabilityFormsForCommercialPackagePoliciesDTO {
+   return _changesInFormsForCommercialPackagePolicies as GL7GeneralLiabilityChangesInGeneralLiabilityFormsForCommercialPackagePoliciesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOps() : GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOpsDTO {
+   return _certifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOps as GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOps() : GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOpsDTO {
+   return _certifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOps as GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CapOnLossesFromCertifiedActsOfTerrorism() : GL7GeneralLiabilityCapOnLossesFromCertifiedActsOfTerrorismDTO {
+   return _capOnLossesFromCertifiedActsOfTerrorism as GL7GeneralLiabilityCapOnLossesFromCertifiedActsOfTerrorismDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempandLessorsRiskExceptions() : GL7GeneralLiabilityCannabisExclusionWithHempandLessorsRiskExceptionsDTO {
+   return _cannabisExclusionWithHempandLessorsRiskExceptions as GL7GeneralLiabilityCannabisExclusionWithHempandLessorsRiskExceptionsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempExceptionUST() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionUSTDTO {
+   return _cannabisExclusionWithHempExceptionUST as GL7GeneralLiabilityCannabisExclusionWithHempExceptionUSTDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempExceptionRailroad() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionRailroadDTO {
+   return _cannabisExclusionWithHempExceptionRailroad as GL7GeneralLiabilityCannabisExclusionWithHempExceptionRailroadDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempExceptionProductWithdrawal() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionProductWithdrawalDTO {
+   return _cannabisExclusionWithHempExceptionProductWithdrawal as GL7GeneralLiabilityCannabisExclusionWithHempExceptionProductWithdrawalDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempExceptionPollution() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionPollutionDTO {
+   return _cannabisExclusionWithHempExceptionPollution as GL7GeneralLiabilityCannabisExclusionWithHempExceptionPollutionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempExceptionOwnersContractors() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionOwnersContractorsDTO {
+   return _cannabisExclusionWithHempExceptionOwnersContractors as GL7GeneralLiabilityCannabisExclusionWithHempExceptionOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempExceptionEDL() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionEDLDTO {
+   return _cannabisExclusionWithHempExceptionEDL as GL7GeneralLiabilityCannabisExclusionWithHempExceptionEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionWithHempException() : GL7GeneralLiabilityCannabisExclusionWithHempExceptionDTO {
+   return _cannabisExclusionWithHempException as GL7GeneralLiabilityCannabisExclusionWithHempExceptionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionUST() : GL7GeneralLiabilityCannabisExclusionUSTDTO {
+   return _cannabisExclusionUST as GL7GeneralLiabilityCannabisExclusionUSTDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionRailroad() : GL7GeneralLiabilityCannabisExclusionRailroadDTO {
+   return _cannabisExclusionRailroad as GL7GeneralLiabilityCannabisExclusionRailroadDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionProductWithdrawal() : GL7GeneralLiabilityCannabisExclusionProductWithdrawalDTO {
+   return _cannabisExclusionProductWithdrawal as GL7GeneralLiabilityCannabisExclusionProductWithdrawalDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionPollution() : GL7GeneralLiabilityCannabisExclusionPollutionDTO {
+   return _cannabisExclusionPollution as GL7GeneralLiabilityCannabisExclusionPollutionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionOwnersContractors() : GL7GeneralLiabilityCannabisExclusionOwnersContractorsDTO {
+   return _cannabisExclusionOwnersContractors as GL7GeneralLiabilityCannabisExclusionOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusionEDL() : GL7GeneralLiabilityCannabisExclusionEDLDTO {
+   return _cannabisExclusionEDL as GL7GeneralLiabilityCannabisExclusionEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CannabisExclusion() : GL7GeneralLiabilityCannabisExclusionDTO {
+   return _cannabisExclusion as GL7GeneralLiabilityCannabisExclusionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CalculationOfPremiumProductWithdrawal() : GL7GeneralLiabilityCalculationOfPremiumProductWithdrawalDTO {
+   return _calculationOfPremiumProductWithdrawal as GL7GeneralLiabilityCalculationOfPremiumProductWithdrawalDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get CalculationOfPremium() : GL7GeneralLiabilityCalculationOfPremiumDTO {
+   return _calculationOfPremium as GL7GeneralLiabilityCalculationOfPremiumDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get Boats() : GL7GeneralLiabilityBoatsDTO {
+   return _boats as GL7GeneralLiabilityBoatsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get BindingArbitration() : GL7GeneralLiabilityBindingArbitrationDTO {
+   return _bindingArbitration as GL7GeneralLiabilityBindingArbitrationDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompanies() : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompaniesDTO {
+   return _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompanies as GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompaniesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProds() : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProdsDTO {
+   return _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProds as GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProdsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollution() : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionDTO {
+   return _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollution as GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquor() : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquorDTO {
+   return _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquor as GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquorDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDL() : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDLDTO {
+   return _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDL as GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtTravelAgencyToursLimitationOfCov() : GL7GeneralLiabilityAmndmtTravelAgencyToursLimitationOfCovDTO {
+   return _amndmtTravelAgencyToursLimitationOfCov as GL7GeneralLiabilityAmndmtTravelAgencyToursLimitationOfCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfSectVExtddRptgPeriodsSpecificAccs() : GL7GeneralLiabilityAmndmtOfSectVExtddRptgPeriodsSpecificAccsDTO {
+   return _amndmtOfSectVExtddRptgPeriodsSpecificAccs as GL7GeneralLiabilityAmndmtOfSectVExtddRptgPeriodsSpecificAccsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfLiquorLiabExclProdsCompldOps() : GL7GeneralLiabilityAmndmtOfLiquorLiabExclProdsCompldOpsDTO {
+   return _amndmtOfLiquorLiabExclProdsCompldOps as GL7GeneralLiabilityAmndmtOfLiquorLiabExclProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOps() : GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOpsDTO {
+   return _amndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOps as GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfLiquorLiabExclExcptnScheddActivs() : GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsDTO {
+   return _amndmtOfLiquorLiabExclExcptnScheddActivs as GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfLiquorLiabExcl() : GL7GeneralLiabilityAmndmtOfLiquorLiabExclDTO {
+   return _amndmtOfLiquorLiabExcl as GL7GeneralLiabilityAmndmtOfLiquorLiabExclDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfLimitsOfIns() : GL7GeneralLiabilityAmndmtOfLimitsOfInsDTO {
+   return _amndmtOfLimitsOfIns as GL7GeneralLiabilityAmndmtOfLimitsOfInsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfCovTerrWorldwideCovWithSpecdExcptns() : GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovWithSpecdExcptnsDTO {
+   return _amndmtOfCovTerrWorldwideCovWithSpecdExcptns as GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovWithSpecdExcptnsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfCovTerrWorldwideCov() : GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovDTO {
+   return _amndmtOfCovTerrWorldwideCov as GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmndmtOfCovTerrAddlSchddCountries() : GL7GeneralLiabilityAmndmtOfCovTerrAddlSchddCountriesDTO {
+   return _amndmtOfCovTerrAddlSchddCountries as GL7GeneralLiabilityAmndmtOfCovTerrAddlSchddCountriesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfPersonalAndAdvertisingInjuryDefinition() : GL7GeneralLiabilityAmendmentOfPersonalAndAdvertisingInjuryDefinitionDTO {
+   return _amendmentOfPersonalAndAdvertisingInjuryDefinition as GL7GeneralLiabilityAmendmentOfPersonalAndAdvertisingInjuryDefinitionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcohol() : GL7GeneralLiabilityAmendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcoholDTO {
+   return _amendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcohol as GL7GeneralLiabilityAmendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcoholDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfInsuredContractDefinition() : GL7GeneralLiabilityAmendmentOfInsuredContractDefinitionDTO {
+   return _amendmentOfInsuredContractDefinition as GL7GeneralLiabilityAmendmentOfInsuredContractDefinitionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrence() : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrenceDTO {
+   return _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrence as GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrenceDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMade() : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMadeDTO {
+   return _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMade as GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMadeDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDL() : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDLDTO {
+   return _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDL as GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrence() : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrenceDTO {
+   return _amendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrence as GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrenceDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMade() : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMadeDTO {
+   return _amendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMade as GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMadeDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryWorldwideCovEDL() : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovEDLDTO {
+   return _amendmentOfCovTerritoryWorldwideCovEDL as GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovEDLDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrence() : GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrenceDTO {
+   return _amendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrence as GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrenceDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMade() : GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMadeDTO {
+   return _amendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMade as GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMadeDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdVolunteerWorkersProdsCompldOps() : GL7GeneralLiabilityAddlInsdVolunteerWorkersProdsCompldOpsDTO {
+   return _addlInsdVolunteerWorkersProdsCompldOps as GL7GeneralLiabilityAddlInsdVolunteerWorkersProdsCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdVolunteerWorkersPollutionLimitedUST() : GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionLimitedUSTDTO {
+   return _addlInsdVolunteerWorkersPollutionLimitedUST as GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionLimitedUSTDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdVolunteerWorkersPollution() : GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionDTO {
+   return _addlInsdVolunteerWorkersPollution as GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdVolunteerWorkersLiquor() : GL7GeneralLiabilityAddlInsdVolunteerWorkersLiquorDTO {
+   return _addlInsdVolunteerWorkersLiquor as GL7GeneralLiabilityAddlInsdVolunteerWorkersLiquorDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdVendorsAutomaticStatusWhenRequiredInAgreement() : GL7GeneralLiabilityAddlInsdVendorsAutomaticStatusWhenRequiredInAgreementDTO {
+   return _addlInsdVendorsAutomaticStatusWhenRequiredInAgreement as GL7GeneralLiabilityAddlInsdVendorsAutomaticStatusWhenRequiredInAgreementDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdVendors() : GL7GeneralLiabilityAddlInsdVendorsDTO {
+   return _addlInsdVendors as GL7GeneralLiabilityAddlInsdVendorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdUsersOfTeamsDraftOrSaddleAnimals() : GL7GeneralLiabilityAddlInsdUsersOfTeamsDraftOrSaddleAnimalsDTO {
+   return _addlInsdUsersOfTeamsDraftOrSaddleAnimals as GL7GeneralLiabilityAddlInsdUsersOfTeamsDraftOrSaddleAnimalsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdUsersGolfmobiles() : GL7GeneralLiabilityAddlInsdUsersGolfmobilesDTO {
+   return _addlInsdUsersGolfmobiles as GL7GeneralLiabilityAddlInsdUsersGolfmobilesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdTrusts() : GL7GeneralLiabilityAddlInsdTrustsDTO {
+   return _addlInsdTrusts as GL7GeneralLiabilityAddlInsdTrustsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdTownhouseAssocs() : GL7GeneralLiabilityAddlInsdTownhouseAssocsDTO {
+   return _addlInsdTownhouseAssocs as GL7GeneralLiabilityAddlInsdTownhouseAssocsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdStatePolitlSubdPermitsRelatingPrem() : GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsRelatingPremDTO {
+   return _addlInsdStatePolitlSubdPermitsRelatingPrem as GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsRelatingPremDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdStatePolitlSubdPermitsOwnersContractors() : GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsOwnersContractorsDTO {
+   return _addlInsdStatePolitlSubdPermitsOwnersContractors as GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdStatePolitlSubdPermits() : GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsDTO {
+   return _addlInsdStatePolitlSubdPermits as GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiab() : GL7GeneralLiabilityAddlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiabDTO {
+   return _addlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiab as GL7GeneralLiabilityAddlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiabDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdSponsorsLiquorLiability() : GL7GeneralLiabilityAddlInsdSponsorsLiquorLiabilityDTO {
+   return _addlInsdSponsorsLiquorLiability as GL7GeneralLiabilityAddlInsdSponsorsLiquorLiabilityDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdOwnersLesseesContrctrsScheddPersonOrg() : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsScheddPersonOrgDTO {
+   return _addlInsdOwnersLesseesContrctrsScheddPersonOrg as GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsScheddPersonOrgDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYou() : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYouDTO {
+   return _addlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYou as GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYouDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOps() : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOpsDTO {
+   return _addlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOps as GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmt() : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmtDTO {
+   return _addlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmt as GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOps() : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOpsDTO {
+   return _addlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOps as GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYou() : GL7GeneralLiabilityAddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYouDTO {
+   return _addlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYou as GL7GeneralLiabilityAddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYouDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdLessorLeasedEquipmt() : GL7GeneralLiabilityAddlInsdLessorLeasedEquipmtDTO {
+   return _addlInsdLessorLeasedEquipmt as GL7GeneralLiabilityAddlInsdLessorLeasedEquipmtDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdGrantorOfLicensesAutomaticStatusReqdLicensor() : GL7GeneralLiabilityAddlInsdGrantorOfLicensesAutomaticStatusReqdLicensorDTO {
+   return _addlInsdGrantorOfLicensesAutomaticStatusReqdLicensor as GL7GeneralLiabilityAddlInsdGrantorOfLicensesAutomaticStatusReqdLicensorDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdGrantorOfFranchiseLiquorLiability() : GL7GeneralLiabilityAddlInsdGrantorOfFranchiseLiquorLiabilityDTO {
+   return _addlInsdGrantorOfFranchiseLiquorLiability as GL7GeneralLiabilityAddlInsdGrantorOfFranchiseLiquorLiabilityDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdGrantorLicenses() : GL7GeneralLiabilityAddlInsdGrantorLicensesDTO {
+   return _addlInsdGrantorLicenses as GL7GeneralLiabilityAddlInsdGrantorLicensesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdGrantorFranchise() : GL7GeneralLiabilityAddlInsdGrantorFranchiseDTO {
+   return _addlInsdGrantorFranchise as GL7GeneralLiabilityAddlInsdGrantorFranchiseDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdExecsAdminsTrstesBenefics() : GL7GeneralLiabilityAddlInsdExecsAdminsTrstesBeneficsDTO {
+   return _addlInsdExecsAdminsTrstesBenefics as GL7GeneralLiabilityAddlInsdExecsAdminsTrstesBeneficsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdEngrsArchsSrvyrsOwnersContractors() : GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsOwnersContractorsDTO {
+   return _addlInsdEngrsArchsSrvyrsOwnersContractors as GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsOwnersContractorsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdEngrsArchsSrvyrsNotEngagedInsd() : GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsNotEngagedInsdDTO {
+   return _addlInsdEngrsArchsSrvyrsNotEngagedInsd as GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsNotEngagedInsdDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdEngrsArchsSrvyrs() : GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsDTO {
+   return _addlInsdEngrsArchsSrvyrs as GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorps() : GL7GeneralLiabilityAddlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorpsDTO {
+   return _addlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorps as GL7GeneralLiabilityAddlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorpsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdDesigntdPersonOrg() : GL7GeneralLiabilityAddlInsdDesigntdPersonOrgDTO {
+   return _addlInsdDesigntdPersonOrg as GL7GeneralLiabilityAddlInsdDesigntdPersonOrgDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdControllingInt() : GL7GeneralLiabilityAddlInsdControllingIntDTO {
+   return _addlInsdControllingInt as GL7GeneralLiabilityAddlInsdControllingIntDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdCondoUnitOwners() : GL7GeneralLiabilityAddlInsdCondoUnitOwnersDTO {
+   return _addlInsdCondoUnitOwners as GL7GeneralLiabilityAddlInsdCondoUnitOwnersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdConcessionaires() : GL7GeneralLiabilityAddlInsdConcessionairesDTO {
+   return _addlInsdConcessionaires as GL7GeneralLiabilityAddlInsdConcessionairesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdClubMembers() : GL7GeneralLiabilityAddlInsdClubMembersDTO {
+   return _addlInsdClubMembers as GL7GeneralLiabilityAddlInsdClubMembersDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdChurchMbrOffcrVolunWrkr() : GL7GeneralLiabilityAddlInsdChurchMbrOffcrVolunWrkrDTO {
+   return _addlInsdChurchMbrOffcrVolunWrkr as GL7GeneralLiabilityAddlInsdChurchMbrOffcrVolunWrkrDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdCharitableInstitns() : GL7GeneralLiabilityAddlInsdCharitableInstitnsDTO {
+   return _addlInsdCharitableInstitns as GL7GeneralLiabilityAddlInsdCharitableInstitnsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreement() : GL7GeneralLiabilityAddlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreementDTO {
+   return _addlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreement as GL7GeneralLiabilityAddlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreementDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AddlInsdAutomaticStatusForDesignatedOperations() : GL7GeneralLiabilityAddlInsdAutomaticStatusForDesignatedOperationsDTO {
+   return _addlInsdAutomaticStatusForDesignatedOperations as GL7GeneralLiabilityAddlInsdAutomaticStatusForDesignatedOperationsDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AbuseOrMolestationExclusionSpecifiedProfessionalServices() : GL7GeneralLiabilityAbuseOrMolestationExclusionSpecifiedProfessionalServicesDTO {
+   return _abuseOrMolestationExclusionSpecifiedProfessionalServices as GL7GeneralLiabilityAbuseOrMolestationExclusionSpecifiedProfessionalServicesDTO
+  }
+  
+
+  
+  @VisibleInRateflow
+  property get AbuseMolestationExcl() : GL7GeneralLiabilityAbuseMolestationExclDTO {
+   return _abuseMolestationExcl as GL7GeneralLiabilityAbuseMolestationExclDTO
+  }
+  
+
+  @VisibleInRateflow
+  var _stopGap : java.lang.String as StopGap = ""
+
+  
+  @VisibleInRateflow
+  property get WorksheetAttachmentEntity() : EffDated {
+   return (_dataModel as GL7GeneralLiabilityLine).GL7SublineTypes.singleWhere( \ elm -> elm.Subline == Parameters.getParam("GL7SublineType"))
+  }
+  
+
+  var _currentJurisdiction : Jurisdiction
+  
+  
+  @VisibleInRateflow(false)
+  override property get CurrentJurisdiction() : Jurisdiction {
+   return _currentJurisdiction
+  }
+  
+
+  
+}

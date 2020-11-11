@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zf1h099j5pcn8em73fm6sn20dr9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7ExperienceRatingModificationLatestYear</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="ztjjqed3un3qgakijt5kfcj3hp9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPExposuresOnSpecialUWBasisLatestYearPremOps</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="z6vgm3jojemkjd9glmo7kdp3gr9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPExposuresOnSpecialUWBasisLatestYearProdCompl</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="z1chkmc4927vh0ardjbpgfoa52b">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPLatestYearEffectiveDate</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="z2ti23c15u9q3ekkdr61oqgbks8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPLatestYearLatestValuationDate</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zbrj2nkcfdu7v796u6dl6up0ara">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPLatestYearTotalIncludedLoss</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermLookup public-id="zughud292gsgl5jpbv2l7uujqrb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPLatestYearTypeOfPolicy</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="zp4hetaeb0u7g8lgtdf1jag0bpa">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ERPLatestYearTypeOfPolicy</CovTermPatternCode>
+        <CovTermOptCode>zatggvd3tlr2dcdh1ufp5bi79p8</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zgiga5h9sr9n1bfet4b7dltqm9b">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ERPLatestYearTypeOfPolicy</CovTermPatternCode>
+        <CovTermOptCode>zluiu165qqsrg7924nf4767uheb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermLookup public-id="zrdg8stu4ghri0eo1bvfv2e89e9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPLatestYearWithSameCarrier</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="zokjkgjv5r525esonkfg979rpba">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ERPLatestYearWithSameCarrier</CovTermPatternCode>
+        <CovTermOptCode>zsqiug547sgog5fid4m7sed9fu8</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zaogu2dedatof7bm01sd12dt4n9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ERPLatestYearWithSameCarrier</CovTermPatternCode>
+        <CovTermOptCode>z49hqf57hfhkn4mtno1tsj0jglb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermLookup public-id="zbug69k2gc7tnfih4o1k5un8v28">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ERPLatestYearYIP</CovTermPatternCode>
+    </CovTermLookup>
+</import>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <ModalCell
+    id="APDAttributeDefaultValue"
+    mode="boolean">
+    <Require
+      name="attribute"
+      type="APDAttribute"/>
+    <Require
+      name="ruleType"
+      type="APDRuleType"/>
+    <Require
+      name="dataField"
+      type="APDDataField"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Variable
+      initialValue="attribute.Rules?.firstWhere(\r -&gt; r.RuleType == ruleType)"
+      name="rule"
+      type="APDAttributeRule"/>
+    <BooleanRadioCell
+      action="APDAttributeRulePopup.push(rule, attribute, ruleType, openForEdit)"
+      id="value"
+      value="UIValue"
+      valueVisible="ruleType == APDRuleType.TC_DEFAULT"/>
+    <Code><![CDATA[property get UIValue() : Boolean {
+      if (dataField == null) return rule.DefaultBitValue
+      return dataField.getRuleBooleanValue(ruleType)
+    }]]></Code>
+  </ModalCell>
+</PCF>

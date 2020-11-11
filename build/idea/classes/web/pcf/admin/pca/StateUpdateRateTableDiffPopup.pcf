@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    afterCancel="comparisonPresenter.revertChanges()"
+    canEdit="true"
+    id="StateUpdateRateTableDiffPopup"
+    startInEditMode="not comparisonPresenter.ReadOnly"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.RateTableDiffs.Title&quot;)">
+    <LocationEntryPoint
+      signature="StateUpdateRateTableDiffPopup(comparisonPresenter : gw.sbt.pca.view.presenter.compare.rating.StateUpdateRateTableComparisonPresenter, newSBTUpdateEdition : String, adoptedSBTUpdateEdition: String)"/>
+    <Variable
+      name="newSBTUpdateEdition"
+      type="String"/>
+    <Variable
+      name="adoptedSBTUpdateEdition"
+      type="String"/>
+    <Variable
+      name="comparisonPresenter"
+      type="gw.sbt.pca.view.presenter.compare.rating.StateUpdateRateTableComparisonPresenter"/>
+    <Screen
+      editable="true">
+      <Toolbar>
+        <EditButtons
+          cancelVisible="not comparisonPresenter.ReadOnly"
+          editVisible="false"
+          updateVisible="not comparisonPresenter.ReadOnly"/>
+      </Toolbar>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(comparisonPresenter.DecisionAndInstructions, comparisonPresenter.Description, comparisonPresenter.ReadOnly)"/>
+      <DetailViewPanel>
+        <InputColumn
+          labelWidth="350"
+          width="50%">
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="Jurisdiction"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Jurisdiction&quot;)"
+            value="comparisonPresenter.Jurisdiction" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="Line"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Table&quot;)"
+            value="comparisonPresenter.Description" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="EffDate"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Comparison.RateTable.NewConfig.Title&quot;)"
+            value="comparisonPresenter.NewConfig" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="CurrentConfig"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Comparison.RateTable.CurrentConfig.Title&quot;)"
+            value="comparisonPresenter.CurrentConfig" valueType="java.lang.String"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <DetailViewPanel>
+        <InputColumn>
+          <ListViewInput
+            boldLabel="true"
+            id="FactorsLV"
+            labelAbove="true">
+            <Toolbar
+              id="EvaluationResultsToolbar">
+              <CheckedValuesToolbarButton
+                id="Decision"
+                iterator="NodeLV"
+                label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)">
+                <CheckedValuesMenuItem
+                  allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = null })"
+                  id="ClearDecision"
+                  label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClearDecision&quot;)"/>
+                <CheckedValuesMenuItem
+                  allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.ACCEPT })"
+                  id="Accept"
+                  label="gw.sbt.util.DisplayDescriptionHelper.getComparisonUpdateDecisionDescription(gw.sbt.model.UpdateDecision.ACCEPT)"/>
+                <CheckedValuesMenuItem
+                  allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.REJECT })"
+                  id="Reject"
+                  label="gw.sbt.util.DisplayDescriptionHelper.getComparisonUpdateDecisionDescription(gw.sbt.model.UpdateDecision.REJECT)"/>
+              </CheckedValuesToolbarButton>
+            </Toolbar>
+            <ListViewPanel >
+              <Row
+                renderAsSmartHeader="true">
+                <CellIterator
+                  elementName="paramHeader"
+                  id="RateParameterHeadingIterator"
+                  value="comparisonPresenter.ParameterNames" valueType="java.util.List&lt;java.lang.String&gt;">
+                  <TextCell
+                    id="RateParameterHeader"
+                    value="paramHeader" valueType="java.lang.String"/>
+                </CellIterator>
+                <TextCell
+                  align="left"
+                  id="CurrentValueHeader"
+                  value="comparisonPresenter.CurrentTitle" valueType="java.lang.String"/>
+                <TextCell
+                  align="left"
+                  id="NewValueHeader"
+                  value="comparisonPresenter.NewTitle" valueType="java.lang.String"/>
+                <TextCell
+                  align="left"
+                  id="AdoptedValueHeader"
+                  value="comparisonPresenter.AdoptedTitle" valueType="java.lang.String"/>
+                <TextCell
+                  align="left"
+                  id="DiffValueHeader1"
+                  value="comparisonPresenter.DiffTitle" valueType="java.lang.String"/>
+                <TextCell
+                  align="left"
+                  enableSort="false"
+                  id="DecisionHeader"
+                  value="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)" valueType="java.lang.String"/>
+
+              </Row>
+              <RowIterator id="NodeLV"
+                           canPick="false"
+                           checkBoxVisible="factorRow.IsDecisionRequired and not factorRow.ReadOnly"
+                           hasCheckBoxes="true"
+                           editable="true"
+                           elementName="factorRow"
+                           pageSize="20"
+                           value="comparisonPresenter.Children" valueType="java.util.List&lt; gw.sbt.pca.view.presenter.compare.rating.StateUpdateRateTableFactorRowComparisonPresenter &gt;">
+                <ToolbarFilter
+                  cacheKey="gw.sbt.pca.view.presenter.PresenterUtil.filterCacheKey()"
+                  name="rowPresenterFilter"
+                  width="280">
+                  <ToolbarFilterOption
+                    filter="gw.sbt.pca.view.filter.ComparisonFilters.All"
+                    visible="true"/>
+                  <ToolbarFilterOption
+                    filter="gw.sbt.pca.view.filter.ComparisonFilters.forDetailsPage().DecisionRequired"
+                    selectOnEnter="true"
+                    visible="true"/>
+                  <ToolbarFilterOptionGroup
+                    filters="gw.sbt.pca.view.filter.ComparisonFilters.forDetailsPage().DifferenceFilterGroup"/>
+                </ToolbarFilter>
+                <Row>
+                  <CellIterator
+                    elementName="param"
+                    id="ParameterIterator"
+                    value="factorRow.ParameterValues"
+                    valueType="gw.util.IOrderedList&lt;String&gt;">
+                    <TextCell
+                      align="left"
+                      enableSort="false"
+                      id="ParameterValue"
+                      value="param"/>
+                  </CellIterator>
+                  <TextCell
+                    align="left"
+                    id="CurrentRate"
+                    value="factorRow.CurrentValue"
+                    fontColor="factorRow.Color"
+                    valueVisible="true" valueType="java.lang.String"/>
+                  <TextCell
+                    align="left"
+                    id="NewRate"
+                    value="factorRow.NewValue"
+                    fontColor="factorRow.Color"
+                    valueVisible="true" valueType="java.lang.String"/>
+                  <TextCell
+                    align="left"
+                    id="AdoptedRate"
+                    value="factorRow.AdoptedValue"
+                    fontColor="factorRow.Color"
+                    valueVisible="true" valueType="java.lang.String"/>
+                  <TextCell
+                    align="left"
+                    id="DiffRate"
+                    value="factorRow.DiffValue"
+                    fontColor="factorRow.Color"
+                    bold="true" valueType="java.lang.String"/>
+                  <TextCell
+                    align="left"
+                    id="Decision"
+                    bold = "true"
+                    value="factorRow.DecisionLabel"
+                    valueVisible="true" valueType="java.lang.String"/>
+
+                </Row>
+              </RowIterator>
+            </ListViewPanel>
+          </ListViewInput>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

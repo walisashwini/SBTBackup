@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7AggregateLimitRailroad public-id="zi6iei0r3ntife785e3tlpbs6f8">
+    <Value>75,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>25,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="z3tgieui58ijh5mn0fueu0ktd5b">
+    <Value>150,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>50,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="za7j68l4110vm4kfl1r5n3lt618">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>100,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="z4eji50q81vvh0fn2icli6s6bsb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>150,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="z3ugi6vqs987s7ati589msl5l19">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>300,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="zbng88bce2rctf12tf65ebphdq8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>500,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="z22g4bib3sr3d3lii21f2hn82f9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>1,000,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="zn0hqeupqjsoi7qbfl8b9j30a69">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>1,500,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+  <GL7AggregateLimitRailroad public-id="z1kjed7gu7pic50quoadpivlinb">
+    <Value>6,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLimRailroad>2,000,000</EachOccurrenceLimRailroad>
+  </GL7AggregateLimitRailroad>
+</import>

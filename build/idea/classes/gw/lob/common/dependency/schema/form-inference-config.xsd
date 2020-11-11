@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="FormInferenceConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="FormInference" type="FormInferenceType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="FormInferenceType">
+        <xs:sequence>
+            <xs:element name="Version" type="VersionType" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="formCode" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="VersionType">
+        <xs:sequence>
+            <xs:element name="Jurisdiction" type="xs:string"/>
+            <xs:element name="EffectiveDate" type="xs:date"/>
+            <xs:element name="ExpiryDate" type="xs:date" minOccurs="0"/>
+            <xs:element name="InferenceClass" type="xs:string"/>
+            <xs:element name="Available" type="xs:boolean" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

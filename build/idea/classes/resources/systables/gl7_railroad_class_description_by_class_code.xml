@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7RailroadClassDescripti public-id="z4qh07807tkrbceb6nbokt3oeia">
+    <Value>Operations-Railroad NOC-Construction Operations-Ops Performed For Railroads</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCodeForClassDescr>40011</RailroadClassCodeForClassDescr>
+  </GL7RailroadClassDescripti>
+  <GL7RailroadClassDescripti public-id="zgtiqbkvts6tlfslmoebjoru218">
+    <Value>Operation-Railroad NOC-Construction Ops-Ops Performed For Interest Other Than RR</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCodeForClassDescr>40012</RailroadClassCodeForClassDescr>
+  </GL7RailroadClassDescripti>
+  <GL7RailroadClassDescripti public-id="zqfjqcfdb88a78aj4giact55e8b">
+    <Value>State or Federal Highway Projects</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCodeForClassDescr>40013</RailroadClassCodeForClassDescr>
+  </GL7RailroadClassDescripti>
+  <GL7RailroadClassDescripti public-id="z1kjim29b7plnd560c0a3vsbl98">
+    <Value>Operations w/no work w/in 50 ft of RR or w/no exposure to actual RR train hazard</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <RailroadClassCodeForClassDescr>40014</RailroadClassCodeForClassDescr>
+  </GL7RailroadClassDescripti>
+</import>

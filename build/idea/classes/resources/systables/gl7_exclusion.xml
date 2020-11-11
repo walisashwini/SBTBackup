@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7Exclusion public-id="zn8hudrmhtscd5cvs6a9lh05gdb">
+    <Value>Accident</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Exclusion>
+  <GL7Exclusion public-id="zk1gab4qopbsvbe8so735kf7pa9">
+    <Value>Location</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Exclusion>
+  <GL7Exclusion public-id="zb4g6mqmvrsnfeub5cgecai53jb">
+    <Value>Product</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Exclusion>
+  <GL7Exclusion public-id="z87iucgjou16afdngebd5hc3qrb">
+    <Value>Work</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7Exclusion>
+</import>

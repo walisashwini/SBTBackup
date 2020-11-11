@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="LobIntegerInputSet">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <TextInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="LobIntegerInput"
+      label="displayable.Label"
+      required="displayable.Required"
+      value="displayable.IntegerValue"
+      visible="not displayable.NeedsRefresh" valueType="java.lang.Integer"/>
+    <TextInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="DynamicLobIntegerInput"
+      label="displayable.Label"
+      required="displayable.Required"
+      value="displayable.IntegerValue"
+      visible="displayable.NeedsRefresh" valueType="java.lang.Integer">
+      <PostOnChange
+        onChange="displayable.onChange()"/>
+    </TextInput>
+  </InputSet>
+</PCF>

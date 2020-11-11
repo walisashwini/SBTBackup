@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeCond" public-id="GL7AmndmtOfLmtsOfIns" priority="109700" lookupTableName="GL7SublineTypeCond" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7AmndmtOfLmtsOfIns" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AmndmtOfLmtsOfIns");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="700" public-id="GL7DamageToPremRentedToYouLimit" required="false" codeIdentifier="GL7DamageToPremRentedToYouLimit"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm2" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="600" public-id="GL7EachOccurrenceLimit" required="false" codeIdentifier="GL7EachOccurrenceLimit"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm3" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7GeneralAggLimit" required="false" codeIdentifier="GL7GeneralAggLimit"/>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm4" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium16" required="true" codeIdentifier="GL7ManualPremium16"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm5" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="800" public-id="GL7MedicalExpenseLimit" required="false" codeIdentifier="GL7MedicalExpenseLimit"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm6" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="500" public-id="GL7PersAndAdvertInjLimit" required="false" codeIdentifier="GL7PersAndAdvertInjLimit"/>
+        <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm7" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="400" public-id="GL7ProdCompOpsAggLimit" required="false" codeIdentifier="GL7ProdCompOpsAggLimit"/>
+    </CovTerms>
+</ConditionPattern>

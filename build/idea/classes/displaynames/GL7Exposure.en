@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7Exposure">
+  <Columns>
+    <Column
+      beanPath="GL7Exposure.GL7Location"
+      name="gl7Location"/>
+    <Column
+      beanPath="GL7Exposure.DomainModel.ClassDescription"
+      name="classDescription"/>
+  </Columns>
+  <DisplayName><![CDATA[if (gl7Location == null or classDescription == null) return gw.api.locale.DisplayKey.get("Web.Policy.GL7.Exposure")
+
+var locationNum = gl7Location.Location.LocationNum
+
+return locationNum + ": " + classDescription
+]]></DisplayName>
+</Entity>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  desc="The policy line for a manual risk"
+  entity="APDRiskPolicyLine"
+  supertype="APDRiskCoverable"/>

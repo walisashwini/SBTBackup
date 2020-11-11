@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7LiquorELPTextRT public-id="z84g2s8ojeovh1lifpmcaihpfr9">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>50911</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="ztajmsokmsg679qgua77dh17158">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>58161</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zush21ebujh99b46su4p35dfa4b">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>58165</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zbtgo3g43i1am3m8epr4tii1bib">
+    <Value>Company</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>58166</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="z9niikgpvaatn13ujtltn07f1q9">
+    <Value>Company</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>58168</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zcggenqbo7ackejkoorn3qcpdj9">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>59211</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="znoiami4ubc658grsri8f5mg64a">
+    <Value>Industry</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <ClassCodeLiquor>70412</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="z08issddoe8k221gup1s9ht9uma">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>50911</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="znfim1s1me8htbjdt8o1fm4vjr8">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>58165</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zofgcs40a854641uub5ug45q609">
+    <Value>Company</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>58168</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zvags08dqqfvq7hic7ngd9ehe1a">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>58161</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zmfj43lmlbjpr6v3u990b0klb6a">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>59211</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zn3j4irgkpd1beb78h620sik2ca">
+    <Value>Company</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>58166</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zdbi8b9ts0l7q3jqoqdfu1opf2b">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <ClassCodeLiquor>70412</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zq8isot7c55ms1ap45nlfdufrsb">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>50911</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zblgitc2ihj0o80spe3irukd3p8">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>58165</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zc5gus92l3q7e3qudg26udgci19">
+    <Value>Company</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>58168</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zikj0mpjsu3uoe18jlhk7nvomnb">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>58161</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zqljkb6ictfbadot8k5p1hpnkm8">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>59211</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zblis3uf7qbni7suvas3esg3o2b">
+    <Value>Company</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>58166</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zd0hi3eipm4spfjglh83dkjgola">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <ClassCodeLiquor>70412</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zhngasn68tecgbhgf2gne66ep68">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>50881</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zfpga1u3r0ltaa370kdaklf4lqb">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>58165</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zk7icarr5309jddjhq8n3u9853a">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>58151</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zvcgokjqvqmj3a0ik9oguk0lp8a">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>70413</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="ziph4269f31pb8dlram0ctgtmt8">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>50882</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zisiqhi0ldbq7ad62jp655gqjo9">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>70114</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="z6cj0cph65dgqd31sr8etkgdk8a">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>59212</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="z4vgaocogvds0eug9a2fi6oi659">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>58198</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zfhh6k517n5153orrdmf1h1ef3b">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>58166</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zqgg0unpa31rpeu3dn9h5nq18u8">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>70113</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zmbgo6moejt9h0pjspkad7gvtn9">
+    <Value>Company</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeLiquor>58191</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="znqi822jm02u309n2tmr83d6io9">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>50911</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="znfiksl53vjb1017qg8kls807ea">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>58165</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="z7ahkl4ha4u0p5q2kd3jfipe9f9">
+    <Value>Company</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>58168</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="znqh8fpdjsbg22e9m3sthevqala">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>58161</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zkejaslcc6r147hah77n3gl86nb">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>59211</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="z47ie9rpnf6gm64bfs86jcnv328">
+    <Value>Company</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>58166</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+  <GL7LiquorELPTextRT public-id="zkugk0ct7bg49544jt8vo9rnp7b">
+    <Value>Industry</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <ClassCodeLiquor>70412</ClassCodeLiquor>
+  </GL7LiquorELPTextRT>
+</import>

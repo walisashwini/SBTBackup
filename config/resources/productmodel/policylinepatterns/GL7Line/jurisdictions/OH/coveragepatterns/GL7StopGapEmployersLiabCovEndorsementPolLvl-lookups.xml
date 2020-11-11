@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="zkfik670e63ga3pnlv2hmdp87f8">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7StopGapEmployersLiabCovEndorsementPolLvl</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zeoga1r3e0bbebblgb1t1d1vl79">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zo8j0f8tl12m94oe84mu4kevsma">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z87go798c1qhu8kaka8ta9b6a6a">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zhrjsneh3htm5b19phv8uvglu5b">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ManualPremium214</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermOptLookup public-id="zc9jm52kd787q80g4nnu00t53vb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>ztgj8imoausb10s92g73a4q19mb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z26gsap6cnl6nbdtggt5mb378v8">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zlshe31cacgpv8lg9c7r82pj95a</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z6pj0mjtn22ns58pic7levp5spb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zkeiqlte5egfj3uouq7ddqq1ona</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="znci2j8o1r8q29v8707c9787lj8">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zn0ii8rsus0npd48svkpdodf009</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zouhi8s2ue2b552ei94j3bdosfa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>ze6ikke98oilm5db7qk2agv30t9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z6vgoedo4qjledkokbkarjo6ha9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>z33j870kv16g40olsfbm3kf8l8a</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zl6h8b16l9sl63vmo4n1r6kobaa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zveiihhh6af2o9e9t0tbmlu28ba</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zn9i2efehu42l1j340qbi0plofb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zm7jmr84c5hv57d4hdaf87hbvtb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zv2g6lpbk0n954qteu45dbi9n0b">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zgahq2otokkvd8omp6qjrobcdl9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zirgicnq188i7dpjnb931737o3a">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zjah2681is4g9887olc9homdga8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zisimsdj36gqd4l1jhjgnihbmhb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zbbjsr3ilkj5l4btcvv4q3bolm8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z3ugsacuokgp0ca6qfnm6g1hmpa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>z7eismbhreid96o265ladtstuua</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zg4ik7hla4l62b8og8qg2kj0mfa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByAccident</CovTermPatternCode>
+    <CovTermOptCode>zp3iibce3b8q29amg2accdlb94a</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zrfjeodq7gdm800mjtvjdu8bsm9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zech4ni3qrgta5emsv9ts8fdol9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zmvjg8vbhslncbcfq795192sc08">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z25gaj2a1j56tcss3eq86og6lea</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zp9juqnlk4e106uhamvstjv3vka">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zlmgc2ufi2r3j8l4o19ak4r9tp9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zctgi3u92gc9hf7et5ojauvfho9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zjigefakjrm27c6mme2haf8n918</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zj0i4l78mleqr99fqsolp9rkqeb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z7eiq5565qq8p4mb32ss3klnava</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zfjier9abs7nuc13g0lvivnlucb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zq0gunfn7e6qrdoidc24ot9fnna</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zdgh8ursn13lk68gtqu4u9kbli9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zneho1b6agbje9povf20r3terca</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zj1jg6licgfkl9e9gpd8gs8sn89">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zelha9q93rhgsc3onh2j66vl1fb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zcagahq7g0u609rvhtuca2ng889">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zrfhea5kg6jhe46jnf4r778shu8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zm1igd4f951offkufq20qc75p1a">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zafgg7rq4vpqqbfu445g2d80vt9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z36josn772uba6khicaimipu388">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zd6jesk7v7rnp1kc570ujhltus9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="znlgsve0fpihd6eee8341rl9lfa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zrfjejm83096o7r5d62kcocv2na</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="ztci8tvijm81o895cje785uik2a">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zmag4tcrrbpoa7ni0ojovhmslgb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z1ajqqh0r23a2b1oroglbvqc5vb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zvmgu3anma80636j0nnnj36s5ua</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="za7ikuarv6mmo5u9j1qp18i7oa9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z7ligceh7g3lh8o7l5kc8uuh36a</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zjtjurrkkh11n37bqdlmerffdjb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z27hk6cil1jamcpdcgvi67dhoib</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z12iqvl3u42baevflbc4lelkdj8">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zn6g63okr9kmoecijif1c9qd6ia</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z6qg039okklaecegqbaumorv6e9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z28ii44l0je4fc1nfv51cn9jv99</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z0di2inouhghs5c1b08c19n3ln9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zqljq3i28u0jdb035obrupl2qea</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z9ph2fjs9kj5r4cc3t1t4dkqilb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zaugm3hsvdah6bc7jfcpdrubg29</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zouge6cuqbbmr28spm5b4b9u1bb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z0igg3ofk5gt18q509vjuf0ivib</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zaujqiksbganpckrsksvdth7kvb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z2dhemq573lm9afdkfq44as2r99</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zvlhmv1p8kg26cq87stvms693hb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>znai61uhmks749jq0m8n0gepfga</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z1siiem03n59h3kiobu9qrgk1ia">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z4bhk0q8od96pa9dst8m5v8puc9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="znlg2e5gh2rbq76a78odqb48sbb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z7ggaqr7eqlja1tp8hqucjr7ppb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z37ia8c0keujs1hf5prkbhiu3f9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z9lis0q1ni2e918cg37vdctel0b</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zt8jg41cf95lh12ifnnkc767f39">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z88joc3v3arqv7m4g0br55t4bh8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zs9jgm1tde6dfen4fgs75t80vsa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zg3hebft5ccped2kbqfcgoogr89</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z9gga6uidt7lu9dkpm916vsb61a">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>zhsh2l10nafs723413fnoodf48b</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z55hijf41rm3bd0it2vbemaklea">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseAgg</CovTermPatternCode>
+    <CovTermOptCode>z7she2mqka6hd4acm27fptbfhg8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zr8gkeug1rva39mru359um84apa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>ze9iq41vk15v1aungn1ghc39ana</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zjthgre37dn0vc1hus1l3t9jvcb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zasi04ih6ulm39nqq83thc9e8t9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zn0jmoqqd66cde0cjrpeq0q8rda">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zlrja95ni9aed2p3ovdfu2og208</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zcmjq6lvs4hls9de009a8l5e6hb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zq8hckscubnsv2hq83ot5o5tb3b</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zhrj62ra134viaiu5f0i8sg0iea">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zooja8epps66gf4fino05lifhvb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="znfi2j5ntcba810f5976sqireq9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zsuimbhj0ccnoebj1df686kpks8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zu9g68vrj53iv1744npp2l2a0da">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>znagkqdn4aq3vcikrag56saauoa</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zeoh4cncii6la00hjuctn4p0ho9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zhcgcce6u06kt89sc3o7tndnpjb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z0fginbnp1ma0d5erru17joi0c9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zumgkaicv32m3f3ls9psqfb0s0b</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z0qhaqki37kh16ahqogdqsrh9d9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zq4j8tumggssqeua1ct600bvdrb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zqlg0rfuk9pne2ibccpbsjree58">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zr4jks02i7klv0f88d1nlfk92i9</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zq0hi2pgc1gm5dk7nd8m1u699qa">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zfkjq39o4avpna6oeh55ui3tmu8</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zqigutq79257e8fl9d8i6brplk9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <CovTermPatternCode>GL7LimitBIByDiseaseEachEmpl</CovTermPatternCode>
+    <CovTermOptCode>zc9ju7h76vtt49t04u9o13d0bkb</CovTermOptCode>
+    <EndEffectiveDate/>
+  </CovTermOptLookup>
+</import>

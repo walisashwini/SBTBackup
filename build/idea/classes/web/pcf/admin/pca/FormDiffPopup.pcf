@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    afterCancel="formDetailsPresenter.revertChanges()"
+    canEdit="true"
+    id="FormDiffPopup"
+    startInEditMode="not formDetailsPresenter.ReadOnly"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.FormDetails.Title&quot;)">
+    <LocationEntryPoint
+      signature="FormDiffPopup(formDetailsPresenter : gw.sbt.pca.view.presenter.FormDetailsPresenter)"/>
+    <Variable
+      name="formDetailsPresenter"
+      type="gw.sbt.pca.view.presenter.FormDetailsPresenter"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons
+          cancelVisible="not formDetailsPresenter.ReadOnly"
+          editVisible="false"
+          updateVisible="not formDetailsPresenter.ReadOnly"/>
+      </Toolbar>
+      <PanelRef
+        def="InstructionsAndDocumentationPanelSet(formDetailsPresenter.DecisionAndInstructions, formDetailsPresenter.Description, formDetailsPresenter.ReadOnly)"/>
+      <DetailViewPanel>
+        <InputColumn
+          width="900">
+          <RangeInput
+            boldLabel="true"
+            editable="not formDetailsPresenter.ReadOnly"
+            id="Decision"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+            noneSelectedLabel="formDetailsPresenter.DecisionAndInstructions.Decision != null ? DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClearDecision&quot;) : &quot;&quot;"
+            value="formDetailsPresenter.DecisionLabel"
+            valueRange="gw.sbt.util.DisplayDescriptionHelper.UserSelectableDecisionDescriptions"
+            valueType="String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="Form"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Form&quot;)"
+            value="formDetailsPresenter.Description" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="GroupCode"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.GroupCode&quot;)"
+            value="formDetailsPresenter.InternalGroupCode"
+            visible="formDetailsPresenter.InternalGroupCode.HasContent" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="CWFormVersion"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Form.CWFormVersion&quot;)"
+            value="formDetailsPresenter.cwFormNumberAndDescription"
+            visible="formDetailsPresenter.cwFormNumberAndDescription.HasContent" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="InferenceMethod"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.InferenceMethod&quot;)"
+            value="formDetailsPresenter.InferenceMethod" valueType="java.lang.String"/>
+          <TextInput
+            boldLabel="true"
+            id="InferenceDetails"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.InferenceDetails&quot;)"
+            value="formDetailsPresenter.InferenceDetails"
+            visible="formDetailsPresenter.InferenceDetails != null" valueType="java.lang.String"/>
+          <TextInput
+            align="left"
+            boldLabel="true"
+            id="Status"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Difference&quot;)"
+            value="formDetailsPresenter.DiffType" valueType="typekey.UpdateDiffType"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Popup>
+</PCF>

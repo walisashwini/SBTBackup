@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <ExclusionLookup public-id="zgui45ou34n9hfk3mmamnik5j0a">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <ExclusionPatternCode>GL7ExclAccessOrDisclosureOfConfidentialOrPersonal1</ExclusionPatternCode>
+    </ExclusionLookup>
+    <CovTermLookup public-id="zdgj6fsrrft590j839ia79ae37b">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ExposureBasis1</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="znri6iv3b3cfhdtiu8ngn6pdk39">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ExposureBasis1</CovTermPatternCode>
+        <CovTermOptCode>zidgauprbg4t80cqvtj4s8q3n5b</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zbjje192e7u7q7mtnhh0ec2a4qb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ExposureBasis1</CovTermPatternCode>
+        <CovTermOptCode>zm8ics1va2quef39q0o9jk90lvb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z9ohuj8sh3ovual5d105s17doub">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7ExposureBasis1</CovTermPatternCode>
+        <CovTermOptCode>zobg0got1d8via9ps6jcuvnalf8</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermLookup public-id="zqaiism466jkv6te8fscvs32rh9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium92</CovTermPatternCode>
+    </CovTermLookup>
+</import>

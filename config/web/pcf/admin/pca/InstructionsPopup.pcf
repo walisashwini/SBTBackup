@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    canEdit="true"
+    id="InstructionsPopup"
+    startInEditMode="not readOnly"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Instructions&quot;)">
+    <LocationEntryPoint
+      signature="InstructionsPopup(decisionAndInstructions : gw.sbt.model.DecisionAndInstructions, description : String, readOnly:boolean)"/>
+    <Variable
+      name="decisionAndInstructions"
+      type="gw.sbt.model.DecisionAndInstructions"/>
+    <Variable
+      name="description"
+      type="String"/>
+    <Variable
+      initialValue="false"
+      name="readOnly"
+      type="boolean"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons
+          cancelVisible="not readOnly"
+          editVisible="not readOnly"
+          updateVisible="not readOnly"/>
+      </Toolbar>
+      <PanelSet
+        id="InstructionsPanelSet">
+        <Variable
+          initialValue="&quot;&lt;Configuration instructions to go here&gt;&quot;"
+          name="systemInstructions"
+          type="String"/>
+        <DetailViewPanel
+          editable="true">
+          <InputColumn>
+            <Label
+              label="description"/>
+            <TextAreaInput
+              id="GwDocumentation"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.GwDocumentation&quot;)"
+              numRows="5"
+              value="decisionAndInstructions.GwDocumentation"/>
+            <TextAreaInput
+              editable="true"
+              id="ManualInstruction"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ManualInstructions&quot;)"
+              numRows="5"
+              value="decisionAndInstructions.ManualConfigInstructions"/>
+            <TextAreaInput
+              editable="true"
+              id="FilingInstruction"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.FilingInstructions&quot;)"
+              numRows="5"
+              value="decisionAndInstructions.FilingInstructions"/>
+          </InputColumn>
+        </DetailViewPanel>
+      </PanelSet>
+    </Screen>
+  </Popup>
+</PCF>

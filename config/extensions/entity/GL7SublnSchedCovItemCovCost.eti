@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<subtype
+        xmlns="http://guidewire.com/datamodel"
+        desc="GL7 Subline Coverage Schedule Item Coverage Cost"
+        displayName="GL7 Subline Coverage Schedule Item Coverage Cost"
+        entity="GL7SublnSchedCovItemCovCost"
+        supertype="GL7SublnSchedCovItemCost">
+    <implementsInterface
+            iface="gw.lob.common.financials.LobCostMethods"
+            impl="gw.lob.gl7.financials.schedules.GL7SublnSchedCovItemCovCostMethodsImpl"/>
+    <implementsEntity
+      name="Cost"/>
+    <implementsInterface
+      iface="gw.api.domain.financials.CostAdapter"
+      impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+    <foreignkey
+            fkentity="GL7SublnSchedCovItmCov"
+            name="SublnSchedCovItemCov"
+            nullok="false"/>
+</subtype>

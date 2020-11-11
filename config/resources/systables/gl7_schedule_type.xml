@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ScheduleType public-id="zckge5ll88rcp1sov6fkua0hru8">
+    <Value>Accident</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ScheduleType>
+  <GL7ScheduleType public-id="zl7hkcll4bfsocg2n81fk5bu508">
+    <Value>Location</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ScheduleType>
+  <GL7ScheduleType public-id="zt5halmbkgp466fnjisrlcvg4t9">
+    <Value>Product</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ScheduleType>
+  <GL7ScheduleType public-id="zpng4iv6k5ou03cfnvghhpdh8ja">
+    <Value>Work</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ScheduleType>
+</import>

@@ -1,0 +1,1673 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftModel public-id="z1fi6i8sdv0782crdds7k7kjura">
+    <Value>IRIS+</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>3D Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7sjuu1o7obti9u6177rslhkf08">
+    <Value>Y6 RTF</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>3D Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zsrhs6vflkekh0m2n58tt899nq8">
+    <Value>Solo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>3D Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjph0vlc1ijhj73dhp07ma9lpeb">
+    <Value>X8+</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>3D Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zj3hqo8goe6t82gb0incd366fh8">
+    <Value>X8-M</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>3D Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zi7jmevprrs6n02p8v49srkr8b9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>3D Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziahkuk0ovjt2fm9t8p9cb33goa">
+    <Value>AD1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Action Drone USA</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdsjujvcgrko5eumnnjm6ck75sa">
+    <Value>AD2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Action Drone USA</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zo2i89hfna8olah9b5iaomec6fb">
+    <Value>AD-Talon</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Action Drone USA</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z4ag6ddg9l1lsduaor63qbgmgf8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Action Drone USA</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zm5jug5flhr3m0lpf64eq6su1fa">
+    <Value>AP9</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zq0gssbhnvouk23r7828mfl06j9">
+    <Value>AP10 Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvtj03mgvddp0dhjqpnp3e57e18">
+    <Value>AP11</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zl2jaco7925fn44nsik8q2s4859">
+    <Value>AP12</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjni67nn88j4k54oguv4docdeub">
+    <Value>Condor Advanced</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z59h20jr1s42a9403mvle2mukd9">
+    <Value>Condor Elite</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zj4jo7f8fi5f5015uv9kq8v44h9">
+    <Value>F50</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zt1gcmsdbuu85d0o9jol9mv4pda">
+    <Value>F100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqvhic7gnqsd18ia43h3pj6laaa">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>AEE</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="znohmu3lpk4as0e5ac22b04sphb">
+    <Value>Altura Zenith ATX4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Aerialtronics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7oi41cvsukkff79rn82tl4kbh9">
+    <Value>Altura Zenith ATX8</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Aerialtronics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zj1j238goinvnctohpmhps4bvka">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Aerialtronics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zslh2h329c4gifkl30vin4dvgeb">
+    <Value>SkyRanger</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Aeryon Labs</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhrg4h82rv3vd1t2v6vod4af3kb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Aeryon Labs</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8sgg56vek79t2bjguvnfqqepqb">
+    <Value>Galaxy R8700</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Altavian</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqmjaun3jk71ncooe2jgsds3vgb">
+    <Value>Nova F7200</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Altavian</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhmhqts440ven5mseng6bkortrb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Altavian</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zscjqt1f2vvtj1snj6jf2f71lv8">
+    <Value>Kestrel</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Autel Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8khi0tu0okjhfvrhphg82jilp8">
+    <Value>X-Star Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Autel Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7bgsn7jcqfu7ac5i791jpq333a">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Autel Robotics</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z00hqagd5h2498ba08tt4je4658">
+    <Value>180 QXHD</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdtim247ph02nebepbihropha19">
+    <Value>200 QX</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zklja1mn6i2ec85ndj9d3hporda">
+    <Value>350 QX2 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z84hecg4o7mig9qsfg4726admkb">
+    <Value>350 QX3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqag6rb718crj5ksg9b4eksbth8">
+    <Value>350 QX AP Combo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqggq1l2911lsekn27jhdbe989a">
+    <Value>Chroma</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zojgot8mmvn2j817kabe79d7hh9">
+    <Value>Conspiracy 220</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z06gk9fvsf65kbj1m1jh4fkqnm9">
+    <Value>Glimpse</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zs2jejs9rt2dsdehb7qrq42gr2b">
+    <Value>Inductrix Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zaliemifdddit8k0m21h8qv3gra">
+    <Value>Inductrix FPV Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrtgiidp3oootd026b942v6q6lb">
+    <Value>Mach 25 FPV Racer</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zv1hk9jtsm4oe7mn2ppe3quf4qb">
+    <Value>Nano QX Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zobig91jeerfdfpehouh5i7tar9">
+    <Value>Nano QX2 FVP</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjojml9ltah8762cs1aduju8er8">
+    <Value>Pico QX</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zk1i2pgsebc559i83d22jq1li2b">
+    <Value>Vortex 150 Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="znvimqfu62tnqd9eo777i20sg39">
+    <Value>Vortex 250 Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z5vh0ccmm1v2m97b35a8embnhsb">
+    <Value>Zeyrok</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z5mi2ij8io737do006asa3ocecb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Blade</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zo7j63ldlggfa7co9qditq8j9i9">
+    <Value>CX-10 Mini</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfsh2p5dsn80k661r69u6o9c0m9">
+    <Value>CX-10A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z2ag65vtbe1rq1n1a5js1idfa1b">
+    <Value>CX-10C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ztbjsl2g12re19ir4k2gq6cdohb">
+    <Value>CX-10D</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zi1jknqsotrp41o4q4rm1pe5lu8">
+    <Value>CX-10W Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="za9gobn5q47en28j1bm7d8jn36a">
+    <Value>CX-20 Auto-Pathfinder</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr2j0a6m8pfgt3kt56qo44vj9da">
+    <Value>CX-22 Auto-Follower</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zu6i89uuon81acffmn02ov4t2ia">
+    <Value>CX-30 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z83gkt3g000fr1vbekd61buaera">
+    <Value>CX-30W-TX</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrojol1mikbsv496p8skro7hjd9">
+    <Value>CX-32 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zi3h89gakmk0r9vkqabntppda4b">
+    <Value>CX-33 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zlti67clpj8vl7l22rv7vm197gb">
+    <Value>CX-33W-TX</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z87jiila775751j549521s6dfvb">
+    <Value>CX-35</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zl8ha13ok3qo82rrbjg0m6e2kc8">
+    <Value>CX-60</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8ri0jf6p9ftfas45j104jmres8">
+    <Value>CX-91 Jumper</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zh5hm1sm24v4h13r5vtrrgtve08">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Cheerson</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zd7jo1ab8fu8b9sr75a8frbagtb">
+    <Value>PARC</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>CyPhy</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhgg41au35u6775gatjm869rsr9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>CyPhy</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zo3hir3qcjtfa5ur4nqsja4tp69">
+    <Value>Agras MG-1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zo4gmtfd5aojmcsh285hcivrsf8">
+    <Value>Agras MG-1S</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zgmjar1f0dm836lh52oos4gnbja">
+    <Value>Flame Wheel F330</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn9gst28te696f0t1kmb9sfn328">
+    <Value>Flame Wheel F450</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn9h24ptqs10ac5qmbktulbmn2b">
+    <Value>Flame Wheel F550</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zaii8q9pdj2e05dtrbltr2u7saa">
+    <Value>Inspire 1 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z33gmmiokbvai0b7g2c4blrv7l8">
+    <Value>Inspire 2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziuh0g3clsh5i17mc8k2rijutt9">
+    <Value>Matrice 100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8hjommiv12kf8592gvqnrukdhb">
+    <Value>Matrice 200</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zm9g4317r8duseprm8tl4a0u0u9">
+    <Value>Matrice 600 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ze9h2m4bht6u7a38a3r8e89ar7b">
+    <Value>Mavic</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zb0ig19k9p7jf9gn8jihvuk9s39">
+    <Value>Mavic Air</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zorjmunlfutbo8sicphau92qtca">
+    <Value>Mavic Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zm9j67s8uia3d1j9b20dsutao7a">
+    <Value>Mavic 2 Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zloj0dj0v5iut1unrnhqbqh6vo9">
+    <Value>Mavic 2 Zoom</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvriefm2s1rkh5390d0j6ojr4s8">
+    <Value>Phantom 1 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrah8b374bv2i0qcus7rn9cenga">
+    <Value>Phantom 2 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z1gjgv2ainla6du7e8e50uqclfb">
+    <Value>Phantom 3 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z84go5drq84ttepce8bqsfcojb8">
+    <Value>Phantom 4 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z1eh0l10uulao3b84io7v4aaj99">
+    <Value>Platform 4 Advanced</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhciu8hcnp5stedrlt1gbj4cn18">
+    <Value>S1000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zoljo1stc675l2u6bgrb337mneb">
+    <Value>Spark</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdkieqog06041eplctk0kqpu0c8">
+    <Value>Spreading Wings S800</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zl3hees72k0rd0j6veh326ganr8">
+    <Value>Spreading Wings S900</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zp7iodbrseh3t0vtuip8004pp39">
+    <Value>Spreading Wings S1000 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z33gi2aj80ua8d1p7381atecd39">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>DJI</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z0ggecsbh9qqjccglokjptr2mq8">
+    <Value>Commander</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zabh69hghv8m83mq61noi41l7ia">
+    <Value>Guardian</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zc9jmgtihnjof9gdag7op69lf48">
+    <Value>Tango2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zlsio31n7cl2d1l5a5qltnnq9v9">
+    <Value>X4-C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zt3hg83p3p63mcfs1212uhf6qaa">
+    <Value>X4-ES</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ztph4292sftd31op5h9i2mf3jt8">
+    <Value>X4-P</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zoehe4910dop9ai4jjja30krb9a">
+    <Value>X6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zj8huio7jqc2i815ekgkja62v48">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Draganfly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zoigamtcjln9r29jobgodfbb5d8">
+    <Value>Ehang 184</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Ehang</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvohmjis6c85t69vjmo5had9bp9">
+    <Value>Ehang Falcon B</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Ehang</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfiigb5eqtgfq870r8is51ifdva">
+    <Value>Ghost Aerial Plus</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Ehang</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z4miidfkhbi991h84gfhqqar89a">
+    <Value>Ghost Basic</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Ehang</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zbqii0cktp7139f2rn784j0efu8">
+    <Value>Ghostdrone 2.0 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Ehang</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8ugot4fpnj27fml7jh43khcms8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Ehang</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqegmsga36u2ebb0bjnmvd563ub">
+    <Value>Elios</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Flyability</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7ajote0a4rl72eif7t7pl31ts9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Flyability</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="za6io6r6m8kmfdraesge8lohis9">
+    <Value>FLZA-3000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Flyzone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zsqj8qii83hjectlv4mh0cdicsb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Flyzone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z87jo3i7u332i3k2m5bpqsim2ra">
+    <Value>Alta 6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Freefly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrag0r2qlo1rn9d4s1q4tj9lsib">
+    <Value>Alta 8</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Freefly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zm3junjfopkcc8cmkajcjtt90vb">
+    <Value>Movi Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Freefly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zefhksrl95a19ageguchvk23je9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Freefly</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z65g63c2k1a4pd651ibd71kldb9">
+    <Value>Karma</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Go Pro</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zq2holibr58ng5a8sr3mq2hvnda">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Go Pro</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z17homjabihfo8mk07fg53psi48">
+    <Value>1Si</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Heli Max</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr2iuja4e36m3arfn3jq2jvs5l9">
+    <Value>230Si</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Heli Max</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zbmis7e8hthc81t21ccs3qkjvaa">
+    <Value>Voltage 5003D</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Heli Max</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziuiup53d2ud62n11m5b4mflulb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Heli Max</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zpiisvleelib33kd390l20v26ma">
+    <Value>Q-Box 450</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hitec</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6ghejgm31umscojm34qnov6gh8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hitec</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zcfgcr8jt3hj01ha0a5bi516u58">
+    <Value>F180W Mini FPV</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkbhs716ms9e71o3citnn026339">
+    <Value>F181</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z81i6473n0d3e3ecg1brnjtjiia">
+    <Value>HS110W</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zq8g2j1r9muoqb876mq9q4pavib">
+    <Value>HS170</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkli2uahbq3t604kqjgopqv155a">
+    <Value>HS200W</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z2hi8v57j75r57a60e84t2vjjl8">
+    <Value>Predator Mini</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zb3hstppmuar3dh3c3aj37iaiua">
+    <Value>U Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkhh6jvj1v0mk79fd3nru4sg5r8">
+    <Value>X300C FPV</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zurim2l20vgb086mthd1kfuao19">
+    <Value>X400C FPV</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfghs2pkgo4bh4ij7fhmebqn8r8">
+    <Value>X401H FPV</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zphi27nhp0go32i1ub9ghitfev9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Holy Stone</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z58jo97bahfj63ks7836is1dacb">
+    <Value>FPV X4 H107D</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zugis3h6j8qf9aph5f5pj7p42ma">
+    <Value>H002 Nano Q4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7tiinpfdeiv14lg6bqfulqp0l9">
+    <Value>H107D+ FPV X4 Plus</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z5ig4otdi2h0r153dp91sgiubcb">
+    <Value>H107P X4 Plus</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zc9j432gcofjj4i0cgmg1vp8oi8">
+    <Value>H111C Nano Q4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjmhmj1nuhtbc3dlklns54q0vc9">
+    <Value>H111D Nano FPV Q4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvfh06aoebnmo267f30pjc11hv8">
+    <Value>H501S X4 - Advanced Version</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zd8halrp1uei57s97jgh6rm12e8">
+    <Value>H507A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zc8h63u8qcbkr1vi690a3417o19">
+    <Value>Nano Q4 H111</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zceiasgc2uqvmdkmd448qs56fv8">
+    <Value>X4 AIR H501A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zm5i42sk5j8tv1l5r8jjs88r2qb">
+    <Value>X4 Camera H107C Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfti2dqvh3gde1rgpnefkmg19ib">
+    <Value>X4 FPV Brushless H501S</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7oi8pnio6qld0u8u43ctgr1mib">
+    <Value>X4 H107L</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjujs3b8ljuq0b9dj1cdf1kko3b">
+    <Value>X4 H501C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zteiifb8j64os4fumnqo5i4vmv9">
+    <Value>X4 H502E</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zleh2i974h2a14sruipdm9dvrh8">
+    <Value>X4 H502S</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z10gqehu3ln8q91kr6cedvhr7ka">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Hubsan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="za2i4v2ql74j5ehkdn9hldudfqa">
+    <Value>Aero</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Intel</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z14h8rgp8ghbq5tgmh6jaeuurpb">
+    <Value>Falcon 8+</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Intel</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkji0o5t5a8b61k5diqah6t0qi9">
+    <Value>MAVinci SIRIUS Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Intel</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zpni45dgn4pkr087tdfkesfi9d8">
+    <Value>Shooting Star</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Intel</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ze1hkcg9nctn98d2a37v0jbit5a">
+    <Value>Shooting Star 2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Intel</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziqhesglsvvou23pookpv2mfur8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Intel</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8ojm5efqs7hra0v2l1bnldq5j9">
+    <Value>H10</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z5ah8uvag9gl57acm91ejgihge8">
+    <Value>H11C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zeki410bnv63j11o214i65preib">
+    <Value>H11D</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zshgs2bl9ajppcq318eb80gqpl8">
+    <Value>H11WH</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z4lhgb1vhnfrl1g2ceeaeiuu62a">
+    <Value>H12W</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvvj81qn2hi5c473paj6oqnq82b">
+    <Value>H13C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z2vhqfjhi9djv0k0rdij4slr7ia">
+    <Value>H26</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdch4mae9njq2cil18t6knnsc6b">
+    <Value>H30C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhti0tm10l5581vcc9gim1hccab">
+    <Value>H31</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z3egq782dn258e2vq5oveu6vbjb">
+    <Value>H9D</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zekigfkmsbvc312bthbvokvovla">
+    <Value>JJ669</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn1gi782ncj3a3vk0husrkcp4fb">
+    <Value>V666</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zgdj05t7br4do2f5p2als54i7eb">
+    <Value>V686</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrgg6qp7beguobqh6jnqdlgmdj8">
+    <Value>X1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziqgq8krru28hflgvq0mpj7c1ab">
+    <Value>X6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z5pgebjfeluiu405tse3f88tj49">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>JJRC</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zo7g2bcjl4rno5fek2hchmm9jo9">
+    <Value>2S</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Kespry</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8iiitv3s970r2ci2nhrkc8jbj9">
+    <Value>Kespry Drone 2.0</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Kespry</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr9i8q76mngf9dv8qllurj2a2rb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Kespry</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhajcav9vpmgrcdipud7t01dlib">
+    <Value>LH-C10C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrqgeu9pbug4d6hkrkc6se4canb">
+    <Value>LH-X1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn6g2d16vlshgeqe42a6aspuaa8">
+    <Value>LH-X10 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zmhh8ot34bbmc923iks1ge98bpb">
+    <Value>LH-X11</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn0h8cpebhktd7q9g8nt4hovvq9">
+    <Value>LH-X14 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8piud6ekrut93ajph30o1sgq48">
+    <Value>LH-X15 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zmoiuoh7j8ve06kgjh26dsmjirb">
+    <Value>LH-X16 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z86jilqkb6a4a2rb93rlsqusju8">
+    <Value>LH-X2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z48iqpiuekg9najtt40lpb6mbs8">
+    <Value>LH-X3 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfgjojp345isjbfk0likng9lnb8">
+    <Value>LH-X4 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjphqc3j3n5uue1q4895r8gfgd8">
+    <Value>LH-X5 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zakj8j3poj5fd7irbtbppak8ll8">
+    <Value>LH-X6 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z52i2qip620uaeibeh2e4ho0i2b">
+    <Value>LH-X8 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z10iqpb97okejesg6oct9l4dc08">
+    <Value>LH-X9</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zegjeia69c0ru7jarmef6rntk0b">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Lead Honor</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zi5gsq89skbj1aao0f9aj16e4d8">
+    <Value>md4-200</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Microdrones</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr0gqn8aom9nhe4k7ok63ma9r79">
+    <Value>md4-1000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Microdrones</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zabi8n48cfhtu5h00p4ps6vdmca">
+    <Value>md4-3000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Microdrones</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr0hecqpdgclsbfqe3a9sg4tnt8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Microdrones</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zatisbfdleoq02c428aocv4ucpa">
+    <Value>X101</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zggjk0t9lsbn7eunnv15ll1kmoa">
+    <Value>X300C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ze3gkced25es59cs6um0i9n1lha">
+    <Value>X400-V2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zpggcc3vq1im1fcav9s8mtif3db">
+    <Value>X600</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn7j87dal0f0o4k7kcenl4jr3ka">
+    <Value>X700C</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7vgav3dbbga380i7eqqgmoc8mb">
+    <Value>X800</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrngao5rgonm4ajdlh2m6albqjb">
+    <Value>X901</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zphhm3t6t9o4h71jekduelhfom8">
+    <Value>X902</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zi3jslunudnb66b7m1nmgk2n7n9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>MJX Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zbfje9nh7bsji8h2bhah4icd148">
+    <Value>Airborne Cargo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zv4hca49vd5e1f0acn0u1tc7of9">
+    <Value>Airborne Night Swat</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z2piu2cg297np6kggmhs5h8f0eb">
+    <Value>Anafi</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zrcjabsemjplaen41uag60p9n78">
+    <Value>AR Drone 2.0 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z3jhsj0tbc7no7dk0f9lc2qek9b">
+    <Value>Bebop Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z84g8j7rkmabm9dcu4gsb9e3e9a">
+    <Value>Disco</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zobhidurr0uhl0khjoe0dargml8">
+    <Value>Mambo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zj2h4ut913dal6jopkl9327qmeb">
+    <Value>MiniDrone Rolling Spider</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziqj8s4f0v7rtaqm4n8srudqdu9">
+    <Value>Orak Hydrofoil</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zv2ggbj0tj26278g9hp82hhv7c8">
+    <Value>Swing</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zethcjj0patns3obodae8sle638">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Parrot</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="znogutond3p9tdrj06fevq0764a">
+    <Value>Lancaster 5</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Precision Hawk</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zs7j8g06p7hah5mnq2qgl67uis8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Precision Hawk</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr5jgqn238gsr4n50t8eint8uca">
+    <Value>Albris</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>SenseFly LLX</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z04hq1h15fpu7a65ptiuc549vg8">
+    <Value>Ebee Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>SenseFly LLX</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjliombcif3vu214nq42dkijd38">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>SenseFly LLX</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zndjevk9l34t5ai3me2mrskbi4b">
+    <Value>Hover Racer</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z0bjq5le8cslre28ek89ihrptjb">
+    <Value>M200 Nano</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7ejcqdg3kud3a6mesji3lijivb">
+    <Value>M500 Nano</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zpghmhq2h76p62s127fi2us1nu9">
+    <Value>S670</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z1ugavhsn12hfddmerjnmheot7a">
+    <Value>S1350HD</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zangk2pcepq7m303avnl0ei8a3a">
+    <Value>S1700 Stunt</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8mgog77kbnvr88oge2to63gv98">
+    <Value>V950HD</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7dggdsph320a5obd42aa4kfsfa">
+    <Value>V950STR</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zflj835cafvma391o75v18bmcf8">
+    <Value>V2400HD</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr1jgh2v05t2icmhb8c9lf8kmr8">
+    <Value>V2400FPV</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z71gouc55020ubjmqh0is4svrk8">
+    <Value>V2900 Pro</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zaniislemev387cfprhjfetlqt9">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Sky Viper</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zmshqtg0bt4pvfj38tr7omranc8">
+    <Value>X11 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z1rh2m1atvgfg6k5u8pq9fe0od8">
+    <Value>X12 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zlkj4bdj4d3pnak5ab8sv3q64l8">
+    <Value>X3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zhojcs8r1gjl9f5bufdq22bk4e8">
+    <Value>X13</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvlh2ucd6mkn0dh2frv7ksol6ib">
+    <Value>X14W</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z5cjqqo0114op374pocr179jv58">
+    <Value>X16</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zt7ji0m94dn4qe887b2ruoef7kb">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zh8joja6uj0vu132h3f3ivmtli9">
+    <Value>mdMapper200</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Trimble</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zifgqcjh231mmdb99i7vtis73b8">
+    <Value>mdMapper1000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Trimble</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z1kis2img4vvb4sa9cqvijm9b89">
+    <Value>msMapper1000 DG</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Trimble</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z4ried45s8ppsfdv4626rr6l079">
+    <Value>UX 5 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Trimble</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z9mj6mhnbfmur228rn89jmmmmta">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Trimble</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zajj8ctqaps9oet8avs3o7n3jr9">
+    <Value>Blue Jay</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zakjmf2qa2lnc929rl52180nvt9">
+    <Value>Demon</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z4tik7b9c5fa0ch4j3u8t94t1ub">
+    <Value>Discovery Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkghg824d6spj6gpkmqntum4ngb">
+    <Value>Falcon</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z35jkqdj5icpu0q95lth1ospd1b">
+    <Value>Free Loop</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkbg6prf9mc380v8m5bpif7fd98">
+    <Value>Freedom</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ze2jabfrqfqnp9m1tdt3e6ba978">
+    <Value>Freelander</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6cikd4vo8ng46eh3k1cma0icj8">
+    <Value>Glede</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z9ah6ku6apgb03ifprd9ov5r2t9">
+    <Value>Kestrel</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zorjudvpu8vm1e5o9035d513g69">
+    <Value>Lark</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvagomnjqm76n6mmtqj9u0nh85b">
+    <Value>Mini</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6ags5ljir8g0ca5phhl8qn3q5a">
+    <Value>Multi-skywalker</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdqj6f82hduhdfq97s17gbi2gq8">
+    <Value>Nano</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z77j66unbfpj88v10r1bb57hal9">
+    <Value>Navigator</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zg8jgsim0sfrh65o5mvn3nmsmk8">
+    <Value>Peregrine</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqrj2k2421j5l8fl4fl4kc4jutb">
+    <Value>Petrel</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zn6h6oh4rhshi0ld8gdpa01hkg8">
+    <Value>Piglet</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z3jgseul3oflp1vqjrgj9nb8u1a">
+    <Value>Swan</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfcgo22hc8ltk218ovsmdedi7b9">
+    <Value>Tiny</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zl8iip683hjsq6e4ocn5pnj56qa">
+    <Value>U818A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zebhmll8psbh6cqtimvs86iq9db">
+    <Value>U829A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6fhiudhlg7ifffstr1khlq6pga">
+    <Value>U841-1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z88j4ptlda9ghdmuior459k5bs8">
+    <Value>U842</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z7sga7lkrdg6q5k81k9vgqcort9">
+    <Value>U919A</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="za7i4do5mbhkgcb5tbirnq3qs6a">
+    <Value>U941</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zbmim5dvl6krecev6o7lr0v9s5a">
+    <Value>Udi Wing</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zbih04g058a0h4a1uf4auq5i9u9">
+    <Value>Voyager</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zctic2akm04af3p8t4karjkasfa">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>UDI RC Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr4gehu35o0ir1ej7e9rihtvkg8">
+    <Value>UAV Black Widow</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Vulcan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdjhkk2blfdll8k39f0rmauvm28">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Vulcan</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zu5h85gc7k1va2lqunnu0ppaoj9">
+    <Value>250 Runner X16</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera Syma Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z78igrcq5e01pcsvd7qbop4v328">
+    <Value>AiBao</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zcdgoh4jcefd30o94iidf46n219">
+    <Value>Brushed Hoten X WFI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zehhu3dqpspe51i8p4sdm2uamm9">
+    <Value>F210 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zj2isa4uso93q61ejvjlc7a94ha">
+    <Value>Furious 320</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6mju8fj44qr65lme8i7i647irb">
+    <Value>MR Drone</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zarisco8803m08ctaspmjre6j49">
+    <Value>QR Ladybird V2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zdbjsnt4d2ca9fo5flpovgnqfvb">
+    <Value>QRW100S</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z0bjkc4161fih0duu0d4fsb5rn9">
+    <Value>QR X350 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zbkg8tde3llcadmhpgtih975spa">
+    <Value>QR X800</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr7hknpmpnpfp48f75pkhcdk29b">
+    <Value>QR X900 Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zvrik5ihohc7882phlar77a25e9">
+    <Value>QR Y100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zmug05dn41f8c4vm7d75tj4022b">
+    <Value>Rodeo 110</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zcricbao5esduavfmbit3j2hmj9">
+    <Value>Rodeo 150</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z8tiet464bkev9qmkcudi97u9e8">
+    <Value>Runner 250 Advance</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z4bh6oeqqr30u6q66bbfdmhedv9">
+    <Value>Scout X4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6ljgcc36la3o2es3met2ofhg88">
+    <Value>Tali H500</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zg1jghl49aaare7sfq23tet6ffa">
+    <Value>Voyager 3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zh6j20jfvbtr27osge1u9up0a89">
+    <Value>Voyager 4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zgkjavpchb0cr74p4iads0f28v8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Walkera</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zt5ja26mmjlfpe2ctutdpsdn2ha">
+    <Value>V252 - Skylark</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zq4jipn9imbr6932kpovofofjaa">
+    <Value>V292- Mini Skylark E</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z64jcnaksb6qt557tg5nod49adb">
+    <Value>V646 Mini Ufo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zjkhg8g4ubhpidh8tefjti1hon9">
+    <Value>V676 Mini Ufo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zu0ic89idscjf32p4rduqa75s9b">
+    <Value>Q282J Spaceship</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zr8iac9f9oslua26mfknqg5og6b">
+    <Value>Q282G Spacehip</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zijh697i9i5jtbjd6klb4j2aqa9">
+    <Value>XK innov X250 Alien</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z9lg2bfrk8v4l4s3l9o52ae8u8a">
+    <Value>Q343 Mini Quadcop</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zptiufqthmskc9t3eff1v0olnca">
+    <Value>Q222 Spaceship Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z1kj48fjvh8n7fqstgb169mbkqb">
+    <Value>V222 Transmitter</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zp3i6il84ndgo513el58mpu0419">
+    <Value>V353 Galaxy</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zqhgu2dcctdo280bvoedm8sa208">
+    <Value>V606 Explorers</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z53ia921pacc036bq51hd10j069">
+    <Value>V636 Skylark</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zc9h6rj1ccjjhchpt90obqvs9n8">
+    <Value>V686 Explore Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zgujqr3kt1rv2bo1883424u8dv8">
+    <Value>V959 Pro Battleship</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkeh60ikiqo228lv8ube76s9ip9">
+    <Value>Q212 Spaceship</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z0ggutdn38jf9709qv3462jiuc8">
+    <Value>XK innov X252 Shuttle</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zkth29s22p115cogkggh42i1u9a">
+    <Value>V262 Ufo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zichg410q49hr7kua6fbskq130a">
+    <Value>V303 Seeker</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zt4ji22beb9gh2sldb65gfon1fa">
+    <Value>V323 Skywalker</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6qhceh81gtk96i4tu7ah4e4jnb">
+    <Value>V333 Ufo Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zb3j2mpo3slj47e9he8njhj7pj9">
+    <Value>V393 Brushless Exp</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z58h4hncgnq50fek7glb8khd6f8">
+    <Value>V656 Ufo</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zimi0me5bbelh3gkldtd4d1lfk9">
+    <Value>V666 Fly &amp; View</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zc4h4utrdns012bv1cjdak7k3qb">
+    <Value>XK innov X380 Detect</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zd2hqre4ecghfci4vb0jvgkgc9b">
+    <Value>Q202 Aircraft Carrier</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zljg2lpi2p9u82p204vqmam4ge8">
+    <Value>V383 Electric 3D</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zfohobvq38ls27ce37t8e084n3b">
+    <Value>Q303 Spaceship Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zomioul1ilcii50oqm7j52868m8">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>WL Toys</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zuvjen9pid4ub1b1sfa3liv7vpa">
+    <Value>Breeze</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zt3igu9fksgnu0qvbuglmjlef98">
+    <Value>Flying Eyes HX3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z71i8f5563ki50oe1p1tnjdgrbb">
+    <Value>H520</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zmsj0ouo8qoi587meea80t51kg9">
+    <Value>H920 Plus</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ziggoh8ebj5iucqvqu5lqdpdjs8">
+    <Value>H920 Tornado</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zs0ja7a0drknn9hm7kge0pmsml8">
+    <Value>Mantis Q</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zaqi2ag33tu0hfq1erfh9vqdhka">
+    <Value>Q500 4K Typhoon</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z6hik8e2cqtapf9a1icl14efq5b">
+    <Value>Typhoon H Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zm6juco4clf7b1r805ul3d73h78">
+    <Value>Q500 Typhoon Series</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="zpnikcsn57og41kjil38g9gea79">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Yuneec Intl</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="z2gh0aqdhk73gelal4o0d7hovib">
+    <Value>Not Listed</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Not Listed</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+  <GL7UnmannedAircraftModel public-id="ztnhsm0nhss7a0bb5mspikge9ca">
+    <Value>Unknown</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <UnmannedAircraftManufacturer>Unknown</UnmannedAircraftManufacturer>
+  </GL7UnmannedAircraftModel>
+</import>

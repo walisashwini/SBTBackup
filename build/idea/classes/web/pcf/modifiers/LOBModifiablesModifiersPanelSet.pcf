@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="LOBModifiablesModifiersPanelSet">
+    <Require
+      name="modifiables"
+      type="Modifiable[]"/>
+    <Require
+      name="rateFactorRangeGenerator"
+      type="gw.lob.common.util.modifiers.RateFactorRangeGenerator"/>
+    <PanelIterator
+      elementName="modifiable"
+      value="modifiables"
+      valueType="entity.Modifiable[]">
+      <IteratorSort
+        sortBy="modifiable.DisplayName"
+        sortOrder="1"/>
+      <PanelRef
+        def="LOBModifiablePanelSet(modifiable, rateFactorRangeGenerator)"/>
+    </PanelIterator>
+  </PanelSet>
+</PCF>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeSchedExcl" public-id="GL7AmndmtOfLiquorLiabExclExcptnScheddActivs" priority="104700" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7AmndmtOfLiquorLiabExclExcptnScheddActivs" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AmndmtOfLiquorLiabExclExcptnScheddActivs");]]></AvailabilityScript>
+    <CovTerms/>
+</ExclusionPattern>

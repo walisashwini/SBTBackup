@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zk8hoesnvvp0l6r1vsp4c8ke3va">
+        <Availability>Available</Availability>
+        <State>IA</State>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7IAChangesLiquorLiab</CoveragePatternCode>
+    </CoverageLookup>
+</import>

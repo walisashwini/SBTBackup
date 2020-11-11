@@ -1,0 +1,1083 @@
+<?xml version="1.0"?>
+<import>
+  <GL7GovernmentalUnitsPremi public-id="z1hjmjac6b608au8f1s2a7tosnb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zcqg4ips6liu870tab6f3kolfp8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z0ij0non8msm90cmmpks7thr62b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zqpj8le2sai3898b1t798eu77cb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z76gkqd43348pea1k8s54hd5gu8">
+    <Value>1.3</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z57j299vqokeu6qnd1rdbbp0qob">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z46ikrkcia6j9dvu78tcnheoal8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zklh0drag1qk2enhklfto90t5fa">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zgqja84ju4gm9aqccn10u1hrm79">
+    <Value>1.31</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zh8i6jub3l3mp5lojvn8e5taep9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zucg8r8nt9grh4ond2kuk4jime8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zfvi80q9s8jeabhcrds2ta8cs5b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zeijkqe2ujqmh4egqjs2bmd0k2b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdui0gsfoamun6g0ffp1rb5g61a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdjjsgrk0kh18d6nrbkst2s2arb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="znpiigjq7napk1j9eqbk2504qva">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z8sgok46a5us10pr4hrat2t158a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zasiau8bdn5fedjlhqbcvcokdib">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zr7jokrt6tip7doajhbiv5trq0b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z6aiekg4khkukb5ip6aav7t3469">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="znri8rns8r6eve0e291flencqo8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdrhg5i17ll104hes3k2n2dgoj8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zf5hkkuf36rr1eeh8cft3jcb60b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zjji6hsu9ng1fan51ag2m3bjseb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z1fg6bsqujk2621jn46i89t70ob">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zkvjggmeps2h2fgce8sbopodvea">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zk5gqhgrhmtcc6in6aqf1uhmrka">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zj4i86o0c97f19rnn861cpc2q9b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zbmgqiitdfdh33k6ti9e9umoj8b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zg0geivqdqv3l7gr8etlo061239">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zsljorq2ao6g72s6tlb4np420l9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z7nicarnop6u5fa9qacehfmlv99">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z00iagmt02nh502qcoohl62guha">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z2ehs4dghce0997okrtpa4hen69">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z6niifvc6gh1i1j1eiijr9mfdab">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zrmh262j43vt2erdob1gq5f8eq9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zh0hk82navu9k78v25fads5vvka">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>600,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z6pg81oc75dji28r6duvtif7pca">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zc3gqpe9s4cgra7aproduog8el9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zediu1tbd2n1q7rjviie8oftjua">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zc6jgtq7r4vbg4h8dqpmfgn7o5a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zaij4j8gcnu396bgg0anjjebkua">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zakhg1q95a7a14g7gajjvb6fkga">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zfrguu2dqlif1cupsq5eo0s63kb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zkmg0e6do3sh6938hf3i75e8dvb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zorho16i28hds9mrg2q8m3jdtua">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zmjgqbes8gtqn7q1qalpq08fpga">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zkiis3lhjv2jj1ie9kst8d466h8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zpei2vcdm4ig61jca5tqtc6epc9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zquikfdnj7v1i68v5tof3ja8308">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z34j0p28hia2l29oeunl8k75669">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zmpjou9g4hfvq9rg834a9i3eth9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zmqiemk6561qo2p23g099ofo38a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zh4gsgkrjbkn71lf0q0qs0p4aca">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z1bi47cglcavm91vip2nphl0d78">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zneia6ovifaas1a1qsfupl7spoa">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z8ji4cck9gi3j3cg7052b83ob4b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z61ieu3237redfi325s9cq6d098">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zp8iul8lnmc8c4gat9g854i1069">
+    <Value>1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>100,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>100,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>200,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zpigmv4tpoekkajmnoblee8lh58">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zd9i672d3o081e09u9983tu58u9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zvnhgnnrfde890lkpc1e7028j79">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zokj808al85uichhjlqq72os6ga">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z5liiltprhkct590sk0klb3s288">
+    <Value>1.26</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zg8ha6phu87459p26msrqi63j7b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdoi0vsf36s2d47frhvljgdi3d9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zhqhou5fn5si433koi180s8at1b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zsago26hg3lfk748mg1i11hmlva">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z22ioubo0vk5ta92dkrl94e1gb8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zp5iopillbpe8df3sohiqckvqbb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zb5hsi25iti1ke1q46kauaueh6a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="za3j0tcg3btn129nnm0onrcufhb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zo2h2s4n3fdve6ab3kq5hmh8i2b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zvsi6u678ot4aeqlsf00o3b0l2b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z61i0frhjmj5ed67d7bb7s745m8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdrgqf25pb59i45egp3622p9v9b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z3jjejg8tmk5p0hk9arsqui5uu8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z1khi9pqoenoue50n0o8vl107n8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="znbhae7vqio71djndqk3ejsi8qa">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z6egs0jd1ctse9gunpqt9q1vrt8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zncisoj6d4f49b57vra1da1r8m9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z4eh0lo0j9vfk2pa2bi7uv5t3gb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="ztnjqteh18e6mdovo9t1usdt2i9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z4ciogjqagndg75lvsjeve6kre8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zifgch3ktsfn168vchknv0fm7gb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zouggctar7gt4ca7v30fifrdbea">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="znpic017iqhi014horh58d1m58b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z4ugupsp54lee1bdkb35sa9gnra">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zeui2escnndbg5hp3vnbkikqrd9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdghaue8t8ejb46fkf9ollj2hb8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zqvhqovmcfb21f2k1muahf4kai8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zh6goc1eviapccroigc12ji4n4a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zm3j8ipe0cvq014fsk6btbm4ktb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z4qjqur44fpj7civ1leqfq33mlb">
+    <Value>1.19</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z4phcl2m3fvlsfo2oi5msghp2c8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zomhcs6ft9oh6dnoomgj9d5bppa">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zjtisa5u28r754e8icphnm9gsr8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zrqhi511o5paidm79me9f9fepa9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zldimbap8pgp43h2sfs8ut80fq8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zjfg8fdpt4bu5db392r5fsdhbc9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdoheqp7q88c1arje0qim8snov8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zh6jqst7l04303q4t7ehhp2jtt8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zsqha8jj438el9l9bu7t38cd87a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zf7iqveojbcp804tfogdis7mv39">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zf4hi76nblumj9gkucu8nj0m03a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>300,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>300,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zujiohopfga1cd68f1tcqm702p9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zg2iadg03d81icb9jsrcqd4n608">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zgug8bntumi3u362drb35v64mpa">
+    <Value>1.27</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>5,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>7,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z7eiq3tc317aj310kr1m5k47g18">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zvfg2r3bt203sd3v8e7sncval28">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z17gor9iaqhar39fqkd9jrvnjj9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zq9igfkle29pn72cc6jg789r5jb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zcrj8gvvi0i5v849lf0820jn598">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zssj0s0o3mg2sdl6hpik5jn8g28">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z7siu87hbchm0cqk4oq8rk1hb1a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="ze6hom7vj40p2bcvius5milce18">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zduhootrjtusp1l9thgk4c3456a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zrljcnplp441d3pk69dsi205kl9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>4,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zogg0s05tn8i4fb2mb2usd77d89">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="ztmgsk4me6dse0rou7pooiv450b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>4,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zhngcet7g1mmj1cgqrrhnq85ab9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>2,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zj5gk0o7ddg275e4463v91e38eb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zm7g0bc2np1a65uneerbmhhruba">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z86jq84e68fs7c2vqkufmf8ju0b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>600,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zrlgmpltpa5sc9k2sn0un4i0218">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zkni0di97cojt5a4cep9g6ct8ia">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z49jsuuqic5c50b9vlcf43bp83b">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>5,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z2bia3ur0qsio5la1gsvnfdlpr8">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>3,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z41iatkju0if1dj60shveo7gr3a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>3,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zgmiem7fctamre48gc5tn64ddk9">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>1,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zf1hkpfgebmcj7v9o3a5l5a2c89">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="z17g0svp25laab36l3qdu0skoob">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zrti25pbt05265alaa8s53dh74a">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>700,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>2,500,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zgui858eopg8hdpqbbv3iff0vrb">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>300,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>1,000,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>10,000,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+  <GL7GovernmentalUnitsPremi public-id="zdogiovfu4hsuefqstvkccmncsa">
+    <Value>0</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <PerPersonLim>500,000</PerPersonLim>
+    <EachOccurrenceLimGovSubdivisio>500,000</EachOccurrenceLimGovSubdivisio>
+    <GeneralAggLimGovSubdivision>600,000</GeneralAggLimGovSubdivision>
+  </GL7GovernmentalUnitsPremi>
+</import>

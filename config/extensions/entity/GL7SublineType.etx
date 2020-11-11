@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7SublineType" xmlns="http://guidewire.com/datamodel">
+    <column columnName="gl7covform" desc="Coverage Form" name="CoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7damagetopremisesrentedtoyou" desc="Damage To Premises Rented To You Exclusion exists" name="DamageToPremisesRentedToYouExcl" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7edlcovform" desc="Coverage Form" name="EDLCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7edlretroactivedate" desc="Retroactive Date" name="EDLRetroactiveDate" nullok="true" type="datetime"/>
+    <column columnName="gl7erpdramaticchangeonexposure" desc="The exposures have been subject to a dramatic change during or since the experience period" name="ERPDramaticChangeOnExposure" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7erpexposuresonspecialuwbasi" desc="Premises/Operations Exposure" name="ERPExposuresOnSpecialUWBasisPremOpsCurrent" nullok="true" type="longint"/>
+    <column columnName="gl7erpexposuresonspecialuwbas1" desc="Products/Completed Operations Exposure" name="ERPExposuresOnSpecialUWBasisProdCompldOpsCurrent" nullok="true" type="longint"/>
+    <column columnName="gl7erpperiodends6monthsprior" desc="Experience Period Ends At Least 6 Months Prior To Rating Date" name="ERPPeriodEnds6MonthsPrior" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7erpyearsofexperienceincurre" desc="Experience Years Of Experience Incurred By Company:" name="ERPYearsOfExperienceIncurred" nullok="true" type="integer"/>
+    <column columnName="gl7experiencebusinessstartdate" desc="Start of Business Date" name="ExperienceBusinessStartDate" nullok="true" type="datetime"/>
+    <column columnName="gl7experiencenumberyearsrequi1" desc="Experience Number Years Required From Line Level" name="ExperienceNumberYearsRequired1" nullok="true" type="integer"/>
+    <column columnName="gl7experienceratingapplies" desc="Experience Rating" name="ExperienceRatingApplies" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7compositeexposure" desc="Composite Exposure" name="CompositeExposure" nullok="true" type="longint"/>
+    <column columnName="gl7compositerating" desc="Composite Rating Applies" name="CompositeRating" nullok="true" type="varchar">
+        <columnParam name="size" value="255"/>
+    </column>
+    <column columnName="gl7annualbasiclmtscopremiumov2" desc="Annual Basic Limits Co Premium Override Prem Ops" name="AnnualBasicLimitsCoPremiumOverridePremOps1" nullok="true" type="integer"/>
+    <column columnName="gl7annualbasiclmtscopremiumov3" desc="Annual Basic Limits Co Premium Override Prod CompldOps" name="AnnualBasicLimitsCoPremiumOverrideProdCompldOps1" nullok="true" type="integer"/>
+    <column columnName="gl7experiencenumberyearsrequir" desc="Experience Number Years Required" name="ExperienceNumberYearsRequired" nullok="true" type="integer"/>
+    <column columnName="gl7govsubdivision" desc="Governmental Subdivision" name="GovernmentalSubdivision" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7legalentity" desc="Legal Entity" name="LegalEntity" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7lmtdcovfordesignatedunmanne" desc="Limited Coverage For Designated Unmanned Aircraft" name="LimitedCovForDesignatedUnmannedAircraft" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7liquorcovform" desc="Coverage Form" name="LiquorCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7liquorretroactivedate" desc="Retroactive Date" name="LiquorRetroactiveDate" nullok="true" type="datetime"/>
+    <column columnName="gl7medpayexcl" desc="Medical Payments Exclusion for Entire Policy" name="MedicalPaymentsExcl" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7multistate" desc="Multistate" name="Multistate" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7ownerscontractorscovform" desc="Coverage Form" name="OwnersContractorsCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7packagemodfactor" desc="Package Mod Factor" name="PackageModFactor" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7packagepolicy" desc="Package Policy" name="PackagePolicy" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7personaladvertisinginjuryex" desc="Personal And Advertising Injury Exclusion exists" name="PersonalAndAdvertisingInjuryExcl" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7pollutioncleanup" desc="Clean-Up Coverage" name="PollutionCleanUpCoverage" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7pollutioncovform" desc="Coverage Form" name="PollutionCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7pollutionretroactivedate" desc="Retroactive Date" name="PollutionRetroactiveDate" nullok="true" type="datetime"/>
+    <column columnName="gl7premopsprodscovform" desc="Coverage Form" name="PremOpsProdsCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7premopsprodsretroactivedate" desc="Retroactive Date" name="PremOpsProdsRetroactiveDate" nullok="true" type="datetime"/>
+    <column columnName="gl7premiumdiscountpercentage" desc="Premium Discount Percentage" name="PremiumDiscountPercentage" nullok="true" type="decimal">
+        <columnParam name="precision" value="8"/>
+        <columnParam name="scale" value="4"/>
+    </column>
+    <column columnName="gl7prodswithdrawal" desc="Limited Product Withdrawal Coverage" name="ProdsWithdrawalCoverage" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7productwithdrawalcovtype" desc="Product Withdrawal Coverage Type" name="ProductWithdrawalCoverageType" nullok="true" type="varchar">
+        <columnParam name="size" value="56"/>
+    </column>
+    <column columnName="gl7productwithdrawalparticipat" desc="Product Withdrawal Participation Percentage" name="ProductWithdrawalParticipationPercentage" nullok="true" type="varchar">
+        <columnParam name="size" value="12"/>
+    </column>
+    <column columnName="gl7prodswithdrawalcutoff" desc="Product Withdrawal Cut off Date" name="ProductsWithdrawalCutOff" nullok="true" type="datetime"/>
+    <column columnName="gl7railroadcovform" desc="Coverage Form" name="RailroadCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7retroactivedateapplies" desc="Retroactive Date Applies" name="RetroactiveDateApplies" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7risktype" desc="Risk Type" name="RiskType" nullok="true" type="varchar">
+        <columnParam name="size" value="80"/>
+    </column>
+    <column columnName="gl7scheduleratingmodificationa" desc="Schedule Rating" name="ScheduleRatingModificationApplies" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7subline" desc="Subline" name="Subline" nullok="true" type="varchar">
+        <columnParam name="size" value="60"/>
+    </column>
+    <column columnName="gl7triaexpirationdate" desc="Enter current TRIA expiration date" name="TRIAExpirationDate" nullok="true" type="datetime"/>
+    <column columnName="gl7triaextended" desc="Has TRIA been extended past termination date of TRIP?" name="TRIAExtended" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7tripterminatesbeforeexpirat" desc="Terrorism Risk Insurance Program (TRIP) terminates before policy expiration date" name="TRIPTerminatesBeforeExpirationDate" nullok="true" type="varchar">
+        <columnParam name="size" value="5"/>
+    </column>
+    <column columnName="gl7terr" desc="Accept Certified Acts of Terrorism Coverage" name="TerrorismCoverage" nullok="true" type="varchar">
+        <columnParam name="size" value="3"/>
+    </column>
+    <column columnName="gl7ustcovform" desc="Coverage Form" name="USTCoverageForm" nullok="true" type="varchar">
+        <columnParam name="size" value="32"/>
+    </column>
+    <column columnName="gl7undergroundstoragetankretro" desc="Retroactive Date" name="UndergroundStorageTankRetroactiveDate" nullok="true" type="datetime"/>
+    <column columnName="gl7yearinclaimsmade" desc="Year In Claims Made" name="YearInClaimsMade" nullok="true" type="integer"/>
+</extension>

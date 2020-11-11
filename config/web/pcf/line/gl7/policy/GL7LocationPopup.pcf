@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Popup
+    afterCommit="gw.api.web.PebblesUtil.invalidateIterators(TopLocation, PolicyLocation)"
+    afterEnter="initialize()"
+    beforeCommit="presenter.removeUnselectedLocations(); presenter.syncTerritoryIndicator(); gw.lob.gl7.pcf.GL7ValidationUtil.beforeSaveLocation(location)"
+    canEdit="openForEdit"
+    countsAsWork="false"
+    id="GL7LocationPopup"
+    returnType="PolicyLocation"
+    startInEditMode="startInEdit"
+    title="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.LocationInformation.Title&quot;)">
+    <LocationEntryPoint
+      signature="GL7LocationPopup(policyPeriod : PolicyPeriod, theAccountLocation : AccountLocation, location : PolicyLocation,  openForEdit : boolean, startInEdit : boolean, jobWizardHelper :gw.api.web.job.JobWizardHelper)"/>
+    <Variable
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Variable
+      name="theAccountLocation"
+      type="AccountLocation"/>
+    <Variable
+      name="location"
+      type="PolicyLocation"/>
+    <Variable
+      name="openForEdit"
+      type="boolean"/>
+    <Variable
+      name="startInEdit"
+      type="boolean"/>
+    <Variable
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      name="presenter"
+      type="gw.lob.gl7.presenters.GL7LocationPresenter"/>
+    <Screen
+      id="LocationScreen">
+      <Toolbar>
+        <EditButtons
+          hideIfReadOnly="true"
+          pickValue="location"/>
+      </Toolbar>
+      <PanelRef
+        def="GL7LocationDetailCV(policyPeriod, presenter, openForEdit, false, jobWizardHelper)"/>
+    </Screen>
+    <Code><![CDATA[function initialize() {
+  if (location == null) {
+    location = theAccountLocation == null
+        ? policyPeriod.newLocation()
+        : policyPeriod.newLocation(theAccountLocation)
+  }
+
+  presenter = new gw.lob.gl7.presenters.GL7LocationPresenter(policyPeriod.GL7Line, location)
+}]]></Code>
+  </Popup>
+</PCF>

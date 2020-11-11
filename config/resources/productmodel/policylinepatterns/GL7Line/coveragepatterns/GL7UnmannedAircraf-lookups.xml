@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zuchuu9k3sh6teir53iihf2t2l9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7UnmannedAircraf</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="zougiq618de8n1h61lr6sqrlqp9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+    </CovTermLookup>
+    <CovTermOptLookup public-id="zdbjkocl2hk44blmcpbmiiudt9a">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>ze6h2equ41ig02dtn1s1ajhq4q9</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z8rjslutciv7c9p5h1gc42jfteb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>z26is1luuj2rl37867ig52lbkd9</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z9shca4l5pi4e7m14kuohe98apb">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>z1ojqnpm3b9h72nn9pcc760kl2a</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z60g8havn1tv04nt5mseo86nh1b">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>z4ghc46abr8aidkpla0cdctfggb</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zlji63vgk79d1ar60e9a3qsfe59">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>z08huorgb9omqant058vrivkf58</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z8jji10c4i8g8dgdd7qcuk09gn9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zocgmbpdig8khd5hf3uuquf2rg9</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zcagqauubr7p50knoa9rc40ag48">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zibiqomm9gf1f1s6a3473edbs29</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z1rh07dfce9mj36i3qhet947sq9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zl9ier5f8npksfjhpr32l8k6l99</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zocjmq96os7oi9a9sm9srvtca19">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zkrjk6gendm71ebapsm3htrai69</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zgcj4skb6m6kh02b6djauf43qs9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zumh6j1t8a57k0k1qkm4o61lsja</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z90g0u6c2eut6055mn2k8j75am8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zkpiujusr1qur8jtgp76a276vh8</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zqcgmjfmt30s117g18dj97nkjab">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zvjhq5r5u9pk82ordq1gf6dums8</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="ztlg6m2otraj6en1spnsqmdprn9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zq2hm2iebvuls8n79c76sodi689</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="zrohi7aci5g155tism4m12nfkt8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zb0h669e9fd57dsmfhh50engbba</CovTermOptCode>
+    </CovTermOptLookup>
+    <CovTermOptLookup public-id="z7lj2dlhgvrnkf46jjjjn8crhl8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <CovTermPatternCode>GL7AggLimit23</CovTermPatternCode>
+        <CovTermOptCode>zdriojlmshqccdrttv56hfdlic9</CovTermOptCode>
+    </CovTermOptLookup>
+</import>

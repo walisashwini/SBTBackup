@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="ClauseDetailsComparisonPanelSet">
+    <Require
+      name="treeNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Require
+      name="showDecisionRequiredOnly"
+      type="boolean"/>
+    <Require
+      name="newSBTUpdateEdition"
+      type="String"/>
+    <Require
+      name="adoptedSBTUpdateEdition"
+      type="String"/>
+    <PanelRef
+      id="TitlePanel">
+      <Toolbar
+        id="EvaluationResultsToolbar">
+        <TreeButtons
+          iterator="NodeLV"/>
+        <CheckedValuesToolbarButton
+          id="Decision"
+          iterator="NodeLV"
+          label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)">
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = null })"
+            id="ClearDecision"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClearDecision&quot;)"/>
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.ACCEPT })"
+            id="Accept"
+            label="gw.sbt.util.DisplayDescriptionHelper.getComparisonUpdateDecisionDescription(gw.sbt.model.UpdateDecision.ACCEPT)"/>
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.REJECT })"
+            id="Reject"
+            label="gw.sbt.util.DisplayDescriptionHelper.getComparisonUpdateDecisionDescription(gw.sbt.model.UpdateDecision.REJECT)"/>
+        </CheckedValuesToolbarButton>
+      </Toolbar>
+      <ListViewPanel
+        id="NodeLV">
+        <RowTree
+          canPick="false"
+          checkBoxVisible="rowPresenter.Selectable and not rowPresenter.ReadOnly"
+          contentType="gw.sbt.pca.view.presenter.compare.StateUpdateComparisonPresenter"
+          elementName="rowPresenter"
+          hasCheckBoxes="true"
+          pageSize="0"
+          value="treeNode">
+          <ToolbarFilter
+            cacheKey="gw.sbt.pca.view.presenter.PresenterUtil.filterCacheKey()"
+            name="rowPresenterFilter"
+            width="180">
+            <ToolbarFilterOption
+              filter="gw.sbt.pca.view.filter.ComparisonFilters.All"
+              visible="showDecisionRequiredOnly"/>
+            <ToolbarFilterOption
+              filter="gw.sbt.pca.view.filter.ComparisonFilters.forDetailsPage().DecisionRequired"
+              selectOnEnter="true"
+              visible="showDecisionRequiredOnly"/>
+          </ToolbarFilter>
+          <Row
+            editable="false">
+            <TextCell
+              actionAvailable="false"
+              enableSort="false"
+              id="Item"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Item&quot;)"
+              value="rowPresenter.Description"
+              width="400" valueType="java.lang.String"/>
+            <TextCell
+              actionAvailable="false"
+              enableSort="false"
+              fontColor="rowPresenter.AvailabilityColor"
+              id="CurrentValue"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Comparison.CurrentValue&quot;)"
+              showHeaderIcon="false"
+              value="rowPresenter.CurrentValue" valueType="java.lang.String" />
+            <TextCell
+              actionAvailable="false"
+              enableSort="false"
+              fontColor="rowPresenter.AvailabilityColor"
+              id="NewValue"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Comparison.NewValue&quot;)"
+              showHeaderIcon="false"
+              value="rowPresenter.NewValue" valueType="java.lang.String"/>
+            <TextCell
+              actionAvailable="false"
+              enableSort="false"
+              fontColor="rowPresenter.AvailabilityColor"
+              id="AdoptedValue"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Comparison.AdoptedValue&quot;)"
+              showHeaderIcon="false"
+              value="rowPresenter.AdoptedValue" valueType="java.lang.String"/>
+            <TextCell
+              align="center"
+              enableSort="false"
+              id="Decision"
+              bold="true"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+              value="rowPresenter.DecisionLabel" valueType="java.lang.String"/>
+          </Row>
+        </RowTree>
+      </ListViewPanel>
+    </PanelRef>
+  </PanelSet>
+</PCF>

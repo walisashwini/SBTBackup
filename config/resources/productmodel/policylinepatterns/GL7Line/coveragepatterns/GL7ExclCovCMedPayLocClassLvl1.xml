@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7ExposureSchedExcl" public-id="GL7ExclCovCMedPayLocClassLvl1" priority="2040000" lookupTableName="GL7ExposureExcl" existence="" owningEntityType="GL7Exposure" referenceDateByType="PolicyTerm" coverageCategory="GL7ExposureExclGrp" codeIdentifier="GL7ExclCovCMedPayLocClassLvl1" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Exposure.isClauseAvailable("GL7ExclCovCMedPayLocClassLvl1");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7Exposure.getClauseExistence("GL7ExclCovCMedPayLocClassLvl1");]]></ExistenceScript>
+    <CovTerms/>
+</ExclusionPattern>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7AddlInsdUsersOfTeamsDraftOrSaddleAnimals" priority="124100" lookupTableName="GL7SublineTypeCov" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeAddlInsdGrp" codeIdentifier="GL7AddlInsdUsersOfTeamsDraftOrSaddleAnimals" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AddlInsdUsersOfTeamsDraftOrSaddleAnimals");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7AddlInsdUsersOfTeamsDraftOrSaddleAnimals");]]></ExistenceScript>
+    <CovTerms/>
+</CoveragePattern>

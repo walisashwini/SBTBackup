@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<delegate requiresType="effdated" extendable="true" name="LobCost" xmlns="http://guidewire.com/datamodel">
+  <fulldescription>Lob Cost Data</fulldescription>
+  <column
+    default="false"
+    name="HasParent"
+    nullok="true"
+    type="bit"/>
+  <column
+    name="CostId"
+    nullok="true"
+    type="shorttext"/>
+  <column
+    name="Details"
+    nullok="true"
+    type="shorttext"/>
+</delegate>

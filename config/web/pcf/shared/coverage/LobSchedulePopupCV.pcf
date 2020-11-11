@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <CardViewPanel
+    id="LobSchedulePopupCV">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="schedule"
+      type="gw.api.domain.Schedule"/>
+    <Require
+      name="selectedScheduledItem"
+      type="entity.ScheduledItem"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Variable
+      initialValue="selectedScheduledItem typeis Coverable ? selectedScheduledItem : null"
+      name="scheduledItemCoverable"
+      recalculateOnRefresh="true"
+      type="Coverable"/>
+    <Variable
+      initialValue="schedule.PropertyInfos"
+      name="propertyInfos"
+      recalculateOnRefresh="true"
+      type="gw.api.productmodel.SchedulePropertyInfo[]"/>
+    <Variable
+      initialValue="schedule.ScheduledItemMultiPatterns?.where( \ pattern -&gt; (selectedScheduledItem as Coverable)?.isClauseSelectedOrAvailable(pattern)) ?: {}"
+      name="clausePatterns"
+      recalculateOnRefresh="true"
+      type="gw.api.productmodel.ClausePattern[]"/>
+    <Card
+      id="DetailCard"
+      title="&quot;Details&quot;"
+      visible="not (schedule.ScheduledItems.Count == 0)">
+      <PanelRow>
+        <PanelColumn
+          id="PropertyInfoInputs">
+          <PanelRef>
+            <TitleBar
+              title="&quot;Scheduled Item&quot;"/>
+            <DetailViewPanel>
+              <InputColumn>
+                <InputIterator
+                  elementName="propertyInfo"
+                  id="PropertyInfoValues"
+                  value="propertyInfos" valueType="gw.api.productmodel.SchedulePropertyInfo[]">
+                  <InputSetRef
+                    def="ScheduledItemPropertyV2InputSet(clause, propertyInfo, selectedScheduledItem, jobWizardHelper, new gw.lob.common.displayable.SchedulePropertyInfoDisplayableFactoryV2())"/>
+                </InputIterator>
+              </InputColumn>
+            </DetailViewPanel>
+          </PanelRef>
+        </PanelColumn>
+        <PanelColumn
+          id="CoverageInputs"
+          visible="clausePatterns.HasElements">
+          <PanelRef>
+            <TitleBar
+              title="DisplayKey.get(&quot;Web.Policy.Coverages&quot;)"/>
+            <DetailViewPanel>
+              <InputColumn>
+                <InputIterator
+                  elementName="clausePattern"
+                  forceRefreshDespiteChangedEntries="true"
+                  id="ClausePatternValues"
+                  value="clausePatterns" valueType="gw.api.productmodel.ClausePattern[]">
+                  <IteratorSort
+                    sortBy="clausePattern.Priority"
+                    sortOrder="1"/>
+                  <InputSetRef
+                    def="LobCoverageInputSet(clausePattern, scheduledItemCoverable, openForEdit, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"
+                    mode="clausePattern.CodeIdentifier"/>
+                </InputIterator>
+              </InputColumn>
+            </DetailViewPanel>
+          </PanelRef>
+        </PanelColumn>
+      </PanelRow>
+    </Card>
+  </CardViewPanel>
+</PCF>

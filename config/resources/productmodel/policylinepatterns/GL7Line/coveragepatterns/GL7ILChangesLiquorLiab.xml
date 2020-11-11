@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineCov" coveredPartyType="ThirdParty" public-id="GL7ILChangesLiquorLiab" priority="795000" lookupTableName="GL7SublineCov" existence="Required" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineAddlGrp" codeIdentifier="GL7ILChangesLiquorLiab" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7ILChangesLiquorLiab");]]></AvailabilityScript>
+  <CovTerms/>
+</CoveragePattern>

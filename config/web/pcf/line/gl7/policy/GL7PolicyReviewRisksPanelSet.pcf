@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    editable="false"
+    id="GL7PolicyReviewRisksPanelSet">
+    <Require
+      name="line"
+      type="productmodel.GL7Line"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="policyPeriod"
+      type="entity.PolicyPeriod"/>
+    <Variable
+      initialValue="new gw.lob.gl7.pcf.GL7TreeNodeExpandCollapseContext()"
+      name="expandCollapseContext"
+      type="gw.lob.gl7.pcf.GL7TreeNodeExpandCollapseContext"/>
+    <Variable
+      initialValue="new gw.lob.gl7.tree.GL7PolicyReviewTreeBuilder(line).createPolicyReviewTreeWithContext(expandCollapseContext)"
+      name="rootNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Variable
+      initialValue="new java.util.Random()"
+      name="resetFilterSelection"
+      type="java.util.Random"/>
+    <PanelRef
+      visible="true">
+      <Toolbar>
+        <ToolbarButton
+          action="expandCollapseContext.expandAll()"
+          id="ExpandAllButton"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.PolicyReviewTree.ExpandAll&quot;)"/>
+        <ToolbarButton
+          action="expandCollapseContext.collapseAll()"
+          id="CollapseAllButton"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.PolicyReviewTree.CollapseAll&quot;)"/>
+        <ToolbarDivider/>
+        <ToolbarFilter
+          cacheKey="resetFilterSelection.nextLong() as String"
+          iterator="GL7PolicyReviewTree"
+          label="DisplayKey.get(&quot;Web.Policy.GL7.PolicyReviewTree.LocationFilter&quot;)"
+          name="SingleLocationFilter">
+          <ToolbarFilterOption
+            filter="new gw.lob.gl7.tree.filter.GL7AllLocationsFilter (expandCollapseContext)"
+            label="DisplayKey.get(&quot;Web.Policy.GL7.PolicyReviewTree.DepthFilter.All&quot;)"
+            selectOnEnter="true"
+            visible="true"/>
+          <ToolbarFilterOptionGroup
+            filters="gw.lob.gl7.tree.filter.GL7LocationFilters.eachLocation(expandCollapseContext, line)"
+            visible="true"/>
+        </ToolbarFilter>
+      </Toolbar>
+      <ListDetailPanel
+        selectionName="selectedRow"
+        selectionType="gw.lob.gl7.tree.GL7AbstractSummaryRow">
+        <ListViewPanel
+          id="RowTreeLV"
+          visible="true">
+          <RowTree
+            contentType="gw.lob.gl7.tree.GL7AbstractSummaryRow"
+            elementName="gl7Row"
+            id="GL7PolicyReviewTree"
+            pageSize="0"
+            value="rootNode">
+            <Row
+              id="GL7TreeRow"
+              visible="true">
+              <TextCell
+                action="expandCollapseContext.save()"
+                actionAvailable="selectedRow.Description == gl7Row.Description"
+                id="Description"
+                label="&quot;&quot;"
+                value="gl7Row.Description"/>
+            </Row>
+          </RowTree>
+        </ListViewPanel>
+        <CardViewPanel
+          hideTabIfSingle="true"
+          id="riskSummaryCV">
+          <Card
+            id="riskCV"
+            title="&quot;&quot;">
+            <PanelRef
+              def="GL7PolicyReviewPanelSet(selectedRow.RowEntity, policyPeriod, jobWizardHelper)"
+              editable="false"
+              mode="(typeof selectedRow.RowEntity).RelativeName"/>
+          </Card>
+        </CardViewPanel>
+      </ListDetailPanel>
+    </PanelRef>
+  </PanelSet>
+</PCF>

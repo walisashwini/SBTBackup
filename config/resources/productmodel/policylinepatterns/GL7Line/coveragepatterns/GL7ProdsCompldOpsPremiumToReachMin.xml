@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CoveragePattern
+  codeIdentifier="GL7ProdsCompldOpsPremiumToReachMin"
+  coverageCategory="GL7SublineTypeStdGrp"
+  coverageSubtype="GL7SublineTypeCov"
+  coveredPartyType="ThirdParty"
+  existence="Required"
+  lookupTableName="GL7SublineTypeCov"
+  owningEntityType="GL7SublineType"
+  policyLinePattern="GL7Line"
+  priority="355000"
+  public-id="GL7ProdsCompldOpsPremiumToReachMin"
+  referenceDateByType="PolicyTerm">
+  <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ProdsCompldOpsPremiumToReachMin");]]></AvailabilityScript>
+  <CovTerms/>
+  <Schedules/>
+</CoveragePattern>

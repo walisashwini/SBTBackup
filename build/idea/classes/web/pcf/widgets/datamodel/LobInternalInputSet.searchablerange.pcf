@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <InputSet
+    id="LobInternalInputSet"
+    mode="searchablerange">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <RangeInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="true"
+      id="Input"
+      label="displayable.Label"
+      required="displayable.Required"
+      showConfirmMessage="false"
+      sortValueRange="false"
+      value="displayable.Value"
+      valueRange="displayable.ValueRange"
+      valueType="java.lang.Object">
+      <PostOnChange
+        onChange="displayable.onChangeWithoutInfosAndWarnings()"/>
+      <PickerMenuItem
+        action="LobRangeSearchPopup.push(displayable)"
+        id="Search"
+        label="DisplayKey.get(&quot;Web.Policy.Common.DataModel.SearchLink&quot;)"
+        onPick="displayable.Value = PickedValue.Value"/>
+    </RangeInput>
+  </InputSet>
+</PCF>

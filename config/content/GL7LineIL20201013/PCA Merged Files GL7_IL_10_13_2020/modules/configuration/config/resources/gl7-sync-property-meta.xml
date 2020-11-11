@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyncPropertyMeta xsi:noNamespaceSchemaLocation="sync-property-meta.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Container containerType="GL7SublineType" containerPath="/GL7GeneralLiabilityLine/GL7SublineType">
+    <Property propertyName="ExperienceBusinessStartDate">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7SublineTypeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+  </Container>
+  <Container containerType="GL7Exposure" containerPath="/GL7GeneralLiabilityLine/GL7SublineType/GL7Location/GL7Exposure">
+    <Property propertyName="DescriptionOrClassCodeSelection">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureDescriptionOrClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="ClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="ClassDescriptionForClassCodes">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="EDLClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="EDLClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="LiquorClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="LiquorClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="OwnersContractorsClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="OwnersContractorsClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="PollutionClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="PollutionClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="RailroadClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="RailroadClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="USTClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="USTClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="SpecialProtectiveHighwayClassCodeForClassDescription">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+    <Property propertyName="SpecialProtectiveHighwayClassDescriptionForClassCode">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7ExposureClassCodeSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+  </Container>
+  <Container containerType="GL7Subline" containerPath="/GL7GeneralLiabilityLine/GL7SublineType/GL7Subline">
+    <Property propertyName="Modifiers">
+      <Version>
+        <SynchronizerClass>gw.lob.gl7.synchronizer.GL7SublineModSynchronizer</SynchronizerClass>
+      </Version>
+    </Property>
+  </Container>
+</SyncPropertyMeta>

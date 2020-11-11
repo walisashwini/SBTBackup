@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7ExperienceRatingModification" priority="742500" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeStdGrp" codeIdentifier="GL7ExperienceRatingModification" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExperienceRatingModification");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3187" public-id="GL7ERPActualExpectedLossRatio" required="true" codeIdentifier="GL7ERPActualExpectedLossRatio">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModification", "GL7ERPActualExpectedLossRatio");]]></AvailabilityScript>
+        </DirectCovTermPattern>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3186" public-id="GL7ERPExpenseVariationApplies" required="true" codeIdentifier="GL7ERPExpenseVariationApplies">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModification", "GL7ERPExpenseVariationApplies");]]></AvailabilityScript>
+            <DefaultsSet>
+                <CovTermDefault defaultValue="No" public-id="GL7ERPExpenseVariationAppliesDEFAULT" codeIdentifier="GL7ERPExpenseVariationAppliesDEFAULT"/>
+            </DefaultsSet>
+            <Options>
+                <CovTermOpt public-id="zgcjm8i4s7hhg2g7keel34c1308" priority="0" optionCode="Yes" value="0" codeIdentifier="zgcjm8i4s7hhg2g7keel34c1308"/>
+                <CovTermOpt public-id="z46h88is10n8odpt12vcslsvf58" priority="1" optionCode="No" value="0" codeIdentifier="z46h88is10n8odpt12vcslsvf58"/>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm2" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3309" public-id="GL7ERPExperienceModificationAllOtherSublines" required="true" codeIdentifier="GL7ERPExperienceModificationAllOtherSublines">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModification", "GL7ERPExperienceModificationAllOtherSublines");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits public-id="GL7ERPExperienceModificationAllOtherSublinesNOCURRENCY" codeIdentifier="GL7ERPExperienceModificationAllOtherSublinesNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm3" defaultValue="0" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="3308" public-id="GL7ERPExperienceModificationOverride" required="true" codeIdentifier="GL7ERPExperienceModificationOverride">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7ExperienceRatingModification", "GL7ERPExperienceModificationOverride");]]></AvailabilityScript>
+            <LimitsSet>
+                <CovTermLimits public-id="GL7ERPExperienceModificationOverrideNOCURRENCY" codeIdentifier="GL7ERPExperienceModificationOverrideNOCURRENCY"/>
+            </LimitsSet>
+        </DirectCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

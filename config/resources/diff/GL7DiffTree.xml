@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<DiffTree xsi:noNamespaceSchemaLocation="schema/difftree.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Section label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.DiffTree.PolicyInfo")' sortorder="1">
+    <RootProperties includefromtype="PolicyPeriod" sortorder="1"/>
+    <RootProperties includefromtype="EffectiveDatedFields" sortorder="2">
+      <PropertyDisplay propertyname="OfferingCode" value="ENTITY.getOfferingName(VALUE)"/>
+    </RootProperties>
+    <RootEntity type="PolicyPriNamedInsured" label='gw.api.locale.DisplayKey.get("Web.Differences.LOB.Common.PolicyPriNamedInsured", ENTITY.DisplayName)' sortorder="3"/>
+    <RootEntity type="PolicySecNamedInsured" label='gw.api.locale.DisplayKey.get("Web.Differences.LOB.Common.PolicySecNamedInsured", ENTITY.DisplayName)' sortorder="4"/>
+    <RootEntity type="PolicyAddlInterest" showadds="false" showremoves="false" label='gw.api.locale.DisplayKey.get("Web.Differences.LOB.Common.PolicyAddlInterest", ENTITY.DisplayName)' sortorder="5"/>
+    <RootEntity type="PolicyAddress" label='gw.api.locale.DisplayKey.get("Web.Differences.LOB.Common.PolicyAddress", ENTITY.AddressType)' sortorder="6"/>
+  </Section>
+  <Section label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.GeneralLiability")' sortorder="2">
+    <RootEntity type="GL7SublineType" sortorder="1">
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Coverages")' sortorder="1">
+        <Entity type="GL7SublineTypeCov" parentpath="ENTITY.GL7SublineType" sortorder="1"/>
+        <Entity type="GL7SublineTypeSchedCov" parentpath="ENTITY.GL7SublineType" sortorder="2">
+          <Entity type="GL7SublineTypeSchCovItem" parentpath="ENTITY.ScheduleCoverage" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7SublineTypeSchCovItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Conditions")' sortorder="2">
+        <Entity type="GL7SublineTypeCond" parentpath="ENTITY.GL7SublineType" sortorder="1"/>
+        <Entity type="GL7SublineTypeSchedCond" parentpath="ENTITY.GL7SublineType" sortorder="2">
+          <Entity type="GL7SublineTypeSchCondItem" parentpath="ENTITY.ScheduleCondition" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7SublineTypeSchCondItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.Coverages.Exclusions")' sortorder="3">
+        <Entity type="GL7SublineTypeExcl" parentpath="ENTITY.GL7SublineType" sortorder="1"/>
+        <Entity type="GL7SublineTypeSchedExcl" parentpath="ENTITY.GL7SublineType" sortorder="2">
+          <Entity type="GL7SublineTypeSchExclItem" parentpath="ENTITY.ScheduleExclusion" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7SublineTypeSchExclItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+    </RootEntity>
+  </Section>
+  <Section label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.StateSpecificInformation")' sortorder="3">
+    <RootEntity type="GL7Subline" label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.DiffTree.Subline", ENTITY.Jurisdiction.Code, ENTITY.SublineTypeName)'>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Coverages")' sortorder="1">
+        <Entity type="GL7SublineCov" parentpath="ENTITY.GL7Subline" sortorder="1"/>
+        <Entity type="GL7SublineSchedCov" parentpath="ENTITY.GL7Subline" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7SublineSchedCovItem" parentpath="ENTITY.ScheduleCoverage" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7SublineSchedCovItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Conditions")' sortorder="2">
+        <Entity type="GL7SublineCond" parentpath="ENTITY.GL7Subline" label="ENTITY.Pattern.DisplayName" sortorder="1"/>
+        <Entity type="GL7SublineSchedCond" parentpath="ENTITY.GL7Subline" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7SublineSchedCondItem" parentpath="ENTITY.ScheduleCondition" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7SublineSchedCondItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.Coverages.Exclusions")' sortorder="3">
+        <Entity type="GL7SublineExcl" parentpath="ENTITY.GL7Subline" sortorder="1"/>
+        <Entity type="GL7SublineSchedExcl" parentpath="ENTITY.GL7Subline" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7SublineSchedExclItem" parentpath="ENTITY.ScheduleExclusion" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7SublineSchedExclItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <Properties includefromtype="GL7Subline" parentpath="ENTITY" sortorder="1">
+        <PropertyDisplay label="ENTITY.getPropertyLabel('ByLawsCreatedOrAmendedOnOrAfterDate')" propertyname="ByLawsCreatedOrAmendedOnOrAfterDate"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('CondominiumAssociation')" propertyname="CondominiumAssociation"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('DoesThisRiskOperateScaffoldBuildingsInChicagoThatRequirePermit')" propertyname="DoesThisRiskOperateScaffoldBuildingsInChicagoThatRequirePermit"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('DoesThisRiskOperateScaffolds')" propertyname="DoesThisRiskOperateScaffolds"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('DoesThisRiskPerformHomeRepairAndRemodeling')" propertyname="DoesThisRiskPerformHomeRepairAndRemodeling"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('EnergyEfficiencyInstaller')" propertyname="EnergyEfficiencyInstaller"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('StopGap')" propertyname="StopGap"/>
+      </Properties>
+    </RootEntity>
+  </Section>
+  <Section label='gw.api.locale.DisplayKey.get("Web.Differences.LOB.Common.Locations")' sortorder="4">
+    <RootEntity type="GL7Location" label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.DiffTree.Location", ENTITY.locationDisplay(30), ENTITY.SublineType.Subline)'>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Coverages")' sortorder="1">
+        <Entity type="GL7LocationCov" parentpath="ENTITY.GL7Location" sortorder="1"/>
+        <Entity type="GL7LocationSchedCov" parentpath="ENTITY.GL7Location" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7LocationSchedCovItem" parentpath="ENTITY.ScheduleCoverage" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7LocationSchedCovItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Conditions")' sortorder="2">
+        <Entity type="GL7LocationCond" parentpath="ENTITY.GL7Location" sortorder="1"/>
+        <Entity type="GL7LocationSchedCond" parentpath="ENTITY.GL7Location" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7LocationSchedCondItem" parentpath="ENTITY.ScheduleCondition" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7LocationSchedCondItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.Coverages.Exclusions")' sortorder="3">
+        <Entity type="GL7LocationExcl" parentpath="ENTITY.GL7Location" sortorder="1"/>
+        <Entity type="GL7LocationSchedExcl" parentpath="ENTITY.GL7Location" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7LocationSchedExclItem" parentpath="ENTITY.ScheduleExclusion" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7LocationSchedExclItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <Properties includefromtype="GL7Location" parentpath="ENTITY" sortorder="1">
+        <PropertyDisplay label="ENTITY.getPropertyLabel('TerrorismTerritory')" propertyname="TerrorismTerritory"/>
+      </Properties>
+    </RootEntity>
+  </Section>
+  <Section label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Exposures")' sortorder="5">
+    <RootEntity type="GL7Exposure" label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.DiffTree.Exposure", ENTITY.GL7Location.Location.LocationNum, ENTITY.GL7Location.Jurisdiction.Code, ENTITY.ClassCodeDisplay, ENTITY.classDescriptionDisplay(30), ENTITY.SublineTypeName)'>
+      <Properties includefromtype="GL7Exposure" parentpath="ENTITY" sortorder="1">
+        <PropertyDisplay label="ENTITY.getPropertyLabel('Contractor')" propertyname="Contractor"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('LiquorExposureOnPremises')" propertyname="LiquorExposureOnPremises"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('LiquorELPOverride')" propertyname="LiquorELPOverride"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('ClimbingFacilityOperator')" propertyname="ClimbingFacilityOperator"/>
+        <PropertyDisplay label="ENTITY.getPropertyLabel('StopGapIncrdLimitFactorOverride')" propertyname="StopGapIncrdLimitFactorOverride"/>
+      </Properties>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Coverages")' sortorder="1">
+        <Entity type="GL7ExposureCov" parentpath="ENTITY.GL7Exposure" label="ENTITY.Pattern.DisplayName" sortorder="1"/>
+        <Entity type="GL7ExposureSchedCov" parentpath="ENTITY.GL7Exposure" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7ExposureSchedCovItem" parentpath="ENTITY.ScheduleCoverage" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7ExposureSchedCovItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Conditions")' sortorder="2">
+        <Entity type="GL7ExposureCond" parentpath="ENTITY.GL7Exposure" label="ENTITY.Pattern.DisplayName" sortorder="1"/>
+        <Entity type="GL7ExposureSchedCond" parentpath="ENTITY.GL7Exposure" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7ExposureSchedCondItem" parentpath="ENTITY.ScheduleCondition" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7ExposureSchedCondItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.Coverages.Exclusions")' sortorder="3">
+        <Entity type="GL7ExposureExcl" parentpath="ENTITY.GL7Exposure" label="ENTITY.Pattern.DisplayName" sortorder="1"/>
+        <Entity type="GL7ExposureSchedExcl" parentpath="ENTITY.GL7Exposure" label="ENTITY.Pattern.DisplayName" sortorder="2">
+          <Entity type="GL7ExposureSchedExclItem" parentpath="ENTITY.ScheduleExclusion" label="ENTITY.DescriptionV2">
+            <Properties includefromtype="GL7ExposureSchedExclItem" parentpath="ENTITY" sortorder="1"/>
+          </Entity>
+        </Entity>
+      </SubSection>
+    </RootEntity>
+  </Section>
+  <Section label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Modifiers")' sortorder="6">
+    <RootEntity type="GL7SublineTypeMod" label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.DiffTree.Modifier", ENTITY.DisplayName, ENTITY.GL7SublineType.Subline)'>
+      <Entity type="GL7SublineTypeRF" parentpath="ENTITY.GL7SublineTypeModifier" label="ENTITY.Pattern.Description"/>
+    </RootEntity>
+  </Section>
+  <Section label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.UnmannedAircraft")' sortorder="7">
+    <RootEntity type="GL7UnmannedAircraft" label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.DiffTree.UnmannedAircraft", ENTITY.UnmannedAircraftNumber, ENTITY.Manufacturer, ENTITY.Model, ENTITY.UAIdentificationCode)'>
+      <SubSection label='gw.api.locale.DisplayKey.get("Web.Policy.GL7.Coverages")' sortorder="1">
+        <Entity type="GL7UnmannedAircraftCov" parentpath="ENTITY.UnmannedAircraft" label="ENTITY.Pattern.DisplayName" sortorder="1"/>
+      </SubSection>
+    </RootEntity>
+  </Section>
+</DiffTree>

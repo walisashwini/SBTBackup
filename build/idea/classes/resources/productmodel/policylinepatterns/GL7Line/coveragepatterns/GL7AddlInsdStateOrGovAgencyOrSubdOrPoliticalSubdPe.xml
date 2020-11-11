@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<CoveragePattern
+  codeIdentifier="GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe"
+  coverageCategory="GL7SublineTypeAddlInsdGrp"
+  coverageSubtype="GL7SublineTypeSchedCov"
+  coveredPartyType="ThirdParty"
+  existence="Electable"
+  lookupTableName="GL7SublineTypeCov"
+  owningEntityType="GL7SublineType"
+  policyLinePattern="GL7Line"
+  priority="1035000"
+  public-id="GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe"
+  referenceDateByType="PolicyTerm">
+  <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern
+      codeIdentifier="GL7ManualPremium259"
+      coverageColumn="DirectTerm1"
+      lookupTableName="GL7SublineTypeCovTerm"
+      modelType="Other"
+      priority="100"
+      public-id="GL7ManualPremium259"
+      required="true"
+      valueType="other">
+      <LimitsSet/>
+    </DirectCovTermPattern>
+  </CovTerms>
+  <Schedules/>
+</CoveragePattern>

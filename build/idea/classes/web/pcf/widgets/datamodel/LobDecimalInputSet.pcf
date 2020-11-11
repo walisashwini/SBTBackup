@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <InputSet
+    id="LobDecimalInputSet">
+    <Require
+      name="displayable"
+      type="gw.lob.common.displayable.LobDisplayable"/>
+    <TextInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="LobDecimalInput"
+      label="displayable.Label"
+      required="displayable.Required"
+      value="displayable.DecimalValue"
+      visible="not displayable.NeedsRefresh" valueType="java.math.BigDecimal"/>
+    <TextInput
+      confirmMessage="displayable.ConfirmMessage"
+      editable="displayable.Editable"
+      id="DynamicLobDecimalInput"
+      label="displayable.Label"
+      required="displayable.Required"
+      value="displayable.DecimalValue"
+      visible="displayable.NeedsRefresh" valueType="java.math.BigDecimal">
+      <PostOnChange
+        onChange="displayable.onChange()"/>
+    </TextInput>
+  </InputSet>
+</PCF>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftLevelO public-id="z09ga0hpn0me1bkunbr1vv6j5b8">
+    <Value>FAA Airman Certificate</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftLevelO>
+  <GL7UnmannedAircraftLevelO public-id="zdrjmshep5bvq6ainclofadavob">
+    <Value>FAA Remote Pilot Airman Certificate only</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftLevelO>
+  <GL7UnmannedAircraftLevelO public-id="z41he72giglo42irvrostmjig39">
+    <Value>Uncertified / Under the direct supervision of a person who holds a FAA Remote Pilot Certification</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftLevelO>
+  <GL7UnmannedAircraftLevelO public-id="zj0ic6a6rh9493ngtj0ed64gf79">
+    <Value>Uncertified / No direct supervision of a person who holds a FAA Remote Pilot Certification</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftLevelO>
+  <GL7UnmannedAircraftLevelO public-id="zduhmmoa3pmpuf6l91su6s5b0g9">
+    <Value>Unknown</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftLevelO>
+</import>

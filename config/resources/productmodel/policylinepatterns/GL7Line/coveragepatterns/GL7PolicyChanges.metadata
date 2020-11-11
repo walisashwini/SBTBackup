@@ -1,0 +1,9 @@
+GL7PolicyChanges = /GeneralLiability/GeneralLiabilityPolicyChanges
+GL7AuthorizedRepresent = /GeneralLiability/GeneralLiabilityPolicyChanges/AuthorizedRepresent
+GL7AuthorizedRepresentativeSignature = /GeneralLiability/GeneralLiabilityPolicyChanges/AuthorizedRepresentativeSignature
+GL7Changes = /GeneralLiability/GeneralLiabilityPolicyChanges/Changes
+GL7CompanyName = /GeneralLiability/GeneralLiabilityPolicyChanges/CompanyName
+GL7CovPartsAffected = /GeneralLiability/GeneralLiabilityPolicyChanges/CoveragePartsAffected
+GL7NamedInsured = /GeneralLiability/GeneralLiabilityPolicyChanges/NamedInsured
+GL7PolicyChangeEffectiveDate = /GeneralLiability/GeneralLiabilityPolicyChanges/PolicyChangeEffectiveDate
+GL7PolicyNumber1 = /GeneralLiability/GeneralLiabilityPolicyChanges/PolicyNumber

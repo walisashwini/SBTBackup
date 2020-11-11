@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="ValueDependencyConfig" type="ValueDependencyConfigType"/>
+    <xs:element name="Path" type="xs:string"/>
+    <xs:element name="ClassPath" type="xs:string"/>
+    <xs:element name="ValueColumn" type="xs:string"/>
+    <xs:element name="KeyColumn" type="KeyColumn"/>
+    <xs:element name="SystemTable" type="SystemTable"/>
+    <xs:element name="ValueDependency" type="ValueDependency"/>
+    <xs:element name="Jurisdiction" type="xs:string"/>
+    <xs:element name="EffectiveDate" type="xs:date"/>
+    <xs:element name="ExpiryDate" type="xs:date"/>
+    <xs:element name="Available" type="xs:boolean"/>
+
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="property" type="xs:string"/>
+    <xs:attribute name="container" type="xs:string"/>
+
+    <xs:complexType name="ValueDependencyConfigType">
+        <xs:sequence>
+            <xs:element ref="ValueDependency" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ValueDependency">
+        <xs:sequence>
+            <xs:element ref="SystemTable" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute ref="property" use="required"/>
+        <xs:attribute ref="container" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="SystemTable">
+        <xs:sequence>
+            <xs:element ref="EffectiveDate"/>
+            <xs:element ref="ExpiryDate" minOccurs="0"/>
+            <xs:element ref="Jurisdiction" minOccurs="0"/>
+            <xs:element ref="KeyColumn" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="ValueColumn" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="Available" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute ref="name" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="KeyColumn">
+        <xs:choice>
+            <xs:element ref="Path"/>
+            <xs:element ref="ClassPath"/>
+        </xs:choice>
+        <xs:attribute ref="name" use="required"/>
+    </xs:complexType>
+
+</xs:schema>

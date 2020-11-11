@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="UpdateTreeViewPanelSet">
+    <Require
+      name="treeNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Require
+      name="sbtUpdateLoaderAction"
+      type="gw.sbt.pca.view.presenter.SBTUpdateLoadAction"/>
+    <PanelRef
+      id="TitlePanel">
+      <Toolbar
+        id="EvaluationResultsToolbar">
+        <ToolbarFilter
+          cacheKey="gw.sbt.pca.view.presenter.PresenterUtil.filterCacheKey()"
+          iterator="DiffsTree"
+          name="differenceFilter">
+          <ToolbarFilterOption
+            filter="gw.sbt.pca.view.filter.ComparisonFilters.All"
+            selectOnEnter="true"/>
+          <ToolbarFilterOptionGroup
+            filters="gw.sbt.pca.view.filter.ComparisonFilters.forListOfUpdates().DifferenceFilterGroup"/>
+        </ToolbarFilter>
+        <TreeButtons
+          iterator="NodeLV"/>
+        <CheckedValuesToolbarButton
+          id="Decision"
+          iterator="NodeLV"
+          label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+          visible="not sbtUpdateLoaderAction.ReadOnly">
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = null })"
+            id="ClearDecision"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClearDecision&quot;)"/>
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.ACCEPT })"
+            id="Accept"
+            label="sbtUpdateLoaderAction.descriptionForDecision(gw.sbt.model.UpdateDecision.ACCEPT)"/>
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.REJECT })"
+            id="Reject"
+            label="sbtUpdateLoaderAction.descriptionForDecision(gw.sbt.model.UpdateDecision.REJECT)"/>
+        </CheckedValuesToolbarButton>
+        <ToolbarButton
+          action="sbtUpdateLoaderAction.loadUpdate()"
+          available="sbtUpdateLoaderAction.HasAnalysisCompletePriv and not sbtUpdateLoaderAction.ReadOnly"
+          confirmMessage="sbtUpdateLoaderAction.confirmAnalysisComplete()"
+          id="AnalysisComplete"
+          label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.AnalysisCompleteLabel&quot;)"
+          tooltip="gw.sbt.pca.view.presenter.PresenterUtil.AnalysisCompleteTooltips"/>
+        <ToolbarButton
+          action="sbtUpdateLoaderAction.revertMerge()"
+          confirmMessage="sbtUpdateLoaderAction.confirmRevertMerge()"
+          id="RevertMerge"
+          label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.RevertMergeLabel&quot;)"
+          visible="sbtUpdateLoaderAction.HasMergeRevertPriv"/>
+      </Toolbar>
+      <ListViewPanel
+        id="NodeLV">
+        <RowTree
+          canPick="false"
+          checkBoxVisible="diff.Selectable and not sbtUpdateLoaderAction.ReadOnly"
+          contentType="gw.sbt.pca.view.presenter.RowPresenter"
+          elementName="diff"
+          hasCheckBoxes="true"
+          id="DiffsTree"
+          pageSize="0"
+          value="treeNode">
+          <Row
+            editable="false">
+            <TextCell
+              actionAvailable="false"
+              enableSort="false"
+              id="Item"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Item&quot;)"
+              value="diff.Description"
+              width="600" valueType="java.lang.String"/>
+            <BooleanRadioCell
+              action="diff.showDetails()"
+              actionAvailable="diff.detailsAvailableToShow()"
+              align="center"
+              enableSort="false"
+              icon="gw.sbt.pca.view.presenter.PresenterUtil.getDifferenceIconName(diff.DiffType, diff.detailsAvailableToShow())"
+              iconLabel="diff.DiffType.Description"
+              id="ChangeType"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Difference&quot;)"
+              showHeaderIcon="false" width="100"
+              value="true" valueType="boolean"/>
+            <TextCell
+              align="center"
+              enableSort="false"
+              id="Decision"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+              value="diff.getUpdateDecisionDescription()"  width="100" valueType="java.lang.String"/>
+            <BooleanRadioCell
+              action="InstructionsPopup.push(diff.DecisionAndInstructions, diff.Description, diff.ReadOnly)"
+              actionAvailable="gw.sbt.pca.view.presenter.PresenterUtil.canAssignInstructions(diff.DecisionAndInstructions)"
+              align="center"
+              enableSort="false"
+              icon="gw.sbt.pca.view.presenter.PresenterUtil.getInstructionsIconName(diff.DecisionAndInstructions)"
+              iconLabel="gw.sbt.pca.view.presenter.PresenterUtil.getInstructionsTooltips(diff.DecisionAndInstructions)"
+              id="Instructions"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Instructions&quot;)"
+              showHeaderIcon="false" width="100"
+              value="true" valueType="boolean"/>
+          </Row>
+        </RowTree>
+      </ListViewPanel>
+    </PanelRef>
+  </PanelSet>
+</PCF>

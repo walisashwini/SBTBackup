@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7Transaction"
+  type="effdated"
+  desc="A transaction for the General Liability line"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  extendable="true"
+  platform="false"
+  loadable="false"
+  table="gl7transaction">
+  <implementsEntity
+    name="Transaction"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.TransactionAdapter"
+    impl="gw.lob.gl7.financials.GL7TransactionAdapter"/>
+  <foreignkey
+    name="GL7Cost"
+    desc="The cost this transaction modifies."
+    fkentity="GL7Cost"
+    nonEffDated="true"
+    nullok="false"/>
+</entity>

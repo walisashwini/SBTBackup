@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7GeneralAggregateLimit public-id="zdmi2ac9chor66tfqkun8v5k7k9">
+    <Value>1,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zsbju49n1v3hn99k4spmoa2k6sb">
+    <Value>1,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zl5gm596d2mng7ta7gtmcg9af29">
+    <Value>2,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z03iafsucbeqv0tdaq6cab3rrg8">
+    <Value>2,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zqtgetoc8vh57ass33omf566pna">
+    <Value>3,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zkbi8gmfv330v6d68umac0jh399">
+    <Value>4,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zsdh4ipca63m46vth6b866biu6b">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zlfge3mi2f5kdd7n3he6seq70na">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z8cge7btkk4j187iqgdqmfbev88">
+    <Value>1,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="ztvh0sagoftc59m4creov2b1mj8">
+    <Value>1,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z5bgcs0vp27044j7ugihth83o4b">
+    <Value>2,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zrggqtfrsnpar1k778qei2lff09">
+    <Value>2,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z0rhs1evs692jbc7c40c8fvi71b">
+    <Value>3,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zqei82f7b7ujv9q310rdhs9v6fb">
+    <Value>4,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zqjh039ti7d2g8pvrvq0qjq0479">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z5pjoctq57qvpav2vpk4ddt89da">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z54ji63l5euv5fm468b3fn3a49b">
+    <Value>1,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z2hjq4ou26uec7t2volsj8v75ka">
+    <Value>2,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zttj8q6diq9gm5btn3l2ln638d8">
+    <Value>2,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zhshasarmbmer0cip0mcrnbcqbb">
+    <Value>3,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zl6iqjidl1kvgbvu0j6j71bgat9">
+    <Value>4,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zgthq8gmlsjljdhqutg9a67lgn9">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z6ag42nig1fv2eb2vi54lajvc9b">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z27j62guv5rje8a7dihtope5ecb">
+    <Value>1,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z3kh6foo5rja6crc50884avv0jb">
+    <Value>2,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zd5i6lkf2r0j5cvq3cvi15m9bq9">
+    <Value>2,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zmji8bfp0jcep6vff8kgm4bmqma">
+    <Value>3,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z9aio2j7vsjop9bftmgj6sh49rb">
+    <Value>4,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zmtjq762opj6t9e0r4rmf2jobba">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zvggi2t27qtjgab7tkqt0o827k9">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zcri294bl08mn19o56i94d42908">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>10,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zi2g0ia3f68g6ae2jkq64u5khd8">
+    <Value>20,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>10,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zqohaikffjt8f13d7f118ja0588">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>10,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zukimpghm74nr5nr03ftqrfuva9">
+    <Value>20,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>10,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zd5imrjn49mrd7dgts6vo4to5lb">
+    <Value>100,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zanimvvktk56l4bacq2no051ea9">
+    <Value>200,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="ztnj24ursv08jbk1vp39fdi52ca">
+    <Value>300,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="ztnhe7gnam0mn3iksivhff5beca">
+    <Value>500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zu1iscbboq1cjepf97c176mund9">
+    <Value>600,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zrdgah2oknjvpcg65i0k7hasrd8">
+    <Value>1,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zjohm1v4638r64pa50jm4gnjj7a">
+    <Value>100,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zlgjmce1fgm4i24builbhnhes88">
+    <Value>200,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zu6j60d4fn0ljee85o3dv6dnjqb">
+    <Value>300,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z00jcb0ls41ou20o6vtequuv909">
+    <Value>500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zkuh2006v45ma5dc15ck862ujk8">
+    <Value>600,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z2lg09cugfkbg2se00fplggm7h9">
+    <Value>1,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z68jcvcub32j10462qaf5bte0a9">
+    <Value>2,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zm6jsrmr4nodlag4pnosjsupepb">
+    <Value>2,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="znch834krq38j7jltha7gb2rs5b">
+    <Value>3,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zt5isduhpdkig2cakpp6b40vcaa">
+    <Value>4,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zemj0cfnloa8e7nvv9ufvss5k9b">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="znrigo2dbc0v4c54blfre97did8">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zhujgca98ejfvcultmoebhck2fa">
+    <Value>2,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zunjemc8vtpf6acocioeei0sdrb">
+    <Value>2,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zo6hakgp1sdojfpvu8ci7rcip79">
+    <Value>3,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zmhjmrlltapi92crg51o575813b">
+    <Value>4,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zk6jeep3kc1ag1jhdarsg8np1t8">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z7pierg9ivkisav5uitisjunojb">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z7ijcdofo7ognegetnqs9ub0588">
+    <Value>200,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zbogecpracamo101rcg0emvv2da">
+    <Value>300,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zdhh2g7s3koiv9feo3kd8j86faa">
+    <Value>500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zq6g2up5cv3q7flgt5vja5gcm3a">
+    <Value>600,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z7ch64dmkhj48am2hqcflfkjrp8">
+    <Value>1,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z6lju149650h4cdunlv788qgqt9">
+    <Value>1,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zfoi4c4qi6p58764gk4ebfj9i48">
+    <Value>2,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zsujufactf5q67nbf5hmm1lspc8">
+    <Value>200,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z31g4obs0600bblj0ledj7ko5b8">
+    <Value>300,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zichkvmvvkj0j8k3pnpgtjchkfa">
+    <Value>500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z2ai8ep9kamchfquq7jtd6quakb">
+    <Value>600,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zoags3pv60u58f0uv2n0kht07o8">
+    <Value>1,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zcnhs765thds82ejcdjjd4onq58">
+    <Value>1,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z7hjip4h498h94oqe1g6r3k0bj9">
+    <Value>2,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zjnh6f3rog3c92tfhfj60k8l5pa">
+    <Value>50,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zhiikjevr6jleacit840fmua6oa">
+    <Value>100,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zrfjk0v0mprad0dqdqbcc0eol9b">
+    <Value>200,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z68gcmu7sognefbiukrgbs0mle8">
+    <Value>300,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zhch65kf3c51l02s73f5rff8jva">
+    <Value>50,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zjshaqovdsi3557vt67g145ea99">
+    <Value>100,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zgcg6nobhsnukdibepp2bkv5sob">
+    <Value>200,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zuhi8paoj9asvcom8q693kt1tib">
+    <Value>300,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z5ahidvdar2m02793rsm8203la9">
+    <Value>3,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zcjjaoiskc11272cfkppf3qa4c8">
+    <Value>4,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zj0h8vg3rr8bkekmt5l8ji16l7b">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z3qh4lktq64uq7hvqsdnlnhg7va">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zjbiean97e2hr7tl841ufmephpa">
+    <Value>3,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zeqiamqo2kcv8fmcnbl2e9hvga9">
+    <Value>4,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z4sg4u36c192e1fm1parckj77q9">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zr6jopa5ukej3enaq1d7e20til8">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zrbg6eaeu1ssv0lkcdok4k5mbna">
+    <Value>300,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z2oi8ck0d61lufiqqp1p2j38539">
+    <Value>500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zecg4crat1scpcjlb1juqjt442b">
+    <Value>600,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zabj0767nssv95gfam46pt2aj1b">
+    <Value>1,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z6ggm1cagos8aa0hb7iaqnhjum9">
+    <Value>1,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zmmgem0ubvtm0dobvkmsn666d19">
+    <Value>2,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zajimcjb2qtct61lmvippaftl6a">
+    <Value>2,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z7tiq01pj3qs1dt4d6cgvnvgmta">
+    <Value>3,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zighe8b46h87dc67jlrj3t0esc8">
+    <Value>300,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zs1hgr8oavudqcrspjm52b406l8">
+    <Value>500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z1pjoo1gbj87od28n2v57k7iis8">
+    <Value>600,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="znjhcfg5jvcbk06es2n6j04omb9">
+    <Value>1,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zo3i2thv2uc0a88oo6p5u1bc0va">
+    <Value>1,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z2jja2k6ud95k5ctj0qfd810en8">
+    <Value>2,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zf6j0qat6km4i5ao29tcc3iomv9">
+    <Value>2,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zhag6a4solfqb724641lldr9srb">
+    <Value>3,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="znchacum76gktfsu344757qlntb">
+    <Value>4,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z0ijotj5ogp0if8oore12nn8mub">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z4ojmhpqh24itfcvj7c11re60t9">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z1ojkghnm42hgcs3cbdht6tfpoa">
+    <Value>4,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zkrje2htf2sen4o5qvvtu1etdo8">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z9bimdr4k9vi93d00551jj5k9t8">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zs5igahtuio6088h769mdijata9">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>5,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zgfiqlfig0k4nepg6domare0p19">
+    <Value>10,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>5,000,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z1ng8r4n74gv58cer0bnk40bnva">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>5,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zdtjagnkpk45d0aj2bjvbaudepb">
+    <Value>10,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>5,000,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zueiua5upn9ghbb5aaugg3fa1ra">
+    <Value>50,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z4tjo21nnfmle0b2k4jslesmfrb">
+    <Value>100,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zctjumv4l17rr78f8gedk95lmn8">
+    <Value>200,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zn1g4sem7n4se58sk6kfd9e5ina">
+    <Value>300,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zqbjkfgdkf343613b8qvjht4nqa">
+    <Value>500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z4bi2fkeeu9vg7e5k1p9tcarrv8">
+    <Value>600,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zgvh2nlbh0jtqcrcfonb8qo6iqb">
+    <Value>50,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z8ahsd8u2n5v24mpveds411a9v8">
+    <Value>100,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zcgjaotj9f5gu84kaj9ktv98sg8">
+    <Value>200,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z20h2s6use14d640l2rnpte8vfb">
+    <Value>300,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z9ch08jv033bkedon7omoc6nmc8">
+    <Value>500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z6qjul83f3tdp8kqnd1eeffvpb9">
+    <Value>600,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zhchc6k46dnnpeqpmkvnbfhtp9a">
+    <Value>500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zo6hgpaje8avu4hinggacf792p8">
+    <Value>600,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zujjsp7091qgc6p4qheca5bhcab">
+    <Value>1,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zr6jqc73ah3995houasmf9c5cpa">
+    <Value>1,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z4likecd3deiea8ccjm239fgsa8">
+    <Value>2,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zsrhuep40hkrbfuej8hl8jpv1u8">
+    <Value>2,500,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z3kgag7nkc1j66d2a8ks2ftbd3a">
+    <Value>3,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z54i872iuqflo8md7doqbn10bn9">
+    <Value>4,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z34hsemn9af7vbilbaeo9ou4g5b">
+    <Value>5,000,000 BI</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z1mia3ue6ck90em2terb5u49apa">
+    <Value>500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zi1j8fi5517pu1b0364c0shrgs9">
+    <Value>600,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z83jmdugt434e5kk1ntqqnk37c9">
+    <Value>1,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z4mhab8bo0q7g6m6j88pd31rgab">
+    <Value>1,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zavgi1itjo2u4bqijk7k44cc679">
+    <Value>2,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zl8jsesrheh690ebb4kba4fvvi9">
+    <Value>2,500,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="z6ije061uepd305emi7t7u5jfs9">
+    <Value>3,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zf1g0nl9g2h1l8fh4en4kpoue1b">
+    <Value>4,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+  <GL7GeneralAggregateLimit public-id="zrqjk5v9f23o4f8ml8f0sbig119">
+    <Value>5,000,000 CSL</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7GeneralAggregateLimit>
+</import>

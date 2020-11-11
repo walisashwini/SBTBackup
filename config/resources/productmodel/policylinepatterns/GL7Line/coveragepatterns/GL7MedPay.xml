@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineTypeCov" coveredPartyType="ThirdParty" public-id="GL7MedPay" priority="90000" lookupTableName="GL7SublineTypeCov" existence="Required" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeStdGrp" codeIdentifier="GL7MedPay" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7MedPay");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="900" public-id="GL7Limit2" required="true" codeIdentifier="GL7Limit2">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7MedPay", "GL7Limit2");]]></AvailabilityScript>
+            <DefaultsSet>
+                <CovTermDefault defaultValue="5000" public-id="GL7Limit2DEFAULT" codeIdentifier="GL7Limit2DEFAULT"/>
+            </DefaultsSet>
+            <Options>
+                <CovTermOpt public-id="zt3hoijti7r165od1uui6kb3vhb" priority="1" optionCode="5000" value="5000" codeIdentifier="zt3hoijti7r165od1uui6kb3vhb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zpnii0qo8617kevj9ffei4td25b" priority="2" optionCode="10000" value="10000" codeIdentifier="zpnii0qo8617kevj9ffei4td25b">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zecggir72gote7ndr08lblfk709" priority="3" optionCode="Excluded" value="0" codeIdentifier="zecggir72gote7ndr08lblfk709">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+            </Options>
+        </OptionCovTermPattern>
+    </CovTerms>
+</CoveragePattern>

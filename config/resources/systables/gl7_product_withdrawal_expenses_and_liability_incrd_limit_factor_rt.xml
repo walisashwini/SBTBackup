@@ -1,0 +1,1263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ProductWithdrawalExpen public-id="zkbjs6jol3l1c001svhb8phbjmb">
+    <Value>0.84</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="ztmiqldqbq4orasfr6vv8q0mqfb">
+    <Value>0.98</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zesj6eu9hnfv82ib6gd1hvbbvg9">
+    <Value>1.1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z1ghc8bpsvgim32gsrqe1omck29">
+    <Value>1.18</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z5hgmcmje1ebha77n6h1ireuos9">
+    <Value>1.3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zboje7aromgq1bu4i8d5lkr0hja">
+    <Value>1.44</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z0egctg743fls63bk19ecc119ma">
+    <Value>1.54</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4fhm0r4cvk271o07ia34l98vjb">
+    <Value>1.6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zfoh653g2cs1h6mqmc4srskeoeb">
+    <Value>1.71</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zajjmi056qej29a314tsj8dbfda">
+    <Value>1.8</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z01hapquv3r3a616vt9qaf05fcb">
+    <Value>1.87</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z7biir85mr91o9l9dkiep0aqgcb">
+    <Value>2.1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zidgm6ak22prr9vimjqt6b5dtn8">
+    <Value>0.81</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zslgg6suffoa21r01mqr8fm8ova">
+    <Value>0.96</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="za3hccptsmlna6sg0teoi9un8ba">
+    <Value>1.13</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zlph8i4tl08tmavf159gngtgkj8">
+    <Value>1.24</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zusguecue2iof0tq1jfa7s6eilb">
+    <Value>1.39</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjoh6iq5t107hd33a0gpf0jebba">
+    <Value>1.58</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjojmdd2g5pfs80l0qe0n6frg8a">
+    <Value>1.7</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zvqie2oi1ss2ufhul9pvk8q05j8">
+    <Value>1.79</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zphiupk0ieo2je298o8aol89fha">
+    <Value>1.94</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zqnh2dslu4ht534bflj8diam1mb">
+    <Value>2.05</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z41g0tkskgec1cui3d6rtdt3i2b">
+    <Value>2.14</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zqbjud3bjt7qg2gafu0r14so4oa">
+    <Value>2.42</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z7ajgpg7a05254bc097atf2funb">
+    <Value>0.78</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zd9jc5fq8haj93ouqlvgj10shsb">
+    <Value>0.93</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zg0jovbfakrqg8n28dehg060psb">
+    <Value>1.14</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z2cggprb7nm5g6cr7sk6mrpmg2a">
+    <Value>1.29</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z8bhe5mfhk9umbu4j4t42aj3sp9">
+    <Value>1.5</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z97jat0hrp90jb43rhjlsd51sl8">
+    <Value>1.82</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z79jsj2q7pvd0fmjljf24a3q7va">
+    <Value>2.02</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zc5hadjqneqa87astcttongdvp8">
+    <Value>2.16</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z8rhevp89bdpk43esdjd8cipph9">
+    <Value>2.35</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4oik2ibkta6k2m5io6ca3s4ba9">
+    <Value>2.5</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z77hkhou6bu0ic3h04im13i94h8">
+    <Value>2.61</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zg4igi7ep80pla1ju083c9tafu9">
+    <Value>2.99</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z71hq419o6tuqaha75lligjhhka">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z3uji8u2m93tn4hesop815cod18">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zf9ha2nkia25ibpdu79gui5g9f9">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zn5g0tbh935ll4aqquior2jbaia">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="znviom4uvckq6dea2ob0fj7s4tb">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zcchqso9lab4aa5brud82l0uppb">
+    <Value>0.98</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z21h61g2ospctbsr1fqcjtcv8ea">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zo7j0pn8msl838n5la2jnrhmbqa">
+    <Value>1.8</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zdrhok4nrodqha9qnk1o3jic03b">
+    <Value>1.3</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z28i6ret4ufhp6k1cs86rftqf59">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zv4imlj9khv4k5ckhoaah3cmne9">
+    <Value>2.42</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4agsjjaaaubbao972v8qmqt5b9">
+    <Value>2.14</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zr5jcp5fkvarjenkflteubgfata">
+    <Value>1.94</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zd6j8232j7rk7avr249kqb3v32a">
+    <Value>1.44</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjrh0b3uihl2n3fvutj08rvp73b">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zibg6uubbe65ib003c6m4rt9m8b">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z5cgqmgsu0oj31scqhtotk3grua">
+    <Value>1.7</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z73gi2j0idr886j9en59jtbc488">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zd0i46vbt1edd8ist13mn8b8ai8">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zrjgq8nbbf16r17llele0hgpebb">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjugilp1hr30o0o9ccu4rd7285b">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zrlgkrapq77pnbginhqcq66fnpb">
+    <Value>1.71</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z7njasiud05ki67puu85licbvka">
+    <Value>0.81</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zs0hehc8cm1n66b52knm7hrcica">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zq2g2or51coabca8aecfa23pne8">
+    <Value>1.79</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zcsi0jq8g0n6m0ksu97qnfupnma">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z96gudd1hh1270b30a2s1fkpk0a">
+    <Value>0.96</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z6ojqn40nd93eaggm5sestpnb9a">
+    <Value>1.1</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zmihcopua6jjhbjlrqmsvad7j69">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z7egmn1vn113d50snnnuls6m5fb">
+    <Value>1.13</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zp2j2s15k06pleh0nl519riq34a">
+    <Value>1.54</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zs5jq5v6h9pdl08qd89b59j89fa">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjrgiosnh9vge2f1akhmo1u1pkb">
+    <Value>2.1</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zfvi8o489cbi3f9gn6lmejfojk8">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zdogktmk97tg9c4cm6sdhlcba5b">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zs6ikonv10o6l0tea5kcaea7j09">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-09-01</EffectiveDate>
+    <Jurisdiction>IL</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zh5h06e4fedfc69hmb7eaitq678">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zrgiuffe8dg011q7652k4ujcmub">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zkshe1ah3tm2odcr79h1i7lha7b">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjngireimb2pp76h7gfq5rp6no8">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zs2iqk68u42953vtlb5nb3fproa">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjkgaugiqv6le8nn29h5t0cafd8">
+    <Value>0.98</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zpkgs5i37jatfc1dic2dm43lib9">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zk3jmaspfn68a1j63i0ntogqksb">
+    <Value>1.8</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zubhscpbsk2ohdrq57409d9m5j8">
+    <Value>1.3</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z2qik6pntaqdp9fkmtb3nb62v6a">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zhigojeg5iefo76u9vpffem4lhb">
+    <Value>2.42</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zg7h43mhbg4v229r6qm4rrpeoga">
+    <Value>2.14</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zfghejrv1l7pcddum0k9s0g8pfb">
+    <Value>1.94</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zgrg6hof9h4vn3omb4537qbulv9">
+    <Value>1.44</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z9nh0t90nk2o783tbmf1u2vclhb">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z9chea7qheeto7q4gilh7oe34jb">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zchja907fdp371o8vnch6n9cb39">
+    <Value>1.7</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="za1g6l09m4ipg3bc8hu36h4ernb">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z04jklq53953ndml3jd98520ts8">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zkriaq2kmvr996cc496is2rudu8">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z58he5j6m9ioece5ml5vrgsntu9">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zcbh694i9bh9l41b89ml8h7g7g8">
+    <Value>1.71</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zqoi4gs04g0h47ja074nl512jca">
+    <Value>0.81</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zgpjqgsuh7ihk4sgkken09bfpgb">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="ziohghc5h4eia51nf1uv96af2tb">
+    <Value>1.79</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zkbg8vprqi0jn1o0i922bta85bb">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z68j4bb9n2amq92artrjep46im8">
+    <Value>0.96</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zrghearkkqajf5jbutqe7tq2p08">
+    <Value>1.1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zsjii80e3cean1iku7ve826plj9">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zlkg4fkt02grbacabef35tk5uq8">
+    <Value>1.13</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zucj4hobmmcqu0cj928sfusrd59">
+    <Value>1.54</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zj8hcqbpha7chcirqc7lhoungh8">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zutjq11kq2hdc87r7kr0rg0ns29">
+    <Value>2.1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zbbi0hms0bi20c8bv5h3tvp4nm9">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4qjc0cv23trrb6od9tg8m2fcn9">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z9pgum491p2knagrprmbpv3k5ta">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zu4j2fpgd68it5i0mv3bus1h63a">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zlvg6eflnp08a4qfudj2gktrne9">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zndgm6p48notg12f65em6fsoq68">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zrqgmqnt1uakv1m6tbv23m1boo9">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zh7iauq2rdstu3a7f2h5sem72aa">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z6jg0m37nd92d45206502mll49b">
+    <Value>0.98</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zp9jii4g5pvtnej3sr74jjgraja">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zn1h8hlotavk48lajihrajqeru9">
+    <Value>1.8</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zfgim73gtol3ka5dvf6beiu7j2a">
+    <Value>1.3</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zvfguq0ooeqvr5ms7kadkeusr99">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zkhju1bgggsku2pt3o84k9b20kb">
+    <Value>2.42</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z68hc9ebtemrr1bujeglf55i5ha">
+    <Value>2.14</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zo9gkocf6vqfj4s46ason24e5mb">
+    <Value>1.94</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z66ggmuvj18ord6aucglfmlcqub">
+    <Value>1.44</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z05iss73u96er52lir76j764jm8">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zu4iot24n3aunevtaddeic3ktsa">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zcajilf9u5clm8bqa8fl8q595jb">
+    <Value>1.7</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zb3iu502l12f3dvcbh2fdauodv9">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z6qj80jbqhg9vf62tikcohsre8b">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zr5i0iqdnutpe6lcbjdtetdd109">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z7miap4if9q798qjngh4sn4qd4a">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zb8ggkp3osci86i2uggl2ef5cdb">
+    <Value>1.71</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z08gacg00tg9n6qts20msc2m3da">
+    <Value>0.81</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z7mh641mhp3oh1h2ftk2s1mct7b">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zcfhc96slhuag33f4n33q8jagha">
+    <Value>1.79</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z5qhgb8jbe1h1ctcocpqlr7u7cb">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zq1j4upv7v7ga7g8igje8his6ha">
+    <Value>0.96</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zukhipictf3j61eh8ts3t843el9">
+    <Value>1.1</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zuehab64s6irg5ts2in5sj9blf9">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z3miicjg9adl1cm0j0h672tm4a8">
+    <Value>1.13</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zvmjgm95v7dp45j1evioflnuc6a">
+    <Value>1.54</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zb9je3klmge505o54fhppuqf6q8">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zl0i49jpvurnk6ntpm61ahkiej8">
+    <Value>2.1</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zsghim1q0c6kr4ak8n3rsqgmhmb">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zovguclrri004epl0c8rr01rdfb">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z05gohr373j692fu4seefniqp3a">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zjbjen0p0bg134jsadviankqoq8">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zo7ja85ougsk89d9g1nk81nkn88">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zfmji4p8t0lfr2bac69ciemfu68">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z5jh04oitrs88b11e01rn373ct9">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z5sge8cjjoj0aba5du7vj1joepb">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z04j8qa2ialle0htve6kp9i7v5a">
+    <Value>0.98</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zboiq22m20p8v8u9pcolpmhu0b8">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zb0jqgeobeils95ndpgmh44dd89">
+    <Value>1.8</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zsii6lb0cclne1echgqskba72cb">
+    <Value>1.3</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zi1hgk0agacqmejbs4tnkgjrcvb">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zbdhckmv6a4jf46k1ikqlqv5ep9">
+    <Value>2.42</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="znqhi1ua0342r0jh438roioarg9">
+    <Value>2.14</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="ztujq73v9as4rekhf4ero1j0gt9">
+    <Value>1.94</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zghiavjcbktv40du716rajou2gb">
+    <Value>1.44</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zf4imfarcef9t751u296lu9e798">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zabj6ht7v3gek8qkb3oshi7li9b">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z1gj0e1edarrvfv9c0fm01k8bva">
+    <Value>1.7</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z5fii09l0qe0cavum7h900h3oqb">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z73g488lrcnvj2okqj3qeahbeaa">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="znuj4qkg9mio0cunovcbukdbvga">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>5,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zc5hg30pkinv61bu49k3jgkusa9">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zcpj0cbc58i1s1t477hnre5hsqb">
+    <Value>1.71</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>3,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zpthgac3ck1d4fdhtmfrqq7u96b">
+    <Value>0.81</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zpcjiqv1eu0q43pd5k4kp9t432b">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4sg4h0tt9rnv9l7dqbblraiina">
+    <Value>1.79</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z26i637ils1om6jln844t9gpck9">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4ijk7bi8ffe36afu4o2skkqd18">
+    <Value>0.96</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>100,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zu9hkiu1e3jg98c2l4du539k628">
+    <Value>1.1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z4qjei7prpa12efdvk4vpqp0tcb">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>50,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zheg8k7geal7hfdirto9j5888b8">
+    <Value>1.13</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>B</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>200,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zprj0f9d5f7hl712tg75qi4nl3b">
+    <Value>1.54</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>1,500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z91g0b05pjtakaalcp5igh1rao8">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>500,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="z29jcq4ova4ia37gj8o077cr5i8">
+    <Value>2.1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>A</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>10,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zlhgg7ickicgedj4t7d4g2c4v39">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>300,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zsbgshibgrl8od9llobkbqekuqa">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>4,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+  <GL7ProductWithdrawalExpen public-id="zaqi8f60tppol5r97rdhhk1kbub">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <IncreasedLmtsTableAssignmentPr>C</IncreasedLmtsTableAssignmentPr>
+    <ProdWithdrawlAggLim>2,000,000</ProdWithdrawlAggLim>
+  </GL7ProductWithdrawalExpen>
+</import>

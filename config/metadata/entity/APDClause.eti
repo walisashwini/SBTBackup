@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  abstract="true"
+  desc="Clause definition"
+  entity="APDClause"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="apdclause"
+  type="retireable">
+  <implementsInterface
+    iface="gw.apd.model.APDTagContainer"
+    impl="gw.apd.model.APDClauseTagContainerImpl"/>
+  <foreignkey
+    columnName="CoverableID"
+    desc="The risk object that has this cover"
+    fkentity="APDCoverable"
+    name="Coverable"
+    nullok="false"/>
+  <column
+    desc="The code used within the product model to identify this clause"
+    name="CodeIdentifier"
+    nullok="true"
+    type="patterncode">
+    <columnParam
+      name="logicalSize"
+      value="45"/>
+    <columnParam
+      name="validator"
+      value="APDName"/>
+  </column>
+  <column
+    desc="The name of the clause as displayed in the UI"
+    name="Name"
+    nullok="true"
+    type="shorttext">
+    <localization
+      nullok="true"
+      tableName="apdclausename"/>
+  </column>
+  <column
+    desc="A description of the clause"
+    name="Description"
+    nullok="true"
+    type="shorttext">
+    <localization
+      nullok="true"
+      tableName="apdclausedesc"/>
+  </column>
+  <foreignkey
+    columnName="ClauseCategoryID"
+    desc="The UI category to which the clause belongs"
+    fkentity="APDClauseCategory"
+    name="ClauseCategory"
+    nullok="true"/>
+  <column
+    desc="The sequence the clauses are to be listed"
+    name="Sequence"
+    nullok="true"
+    type="integer"/>
+  <array
+    arrayentity="APDTerm"
+    desc="The terms that qualify this clause"
+    name="Terms"
+    owner="true"/>
+  <foreignkey
+    desc="Scheduled item"
+    fkentity="APDScheduledItem"
+    name="ScheduledItem"
+    nullok="true"/>
+  <array
+    arrayentity="APDClauseRule"
+    desc="Rules that apply to this clause"
+    name="Rules"
+    owner="true"/>
+</entity>

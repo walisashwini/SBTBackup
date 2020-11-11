@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <DetailViewPanel
+    id="ViewNewClauseSummaryDV">
+    <InputColumn>
+      <Label
+        label="&quot;Adding Virginia 11/01/2013 (v.1) Circular LI-CF-2013-079 Filing CF-20130RLA1&quot;"/>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

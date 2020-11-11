@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PollutionClassDescript public-id="z4fg4kht6m6jv6dev0p0p23vil8">
+    <Value>Pollution Liability Coverage Form</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCodeForClassDesc>90100</PollutionClassCodeForClassDesc>
+  </GL7PollutionClassDescript>
+  <GL7PollutionClassDescript public-id="zu0gcsggcidv02ko9r1j7ssku89">
+    <Value>Pollution Liability Limited Coverage Form</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCodeForClassDesc>90105</PollutionClassCodeForClassDesc>
+  </GL7PollutionClassDescript>
+  <GL7PollutionClassDescript public-id="zktgoc6g8g0j6bdlq5l3aurnk9b">
+    <Value>Pollution Liability Coverage Extension Endorsement</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCodeForClassDesc>90110</PollutionClassCodeForClassDesc>
+  </GL7PollutionClassDescript>
+  <GL7PollutionClassDescript public-id="zo1h2ssr66bt3c4jpmp1rco1u19">
+    <Value>Limited Pollution Liability Extension Endorsement</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PollutionClassCodeForClassDesc>90115</PollutionClassCodeForClassDesc>
+  </GL7PollutionClassDescript>
+</import>

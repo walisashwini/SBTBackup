@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    id="LOBModifiablePanelSet">
+    <Require
+      name="modifiable"
+      type="Modifiable"/>
+    <Require
+      name="rateFactorRangeGenerator"
+      type="gw.lob.common.util.modifiers.RateFactorRangeGenerator"/>
+    <PanelRef
+      def="LOBScheduleRateDV(modifiable.Modifiers, rateFactorRangeGenerator)">
+      <TitleBar
+        title="modifiable.DisplayName"/>
+    </PanelRef>
+  </PanelSet>
+</PCF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ProductWithdrawalCover public-id="z7mgqlehvei4ne3ectn3hlo9lp9">
+    <Value>Expense</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProductWithdrawalCover>
+  <GL7ProductWithdrawalCover public-id="zhqi6kmcksb50bv4jqeb3gbgv18">
+    <Value>Liability</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProductWithdrawalCover>
+  <GL7ProductWithdrawalCover public-id="zl1h8itv95s2n8skptan7tj1fda">
+    <Value>Both Expense and Liability</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7ProductWithdrawalCover>
+</import>

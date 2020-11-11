@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  desc="The cost for a Exposure Coverage"
+  displayName="GL7 Exposure Coverage Cost"
+  entity="GL7ExposureCovCost"
+  final="true"
+  supertype="GL7Cost">
+  <implementsInterface
+    iface="gw.lob.common.financials.LobCostMethods"
+    impl="gw.lob.gl7.financials.GL7ExposureCovCostImpl"/>
+  <implementsEntity
+    name="Cost"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.CostAdapter"
+    impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+  <foreignkey
+    fkentity="GL7ExposureCov"
+    name="ExposureCoverage"
+    nullok="false"/>
+</subtype>

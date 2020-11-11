@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ClassDescriptionByCla9 public-id="zu3iegb82c5n8c0q6133e54f029">
+    <Value>Manufacturers,wholesalers,distrib selling alcohol for consumption off premises</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>50911</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z4mi8vdoqigp422k1aoh971uri9">
+    <Value>Restaurants, taverns, hotels, motels, including package sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>58161</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zttj01pho6tmtdm0bmk5gntjiu9">
+    <Value>Restaurants - BYO only - permitting persons to bring any alcoholic beverage on their premises, for consumption</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>58165</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zqkhohgldl530dtma1b30tkkuu9">
+    <Value>All Other BYO Establishments - permitting persons to bring any alcoholic beverage on their premises, for consumption</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>58166</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zsfimpipm9og678dqnlsi7j7bqa">
+    <Value>Temporary licensees</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>58168</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z80hsm8plf0m4ev4obi6vp84289">
+    <Value>Package stores,retail establishment selling alcohol for consumption off premises</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>59211</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zu5iaf9pcr81811gl89rm7fv6sb">
+    <Value>Clubs</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ClassCodeForClassDescriptionLi>70412</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zt5ikgklirpbdfp1gc53rn392ba">
+    <Value>Manufacturers,wholesalers,distrib selling alcohol for consumption off premises</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>50911</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z4vi0f197img54f8mapksomeq0a">
+    <Value>Clubs - retail selling, beer, wine and liquor consumed on premises</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>70413</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zb5ggaq5mqeaf1oi8lpc4k0ojca">
+    <Value>Distributors and Merchants Combined - specially designated - selling beer, wine  and liquor not consumed on premises
+ </Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>50882</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zhtioec5bj3fba7a0v31cnnh5s9">
+    <Value>Distributors - specially designated - selling liquor not consumed on premises
+ </Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>50881</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="znggee7b3h6sm54gtf3j2dhj998">
+    <Value>Taverns - retail selling beer and wine consumed on premises</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>58191</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z04hm5mfsp4729mo3h4bh554p78">
+    <Value>Restaurants, taverns, hotels, motels, including package sales</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>58161</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zchh83c49f0865ekvom624jvpbb">
+    <Value>Restaurants or Taverns - Class "C" license - retail selling beer, wine and liquor consumed on premises
+ </Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>58151</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zsvjad4u1inbq25umtcoi80qj1b">
+    <Value>Temporary licensees</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>58168</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zvajck9jvls718qhqpk52bvrjlb">
+    <Value>Merchants - specially designated - selling beer and wine not consumed on premises</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>59212</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z94jovrm1fm7t7a313uf9oh60m9">
+    <Value>Hotels - Class "B" license - retail selling beer, wine and liquor consumed on premises</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>70113</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zpjg21046ca4eabd8sf4r55j5k8">
+    <Value>Package stores,retail establishment selling alcohol for consumption off premises</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>59211</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z4rhi8nugf0s1479u22cthkeoab">
+    <Value>Clubs</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <ExpirationDate>2020-11-01</ExpirationDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>70412</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="z8chuaeiqqbb18v9h3umvjtnqka">
+    <Value>Temporary Licensees</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>58198</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+  <GL7ClassDescriptionByCla9 public-id="zv9jsls1o7fhi0n248q5uajdft8">
+    <Value>Hotels - Class "A" license - retail selling beer and wine consumed on premises</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <ClassCodeForClassDescriptionLi>70114</ClassCodeForClassDescriptionLi>
+  </GL7ClassDescriptionByCla9>
+</import>

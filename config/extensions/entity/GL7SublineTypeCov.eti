@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="Coverages for the General Liability Subline Type"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7SublineTypeCov"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7sublinetypecov"
+  type="effdated">
+  <implementsEntity
+    name="Coverage"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverageAdapter"
+    impl="gw.lob.gl7.GL7SublineTypeCoverageAdapter"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7SublineTypeCovMatcher"/>
+  <foreignkey
+    fkentity="GL7SublineType"
+    name="GL7SublineType"
+    nullok="false"/>
+  <array
+    arrayentity="GL7SublineTypeCovCost"
+    cascadeDelete="true"
+    name="Costs"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

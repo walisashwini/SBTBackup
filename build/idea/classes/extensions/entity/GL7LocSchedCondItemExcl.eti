@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7LocSchedCondItemExcl"
+  type="effdated"
+  desc="GL7 Location level condition scheduled item with exclusion terms"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7locschedconditemexcl">
+  <implementsEntity
+    name="Exclusion"/>
+  <implementsInterface
+    iface="gw.api.domain.ExclusionAdapter"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCondItemExclAdapter"/>
+  <implementsEntity
+    name="GL7Clause"/>
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.schedules.GL7LocationSchedCondItemExclMatcher"/>
+  <foreignkey
+    name="GL7LocationSchedCondItem"
+    fkentity="GL7LocationSchedCondItem"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LocSchedCondItemExclCost"
+    name="LocSchedCondItemExclCosts"/>
+</entity>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7LocationSchedExcl" public-id="GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif" priority="1501700" lookupTableName="GL7LocationExcl" existence="Electable" owningEntityType="GL7Location" referenceDateByType="PolicyTerm" coverageCategory="GL7LocationExclGrp" codeIdentifier="GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Location.isClauseAvailable("GL7ExclExplosionCollapseUndrgrdPropDmgHazardSpecif");]]></AvailabilityScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7LocationCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium183" required="true" codeIdentifier="GL7ManualPremium183"/>
+    </CovTerms>
+</ExclusionPattern>

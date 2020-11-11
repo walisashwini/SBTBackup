@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineCov" coveredPartyType="ThirdParty" public-id="GL7DamageToPremisesRentedToYouGovSubdivision" priority="110000" lookupTableName="GL7SublineCov" existence="Required" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineStdGrp" codeIdentifier="GL7DamageToPremisesRentedToYouGovSubdivision" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7DamageToPremisesRentedToYouGovSubdivision");]]></AvailabilityScript>
+  <CovTerms>
+    <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="1090" public-id="GL7LimitGovSubdivision" required="true" codeIdentifier="GL7LimitGovSubdivision">
+      <AvailabilityScript><![CDATA[return GL7Subline.isCovTermAvailable("GL7DamageToPremisesRentedToYouGovSubdivision", "GL7LimitGovSubdivision");]]></AvailabilityScript>
+      <Options>
+        <CovTermOpt public-id="z09imd4uhoc8gaklqlfenjjkhub" priority="1" optionCode="100000" value="100000" codeIdentifier="z09imd4uhoc8gaklqlfenjjkhub">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+        <CovTermOpt public-id="zg2islh6ak1rla2bgtme1nssed8" priority="10" optionCode="Excluded" value="0" codeIdentifier="zg2islh6ak1rla2bgtme1nssed8">
+          <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+        </CovTermOpt>
+      </Options>
+    </OptionCovTermPattern>
+  </CovTerms>
+</CoveragePattern>

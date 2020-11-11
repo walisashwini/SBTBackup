@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  desc="Commercial statistical plan for the General Liability Line which includes statistical codes. Represents the Premium Record Layout"
+  effDatedBranchType="PolicyPeriod"
+  entity="GL7StatRecord"
+  exportable="true"
+  final="false"
+  loadable="false"
+  table="gl7statrecord"
+  displayName="Stat Record"
+  type="effdated">
+</entity>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pcf.xsd">
+  <Popup
+    canEdit="openForEdit"
+    id="LobScheduledItemPopup"
+    startInEditMode="startInEdit"
+    title="schedule.ScheduleName">
+    <LocationEntryPoint
+      signature="LobScheduledItemPopup(clause: gw.api.domain.Clause, schedule : gw.api.domain.Schedule, category : gw.api.productmodel.CoverageCategory, openForEdit : boolean, startInEdit : boolean, jobWizardHelper : gw.api.web.job.JobWizardHelper, coverageHelper: gw.lob.common.coverage.CoverageHelper, scheduledItemHelper: gw.lob.common.schedules.ScheduledItemHelper, additionalInsuredHelper : gw.lob.common.AbstractAdditionalInsuredHelper, scheduledItemColumnHelper : gw.lob.common.schedules.ScheduledItemColumnHelper)"/>
+    <Variable
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Variable
+      name="schedule"
+      type="gw.api.domain.Schedule"/>
+    <Variable
+      name="category"
+      type="gw.api.productmodel.CoverageCategory"/>
+    <Variable
+      name="openForEdit"
+      type="boolean"/>
+    <Variable
+      name="startInEdit"
+      type="boolean"/>
+    <Variable
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Variable
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Variable
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Variable
+      name="scheduledItemColumnHelper"
+      type="gw.lob.common.schedules.ScheduledItemColumnHelper"/>
+    <Variable
+      initialValue="gw.plugin.Plugins.get(gw.plugin.contact.IContactConfigPlugin)"
+      name="contactConfigPlugin" type="gw.plugin.contact.IContactConfigPlugin"/>
+    <Variable
+      initialValue="(schedule as gw.api.domain.Clause).PolicyLine.ExistingAdditionalInsureds.asViews()"
+      name="existingAdditionalInsureds"
+      recalculateOnRefresh="true"
+      type="AccountContactView[]"/>
+    <Variable
+      initialValue="(schedule as gw.api.domain.Clause).PolicyLine.AdditionalInsuredOtherCandidates.asViews()"
+      name="otherContacts"
+      recalculateOnRefresh="true"
+      type="AccountContactView[]"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+        <AddButton
+          hideIfReadOnly="true"
+          id="AddContactsButton"
+          iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+          label="DisplayKey.get(&quot;Web.Contact.Add&quot;)"
+          subMenuOnDemand="true"
+          visible="schedule.IsAdditionalInsuredScheduleV2">
+          <AddMenuItemIterator
+            elementName="contactType"
+            value="contactConfigPlugin.getAllowedContactTypesForPolicyContactRoleType(typekey.PolicyContactRole.TC_POLICYADDLINSURED)" valueType="typekey.ContactType[]">
+            <IteratorSort
+              sortBy="contactType.DisplayName"
+              sortOrder="1"/>
+            <AddMenuItem
+              conversionExpression="schedule.modifyAndAddScheduledItem(PickedValue, clause, additionalInsuredHelper)"
+              id="ContactType"
+              iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+              label="DisplayKey.get(&quot;Web.Contact.AddNewOfType&quot;, contactType)"
+              pickLocation="NewAdditionalInsuredPopup.push((schedule as gw.api.domain.Clause).PolicyLine, contactType)"/>
+          </AddMenuItemIterator>
+          <AddMenuItem
+            conversionExpression="schedule.addScheduledItem(additionalInsuredHelper?.getPolicyAdditionalInsuredDetail(PickedValue, clause))"
+            id="AddFromSearch"
+            iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+            label="DisplayKey.get(&quot;Web.Policy.Contact.FromAddressBook&quot;)"
+            pickLocation="ContactSearchPopup.push(TC_ADDITIONALINSURED)"/>
+          <AddMenuItem
+            id="AddExistingContact"
+            iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+            label="DisplayKey.get(&quot;Web.Policy.Contact.AddExisting&quot;, PolicyAddlInsured.Type.TypeInfo.DisplayName)"
+            visible="true">
+            <AddMenuItemIterator
+              elementName="additionalInsured"
+              id="ContactOfSameType"
+              value="existingAdditionalInsureds" valueType="entity.AccountContactView[]">
+              <IteratorSort
+                sortBy="additionalInsured.DisplayName"
+                sortOrder="1"/>
+              <AddMenuItem
+                id="ExistingAdditionalInsured"
+                iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+                label="additionalInsured"
+                toCreateAndAdd="schedule.addScheduledItem(additionalInsuredHelper?.getPolicyAdditionalInsuredDetail(additionalInsured.AccountContact.Contact, clause))"/>
+            </AddMenuItemIterator>
+          </AddMenuItem>
+          <AddMenuItem
+            id="AddOtherContact"
+            iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+            label="DisplayKey.get(&quot;Web.Policy.Contact.AddOtherContacts&quot;)"
+            visible="otherContacts.Count &gt; 0">
+            <AddMenuItemIterator
+              elementName="otherContact"
+              id="ContactOfOtherType"
+              value="otherContacts" valueType="entity.AccountContactView[]">
+              <IteratorSort
+                sortBy="otherContact.DisplayName"
+                sortOrder="1"/>
+              <AddMenuItem
+                id="OtherContact"
+                iterator="LobScheduledItemsLV.ScheduledItemsIterator"
+                label="otherContact"
+                toCreateAndAdd="schedule.addScheduledItem(additionalInsuredHelper?.getPolicyAdditionalInsuredDetail(otherContact.AccountContact.Contact, clause))"/>
+            </AddMenuItemIterator>
+          </AddMenuItem>
+        </AddButton>
+        <IteratorButtons
+          addVisible="not (schedule.IsAdditionalInsuredScheduleV2)"
+          iterator="LobScheduledItemsLV.ScheduledItemsIterator"/>
+      </Toolbar>
+      <ListDetailPanel
+        selectionName="selectedScheduledItem"
+        selectionType="entity.ScheduledItem">
+        <PanelRef
+          def="LobScheduledItemsLV(clause, schedule, openForEdit, jobWizardHelper, scheduledItemHelper, scheduledItemColumnHelper)"
+          editable="openForEdit"/>
+        <PanelRef
+          def="LobSchedulePopupCV(clause, schedule, selectedScheduledItem, jobWizardHelper, openForEdit, coverageHelper, scheduledItemHelper, additionalInsuredHelper)"/>
+      </ListDetailPanel>
+    </Screen>
+  </Popup>
+</PCF>

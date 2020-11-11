@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="PolicyPeriod">
+  <array
+    arrayentity="GL7Transaction"
+    cascadeDelete="true"
+    name="GL7Transactions"
+    owner="true"/>
+</extension>

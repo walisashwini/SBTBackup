@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="ClauseDetailsTreeViewPanelSet">
+    <Require
+      name="treeNode"
+      type="gw.api.tree.RowTreeRootNode"/>
+    <Require
+      name="showNoChangeFilter"
+      type="boolean"/>
+    <Require
+      name="readOnly"
+      type="boolean"/>
+    <PanelRef
+      id="TitlePanel">
+      <Toolbar
+        id="EvaluationResultsToolbar">
+        <TreeButtons
+          iterator="NodeLV"/>
+        <CheckedValuesToolbarButton
+          id="Decision"
+          iterator="NodeLV"
+          label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+          visible="not readOnly">
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = null })"
+            id="ClearDecision"
+            label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.ClearDecision&quot;)"/>
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.ACCEPT })"
+            id="Accept"
+            label="gw.sbt.util.DisplayDescriptionHelper.getUpdateDecisionDescription(gw.sbt.model.UpdateDecision.ACCEPT)"/>
+          <CheckedValuesMenuItem
+            allCheckedRowsAction="CheckedValues.each( \ cv -&gt; { cv.Decision = gw.sbt.model.UpdateDecision.REJECT })"
+            id="Reject"
+            label="gw.sbt.util.DisplayDescriptionHelper.getUpdateDecisionDescription(gw.sbt.model.UpdateDecision.REJECT)"/>
+        </CheckedValuesToolbarButton>
+      </Toolbar>
+      <ListViewPanel
+        id="NodeLV">
+        <RowTree
+          canPick="false"
+          checkBoxVisible="diff.Selectable and not diff.ReadOnly"
+          contentType="gw.sbt.pca.view.presenter.RowPresenter"
+          elementName="diff"
+          hasCheckBoxes="true"
+          pageSize="0"
+          value="treeNode">
+          <ToolbarFilter
+            name="rowPresenterFilter">
+            <ToolbarFilterOption
+              filter="new gw.sbt.pca.view.filter.DefaultClauseDetailsFilter()"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Clause.Filter.ShowUnchanged&quot;)"
+              visible="showNoChangeFilter"/>
+            <ToolbarFilterOption
+              filter="new gw.sbt.pca.view.filter.NoChangeClauseDetailsFilter()"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Clause.Filter.HideUnchanged&quot;)"
+              visible="showNoChangeFilter"/>
+          </ToolbarFilter>
+          <Row
+            editable="false">
+            <TextCell
+              actionAvailable="false"
+              enableSort="false"
+              id="Item"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Item&quot;)"
+              value="diff.Description"
+              width="700" valueType="java.lang.String"/>
+            <BooleanRadioCell
+              action="diff.showDetails()"
+              actionAvailable="diff.detailsAvailableToShow()"
+              align="center"
+              enableSort="false"
+              icon="gw.sbt.pca.view.presenter.PresenterUtil.getDifferenceIconName(diff.DiffType, diff.detailsAvailableToShow())"
+              iconLabel="diff.DiffType.Description"
+              id="ChangeType"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.Difference&quot;)"
+              showHeaderIcon="false"
+              width="100"
+              value="true" valueType="boolean"/>
+            <TextCell
+              align="center"
+              enableSort="false"
+              id="Decision"
+              label="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.DecisionLabel&quot;)"
+              width="100"
+              value="gw.sbt.util.DisplayDescriptionHelper.getUpdateDecisionDescription(diff.Decision)" valueType="java.lang.String"/>
+          </Row>
+        </RowTree>
+      </ListViewPanel>
+    </PanelRef>
+  </PanelSet>
+</PCF>

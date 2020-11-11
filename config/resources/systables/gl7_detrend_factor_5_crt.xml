@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7DetrendFactor5CRT public-id="zgpiofg84lha46dpo7k7t0onopb">
+    <Value>0.949</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <YearOfExp>1</YearOfExp>
+    <Coverage>PremOps</Coverage>
+  </GL7DetrendFactor5CRT>
+  <GL7DetrendFactor5CRT public-id="zuii6076pf0hrfr82eanjv2i6qb">
+    <Value>0.919</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <YearOfExp>2</YearOfExp>
+    <Coverage>PremOps</Coverage>
+  </GL7DetrendFactor5CRT>
+  <GL7DetrendFactor5CRT public-id="z5tgmno9375h12gu3rrsca7ihb8">
+    <Value>0.887</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <YearOfExp>3</YearOfExp>
+    <Coverage>PremOps</Coverage>
+  </GL7DetrendFactor5CRT>
+  <GL7DetrendFactor5CRT public-id="zb0g6vb3u6opoboi6b3e8ccirr9">
+    <Value>0.914</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <YearOfExp>1</YearOfExp>
+    <Coverage>Products</Coverage>
+  </GL7DetrendFactor5CRT>
+  <GL7DetrendFactor5CRT public-id="zgsj8cu7tadfl0i0rvvfeh1t39b">
+    <Value>0.869</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <YearOfExp>2</YearOfExp>
+    <Coverage>Products</Coverage>
+  </GL7DetrendFactor5CRT>
+  <GL7DetrendFactor5CRT public-id="zf1hguagdl3dlbpb45k1nufaeg8">
+    <Value>0.821</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <YearOfExp>3</YearOfExp>
+    <Coverage>Products</Coverage>
+  </GL7DetrendFactor5CRT>
+</import>

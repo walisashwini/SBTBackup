@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PersonalAndAdvertising public-id="zunjal9ee8ed37cn8pucf9sf05b">
+    <Value>25,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zhkjamb5gdcsh3bs0e4rh87lmpb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z68i07i91iujv8ivb09v4jda78b">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z40hcdiuuhcan5pam5rfuc1hnr9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z83g8nk4k81r87bmhv2ofvah60a">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zedierhf07jf93e3smb19rrr91b">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z3eg2bat4a26e0rc3cqj2mlek99">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zj1j4t2opk8ar4pmkrnsa9b2vk8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zfigaerb0458g6midq1fsiqd6r8">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zmbiucoa3lmtkerbr8pgi5rkhh8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z39iae0slkla17dn3ev43ba22l8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="znajokbnjduv54hfdkhc4lg5ipa">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>5,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zoqho3irco8dq3j2sc6a380dq2b">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>10,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z3gjusq446hvo55bthuula2s73a">
+    <Value>25,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zk4gaite28m1m1rkqrs7vu3spkb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z69hmmdqn1cr94sgihrq3ih3qvb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zdrhshrdagd1g8c61dn9rpjs8b9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z29iqijckttn6egs0v89eg22598">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zumjustugs88ddsih0msp2q2b78">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z4hh6f0h9kj1p8oe6ejj6afn8b9">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zamjalvm3mvk54err5fem6m7bba">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zgii29et4895f7bn827109aghj8">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zh9gec00dnqtk4vv35rim20g1t8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zuhh0i9qflgti37btlsq0fovac8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z9dg6a75bvoajdnpph708a0ppdb">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>5,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z6cj82rh59hf4ca16dcpb3g5v68">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>No</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>10,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zbth841v0n2ah8ee79p3tg1eskb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>25,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zc3iqktatr9pu4mlmtp22uhqapb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>50,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zrjg2kgm11lbp8uj6o8rdt0lcla">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>100,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z61ggvk25mrs56embrecosffhfa">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>200,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zl1heg814otf22o44f5erj3pe2a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>300,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zj9j49c73jr7s7esi3bbv9rd1nb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>500,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z54h2k6ot93lg6ulg7e9h0adivb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z4qjm4ak12rau7h5toccjipb70a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,500,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zrph4lfank0h93aj5krhrvckbib">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>2,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zhmjs3rj5ued4f04e5s7772i829">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>3,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zjnigjs3mv3fd1m9j8qolc8uac8">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>4,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zu4jaafplt6oo8vdk5plfvag2ia">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>5,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="znoggmcueance4ugup7uuj8u479">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>10,000,000 CSL</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zrpi0qsj1ib7rb1se0jkp841h48">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>25,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z06jebpfsitbm5r8n69a57u2oob">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>50,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z6tjobuike4c7fttv83hq2h0qia">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>100,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zngj4latnak04apeblgbbcmmec9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>200,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zeagsrp1cd10v92l0sb7ddu3bra">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>300,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zslii1ck3a9g0fm6q3lvmt8qh5a">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>500,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="z2bgqg6un1rv5aisf6127bspljb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zf3hqh998973qdpivrbci94oue9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>1,500,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zpngcqqauthaoed1pk65ntm6gcb">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>2,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zgiiae9lvp7d63tvtue11uq84da">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>3,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zt8i8qcbigtpufpfoc624lg3lta">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>4,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zflgqlgvv1nfodpsf46kq3gvig9">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>5,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+  <GL7PersonalAndAdvertising public-id="zt6hse3ti7a52ftml6dkbr4u30b">
+    <Value>Excluded</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PersonalAdvertisingInjuryExcl>Yes</PersonalAdvertisingInjuryExcl>
+    <EachOccurrenceLim>10,000,000 BI</EachOccurrenceLim>
+  </GL7PersonalAndAdvertising>
+</import>

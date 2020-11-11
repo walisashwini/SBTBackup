@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineCond" public-id="GL7ChangesNotificationRequirementForOwnersAndPosse" priority="875000" lookupTableName="GL7SublineCond" existence="Electable" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineCondGrp" codeIdentifier="GL7ChangesNotificationRequirementForOwnersAndPosse" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7ChangesNotificationRequirementForOwnersAndPosse");]]></AvailabilityScript>
+    <CovTerms/>
+</ConditionPattern>

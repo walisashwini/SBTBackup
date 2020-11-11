@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  desc="The cost for a Subline Type Exclusion"
+  displayName="GL7 Subline Type Exclusion Cost"
+  entity="GL7SublineTypeExclCost"
+  final="true"
+  supertype="GL7Cost">
+  <implementsInterface
+    iface="gw.lob.common.financials.LobCostMethods"
+    impl="gw.lob.gl7.financials.GL7SublineTypeExclCostImpl"/>
+  <implementsEntity
+    name="Cost"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.CostAdapter"
+    impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+  <foreignkey
+    fkentity="GL7SublineTypeExcl"
+    name="SublineTypeExclusion"
+    nullok="false"/>
+</subtype>

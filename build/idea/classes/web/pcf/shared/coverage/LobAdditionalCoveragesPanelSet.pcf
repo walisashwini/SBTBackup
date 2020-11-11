@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="LobAdditionalCoveragesPanelSet">
+    <Require
+      name="coverable"
+      type="Coverable"/>
+    <Require
+      name="coverageCategories"
+      type="String[]"/>
+    <Require
+      name="includeExclude"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Require
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Require
+      name="additionalInsuredHelper"
+      type="gw.lob.common.AbstractAdditionalInsuredHelper"/>
+    <Variable
+      initialValue="coverable == null ? null : filteredCoverages().map(\c -&gt; c.Pattern)"
+      name="addedCoveragesToShow"
+      recalculateOnRefresh="true" type="gw.api.productmodel.ClausePattern[]"/>
+    <PanelRef
+      def="LobClausesDV(coverable, addedCoveragesToShow, jobWizardHelper, coverageHelper, scheduledItemHelper, additionalInsuredHelper)">
+      <Toolbar>
+        <PickerToolbarButton
+          action="LobCoveragePatternSearchPopup.push(coverable, CoveragePatternSearchType.TC_COVERAGE, coverageCategories, includeExclude)"
+          hideIfReadOnly="true"
+          id="Add"
+          label="DisplayKey.get(&quot;Web.Policy.Coverages.AddCoverages&quot;)"
+          onPick="createCoverageList(PickedValue.whereTypeIs( gw.api.productmodel.CoveragePattern ).toList())"/>
+      </Toolbar>
+    </PanelRef>
+    <Code><![CDATA[function createCoverageList(patterns: java.util.List<gw.api.productmodel.CoveragePattern>) {
+  for (pattern in patterns) {
+    coverable.createCoverage(pattern)
+  }
+}
+
+function filteredCoverages() : Coverage[] {
+  var covlist : Coverage[]
+  if (coverable == null) {
+    return null
+  }
+  if (includeExclude) {
+    return coverable.getCoveragesInCategories(coverageCategories)?.toTypedArray()
+  }
+  else {
+    return coverable.getCoveragesNotInCategories(coverageCategories)?.toTypedArray()
+  }
+}]]></Code>
+  </PanelSet>
+</PCF>

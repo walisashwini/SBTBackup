@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<import>
+  <CoverageLookup public-id="zk0hgs500mf2d96cmb3io1v4cba">
+    <Availability>Available</Availability>
+    <CoveragePatternCode>GL7AddlInsdStateOrGovAgencyOrSubdOrPoliticalSubdPe</CoveragePatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zpvicuj2bnnn764t13f9uana2h8">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>GL7ManualPremium259</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+</import>

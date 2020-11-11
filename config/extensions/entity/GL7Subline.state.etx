@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension entityName="GL7Subline" xmlns="http://guidewire.com/datamodel">
+  <column columnName="gl7bylawscreatedoramendedonora" desc="By Laws Conform with the Illinois Insurance Code 5/12 and 5/12.1" name="ByLawsCreatedOrAmendedOnOrAfterDate" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+  <column columnName="gl7condominiumassociation" desc="Condominium Association" name="CondominiumAssociation" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+  <column columnName="gl7doesthisriskoperatescaffold" desc="Does this risk operate a scaffold on buildings in Chicago that require a permit?" name="DoesThisRiskOperateScaffoldBuildingsInChicagoThatRequirePermit" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+  <column columnName="gl7doesthisriskoperatescaffol1" desc="Does this risk operate scaffolds?" name="DoesThisRiskOperateScaffolds" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+  <column columnName="gl7doesthisriskperformhomerepa" desc="Does this risk perform home repair and remodeling?" name="DoesThisRiskPerformHomeRepairAndRemodeling" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+  <column columnName="gl7energyefficiencyinstaller" desc="Is Insured an Energy Efficiency Installer" name="EnergyEfficiencyInstaller" nullok="true" type="varchar">
+    <columnParam name="size" value="16"/>
+  </column>
+  <column columnName="gl7stopgap" desc="Stop Gap Coverage" name="StopGap" nullok="true" type="varchar">
+    <columnParam name="size" value="3"/>
+  </column>
+</extension>

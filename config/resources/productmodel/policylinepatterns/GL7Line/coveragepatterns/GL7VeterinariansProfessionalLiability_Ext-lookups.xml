@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<import>
+  <CoverageLookup public-id="z8cgm5k0q14gadhs5ak562uqi69">
+    <Availability>Available</Availability>
+    <CoveragePatternCode>zjtjkj7n3hb537nob522vs50kt8</CoveragePatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zf6hadf02858p1i89osf3b308d8">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zgrimigrkt9e4c4np8ught4topa</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zcoiu9jkragb5f9vs91ujprdbqa">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>z0kiqh35mvaudaqs7g7k5lbt7c9</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zhojkc5cak6ps96o92kqaapa1l9">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zloj895dc2lj3df9rc04d7bfeba</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z3mi22locdh2tekn3uff6d8n3m9">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zn4jq57dgdn7f9tbbspe2o8fu7b</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zvbh4c5hn5s1kbcmabgr5dm2e1b">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zb9he34l9d6e20o0bbon5bt17d8</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermOptLookup public-id="zr3hs8m0pd7fjdvn8misihinu68">
+    <Availability>Available</Availability>
+    <CovTermOptCode>z95ikfr1b7vjlcn1f3pq63f05s8</CovTermOptCode>
+    <CovTermPatternCode>zb9he34l9d6e20o0bbon5bt17d8</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zi5g6j276e389c3i16ockv608m8">
+    <Availability>Available</Availability>
+    <CovTermOptCode>z1bi85ptd1o1k8obfqc49k6pn88</CovTermOptCode>
+    <CovTermPatternCode>zb9he34l9d6e20o0bbon5bt17d8</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="zkpg07hq34tf158u90sgd0nvbsa">
+    <Availability>Available</Availability>
+    <CovTermOptCode>zrsia4di6crkc0mh04up63f85ha</CovTermOptCode>
+    <CovTermPatternCode>z0kiqh35mvaudaqs7g7k5lbt7c9</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+  <CovTermOptLookup public-id="z6fjqvrh11e3sa2v7v4gktm5em8">
+    <Availability>Available</Availability>
+    <CovTermOptCode>ze1gs49j3lnkf21b8djvq8g4ldb</CovTermOptCode>
+    <CovTermPatternCode>z0kiqh35mvaudaqs7g7k5lbt7c9</CovTermPatternCode>
+    <Currency/>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2020-10-23 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+</import>

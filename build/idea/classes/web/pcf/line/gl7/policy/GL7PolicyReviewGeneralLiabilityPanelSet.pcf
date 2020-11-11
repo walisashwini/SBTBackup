@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <PanelSet
+    editable="false"
+    id="GL7PolicyReviewGeneralLiabilityPanelSet">
+    <Require
+      name="gl7line"
+      type="GL7GeneralLiabilityLine"/>
+    <Require
+      name="sublines"
+      type="gw.lob.gl7.presenters.GL7CoverablePerSubline&lt;GL7SublineType&gt;"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="gw.lob.gl7.GL7Category"
+      name="category"
+      type="Type&lt;gw.lob.gl7.GL7Category&gt;"/>
+    <PanelIterator
+      elementName="subline"
+      value="sublines.SublineSortedCoverables"
+      valueType="entity.GL7SublineType[]">
+      <Variable
+        name="presenter"
+        type="gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter"/>
+      <PanelRef>
+        <TitleBar
+          title="subline.Subline"/>
+        <PanelSet>
+          <PanelRef
+            def="LobEntityFilteredDV(subline, gw.lob.gl7.displayable.GL7SublineTypeDisplayable, jobWizardHelper, false, presenter.filterDisplayable())">
+            <Verbatim
+              label="DisplayKey.get(&quot;Web.Policy.GL7.Details&quot;)"/>
+          </PanelRef>
+          <PanelRef
+            def="GL7PolicyReviewClausesPanelSet(subline, category.CategoriesForSublineTypes)"/>
+        </PanelSet>
+      </PanelRef>
+    </PanelIterator>
+  </PanelSet>
+</PCF>

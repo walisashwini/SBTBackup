@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeSchedExcl" public-id="GL7ExclPropertyEntrusted" priority="142000" lookupTableName="GL7SublineTypeExcl" existence="" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclPropertyEntrusted" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclPropertyEntrusted");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7SublineType.getClauseExistence("GL7ExclPropertyEntrusted");]]></ExistenceScript>
+    <CovTerms/>
+</ExclusionPattern>

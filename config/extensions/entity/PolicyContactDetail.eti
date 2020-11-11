@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<entity
+  effDatedBranchType="PolicyPeriod"
+  xmlns="http://guidewire.com/datamodel"
+  entity="PolicyContactDetail"
+  table="policycontactdetail"
+  type="effdated"
+  final="false">
+  <implementsInterface
+    iface="gw.api.copier.EffDatedCopyable"
+    impl="gw.api.copier.EffDatedCopier"/>
+  <implementsInterface
+    iface="gw.api.domain.account.Mergeable"
+    impl="gw.account.EffDatedDefaultMergeableImpl"/>
+</entity>

@@ -1,0 +1,808 @@
+<?xml version="1.0"?>
+<import xmlns="http://guidewire.com/pc/exim/import">
+  <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98">
+    <ClausePatternCode/>
+    <Code>CG22020817</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Changes - Climbing Facilities Operators - Notice Of Cancellation And Claim Amount</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>08 17</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 22 02</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zv8icjilp33b0amj74ja2ala9e9">
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zvaigimvngnuu6ombbf46qavicb">
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zmkgu0obvs3o61vlt330bvp779a">
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zaliivhudohl37ov1qsfmp50609">
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="za2i6p9l690v53q20389hqfeskb">
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zrkgcv0e7176qfseai8qvnap0m9">
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zvqi0jha5pnieblubigiq9n4c69">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z32iukprfaiqd7kofc0e6r92i98"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7770</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia">
+    <ClausePatternCode>GL7PesticideOrHerbicideApplicatorCovOwnersContract</ClausePatternCode>
+    <Code>CG31621219_CG28120413</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Pesticide Or Herbicide Applicator - Limited Pollution Coverage</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 19</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 31 62</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zijj8tsnqij6c4t8mki7hqhcd48">
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zekhkicla003b4n3spb4fh92le8">
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z9dimfredsnitdn5eaio1pk46ca">
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zg3goa0cfehej502qjha4glb6u8">
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zphhq23o747bt695agn44sm7k08">
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zqfg0mcg222991g27jog5aae388">
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 28 12 04 13</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zr4iqsakvr9qddgji9m5seanstb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zq1hi1n1mse6r45ih42kj0iitia"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1269</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG28120413</UseInsteadOfCode>
+  </FormPattern>
+  <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b">
+    <ClausePatternCode/>
+    <Code>CG33131204</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 04</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 33 13</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zmujuv08l0rjpdrqnpvfioci308">
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zgsherkpj1836c5p66jmek79k09">
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z5ohebt9u7m005jp6cs5s27gj9b">
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zmdgkkt8q9k4m2kqevjnmfec2pb">
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zpqiem3n1ncp3a79h64ed2eq548">
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zi9i2i7tpupi8651dh66d3gljma">
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zi3ichglkc6f08bue3ojfcvu4ub">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zvehsqrb61bu26cbnh1udha8c7b"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7760</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a">
+    <ClausePatternCode>GL7StopGapEmployersLiabCovEndorsementPolLvl</ClausePatternCode>
+    <Code>CG04411219</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Stop Gap - Employers Liability Coverage Endorsement - Ohio</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 19</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 04 41</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zmriagsi6upitdk0o9iihev5npa">
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zgcj64k0e3ti11qmrku6kv0oon8">
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zfcgmuq0n7nr2dsi0f40rb80q5a">
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z30juq3dpt0kt29670uvn5kcqp9">
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zi1ig9ljqvr2nfpti17b0q3bqrb">
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z27hihh00oonr0flse9lv82gap8">
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zdfgeg42svemi29p64qkijkfmeb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z27h84r0oui2h9ut9dr50ua7a3a"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>20141</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8">
+    <ClausePatternCode>GL7ExclOfPunitiveDamagesReltdToACertifiedActOfTerr</ClausePatternCode>
+    <Code>CG21760115</Code>
+    <CovSysTableValueExistsOnAll/>
+    <CoverableSysTable/>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Exclusion Of Punitive Damages Related To A Certified Act Of Terrorism</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 15</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 21 76</FormNumber>
+    <FormPatternAdditionalInsuredTypes/>
+    <FormPatternAdditionalInterestTypes/>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternCoveragePartTypes/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z0kg8l43fvsfp6qblrjdfl2t8n9">
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z79jm9en6e7025ep19rb8cs95mb">
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z7rjmb18qi943frmagbbmr6522b">
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z9agaoffjd22h2vtiu46cfoja09">
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zojg0pofd8g901c6nbr2ocn1ou8">
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zt7h4v150tsi4ffi938sqipqbb9">
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 21 76 01 15</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zuojk9bmrktsv4t5qjfds7bn2s8">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <Jurisdiction/>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+      <FormPatternLookup public-id="zf6hq48170lqmbrlerbqp91lfh9">
+        <Availability>Unavailable</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zuqjo456rsu2pc80rgofb4tfee8"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>6900</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8">
+    <ClausePatternCode>GL7PesticideOrHerbicideApplicatorCov</ClausePatternCode>
+    <Code>CG26871219_CG22640413</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Pesticide Or Herbicide Applicator - Limited Pollution Coverage</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 19</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 26 87</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zjfigdq83lb524c9p8opondau1a">
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zoqgiu3n4pgdd3quodp18odjr39">
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zlgjutmglos37fiknshfa22baq8">
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zkoigri67e2op0co1q9pcnv2kfb">
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z7oj8v0fomlbk3qu5bpaerp1jh8">
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zltiatol0t441apvrs9atfo3u29">
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode>CG 22 64 04 13</InternalGroupCode>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z0sg659pg9hak0ou6c0jk3rpgeb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zjdj82pjkvl29aamgbjf91rndi8"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>1148</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode>CG22640413</UseInsteadOfCode>
+  </FormPattern>
+  <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a">
+    <ClausePatternCode/>
+    <Code>IL02440907</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>09 07</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>IL 02 44</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zeqjejpl5mt8g14jod94i2ttu99">
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zgphumibkcl3245akep31iofek8">
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zivjeiopbc4em8d1ka1jmj7vkg9">
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="znnio0tek527ia9c28grjm11hp9">
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zligkakfcrb6l61m3ku8oj7hk1a">
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z12i8mmlpodf71ojdg4ui4bt4ob">
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z10is3p3okvqp6pno9j877623k9">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zpqimvpdncusnca3np0j1oof55a"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7675</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a">
+    <ClausePatternCode/>
+    <Code>CG28460102</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 02</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 46</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="ztbis5i6nvh1r262g976t6sh808">
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zoviuv2gr7qsv1pk05mjpvako48">
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ztnh8vakm038rcn7kon70jk5hm8">
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zvgjqtmadcjmr3ebm4ibv0iguk8">
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zefj42ofbp5ao9tdjdtpdac0m38">
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z5kju1kmff3rr85oo929nec5a7b">
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zg3iibhq4pbda86bj7chc74tnhb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zi9h6henmfmlb0aje99giofrv7a"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7725</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga">
+    <ClausePatternCode/>
+    <Code>CG28450102</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 02</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 28 45</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="z9kgmck67pih64k88pqbslhnu48">
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zbajs0uek91t1a96q5pgo9g1ova">
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zu4hufcge74e95e790nqrhe9vq9">
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zq1h8gfmaprnb4iiuba09p66468">
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zeqiqijgn8tc6coueqnbge133j9">
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zseiqrcg0pa0e1u7d8mmlcfak4b">
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z9cj4nhfaqnfqaseb7tcbk0dnfb">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="znciich5h17m2c75sd8ao6f12ga"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7750</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69">
+    <ClausePatternCode/>
+    <Code>CG30160102</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Changes - Cancellation And Nonrenewal</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>01 02</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 30 16</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zhuim7qo6718f92s079uhtc8d19">
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zkdied7st1ps8551bc6mhk5eg1b">
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zcdgceaitl4n48am57tq1p7oq58">
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zlugujcjp99sb2q6mhrucqv04da">
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zq3gsg4ldbbb37o3i3968vl1ro8">
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="ziegass0cdbhkdjrdcvkceuj21a">
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericRemovalEndorsementForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="z2ugo4o0truui7fqgdacheq6d2a">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="z0oieavvr3pg9dmv14fosfgmn69"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>7700</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b">
+    <ClausePatternCode>GL7WoodDestroyingInsectDiagnosticInspectionErrorsA</ClausePatternCode>
+    <Code>CG34571219</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Wood-Destroying Insect Diagnostic Inspection Errors And Omissions Coverage</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 19</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 34 57</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zrago5e6smomlfs8eh97ocof75b">
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zh0i6pcad6jm10pdtstkg934c6a">
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zvkjk1seb96j478buoqqduthca9">
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="zuqhutpap237seb6p83bol3q7u9">
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z7djkke2k65617pp41b4j430cca">
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="zb2jm923bbh5404m06euk7n5shb">
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="zh8im507lioes6mq7lg5o3buf1b">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zh7i2pvgdf00d1u9oi9iprvvk2b"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>9020</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+  <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b">
+    <ClausePatternCode>GL7PesticideOrHerbicideApplicatorCovForPropertyInC</ClausePatternCode>
+    <Code>CG34561219</Code>
+    <CoverableType/>
+    <CoverableTypeKey/>
+    <CoverableTypeKeyExistsOnAll>false</CoverableTypeKeyExistsOnAll>
+    <CoverableTypeKeys/>
+    <CoverableTypeList/>
+    <Description>Ohio Pesticide Or Herbicide Applicator - Coverage For Property In The Care, Custody And Control Of The Insured</Description>
+    <Description_L10N_ARRAY/>
+    <Edition>12 19</Edition>
+    <EndorsementNumbered>false</EndorsementNumbered>
+    <FormNumber>CG 34 56</FormNumber>
+    <FormPatternClauseCodes/>
+    <FormPatternCovTerms/>
+    <FormPatternCoverableProperties/>
+    <FormPatternJobs>
+      <FormPatternJob public-id="zbdi2s1oph8q66eeaf49a9rr06b">
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <JobType>Submission</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z59jonjgrb0o73koct23u6rrlj9">
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <JobType>PolicyChange</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="z2bign3q2ir23d0k8nrpromqa7b">
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <JobType>Renewal</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="znfjiav4csetmbeoc5tc0kohv38">
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <JobType>Rewrite</JobType>
+      </FormPatternJob>
+      <FormPatternJob public-id="ziuhk64rj611v2ucf0p9pskjl69">
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <JobType>RewriteNewAccount</JobType>
+      </FormPatternJob>
+    </FormPatternJobs>
+    <FormPatternProducts>
+      <FormPatternProduct public-id="z29h213ci7p436vooda49fre22b">
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <ProductCode>GL7GeneralLiability</ProductCode>
+      </FormPatternProduct>
+    </FormPatternProducts>
+    <GenericInferenceClass>gw.forms.generic.GenericClauseSelectionForm</GenericInferenceClass>
+    <InferenceTime>quote</InferenceTime>
+    <InternalGroupCode/>
+    <InternalReissueOnChange>true</InternalReissueOnChange>
+    <InternalRemovalEndorsement>false</InternalRemovalEndorsement>
+    <Lookups>
+      <FormPatternLookup public-id="ztvg66nd0fjuf6aj9qru0tjar5a">
+        <Availability>Available</Availability>
+        <EndEffectiveDate/>
+        <FormPattern public-id="zt4iot2o0pl7391d2hdf799os9b"/>
+        <Jurisdiction>OH</Jurisdiction>
+        <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+        <UWCompanyCode/>
+      </FormPatternLookup>
+    </Lookups>
+    <PatternExistsOnAll>false</PatternExistsOnAll>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <Priority>9010</Priority>
+    <RefCode/>
+    <RemovalEndorsementFormNumber/>
+    <UseInsteadOfCode/>
+  </FormPattern>
+</import>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<delegate
+  xmlns="http://guidewire.com/datamodel"
+  name="CoverableFieldAvailability"
+  requiresType="effdated">
+  <column
+    desc="List of field availiabilities"
+    name="FieldAvailabilities"
+    nullok="true"
+    type="longtext"/>
+</delegate>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity
+  name="GL7Transaction">
+  <Columns>
+    <Column
+      beanPath="GL7Transaction.GL7Cost"
+      name="cost"/>
+  </Columns>
+  <DisplayName><![CDATA[cost]]></DisplayName>
+</Entity>

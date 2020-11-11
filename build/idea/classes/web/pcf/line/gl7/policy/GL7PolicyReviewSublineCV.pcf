@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <CardViewPanel
+    hideTabIfSingle="true"
+    id="GL7PolicyReviewSublineCV">
+    <Require
+      name="coverablePerSubline"
+      type="gw.lob.gl7.presenters.GL7CoverablePerSubline"/>
+    <Require
+      name="coverageCategories"
+      type="gw.lob.gl7.GL7Category.CoverableCoverageCategories"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Card
+      id="stateSpecific"
+      title="&quot;&quot;">
+      <PanelIterator
+        elementName="coverableSublineEntry"
+        value="coverablePerSubline.Entries"
+        valueType="gw.lob.gl7.presenters.GL7CoverablePerSubline.Entry[]">
+        <Variable
+          initialValue="coverableSublineEntry.Coverable"
+          name="coverable"
+          type="entity.Coverable"
+          recalculateOnRefresh="true"/>
+        <Variable
+          initialValue="new gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter(coverable, coverageCategories)"
+          name="presenter"
+          recalculateOnRefresh="true"
+          type="gw.lob.gl7.presenters.GL7PolicyLineSummaryPresenter"/>
+        <PanelRef>
+          <TitleBar
+            title="coverableSublineEntry.SublineType.Subline"
+            visible="presenter.displayTitle(gw.lob.common.displayable.LobDisplayable)"/>
+          <PanelSet>
+            <PanelRef
+              def="LobEntityDV(coverable, gw.lob.common.displayable.LobDisplayable, jobWizardHelper, openForEdit)">
+              <Verbatim
+                label="DisplayKey.get(&quot;Web.Policy.GL7.Details&quot;)"
+                visible="presenter.dataModelFieldsExist(gw.lob.common.displayable.LobDisplayable)"/>
+            </PanelRef>
+            <PanelRef
+              def="GL7PolicyReviewClausesPanelSet(coverable, gw.lob.gl7.GL7Category.CategoriesForSublines)"/>
+          </PanelSet>
+        </PanelRef>
+      </PanelIterator>
+    </Card>
+  </CardViewPanel>
+</PCF>

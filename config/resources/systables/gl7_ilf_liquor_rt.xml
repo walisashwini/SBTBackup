@@ -1,0 +1,2019 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7ILFLiquorRT public-id="zaojqbon5a7taag0cvbeu3f2vma">
+    <Value>0.72</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbvhomhk10oua08tu31ptdmsoab">
+    <Value>0.78</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z15gepu6hgll3a1nhp02c7hjh89">
+    <Value>0.73</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1eg8cstela6kdvjna6v0kjlala">
+    <Value>0.84</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1hh0fnaq68gd6lbbjuvif81ova">
+    <Value>0.93</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z63h060gkfjr019mt6727ico2j8">
+    <Value>0.74</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zllga7pk57gn1c3mg2217qdocv9">
+    <Value>0.85</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zmci6ksjmfp520d8pntmlnv4hhb">
+    <Value>1</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z2rhu5ij86a57efb8758sc50bg8">
+    <Value>1.14</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zd5jeabvhiei216mq3mlq624p38">
+    <Value>0.75</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zsagkfisl17nlc96oqg9sc2tf09">
+    <Value>0.86</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfdgu466tufua36hrutpl5dfnu9">
+    <Value>1.01</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9ghu97t4gon93s25gct9h4qh2b">
+    <Value>1.18</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z68gobl35io5k5medrcm8de786b">
+    <Value>1.29</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z0ij20kl2m5no8ngt4rd9236179">
+    <Value>0.88</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zcohm8u9j62349ofsiboifscfk8">
+    <Value>1.03</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zo6h2sr33te9n8uq0gmif8ltevb">
+    <Value>1.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zk3h6k3p69isjbblcojmndg9l09">
+    <Value>1.34</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrbh86c8bvikg7947l3nhvtt188">
+    <Value>1.5</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z00io5p2mf5aq1thrqrc77344l9">
+    <Value>0.89</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfoje7fgg20d07s46i7his4ht5b">
+    <Value>1.04</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqth42ju1hlcj0ua41q7pno5238">
+    <Value>1.21</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zoric2heti3q25jo69l9qeska3b">
+    <Value>1.35</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="ze5j0nbfdns2b8ku18ccn1c0919">
+    <Value>1.52</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zs8gs6v3o17hk6h7b767ek6iku9">
+    <Value>1.05</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zeqh0b1sbq86q9pklvuaa61ilt9">
+    <Value>1.22</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z25i873ilvasn3qge9gt9t2sq48">
+    <Value>1.36</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zaoge31nct60mbkgsrlvsahr2q8">
+    <Value>1.55</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8ah4cfde6bco75k7ltnkgc1bg8">
+    <Value>1.82</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zmbh66qudhktkcpqp8qocmbt5oa">
+    <Value>1.23</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbejekjhooqck39jvfr9i2n5f28">
+    <Value>1.37</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zc4gum7jamc5ee7tbn91jcag9mb">
+    <Value>1.56</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1miopbvkp4tsb2o8vukieo4c7b">
+    <Value>1.83</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zq9h8612sta1ebq9b9sov71rjtb">
+    <Value>1.24</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="znagcfr2493mf0usl6q0bjdha7b">
+    <Value>1.38</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z3fjo1jp1ijd59860sjrmbnoo9b">
+    <Value>1.57</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zkqie9q0qeftobpia2nhtotcpua">
+    <Value>1.84</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zuvg0nde08g973sev655allt7g8">
+    <Value>1.39</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zasimu0gbmh6i2cfpvc42ojec9a">
+    <Value>1.58</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrjjaaoca3c6hb8hch7thfi08o8">
+    <Value>1.85</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqti2udeh9hch3nh71f67he7a89">
+    <Value>1.4</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zr4h6sptletue67bdlkgntn58rb">
+    <Value>1.59</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zv0gc4bgn3081bhhlbnf6rhgvl8">
+    <Value>1.86</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="za6gejvpsu6njd7rcsjfsnlatm8">
+    <Value>2.02</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zcbiolvmnm7eqf63q87lnmrgkib">
+    <Value>2.03</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjph6vlckptc64bgqfu9e113hr8">
+    <Value>2.16</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zi6j6rerc7716esnbms2gr4vh48">
+    <Value>2.04</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="ze0gmed9ggnub5k3smoqas5ip0a">
+    <Value>2.17</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zg9h8c5ceqijpa2pmskue4n19bb">
+    <Value>2.05</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z86g6qeu0592eddrmsgln7l7irb">
+    <Value>2.18</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqfhaqere63ctf321gm89dh0f09">
+    <Value>2.35</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z23ierrri9dkc6iftplik8tsjab">
+    <Value>1.6</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z25jaci7nrodq5il25vkehob67a">
+    <Value>1.87</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8qhc6p24lp893njftu721gj588">
+    <Value>2.06</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zpqg23886ljc70d9snlvmfh3d49">
+    <Value>2.19</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbli2ektn6djiaj2p14pplbo6i9">
+    <Value>2.36</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zq4ishhhkinhn9452sunmjbuof9">
+    <Value>2.5</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbqic8enofn3558l5rt4rsrbefa">
+    <Value>1.61</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="znog04gcc9ro55ldr48av3iok49">
+    <Value>1.88</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zdnjkpf2njui830n8vvouadbfj9">
+    <Value>2.07</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zljh811jnf5p415v586ga6u1qjb">
+    <Value>2.2</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="znvhc16eqenfr95tv2i2jmsqbeb">
+    <Value>2.37</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="za5jib7cokh5p4svcmnl0uip9k9">
+    <Value>2.51</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zkcg0bsuveghk01o8krngsk7pka">
+    <Value>2.61</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zn2jaj61l28od2rf6nif7eppsqb">
+    <Value>1.89</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z24h0bpuf0k1ockulgrp9nv5048">
+    <Value>2.08</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zo9iceu4vbf55ddrbt6mklco4m8">
+    <Value>2.21</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z99ii3ikupnv5ac7s96pji4nlmb">
+    <Value>2.38</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z5uhc68cldp2n1vlhtgva521uo9">
+    <Value>2.52</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="znuh8419eij6d6tjubtd5dvk128">
+    <Value>2.63</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zafhm1s0jfjdablqv6ebrvkigi9">
+    <Value>2.99</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrch0l5o6anlg3anab08c5nr3k9">
+    <Value>3</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Jurisdiction>IA</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>20,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1rhif4c5ilec5blg575m3du3o8">
+    <Value>1.01</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zurgm8a5og47n9v9p9skm62mbka">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zn9gmsng2b1aq7an5i7825gktua">
+    <Value>2.38</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqgg0l257qeq60jgrj7ti23epvb">
+    <Value>1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zpegq2q1vrs7d8akt11n8vj2o1b">
+    <Value>1.88</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zf6i402cdgbiecsg757iegfpfab">
+    <Value>1.59</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zagh4j60t7h5m98u9lv16c27qkb">
+    <Value>2.36</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zdhjsbs3n1kimfu7ju935el42g8">
+    <Value>1.57</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zpvi6o4nahthp5ssqohqu4k52ua">
+    <Value>0.74</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zakh2fmrfdc8g27u9ua6hn35n59">
+    <Value>1.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z60h6qe2dd9mc1l6lcg629hp5i9">
+    <Value>1.61</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zdljag4hdpdlrb1cs85pme5m7l8">
+    <Value>1.37</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zitj0vdqp9l3pcoprg2pur59u49">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zb2ha7gaort975ocmkgn0psrg79">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zgdiab06l5o71ehkt5i4lntml08">
+    <Value>1.23</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zaej4g66oo3383krvvoejt2adsb">
+    <Value>1.55</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zuqgg9voqo7e09758n2lqu1t5ca">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7pgoe24qin6a1khutsst7gl249">
+    <Value>1.52</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbgi2v55u1l340ob9qnqogmoov9">
+    <Value>0.85</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zstioe3kijvdc9uq3nuncfftpj9">
+    <Value>1.83</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zn4hs1dr6t7j8263ms55frkh4pb">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zshg0k8nfcd066cph75p8lukmbb">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zhagem3griro93g09b96oqiirsa">
+    <Value>2.06</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zlahi5hgkleuo6e2h88rj3g070a">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqchq2r4vamvdd05bamutil7b9b">
+    <Value>1.38</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6ej6cdhluds53o84g1rn75htcb">
+    <Value>2.51</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zafh2rqv6tle6bfpo1v661jrce9">
+    <Value>1.35</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zq1ju5k6gdbrf10gi0cnjo4m939">
+    <Value>1.36</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zg9g4d44t19erfa539nnnejq4j8">
+    <Value>2.37</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7bgoam0hs3hc3k9jm6o5fvfdkb">
+    <Value>1.85</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4mh6aclqe9fobvhl6r8g8tkc8b">
+    <Value>2.19</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjgimh7jtj8c6ac3fm17hns8ldb">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zh3ie7rvujp366eibjh3tiu5m68">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z5ogamo20k2uo6fcnpalu496t89">
+    <Value>1.21</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8tj6724j7u973afim0jcqgvh99">
+    <Value>1.22</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zvnjionm41mgdadm5f5mrmmjflb">
+    <Value>1.84</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8sg6hvkk2lod87rp81l7lm41i9">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1oi0naeuocm99fg40of6klcus9">
+    <Value>2.07</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1vj4dj4hgupafbhdf5g7npr04a">
+    <Value>2.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4pgq37d6er4a8u2gv4a74hacfb">
+    <Value>2.63</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zhdgcicsn33et79nup81jtu74d9">
+    <Value>2.03</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zndj6ct1sqcpb0cfoiu7n0sdq19">
+    <Value>2.04</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zvfi45e7qd0odbvpitdt9kf72s8">
+    <Value>1.34</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4oiscfacn6gfeifa8b31d2bc58">
+    <Value>1.03</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zirhkejj3msha33djld7h52qe68">
+    <Value>0.73</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7iig1ti9o99caaiahf09hr2b49">
+    <Value>0.75</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z59jsrv3biu8f47aknje62b1mua">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zb2hgms8p0ano75ejjgch53s9ab">
+    <Value>2.21</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zm4g8jb6obcar0hgj00lfom8fk9">
+    <Value>2.52</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z2vhgq419ie5tchf30a9p1dgtf9">
+    <Value>1.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zr5je3j4au4bra9kee4jp2rg2qb">
+    <Value>2.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrjg0qsknqbba3u0rgh82af4m4b">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6aiepfalntmc0dqv0dhsvq7qh8">
+    <Value>1.86</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zuqi04a25e2lhc0bsamp4r8e009">
+    <Value>1.89</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z0ki4ddl6a2mgdvla69u4rp5j09">
+    <Value>3</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>20,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zmgi01a52ihgu06lqcbetq1v2o9">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zaiiai57teu943kdmm5hqaqvf18">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjtgmg6vf7lkq4kkct16bsc5sq9">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjph6m5e262bf28l3cgu709ch0b">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7ng024it069u6ji2p2dt13kqqa">
+    <Value>1.04</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zglhkfp7qo2sfb21e9s9s1rriob">
+    <Value>1.05</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zorguftcqsum77cgngmaj54lfj9">
+    <Value>0.86</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zmlgabu6sfergctodrknvv2h839">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zv4i6u8h5nbb01f89n6q4cui4m8">
+    <Value>0.88</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zljiepcp05m114n3q6d6oqq2gla">
+    <Value>0.89</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zupi0j21fsntu71vnco0j13m9ub">
+    <Value>1.56</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zhlikbftot0il7pb46ittrn2n69">
+    <Value>0.72</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="za2j8t2mr63qc19us93gus4pjc8">
+    <Value>2.17</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zarig8lj6cb1q34bj2l23a1mteb">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zadgg9fiidoho0rgmc7pbpp5of8">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zuqhqrshgjju9cr3gn2fbghbi2a">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfhjq2bvp27nvahuu3nq77lc3o8">
+    <Value>2.08</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>IN</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zd0hq108hovdpamgibbsn8hsmsb">
+    <Value>1.01</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfdiqo8bh5t1kcagv19vdd11um8">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zepjg2jkp0sar6830phgu6o7p79">
+    <Value>2.38</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z09go2m7ul4t68nj4spnpd6o638">
+    <Value>1</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zkljobdnmtbk9fb6gibsm8nl9ob">
+    <Value>1.88</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zb4hc959s6ulc1f81rn7gefc0m9">
+    <Value>1.59</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zidgcsauhrpuce5tt66lasjffda">
+    <Value>2.36</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqfhcmc9scsf1ajk0ee6f2auv3b">
+    <Value>1.57</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7bi85l03aoug6fr7o3iu9s00ab">
+    <Value>0.74</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zujgsoj49j0or5hip7ifuv3thnb">
+    <Value>1.4</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zmihm9g2vbcd89ml1gag8kjjn0a">
+    <Value>1.61</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zvcimjt4u2mb19rl9511v9tlni8">
+    <Value>1.37</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z70hgnstoed9d3gk0kpppddtog9">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z30hua0e6gv62c39ehep5vc82m8">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1ojqrgvuf4427q7rhkb7nlphnb">
+    <Value>1.23</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zf9h2a2b6hija6c3ipebt4emjja">
+    <Value>1.55</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zu0jik7tlrj03cdlvjivgcj9pmb">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z2lis4jif4nni0cdqcqmugjco5a">
+    <Value>1.52</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zvpi4uaim4d249ukscon7lt95lb">
+    <Value>0.85</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8pium2a40capahtj3tvekj2pnb">
+    <Value>1.83</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zhhh66j8moqvu9a6pf0n75a0md9">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zt6gk5mol9fvbchnap296fih359">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zlajal63344me7v6n3oam0bqtj9">
+    <Value>2.06</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="ze5h4sbl83jk56fg8ckbtvv2qu9">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zc9gkg3unnvsef6d7jl0bhpg9b8">
+    <Value>1.38</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zaagqhuc6a4db0hja9fg0nd0q2a">
+    <Value>2.51</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z34g89h64o4a6ecgt9f2qge3rbb">
+    <Value>1.35</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="za7houttiku4444j7majp7c4j28">
+    <Value>1.36</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrjhigna9c8gp0hsrk3ilu12aba">
+    <Value>2.37</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zo5ios5d2roir0i7iosbb5nkq3a">
+    <Value>1.85</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9tikjjllsi5t922jin2uvelmj9">
+    <Value>2.19</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z48is2jdf8ja4f0g7013oi25n9a">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zmoh4i9j8af55agavcfft0n00aa">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z2mieu55at33r8bnm76uf6126q8">
+    <Value>1.21</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zlnjagbohe8095emqamvr1tdv6b">
+    <Value>1.22</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zgujcf4nejo5v15v0f9sf6s96u8">
+    <Value>1.84</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="ze6h8hn0imgir01tpalbi0o717b">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9dhu9so4v89aajhavjl0a84plb">
+    <Value>2.07</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9miimov6m6u1dko724u8so4ot9">
+    <Value>2.2</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zg3iupr2qlrcrccs5sgf69bj3qa">
+    <Value>2.63</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zkqhcq60ftdjeb9166aomf18stb">
+    <Value>2.03</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbsg6tnecq2amapoj4fsdpoej88">
+    <Value>2.04</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z07iicp361d0b0agdvnek7b5s18">
+    <Value>1.34</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z47galle7c86q4pbh6p1uc563kb">
+    <Value>1.03</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zhfg6bbuu5pmj5asepfjfjsr7q8">
+    <Value>0.73</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zb1jqsr51gmrfckn9c2aedgvm6b">
+    <Value>0.75</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zhcjqioepm5r319kkgd077nqmk8">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfoja64v14nem0r6q1clfni8aua">
+    <Value>2.21</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zahi2k3hldui07d0s7od5qc4rpa">
+    <Value>2.52</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zgkhaksoggg6h9ek57l5kh3frj8">
+    <Value>1.2</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z2dicj1bvj6fvfggl3vc81ij209">
+    <Value>2.18</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zffjidsjnh97l8upd2hodvts4ia">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1cgs4koq3bpsfj9b4batiacpc8">
+    <Value>1.86</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zh9h0pmlncs2rfrbgq03b7v8mla">
+    <Value>1.89</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zh9hcdm3gtpdca8p5hu1ivba3m9">
+    <Value>3</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>20,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="znogc4leh4h530edjp0ggrc66ga">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6kh2t0c1kvob1clk2l21ks03f9">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z3pjed9qh2ml3evb5o1mfr18609">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zanjmc61kjt182lcmji2qjbghk9">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zabjiu5219sqh7rg2i2skanglnb">
+    <Value>1.04</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjdg2js3qajmk6hruta5gl9g4tb">
+    <Value>1.05</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zr2he5u0m3s7i72nbfkhdolsmia">
+    <Value>0.86</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7nhu0umqup6s87hc6h00ohr608">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zenh6hk9uee527r2hdr43dl2cu9">
+    <Value>0.88</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zj7jg261vv2in66ah89t4ndpd9a">
+    <Value>0.89</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zo2golek6um8898o2c1hquqmtpb">
+    <Value>1.56</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zv3gg04q42f7i88q9hihpv3cs28">
+    <Value>0.72</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zlujmi57bb1hpebt7q92kjuoqeb">
+    <Value>2.17</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zt6ji5mdunn5084dueaqt09vl9a">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z75iqheqpmoc82609fdnjomkmf9">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zl1hqjb5n21lh50ei7dhp7q5ssb">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6cgiq38ueirs8diss0i7s5hgga">
+    <Value>2.08</Value>
+    <EffectiveDate>2020-11-01</EffectiveDate>
+    <Jurisdiction>MI</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zkijccla35dol7fe04t66p260t8">
+    <Value>1.01</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrdjqp6veofs0cb9s08i0rqf88b">
+    <Value>1.39</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrmjm9o22hffs8dvdhjqcdqnf0a">
+    <Value>2.38</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6tgo7aacap7v4k7t76i0rtq9s8">
+    <Value>1</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrng4tbklqaj70jjofgf9k3fnvb">
+    <Value>1.88</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6ui2b51igkd1e1tose2vnt42u9">
+    <Value>1.59</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfgieg3k7hkdmas8i4g176mq239">
+    <Value>2.36</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjthofphvcb57458nkgh3a5snh8">
+    <Value>1.57</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zdshq27lfpsfufa3kuio1hbiu2a">
+    <Value>0.74</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqtjo64a0s7gg6akn94p69pkfga">
+    <Value>1.4</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z88jsgjhdkagdbkqsi7mq53klgb">
+    <Value>1.61</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zm6g27pl8a7sb9qhq3a91kr1asb">
+    <Value>1.37</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z93g6qkfvlhnb5buqdh1j87v3o9">
+    <Value>1.6</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zduimg84hefko16kmiebjotqroa">
+    <Value>1.14</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zdjgo48ilm09t0cpvjersnbojr8">
+    <Value>1.23</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8fha1opod1gg2rb5u3n9l8ce59">
+    <Value>1.55</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqoge636sr0tbeou02s5met5eob">
+    <Value>2.99</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9sje0431epci11km94kcduspg9">
+    <Value>1.52</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z7ch6gsl7irldcfhvhbn8jtda1b">
+    <Value>0.85</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>200,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z0vikdr3q8a1lb7o5soqfllo9ba">
+    <Value>1.83</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjsh2hbudepeb14ahokfdjvdrf8">
+    <Value>0.93</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zl3isjj19h5g97dh90c8ma36589">
+    <Value>1.82</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z68jqh5dtjo8r87o4q8m8hiku8b">
+    <Value>2.06</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zl6i658v7cr958k4n9b875bgb6b">
+    <Value>1.29</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zt8g43dik5vst78ifcveq9c2ta8">
+    <Value>1.38</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z2jg8kjdncpahftb0pi17a6mq59">
+    <Value>2.51</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9sg2hmnlqro11ngrc1ug01rca8">
+    <Value>1.35</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="ztchopfu5a1psdbud735ilfjd9b">
+    <Value>1.36</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zrcickap9qbjvf4jtd9cn60v4g9">
+    <Value>2.37</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z79juk1las422ag5hlpcfmmdr6a">
+    <Value>1.85</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z3kjufmbvmn1i0cga4ppjgosevb">
+    <Value>2.19</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zbmhqjdvldst43mu1e5m60i5dcb">
+    <Value>1.24</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zluh8gjdf255b91p65o8sptvd99">
+    <Value>1.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="za1ge0nqc7b736suoaakcq7tktb">
+    <Value>1.21</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zeag0t9qdm30o3c1uvmb47hqhmb">
+    <Value>1.22</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="znbj6hfq2ci189i9up62rt6qi99">
+    <Value>1.84</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zd9igka5sv63ibq50nfjlnm60g8">
+    <Value>2.02</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zp1j0bm6jt0go934othv90fosvb">
+    <Value>2.07</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zaqg2tdasu9gicb7cend3np17ub">
+    <Value>2.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4bjae7v0uh003ucii3ga754rr9">
+    <Value>2.63</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zunjmlcdd2ppc8q5r42mglrd4g9">
+    <Value>2.03</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4ggmsn9pfd8o55j2n48sr42s9a">
+    <Value>2.04</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zq7hsvdsai361fqnqgup0nvla1a">
+    <Value>1.34</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>300,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zl8heanahd6vnbds9ahjsnslbf9">
+    <Value>1.03</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqvisv1b0l3072che80cv1p87f9">
+    <Value>0.73</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zucjiqualehti5bk755rjk5fukb">
+    <Value>0.75</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z32jem86jirgtbbhntgoplc8vsa">
+    <Value>2.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z6hhik0qqccv52f5rp4lgfkiqkb">
+    <Value>2.21</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zr0i8lo0mcmpjd5muee5ntmhhpa">
+    <Value>2.52</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>4,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zjnjaoq15dsvad35pbfp62njm89">
+    <Value>1.2</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>200,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z1liiatqdnvqhedl78ho0dc1mj9">
+    <Value>2.18</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zj8hi2frpsir66co3f4dsh6iar9">
+    <Value>0.84</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>100,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zq0g4mtfsgb9h74v5nn62p0je3a">
+    <Value>1.86</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z13hmqhdfchoabu9qi2uqbrdrja">
+    <Value>1.89</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zd6gae1tq36oc0n42dfivg8n5tb">
+    <Value>3</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>10,000,000</EachCommonCauseLim>
+    <AggLimLiquor>20,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zfsji9fitm70tcs8hsqita6fr1b">
+    <Value>0.78</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z9oi82ahupk58eietl32t2pntt8">
+    <Value>2.05</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zs7jgjlmu8t6b03hkqa66g1sll8">
+    <Value>1.5</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z0mgqiljqjis6b03kqnrrkm6cb8">
+    <Value>1.87</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,000,000</EachCommonCauseLim>
+    <AggLimLiquor>4,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zavjargd2j1sd5938io11dnhbvb">
+    <Value>1.04</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zdhhmcctg3ae22mmj0rk5tfenla">
+    <Value>1.05</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>100,000</EachCommonCauseLim>
+    <AggLimLiquor>1,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4mho7ntomnh697tpi6mftikbh8">
+    <Value>0.86</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>300,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="za4jsqdqcuvctapa2ui3v3ej4la">
+    <Value>1.58</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zsli2ci339tkid39s8rjomcu5ub">
+    <Value>0.88</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zk4h60mphjmrv108pqgstd5ci8a">
+    <Value>0.89</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>50,000</EachCommonCauseLim>
+    <AggLimLiquor>600,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z8jgs6fa101hre2vgv25r73jl48">
+    <Value>1.56</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>500,000</EachCommonCauseLim>
+    <AggLimLiquor>1,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z5ggi6f2deie378aj54c9tnapr9">
+    <Value>0.72</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>25,000</EachCommonCauseLim>
+    <AggLimLiquor>50,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zl4japhpnfpv90179g37fhabvr8">
+    <Value>2.17</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,500,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="z4qgqoekt4kr9149meh17fbss4a">
+    <Value>2.61</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>5,000,000</EachCommonCauseLim>
+    <AggLimLiquor>5,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zqfi8srdrrk4r0ovpnrsejhr9bb">
+    <Value>2.16</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>2,000,000</EachCommonCauseLim>
+    <AggLimLiquor>2,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zb6h4rujajckvdue5puek1gtoka">
+    <Value>2.35</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>3,000,000</EachCommonCauseLim>
+    <AggLimLiquor>3,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+  <GL7ILFLiquorRT public-id="zauhig8firm29ck9i0tco7rrog9">
+    <Value>2.08</Value>
+    <EffectiveDate>2020-03-01</EffectiveDate>
+    <Jurisdiction>OH</Jurisdiction>
+    <EachCommonCauseLim>1,500,000</EachCommonCauseLim>
+    <AggLimLiquor>10,000,000</AggLimLiquor>
+  </GL7ILFLiquorRT>
+</import>

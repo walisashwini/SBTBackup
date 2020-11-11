@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PollutionClassCodeForC public-id="zn0iudrs3ijcle1snckchg9dl48">
+    <Value>90100</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7PollutionClassCodeForC>
+  <GL7PollutionClassCodeForC public-id="zdigu2gru41902c0ktc0orb0nb9">
+    <Value>90105</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7PollutionClassCodeForC>
+  <GL7PollutionClassCodeForC public-id="zpoggv2l8qjsl09k2gv9glubsj8">
+    <Value>90110</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7PollutionClassCodeForC>
+  <GL7PollutionClassCodeForC public-id="z7mjo2rgja1ak5b08nnimla7dra">
+    <Value>90115</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7PollutionClassCodeForC>
+</import>

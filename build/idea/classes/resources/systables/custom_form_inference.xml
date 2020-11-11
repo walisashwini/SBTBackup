@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<import xsi:noNamespaceSchemaLocation="http://www.guidewire.com/cc/import/cc_import.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomFormInference public-id="zhuiaouoo06vn5dhs4l91cmtv59">
+    <FormCode>IM00SF</FormCode>
+    <InferenceClass>gw.lob.im.forms.Form_IM_Sign_IM00SF</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zr1h8dlodt8rf413t3mk5sl076b">
+    <FormCode>DecSheet</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_DecSheet</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z9pjkcemslibab2q4fu1gdtsja8">
+    <FormCode>Form_7_CA</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_7_CA</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z0vh4n4hhv10p350me71kgc3o28">
+    <FormCode>WC_00_01_01A_US</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_00_01_01A</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z9ihsetp8gfuqagg9qsvpfnvkea">
+    <FormCode>WC_00_01_02_US</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_00_01_02</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zl6hu6o1v10s3fnnq8ntn11r12a">
+    <FormCode>WC_04_03_06_CA</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_04_03_06_CA</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zgqgqt3mklvsnc3augo3ocg2hkb">
+    <FormCode>WC_00_01_04A</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_00_01_04A</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z72hof9a8oe177ttjgvgb2do71b">
+    <FormCode>WC_00_02_01_US</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_00_02_01</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zm3igohb2djkr0qafq29ncc7ce8">
+    <FormCode>WC_00_06_03_US</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_00_06_03_US</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zt0hgqo7ror499b8mthjn8csv3a">
+    <FormCode>WC_00_06_03_CT</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_00_06_03_CT</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="ztshoav0haa2kalr1oh4il4p6r8">
+    <FormCode>WC_89_06_00_US</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_89_06_00_US</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z45hu7ap8rgkb33lpral8jbctd8">
+    <FormCode>WC_Payment_Info</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_Payment_Info</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zsfgs12pucsc24mq0dkt5u7j0ta">
+    <FormCode>WC_10_00_00</FormCode>
+    <InferenceClass>gw.lob.wc.forms.Form_WC_10_00_00</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z64jc00har433abs0b7pqqvk1f8">
+    <FormCode>PP_1589</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z7mj8h4v39rp434klg1rq9j1l7a">
+    <FormCode>PA02310108_TX</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zfcjiu4ol6es80fv500mboknvib">
+    <FormCode>PA02320206_AK</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z65h88udk6asbao5pnm48ibcsq8">
+    <FormCode>PA02330804_AZ</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zqpjioqgtftvvc662bi0bbf0cp8">
+    <FormCode>PA02341007_AR</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zi8joi0v1usivapdmtal0irli89">
+    <FormCode>PA02350405_CA</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z1nh6s6soo391cufg3k47j3nef9">
+    <FormCode>PA02360804_CO</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zd3g4jh3ed0hi42n3hl4bo50li8">
+    <FormCode>PA02371104_MS</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z37j8ll2utuia136l88ob2v1889">
+    <FormCode>PA02381104_DE</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zirjmociunl7mfv4471t63sdja8">
+    <FormCode>PA02391205_ID</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z2lg4ml9is8i5btt4l535na6fvb">
+    <FormCode>PA02400605_IL</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zn0j0phj7qom9c6mgfsq5ekc2c9">
+    <FormCode>PA02410906_LA</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zmchuuqc1itmc5gcqs0sieqi2q8">
+    <FormCode>PA02420806_ME</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zp0ho0qusg2tk9pi0i7ormes3fb">
+    <FormCode>PA02430508_NM</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z3kiocgb3io97fppj2aeiierlpa">
+    <FormCode>PA02440807_OK</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="z0cgarect4m0gbh77b97l5odgk8">
+    <FormCode>PA02450504_PA</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zlci4cdagdvqj67qhq8dsr1g7ea">
+    <FormCode>PA02460405_SC</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="zs2gunm3p8ofb1i4bks920ldto9">
+    <FormCode>PA02470107_SD</FormCode>
+    <InferenceClass>gw.lob.pa.forms.Form_PAExcludedDrivers</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:9132b1ef6aea11f0">
+    <FormCode>CG00020413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:126ffda36dbcd75b">
+    <FormCode>CG00010413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:8e5ad2ea65034b92">
+    <FormCode>IL00171198</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:144ca30830ac8a09">
+    <FormCode>CG22671093</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:5fb43ac0a32c77d3">
+    <FormCode>CG22300798</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:bb27af22550cffff">
+    <FormCode>CG23010413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:bb38728274326a4f">
+    <FormCode>CG31681207</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:8a97da87e59ae8f5">
+    <FormCode>CG31691204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:7091d9d55ef6499c">
+    <FormCode>CG00330413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:203c715f486cd378">
+    <FormCode>CG24060413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:6268c9414d6b01b5">
+    <FormCode>IL00210908</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:2c0ca4393196718e">
+    <FormCode>CG31991204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:824d70675e86a564">
+    <FormCode>CG00090413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:7bf5dd58cec5beb8">
+    <FormCode>CG00400413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:a9940799490dca55">
+    <FormCode>CG00370413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:63ee185d6a9afd08">
+    <FormCode>CG00380413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:540270114c96b167">
+    <FormCode>CG00350413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:8663aad0cb5ec58a">
+    <FormCode>CG00420413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:dd323b8fd1adddee">
+    <FormCode>CG21060514</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:c3145f77a12d478f">
+    <FormCode>CG33630514</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:1ae7ab828f2d26a1">
+    <FormCode>IL02760908</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:db74464211c26e3d">
+    <FormCode>CG29271287</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:110e598632555960">
+    <FormCode>CG29281287</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:8fb6b8d7a5c29076">
+    <FormCode>CG30291194</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:3cc02aff4537e735">
+    <FormCode>CG31881204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:02b9c81e2a380775">
+    <FormCode>CG02061014</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:2ac94bd54e5b0cfe">
+    <FormCode>CG00340413</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:527b430a73b4d56d">
+    <FormCode>CG30180118</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:cb994a8fb7085d84">
+    <FormCode>CG29810591</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:b552714bb5c5e01d">
+    <FormCode>CG29800591</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:86050dc04377c73e">
+    <FormCode>CG30601194</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:b7ae68b2108f3646">
+    <FormCode>CG30620397</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:05ac9f7f0dd0d57c">
+    <FormCode>CG99080520</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:ed76159eaf9498bb">
+    <FormCode>CG29060118</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:6e2b59d2a8c25e10">
+    <FormCode>CG29050118</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:0bcadd4cad62d42a">
+    <FormCode>IL01621013</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:e531274464636c71">
+    <FormCode>IL01470911</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:2c81a47f8d4749f1">
+    <FormCode>CG02000118</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:835e3358c105188e">
+    <FormCode>CG01650805</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:a5e2d87c1bdb596c">
+    <FormCode>CG01991093</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:8b68495e26688357">
+    <FormCode>CG31911204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:33fc7c5d5b012fb7">
+    <FormCode>CG28110397</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:4d37479959cc922e">
+    <FormCode>CG28100397</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:6a8bffbe86393945">
+    <FormCode>CG33011204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:5ebc9395ee493766">
+    <FormCode>IL02720907</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:1e3ef85ccda4b1ed">
+    <FormCode>IL01580908</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:efe71ef05dcb05ef">
+    <FormCode>CG01230397</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:9cac542b0f790ea4">
+    <FormCode>CG29261000</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:1ff11867082fc80f">
+    <FormCode>CG29251000</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:a41e1d56013e782e">
+    <FormCode>CG30231000</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:f348dc50109e2417">
+    <FormCode>IL01171210</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:1147ba6b681d67c5">
+    <FormCode>CG33020417</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:9c873dbcb7b9b0dc">
+    <FormCode>CG33031204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:0469f5dd28621b71">
+    <FormCode>IL02860417</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:59adda1674e2e350">
+    <FormCode>CG28390417</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:2766e1d2762f5ec9">
+    <FormCode>CG28380417</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:e734a85933ce840d">
+    <FormCode>CG30321297</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:0e50e2038c27c086">
+    <FormCode>CG30100417</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:c879b730204d3de9">
+    <FormCode>CG01681120</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:7ebd6c59a1d27e6b">
+    <FormCode>CG26220417</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:f5253e77c97b22a0">
+    <FormCode>CG22020817</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:84543b7da1b05c9f">
+    <FormCode>CG33131204</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:62ce04850ee1bb48">
+    <FormCode>IL02440907</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:babf4188379e495c">
+    <FormCode>CG28460102</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:39e20dc430c88ff7">
+    <FormCode>CG28450102</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+  <CustomFormInference public-id="pcgl7:8b92875c69c994a3">
+    <FormCode>CG30160102</FormCode>
+    <InferenceClass>gw.lob.gl7.GL7FormInferenceSimpleAvailabilityChecker</InferenceClass>
+  </CustomFormInference>
+</import>

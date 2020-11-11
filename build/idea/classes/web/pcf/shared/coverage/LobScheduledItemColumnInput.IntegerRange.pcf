@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <ModalCell
+    id="LobScheduledItemColumnInput"
+    mode="IntegerRange">
+    <Require
+      name="clause"
+      type="gw.api.domain.Clause"/>
+    <Require
+      name="schedulePropertyInfo"
+      type="gw.api.productmodel.SchedulePropertyInfo"/>
+    <Require
+      name="scheduledItem"
+      type="ScheduledItem"/>
+    <Require
+      name="displayableFactory"
+      type="gw.lob.common.displayable.SchedulePropertyInfoDisplayableFactoryV2"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="scheduledItemColumnHelper"
+      type="gw.lob.common.schedules.ScheduledItemColumnHelper"/>
+    <Variable
+      initialValue="displayableFactory.createSchedulePropertyInfoDisplayable(clause, scheduledItem, schedulePropertyInfo) as gw.lob.common.displayable.Displayable&lt;java.lang.Integer&gt;"
+      name="displayable"
+      type="gw.lob.common.displayable.Displayable&lt;java.lang.Integer&gt;"/>
+    <TextCell
+      align="right"
+      available="displayable.Available"
+      editable="true"
+      id="IntRangeValue"
+      requestValidationExpression="(schedulePropertyInfo typeis gw.lob.common.sbt.schedules.impl.ScheduleIntegerRangePropertyInfo ) ? schedulePropertyInfo.validate(VALUE) : null"
+      required="displayable.Required"
+      value="displayable.IntegerValue" valueType="java.lang.Integer">
+      <PostOnChange
+        onChange="displayable.onChange(jobWizardHelper)"/>
+    </TextCell>
+  </ModalCell>
+</PCF>

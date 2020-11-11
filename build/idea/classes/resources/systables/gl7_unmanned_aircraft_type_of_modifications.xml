@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftTypeOf public-id="zg4h6qku0itslabo91eahhmn5ob">
+    <Value>Altered by owner to change size,weight,operating features such as speed or range capability </Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+  <GL7UnmannedAircraftTypeOf public-id="zcvjgijm43qu2flodgkp6514rp8">
+    <Value>Altered by owner to change size,weight,operating features and permanently add specialized equipment</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+  <GL7UnmannedAircraftTypeOf public-id="zu6ga1nf3bg0058cufbdfulqcja">
+    <Value>Altered by owner to permanently add specialized equipment such as cameras, data collection equipment</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+  <GL7UnmannedAircraftTypeOf public-id="zqqhgobl6q4vg3iejln1q43t2gb">
+    <Value>Designed and built to user specifications</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+  <GL7UnmannedAircraftTypeOf public-id="zauge00c7hn8i9ht75en2joepvb">
+    <Value>Used as Commercially Available</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+  <GL7UnmannedAircraftTypeOf public-id="z0mgc3h72g9rseqqlr03e747b9b">
+    <Value>Not Applicable</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+  <GL7UnmannedAircraftTypeOf public-id="za1goqtcj2a1dedm5us32fi3via">
+    <Value>Unknown </Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+  </GL7UnmannedAircraftTypeOf>
+</import>

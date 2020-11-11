@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <CardViewPanel
+    id="GL7SublinesCV">
+    <Require
+      name="coverablePerSubline"
+      type="gw.lob.gl7.presenters.GL7CoverablePerSubline"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="coverageCategories"
+      type="gw.lob.gl7.GL7Category.CoverableCoverageCategories"/>
+    <Variable
+      initialValue="coverablePerSubline.SublineSortedCoverables"
+      name="coverables"
+      recalculateOnRefresh="true"
+      type="Coverable[]"/>
+    <Variable
+      initialValue="coverablePerSubline.Line"
+      name="line"
+      type="entity.GL7GeneralLiabilityLine"
+      recalculateOnRefresh="true"/>
+    <Variable
+      initialValue="new gw.lob.common.coverage.LobCoverageHelper()"
+      name="coverageHelper"
+      type="gw.lob.common.coverage.CoverageHelper"/>
+    <Variable
+      initialValue="new gw.lob.common.schedules.LobScheduledItemHelper()"
+      name="scheduledItemHelper"
+      type="gw.lob.common.schedules.ScheduledItemHelper"/>
+    <Card
+      id="DetailsCard"
+      onSelect="line.syncSublineTypeFields()"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.DetailsAndCoverages&quot;)">
+      <PanelIterator
+        elementName="coverableSublineEntry"
+        value="coverablePerSubline.Entries"
+        valueType="gw.lob.gl7.presenters.GL7CoverablePerSubline.Entry[]">
+        <Variable
+          initialValue="coverableSublineEntry.Coverable"
+          name="coverable"
+          type="entity.Coverable"
+          recalculateOnRefresh="true"/>
+        <Variable
+          initialValue="coverable typeis entity.GL7SublineType ? gw.lob.gl7.displayable.GL7SublineTypeDisplayable : gw.lob.common.displayable.LobDisplayable"
+          name="displayableClass"
+          type="Type"/>
+        <PanelRef>
+          <TitleBar
+            title="coverableSublineEntry.SublineType.Subline"/>
+          <PanelRow>
+            <PanelColumn>
+              <PanelRef
+                def="LobEntityDV(coverable, displayableClass, jobWizardHelper, openForEdit)">
+                <TitleBar
+                  title="DisplayKey.get(&quot;Web.Policy.GL7.Details&quot;)"/>
+              </PanelRef>
+            </PanelColumn>
+            <PanelColumn>
+              <PanelRef
+                def="LobClausesDV(coverable, coverageCategories.StandardCoverage.availableCoveragePatternsForCoverable(coverable, openForEdit), jobWizardHelper, coverageHelper, scheduledItemHelper, new gw.lob.gl7.GL7AdditionalInsuredHelper())">
+                <TitleBar
+                  title="DisplayKey.get(&quot;Web.Policy.GL7.Coverages&quot;)"/>
+              </PanelRef>
+            </PanelColumn>
+          </PanelRow>
+        </PanelRef>
+      </PanelIterator>
+    </Card>
+    <Card
+      id="AdditionalCoveragesCard"
+      onSelect="line.syncSublineTypeAddlCoverages()"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.AdditionalCoverages&quot;)">
+      <PanelRef
+        def="GL7AdditionalCoveragesPerSublinePanelSet(coverablePerSubline, {coverageCategories.AdditionalCoverage.PublicID}, jobWizardHelper, line.DisplayName, openForEdit)"/>
+    </Card>
+    <Card
+      id="ExclusionsAndConditionsCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.ExclusionsAndConditions&quot;)">
+      <PanelRef
+        def="GL7ExclusionsAndConditionsPerSublinePanelSet(coverablePerSubline, {coverageCategories.Exclusion.PublicID, coverageCategories.Condition.PublicID}, jobWizardHelper, line.DisplayName, openForEdit)"
+        id="policyLevelExclusionsAndConditions"/>
+    </Card>
+    <Card
+      id="AdditionalInsuredsCard"
+      title="DisplayKey.get(&quot;Web.Policy.GL7.AdditionalInsureds&quot;)">
+      <PanelRef
+        def="GL7AdditionalCoveragesPerSublinePanelSet(coverablePerSubline, {coverageCategories.AdditionalInsured.PublicID}, jobWizardHelper, line.DisplayName, openForEdit)"
+        id="GL7AdditionalInsuredsPanelSet"/>
+    </Card>
+  </CardViewPanel>
+</PCF>

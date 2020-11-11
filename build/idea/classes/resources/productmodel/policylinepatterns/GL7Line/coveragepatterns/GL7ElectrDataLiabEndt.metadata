@@ -1,0 +1,4 @@
+GL7ElectrDataLiabEndt = /GeneralLiability/GeneralLiabilityElectronicDataLiabEndt
+GL7ExposureBasis = /GeneralLiability/GeneralLiabilityElectronicDataLiabEndt/ExposureBasis
+GL7Limit1 = /GeneralLiability/GeneralLiabilityElectronicDataLiabEndt/Limit
+GL7ManualPremium44 = /GeneralLiability/GeneralLiabilityElectronicDataLiabEndt/ManualPremium

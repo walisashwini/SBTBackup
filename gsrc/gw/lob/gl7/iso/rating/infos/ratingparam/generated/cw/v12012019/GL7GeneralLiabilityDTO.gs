@@ -1,0 +1,1864 @@
+package gw.lob.gl7.iso.rating.infos.ratingparam.generated.cw.v12012019
+
+uses gw.api.rating.flow.VisibleInRateflow
+abstract class GL7GeneralLiabilityDTO extends gw.rating.LineModelObject {
+
+  public construct(_gL7GeneralLiabilityLine : GL7GeneralLiabilityLine, parameters : gw.lob.common.parameters.Parameters) {
+  
+    _parameters = parameters
+    _dataModel = _gL7GeneralLiabilityLine
+    var tempGL7SublineTypes = _gL7GeneralLiabilityLine.GL7SublineTypes.singleWhere( \ elm -> elm.Subline == Parameters.getParam("GL7SublineType"))
+    var tempGL7ExperienceRatingModificationSecondLatestYear = tempGL7SublineTypes.GL7ExperienceRatingModificationSecondLatestYear
+    var tempGL7Deds = tempGL7SublineTypes.GL7Deds
+    var tempGL7ExperienceRatingModification = tempGL7SublineTypes.GL7ExperienceRatingModification
+    var tempGL7ExperienceRatingModificationThirdLatestYear = tempGL7SublineTypes.GL7ExperienceRatingModificationThirdLatestYear
+    var tempGL7Lmts = tempGL7SublineTypes.GL7Lmts
+    var tempGL7ExperienceRatingModificationLatestYear = tempGL7SublineTypes.GL7ExperienceRatingModificationLatestYear
+    var tempGL7ScheduleRatingModification1 = tempGL7SublineTypes.Sublines.singleWhere( \ elm -> elm.Jurisdiction.Code == Parameters.getParam("Jurisdiction")).GL7ScheduleRatingModification1
+    _aggregateLimit = tempGL7Lmts.GL7AggLimit1Term.OptionValue.DisplayName
+    _coverageForm = tempGL7SublineTypes.CoverageForm
+    _damageToPremisesRentedToYouExcl = tempGL7SublineTypes.DamageToPremisesRentedToYouExcl
+    _eDLAggregateLimit = _cf.makeStringFrom (tempGL7Lmts.GL7EDLAggLimitTerm.Value)
+    _eDLCoverageForm = tempGL7SublineTypes.EDLCoverageForm
+    _eDLRetroactiveDate = tempGL7SublineTypes.EDLRetroactiveDate
+    _eRPActualExpectedLossRatio = tempGL7ExperienceRatingModification.GL7ERPActualExpectedLossRatioTerm.Value
+    _eRPDramaticChangeOnExposure = tempGL7SublineTypes.ERPDramaticChangeOnExposure
+    _eRPExpenseVariationApplies = tempGL7ExperienceRatingModification.GL7ERPExpenseVariationAppliesTerm.OptionValue.DisplayName
+    _eRPExperienceModificationAllOtherSublines = tempGL7ExperienceRatingModification.GL7ERPExperienceModificationAllOtherSublinesTerm.Value
+    _eRPExperienceModificationOverride = tempGL7ExperienceRatingModification.GL7ERPExperienceModificationOverrideTerm.Value
+    _eRPExposuresOnSpecialUWBasisLatestYearPremOps = _cf.makeLongFrom (tempGL7ExperienceRatingModificationLatestYear.GL7ERPExposuresOnSpecialUWBasisLatestYearPremOpsTerm.Value)
+    _eRPExposuresOnSpecialUWBasisLatestYearProdCompldOps = _cf.makeLongFrom (tempGL7ExperienceRatingModificationLatestYear.GL7ERPExposuresOnSpecialUWBasisLatestYearProdComplTerm.Value)
+    _eRPExposuresOnSpecialUWBasisPremOpsCurrent = tempGL7SublineTypes.ERPExposuresOnSpecialUWBasisPremOpsCurrent
+    _eRPExposuresOnSpecialUWBasisProdCompldOpsCurrent = tempGL7SublineTypes.ERPExposuresOnSpecialUWBasisProdCompldOpsCurrent
+    _eRPExposuresOnSpecialUWBasisSecondLatestYearPremOps = _cf.makeLongFrom (tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPExposuresOnSpecialUWBasisSecondLatestYearPreTerm.Value)
+    _eRPExposuresOnSpecialUWBasisSecondLatestYearProdCompldOps = _cf.makeLongFrom (tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPExposuresOnSpecialUWBasisSecondLatestYearProTerm.Value)
+    _eRPExposuresOnSpecialUWBasisThirdLatestYearPremOps = _cf.makeLongFrom (tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPExposuresOnSpecialUWBasisThirdLatestYearPremTerm.Value)
+    _eRPExposuresOnSpecialUWBasisThirdLatestYearProdCompldOps = _cf.makeLongFrom (tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPExposuresOnSpecialUWBasisThirdLatestYearProdTerm.Value)
+    _eRPLatestYearEffectiveDate = tempGL7ExperienceRatingModificationLatestYear.GL7ERPLatestYearEffectiveDateTerm.Value
+    _eRPLatestYearLatestValuationDate = tempGL7ExperienceRatingModificationLatestYear.GL7ERPLatestYearLatestValuationDateTerm.Value
+    _eRPLatestYearTotalIncludedLoss = tempGL7ExperienceRatingModificationLatestYear.GL7ERPLatestYearTotalIncludedLossTerm.Value
+    _eRPLatestYearTypeOfPolicy = tempGL7ExperienceRatingModificationLatestYear.GL7ERPLatestYearTypeOfPolicyTerm.OptionValue.DisplayName
+    _eRPLatestYearWithSameCarrier = tempGL7ExperienceRatingModificationLatestYear.GL7ERPLatestYearWithSameCarrierTerm.OptionValue.DisplayName
+    _eRPLatestYearYIP = _cf.makeIntegerFrom (tempGL7ExperienceRatingModificationLatestYear.GL7ERPLatestYearYIPTerm.Value)
+    _eRPPeriodEnds6MonthsPrior = tempGL7SublineTypes.ERPPeriodEnds6MonthsPrior
+    _eRPSecondLatestYearEffectiveDate = tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPSecondLatestYearEffectiveDateTerm.Value
+    _eRPSecondLatestYearLatestValuationDate = tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPSecondLatestYearLatestValuationDateTerm.Value
+    _eRPSecondLatestYearTotalIncludedLoss = tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPSecondLatestYearTotalIncludedLossTerm.Value
+    _eRPSecondLatestYearTypeOfPolicy = tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPSecondLatestYearTypeOfPolicyTerm.OptionValue.DisplayName
+    _eRPSecondLatestYearWithSameCarrier = tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPSecondLatestYearWithSameCarrierTerm.OptionValue.DisplayName
+    _eRPSecondLatestYearYIP = _cf.makeIntegerFrom (tempGL7ExperienceRatingModificationSecondLatestYear.GL7ERPSecondLatestYearYIPTerm.Value)
+    _eRPThirdLatestYearEffectiveDate = tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPThirdLatestYearEffectiveDateTerm.Value
+    _eRPThirdLatestYearLatestValuationDate = tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPThirdLatestYearLatestValuationDateTerm.Value
+    _eRPThirdLatestYearTotalIncludedLoss = tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPThirdLatestYearTotalIncludedLossTerm.Value
+    _eRPThirdLatestYearTypeOfPolicy = tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPThirdLatestYearTypeOfPolicyTerm.OptionValue.DisplayName
+    _eRPThirdLatestYearWithSameCarrier = tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPThirdLatestYearWithSameCarrierTerm.OptionValue.DisplayName
+    _eRPThirdLatestYearYIP = _cf.makeIntegerFrom (tempGL7ExperienceRatingModificationThirdLatestYear.GL7ERPThirdLatestYearYIPTerm.Value)
+    _eRPYearsOfExperienceIncurred = tempGL7SublineTypes.ERPYearsOfExperienceIncurred
+    _eachCommonCauseLimit = tempGL7Lmts.GL7EachCommonCauseLimitTerm.OptionValue.DisplayName
+    _eachElectronicDataIncidentLimit = _cf.makeStringFrom (tempGL7Lmts.GL7EachElectrDataIncidentLimitTerm.Value)
+    _eachPollutionIncidentLimit = tempGL7Lmts.GL7EachPollutionIncidentLimitTerm.OptionValue.DisplayName
+    _effectiveDt = _gL7GeneralLiabilityLine.EffectiveDate
+    _experienceBusinessStartDate = tempGL7SublineTypes.ExperienceBusinessStartDate
+    _experienceNumberYearsRequired = tempGL7SublineTypes.ExperienceNumberYearsRequired1
+    _experienceRatingApplies = tempGL7SublineTypes.ExperienceRatingApplies
+    _expirationDt = _gL7GeneralLiabilityLine.ExpirationDate
+    _generalAggregateLimit = tempGL7Lmts.GL7GeneralAggLimit1Term.OptionValue.DisplayName
+    _governmentalSubdivision = tempGL7SublineTypes.GovernmentalSubdivision
+    _incidentLimit = tempGL7Lmts.GL7IncidentLimitTerm.OptionValue.DisplayName
+    _legalEntity = tempGL7SublineTypes.LegalEntity
+    _limitedCovForDesignatedUnmannedAircraft1 = tempGL7SublineTypes.LimitedCovForDesignatedUnmannedAircraft
+    _liquorCoverageForm = tempGL7SublineTypes.LiquorCoverageForm
+    _liquorDeductible = tempGL7Deds.GL7LiquorDedTerm.OptionValue.DisplayName
+    _liquorRetroactiveDate = tempGL7SublineTypes.LiquorRetroactiveDate
+    _medicalPaymentsExcl = tempGL7SublineTypes.MedicalPaymentsExcl
+    _ownersContractorsAggregateLimit = tempGL7Lmts.GL7OwnersContractorsAggLimitTerm.OptionValue.DisplayName
+    _ownersContractorsCoverageForm = tempGL7SublineTypes.OwnersContractorsCoverageForm
+    _ownersContractorsEachOccurrenceLimit = tempGL7Lmts.GL7OwnersContractorsEachOccurrenceLimitTerm.OptionValue.DisplayName
+    _packageModFactor = tempGL7SublineTypes.PackageModFactor
+    _packagePolicy = tempGL7SublineTypes.PackagePolicy
+    _personalAndAdvertisingInjuryExcl = tempGL7SublineTypes.PersonalAndAdvertisingInjuryExcl
+    _personalAndAdvertisingInjuryLimit = tempGL7Lmts.GL7PersonalAndAdvertisingInjuryLimitTerm.OptionValue.DisplayName
+    _pollutionAggregateLimit = tempGL7Lmts.GL7PollutionAggLimitTerm.OptionValue.DisplayName
+    _pollutionCleanUpCoverage = tempGL7SublineTypes.PollutionCleanUpCoverage
+    _pollutionCoverageForm = tempGL7SublineTypes.PollutionCoverageForm
+    _pollutionRetroactiveDate = tempGL7SublineTypes.PollutionRetroactiveDate
+    _premOpsBIDeductible = tempGL7Deds.GL7PremOpsBIDedTerm.OptionValue.DisplayName
+    _premOpsBIPDDeductible = tempGL7Deds.GL7PremOpsBIPDDedTerm.OptionValue.DisplayName
+    _premOpsPDDeductible = tempGL7Deds.GL7PremOpsPDDedTerm.OptionValue.DisplayName
+    _premOpsProdsCoverageForm = tempGL7SublineTypes.PremOpsProdsCoverageForm
+    _premOpsProdsEachOccurrenceLimit = tempGL7Lmts.GL7PremOpsProdsEachOccurrenceLimitTerm.OptionValue.DisplayName
+    _premOpsProdsRetroactiveDate = tempGL7SublineTypes.PremOpsProdsRetroactiveDate
+    _premiumDiscountPercentage = tempGL7SublineTypes.PremiumDiscountPercentage
+    _prodsCompldOpsAggregateLimit = tempGL7Lmts.GL7ProdsCompldOpsAggLimitTerm.OptionValue.DisplayName
+    _prodsCompldOpsBIDeductible = tempGL7Deds.GL7ProdsCompldOpsBIDedTerm.OptionValue.DisplayName
+    _prodsCompldOpsBIPDDeductible = tempGL7Deds.GL7ProdsCompldOpsBIPDDedTerm.OptionValue.DisplayName
+    _prodsCompldOpsPDDeductible = tempGL7Deds.GL7ProdsCompldOpsPDDedTerm.OptionValue.DisplayName
+    _prodsWithdrawalCoverage = tempGL7SublineTypes.ProdsWithdrawalCoverage
+    _productWithdrawalCoverageType = tempGL7SublineTypes.ProductWithdrawalCoverageType
+    _productWithdrawalDeductible = tempGL7Deds.GL7ProductWithdrawalDedTerm.OptionValue.DisplayName
+    _productWithdrawalParticipationPercentage = tempGL7SublineTypes.ProductWithdrawalParticipationPercentage
+    _productsWithdrawalAggregateLimit = tempGL7Lmts.GL7ProdsWithdrawalAggLimitTerm.OptionValue.DisplayName
+    _productsWithdrawalCutOff = tempGL7SublineTypes.ProductsWithdrawalCutOff
+    _railroadAggregateLimit = tempGL7Lmts.GL7RailroadAggLimitTerm.OptionValue.DisplayName
+    _railroadCoverageForm = tempGL7SublineTypes.RailroadCoverageForm
+    _railroadEachOccurrenceLimit = tempGL7Lmts.GL7RailroadEachOccurrenceLimitTerm.OptionValue.DisplayName
+    _retroactiveDateApplies = tempGL7SublineTypes.RetroactiveDateApplies
+    _riskType = tempGL7SublineTypes.RiskType
+    _sRPClassificationPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "z3ciaepmj3vco2t0sddiilueqd8").Assessment?.intValue()+"%"
+    _sRPCooperationMedicalFacilitiesPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "z3ugmaus5jisk9h3fmtluv7963b").Assessment?.intValue()+"%"
+    _sRPCooperationSafetyProgramPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "z50gqg667m3j31nmfdq85qcc6f8").Assessment?.intValue()+"%"
+    _sRPEmployeesPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "z5ui01g4l12mm53fapr4sdtt09a").Assessment?.intValue()+"%"
+    _sRPEquipmentPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "z7pjue0oplhdrdfa6dvdhrimlaa").Assessment?.intValue()+"%"
+    _sRPLocationExposureInsidePremisesPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "zrkjcc7ku8t92fpvg4lomf54ob8").Assessment?.intValue()+"%"
+    _sRPLocationExposureOutsidePremisesPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "zksje6ffke6v1fisq3khcv5s9db").Assessment?.intValue()+"%"
+    _sRPPremisesPct = tempGL7ScheduleRatingModification1.RateFactors?.firstWhere(\ r -> r.PatternCode == "z2sh4e06amsa9200143fd0gviqb").Assessment?.intValue()+"%"
+    _scheduleRatingModificationApplies = tempGL7SublineTypes.ScheduleRatingModificationApplies
+    _subline = tempGL7SublineTypes.Subline
+    _tRIAExpirationDate = tempGL7SublineTypes.TRIAExpirationDate
+    _tRIAExtended = tempGL7SublineTypes.TRIAExtended
+    _tRIPTerminatesBeforeExpirationDate = tempGL7SublineTypes.TRIPTerminatesBeforeExpirationDate
+    _terrorismCoverage = tempGL7SublineTypes.TerrorismCoverage
+    _uSTAggregateLimit = tempGL7Lmts.GL7USTAggLimitTerm.OptionValue.DisplayName
+    _uSTCoverageForm = tempGL7SublineTypes.USTCoverageForm
+    _undergroundStorageTankRetroactiveDate = tempGL7SublineTypes.UndergroundStorageTankRetroactiveDate
+    _yearInClaimsMade = tempGL7SublineTypes.YearInClaimsMade
+    _displayName = _gL7GeneralLiabilityLine.DisplayName
+  }
+
+  
+  @VisibleInRateflow
+  override property get Self() : GL7GeneralLiabilityDTO {
+   return this
+  }
+  
+
+  @VisibleInRateflow
+  protected var _year2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOps : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOpsDTO as readonly Year2000CompuReltdAndOtherElectronicProblemsLmtdCovOptionsProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _year2000CompuReltdAndOtherElectronicProblemsLimitedCovOption : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsLimitedCovOptionDTO as readonly Year2000CompuReltdAndOtherElectronicProblemsLimitedCovOption  
+
+  @VisibleInRateflow
+  protected var _year2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOps : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOpsDTO as readonly Year2000CompuReltdAndOtherElectronicProblemsExclProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _year2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcs : GL7GeneralLiabilityYear2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcsDTO as readonly Year2000CompuReltdAndOtherElectronicProblemsExclDesigntdLocsOpsProdsSrvcs  
+
+  @VisibleInRateflow
+  protected var _waiverTransferRightsRecovery : GL7GeneralLiabilityWaiverTransferRightsRecoveryDTO as readonly WaiverTransferRightsRecovery  
+
+  @VisibleInRateflow
+  protected var _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawal : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawalDTO as readonly WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationProductWithdrawal  
+
+  @VisibleInRateflow
+  protected var _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawal : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawalDTO as readonly WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticProductWithdrawal  
+
+  @VisibleInRateflow
+  protected var _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractors : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractorsDTO as readonly WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomatic : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomaticDTO as readonly WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsWaiverOfSubrogationAutomatic  
+
+  @VisibleInRateflow
+  protected var _waiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrs : GL7GeneralLiabilityWaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrsDTO as readonly WaiverOfTransferOfRightsOfRecoveryAgainstOthersToUsOwnersContrctrs  
+
+  @VisibleInRateflow
+  protected var _waiverGovernmentalImmunity : GL7GeneralLiabilityWaiverGovernmentalImmunityDTO as readonly WaiverGovernmentalImmunity  
+
+  @VisibleInRateflow
+  protected var _waiverCharitableImmunity : GL7GeneralLiabilityWaiverCharitableImmunityDTO as readonly WaiverCharitableImmunity  
+
+  @VisibleInRateflow
+  protected var _voluntaryCleanUpCostsReimbursement : GL7GeneralLiabilityVoluntaryCleanUpCostsReimbursementDTO as readonly VoluntaryCleanUpCostsReimbursement  
+
+  @VisibleInRateflow
+  protected var _undergroundStorageTankPremiumToReachMinCoverage : GL7GeneralLiabilityUndergroundStorageTankPremiumToReachMinCoverageDTO as readonly UndergroundStorageTankPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _undergroundResourcesAndEquipmtCov : GL7GeneralLiabilityUndergroundResourcesAndEquipmtCovDTO as readonly UndergroundResourcesAndEquipmtCov  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclusionWithAHostileFireExceptionOwnersContractors : GL7GeneralLiabilityTotalPollutionExclusionWithAHostileFireExceptionOwnersContractorsDTO as readonly TotalPollutionExclusionWithAHostileFireExceptionOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractors : GL7GeneralLiabilityTotalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractorsDTO as readonly TotalPollutionExclusionWithABldgHeatgEquipmtExcptnHostileFireExcptnOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclusionProdsCompldOps : GL7GeneralLiabilityTotalPollutionExclusionProdsCompldOpsDTO as readonly TotalPollutionExclusionProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclusionOwnersContractors : GL7GeneralLiabilityTotalPollutionExclusionOwnersContractorsDTO as readonly TotalPollutionExclusionOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclusionForDesignatedProdsOrWork : GL7GeneralLiabilityTotalPollutionExclusionForDesignatedProdsOrWorkDTO as readonly TotalPollutionExclusionForDesignatedProdsOrWork  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclWithAHostileFireExcptn : GL7GeneralLiabilityTotalPollutionExclWithAHostileFireExcptnDTO as readonly TotalPollutionExclWithAHostileFireExcptn  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptn : GL7GeneralLiabilityTotalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptnDTO as readonly TotalPollutionExclWithABldgHeatgEquipmtExcptnHostileFireExcptn  
+
+  @VisibleInRateflow
+  protected var _totalPollutionExclEndt : GL7GeneralLiabilityTotalPollutionExclEndtDTO as readonly TotalPollutionExclEndt  
+
+  @VisibleInRateflow
+  protected var _terrorismEndorsementCoverage : GL7GeneralLiabilityTerrorismEndorsementCoverageDTO as readonly TerrorismEndorsementCoverage  
+
+  @VisibleInRateflow
+  protected var _supplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOps : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOpsDTO as readonly SupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocsProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _supplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocations : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocationsDTO as readonly SupplementalExtendedReportingPeriodEndtSpecificAccsProdsWorkOrLocations  
+
+  @VisibleInRateflow
+  protected var _supplementalExtendedReportingPeriodEndtProdsCompldOps : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtProdsCompldOpsDTO as readonly SupplementalExtendedReportingPeriodEndtProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _supplementalExtendedReportingPeriodEndtLiquorLiab : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtLiquorLiabDTO as readonly SupplementalExtendedReportingPeriodEndtLiquorLiab  
+
+  @VisibleInRateflow
+  protected var _supplementalExtendedReportingPeriodEndt : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndtDTO as readonly SupplementalExtendedReportingPeriodEndt  
+
+  @VisibleInRateflow
+  protected var _supplementalExtendedReportingPeriodEndorsementCG3057 : GL7GeneralLiabilitySupplementalExtendedReportingPeriodEndorsementCG3057DTO as readonly SupplementalExtendedReportingPeriodEndorsementCG3057  
+
+  @VisibleInRateflow
+  protected var _stevedoringOperations : GL7GeneralLiabilityStevedoringOperationsDTO as readonly StevedoringOperations  
+
+  @VisibleInRateflow
+  protected var _specialCombinedPremiumToReachMinCoverage : GL7GeneralLiabilitySpecialCombinedPremiumToReachMinCoverageDTO as readonly SpecialCombinedPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _silicaOrSilicaRelatedDustExclusionRailroad : GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionRailroadDTO as readonly SilicaOrSilicaRelatedDustExclusionRailroad  
+
+  @VisibleInRateflow
+  protected var _silicaOrSilicaRelatedDustExclusionPremOpsProds : GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionPremOpsProdsDTO as readonly SilicaOrSilicaRelatedDustExclusionPremOpsProds  
+
+  @VisibleInRateflow
+  protected var _silicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOps : GL7GeneralLiabilitySilicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOpsDTO as readonly SilicaOrSilicaRelatedDustExclusionOwnersContractorsProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOps : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOpsDTO as readonly SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOps : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOpsDTO as readonly SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotIncldd : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotInclddDTO as readonly SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminNotIncldd  
+
+  @VisibleInRateflow
+  protected var _seedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGermin : GL7GeneralLiabilitySeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGerminDTO as readonly SeedMerchantsCovForErroneousDeliveryMixtureAndRsltgFailrOfSeedGermin  
+
+  @VisibleInRateflow
+  protected var _residentAgentCountersignatureEndorsement : GL7GeneralLiabilityResidentAgentCountersignatureEndorsementDTO as readonly ResidentAgentCountersignatureEndorsement  
+
+  @VisibleInRateflow
+  protected var _realEstatePropertyManaged : GL7GeneralLiabilityRealEstatePropertyManagedDTO as readonly RealEstatePropertyManaged  
+
+  @VisibleInRateflow
+  protected var _railroadPremiumToReachMinCoverage : GL7GeneralLiabilityRailroadPremiumToReachMinCoverageDTO as readonly RailroadPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _proflLiabExclSpasOrPersonalEnhancementFacilities : GL7GeneralLiabilityProflLiabExclSpasOrPersonalEnhancementFacilitiesDTO as readonly ProflLiabExclSpasOrPersonalEnhancementFacilities  
+
+  @VisibleInRateflow
+  protected var _proflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilities : GL7GeneralLiabilityProflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilitiesDTO as readonly ProflLiabExclHealthExerciseClubCommerciallyOperatedHealthExerciseFacilities  
+
+  @VisibleInRateflow
+  protected var _professionalLiabExclWebSiteDesigners : GL7GeneralLiabilityProfessionalLiabExclWebSiteDesignersDTO as readonly ProfessionalLiabExclWebSiteDesigners  
+
+  @VisibleInRateflow
+  protected var _professionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvc : GL7GeneralLiabilityProfessionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvcDTO as readonly ProfessionalLiabExclElectronicDataProcgSrvcCompuConsultingProgrammingSrvc  
+
+  @VisibleInRateflow
+  protected var _professionalLiabExclComputerSoftware : GL7GeneralLiabilityProfessionalLiabExclComputerSoftwareDTO as readonly ProfessionalLiabExclComputerSoftware  
+
+  @VisibleInRateflow
+  protected var _professionalLiabExclComputerDataProcessing : GL7GeneralLiabilityProfessionalLiabExclComputerDataProcessingDTO as readonly ProfessionalLiabExclComputerDataProcessing  
+
+  @VisibleInRateflow
+  protected var _productWithdrawalPremiumToReachMinCoverage : GL7GeneralLiabilityProductWithdrawalPremiumToReachMinCoverageDTO as readonly ProductWithdrawalPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _productWithdrawalCoverageForm : GL7GeneralLiabilityProductWithdrawalCoverageFormDTO as readonly ProductWithdrawalCoverageForm  
+
+  @VisibleInRateflow
+  protected var _prodsCompletedOpsHazardRedefined : GL7GeneralLiabilityProdsCompletedOpsHazardRedefinedDTO as readonly ProdsCompletedOpsHazardRedefined  
+
+  @VisibleInRateflow
+  protected var _prodsCompldOpsPremiumToReachMinCoverage : GL7GeneralLiabilityProdsCompldOpsPremiumToReachMinCoverageDTO as readonly ProdsCompldOpsPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _principalsProtectiveLiabCov : GL7GeneralLiabilityPrincipalsProtectiveLiabCovDTO as readonly PrincipalsProtectiveLiabCov  
+
+  @VisibleInRateflow
+  protected var _primaryAndNoncontributoryOtherInsuranceCondition : GL7GeneralLiabilityPrimaryAndNoncontributoryOtherInsuranceConditionDTO as readonly PrimaryAndNoncontributoryOtherInsuranceCondition  
+
+  @VisibleInRateflow
+  protected var _premiumAuditNoncomplianceChargeOwnersContractors : GL7GeneralLiabilityPremiumAuditNoncomplianceChargeOwnersContractorsDTO as readonly PremiumAuditNoncomplianceChargeOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _premiumAuditNoncomplianceCharge : GL7GeneralLiabilityPremiumAuditNoncomplianceChargeDTO as readonly PremiumAuditNoncomplianceCharge  
+
+  @VisibleInRateflow
+  protected var _premOpsPremiumToReachMinCoverage : GL7GeneralLiabilityPremOpsPremiumToReachMinCoverageDTO as readonly PremOpsPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _pollutionPremiumToReachMinCoverage : GL7GeneralLiabilityPollutionPremiumToReachMinCoverageDTO as readonly PollutionPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _pollutionLiabLimitedCovFormDesigntdSites : GL7GeneralLiabilityPollutionLiabLimitedCovFormDesigntdSitesDTO as readonly PollutionLiabLimitedCovFormDesigntdSites  
+
+  @VisibleInRateflow
+  protected var _pollutionLiabCovFormDesigntdSites : GL7GeneralLiabilityPollutionLiabCovFormDesigntdSitesDTO as readonly PollutionLiabCovFormDesigntdSites  
+
+  @VisibleInRateflow
+  protected var _pollutionLiabCovExtension : GL7GeneralLiabilityPollutionLiabCovExtensionDTO as readonly PollutionLiabCovExtension  
+
+  @VisibleInRateflow
+  protected var _pollutionExclNamedPerilLimitedExcptnShortTermPollutionEvent : GL7GeneralLiabilityPollutionExclNamedPerilLimitedExcptnShortTermPollutionEventDTO as readonly PollutionExclNamedPerilLimitedExcptnShortTermPollutionEvent  
+
+  @VisibleInRateflow
+  protected var _pollutionExclLimitedExceptionShortTermEvent : GL7GeneralLiabilityPollutionExclLimitedExceptionShortTermEventDTO as readonly PollutionExclLimitedExceptionShortTermEvent  
+
+  @VisibleInRateflow
+  protected var _pollutionExclLimitedExceptionForDesigntdPollutants : GL7GeneralLiabilityPollutionExclLimitedExceptionForDesigntdPollutantsDTO as readonly PollutionExclLimitedExceptionForDesigntdPollutants  
+
+  @VisibleInRateflow
+  protected var _policyChanges : GL7GeneralLiabilityPolicyChangesDTO as readonly PolicyChanges  
+
+  @VisibleInRateflow
+  protected var _pesticideOrHerbicideApplicatorCovOwnersContractors : GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovOwnersContractorsDTO as readonly PesticideOrHerbicideApplicatorCovOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _pesticideOrHerbicideApplicatorCov : GL7GeneralLiabilityPesticideOrHerbicideApplicatorCovDTO as readonly PesticideOrHerbicideApplicatorCov  
+
+  @VisibleInRateflow
+  protected var _personalInjuryLiab : GL7GeneralLiabilityPersonalInjuryLiabDTO as readonly PersonalInjuryLiab  
+
+  @VisibleInRateflow
+  protected var _ownersContractorsPremiumToReachMinCoverage : GL7GeneralLiabilityOwnersContractorsPremiumToReachMinCoverageDTO as readonly OwnersContractorsPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _opticalHearingAidEstablishments : GL7GeneralLiabilityOpticalHearingAidEstablishmentsDTO as readonly OpticalHearingAidEstablishments  
+
+  @VisibleInRateflow
+  protected var _operationOfCustomersAutosOnParticularPrem : GL7GeneralLiabilityOperationOfCustomersAutosOnParticularPremDTO as readonly OperationOfCustomersAutosOnParticularPrem  
+
+  @VisibleInRateflow
+  protected var _oilGasOpsNonoperatingWorkingInterests : GL7GeneralLiabilityOilGasOpsNonoperatingWorkingInterestsDTO as readonly OilGasOpsNonoperatingWorkingInterests  
+
+  @VisibleInRateflow
+  protected var _nonBindingArbitration : GL7GeneralLiabilityNonBindingArbitrationDTO as readonly NonBindingArbitration  
+
+  @VisibleInRateflow
+  protected var _misdeliveryLiquidProductsCov : GL7GeneralLiabilityMisdeliveryLiquidProductsCovDTO as readonly MisdeliveryLiquidProductsCov  
+
+  @VisibleInRateflow
+  protected var _medPayCoverage : GL7GeneralLiabilityMedPayCoverageDTO as readonly MedPayCoverage  
+
+  @VisibleInRateflow
+  protected var _location : GL7GeneralLiabilityLocationGroupingDTO as readonly Location  
+
+  @VisibleInRateflow
+  protected var _liquorPremiumToReachMinCoverage : GL7GeneralLiabilityLiquorPremiumToReachMinCoverageDTO as readonly LiquorPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _liquorLiab : GL7GeneralLiabilityLiquorLiabDTO as readonly LiquorLiab  
+
+  @VisibleInRateflow
+  protected var _limitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorism : GL7GeneralLiabilityLimitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorismDTO as readonly LimitedTerrorismExclOtherThanCertifiedActsOfTerrorismCapOnLossesFromCertifiedActsOfTerrorism  
+
+  @VisibleInRateflow
+  protected var _limitedProductWithdrawalExpenseEndtPolLvl : GL7GeneralLiabilityLimitedProductWithdrawalExpenseEndtPolLvlDTO as readonly LimitedProductWithdrawalExpenseEndtPolLvl  
+
+  @VisibleInRateflow
+  protected var _limitedPollutionLiabExtensionEndt : GL7GeneralLiabilityLimitedPollutionLiabExtensionEndtDTO as readonly LimitedPollutionLiabExtensionEndt  
+
+  @VisibleInRateflow
+  protected var _limitedFungiOrBacteriaCoverageOwnersContractorsProductsCompleted : GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageOwnersContractorsProductsCompletedDTO as readonly LimitedFungiOrBacteriaCoverageOwnersContractorsProductsCompleted  
+
+  @VisibleInRateflow
+  protected var _limitedFungiOrBacteriaCoverage : GL7GeneralLiabilityLimitedFungiOrBacteriaCoverageDTO as readonly LimitedFungiOrBacteriaCoverage  
+
+  @VisibleInRateflow
+  protected var _limitedExclPersonalAdvertisingInjLawyers : GL7GeneralLiabilityLimitedExclPersonalAdvertisingInjLawyersDTO as readonly LimitedExclPersonalAdvertisingInjLawyers  
+
+  @VisibleInRateflow
+  protected var _limitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgram : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgramDTO as readonly LimitedExclDesignatedOpsCovByConsolidatedWrapUpInsProgram  
+
+  @VisibleInRateflow
+  protected var _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO as readonly LimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO as readonly LimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _limitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL : GL7GeneralLiabilityLimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO as readonly LimitedExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL  
+
+  @VisibleInRateflow
+  protected var _limitedExclContractorsProfessionalLiab : GL7GeneralLiabilityLimitedExclContractorsProfessionalLiabDTO as readonly LimitedExclContractorsProfessionalLiab  
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraftRailroad : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftRailroadDTO as readonly LimitedCovForDesignatedUnmannedAircraftRailroad  
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverage : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverageDTO as readonly LimitedCovForDesignatedUnmannedAircraftPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraftOwnersContractors : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftOwnersContractorsDTO as readonly LimitedCovForDesignatedUnmannedAircraftOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraftCovBOnly : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovBOnlyDTO as readonly LimitedCovForDesignatedUnmannedAircraftCovBOnly  
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraftCovAOnly : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftCovAOnlyDTO as readonly LimitedCovForDesignatedUnmannedAircraftCovAOnly  
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraft : GL7GeneralLiabilityLimitedCovForDesignatedUnmannedAircraftDTO as readonly LimitedCovForDesignatedUnmannedAircraft  
+
+  @VisibleInRateflow
+  protected var _limitedContractualLiabilityRailroads : GL7GeneralLiabilityLimitedContractualLiabilityRailroadsDTO as readonly LimitedContractualLiabilityRailroads  
+
+  @VisibleInRateflow
+  protected var _limitedContractualLiabCovPersonalAdvertisingInj : GL7GeneralLiabilityLimitedContractualLiabCovPersonalAdvertisingInjDTO as readonly LimitedContractualLiabCovPersonalAdvertisingInj  
+
+  @VisibleInRateflow
+  protected var _limitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis : GL7GeneralLiabilityLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasisDTO as readonly LimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis  
+
+  @VisibleInRateflow
+  protected var _limitationOfCovToDesignatedPremOrProject : GL7GeneralLiabilityLimitationOfCovToDesignatedPremOrProjectDTO as readonly LimitationOfCovToDesignatedPremOrProject  
+
+  @VisibleInRateflow
+  protected var _limitationOfCovRealEstateOps : GL7GeneralLiabilityLimitationOfCovRealEstateOpsDTO as readonly LimitationOfCovRealEstateOps  
+
+  @VisibleInRateflow
+  protected var _lawnCareServicesCov : GL7GeneralLiabilityLawnCareServicesCovDTO as readonly LawnCareServicesCov  
+
+  @VisibleInRateflow
+  protected var _insuredSiteDefinition : GL7GeneralLiabilityInsuredSiteDefinitionDTO as readonly InsuredSiteDefinition  
+
+  @VisibleInRateflow
+  protected var _hazardousMaterialContractors : GL7GeneralLiabilityHazardousMaterialContractorsDTO as readonly HazardousMaterialContractors  
+
+  @VisibleInRateflow
+  protected var _governmentalSubdivisions : GL7GeneralLiabilityGovernmentalSubdivisionsDTO as readonly GovernmentalSubdivisions  
+
+  @VisibleInRateflow
+  protected var _geneticallyModifiedOrganismExclusionProdsCompldOps : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionProdsCompldOpsDTO as readonly GeneticallyModifiedOrganismExclusionProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _geneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOps : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOpsDTO as readonly GeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _geneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGL : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGLDTO as readonly GeneticallyModifiedOrganismExclusionForDesignatedOpsOrProdsCGL  
+
+  @VisibleInRateflow
+  protected var _geneticallyModifiedOrganismExclusion : GL7GeneralLiabilityGeneticallyModifiedOrganismExclusionDTO as readonly GeneticallyModifiedOrganismExclusion  
+
+  @VisibleInRateflow
+  protected var _fungiOrBacteriaExclusionOwnersContractorsProductsCompleted : GL7GeneralLiabilityFungiOrBacteriaExclusionOwnersContractorsProductsCompletedDTO as readonly FungiOrBacteriaExclusionOwnersContractorsProductsCompleted  
+
+  @VisibleInRateflow
+  protected var _fungiOrBacteriaExclusion : GL7GeneralLiabilityFungiOrBacteriaExclusionDTO as readonly FungiOrBacteriaExclusion  
+
+  @VisibleInRateflow
+  protected var _financialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterest : GL7GeneralLiabilityFinancialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterestDTO as readonly FinancialInstitutionsRptgProvisionLmtnToFiduciaryOrRepInterest  
+
+  @VisibleInRateflow
+  protected var _fiduciariesFiduciaryInterest : GL7GeneralLiabilityFiduciariesFiduciaryInterestDTO as readonly FiduciariesFiduciaryInterest  
+
+  @VisibleInRateflow
+  protected var _extendedReportingPeriodForTerrorismCoverage : GL7GeneralLiabilityExtendedReportingPeriodForTerrorismCoverageDTO as readonly ExtendedReportingPeriodForTerrorismCoverage  
+
+  @VisibleInRateflow
+  protected var _extendedReportingPeriodEndtForEmpBenefitsLiabCov : GL7GeneralLiabilityExtendedReportingPeriodEndtForEmpBenefitsLiabCovDTO as readonly ExtendedReportingPeriodEndtForEmpBenefitsLiabCov  
+
+  @VisibleInRateflow
+  protected var _extendedReportingPeriodEndt : GL7GeneralLiabilityExtendedReportingPeriodEndtDTO as readonly ExtendedReportingPeriodEndt  
+
+  @VisibleInRateflow
+  protected var _extendedReportingPeriodEndorsementForElectronicDataLiabilityCoverage : GL7GeneralLiabilityExtendedReportingPeriodEndorsementForElectronicDataLiabilityCoverageDTO as readonly ExtendedReportingPeriodEndorsementForElectronicDataLiabilityCoverage  
+
+  @VisibleInRateflow
+  protected var _exclusionVolunteerWorkersAsInsuredsEDL : GL7GeneralLiabilityExclusionVolunteerWorkersAsInsuredsEDLDTO as readonly ExclusionVolunteerWorkersAsInsuredsEDL  
+
+  @VisibleInRateflow
+  protected var _exclusionUnmannedAircraftRailroad : GL7GeneralLiabilityExclusionUnmannedAircraftRailroadDTO as readonly ExclusionUnmannedAircraftRailroad  
+
+  @VisibleInRateflow
+  protected var _exclusionUnmannedAircraftOwnersAndContractors : GL7GeneralLiabilityExclusionUnmannedAircraftOwnersAndContractorsDTO as readonly ExclusionUnmannedAircraftOwnersAndContractors  
+
+  @VisibleInRateflow
+  protected var _exclusionUnmannedAircraftCovBOnly : GL7GeneralLiabilityExclusionUnmannedAircraftCovBOnlyDTO as readonly ExclusionUnmannedAircraftCovBOnly  
+
+  @VisibleInRateflow
+  protected var _exclusionUnmannedAircraftCovAOnly : GL7GeneralLiabilityExclusionUnmannedAircraftCovAOnlyDTO as readonly ExclusionUnmannedAircraftCovAOnly  
+
+  @VisibleInRateflow
+  protected var _exclusionUnmannedAircraft : GL7GeneralLiabilityExclusionUnmannedAircraftDTO as readonly ExclusionUnmannedAircraft  
+
+  @VisibleInRateflow
+  protected var _exclusionProfessionalServicesPharmacists : GL7GeneralLiabilityExclusionProfessionalServicesPharmacistsDTO as readonly ExclusionProfessionalServicesPharmacists  
+
+  @VisibleInRateflow
+  protected var _exclusionProfessionalServicesOpticalAndHearingAidEstablishments : GL7GeneralLiabilityExclusionProfessionalServicesOpticalAndHearingAidEstablishmentsDTO as readonly ExclusionProfessionalServicesOpticalAndHearingAidEstablishments  
+
+  @VisibleInRateflow
+  protected var _exclusionProductTampering : GL7GeneralLiabilityExclusionProductTamperingDTO as readonly ExclusionProductTampering  
+
+  @VisibleInRateflow
+  protected var _exclusionProductReplacementRepairOrRepurchase : GL7GeneralLiabilityExclusionProductReplacementRepairOrRepurchaseDTO as readonly ExclusionProductReplacementRepairOrRepurchase  
+
+  @VisibleInRateflow
+  protected var _exclusionOfTerrorismNuclearBiologicalChemicalTerrorism : GL7GeneralLiabilityExclusionOfTerrorismNuclearBiologicalChemicalTerrorismDTO as readonly ExclusionOfTerrorismNuclearBiologicalChemicalTerrorism  
+
+  @VisibleInRateflow
+  protected var _exclusionOfTerrorism : GL7GeneralLiabilityExclusionOfTerrorismDTO as readonly ExclusionOfTerrorism  
+
+  @VisibleInRateflow
+  protected var _exclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorism : GL7GeneralLiabilityExclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorismDTO as readonly ExclusionOfPunitiveDamagesRelatedToACertifiedActOfTerrorism  
+
+  @VisibleInRateflow
+  protected var _exclusionOfNewlyAcquiredOrganizationsAsInsureds : GL7GeneralLiabilityExclusionOfNewlyAcquiredOrganizationsAsInsuredsDTO as readonly ExclusionOfNewlyAcquiredOrganizationsAsInsureds  
+
+  @VisibleInRateflow
+  protected var _exclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorism : GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorismDTO as readonly ExclusionOfCertifiedActsOfTerrorismAndOtherActsOfTerrorism  
+
+  @VisibleInRateflow
+  protected var _exclusionOfCertifiedActsOfTerrorism : GL7GeneralLiabilityExclusionOfCertifiedActsOfTerrorismDTO as readonly ExclusionOfCertifiedActsOfTerrorism  
+
+  @VisibleInRateflow
+  protected var _exclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActs : GL7GeneralLiabilityExclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActsDTO as readonly ExclusionOfCertifiedActsOfNuclearBiologicalChemicalActsTerrorismCapOnLossesFromCertifiedActs  
+
+  @VisibleInRateflow
+  protected var _exclusionHiredAutoLiability : GL7GeneralLiabilityExclusionHiredAutoLiabilityDTO as readonly ExclusionHiredAutoLiability  
+
+  @VisibleInRateflow
+  protected var _exclusionHealthHazardsElectronicSmokingDeviceVapor : GL7GeneralLiabilityExclusionHealthHazardsElectronicSmokingDeviceVaporDTO as readonly ExclusionHealthHazardsElectronicSmokingDeviceVapor  
+
+  @VisibleInRateflow
+  protected var _exclusionExteriorInsulationAndFinishSystemsProdsCompldOps : GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsProdsCompldOpsDTO as readonly ExclusionExteriorInsulationAndFinishSystemsProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _exclusionExteriorInsulationAndFinishSystemsPremOpsProds : GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsPremOpsProdsDTO as readonly ExclusionExteriorInsulationAndFinishSystemsPremOpsProds  
+
+  @VisibleInRateflow
+  protected var _exclusionExteriorInsulationAndFinishSystemsOwnersContractors : GL7GeneralLiabilityExclusionExteriorInsulationAndFinishSystemsOwnersContractorsDTO as readonly ExclusionExteriorInsulationAndFinishSystemsOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _exclusionEarthMovementOwnersContractors : GL7GeneralLiabilityExclusionEarthMovementOwnersContractorsDTO as readonly ExclusionEarthMovementOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _exclusionEarthMovementCompletedOperations : GL7GeneralLiabilityExclusionEarthMovementCompletedOperationsDTO as readonly ExclusionEarthMovementCompletedOperations  
+
+  @VisibleInRateflow
+  protected var _exclusionEarthMovement : GL7GeneralLiabilityExclusionEarthMovementDTO as readonly ExclusionEarthMovement  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityUST : GL7GeneralLiabilityExclusionCrossSuitsLiabilityUSTDTO as readonly ExclusionCrossSuitsLiabilityUST  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityRailroad : GL7GeneralLiabilityExclusionCrossSuitsLiabilityRailroadDTO as readonly ExclusionCrossSuitsLiabilityRailroad  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityPollutionLimited : GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionLimitedDTO as readonly ExclusionCrossSuitsLiabilityPollutionLimited  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityPollution : GL7GeneralLiabilityExclusionCrossSuitsLiabilityPollutionDTO as readonly ExclusionCrossSuitsLiabilityPollution  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityOwnersContractors : GL7GeneralLiabilityExclusionCrossSuitsLiabilityOwnersContractorsDTO as readonly ExclusionCrossSuitsLiabilityOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityLiquor : GL7GeneralLiabilityExclusionCrossSuitsLiabilityLiquorDTO as readonly ExclusionCrossSuitsLiabilityLiquor  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityEDL : GL7GeneralLiabilityExclusionCrossSuitsLiabilityEDLDTO as readonly ExclusionCrossSuitsLiabilityEDL  
+
+  @VisibleInRateflow
+  protected var _exclusionCrossSuitsLiabilityCGL : GL7GeneralLiabilityExclusionCrossSuitsLiabilityCGLDTO as readonly ExclusionCrossSuitsLiabilityCGL  
+
+  @VisibleInRateflow
+  protected var _exclusionAthleticOrSportsParticipantsAllContestsOrExhibitions : GL7GeneralLiabilityExclusionAthleticOrSportsParticipantsAllContestsOrExhibitionsDTO as readonly ExclusionAthleticOrSportsParticipantsAllContestsOrExhibitions  
+
+  @VisibleInRateflow
+  protected var _exclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnly : GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnlyDTO as readonly ExclusionAccessOrDisclosureOfConfidentialOrPersonalInformationCovBOnly  
+
+  @VisibleInRateflow
+  protected var _exclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGL : GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGLDTO as readonly ExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabWithLmtdBIExcptnCGL  
+
+  @VisibleInRateflow
+  protected var _exclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGL : GL7GeneralLiabilityExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGLDTO as readonly ExclusionAccessOrDisclosureOfConfidentialOrPersonalInfoAndDataRelatedLiabLmtdBIExcptnNotInclddCGL  
+
+  @VisibleInRateflow
+  protected var _exclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPrem : GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPremDTO as readonly ExclYear2000ComputerReltdOtherElectronicProblemsWithExceptionForBIOnYourPrem  
+
+  @VisibleInRateflow
+  protected var _exclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOps : GL7GeneralLiabilityExclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOpsDTO as readonly ExclYear2000ComputerReltdOtherElectronicProblemsProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _exclYear2000ComputerReltdElectronicProblems : GL7GeneralLiabilityExclYear2000ComputerReltdElectronicProblemsDTO as readonly ExclYear2000ComputerReltdElectronicProblems  
+
+  @VisibleInRateflow
+  protected var _exclVolunteerWorkers : GL7GeneralLiabilityExclVolunteerWorkersDTO as readonly ExclVolunteerWorkers  
+
+  @VisibleInRateflow
+  protected var _exclUndergroundStorageTankIncidents : GL7GeneralLiabilityExclUndergroundStorageTankIncidentsDTO as readonly ExclUndergroundStorageTankIncidents  
+
+  @VisibleInRateflow
+  protected var _exclUndergroundResourcesAndEquipment : GL7GeneralLiabilityExclUndergroundResourcesAndEquipmentDTO as readonly ExclUndergroundResourcesAndEquipment  
+
+  @VisibleInRateflow
+  protected var _exclTestingConsultingErrorsOmissions : GL7GeneralLiabilityExclTestingConsultingErrorsOmissionsDTO as readonly ExclTestingConsultingErrorsOmissions  
+
+  @VisibleInRateflow
+  protected var _exclTelecommEquipmtServicePrvdrsErrorsOmissions : GL7GeneralLiabilityExclTelecommEquipmtServicePrvdrsErrorsOmissionsDTO as readonly ExclTelecommEquipmtServicePrvdrsErrorsOmissions  
+
+  @VisibleInRateflow
+  protected var _exclSpecifiedTherapeuticOrCosmeticSrvcs : GL7GeneralLiabilityExclSpecifiedTherapeuticOrCosmeticSrvcsDTO as readonly ExclSpecifiedTherapeuticOrCosmeticSrvcs  
+
+  @VisibleInRateflow
+  protected var _exclSpecificAccidentsProdsWorkOrLocationProdsCompldOps : GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationProdsCompldOpsDTO as readonly ExclSpecificAccidentsProdsWorkOrLocationProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _exclSpecificAccidentsProdsWorkOrLocation : GL7GeneralLiabilityExclSpecificAccidentsProdsWorkOrLocationDTO as readonly ExclSpecificAccidentsProdsWorkOrLocation  
+
+  @VisibleInRateflow
+  protected var _exclServicesFurnishedByHealthCarePrvdrs : GL7GeneralLiabilityExclServicesFurnishedByHealthCarePrvdrsDTO as readonly ExclServicesFurnishedByHealthCarePrvdrs  
+
+  @VisibleInRateflow
+  protected var _exclSalineSubstancesContamination : GL7GeneralLiabilityExclSalineSubstancesContaminationDTO as readonly ExclSalineSubstancesContamination  
+
+  @VisibleInRateflow
+  protected var _exclRollingStockRailroadConstruction : GL7GeneralLiabilityExclRollingStockRailroadConstructionDTO as readonly ExclRollingStockRailroadConstruction  
+
+  @VisibleInRateflow
+  protected var _exclRiotCivilCommotionMobActionGovtSubdivision : GL7GeneralLiabilityExclRiotCivilCommotionMobActionGovtSubdivisionDTO as readonly ExclRiotCivilCommotionMobActionGovtSubdivision  
+
+  @VisibleInRateflow
+  protected var _exclPropertyEntrusted : GL7GeneralLiabilityExclPropertyEntrustedDTO as readonly ExclPropertyEntrusted  
+
+  @VisibleInRateflow
+  protected var _exclProfessionalVeterinarianServices : GL7GeneralLiabilityExclProfessionalVeterinarianServicesDTO as readonly ExclProfessionalVeterinarianServices  
+
+  @VisibleInRateflow
+  protected var _exclProfessionalServicesBloodBanks : GL7GeneralLiabilityExclProfessionalServicesBloodBanksDTO as readonly ExclProfessionalServicesBloodBanks  
+
+  @VisibleInRateflow
+  protected var _exclProductsProfessionalServicesOpticalHearingAidEstablishments : GL7GeneralLiabilityExclProductsProfessionalServicesOpticalHearingAidEstablishmentsDTO as readonly ExclProductsProfessionalServicesOpticalHearingAidEstablishments  
+
+  @VisibleInRateflow
+  protected var _exclProductsProfessionalServicesDruggists : GL7GeneralLiabilityExclProductsProfessionalServicesDruggistsDTO as readonly ExclProductsProfessionalServicesDruggists  
+
+  @VisibleInRateflow
+  protected var _exclProductsCompletedOperationsHazard : GL7GeneralLiabilityExclProductsCompletedOperationsHazardDTO as readonly ExclProductsCompletedOperationsHazard  
+
+  @VisibleInRateflow
+  protected var _exclPersonalAdvertisingInjury : GL7GeneralLiabilityExclPersonalAdvertisingInjuryDTO as readonly ExclPersonalAdvertisingInjury  
+
+  @VisibleInRateflow
+  protected var _exclOilGasProducingOps : GL7GeneralLiabilityExclOilGasProducingOpsDTO as readonly ExclOilGasProducingOps  
+
+  @VisibleInRateflow
+  protected var _exclNewEntities : GL7GeneralLiabilityExclNewEntitiesDTO as readonly ExclNewEntities  
+
+  @VisibleInRateflow
+  protected var _exclMovementBuildingsStructures : GL7GeneralLiabilityExclMovementBuildingsStructuresDTO as readonly ExclMovementBuildingsStructures  
+
+  @VisibleInRateflow
+  protected var _exclMedPayToChildrenDayCareCenters : GL7GeneralLiabilityExclMedPayToChildrenDayCareCentersDTO as readonly ExclMedPayToChildrenDayCareCenters  
+
+  @VisibleInRateflow
+  protected var _exclMedPayCovInmatesPatientsPrisoners : GL7GeneralLiabilityExclMedPayCovInmatesPatientsPrisonersDTO as readonly ExclMedPayCovInmatesPatientsPrisoners  
+
+  @VisibleInRateflow
+  protected var _exclLoggingLumberingOperations : GL7GeneralLiabilityExclLoggingLumberingOperationsDTO as readonly ExclLoggingLumberingOperations  
+
+  @VisibleInRateflow
+  protected var _exclLawEnforcementActivities : GL7GeneralLiabilityExclLawEnforcementActivitiesDTO as readonly ExclLawEnforcementActivities  
+
+  @VisibleInRateflow
+  protected var _exclLaundryDryCleaningDamage : GL7GeneralLiabilityExclLaundryDryCleaningDamageDTO as readonly ExclLaundryDryCleaningDamage  
+
+  @VisibleInRateflow
+  protected var _exclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissions : GL7GeneralLiabilityExclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissionsDTO as readonly ExclInternetServicePrvdrsAndInternetAccessPrvdrsErrorsOmissions  
+
+  @VisibleInRateflow
+  protected var _exclIntercompanyProductsSuits : GL7GeneralLiabilityExclIntercompanyProductsSuitsDTO as readonly ExclIntercompanyProductsSuits  
+
+  @VisibleInRateflow
+  protected var _exclInsuranceAndRelatedOperations : GL7GeneralLiabilityExclInsuranceAndRelatedOperationsDTO as readonly ExclInsuranceAndRelatedOperations  
+
+  @VisibleInRateflow
+  protected var _exclInspectionAppraisalAndSurveyCompanies : GL7GeneralLiabilityExclInspectionAppraisalAndSurveyCompaniesDTO as readonly ExclInspectionAppraisalAndSurveyCompanies  
+
+  @VisibleInRateflow
+  protected var _exclInjuryToVolunteerFirefighters : GL7GeneralLiabilityExclInjuryToVolunteerFirefightersDTO as readonly ExclInjuryToVolunteerFirefighters  
+
+  @VisibleInRateflow
+  protected var _exclHousingProjects : GL7GeneralLiabilityExclHousingProjectsDTO as readonly ExclHousingProjects  
+
+  @VisibleInRateflow
+  protected var _exclFuneralServ : GL7GeneralLiabilityExclFuneralServDTO as readonly ExclFuneralServ  
+
+  @VisibleInRateflow
+  protected var _exclFinancialServ : GL7GeneralLiabilityExclFinancialServDTO as readonly ExclFinancialServ  
+
+  @VisibleInRateflow
+  protected var _exclFiduciaryOrRepLiabOfFinclInstitutions : GL7GeneralLiabilityExclFiduciaryOrRepLiabOfFinclInstitutionsDTO as readonly ExclFiduciaryOrRepLiabOfFinclInstitutions  
+
+  @VisibleInRateflow
+  protected var _exclFailureToSupply : GL7GeneralLiabilityExclFailureToSupplyDTO as readonly ExclFailureToSupply  
+
+  @VisibleInRateflow
+  protected var _exclExistenceOrMaintenanceOfStreetsRdsHwysOrBridges : GL7GeneralLiabilityExclExistenceOrMaintenanceOfStreetsRdsHwysOrBridgesDTO as readonly ExclExistenceOrMaintenanceOfStreetsRdsHwysOrBridges  
+
+  @VisibleInRateflow
+  protected var _exclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchants : GL7GeneralLiabilityExclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchantsDTO as readonly ExclErroneousDeliveryOrMixtureResultingFailrSeedGerminSeedMerchants  
+
+  @VisibleInRateflow
+  protected var _exclEngineersArchitectsOrSurveyorsProfessionalLiab : GL7GeneralLiabilityExclEngineersArchitectsOrSurveyorsProfessionalLiabDTO as readonly ExclEngineersArchitectsOrSurveyorsProfessionalLiab  
+
+  @VisibleInRateflow
+  protected var _exclEmployeesAndVolunteerWorkersAsInsuredsEDL : GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsEDLDTO as readonly ExclEmployeesAndVolunteerWorkersAsInsuredsEDL  
+
+  @VisibleInRateflow
+  protected var _exclEmployeesAndVolunteerWorkersAsInsureds : GL7GeneralLiabilityExclEmployeesAndVolunteerWorkersAsInsuredsDTO as readonly ExclEmployeesAndVolunteerWorkersAsInsureds  
+
+  @VisibleInRateflow
+  protected var _exclDiagnosticTestingLabs : GL7GeneralLiabilityExclDiagnosticTestingLabsDTO as readonly ExclDiagnosticTestingLabs  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedWork : GL7GeneralLiabilityExclDesignatedWorkDTO as readonly ExclDesignatedWork  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedProfessionalServices : GL7GeneralLiabilityExclDesignatedProfessionalServicesDTO as readonly ExclDesignatedProfessionalServices  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedProducts : GL7GeneralLiabilityExclDesignatedProductsDTO as readonly ExclDesignatedProducts  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvl : GL7GeneralLiabilityExclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvlDTO as readonly ExclDesignatedOpsCovByConsolidatedWrapUpInsProgramPolLvl  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps : GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOpsDTO as readonly ExclDesignatedOpsCovByAControlledWrapUpInsProgramProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps : GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOpsDTO as readonly ExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL : GL7GeneralLiabilityExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGLDTO as readonly ExclDesignatedOpsCovByAControlledWrapUpInsProgramLmtdExcptnForAddlInsdCGL  
+
+  @VisibleInRateflow
+  protected var _exclDesignatedOngoingOps : GL7GeneralLiabilityExclDesignatedOngoingOpsDTO as readonly ExclDesignatedOngoingOps  
+
+  @VisibleInRateflow
+  protected var _exclDescribedHazardsCarnivalsCircusesFairs : GL7GeneralLiabilityExclDescribedHazardsCarnivalsCircusesFairsDTO as readonly ExclDescribedHazardsCarnivalsCircusesFairs  
+
+  @VisibleInRateflow
+  protected var _exclDamageToWorkPerformedBySubcontractorsOnYourBehalf : GL7GeneralLiabilityExclDamageToWorkPerformedBySubcontractorsOnYourBehalfDTO as readonly ExclDamageToWorkPerformedBySubcontractorsOnYourBehalf  
+
+  @VisibleInRateflow
+  protected var _exclDamageToPremRentedToYou : GL7GeneralLiabilityExclDamageToPremRentedToYouDTO as readonly ExclDamageToPremRentedToYou  
+
+  @VisibleInRateflow
+  protected var _exclCounselingServices : GL7GeneralLiabilityExclCounselingServicesDTO as readonly ExclCounselingServices  
+
+  @VisibleInRateflow
+  protected var _exclContractorsProfessionalLiab : GL7GeneralLiabilityExclContractorsProfessionalLiabDTO as readonly ExclContractorsProfessionalLiab  
+
+  @VisibleInRateflow
+  protected var _exclConstructionMngmtErrorsOmissions : GL7GeneralLiabilityExclConstructionMngmtErrorsOmissionsDTO as readonly ExclConstructionMngmtErrorsOmissions  
+
+  @VisibleInRateflow
+  protected var _exclCampsOrCampgrounds : GL7GeneralLiabilityExclCampsOrCampgroundsDTO as readonly ExclCampsOrCampgrounds  
+
+  @VisibleInRateflow
+  protected var _exclBodilyInjuryToRailroadPassengers : GL7GeneralLiabilityExclBodilyInjuryToRailroadPassengersDTO as readonly ExclBodilyInjuryToRailroadPassengers  
+
+  @VisibleInRateflow
+  protected var _exclAthleticSportsParticipants : GL7GeneralLiabilityExclAthleticSportsParticipantsDTO as readonly ExclAthleticSportsParticipants  
+
+  @VisibleInRateflow
+  protected var _exclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessories : GL7GeneralLiabilityExclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessoriesDTO as readonly ExclAllHazardsInConnectionWithElectronicSmokingDeviceItsVaporComponentPartsEquipmtAndAccessories  
+
+  @VisibleInRateflow
+  protected var _exclAdultDayCareCenters : GL7GeneralLiabilityExclAdultDayCareCentersDTO as readonly ExclAdultDayCareCenters  
+
+  @VisibleInRateflow
+  protected var _exclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProds : GL7GeneralLiabilityExclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProdsDTO as readonly ExclAccessDisclosureConfidentialPrsnlInfoDataRelatedLiabLmtdBIExcptnNotInclddOwnrsContrctrsProds  
+
+  @VisibleInRateflow
+  protected var _exclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProds : GL7GeneralLiabilityExclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProdsDTO as readonly ExclAccessDisclosureConfidentialPersonalInfoDataRelatedLiabWithLmtdBIExcptnOwnrsContrctrsProds  
+
+  @VisibleInRateflow
+  protected var _excessProvisionVendors : GL7GeneralLiabilityExcessProvisionVendorsDTO as readonly ExcessProvisionVendors  
+
+  @VisibleInRateflow
+  protected var _employmentRelatedPracticesExclusionOwnersContrctrsPollution : GL7GeneralLiabilityEmploymentRelatedPracticesExclusionOwnersContrctrsPollutionDTO as readonly EmploymentRelatedPracticesExclusionOwnersContrctrsPollution  
+
+  @VisibleInRateflow
+  protected var _employmentRelatedPracticesExclusion : GL7GeneralLiabilityEmploymentRelatedPracticesExclusionDTO as readonly EmploymentRelatedPracticesExclusion  
+
+  @VisibleInRateflow
+  protected var _employeeBenefitsLiabCovClaimsMade : GL7GeneralLiabilityEmployeeBenefitsLiabCovClaimsMadeDTO as readonly EmployeeBenefitsLiabCovClaimsMade  
+
+  @VisibleInRateflow
+  protected var _electronicDataLiabilityPremiumToReachMinCoverage : GL7GeneralLiabilityElectronicDataLiabilityPremiumToReachMinCoverageDTO as readonly ElectronicDataLiabilityPremiumToReachMinCoverage  
+
+  @VisibleInRateflow
+  protected var _electronicDataLiabilityLimitedBodilyInjuryExceptionNotIncluded : GL7GeneralLiabilityElectronicDataLiabilityLimitedBodilyInjuryExceptionNotIncludedDTO as readonly ElectronicDataLiabilityLimitedBodilyInjuryExceptionNotIncluded  
+
+  @VisibleInRateflow
+  protected var _electronicDataLiabilityCoverageForm : GL7GeneralLiabilityElectronicDataLiabilityCoverageFormDTO as readonly ElectronicDataLiabilityCoverageForm  
+
+  @VisibleInRateflow
+  protected var _electronicDataLiabEndt : GL7GeneralLiabilityElectronicDataLiabEndtDTO as readonly ElectronicDataLiabEndt  
+
+  @VisibleInRateflow
+  protected var _electronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovB : GL7GeneralLiabilityElectronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovBDTO as readonly ElectronicDataLiabCoverageCovAWithAccessOrDisclosureOfConfidentialOrPersonalInformationExclCovB  
+
+  @VisibleInRateflow
+  protected var _earthMovementExclusionForDesignatedOperationsOrProjects : GL7GeneralLiabilityEarthMovementExclusionForDesignatedOperationsOrProjectsDTO as readonly EarthMovementExclusionForDesignatedOperationsOrProjects  
+
+  @VisibleInRateflow
+  protected var _earlierNoticeOfCancellationProvidedByUsOwnersContractors : GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsOwnersContractorsDTO as readonly EarlierNoticeOfCancellationProvidedByUsOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _earlierNoticeOfCancellationProvidedByUs : GL7GeneralLiabilityEarlierNoticeOfCancellationProvidedByUsDTO as readonly EarlierNoticeOfCancellationProvidedByUs  
+
+  @VisibleInRateflow
+  protected var _druggistsBroadenedCov : GL7GeneralLiabilityDruggistsBroadenedCovDTO as readonly DruggistsBroadenedCov  
+
+  @VisibleInRateflow
+  protected var _druggists : GL7GeneralLiabilityDruggistsDTO as readonly Druggists  
+
+  @VisibleInRateflow
+  protected var _disclosurePursuantToTerrorismRiskInsuranceActOf2002 : GL7GeneralLiabilityDisclosurePursuantToTerrorismRiskInsuranceActOf2002DTO as readonly DisclosurePursuantToTerrorismRiskInsuranceActOf2002  
+
+  @VisibleInRateflow
+  protected var _disclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002 : GL7GeneralLiabilityDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002DTO as readonly DisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002  
+
+  @VisibleInRateflow
+  protected var _disclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002 : GL7GeneralLiabilityDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002DTO as readonly DisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002  
+
+  @VisibleInRateflow
+  protected var _designatedProjectsProdsCompldOpsAggregateLimit : GL7GeneralLiabilityDesignatedProjectsProdsCompldOpsAggregateLimitDTO as readonly DesignatedProjectsProdsCompldOpsAggregateLimit  
+
+  @VisibleInRateflow
+  protected var _designatedProjectsAggregateLimit : GL7GeneralLiabilityDesignatedProjectsAggregateLimitDTO as readonly DesignatedProjectsAggregateLimit  
+
+  @VisibleInRateflow
+  protected var _designatedConstrctnProjGeneralAggregateLimit : GL7GeneralLiabilityDesignatedConstrctnProjGeneralAggregateLimitDTO as readonly DesignatedConstrctnProjGeneralAggregateLimit  
+
+  @VisibleInRateflow
+  protected var _deductibleLiabilityInsuranceLiquorLiab : GL7GeneralLiabilityDeductibleLiabilityInsuranceLiquorLiabDTO as readonly DeductibleLiabilityInsuranceLiquorLiab  
+
+  @VisibleInRateflow
+  protected var _deductibleLiabilityInsurance : GL7GeneralLiabilityDeductibleLiabilityInsuranceDTO as readonly DeductibleLiabilityInsurance  
+
+  @VisibleInRateflow
+  protected var _damageToPremisesRentedToYouCoverage : GL7GeneralLiabilityDamageToPremisesRentedToYouCoverageDTO as readonly DamageToPremisesRentedToYouCoverage  
+
+  @VisibleInRateflow
+  protected var _coverageExtensionCoverageAProductRestorationExpense : GL7GeneralLiabilityCoverageExtensionCoverageAProductRestorationExpenseDTO as readonly CoverageExtensionCoverageAProductRestorationExpense  
+
+  @VisibleInRateflow
+  protected var _covForInjuryLeasedWorkersUndergroundStorageTanks : GL7GeneralLiabilityCovForInjuryLeasedWorkersUndergroundStorageTanksDTO as readonly CovForInjuryLeasedWorkersUndergroundStorageTanks  
+
+  @VisibleInRateflow
+  protected var _covForInjuryLeasedWorkers : GL7GeneralLiabilityCovForInjuryLeasedWorkersDTO as readonly CovForInjuryLeasedWorkers  
+
+  @VisibleInRateflow
+  protected var _contractualLiabRailroads : GL7GeneralLiabilityContractualLiabRailroadsDTO as readonly ContractualLiabRailroads  
+
+  @VisibleInRateflow
+  protected var _contractualLiabLimitation : GL7GeneralLiabilityContractualLiabLimitationDTO as readonly ContractualLiabLimitation  
+
+  @VisibleInRateflow
+  protected var _constrctnProjMngmtProtvLiabCov : GL7GeneralLiabilityConstrctnProjMngmtProtvLiabCovDTO as readonly ConstrctnProjMngmtProtvLiabCov  
+
+  @VisibleInRateflow
+  protected var _conditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002 : GL7GeneralLiabilityConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002DTO as readonly ConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002  
+
+  @VisibleInRateflow
+  protected var _conditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002 : GL7GeneralLiabilityConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002DTO as readonly ConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002  
+
+  @VisibleInRateflow
+  protected var _conditionalExclusionOfTerrorismDispositionOfAct2002 : GL7GeneralLiabilityConditionalExclusionOfTerrorismDispositionOfAct2002DTO as readonly ConditionalExclusionOfTerrorismDispositionOfAct2002  
+
+  @VisibleInRateflow
+  protected var _compositeRating : GL7GeneralLiabilityCompositeRatingDTO as readonly CompositeRating  
+
+  @VisibleInRateflow
+  protected var _communicableDiseaseExclusionProdsCompldOps : GL7GeneralLiabilityCommunicableDiseaseExclusionProdsCompldOpsDTO as readonly CommunicableDiseaseExclusionProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _communicableDiseaseExclusion : GL7GeneralLiabilityCommunicableDiseaseExclusionDTO as readonly CommunicableDiseaseExclusion  
+
+  @VisibleInRateflow
+  protected var _collegeSchoolLimitedForm : GL7GeneralLiabilityCollegeSchoolLimitedFormDTO as readonly CollegeSchoolLimitedForm  
+
+  @VisibleInRateflow
+  protected var _collegeSchool : GL7GeneralLiabilityCollegeSchoolDTO as readonly CollegeSchool  
+
+  @VisibleInRateflow
+  protected var _changesInFormsForCommercialPackagePolicies : GL7GeneralLiabilityChangesInGeneralLiabilityFormsForCommercialPackagePoliciesDTO as readonly ChangesInFormsForCommercialPackagePolicies  
+
+  @VisibleInRateflow
+  protected var _certifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOps : GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOpsDTO as readonly CertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _certifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOps : GL7GeneralLiabilityCertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOpsDTO as readonly CertifiedActsOfTerrorismAggregateLimitCapOnLossesFromCertifiedActsOfTerrorismPremOps  
+
+  @VisibleInRateflow
+  protected var _capOnLossesFromCertifiedActsOfTerrorism : GL7GeneralLiabilityCapOnLossesFromCertifiedActsOfTerrorismDTO as readonly CapOnLossesFromCertifiedActsOfTerrorism  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempandLessorsRiskExceptions : GL7GeneralLiabilityCannabisExclusionWithHempandLessorsRiskExceptionsDTO as readonly CannabisExclusionWithHempandLessorsRiskExceptions  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempExceptionUST : GL7GeneralLiabilityCannabisExclusionWithHempExceptionUSTDTO as readonly CannabisExclusionWithHempExceptionUST  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempExceptionRailroad : GL7GeneralLiabilityCannabisExclusionWithHempExceptionRailroadDTO as readonly CannabisExclusionWithHempExceptionRailroad  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempExceptionProductWithdrawal : GL7GeneralLiabilityCannabisExclusionWithHempExceptionProductWithdrawalDTO as readonly CannabisExclusionWithHempExceptionProductWithdrawal  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempExceptionPollution : GL7GeneralLiabilityCannabisExclusionWithHempExceptionPollutionDTO as readonly CannabisExclusionWithHempExceptionPollution  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempExceptionOwnersContractors : GL7GeneralLiabilityCannabisExclusionWithHempExceptionOwnersContractorsDTO as readonly CannabisExclusionWithHempExceptionOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempExceptionEDL : GL7GeneralLiabilityCannabisExclusionWithHempExceptionEDLDTO as readonly CannabisExclusionWithHempExceptionEDL  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionWithHempException : GL7GeneralLiabilityCannabisExclusionWithHempExceptionDTO as readonly CannabisExclusionWithHempException  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionUST : GL7GeneralLiabilityCannabisExclusionUSTDTO as readonly CannabisExclusionUST  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionRailroad : GL7GeneralLiabilityCannabisExclusionRailroadDTO as readonly CannabisExclusionRailroad  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionProductWithdrawal : GL7GeneralLiabilityCannabisExclusionProductWithdrawalDTO as readonly CannabisExclusionProductWithdrawal  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionPollution : GL7GeneralLiabilityCannabisExclusionPollutionDTO as readonly CannabisExclusionPollution  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionOwnersContractors : GL7GeneralLiabilityCannabisExclusionOwnersContractorsDTO as readonly CannabisExclusionOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusionEDL : GL7GeneralLiabilityCannabisExclusionEDLDTO as readonly CannabisExclusionEDL  
+
+  @VisibleInRateflow
+  protected var _cannabisExclusion : GL7GeneralLiabilityCannabisExclusionDTO as readonly CannabisExclusion  
+
+  @VisibleInRateflow
+  protected var _calculationOfPremiumProductWithdrawal : GL7GeneralLiabilityCalculationOfPremiumProductWithdrawalDTO as readonly CalculationOfPremiumProductWithdrawal  
+
+  @VisibleInRateflow
+  protected var _calculationOfPremium : GL7GeneralLiabilityCalculationOfPremiumDTO as readonly CalculationOfPremium  
+
+  @VisibleInRateflow
+  protected var _boats : GL7GeneralLiabilityBoatsDTO as readonly Boats  
+
+  @VisibleInRateflow
+  protected var _bindingArbitration : GL7GeneralLiabilityBindingArbitrationDTO as readonly BindingArbitration  
+
+  @VisibleInRateflow
+  protected var _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompanies : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompaniesDTO as readonly AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabilityCompanies  
+
+  @VisibleInRateflow
+  protected var _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProds : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProdsDTO as readonly AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionLimitedProds  
+
+  @VisibleInRateflow
+  protected var _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollution : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollutionDTO as readonly AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesPollution  
+
+  @VisibleInRateflow
+  protected var _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquor : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquorDTO as readonly AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesLiquor  
+
+  @VisibleInRateflow
+  protected var _automaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDL : GL7GeneralLiabilityAutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDLDTO as readonly AutomaticInsuredStatusForNewlyAcquiredOrFormedLimitedLiabCompaniesEDL  
+
+  @VisibleInRateflow
+  protected var _amndmtTravelAgencyToursLimitationOfCov : GL7GeneralLiabilityAmndmtTravelAgencyToursLimitationOfCovDTO as readonly AmndmtTravelAgencyToursLimitationOfCov  
+
+  @VisibleInRateflow
+  protected var _amndmtOfSectVExtddRptgPeriodsSpecificAccs : GL7GeneralLiabilityAmndmtOfSectVExtddRptgPeriodsSpecificAccsDTO as readonly AmndmtOfSectVExtddRptgPeriodsSpecificAccs  
+
+  @VisibleInRateflow
+  protected var _amndmtOfLiquorLiabExclProdsCompldOps : GL7GeneralLiabilityAmndmtOfLiquorLiabExclProdsCompldOpsDTO as readonly AmndmtOfLiquorLiabExclProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _amndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOps : GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOpsDTO as readonly AmndmtOfLiquorLiabExclExcptnScheddActivsProductsCompletedOps  
+
+  @VisibleInRateflow
+  protected var _amndmtOfLiquorLiabExclExcptnScheddActivs : GL7GeneralLiabilityAmndmtOfLiquorLiabExclExcptnScheddActivsDTO as readonly AmndmtOfLiquorLiabExclExcptnScheddActivs  
+
+  @VisibleInRateflow
+  protected var _amndmtOfLiquorLiabExcl : GL7GeneralLiabilityAmndmtOfLiquorLiabExclDTO as readonly AmndmtOfLiquorLiabExcl  
+
+  @VisibleInRateflow
+  protected var _amndmtOfLimitsOfIns : GL7GeneralLiabilityAmndmtOfLimitsOfInsDTO as readonly AmndmtOfLimitsOfIns  
+
+  @VisibleInRateflow
+  protected var _amndmtOfCovTerrWorldwideCovWithSpecdExcptns : GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovWithSpecdExcptnsDTO as readonly AmndmtOfCovTerrWorldwideCovWithSpecdExcptns  
+
+  @VisibleInRateflow
+  protected var _amndmtOfCovTerrWorldwideCov : GL7GeneralLiabilityAmndmtOfCovTerrWorldwideCovDTO as readonly AmndmtOfCovTerrWorldwideCov  
+
+  @VisibleInRateflow
+  protected var _amndmtOfCovTerrAddlSchddCountries : GL7GeneralLiabilityAmndmtOfCovTerrAddlSchddCountriesDTO as readonly AmndmtOfCovTerrAddlSchddCountries  
+
+  @VisibleInRateflow
+  protected var _amendmentOfPersonalAndAdvertisingInjuryDefinition : GL7GeneralLiabilityAmendmentOfPersonalAndAdvertisingInjuryDefinitionDTO as readonly AmendmentOfPersonalAndAdvertisingInjuryDefinition  
+
+  @VisibleInRateflow
+  protected var _amendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcohol : GL7GeneralLiabilityAmendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcoholDTO as readonly AmendmentOfLiquorLiabExclusionLimitedExceptionForBringYourOwnAlcohol  
+
+  @VisibleInRateflow
+  protected var _amendmentOfInsuredContractDefinition : GL7GeneralLiabilityAmendmentOfInsuredContractDefinitionDTO as readonly AmendmentOfInsuredContractDefinition  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrence : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrenceDTO as readonly AmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsOccurrence  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMade : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMadeDTO as readonly AmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsProdsCompldOpsClaimsMade  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDL : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDLDTO as readonly AmendmentOfCovTerritoryWorldwideCovWithSpecifiedExceptionsEDL  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrence : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrenceDTO as readonly AmendmentOfCovTerritoryWorldwideCovProdsCompldOpsOccurrence  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMade : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMadeDTO as readonly AmendmentOfCovTerritoryWorldwideCovProdsCompldOpsClaimsMade  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryWorldwideCovEDL : GL7GeneralLiabilityAmendmentOfCovTerritoryWorldwideCovEDLDTO as readonly AmendmentOfCovTerritoryWorldwideCovEDL  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrence : GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrenceDTO as readonly AmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsOccurrence  
+
+  @VisibleInRateflow
+  protected var _amendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMade : GL7GeneralLiabilityAmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMadeDTO as readonly AmendmentOfCovTerritoryAdditionalScheduledCountriesProdsCompldOpsClaimsMade  
+
+  @VisibleInRateflow
+  protected var _addlInsdVolunteerWorkersProdsCompldOps : GL7GeneralLiabilityAddlInsdVolunteerWorkersProdsCompldOpsDTO as readonly AddlInsdVolunteerWorkersProdsCompldOps  
+
+  @VisibleInRateflow
+  protected var _addlInsdVolunteerWorkersPollutionLimitedUST : GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionLimitedUSTDTO as readonly AddlInsdVolunteerWorkersPollutionLimitedUST  
+
+  @VisibleInRateflow
+  protected var _addlInsdVolunteerWorkersPollution : GL7GeneralLiabilityAddlInsdVolunteerWorkersPollutionDTO as readonly AddlInsdVolunteerWorkersPollution  
+
+  @VisibleInRateflow
+  protected var _addlInsdVolunteerWorkersLiquor : GL7GeneralLiabilityAddlInsdVolunteerWorkersLiquorDTO as readonly AddlInsdVolunteerWorkersLiquor  
+
+  @VisibleInRateflow
+  protected var _addlInsdVendorsAutomaticStatusWhenRequiredInAgreement : GL7GeneralLiabilityAddlInsdVendorsAutomaticStatusWhenRequiredInAgreementDTO as readonly AddlInsdVendorsAutomaticStatusWhenRequiredInAgreement  
+
+  @VisibleInRateflow
+  protected var _addlInsdVendors : GL7GeneralLiabilityAddlInsdVendorsDTO as readonly AddlInsdVendors  
+
+  @VisibleInRateflow
+  protected var _addlInsdUsersOfTeamsDraftOrSaddleAnimals : GL7GeneralLiabilityAddlInsdUsersOfTeamsDraftOrSaddleAnimalsDTO as readonly AddlInsdUsersOfTeamsDraftOrSaddleAnimals  
+
+  @VisibleInRateflow
+  protected var _addlInsdUsersGolfmobiles : GL7GeneralLiabilityAddlInsdUsersGolfmobilesDTO as readonly AddlInsdUsersGolfmobiles  
+
+  @VisibleInRateflow
+  protected var _addlInsdTrusts : GL7GeneralLiabilityAddlInsdTrustsDTO as readonly AddlInsdTrusts  
+
+  @VisibleInRateflow
+  protected var _addlInsdTownhouseAssocs : GL7GeneralLiabilityAddlInsdTownhouseAssocsDTO as readonly AddlInsdTownhouseAssocs  
+
+  @VisibleInRateflow
+  protected var _addlInsdStatePolitlSubdPermitsRelatingPrem : GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsRelatingPremDTO as readonly AddlInsdStatePolitlSubdPermitsRelatingPrem  
+
+  @VisibleInRateflow
+  protected var _addlInsdStatePolitlSubdPermitsOwnersContractors : GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsOwnersContractorsDTO as readonly AddlInsdStatePolitlSubdPermitsOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _addlInsdStatePolitlSubdPermits : GL7GeneralLiabilityAddlInsdStatePolitlSubdPermitsDTO as readonly AddlInsdStatePolitlSubdPermits  
+
+  @VisibleInRateflow
+  protected var _addlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiab : GL7GeneralLiabilityAddlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiabDTO as readonly AddlInsdStateOrGovernmentalAgencyOrSubdOrPoliticalSubdPermitsOrAuthorizationsLiquorLiab  
+
+  @VisibleInRateflow
+  protected var _addlInsdSponsorsLiquorLiability : GL7GeneralLiabilityAddlInsdSponsorsLiquorLiabilityDTO as readonly AddlInsdSponsorsLiquorLiability  
+
+  @VisibleInRateflow
+  protected var _addlInsdOwnersLesseesContrctrsScheddPersonOrg : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsScheddPersonOrgDTO as readonly AddlInsdOwnersLesseesContrctrsScheddPersonOrg  
+
+  @VisibleInRateflow
+  protected var _addlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYou : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYouDTO as readonly AddlInsdOwnersLesseesContrctrsAutomtcStatusWhenReqInConstrctnAgrmtWithYou  
+
+  @VisibleInRateflow
+  protected var _addlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOps : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOpsDTO as readonly AddlInsdOwnersLesseesContrctrsAutomtcStatusOtherPartiesWhenReqdInWrittenConstrctnAgrmtCompldOps  
+
+  @VisibleInRateflow
+  protected var _addlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmt : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmtDTO as readonly AddlInsdOwnersLesseesContrctrsAutomtcStatusForOtherPartiesWhenReqInConstrctnAgrmt  
+
+  @VisibleInRateflow
+  protected var _addlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOps : GL7GeneralLiabilityAddlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOpsDTO as readonly AddlInsdOwnersLesseesContrctrsAutomaticStatusWhenReqdInWrittenConstrctnAgrmtWithYouCompldOps  
+
+  @VisibleInRateflow
+  protected var _addlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYou : GL7GeneralLiabilityAddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYouDTO as readonly AddlInsdLessorOfLeasedEquipmtAutomtcStatusWhenReqdInLeaseAgrmtWithYou  
+
+  @VisibleInRateflow
+  protected var _addlInsdLessorLeasedEquipmt : GL7GeneralLiabilityAddlInsdLessorLeasedEquipmtDTO as readonly AddlInsdLessorLeasedEquipmt  
+
+  @VisibleInRateflow
+  protected var _addlInsdGrantorOfLicensesAutomaticStatusReqdLicensor : GL7GeneralLiabilityAddlInsdGrantorOfLicensesAutomaticStatusReqdLicensorDTO as readonly AddlInsdGrantorOfLicensesAutomaticStatusReqdLicensor  
+
+  @VisibleInRateflow
+  protected var _addlInsdGrantorOfFranchiseLiquorLiability : GL7GeneralLiabilityAddlInsdGrantorOfFranchiseLiquorLiabilityDTO as readonly AddlInsdGrantorOfFranchiseLiquorLiability  
+
+  @VisibleInRateflow
+  protected var _addlInsdGrantorLicenses : GL7GeneralLiabilityAddlInsdGrantorLicensesDTO as readonly AddlInsdGrantorLicenses  
+
+  @VisibleInRateflow
+  protected var _addlInsdGrantorFranchise : GL7GeneralLiabilityAddlInsdGrantorFranchiseDTO as readonly AddlInsdGrantorFranchise  
+
+  @VisibleInRateflow
+  protected var _addlInsdExecsAdminsTrstesBenefics : GL7GeneralLiabilityAddlInsdExecsAdminsTrstesBeneficsDTO as readonly AddlInsdExecsAdminsTrstesBenefics  
+
+  @VisibleInRateflow
+  protected var _addlInsdEngrsArchsSrvyrsOwnersContractors : GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsOwnersContractorsDTO as readonly AddlInsdEngrsArchsSrvyrsOwnersContractors  
+
+  @VisibleInRateflow
+  protected var _addlInsdEngrsArchsSrvyrsNotEngagedInsd : GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsNotEngagedInsdDTO as readonly AddlInsdEngrsArchsSrvyrsNotEngagedInsd  
+
+  @VisibleInRateflow
+  protected var _addlInsdEngrsArchsSrvyrs : GL7GeneralLiabilityAddlInsdEngrsArchsSrvyrsDTO as readonly AddlInsdEngrsArchsSrvyrs  
+
+  @VisibleInRateflow
+  protected var _addlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorps : GL7GeneralLiabilityAddlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorpsDTO as readonly AddlInsdElectiveOrAppointiveExecutiveOfficersOfPublicCorps  
+
+  @VisibleInRateflow
+  protected var _addlInsdDesigntdPersonOrg : GL7GeneralLiabilityAddlInsdDesigntdPersonOrgDTO as readonly AddlInsdDesigntdPersonOrg  
+
+  @VisibleInRateflow
+  protected var _addlInsdControllingInt : GL7GeneralLiabilityAddlInsdControllingIntDTO as readonly AddlInsdControllingInt  
+
+  @VisibleInRateflow
+  protected var _addlInsdCondoUnitOwners : GL7GeneralLiabilityAddlInsdCondoUnitOwnersDTO as readonly AddlInsdCondoUnitOwners  
+
+  @VisibleInRateflow
+  protected var _addlInsdConcessionaires : GL7GeneralLiabilityAddlInsdConcessionairesDTO as readonly AddlInsdConcessionaires  
+
+  @VisibleInRateflow
+  protected var _addlInsdClubMembers : GL7GeneralLiabilityAddlInsdClubMembersDTO as readonly AddlInsdClubMembers  
+
+  @VisibleInRateflow
+  protected var _addlInsdChurchMbrOffcrVolunWrkr : GL7GeneralLiabilityAddlInsdChurchMbrOffcrVolunWrkrDTO as readonly AddlInsdChurchMbrOffcrVolunWrkr  
+
+  @VisibleInRateflow
+  protected var _addlInsdCharitableInstitns : GL7GeneralLiabilityAddlInsdCharitableInstitnsDTO as readonly AddlInsdCharitableInstitns  
+
+  @VisibleInRateflow
+  protected var _addlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreement : GL7GeneralLiabilityAddlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreementDTO as readonly AddlInsdAutomaticStatusWhenRequiredInWrittenContractOrAgreement  
+
+  @VisibleInRateflow
+  protected var _addlInsdAutomaticStatusForDesignatedOperations : GL7GeneralLiabilityAddlInsdAutomaticStatusForDesignatedOperationsDTO as readonly AddlInsdAutomaticStatusForDesignatedOperations  
+
+  @VisibleInRateflow
+  protected var _abuseOrMolestationExclusionSpecifiedProfessionalServices : GL7GeneralLiabilityAbuseOrMolestationExclusionSpecifiedProfessionalServicesDTO as readonly AbuseOrMolestationExclusionSpecifiedProfessionalServices  
+
+  @VisibleInRateflow
+  protected var _abuseMolestationExcl : GL7GeneralLiabilityAbuseMolestationExclDTO as readonly AbuseMolestationExcl  
+
+  @VisibleInRateflow
+  protected var _displayName : java.lang.String as DisplayName = ""
+
+  @VisibleInRateflow
+  protected var _multistate : java.lang.String as multistate = ""
+
+  @VisibleInRateflow
+  protected var _yearInClaimsMade : java.lang.Integer as YearInClaimsMade = 0
+
+  @VisibleInRateflow
+  protected var _undergroundStorageTankRetroactiveDate : java.util.Date as UndergroundStorageTankRetroactiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _uSTCoverageForm : java.lang.String as USTCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _uSTAggregateLimit : java.lang.String as USTAggregateLimit = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("TypeOfPolicyStatCode")
+  protected var _typeOfPolicyStatCode : java.lang.String as TypeOfPolicyStatCode = ""
+
+  @VisibleInRateflow
+  protected var _terrorismCoverage : java.lang.String as TerrorismCoverage = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("TerrCovStatCode")
+  protected var _terrorismCovStatCode : java.lang.String as TerrorismCovStatCode = ""
+
+  @VisibleInRateflow
+  protected var _tRIPTerminatesBeforeExpirationDate : java.lang.String as TRIPTerminatesBeforeExpirationDate = ""
+
+  @VisibleInRateflow
+  protected var _tRIAExtended : java.lang.String as TRIAExtended = ""
+
+  @VisibleInRateflow
+  protected var _tRIAExpirationDate : java.util.Date as TRIAExpirationDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _subline : java.lang.String as Subline = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("StateCode")
+  protected var _stateCode : java.lang.String as StateCode = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("State")
+  protected var _state : java.lang.String as State = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SpecialClassificationsRisksSta")
+  protected var _specialClassificationsRisksStatCode : java.lang.String as SpecialClassificationsRisksStatCode = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ScheduleRatingModificationFact")
+  protected var _scheduleRatingModificationFactor : java.math.BigDecimal as ScheduleRatingModificationFactor = 0.0
+
+  @VisibleInRateflow
+  protected var _scheduleRatingModificationApplies : java.lang.String as ScheduleRatingModificationApplies = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPTotalModificationPct")
+  protected var _sRPTotalModificationPct : java.math.BigDecimal as SRPTotalModificationPct = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPPremisesPctConverted")
+  protected var _sRPPremisesPctConverted : java.math.BigDecimal as SRPPremisesPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPPremisesPct : java.lang.String as SRPPremisesPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPMaxDebit")
+  protected var _sRPMaximumDebit : java.math.BigDecimal as SRPMaximumDebit = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPMaxCredit")
+  protected var _sRPMaximumCredit : java.math.BigDecimal as SRPMaximumCredit = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPLocationExposureOutsidePrem")
+  protected var _sRPLocationExposureOutsidePremisesPctConverted : java.math.BigDecimal as SRPLocationExposureOutsidePremisesPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPLocationExposureOutsidePremisesPct : java.lang.String as SRPLocationExposureOutsidePremisesPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPLocationExposureInsidePremi")
+  protected var _sRPLocationExposureInsidePremisesPctConverted : java.math.BigDecimal as SRPLocationExposureInsidePremisesPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPLocationExposureInsidePremisesPct : java.lang.String as SRPLocationExposureInsidePremisesPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPEquipPctConverted")
+  protected var _sRPEquipmentPctConverted : java.math.BigDecimal as SRPEquipmentPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPEquipmentPct : java.lang.String as SRPEquipmentPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPEmplsPctConverted")
+  protected var _sRPEmployeesPctConverted : java.math.BigDecimal as SRPEmployeesPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPEmployeesPct : java.lang.String as SRPEmployeesPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPCooperationSafetyProgramPct")
+  protected var _sRPCooperationSafetyProgramPctConverted : java.math.BigDecimal as SRPCooperationSafetyProgramPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPCooperationSafetyProgramPct : java.lang.String as SRPCooperationSafetyProgramPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPCooperationMedicalFacilitie")
+  protected var _sRPCooperationMedicalFacilitiesPctConverted : java.math.BigDecimal as SRPCooperationMedicalFacilitiesPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPCooperationMedicalFacilitiesPct : java.lang.String as SRPCooperationMedicalFacilitiesPct = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("SRPClassificationPctConverted")
+  protected var _sRPClassificationPctConverted : java.math.BigDecimal as SRPClassificationPctConverted = 0.0
+
+  @VisibleInRateflow
+  protected var _sRPClassificationPct : java.lang.String as SRPClassificationPct = ""
+
+  @VisibleInRateflow
+  protected var _riskType : java.lang.String as RiskType = ""
+
+  @VisibleInRateflow
+  protected var _retroactiveDateApplies : java.lang.String as RetroactiveDateApplies = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("RatingModificationFactorStatCo")
+  protected var _ratingModificationFactorStatCode : java.lang.String as RatingModificationFactorStatCode = ""
+
+  @VisibleInRateflow
+  protected var _railroadEachOccurrenceLimit : java.lang.String as RailroadEachOccurrenceLimit = ""
+
+  @VisibleInRateflow
+  protected var _railroadCoverageForm : java.lang.String as RailroadCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _railroadAggregateLimit : java.lang.String as RailroadAggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _productsWithdrawalCutOff : java.util.Date as ProductsWithdrawalCutOff = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _productsWithdrawalAggregateLimit : java.lang.String as ProductsWithdrawalAggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _productWithdrawalParticipationPercentage : java.lang.String as ProductWithdrawalParticipationPercentage = ""
+
+  @VisibleInRateflow
+  protected var _productWithdrawalDeductible : java.lang.String as ProductWithdrawalDeductible = ""
+
+  @VisibleInRateflow
+  protected var _productWithdrawalCoverageType : java.lang.String as ProductWithdrawalCoverageType = ""
+
+  @VisibleInRateflow
+  protected var _prodsWithdrawalCoverage : java.lang.String as ProdsWithdrawalCoverage = ""
+
+  @VisibleInRateflow
+  protected var _prodsCompldOpsPDDeductible : java.lang.String as ProdsCompldOpsPDDeductible = ""
+
+  @VisibleInRateflow
+  protected var _prodsCompldOpsBIPDDeductible : java.lang.String as ProdsCompldOpsBIPDDeductible = ""
+
+  @VisibleInRateflow
+  protected var _prodsCompldOpsBIDeductible : java.lang.String as ProdsCompldOpsBIDeductible = ""
+
+  @VisibleInRateflow
+  protected var _prodsCompldOpsAggregateLimitGovernmentalSubdivision : java.lang.String as ProdsCompldOpsAggregateLimitGovernmentalSubdivision = ""
+
+  @VisibleInRateflow
+  protected var _prodsCompldOpsAggregateLimit : java.lang.String as ProdsCompldOpsAggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _premiumDiscountPercentage : java.math.BigDecimal as PremiumDiscountPercentage = 0.0
+
+  @VisibleInRateflow
+  protected var _premium : java.math.BigDecimal as Premium = 0.0
+
+  @VisibleInRateflow
+  protected var _premOpsProdsRetroactiveDate : java.util.Date as PremOpsProdsRetroactiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _premOpsProdsEachOccurrenceLimitGovernmentalSubdivision : java.lang.String as PremOpsProdsEachOccurrenceLimitGovernmentalSubdivision = ""
+
+  @VisibleInRateflow
+  protected var _premOpsProdsEachOccurrenceLimit : java.lang.String as PremOpsProdsEachOccurrenceLimit = ""
+
+  @VisibleInRateflow
+  protected var _premOpsProdsCoverageForm : java.lang.String as PremOpsProdsCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _premOpsPDDeductible : java.lang.String as PremOpsPDDeductible = ""
+
+  @VisibleInRateflow
+  protected var _premOpsBIPDDeductible : java.lang.String as PremOpsBIPDDeductible = ""
+
+  @VisibleInRateflow
+  protected var _premOpsBIDeductible : java.lang.String as PremOpsBIDeductible = ""
+
+  @VisibleInRateflow
+  protected var _pollutionRetroactiveDate : java.util.Date as PollutionRetroactiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _pollutionCoverageForm : java.lang.String as PollutionCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _pollutionCleanUpCoverage : java.lang.String as PollutionCleanUpCoverage = ""
+
+  @VisibleInRateflow
+  protected var _pollutionAggregateLimit : java.lang.String as PollutionAggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _policyExtendsToPostTRIAIndicator : java.lang.Integer as PolicyExtendsToPostTRIAIndicator = 0
+
+  @VisibleInRateflow
+  protected var _policyExtendsToPostTRIA : java.lang.String as PolicyExtendsToPostTRIA = ""
+
+  @VisibleInRateflow
+  protected var _policyEffectiveWhileTRIAInEffectIndicator : java.lang.Integer as PolicyEffectiveWhileTRIAInEffectIndicator = 0
+
+  @VisibleInRateflow
+  protected var _policyEffectiveWhileTRIAInEffect : java.lang.String as PolicyEffectiveWhileTRIAInEffect = ""
+
+  @VisibleInRateflow
+  protected var _personalAndAdvertisingInjuryLimit : java.lang.String as PersonalAndAdvertisingInjuryLimit = ""
+
+  @VisibleInRateflow
+  protected var _personalAndAdvertisingInjuryExcl : java.lang.String as PersonalAndAdvertisingInjuryExcl = ""
+
+  @VisibleInRateflow
+  protected var _perPersonLimitOtherThanPD : java.lang.String as PerPersonLimitOtherThanPD = ""
+
+  @VisibleInRateflow
+  protected var _perPersonLimit : java.lang.String as PerPersonLimit = ""
+
+  @VisibleInRateflow
+  protected var _packagePolicy : java.lang.String as PackagePolicy = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("PackageModFactor")
+  protected var _packageModFactor : java.math.BigDecimal as PackageModFactor = 0.0
+
+  @VisibleInRateflow
+  protected var _ownersContractorsEachOccurrenceLimit : java.lang.String as OwnersContractorsEachOccurrenceLimit = ""
+
+  @VisibleInRateflow
+  protected var _ownersContractorsCoverageForm : java.lang.String as OwnersContractorsCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _ownersContractorsAggregateLimit : java.lang.String as OwnersContractorsAggregateLimit = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ModToUse")
+  protected var _modToUse : java.math.BigDecimal as ModToUse = 0.0
+
+  @VisibleInRateflow
+  protected var _medicalPaymentsExcl : java.lang.String as MedicalPaymentsExcl = ""
+
+  @VisibleInRateflow
+  protected var _liquorRetroactiveDate : java.util.Date as LiquorRetroactiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _liquorDeductible : java.lang.String as LiquorDeductible = ""
+
+  @VisibleInRateflow
+  protected var _liquorCoverageForm : java.lang.String as LiquorCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _limitedCovForDesignatedUnmannedAircraft1 : java.lang.String as LimitedCovForDesignatedUnmannedAircraft1 = ""
+
+  @VisibleInRateflow
+  protected var _legalEntity : java.lang.String as LegalEntity = ""
+
+  @VisibleInRateflow
+  protected var _incidentLimit : java.lang.String as IncidentLimit = ""
+
+  @VisibleInRateflow
+  protected var _governmentalSubdivision : java.lang.String as GovernmentalSubdivision = ""
+
+  @VisibleInRateflow
+  protected var _generalAggregateLimitGovernmentalSubdivision : java.lang.String as GeneralAggregateLimitGovernmentalSubdivision = ""
+
+  @VisibleInRateflow
+  protected var _generalAggregateLimit : java.lang.String as GeneralAggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _expirationDt : java.util.Date as ExpirationDt = new java.util.Date()
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ExperienceRatingModificationFa")
+  protected var _experienceRatingModificationFactor : java.math.BigDecimal as ExperienceRatingModificationFactor = 0.0
+
+  @VisibleInRateflow
+  protected var _experienceRatingApplies : java.lang.String as ExperienceRatingApplies = ""
+
+  @VisibleInRateflow
+  protected var _experienceNumberYearsRequired : java.lang.Integer as ExperienceNumberYearsRequired = 0
+
+  @VisibleInRateflow
+  protected var _experienceBusinessStartDate : java.util.Date as ExperienceBusinessStartDate = new java.util.Date()
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ExpenseModification")
+  protected var _expenseModification : java.math.BigDecimal as ExpenseModification = 0.0
+
+  @VisibleInRateflow
+  protected var _effectiveDt : java.util.Date as EffectiveDt = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _eachPollutionIncidentLimit : java.lang.String as EachPollutionIncidentLimit = ""
+
+  @VisibleInRateflow
+  protected var _eachElectronicDataIncidentLimit : java.lang.String as EachElectronicDataIncidentLimit = ""
+
+  @VisibleInRateflow
+  protected var _eachCommonCauseLimit : java.lang.String as EachCommonCauseLimit = ""
+
+  @VisibleInRateflow
+  protected var _eRPYearsOfExperienceIncurred : java.lang.Integer as ERPYearsOfExperienceIncurred = 0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPTotalIncludedLosses")
+  protected var _eRPTotalIncludedLosses : java.math.BigDecimal as ERPTotalIncludedLosses = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPTotalBasicLmtsCoSubjectLoss")
+  protected var _eRPTotalBasicLimitsCoSubjectLossCost : java.math.BigDecimal as ERPTotalBasicLimitsCoSubjectLossCost = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPTotalAdjmtToUltimateLevelOf")
+  protected var _eRPTotalAdjmtToUltimateLevelOfLosses : java.math.BigDecimal as ERPTotalAdjmtToUltimateLevelOfLosses = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPThirdLatestYearYIP : java.lang.Integer as ERPThirdLatestYearYIP = 0
+
+  @VisibleInRateflow
+  protected var _eRPThirdLatestYearWithSameCarrier : java.lang.String as ERPThirdLatestYearWithSameCarrier = ""
+
+  @VisibleInRateflow
+  protected var _eRPThirdLatestYearTypeOfPolicy : java.lang.String as ERPThirdLatestYearTypeOfPolicy = ""
+
+  @VisibleInRateflow
+  protected var _eRPThirdLatestYearTotalIncludedLoss : java.math.BigDecimal as ERPThirdLatestYearTotalIncludedLoss = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPThirdLatestYearLatestValuationDate : java.util.Date as ERPThirdLatestYearLatestValuationDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _eRPThirdLatestYearEffectiveDate : java.util.Date as ERPThirdLatestYearEffectiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPThirdLatestYearDetrendFacto")
+  protected var _eRPThirdLatestYearDetrendFactorProdsCompldOps : java.math.BigDecimal as ERPThirdLatestYearDetrendFactorProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPThirdLatestYearDetrendFacto")
+  protected var _eRPThirdLatestYearDetrendFactorPremOps : java.math.BigDecimal as ERPThirdLatestYearDetrendFactorPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPSublinePresentAvgRateProdCo")
+  protected var _eRPSublinePresentAvgRateProdCompldOps : java.math.BigDecimal as ERPSublinePresentAvgRateProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPSublinePresentAvgRatePremOp")
+  protected var _eRPSublinePresentAvgRatePremOps : java.math.BigDecimal as ERPSublinePresentAvgRatePremOps = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPSecondLatestYearYIP : java.lang.Integer as ERPSecondLatestYearYIP = 0
+
+  @VisibleInRateflow
+  protected var _eRPSecondLatestYearWithSameCarrier : java.lang.String as ERPSecondLatestYearWithSameCarrier = ""
+
+  @VisibleInRateflow
+  protected var _eRPSecondLatestYearTypeOfPolicy : java.lang.String as ERPSecondLatestYearTypeOfPolicy = ""
+
+  @VisibleInRateflow
+  protected var _eRPSecondLatestYearTotalIncludedLoss : java.math.BigDecimal as ERPSecondLatestYearTotalIncludedLoss = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPSecondLatestYearLatestValuationDate : java.util.Date as ERPSecondLatestYearLatestValuationDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _eRPSecondLatestYearEffectiveDate : java.util.Date as ERPSecondLatestYearEffectiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPSecondLatestYearDetrendFact")
+  protected var _eRPSecondLatestYearDetrendFactorProdsCompldOps : java.math.BigDecimal as ERPSecondLatestYearDetrendFactorProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPSecondLatestYearDetrendFact")
+  protected var _eRPSecondLatestYearDetrendFactorPremOps : java.math.BigDecimal as ERPSecondLatestYearDetrendFactorPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorCThir")
+  protected var _eRPPolicyAdjustmentFactorCThirdLatestYearProdsCompldOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorCThirdLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorCThir")
+  protected var _eRPPolicyAdjustmentFactorCThirdLatestYearPremOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorCThirdLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorCSeco")
+  protected var _eRPPolicyAdjustmentFactorCSecondLatestYearProdsCompldOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorCSecondLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorCSeco")
+  protected var _eRPPolicyAdjustmentFactorCSecondLatestYearPremOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorCSecondLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorCLate")
+  protected var _eRPPolicyAdjustmentFactorCLatestYearProdsCompldOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorCLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorCLate")
+  protected var _eRPPolicyAdjustmentFactorCLatestYearPremOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorCLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorBProd")
+  protected var _eRPPolicyAdjustmentFactorBProdsCompldOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorBProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPPolicyAdjustmentFactorBPrem")
+  protected var _eRPPolicyAdjustmentFactorBPremOps : java.math.BigDecimal as ERPPolicyAdjustmentFactorBPremOps = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPPeriodEnds6MonthsPrior : java.lang.String as ERPPeriodEnds6MonthsPrior = ""
+
+  @VisibleInRateflow
+  protected var _eRPMaximumSingleLoss : java.lang.Integer as ERPMaximumSingleLoss = 0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPMaturityThirdLatestYear")
+  protected var _eRPMaturityThirdLatestYear : java.lang.Integer as ERPMaturityThirdLatestYear = 0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPMaturitySecondLatestYear")
+  protected var _eRPMaturitySecondLatestYear : java.lang.Integer as ERPMaturitySecondLatestYear = 0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPMaturityLatestYear")
+  protected var _eRPMaturityLatestYear : java.lang.Integer as ERPMaturityLatestYear = 0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLossDevelopmentFactorThirdL")
+  protected var _eRPLossDevelopmentFactorThirdLatestYearProdsCompldOps : java.math.BigDecimal as ERPLossDevelopmentFactorThirdLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLossDevelopmentFactorThirdL")
+  protected var _eRPLossDevelopmentFactorThirdLatestYearPremOps : java.math.BigDecimal as ERPLossDevelopmentFactorThirdLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLossDevelopmentFactorSecond")
+  protected var _eRPLossDevelopmentFactorSecondLatestYearProdsCompldOps : java.math.BigDecimal as ERPLossDevelopmentFactorSecondLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLossDevelopmentFactorSecond")
+  protected var _eRPLossDevelopmentFactorSecondLatestYearPremOps : java.math.BigDecimal as ERPLossDevelopmentFactorSecondLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLossDevelopmentFactorLatest")
+  protected var _eRPLossDevelopmentFactorLatestYearProdsCompldOps : java.math.BigDecimal as ERPLossDevelopmentFactorLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLossDevelopmentFactorLatest")
+  protected var _eRPLossDevelopmentFactorLatestYearPremOps : java.math.BigDecimal as ERPLossDevelopmentFactorLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPLatestYearYIP : java.lang.Integer as ERPLatestYearYIP = 0
+
+  @VisibleInRateflow
+  protected var _eRPLatestYearWithSameCarrier : java.lang.String as ERPLatestYearWithSameCarrier = ""
+
+  @VisibleInRateflow
+  protected var _eRPLatestYearTypeOfPolicy : java.lang.String as ERPLatestYearTypeOfPolicy = ""
+
+  @VisibleInRateflow
+  protected var _eRPLatestYearTotalIncludedLoss : java.math.BigDecimal as ERPLatestYearTotalIncludedLoss = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPLatestYearLatestValuationDate : java.util.Date as ERPLatestYearLatestValuationDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _eRPLatestYearEffectiveDate : java.util.Date as ERPLatestYearEffectiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLatestYearDetrendFactorProd")
+  protected var _eRPLatestYearDetrendFactorProdsCompldOps : java.math.BigDecimal as ERPLatestYearDetrendFactorProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPLatestYearDetrendFactorPrem")
+  protected var _eRPLatestYearDetrendFactorPremOps : java.math.BigDecimal as ERPLatestYearDetrendFactorPremOps = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisThirdLatestYearProdCompldOps : java.lang.Long as ERPExposuresOnSpecialUWBasisThirdLatestYearProdCompldOps = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisThirdLatestYearPremOps : java.lang.Long as ERPExposuresOnSpecialUWBasisThirdLatestYearPremOps = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisSecondLatestYearProdCompldOps : java.lang.Long as ERPExposuresOnSpecialUWBasisSecondLatestYearProdCompldOps = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisSecondLatestYearPremOps : java.lang.Long as ERPExposuresOnSpecialUWBasisSecondLatestYearPremOps = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisProdCompldOpsCurrent : java.lang.Long as ERPExposuresOnSpecialUWBasisProdCompldOpsCurrent = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisPremOpsCurrent : java.lang.Long as ERPExposuresOnSpecialUWBasisPremOpsCurrent = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisLatestYearProdCompldOps : java.lang.Long as ERPExposuresOnSpecialUWBasisLatestYearProdCompldOps = 0
+
+  @VisibleInRateflow
+  protected var _eRPExposuresOnSpecialUWBasisLatestYearPremOps : java.lang.Long as ERPExposuresOnSpecialUWBasisLatestYearPremOps = 0
+
+  @VisibleInRateflow
+  protected var _eRPExperienceModificationOverride : java.math.BigDecimal as ERPExperienceModificationOverride = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPExperienceModificationAllOtherSublines : java.math.BigDecimal as ERPExperienceModificationAllOtherSublines = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPExperienceModification")
+  protected var _eRPExperienceModification : java.math.BigDecimal as ERPExperienceModification = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPExpenseVariationApplies : java.lang.String as ERPExpenseVariationApplies = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPExpectedLossRatio")
+  protected var _eRPExpectedLossRatio : java.math.BigDecimal as ERPExpectedLossRatio = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPExpectedExperienceRatio")
+  protected var _eRPExpectedExperienceRatio : java.math.BigDecimal as ERPExpectedExperienceRatio = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPDramaticChangeOnExposure : java.lang.String as ERPDramaticChangeOnExposure = ""
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPCredibilityFactor")
+  protected var _eRPCredibilityFactor : java.math.BigDecimal as ERPCredibilityFactor = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoSubjectLossCostT")
+  protected var _eRPBasicLimitsCoSubjectLossCostThirdLatestYearProdsCompldOps : java.math.BigDecimal as ERPBasicLimitsCoSubjectLossCostThirdLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoSubjectLossCostT")
+  protected var _eRPBasicLimitsCoSubjectLossCostThirdLatestYearPremOps : java.math.BigDecimal as ERPBasicLimitsCoSubjectLossCostThirdLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoSubjectLossCostS")
+  protected var _eRPBasicLimitsCoSubjectLossCostSecondLatestYearProdsCompldOps : java.math.BigDecimal as ERPBasicLimitsCoSubjectLossCostSecondLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoSubjectLossCostS")
+  protected var _eRPBasicLimitsCoSubjectLossCostSecondLatestYearPremOps : java.math.BigDecimal as ERPBasicLimitsCoSubjectLossCostSecondLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoSubjectLossCostL")
+  protected var _eRPBasicLimitsCoSubjectLossCostLatestYearProdsCompldOps : java.math.BigDecimal as ERPBasicLimitsCoSubjectLossCostLatestYearProdsCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoSubjectLossCostL")
+  protected var _eRPBasicLimitsCoSubjectLossCostLatestYearPremOps : java.math.BigDecimal as ERPBasicLimitsCoSubjectLossCostLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoLossCostBySublin")
+  protected var _eRPBasicLimitsCoLossCostBySublineThirdLatestYearProdCompldOps : java.math.BigDecimal as ERPBasicLimitsCoLossCostBySublineThirdLatestYearProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoLossCostBySublin")
+  protected var _eRPBasicLimitsCoLossCostBySublineThirdLatestYearPremOps : java.math.BigDecimal as ERPBasicLimitsCoLossCostBySublineThirdLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoLossCostBySublin")
+  protected var _eRPBasicLimitsCoLossCostBySublineSecondLatestYearProdCompldOps : java.math.BigDecimal as ERPBasicLimitsCoLossCostBySublineSecondLatestYearProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoLossCostBySublin")
+  protected var _eRPBasicLimitsCoLossCostBySublineSecondLatestYearPremOps : java.math.BigDecimal as ERPBasicLimitsCoLossCostBySublineSecondLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoLossCostBySublin")
+  protected var _eRPBasicLimitsCoLossCostBySublineLatestYearProdCompldOps : java.math.BigDecimal as ERPBasicLimitsCoLossCostBySublineLatestYearProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPBasicLmtsCoLossCostBySublin")
+  protected var _eRPBasicLimitsCoLossCostBySublineLatestYearPremOps : java.math.BigDecimal as ERPBasicLimitsCoLossCostBySublineLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAnnualBasicLmtsCoLossCostPr")
+  protected var _eRPAnnualBasicLimitsCoLossCostProdCompldOps : java.math.BigDecimal as ERPAnnualBasicLimitsCoLossCostProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAnnualBasicLmtsCoLossCostPr")
+  protected var _eRPAnnualBasicLimitsCoLossCostPremOps : java.math.BigDecimal as ERPAnnualBasicLimitsCoLossCostPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAdjmtToUltimateLevelOfLosse")
+  protected var _eRPAdjmtToUltimateLevelOfLossesThirdLatestYearProdCompldOps : java.math.BigDecimal as ERPAdjmtToUltimateLevelOfLossesThirdLatestYearProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAdjmtToUltimateLevelOfLosse")
+  protected var _eRPAdjmtToUltimateLevelOfLossesThirdLatestYearPremOps : java.math.BigDecimal as ERPAdjmtToUltimateLevelOfLossesThirdLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAdjmtToUltimateLevelOfLosse")
+  protected var _eRPAdjmtToUltimateLevelOfLossesSecondLatestYearProdCompldOps : java.math.BigDecimal as ERPAdjmtToUltimateLevelOfLossesSecondLatestYearProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAdjmtToUltimateLevelOfLosse")
+  protected var _eRPAdjmtToUltimateLevelOfLossesSecondLatestYearPremOps : java.math.BigDecimal as ERPAdjmtToUltimateLevelOfLossesSecondLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAdjmtToUltimateLevelOfLosse")
+  protected var _eRPAdjmtToUltimateLevelOfLossesLatestYearProdCompldOps : java.math.BigDecimal as ERPAdjmtToUltimateLevelOfLossesLatestYearProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPAdjmtToUltimateLevelOfLosse")
+  protected var _eRPAdjmtToUltimateLevelOfLossesLatestYearPremOps : java.math.BigDecimal as ERPAdjmtToUltimateLevelOfLossesLatestYearPremOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("ERPActualExperienceRatio")
+  protected var _eRPActualExperienceRatio : java.math.BigDecimal as ERPActualExperienceRatio = 0.0
+
+  @VisibleInRateflow
+  protected var _eRPActualExpectedLossRatio : java.math.BigDecimal as ERPActualExpectedLossRatio = 0.0
+
+  @VisibleInRateflow
+  protected var _eDLRetroactiveDate : java.util.Date as EDLRetroactiveDate = new java.util.Date()
+
+  @VisibleInRateflow
+  protected var _eDLCoverageForm : java.lang.String as EDLCoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _eDLAggregateLimit : java.lang.String as EDLAggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _damageToPremisesRentedToYouExcl : java.lang.String as DamageToPremisesRentedToYouExcl = ""
+
+  @VisibleInRateflow
+  protected var _coverageForm : java.lang.String as CoverageForm = ""
+
+  @VisibleInRateflow
+  protected var _cPPIRPMFactor : java.math.BigDecimal as CPPIRPMFactor = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("AnnualBasicLmtsCoPremiumProdCo")
+  protected var _annualBasicLimitsCoPremiumProdCompldOps : java.math.BigDecimal as AnnualBasicLimitsCoPremiumProdCompldOps = 0.0
+
+  @VisibleInRateflow
+  @gw.lob.common.annotations.StatCode("AnnualBasicLmtsCoPremiumPremOp")
+  protected var _annualBasicLimitsCoPremiumPremOps : java.math.BigDecimal as AnnualBasicLimitsCoPremiumPremOps = 0.0
+
+  @VisibleInRateflow
+  protected var _aggregateLimit : java.lang.String as AggregateLimit = ""
+
+  @VisibleInRateflow
+  protected var _additionalInterestFactor : java.math.BigDecimal as AdditionalInterestFactor = 0.0
+
+  @VisibleInRateflow
+  protected var _additionalInterestCount : java.lang.Integer as AdditionalInterestCount = 0
+
+  
+  @VisibleInRateflow(false)
+  property get AsDataModel() : GL7GeneralLiabilityLine {
+   return _dataModel as GL7GeneralLiabilityLine
+  }
+  
+
+  
+  @VisibleInRateflow(false)
+  protected var _parameters : gw.lob.common.parameters.Parameters as Parameters  
+
+}

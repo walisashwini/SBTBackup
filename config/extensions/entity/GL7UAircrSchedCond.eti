@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7UAircrSchedCond"
+  desc="Clause with schedule"
+  final="false"
+  supertype="GL7UnmannedAircraftCond">
+  <implementsInterface
+    iface="gw.api.domain.Schedule"
+    impl="gw.lob.gl7.schedules.GL7UAircrSchedCondImpl"/>
+  <implementsEntity
+    name="ScheduleAutoNumberSequence"/>
+  <array
+    arrayentity="GL7UAircrSchedCondItem"
+    name="ScheduledItems"
+    cascadeDelete="true"
+    desc="Scheduled Items"
+    setterScriptability="all"/>
+</subtype>

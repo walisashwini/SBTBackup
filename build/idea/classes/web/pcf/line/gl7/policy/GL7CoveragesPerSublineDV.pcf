@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <DetailViewPanel
+    id="GL7CoveragesPerSublineDV">
+    <Require
+      name="coverablePerSubline"
+      type="gw.lob.gl7.presenters.GL7CoverablePerSubline"/>
+    <Require
+      name="getClausesToShow"
+      type="block(coverable : Coverable) : List&lt;gw.api.domain.Clause&gt;"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <InputColumn>
+      <InputIterator
+        elementName="sublineCoverableEntry"
+        value="coverablePerSubline.Entries"
+        valueType="gw.lob.gl7.presenters.GL7CoverablePerSubline.Entry[]">
+        <InputSet>
+          <Variable
+            initialValue="sublineCoverableEntry.Coverable"
+            name="coverable"
+            type="entity.Coverable"/>
+          <Variable
+            initialValue="getClausesToShow(coverable)*.Pattern"
+            name="addedCoveragesToShow"
+            type="gw.api.productmodel.ClausePattern[]"
+            recalculateOnRefresh="true"/>
+          <Variable
+            initialValue="new gw.lob.common.coverage.LobCoverageHelper()"
+            name="coverageHelper"
+            type="gw.lob.common.coverage.CoverageHelper"/>
+          <Variable
+            initialValue="new gw.lob.common.schedules.LobScheduledItemHelper()"
+            name="scheduledItemHelper"
+            type="gw.lob.common.schedules.ScheduledItemHelper"/>
+          <InputDivider
+            visible="addedCoveragesToShow.HasElements"/>
+          <Label
+            label="sublineCoverableEntry.SublineType.DisplayName"
+            visible="addedCoveragesToShow.HasElements"/>
+          <InputIterator
+            desc="OK for toAdd to be null -- coverage is added by the popup"
+            elementName="coveragePattern"
+            forceRefreshDespiteChangedEntries="true"
+            id="AddedCovIterator"
+            value="addedCoveragesToShow"
+            valueType="gw.api.productmodel.ClausePattern[]">
+            <IteratorSort
+              sortBy="coveragePattern.CoverageCategory.Priority"
+              sortOrder="1"/>
+            <IteratorSort
+              sortBy="coveragePattern.Priority"
+              sortOrder="2"/>
+            <InputSetRef
+              def="LobCoverageInputSet(coveragePattern, coverable, openForEdit, jobWizardHelper, coverageHelper, scheduledItemHelper, new gw.lob.gl7.GL7AdditionalInsuredHelper())"/>
+          </InputIterator>
+        </InputSet>
+      </InputIterator>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

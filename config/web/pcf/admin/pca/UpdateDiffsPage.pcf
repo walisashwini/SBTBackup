@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Page
+    afterCancel="AvailableUpdatesPage.go(filterOption, false)"
+    alwaysInEditMode="true"
+    beforeCommit="updatePresenter.saveChanges(typekey.SBTUpdateStatus.TC_INPROGRESS)"
+    canEdit="true"
+    canVisit="true"
+    id="UpdateDiffsPage"
+    parent="AvailableUpdatesPage(filterOption, false)"
+    showUpLink="true"
+    startInEditMode="true"
+    title="DisplayKey.get(&quot;Web.Admin.LOB.ProductContentAnalysis.FeatureTitle&quot;)">
+    <LocationEntryPoint
+      signature="UpdateDiffsPage(updatePresenter : gw.sbt.pca.view.presenter.UpdatePresenter, filterOption: gw.sbt.pca.view.presenter.PresenterUtil.SBTUPDATE_FILTER_OPTION)"/>
+    <Variable
+      name="updatePresenter"
+      type="gw.sbt.pca.view.presenter.UpdatePresenter"/>
+    <Variable
+      name="filterOption"
+      type="gw.sbt.pca.view.presenter.PresenterUtil.SBTUPDATE_FILTER_OPTION"/>
+    <ScreenRef
+      def="UpdateDiffsScreen(updatePresenter)"/>
+  </Page>
+</PCF>
+

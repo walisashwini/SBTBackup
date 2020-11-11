@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7ExposureExcl" public-id="GL7SnowplowOps" priority="2035000" lookupTableName="GL7ExposureExcl" existence="" owningEntityType="GL7Exposure" referenceDateByType="PolicyTerm" coverageCategory="GL7ExposureExclGrp" codeIdentifier="GL7SnowplowOps" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7Exposure.isClauseAvailable("GL7SnowplowOps");]]></AvailabilityScript>
+    <ExistenceScript><![CDATA[return GL7Exposure.getClauseExistence("GL7SnowplowOps");]]></ExistenceScript>
+    <CovTerms>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7ExposureCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium188" required="true" codeIdentifier="GL7ManualPremium188"/>
+    </CovTerms>
+</ExclusionPattern>

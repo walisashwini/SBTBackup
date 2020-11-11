@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../../pcf.xsd">
+  <Screen
+    editable="openForEdit"
+    id="APDRiskScreen">
+    <Require
+      name="apdLine"
+      type="APDRiskPolicyLine"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="new gw.apd.model.CoverDefinitionHelper()"
+      name="coverDefinitionHelper"
+      type="gw.apd.model.CoverDefinitionHelper"/>
+    <Toolbar>
+      <WizardButtons/>
+      <ToolbarButtonSetRef
+        mode="apdLine.Branch.Job.Subtype"
+        toolbarButtonSet="JobWizardToolbarButtonSet(apdLine.Branch, apdLine.Branch.Job, jobWizardHelper)"/>
+    </Toolbar>
+    <PanelRef
+      def="OOSEPanelSet(apdLine.Branch, jobWizardHelper)"/>
+    <PanelRef
+      def="APDRiskCoverablePanelSet(apdLine, openForEdit, jobWizardHelper, coverDefinitionHelper)"/>
+  </Screen>
+</PCF>

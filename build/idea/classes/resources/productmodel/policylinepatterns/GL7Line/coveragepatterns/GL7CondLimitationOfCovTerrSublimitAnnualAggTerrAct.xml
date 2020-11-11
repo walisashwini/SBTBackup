@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConditionPattern conditionSubtype="GL7SublineTypeCond" public-id="GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct" priority="200000" lookupTableName="GL7SublineTypeCond" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeCondGrp" codeIdentifier="GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7AggLimit2" required="true" codeIdentifier="GL7AggLimit2">
+            <AvailabilityScript><![CDATA[return GL7SublineType.isCovTermAvailable("GL7CondLimitationOfCovTerrSublimitAnnualAggTerrAct", "GL7AggLimit2");]]></AvailabilityScript>
+            <Options>
+                <CovTermOpt public-id="zjpjou7s41cat80t0i6556a5cl9" priority="1" optionCode="50000" value="50000" codeIdentifier="zjpjou7s41cat80t0i6556a5cl9">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zv9j0viv5pgsk48fcb9bk12n539" priority="2" optionCode="100000" value="100000" codeIdentifier="zv9j0viv5pgsk48fcb9bk12n539">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zmshe1taaa92hf38lvnnpp8iv39" priority="3" optionCode="200000" value="200000" codeIdentifier="zmshe1taaa92hf38lvnnpp8iv39">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="z0ljqg3pi8bd4d1l28iscdsg8cb" priority="4" optionCode="300000" value="300000" codeIdentifier="z0ljqg3pi8bd4d1l28iscdsg8cb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="z3aj226t337m83973qr5d3k26la" priority="9" optionCode="500000" value="500000" codeIdentifier="z3aj226t337m83973qr5d3k26la">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="z0rj0kiopqdj140cc7r6mu35cd9" priority="10" optionCode="600000" value="600000" codeIdentifier="z0rj0kiopqdj140cc7r6mu35cd9">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zsggogosbohpi4mo34i619kdatb" priority="17" optionCode="1000000" value="1000000" codeIdentifier="zsggogosbohpi4mo34i619kdatb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zmuhonar164nhcm0q2ek1if67bb" priority="25" optionCode="1500000" value="1500000" codeIdentifier="zmuhonar164nhcm0q2ek1if67bb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zo5gapd8ntd730ph3drga96qo3b" priority="26" optionCode="2000000" value="2000000" codeIdentifier="zo5gapd8ntd730ph3drga96qo3b">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="z0jj06qo215mr54uad7ij3lhjcb" priority="36" optionCode="2500000" value="2500000" codeIdentifier="z0jj06qo215mr54uad7ij3lhjcb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zkcgmu4jo33ar9pqacmrvvdlvga" priority="37" optionCode="3000000" value="3000000" codeIdentifier="zkcgmu4jo33ar9pqacmrvvdlvga">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zt3gk4k8rinrv4fgf5v47u08bc8" priority="49" optionCode="4000000" value="4000000" codeIdentifier="zt3gk4k8rinrv4fgf5v47u08bc8">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zsvjk1skn9n8i4ltifhqt0gjjha" priority="50" optionCode="5000000" value="5000000" codeIdentifier="zsvjk1skn9n8i4ltifhqt0gjjha">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zr8iudbg7lcsb472krebttmemfb" priority="63" optionCode="10000000" value="10000000" codeIdentifier="zr8iudbg7lcsb472krebttmemfb">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+                <CovTermOpt public-id="zmlh01rgmet0ha1j90d68qo44q9" priority="138" optionCode="20000000" value="20000000" codeIdentifier="zmlh01rgmet0ha1j90d68qo44q9">
+                    <AvailabilityScript><![CDATA[return CovTerm.isOptionAvailable(CovTermOpt)]]></AvailabilityScript>
+                </CovTermOpt>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="200" public-id="GL7ManualPremium33" required="true" codeIdentifier="GL7ManualPremium33"/>
+    </CovTerms>
+</ConditionPattern>

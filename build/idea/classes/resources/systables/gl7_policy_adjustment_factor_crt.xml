@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7PolicyAdjustmentFacto1 public-id="z7og6hn9jrk211hk2jpcjcigia9">
+    <Value>0.47</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <YIP>1</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="z66ikoeqchsurb4uvbupf1627db">
+    <Value>0.67</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <YIP>2</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="z77hsmb34s9n3bgpe7e8h2hg6c8">
+    <Value>0.78</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <YIP>3</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="zu3geoan66jmh5a9ik0u15du6b8">
+    <Value>0.84</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <YIP>4</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="z0bj0j50hiicv8c1qgvlfl0b0a9">
+    <Value>0.94</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>PremOps</Coverage>
+    <YIP>5</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="zp5h82tm17pgi0v1j554lpoi3vb">
+    <Value>0.22</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <YIP>1</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="znnga17obalib1ras0h7mejolna">
+    <Value>0.35</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <YIP>2</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="zdlg813d7nko5a5s5nncdtjv65b">
+    <Value>0.43</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <YIP>3</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="zmngmhh4nc68u6ggu5oka1v6878">
+    <Value>0.49</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <YIP>4</YIP>
+  </GL7PolicyAdjustmentFacto1>
+  <GL7PolicyAdjustmentFacto1 public-id="zb9jm8p8hr14d2k2ee9tlnseqb9">
+    <Value>0.72</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <Coverage>Products</Coverage>
+    <YIP>5</YIP>
+  </GL7PolicyAdjustmentFacto1>
+</import>

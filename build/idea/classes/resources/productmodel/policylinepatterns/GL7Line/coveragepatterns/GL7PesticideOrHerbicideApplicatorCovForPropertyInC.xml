@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineSchedCov" coveredPartyType="ThirdParty" public-id="GL7PesticideOrHerbicideApplicatorCovForPropertyInC" priority="901000" lookupTableName="GL7SublineCov" existence="Electable" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineAddlGrp" codeIdentifier="GL7PesticideOrHerbicideApplicatorCovForPropertyInC" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7PesticideOrHerbicideApplicatorCovForPropertyInC");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" defaultValue="300000" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="200" public-id="GL7AggLimit4" required="true" codeIdentifier="GL7AggLimit4">
+      <LimitsSet>
+        <CovTermLimits currency="usd" public-id="GL7AggLimit4USD" codeIdentifier="GL7AggLimit4USD"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+    <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm2" defaultValue="300000" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="100" public-id="GL7EachOccurrenceLimit3" required="true" codeIdentifier="GL7EachOccurrenceLimit3">
+      <LimitsSet>
+        <CovTermLimits currency="usd" public-id="GL7EachOccurrenceLimit3USD" codeIdentifier="GL7EachOccurrenceLimit3USD"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm3" defaultValue="0" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="400" public-id="GL7ManualPremium237" required="true" codeIdentifier="GL7ManualPremium237">
+      <LimitsSet>
+        <CovTermLimits public-id="GL7ManualPremium237NOCURRENCY" codeIdentifier="GL7ManualPremium237NOCURRENCY"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+    <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm4" defaultValue="300000" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="300" public-id="GL7ProdsCompletedOpsAggLimit" required="true" codeIdentifier="GL7ProdsCompletedOpsAggLimit">
+      <LimitsSet>
+        <CovTermLimits currency="usd" public-id="GL7ProdsCompletedOpsAggLimitUSD" codeIdentifier="GL7ProdsCompletedOpsAggLimitUSD"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+  </CovTerms>
+</CoveragePattern>

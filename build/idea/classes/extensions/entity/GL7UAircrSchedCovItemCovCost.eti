@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<subtype
+  xmlns="http://guidewire.com/datamodel"
+  desc="The cost for a GL7UAircrSchedCovItemCov"
+  displayName="GL7UAircrSchedCovItemCov Cost"
+  entity="GL7UAircrSchedCovItemCovCost"
+  final="true"
+  supertype="GL7UAircrSchedCovItemCost">
+  <implementsInterface
+    iface="gw.lob.common.financials.LobCostMethods"
+    impl="gw.lob.gl7.financials.GL7UAircrSchedCovItemCovCostImpl"/>
+  <implementsEntity
+    name="Cost"/>
+  <implementsInterface
+    iface="gw.api.domain.financials.CostAdapter"
+    impl="gw.lob.gl7.financials.GL7CostAdapter"/>
+  <foreignkey
+    fkentity="GL7UAircrSchedCovItemCov"
+    name="UAircrSchedCovItemCov"
+    nullok="false"/>
+</subtype>

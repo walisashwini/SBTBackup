@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity entity="GL7OwnersContractorsClas9" loadable="false" table="gl7ownerscontractorsclas9" type="retireable" xmlns="http://guidewire.com/datamodel">
+    <column desc="Value" name="Value" nullok="false" type="varchar">
+        <columnParam name="size" value="100"/>
+    </column>
+    <column desc="OwnersContractorsClassCodeForClassDescription" name="OwnersContractorsClassCodeForC" nullok="true" type="varchar">
+        <columnParam name="size" value="10"/>
+    </column>
+    <implementsEntity name="SimpleEffDated"/>
+    <typekey desc="Jurisdiction" name="Jurisdiction" nullok="true" typelist="Jurisdiction"/>
+</entity>

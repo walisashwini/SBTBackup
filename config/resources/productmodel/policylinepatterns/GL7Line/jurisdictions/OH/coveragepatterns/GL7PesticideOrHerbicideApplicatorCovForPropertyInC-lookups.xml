@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+  <CoverageLookup public-id="z4qhg0upugp83bv1uaubebnk919">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CoveragePatternCode>GL7PesticideOrHerbicideApplicatorCovForPropertyInC</CoveragePatternCode>
+    <EndEffectiveDate/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zrvi686bk5not3osc5h5ng16rfb">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7AggLimit4</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="z1lho8h44bajq9u223unr97hrc9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7EachOccurrenceLimit3</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zfrhgvfk38aumdpe1142o3kn5n8">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ManualPremium237</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zgghq1t7sjkrofcgbegl47ir9u9">
+    <Availability>Available</Availability>
+    <State>OH</State>
+    <StartEffectiveDate>2020-03-01 00:00:00.000</StartEffectiveDate>
+    <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+    <CovTermPatternCode>GL7ProdsCompletedOpsAggLimit</CovTermPatternCode>
+    <EndEffectiveDate/>
+  </CovTermLookup>
+</import>

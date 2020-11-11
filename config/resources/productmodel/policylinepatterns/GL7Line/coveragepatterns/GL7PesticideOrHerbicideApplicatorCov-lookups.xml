@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="z26jsm5nkc34j75m1kmflo10db9">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7PesticideOrHerbicideApplicatorCov</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="zmoi23n63r24v6837iu07ik8qp8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium137</CovTermPatternCode>
+    </CovTermLookup>
+</import>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<entity
+  xmlns="http://guidewire.com/datamodel"
+  entity="GL7LocationCov"
+  type="effdated"
+  desc="Coverages directly attached to each GL7 Location"
+  effDatedBranchType="PolicyPeriod"
+  exportable="true"
+  final="false"
+  platform="false"
+  loadable="false"
+  table="gl7locationcov">
+  <implementsEntity
+    name="Coverage"/>
+  <implementsInterface
+    iface="gw.api.domain.CoverageAdapter"
+    impl="gw.lob.gl7.GL7LocationCovCoverageAdapter"/>
+  <implementsInterface
+    iface="gw.api.logicalmatch.EffDatedLogicalMatcher"
+    impl="gw.lob.gl7.GL7LocationCovMatcher"/>
+  <foreignkey
+    name="GL7Location"
+    fkentity="GL7Location"
+    exportable="true"
+    nullok="false"/>
+  <array
+    arrayentity="GL7LocationCovCost"
+    cascadeDelete="true"
+    name="Costs"/>
+  <foreignkey fkentity="GL7StatRecord" name="StatRecord" nullok="true"/>
+</entity>

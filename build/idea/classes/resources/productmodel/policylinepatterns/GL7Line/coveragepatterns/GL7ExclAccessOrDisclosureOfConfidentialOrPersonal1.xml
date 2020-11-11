@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExclusionPattern exclusionSubtype="GL7SublineTypeExcl" public-id="GL7ExclAccessOrDisclosureOfConfidentialOrPersonal1" priority="813000" lookupTableName="GL7SublineTypeExcl" existence="Electable" owningEntityType="GL7SublineType" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineTypeExclGrp" codeIdentifier="GL7ExclAccessOrDisclosureOfConfidentialOrPersonal1" policyLinePattern="GL7Line">
+    <AvailabilityScript><![CDATA[return GL7SublineType.isClauseAvailable("GL7ExclAccessOrDisclosureOfConfidentialOrPersonal1");]]></AvailabilityScript>
+    <CovTerms>
+        <OptionCovTermPattern valueType="other" choiceLookupTableName="GL7SublineTypeCovOpt" coverageColumn="ChoiceTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="300" public-id="GL7ExposureBasis1" required="true" codeIdentifier="GL7ExposureBasis1">
+            <Options>
+                <CovTermOpt public-id="zidgauprbg4t80cqvtj4s8q3n5b" priority="1" optionCode="Payroll" value="0" codeIdentifier="zidgauprbg4t80cqvtj4s8q3n5b"/>
+                <CovTermOpt public-id="zm8ics1va2quef39q0o9jk90lvb" priority="2" optionCode="GrossSales" value="0" codeIdentifier="zm8ics1va2quef39q0o9jk90lvb"/>
+                <CovTermOpt public-id="zobg0got1d8via9ps6jcuvnalf8" priority="3" optionCode="AllOther" value="0" codeIdentifier="zobg0got1d8via9ps6jcuvnalf8"/>
+            </Options>
+        </OptionCovTermPattern>
+        <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm1" lookupTableName="GL7SublineTypeCovTerm" modelType="Other" priority="100" public-id="GL7ManualPremium92" required="true" codeIdentifier="GL7ManualPremium92"/>
+    </CovTerms>
+</ExclusionPattern>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="SyncPropertyMeta" type="SyncPropertyMetaType"/>
+
+    <xs:complexType name="SyncPropertyMetaType">
+        <xs:sequence>
+            <xs:element name="Container" type="ContainerType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ContainerType">
+        <xs:sequence>
+            <xs:element name="Property" type="PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="containerType" type="xs:string" use="required"/>
+        <xs:attribute name="containerPath" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="PropertyType">
+        <xs:sequence>
+            <xs:element name="Version" type="VersionType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="propertyName" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="VersionType">
+        <xs:sequence>
+            <xs:element name="Jurisdiction" type="xs:string" minOccurs="0"/>
+            <xs:element name="EffectiveDate" type="xs:date" minOccurs="0"/>
+            <xs:element name="ExpiryDate" type="xs:date" minOccurs="0"/>
+            <xs:element name="SynchronizerClass" type="xs:string" minOccurs="0"/>
+            <xs:element name="Available" type="xs:boolean" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<import>
+    <CoverageLookup public-id="zomi44tauh79nffqo54enmf19q8">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CoveragePatternCode>GL7CapOnLossesFromCertifiedActsOfTerr</CoveragePatternCode>
+    </CoverageLookup>
+    <CovTermLookup public-id="zf1i4hqoc5oiv68gri22ium02ub">
+        <Availability>Available</Availability>
+        <StartEffectiveDate>2019-12-01 00:00:00.000</StartEffectiveDate>
+        <PolicyLinePatternCode>GL7Line</PolicyLinePatternCode>
+        <CovTermPatternCode>GL7ManualPremium25</CovTermPatternCode>
+    </CovTermLookup>
+</import>

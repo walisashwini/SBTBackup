@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <PanelSet
+    id="GL7LocationsPanelSet">
+    <Require
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Require
+      name="openForEdit"
+      type="boolean"/>
+    <Require
+      name="supportsNonSpecificLocation"
+      type="boolean"/>
+    <Require
+      name="jobWizardHelper"
+      type="gw.api.web.job.JobWizardHelper"/>
+    <Variable
+      initialValue="policyPeriod.GL7Line"
+      name="gl7Line"
+      type="productmodel.GL7Line"/>
+    <Variable
+      initialValue="new gw.lob.gl7.GL7LocationContainer(gl7Line)"
+      name="locationContainer"
+      recalculateOnRefresh="true"
+      type="gw.lob.gl7.GL7LocationContainer"/>
+    <Variable
+      initialValue="locationContainer.UnusedLocations"
+      name="unassignedAccountLocations"
+      recalculateOnRefresh="true"
+      type="List&lt;AccountLocation&gt;"/>
+    <Variable
+      initialValue="gl7Line.Branch.PolicyLocations.toList()"
+      name="policyLocations"
+      recalculateOnRefresh="true"
+      type="List&lt;PolicyLocation&gt;"/>
+    <PanelRef>
+      <Toolbar>
+        <IteratorButtons
+          addLabel="DisplayKey.get(&quot;Web.Policy.LocationContainer.CreateNewLocation&quot;)"
+          iterator="LocationsEdit_LV"
+          removeConfirmMessage="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.RemoveLocationWarning&quot;)"
+          removeFlags="all removable"
+          showRemoveConfirmMessage="policyPeriod.Lines.where(\ p -&gt; p.PolicyLocationCanBeRemovedWithoutRemovingAssociatedRisks).HasElements"/>
+        <CheckedValuesToolbarButton
+          checkedRowAction="policyPeriod.PrimaryLocation = CheckedValue"
+          flags="one canSetToPrimary"
+          hideIfReadOnly="true"
+          id="setToPrimary"
+          iterator="LocationsEdit_LV"
+          label="DisplayKey.get(&quot;Web.AccountFile.Locations.SetAsPrimary&quot;)"/>
+        <ToolbarButton
+          available="unassignedAccountLocations.Count &gt; 0"
+          hideIfReadOnly="true"
+          id="addLocationButton"
+          label="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.AddExistingAccountLocation&quot;)">
+          <MenuItemIterator
+            elementName="unassignedAccountLocation"
+            id="UnassignedAccountLocationIterator"
+            value="unassignedAccountLocations"
+            valueType="java.util.List&lt;entity.AccountLocation&gt;">
+            <IteratorSort
+              sortBy="unassignedAccountLocation.LocationNum"
+              sortOrder="1"/>
+            <MenuItem
+              action="GL7LocationPopup.push(policyPeriod, unassignedAccountLocation, null, openForEdit, true, jobWizardHelper)"
+              id="UnassignedAccountLocation"
+              label="unassignedAccountLocation"/>
+          </MenuItemIterator>
+        </ToolbarButton>
+        <ToolbarButton
+          action="locationContainer.addLocationsToPolicy(unassignedAccountLocations)"
+          available="unassignedAccountLocations.Count &gt; 0"
+          hideIfReadOnly="true"
+          id="addAllLocationsButton"
+          label="DisplayKey.get(&quot;Web.Policy.LocationContainer.AddAllExistingAccountLocations&quot;)"/>
+      </Toolbar>
+      <ListDetailPanel
+        id="LocationsEdit_DP"
+        selectionName="selectedLocation"
+        selectionType="PolicyLocation">
+        <ListViewPanel
+          id="LocationsEdit_LV">
+          <RowIterator
+            editable="true"
+            elementName="location"
+            hasCheckBoxes="true"
+            hideCheckBoxesIfReadOnly="true"
+            numEntriesRequired="1"
+            pickLocation="GL7LocationPopup.push(policyPeriod, null, null, openForEdit, true, jobWizardHelper)"
+            toRemove="locationContainer.removePolicyLocation(location)"
+            validationLabel="DisplayKey.get(&quot;Web.Policy.LocationContainer.Locations&quot;)"
+            value="policyLocations"
+            valueType="java.util.List&lt;entity.PolicyLocation&gt;">
+            <ToolbarFlag
+              condition="!location.PrimaryLoc"
+              name="removable"/>
+            <ToolbarFlag
+              condition="!location.PrimaryLoc"
+              name="canSetToPrimary"/>
+            <Row>
+              <!-- postOnChange is required on the Primary LocationWM button to enable the
+restriction on removing the primary location -->
+              <RadioButtonCell
+                align="center"
+                id="PrimaryLocation"
+                label="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.PrimaryLocation&quot;)"
+                radioButtonGroup="PrimaryLocation"
+                validationExpression="policyPeriod.PrimaryLocation != null ? null : DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.PrimaryLocationError.SelectAtleastOne&quot;)"
+                value="location == policyPeriod.PrimaryLocation"
+                width="70"/>
+              <TextCell
+                action="GL7LocationPopup.push(policyPeriod, null, location, openForEdit, true, jobWizardHelper)"
+                align="left"
+                id="Loc"
+                label="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.LocNum&quot;)"
+                sortOrder="1"
+                value="location//policyLocation.LocationNum"
+                valueType="entity.PolicyLocation"
+                width="75"/>
+              <TextCell
+                action="GL7LocationPopup.push(policyPeriod, null, location, openForEdit, true, jobWizardHelper)"
+                align="left"
+                id="LocationCode"
+                label="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.LocationCode&quot;)"
+                value="location.AccountLocation.LocationCode"
+                width="100"
+                wrap="true"/>
+              <TextCell
+                action="GL7LocationPopup.push(policyPeriod, null, location, openForEdit, true, jobWizardHelper)"
+                align="left"
+                id="LocationName"
+                label="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.LocationName&quot;)"
+                value="location.AccountLocation.LocationName"
+                wrap="true"/>
+              <TextCell
+                action="GL7LocationPopup.push(policyPeriod, null, location, openForEdit, true, jobWizardHelper)"
+                align="left"
+                id="Address"
+                label="DisplayKey.get(&quot;Web.Policy.LocationContainer.Location.CompactAddress&quot;)"
+                value="location.addressString(&quot;,&quot;, false, false)"
+                width="400"
+                wrap="true"/>
+              <TextCell
+                align="left"
+                id="InSync"
+                label="DisplayKey.get(&quot;Web.Account.Locations.IsSynchronized&quot;)"
+                value="location.isUpToDate()"
+                valueType="boolean"
+                visible="policyPeriod.Promoted"/>
+            </Row>
+          </RowIterator>
+        </ListViewPanel>
+        <PanelRef
+          def="GL7LocationDetailCV(policyPeriod, new gw.lob.gl7.presenters.GL7LocationPresenter(gl7Line, selectedLocation), false, supportsNonSpecificLocation, jobWizardHelper)"
+          editable="false"
+          visible="policyPeriod.PolicyLocations.Count &gt; 0 and selectedLocation != null"/>
+      </ListDetailPanel>
+    </PanelRef>
+  </PanelSet>
+</PCF>

@@ -1,0 +1,1383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<import>
+  <GL7UnmannedAircraftAggreg public-id="zbiiqna99ha6j035rv0iigst028">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z48j4d2jc2n0296p50abub4keb9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zj4g6j18u2h7c4r8h1hs42h82pb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3eiugihm11c5b1i9ou1023el68">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zdsh888qh9b0ndafs8o7se3gd2b">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zikis1e1s74uu6k80p37qhmd2oa">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zfbiu2vqhlpjbd78vlrk7rvbig9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhqig2496f89ffir4iktdj7kqv8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6ejq1sdkas8g9ssn15vi061238">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zk4ioj01mh93ofshbt813vjqm9b">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zeji8j6q6gb4jf2f3dvg078ul7a">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zcngi2505oes819jrjc9veu479a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z40gmdoj9rm5p2tk1k4tbflishb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zo3hul1nrchv9dnnd25net2qln8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zf6haq8grqg159t6h8dt5ude2u9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zdnj6mdriasju9hr90g52ocnu98">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhgg0279v1c8hfn1rjdok9jo5d8">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znuje5ir53ao7d3rk1ti8gf48pa">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zfoh0c0hfuisf236c6bedverfva">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5pgs0a1lfk2hclcu7lpirac0c9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3oii6dj6q1vh7fsq3becm69d88">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zb4hs1fri88o83jfdt9neffjbmb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkfh6i08ft3jbdhmkgntltr6uu8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zr5jmi1ghcnotcp87icot9c3r0b">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zsgimhq8bur1p4p7cclns2hgr8a">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhgjqfve40j9d2evgindd1tfoib">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zmmi2ekmu6i9u7jhmmp9vv1bdkb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zsmg0ur7qbvnjff4end9h0f41q8">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvph69773tgj3f4e84c1sc7j0kb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zh8goquf8qf284t601nm2sem1fa">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z10jocou6ctpudpfcmpk53drv9b">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zgmhirlrlmj1i6bmsfq2ebtafa8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zshgciid7pa9l3ui5g0oc4msshb">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zqjik1gv4tblg0a0kgppi7avoi9">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhkg0gqkrj7qp25i6q2op70dl1b">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zgoj4ph6ek1u5c64rl8sslk8i39">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zpchcicjc53ft8b4jf970h8gqj9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zepg07cii3qrg6g4rs1ih98enua">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zjgjc09cthap5b4rkpq7u414nsa">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zv9gkgq6rc2vncsltdebgit9mha">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z46io0nhf5pe63k013d7gm2unjb">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zomharqkpoflc3np7eraggkdq3b">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zosgarvtr2ttp4bfma0dbaqc9p8">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z73g07fi62erudvme3qn4f84ica">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhriq4ufjbjt8d56dkju0ns7eda">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zc6hqvitrb8eidhpjtpp1v7kgrb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z9uhcmut5v23fbfpedf3tg8aba9">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zudg2okr88c5a4j2scealttcaf9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zsoje2aal2cgp1qut0ekj6pgekb">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z2ijk0r6pp6psbokj20lf1jglna">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z87jo1uvve2v4cammdn17jpkuta">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zibje125iupqdacppoa3ir43238">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zdug0cq7f4nf22ud74ug2854llb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z7ui2svour3auelik2v1ovecms8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zcnhma791v00f74ltbmdthapnd8">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zstj81t79842of2msg9oiqh7479">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zihh6apco5anm4jd4a6rcucqkrb">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zf2ggpdvqjvq3ebmqj17clak2u9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z9cgo5a86ag9abulfqus7vgaje9">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z07ieslbuj7dj2t4qdfk88lmvbb">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1qiaqd5aa6kjafepn4s1neiea8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zneiupd8orgapblbs498kljbqkb">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zpgj8pu9redp0814o1fsvi39cc8">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4fggrf9hgbok8d46uhtea218ub">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zruhg5ge86pfrft7d8709i0h72b">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1dhir61301dvab3m6ej8a88rha">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z9fhq9llib115damqmhqssobc39">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="za8h4r766d858bm32nkb7mfb5ga">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zs4g0e92n9flb2732ldqomgafa8">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5ej0nbj2q7v5cu78lc7d6k5vfb">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zsjhqdhaqrcf1bfjkc580ulbp49">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zg1gig6n1sgcs8qredi7k81u21b">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zd9hincudivegc37rf9p1ko9f8a">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3ejkebp9o7q9eospqfnbupvt29">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zj2ger2qh7e18e6gtofum9ottab">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zjkji18qh8bgn7iqbk2fl7hgsna">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zumjk57o2gii05r8elmpt7deao8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z50hq20h0gj7n1vql76hgmimc59">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkdh2j1ht9nnhccp7qv4hmchrb8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvhieviu09nf124touejv7jjkh9">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zcgi4iv4pekp9cs9iluqalig56a">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z09geigk1ejta9qvgmcd9cbev49">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zjti8r665rj5afgq2c9apu86289">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z39hs0ni4068f5hjs5oomr21v9b">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zcjjkn4jj85kn2pvh885qb26tn8">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkjgu69rlchf043evulqtpkbddb">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4vgg9u4r8dhb8nutjt7ejipic8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z84j0t4mhaeih38i5pngqsjag68">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z96j4remc3qjb78epajtnhbjvm9">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z2migqldoc8ns8iqtmgsdsrkhi8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1ug6ns24f8q85p793gn18iv2vb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zg8gk8677etpe1pc22amapq0f48">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkejulskrb5ac28ghu5m607ogrb">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zjvjci1rcgjkncpg6ft9554ige9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znrjubmqbueja3pliok681srfr8">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zt4gslf6bk9dse93vbtjqfejalb">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zmnic1mglpda987202157abvmtb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvggmdluqeqqf8drfc7fvop6ngb">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z9dh861cijos29lruaa7gorvoaa">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z40g2dpdru8bf6u1u2v6939jpva">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4eish6sg54uras6u602fs6ps2a">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z84i8p2hut07m439go6dfkl5a19">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z13iahiqkmlnc5a9dib6pr4ng2a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zbgjqfh9b9ojnbk137qnb6h1pn8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zcqi8q1np7ipg0gge5g1ll3c6a9">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5pjqrvgn440k2bp481peciatu9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zgvhqu16ek9up9pvneofm4fobdb">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zahi6a8leukig94b1t4evdnt0cb">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zn1g2t2ne645p8cuib2ld0vo879">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zloi6opiq0aodbfekju8htvlsca">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3mjqr48ld7h2b1a29mkh0vc7v9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6pj4cjkdveedcspn0r0r839l58">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zn4hg2l6cmg21avks9m5aulo028">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1ji2gru6s7qbb7amle804ks5d9">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhegq65iv49p0c30kblti2e1fg8">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3bj8d692nc8rcm5vgsha73ra09">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zumjelqpums94e4bc0ssdmlb26a">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zbrggjdi6duqodkrph4beidelub">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z0ph81pmtf35655pugd05jsfbqb">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4pj8tl1l8ruhbjq64nen57om19">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z87h4dnkn5dmtf6rpl38gpl39ab">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z96iu6qr3ji0s8kf40rdvm0fbga">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zgkjc8e0utfvg1uo98suv43emu9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkuhq03big6rkepo0h1hc3m7agb">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zbsh2ti164a4hfmfmbe3140tl3b">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="za1hiopg0sffm94pe6fjie38199">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zg7ia77kkaufqeq9oi692f4es09">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6igsnmsi1vvc70vkcqkovk1f88">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znuie3r8cn1nbcmfrg3quda4i39">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zbei81c43069k2h90vskfmkpnsb">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zengg64ld4qaedf7un2p7urciia">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zb4jo5m3vk0ip6f69so7l0t9nea">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zv3h2amrqic4h7a0p7c028lggfb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z58impoqu5hm77qopvd5j8khv8b">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4kg4h702f5eq5ff6rgqh636c48">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zq4i8nfoqavup0rp50j6dsc64i9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zveg4gru9qugee1lrmk11oufif9">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zbdjm46lugh4t4huvpjut9gd1ub">
+    <Value>20,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 CSL</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zh1jqd3p5uf3b69ilmblfdlaaq8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6khien6hh141dih41qq410rtlb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6ahuko3v95pdeuacbine4nhe2a">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z7jis02he510t6ieno47r0k7b68">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>25,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zsehqotiq2hf1euvt6p9qkvr598">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zc5hiqe9r6aqaaqphoifv69tg4a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zpqjuqd7a9gtkb4d9r8bg592b09">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1miul8hbbq2t0ciubtv8001m19">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5egc1os84a7q36r3c6phdb2398">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zovi0h9593est8h703dtt66pqma">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>50,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6ki8k8r95fd1etvk521jlilukb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z2tik3ij1ae132u060pl3fmemrb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkcjucpvi38ib2qefg79ps6q1v8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zr5iofjlkpn28ao564tkd5rg1m8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zr6hol466rl20c2kq7mcqa61gk8">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zacgede7uvm8m9tbh77jbvvivo9">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z7cgk1c3h43ildjmpkirodjb04a">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>100,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4sisv8eqb3d17j26sgiho9ii19">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znahklohbtgp9fqhh2prkrc683a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zacg2u2ujvd5c5c9mbkrr9dktb8">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znog8pj6os7em211f05k8c8i1f8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zk8g2egbqt77e84b02o5o17i2q9">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znhh6v3j39eav9ced45k7odefta">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z53jaa8a9uo1o2klr8v1g51pg29">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zargcgho6olbp5q2v8eetgf6jmb">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zjvh8firgn7gh2g7vd5j31m5vla">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>200,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zt0j2eg5vuusd71p6v9kfb7p6ka">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zcaga2q9akdiqe66u88fqc698ea">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zg3gsphcisrm03b97ff330pjjaa">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zmmhkahb6mku883huarj87psoaa">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zajhopaa5rsp915lkq27205heg8">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zulg0v66j8ur7b1dvqrqbiol019">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zn9ja076gpll3f8lke1vm5ehvja">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zo7ic0ea80vlq868mmt2ng7v7q9">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3ti266cs7l0l6m70pr0gcq8n7b">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5vgsidtldioq02bptsrpcamtgb">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zdvhacieln7i55f1d4hi8227moa">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>300,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zgpho4p06gj9o88fbd9lm4ggltb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5ig4l7unbv2iagkchf9n3kekgb">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z13jalh4l0fkpfd8sb7vot32n3a">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z0th0j7tpc6h0esbrhecmcb58t8">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3qic67tq6h1i7lg4hco9f02he8">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z38ga8lnprg5s96rt01jlej8669">
+    <Value>600,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4mjs6vipv73e6rrc0p6ge0ea2a">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zn2jk2867fm0m22kth554vg6d58">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zrii6ip7l4d7u08ba3mn0ubjq7a">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zqsgop78sibf603m6mumlgvdcp9">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zpvgq340k6vdtcaofirh2n310h9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zgsgip21ll6trfef7qhkomb19p8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3aj8f204e9mec75lij7uk3ppha">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zogi2pqesn7ste0dvnagdpkbce8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z76hc47l89m8f6hfql2j64ed54a">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z8mgi8i9f2geh3elh097r3qpjfb">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zpsi6ukqilsj76tnkkqppbbv5ea">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4mhqjdri1q856a5o0gs7olgnga">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zssgo8fhkcndrbfcdt1m0n4422a">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zohja87lgujkt2m4ktifoaslb5b">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zudic07rrr8ih8i6mqm10o8s4k9">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zfvhe5r7j02peb73qg98b184498">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zu2igd5kob9jk6run5e1ahmukcb">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4kg2gspt13la8vr0nr65gq869a">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhpjol0kqsc09ag4kis6c822tk9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zghjmlnkafjms7g1gmhbohfv8r9">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zo3jsrjb098r0amvbn5vhksqb59">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z34icmjpc6jn1fgnkrqvv5bdcab">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvah8abfaaskp98d7sojacvhq29">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zoohe9c613rrc6odf20m7jkklv9">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zckikpeppu8ehfqapvlshl4fs2a">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zlihsje6sv84f9npnpqm5qr5mm9">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3bi48abr6968a5ipjamfta2e3a">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zh5io8ol5nas2cmsmidknna6krb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z7ngea916s39u2p2mgqrj9evnqa">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z2rh2p3kmvk2pdneti4taij14aa">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zkcj8g10ps2vifvlfr3qjdsf4f8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zqchglmh3ha9a0k6lf5d08c9g18">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z8tii1tf9i1vve3ct4monk5t8va">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>1,500,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhajm68ghg31q1lcoksc3mul4s8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zu4imtt8po0d3f6ucean57bttg8">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z2ogis25dcosr5k04pebgvukrj9">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhbg68dnrcs7ldavfmlc7t6drla">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zg1je3adsb110d6ugr8rksbcsob">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zuogmho08tlb38ei6jo333k3238">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zqvhs2emugtb5639dssmil6l02b">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zf0h6n9t5b8lu39cmrpca9t5faa">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zerjm9faagogs692p63ahs8s6lb">
+    <Value>2,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zaphkjm3u0q7n430dme8o1416o8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1kggit36fihn04c6kfdpkvl94b">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z2ggq33qrfml467pa59usv3dv2b">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z9bgm5k3agka11rl2jep7htol7a">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>2,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zglh69uv15q5h4rfjk82r484mr8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1ni2cqd6hvro2cpaonjilrala8">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvghcrtb0f4pi8a5dndqrj33f19">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z50hm2nvs7j1q378vc9rkqlc5ib">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z8mjoqen0414i8qpv28ufdbte8a">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z4dhss52lsrp3ehs04m85rb29ma">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zp5ioda8mm8322omokue10hfnaa">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zv7h0lm7dnlo9deouolif4cua49">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="za5gmu3rvnjmh6dhn7cclchgcl9">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1fgmfc2r60bv7sffh2hjsr4ge8">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zlvjmjkov8ggfc9h42abe0slid9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zjshkgsvnh06ue8677tmo3a5tha">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>3,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="ztsikn5tb140hafg6mpbccvsrgb">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z62issigaue160o026n31dgs469">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zi4g6u1nptlt6apudh5q6fjlh99">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvhi6qrqdp6orc5d7au09n8nf68">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z81jq0mbcitg72scbb7a6bebu39">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zl9ikv3696r6ifjqdu8hpdho3k8">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zaljeiibhr7qcdaf57qei20k1g8">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1tjg3tqse6bja0p0hm2jjtu448">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zs5i607cb4p842fo7rtm549f5s8">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zsrgaqk2h4fub1ij3r191hr9d3b">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z1qg80dfc8jgu5g5pnl6e3ctme9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3jj8mttkugt4bmdb8p798ls4hb">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>4,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z9ajm1b6dboaf120os7pp20g2b8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zr5i4ucal10n27m04lh9bqoekd9">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6gi6up98ecbafioo7sen2ic2fa">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zs5ia7ce0cpvb9kogb54fdbusda">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zviiopu7bvi9a1nhd5ffmu4rd78">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zdjiijctedpqf56inqq5b8j7o98">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6igu34nf0bkc75vd70054dbc88">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zt0h4brtf674n5sfral8ic6a4r8">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5rgouokjbdopd83snc3d4ll609">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zeihkkkfugvpk26dht6ljtappvb">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="znbhe75pc2imudef87uvt3darq8">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="ztpg4cdtg39r1bhkdcgh73hqv88">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>5,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zhgge07vfa8dna98q7evnteo9k8">
+    <Value>50,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="za2iicjea776j2m5gj33e7v4hia">
+    <Value>100,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zupjelhsvao25fp38itchifgiia">
+    <Value>200,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z6siiq655ird9djo9l53vmtu5ub">
+    <Value>300,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zfeh4ajk8q6ba14piheslrno729">
+    <Value>500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zlihe211jlnaceglg6c1pk9ajkb">
+    <Value>1,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z3dggdatemdoe7m8iasqnlf98ta">
+    <Value>1,500,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z8qi82piqdvbvecl0fjlrertdvb">
+    <Value>2,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zbcjm1cdgbujla178up71gos25b">
+    <Value>3,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z8ri635de2qat1vk7ggeeuj7lo9">
+    <Value>4,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zarie91kgabp125769rkmm4ucp9">
+    <Value>5,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="zvogi3afu1g7f5d77c0cckgv5da">
+    <Value>10,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+  <GL7UnmannedAircraftAggreg public-id="z5iiivuh063dtdsnpg41q3dv5ub">
+    <Value>20,000,000</Value>
+    <EffectiveDate>2019-12-01</EffectiveDate>
+    <PolicyEachOccurrenceLim>10,000,000 BI</PolicyEachOccurrenceLim>
+  </GL7UnmannedAircraftAggreg>
+</import>

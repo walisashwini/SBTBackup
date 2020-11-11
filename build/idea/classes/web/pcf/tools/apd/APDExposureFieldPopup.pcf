@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../../pcf.xsd">
+  <Popup
+    canEdit="true"
+    canVisit="true"
+    id="APDExposureFieldPopup"
+    startInEditMode="startInEditMode"
+    title="DisplayKey.get(&quot;Web.Policy.ManualLine.APDExposureFieldPopup.Title&quot;)">
+    <LocationEntryPoint
+      signature="APDExposureFieldPopup(field: APDExposureField)"/>
+    <LocationEntryPoint
+      signature="APDExposureFieldPopup(field: APDExposureField, startInEditMode: boolean)"/>
+    <Variable
+      name="field"
+      type="APDExposureField"/>
+    <Variable
+      initialValue="false"
+      name="startInEditMode"
+      type="boolean"/>
+    <Screen>
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <DetailViewPanel>
+        <InputColumn>
+          <InputSetRef
+            def="APDExposureFieldInputSet(field)"/>
+        </InputColumn>
+      </DetailViewPanel>
+      <PanelRef
+        def="LocalizedValuesDV(field, {&quot;Label&quot;}, {DisplayKey.get(&quot;Web.Policy.ManualLine.APDAttribute.Label&quot;)})"
+        id="ExposureLocalizedValues"/>
+    </Screen>
+  </Popup>
+</PCF>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CoveragePattern coverageSubtype="GL7SublineCov" coveredPartyType="ThirdParty" public-id="GL7WoodDestroyingInsectDiagnosticInspectionErrorsA" priority="902000" lookupTableName="GL7SublineCov" existence="Electable" owningEntityType="GL7Subline" referenceDateByType="PolicyTerm" coverageCategory="GL7SublineAddlGrp" codeIdentifier="GL7WoodDestroyingInsectDiagnosticInspectionErrorsA" policyLinePattern="GL7Line">
+  <AvailabilityScript><![CDATA[return GL7Subline.isClauseAvailable("GL7WoodDestroyingInsectDiagnosticInspectionErrorsA");]]></AvailabilityScript>
+  <CovTerms>
+    <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm1" defaultValue="100000" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="200" public-id="GL7AggLimit21" required="true" codeIdentifier="GL7AggLimit21">
+      <LimitsSet>
+        <CovTermLimits currency="usd" public-id="GL7AggLimit21USD" codeIdentifier="GL7AggLimit21USD"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+    <DirectCovTermPattern valueType="money" coverageColumn="DirectTerm2" defaultValue="50000" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="100" public-id="GL7EachOccurrenceLimit4" required="true" codeIdentifier="GL7EachOccurrenceLimit4">
+      <LimitsSet>
+        <CovTermLimits currency="usd" public-id="GL7EachOccurrenceLimit4USD" codeIdentifier="GL7EachOccurrenceLimit4USD"/>
+      </LimitsSet>
+    </DirectCovTermPattern>
+    <DirectCovTermPattern valueType="other" coverageColumn="DirectTerm3" lookupTableName="GL7SublineCovTerm" modelType="Other" priority="300" public-id="GL7ManualPremium238" required="true" codeIdentifier="GL7ManualPremium238"/>
+  </CovTerms>
+</CoveragePattern>

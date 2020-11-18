@@ -36,5 +36,10 @@
       propertyInclusionType="NORMAL"
       type="java.util.Date"
       xmlType="xs:dateTime"/>
+    <include
+      path="CreateTime"
+      propertyInclusionType="NORMAL"
+      type="java.util.Date"
+      xmlType="xs:dateTime"/>
   </includes>
 </gx-model>
